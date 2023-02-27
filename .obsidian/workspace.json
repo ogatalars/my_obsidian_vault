@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4e4f64c459740e98",
+            "id": "357aca52daa802c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Readme.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Readme.md"
+              }
             }
           }
         ]
@@ -138,14 +146,15 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "4e4f64c459740e98",
+  "active": "357aca52daa802c0",
   "lastOpenFiles": [
+    "Faculdades/ADS/conceitos de computação/Estudos sobre Conceitos de computação.md",
+    "Readme.md",
     "Artigos de programação/React/55+ Top React Interview Questions and Answers to Prepare For.md",
     "Artigos de programação/React/Não confirmado 659034.crdownload",
     "Artigos de programação/React/React Tutorial A Comprehensive Guide for Beginners  Ibaslogic.md",
     "Artigos de programação/React/Não confirmado 607575.crdownload",
     "Artigos de programação/Others/The Software Architecture Handbook.md",
-    "Estudos sobre Conceitos de computação.md",
     "Artigos de programação/Others/Não confirmado 772592.crdownload",
     "Faculdades/ADS/conceitos de computação/Conceitos_Computação_I.pdf",
     "Artigos de programação/Others/The Docker Handbook – Learn Docker for Beginners.md",
@@ -174,7 +183,6 @@
     "Artigos de programação/React/Lifting State Up – React.md",
     "Artigos de programação/React/Forms – React.md",
     "Artigos de programação/React/Lists and Keys – React.md",
-    "Artigos de programação/React/Conditional Rendering – React.md",
-    "Artigos de programação/React/Handling Events – React.md"
+    "Artigos de programação/React/Conditional Rendering – React.md"
   ]
 }
