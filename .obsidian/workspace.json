@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6cbbb12b43f069c4",
+        "id": "e19c700e2467e532",
         "type": "tabs",
         "children": [
           {
-            "id": "71870ad81726655d",
+            "id": "4e4f64c459740e98",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos sobre Conceitos de computação.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estudos sobre Conceitos de computação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estudos sobre Conceitos de computação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Estudos sobre Conceitos de computação.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,9 +138,11 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "71870ad81726655d",
+  "active": "4e4f64c459740e98",
   "lastOpenFiles": [
+    "Artigos de programação/Others/The Software Architecture Handbook.md",
     "Estudos sobre Conceitos de computação.md",
+    "Artigos de programação/Others/Não confirmado 772592.crdownload",
     "Faculdades/ADS/conceitos de computação/Conceitos_Computação_I.pdf",
     "Artigos de programação/Others/The Docker Handbook – Learn Docker for Beginners.md",
     "Faculdades/ADS/conceitos de computação",
@@ -166,7 +160,6 @@
     "Artigos de programação/Javascript/The JavaScript Beginner's Handbook (2020 Edition).md",
     "Artigos de programação/Javascript/Não confirmado 998727.crdownload",
     "Artigos de programação/typescript/The Deno Handbook A TypeScript Runtime Tutorial with Code Examples.md",
-    "Artigos de programação/typescript/Não confirmado 663537.crdownload",
     "Artigos de programação/Python/The Python Handbook – Learn Python for Beginners.md",
     "Artigos de programação/C/The C Beginner's Handbook Learn C Programming Language basics in just a few hours.md",
     "Artigos de programação/typescript/Learn TypeScript in Y Minutes.md",
@@ -182,7 +175,6 @@
     "Artigos de programação/React/Conditional Rendering – React.md",
     "Artigos de programação/React/Handling Events – React.md",
     "Artigos de programação/React/State and Lifecycle – React.md",
-    "Artigos de programação/React/Components and Props – React.md",
-    "Artigos de programação/React/Hello World – React.md"
+    "Artigos de programação/React/Components and Props – React.md"
   ]
 }
