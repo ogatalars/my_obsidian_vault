@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "cd02672cfa2826de",
+        "id": "e4e303cb604151f9",
         "type": "tabs",
         "children": [
           {
-            "id": "f8928cd6815b8a7d",
+            "id": "f951c656e90305e2",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "86f7538c6356b37e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -155,12 +138,12 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "86f7538c6356b37e",
+  "active": "2b05372d53d4ddd0",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Readme.md",
-    "Untitled.canvas",
     "Artigos de programação/Others/How to Learn to Code & Get a Developer Job in 2023 Full Book.md",
+    "Readme.md",
+    "conflict-files-obsidian-git.md",
+    "Untitled.canvas",
     "Artigos de programação/Others/Open Source Software Security Handbook – Best Practices for Securing Your Projects.md",
     "Artigos de programação/Others/Software Testing - Mock Testing - GeeksforGeeks.md",
     "Artigos de programação/React/Thinking in React – React.md",
