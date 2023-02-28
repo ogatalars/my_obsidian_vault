@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md"
               }
             }
           }
@@ -148,15 +148,19 @@
   },
   "active": "7cb443e915a95cec",
   "lastOpenFiles": [
+    "Artigos de programação/Python/Learn Python in Y Minutes.md",
+    "Artigos de programação/Python/10 minutes to pandas — pandas 1.5.3 documentation.md",
+    "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md",
+    "Artigos de programação/Python/Não confirmado 54318.crdownload",
+    "Readme.md",
+    "Artigos de programação/Python/Não confirmado 796588.crdownload",
     "Artigos de programação/Others/Command Line for Beginners – How to Use the Terminal Like a Pro Full Handbook.md",
     "Artigos de programação/Others/Não confirmado 380549.crdownload",
-    "Artigos de programação/Python/Learn Python in Y Minutes.md",
     "Artigos de programação/Python/Não confirmado 379367.crdownload",
     "Artigos de programação/Javascript/The definitive Node.js handbook – Learn Node for Beginners.md",
     "Artigos de programação/Javascript/Não confirmado 721924.crdownload",
     "Artigos de programação/Others/The Go Handbook – Learn Golang for Beginners.md",
     "Artigos de programação/Others/Não confirmado 503686.crdownload",
-    "Readme.md",
     "Faculdades/ADS/conceitos de computação/Estudos sobre Conceitos de computação.md",
     "Artigos de programação/React/55+ Top React Interview Questions and Answers to Prepare For.md",
     "Artigos de programação/React/Não confirmado 659034.crdownload",
@@ -166,9 +170,7 @@
     "Artigos de programação/Others/Não confirmado 772592.crdownload",
     "Faculdades/ADS/conceitos de computação/Conceitos_Computação_I.pdf",
     "Artigos de programação/Others/The Docker Handbook – Learn Docker for Beginners.md",
-    "Faculdades/ADS/conceitos de computação",
     "Artigos de programação/React/The React Handbook – Learn React for Beginners.md",
-    "Artigos de programação/React/Não confirmado 378952.crdownload",
     "Artigos de programação/Javascript/The Definitive JavaScript Handbook for your next developer interview.md",
     "Artigos de programação/Others/The Java Handbook – Learn Java Programming for Beginners.md",
     "Artigos de programação/typescript/The Definitive TypeScript Handbook – Learn TypeScript for Beginners.md",
@@ -181,8 +183,6 @@
     "Artigos de programação/Javascript/Learn javascript in Y Minutes.md",
     "Artigos de programação/Javascript/JavaScript language overview - JavaScript  MDN.md",
     "Artigos de programação/React/Quick Start • React.md",
-    "Artigos de programação/React/Rendering Elements – React.md",
-    "Artigos de programação/React/Thinking in React – React.md",
-    "Artigos de programação/React/Composition vs Inheritance – React.md"
+    "Artigos de programação/React/Rendering Elements – React.md"
   ]
 }
