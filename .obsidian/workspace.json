@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "cd02672cfa2826de",
+        "id": "53db50a3b4bb2eed",
         "type": "tabs",
         "children": [
           {
-            "id": "f8928cd6815b8a7d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "86f7538c6356b37e",
+            "id": "0b4e3c7f65f57fd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Artigos de programação/Others/APIs for Beginners Tutorial.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Artigos de programação/Others/APIs for Beginners Tutorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Artigos de programação/Others/APIs for Beginners Tutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Artigos de programação/Others/APIs for Beginners Tutorial.md"
               }
             }
           }
@@ -155,25 +146,14 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "86f7538c6356b37e",
+  "active": "0b4e3c7f65f57fd4",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Readme.md",
-    "Untitled.canvas",
     "Artigos de programação/Others/How to Learn to Code & Get a Developer Job in 2023 Full Book.md",
-    "Artigos de programação/Others/Open Source Software Security Handbook – Best Practices for Securing Your Projects.md",
+    "Artigos de programação/Others/APIs for Beginners Tutorial.md",
+    "Artigos de programação/Others/Unconfirmed 709624.crdownload",
     "Artigos de programação/Others/Software Testing - Mock Testing - GeeksforGeeks.md",
-    "Artigos de programação/React/Thinking in React – React.md",
-    "Artigos de programação/Others/Não confirmado 636146.crdownload",
-    "Artigos de programação/React/Components and Props – React.md",
-    "Artigos de programação/React/Code a Reddit Clone with React and Firebase.md",
-    "Artigos de programação/React/55+ Top React Interview Questions and Answers to Prepare For.md",
-    "Artigos de programação/Others/The Software Architecture Handbook.md",
-    "Artigos de programação/Others/The Java Handbook – Learn Java Programming for Beginners.md",
-    "Artigos de programação/Others/The Go Handbook – Learn Golang for Beginners.md",
-    "Artigos de programação/Others/The Apache Kafka Handbook – How to Get Started Using Kafka.md",
-    "Artigos de programação/Others/Full Stack Development with MongoDB, Java, and React.md",
-    "Artigos de programação/Others/Command Line for Beginners – How to Use the Terminal Like a Pro Full Handbook.md",
+    "Readme.md",
+    "Artigos de programação/Others/Unconfirmed 672961.crdownload",
     "Artigos de programação/React/How to Use Props in React.md",
     "Artigos de programação/React/Não confirmado 669985.crdownload",
     "Artigos de programação/C/Learn C++ Programming for Beginners – Free 31-Hour Course.md",
@@ -182,17 +162,27 @@
     "Artigos de programação/C/Não confirmado 738117.crdownload",
     "Artigos de programação/Javascript/HTTP Networking in JavaScript –Handbook for Beginners.md",
     "Artigos de programação/Javascript/Não confirmado 354441.crdownload",
+    "Artigos de programação/Others/Open Source Software Security Handbook – Best Practices for Securing Your Projects.md",
     "Artigos de programação/Others/Não confirmado 126789.crdownload",
+    "Artigos de programação/Others/The Apache Kafka Handbook – How to Get Started Using Kafka.md",
     "Artigos de programação/Others/Não confirmado 666960.crdownload",
+    "Artigos de programação/Others/The Go Handbook – Learn Golang for Beginners.md",
     "Artigos de programação/Others/The Docker Handbook – Learn Docker for Beginners.md",
     "Artigos de programação/React/How to Build a Real-time Chat App with ReactJS and Firebase.md",
     "Artigos de programação/React/Não confirmado 357415.crdownload",
     "Artigos de programação/React/How to Use React Hooks – Full Tutorial for Beginners.md",
     "Artigos de programação/React/Não confirmado 702680.crdownload",
-    "Artigos de programação/Others/Não confirmado 798924.crdownload",
+    "Artigos de programação/Others/Full Stack Development with MongoDB, Java, and React.md",
+    "Artigos de programação/React/Code a Reddit Clone with React and Firebase.md",
     "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md",
     "Artigos de programação/Python/How to Download and Trim MP3s from YouTube with Python.md",
     "Artigos de programação/Python/How to Create a Telegram Bot using Python.md",
-    "Artigos de programação/Python/Learn Python in Y Minutes.md"
+    "Artigos de programação/Python/Learn Python in Y Minutes.md",
+    "Artigos de programação/Python/10 minutes to pandas — pandas 1.5.3 documentation.md",
+    "Artigos de programação/Others/Command Line for Beginners – How to Use the Terminal Like a Pro Full Handbook.md",
+    "Artigos de programação/Javascript/The definitive Node.js handbook – Learn Node for Beginners.md",
+    "Faculdades/ADS/conceitos de computação/Estudos sobre Conceitos de computação.md",
+    "Artigos de programação/React/55+ Top React Interview Questions and Answers to Prepare For.md",
+    "Artigos de programação/React/React Tutorial A Comprehensive Guide for Beginners  Ibaslogic.md"
   ]
 }
