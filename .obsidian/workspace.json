@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e4e303cb604151f9",
+        "id": "a97cd1d4b370cb13",
         "type": "tabs",
         "children": [
           {
-            "id": "f951c656e90305e2",
+            "id": "be23bda7f84f4b5c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Readme.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Readme.md"
+              }
             }
           }
         ]
@@ -138,10 +146,10 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "f951c656e90305e2",
+  "active": "be23bda7f84f4b5c",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Artigos de programação/Others/APIs for Beginners Tutorial.md",
+    "conflict-files-obsidian-git.md",
     "Artigos de programação/Others/How to Learn to Code & Get a Developer Job in 2023 Full Book.md",
     "Readme.md",
     "Untitled.canvas",
