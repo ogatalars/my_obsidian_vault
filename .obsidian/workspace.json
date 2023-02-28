@@ -11,15 +11,24 @@
             "id": "be23bda7f84f4b5c",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "d33e359c0785791c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -146,12 +155,13 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "be23bda7f84f4b5c",
+  "active": "d33e359c0785791c",
   "lastOpenFiles": [
-    "Artigos de programação/Others/APIs for Beginners Tutorial.md",
     "conflict-files-obsidian-git.md",
-    "Artigos de programação/Others/How to Learn to Code & Get a Developer Job in 2023 Full Book.md",
     "Readme.md",
+    "Artigos de programação/Others/How to Use Vim – Tutorial for Beginners.md",
+    "Artigos de programação/Others/APIs for Beginners Tutorial.md",
+    "Artigos de programação/Others/How to Learn to Code & Get a Developer Job in 2023 Full Book.md",
     "Untitled.canvas",
     "Artigos de programação/Others/Open Source Software Security Handbook – Best Practices for Securing Your Projects.md",
     "Artigos de programação/Others/Software Testing - Mock Testing - GeeksforGeeks.md",
@@ -183,7 +193,6 @@
     "Artigos de programação/React/Não confirmado 702680.crdownload",
     "Artigos de programação/Others/Não confirmado 798924.crdownload",
     "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md",
-    "Artigos de programação/Python/How to Download and Trim MP3s from YouTube with Python.md",
-    "Artigos de programação/Python/How to Create a Telegram Bot using Python.md"
+    "Artigos de programação/Python/How to Download and Trim MP3s from YouTube with Python.md"
   ]
 }
