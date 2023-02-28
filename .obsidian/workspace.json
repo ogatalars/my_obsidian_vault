@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d6b16068d74f4b2e",
+        "id": "dabfc3248272d18d",
         "type": "tabs",
         "children": [
           {
-            "id": "60ebf7762798e581",
+            "id": "7cb443e915a95cec",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,12 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "60ebf7762798e581",
+  "active": "7cb443e915a95cec",
   "lastOpenFiles": [
+    "Artigos de programação/Python/Learn Python in Y Minutes.md",
+    "Artigos de programação/Python/Não confirmado 379367.crdownload",
+    "Artigos de programação/Javascript/The definitive Node.js handbook – Learn Node for Beginners.md",
+    "Artigos de programação/Javascript/Não confirmado 721924.crdownload",
     "Artigos de programação/Others/The Go Handbook – Learn Golang for Beginners.md",
     "Artigos de programação/Others/Não confirmado 503686.crdownload",
     "Readme.md",
@@ -158,8 +162,6 @@
     "Artigos de programação/Javascript/The Definitive JavaScript Handbook for your next developer interview.md",
     "Artigos de programação/Javascript/Não confirmado 412368.crdownload",
     "Artigos de programação/Others/The Java Handbook – Learn Java Programming for Beginners.md",
-    "Artigos de programação/Others/Não confirmado 809535.crdownload",
-    "Artigos de programação/Others",
     "Artigos de programação/typescript/The Definitive TypeScript Handbook – Learn TypeScript for Beginners.md",
     "Artigos de programação/Javascript/Introduction to Algorithms Handbook – with JavaScript Examples.md",
     "Artigos de programação/Javascript/The JavaScript Beginner's Handbook (2020 Edition).md",
@@ -173,8 +175,6 @@
     "Artigos de programação/React/Rendering Elements – React.md",
     "Artigos de programação/React/Thinking in React – React.md",
     "Artigos de programação/React/Composition vs Inheritance – React.md",
-    "Artigos de programação/React/Lifting State Up – React.md",
-    "Artigos de programação/React/Forms – React.md",
-    "Artigos de programação/React/Lists and Keys – React.md"
+    "Artigos de programação/React/Lifting State Up – React.md"
   ]
 }
