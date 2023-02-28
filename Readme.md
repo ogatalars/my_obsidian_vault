@@ -12,8 +12,13 @@ As seguintes linguagens de programação estão atualmente incluídas no reposit
 -   Python
 -   JavaScript
 -   C
+-   C++
 -   TypeScript
 -   Golang
+
+Extras: 
+- Artigos sobre filosofia e história da filosofia ou correlatos
+- Material de faculdade
 
 ## Como Contribuir
 
