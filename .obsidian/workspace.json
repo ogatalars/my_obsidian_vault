@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "dabfc3248272d18d",
+        "id": "19c6645aeadf598f",
         "type": "tabs",
         "children": [
           {
-            "id": "7cb443e915a95cec",
+            "id": "c16fc293721637cf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,13 +138,17 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "7cb443e915a95cec",
+  "active": "c16fc293721637cf",
   "lastOpenFiles": [
+    "Artigos de programação/React/Code a Reddit Clone with React and Firebase.md",
+    "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md",
+    "Artigos de programação/React/Não confirmado 485916.crdownload",
+    "Artigos de programação/Python/How to Download and Trim MP3s from YouTube with Python.md",
+    "Artigos de programação/Python/Não confirmado 400872.crdownload",
     "Artigos de programação/Python/How to Create a Telegram Bot using Python.md",
     "Artigos de programação/Python/Não confirmado 218250.crdownload",
     "Artigos de programação/Python/Learn Python in Y Minutes.md",
     "Artigos de programação/Python/10 minutes to pandas — pandas 1.5.3 documentation.md",
-    "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md",
     "Artigos de programação/Python/Não confirmado 54318.crdownload",
     "Readme.md",
     "Artigos de programação/Python/Não confirmado 796588.crdownload",
@@ -167,9 +163,7 @@
     "Artigos de programação/React/55+ Top React Interview Questions and Answers to Prepare For.md",
     "Artigos de programação/React/Não confirmado 659034.crdownload",
     "Artigos de programação/React/React Tutorial A Comprehensive Guide for Beginners  Ibaslogic.md",
-    "Artigos de programação/React/Não confirmado 607575.crdownload",
     "Artigos de programação/Others/The Software Architecture Handbook.md",
-    "Artigos de programação/Others/Não confirmado 772592.crdownload",
     "Artigos de programação/Others/The Docker Handbook – Learn Docker for Beginners.md",
     "Artigos de programação/React/The React Handbook – Learn React for Beginners.md",
     "Artigos de programação/Javascript/The Definitive JavaScript Handbook for your next developer interview.md",
@@ -181,8 +175,6 @@
     "Artigos de programação/Python/The Python Handbook – Learn Python for Beginners.md",
     "Artigos de programação/C/The C Beginner's Handbook Learn C Programming Language basics in just a few hours.md",
     "Artigos de programação/typescript/Learn TypeScript in Y Minutes.md",
-    "Artigos de programação/Javascript/Learn javascript in Y Minutes.md",
-    "Artigos de programação/Javascript/JavaScript language overview - JavaScript  MDN.md",
-    "Artigos de programação/React/Quick Start • React.md"
+    "Artigos de programação/Javascript/Learn javascript in Y Minutes.md"
   ]
 }
