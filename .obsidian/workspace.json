@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d41b282781cd6fc9",
+        "id": "13272e01ddb59696",
         "type": "tabs",
         "children": [
           {
-            "id": "0284431ce2fa2380",
+            "id": "09a1566f58a2cf70",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,11 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "2b05372d53d4ddd0",
+  "active": "09a1566f58a2cf70",
   "lastOpenFiles": [
+    "Faculdades/ADS/conceitos de computação/Conceitos_Computação_I.pdf",
+    "Artigos de programação/typescript/How to Build a RocketChat Chatbot with TypeScript.md",
+    "Artigos de programação/typescript/Não confirmado 685829.crdownload",
     "conflict-files-obsidian-git.md",
     "Readme.md",
     "Artigos de programação/Others/What is an Algorithm Algorithm Definition for Computer Science Beginners.md",
@@ -165,7 +168,6 @@
     "Artigos de programação/Others/Open Source Software Security Handbook – Best Practices for Securing Your Projects.md",
     "Artigos de programação/Others/Não confirmado 126789.crdownload",
     "Artigos de programação/Others/The Apache Kafka Handbook – How to Get Started Using Kafka.md",
-    "Artigos de programação/Others/Não confirmado 666960.crdownload",
     "Artigos de programação/Others/The Go Handbook – Learn Golang for Beginners.md",
     "Artigos de programação/Others/The Docker Handbook – Learn Docker for Beginners.md",
     "Artigos de programação/React/How to Build a Real-time Chat App with ReactJS and Firebase.md",
@@ -174,8 +176,6 @@
     "Artigos de programação/React/Code a Reddit Clone with React and Firebase.md",
     "Artigos de programação/Python/Learn Python Programming – Everything You Need to Know (Free Book).md",
     "Artigos de programação/Python/How to Download and Trim MP3s from YouTube with Python.md",
-    "Artigos de programação/Python/How to Create a Telegram Bot using Python.md",
-    "Artigos de programação/Python/Learn Python in Y Minutes.md",
-    "Artigos de programação/Python/10 minutes to pandas — pandas 1.5.3 documentation.md"
+    "Artigos de programação/Python/How to Create a Telegram Bot using Python.md"
   ]
 }
