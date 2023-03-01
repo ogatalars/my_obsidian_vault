@@ -10,6 +10,7 @@ Este é um repositório de estudos e anotações de programação criado para es
 ## Instalação 
 - Faça um clone desse repo no vault da sua escolha no obsidian; 
 - Abra o obsidian e escolha o vault que colocou o repo;
+- Não deixe o .obsidian na mesma pasta que está com o git iniciado, isso pode causar conflitos;
 
 ## Conteúdo
 
