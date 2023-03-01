@@ -1,6 +1,15 @@
 
 # README - Repositório de Estudos de Programação
+
 Este é um repositório de estudos e anotações de programação criado para estudar, organizar e compartilhar conhecimento.
+
+## Requisitos 
+- Obsidian instalado na sua máquina; 
+- Plugin git no obsidian
+
+## Instalação 
+- Faça um clone desse repo no vault da sua escolha no obsidian; 
+- Abra o obsidian e escolha o vault que colocou o repo;
 
 ## Conteúdo
 
