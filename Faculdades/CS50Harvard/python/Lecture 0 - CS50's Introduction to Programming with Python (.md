@@ -22,7 +22,7 @@
 
 ## [Creating Code with Python](https://cs50.harvard.edu/python/2022/notes/0/#creating-code-with-python)
 
--   VS Code is a special type of text editor that is called a compiler. At the top, you’ll notice a text editor and, at the bottom you will see a terminal where you can execute commands.
+-   VS Code is a special type of text editor that is called a compiler. At the top, you’ll notice a text editor and, at the bottom you will see a terminal where you can execute commands. (Pycharm is also an option)
 -   In the terminal, you can execute `code hello.py` to start coding.
 -   In the text editor above, you can type `print("hello, world")`. This is a famous canonical program that nearly all coders write during their learning process.
 -   In the terminal window, you can execute commands. To run this program, you are going to need to move your cursor to the bottom of the screen, clicking in the terminal window. You can now type a second command in the terminal window. Next to the dollar sign, type `python hello.py` and press the enter key on your keyboard.
