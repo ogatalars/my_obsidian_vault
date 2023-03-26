@@ -1,3 +1,4 @@
+- Snippet do chatGPT sobre Arquivos 
 Arquivos .md são arquivos de texto simples, geralmente usados para escrever documentos com formatação básica. O termo “md” significa Markdown, uma linguagem de marcação criada por John Gruber em 2004, com o objetivo de permitir que as pessoas escrevam em texto simples e facilmente convertam para HTML.
 
 Os arquivos .md são populares entre desenvolvedores de software, escritores técnicos, blogueiros e outras pessoas que desejam criar conteúdo com formatação básica. A formatação é feita com base em caracteres especiais, como asteriscos, sublinhados e cerquilhas.
