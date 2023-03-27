@@ -72,4 +72,21 @@ Um exemplo de utilização do useContext seria para acessar um tema definido em 
 
 javascriptCopy code
 
-`import React, { useContext } from 'react';  const ThemeContext = React.createContext('light');  function ThemeButton() {   const theme = useContext(ThemeContext);    return <button style={{ backgroundColor: theme }}>Botão com tema</button>; }  function ThemeContainer() {   return (     <ThemeContext.Provider value="dark">       <ThemeButton />     </ThemeContext.Provider>`
+```
+import React, { useContext } from 'react';
+
+const ThemeContext = React.createContext('light');
+
+function ThemeButton() {
+  const theme = useContext(ThemeContext);
+
+  return <button style={{ backgroundColor: theme }}>Botão com tema</button>;
+}
+
+function ThemeContainer() {
+  return (
+    <ThemeContext.Provider value="dark">
+      <ThemeButton />
+    </ThemeContext.Provider>
+
+```
