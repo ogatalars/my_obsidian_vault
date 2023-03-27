@@ -8,9 +8,26 @@ O useState é um hook que permite que um componente funcional tenha um estado in
 
 Um exemplo simples de utilização do useState seria para controlar o valor de um input:
 
-javascriptCopy code
+```
+import React, { useState } from 'react';
 
-`import React, { useState } from 'react';  function InputComponent() {   const [inputValue, setInputValue] = useState('');    function handleInputChange(event) {     setInputValue(event.target.value);   }    return (     <div>       <input type="text" value={inputValue} onChange={handleInputChange} />       <p>Valor do input: {inputValue}</p>     </div>   ); }`
+function InputComponent() {
+  const [inputValue, setInputValue] = useState('');
+
+  function handleInputChange(event) {
+    setInputValue(event.target.value);
+  }
+
+  return (
+    <div>
+      <input type="text" value={inputValue} onChange={handleInputChange} />
+      <p>Valor do input: {inputValue}</p>
+    </div>
+  );
+}
+
+```
+
 
 Neste exemplo, o estado interno do componente é uma string que representa o valor atual do input. A função setInputValue é usada para atualizar o estado sempre que o valor do input é alterado.
 
@@ -20,9 +37,30 @@ O useEffect é um hook que permite que um componente funcional realize efeitos c
 
 Um exemplo de utilização do useEffect seria para buscar dados em uma API e atualizar o estado do componente:
 
-javascriptCopy code
 
-`import React, { useState, useEffect } from 'react';  function UserList() {   const [users, setUsers] = useState([]);    useEffect(() => {     fetch('https://jsonplaceholder.typicode.com/users')       .then(response => response.json())       .then(data => setUsers(data));   }, []);    return (     <ul>       {users.map(user => (         <li key={user.id}>{user.name}</li>       ))}     </ul>   ); }`
+```
+import React, { useState, useEffect } from 'react';
+
+function UserList() {
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    fetch('https://jsonplaceholder.typicode.com/users')
+      .then(response => response.json())
+      .then(data => setUsers(data));
+  }, []);
+
+  return (
+    <ul>
+      {users.map(user => (
+        <li key={user.id}>{user.name}</li>
+      ))}
+    </ul>
+  );
+}
+
+```
+
 
 Neste exemplo, o useEffect é utilizado para buscar dados em uma API e atualizar o estado do componente com esses dados. O segundo argumento do useEffect, um array vazio, indica que o efeito deve ser executado apenas uma vez, após a renderização inicial do componente.
 
