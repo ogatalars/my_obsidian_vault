@@ -1,6 +1,25 @@
 Props, ou propriedades, são um conceito central em React que permitem passar dados de um componente pai para um componente filho. Isso é útil quando queremos que um componente filho exiba informações ou aja de acordo com o estado de seu componente pai.
 
 Imagine que temos um componente pai que exibe uma lista de tarefas e queremos passar cada tarefa como propriedade para um componente filho que exibirá cada item da lista. Podemos fazer isso passando as propriedades como argumento para o componente filho, como neste exemplo:
+```
+import React from 'react';
+import ItemLista from './ItemLista';
+
+function ListaTarefas(props) {
+  const tarefas = props.tarefas.map((tarefa, index) =>
+    <ItemLista key={index} texto={tarefa} />
+  );
+
+  return (
+    <ul>
+      {tarefas}
+    </ul>
+  );
+}
+
+export default ListaTarefas;
+
+```
 
 Neste exemplo, estamos criando um componente pai chamado `ListaTarefas`. O componente `ListaTarefas` recebe uma propriedade `tarefas` como argumento, que é um array de strings.
 
@@ -8,9 +27,43 @@ Dentro do componente `ListaTarefas`, estamos mapeando as tarefas em um array de 
 
 Aqui está como o componente `ItemLista` pode ser implementado:
 
+```
+import React from 'react';
+
+function ItemLista(props) {
+  return (
+    <li>
+      {props.texto}
+    </li>
+  );
+}
+
+export default ItemLista;
+
+```
+
 O componente `ItemLista` recebe a propriedade `texto` como argumento e a exibe em um elemento `li`.
 
-Ao renderizar o componente `ListaTarefas`, passamos o array de tarefas como propriedade para o componente, como neste exemplo:]
+Ao renderizar o componente `ListaTarefas`, passamos o array de tarefas como propriedade para o componente, como neste exemplo:
+
+```
+import React from 'react';
+import ListaTarefas from './ListaTarefas';
+
+function App() {
+  const tarefas = ['Estudar React', 'Fazer compras', 'Lavar roupa'];
+
+  return (
+    <div>
+      <h1>Minhas tarefas</h1>
+      <ListaTarefas tarefas={tarefas} />
+    </div>
+  );
+}
+
+export default App;
+
+```
 
 
 Neste exemplo, estamos criando um componente pai chamado `App` que renderiza o componente `ListaTarefas`. Estamos passando o array de tarefas como propriedade para o componente `ListaTarefas`.
