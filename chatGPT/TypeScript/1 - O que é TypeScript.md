@@ -6,7 +6,7 @@ O TypeScript é especialmente útil para projetos grandes e complexos, onde a ma
 
 Para instalar o TypeScript, é necessário ter o Node.js instalado em sua máquina. Em seguida, você pode instalar o TypeScript globalmente usando o comando npm:
 
-Copy code
+
 
 `npm install -g typescript`
 
