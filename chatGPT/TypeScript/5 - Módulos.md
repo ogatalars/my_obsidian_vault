@@ -56,13 +56,25 @@ console.log(result); // Output: 3
 
 Exemplo:
 
-typescriptCopy code
 
 ```
+// main.ts
+import { Person } from "./person";
+
+const person = new Person("João", 30);
+person.greet(); // Output: Hello, my name is João and I'm 30 years old.
+
 ```
 
-jsonCopy code
 
-`// tsconfig.json {   "compilerOptions": {     "module": "amd"   } }`
+```
+// tsconfig.json
+{
+  "compilerOptions": {
+    "module": "amd"
+  }
+}
+
+```
 
 Essas são algumas das formas de utilizar Módulos, Exportação/Importação, Namespaces e Ambientes de módulos em TypeScript. Com eles, podemos organizar nosso código de forma mais clara e modular, evitando conflitos de nome e reutilizando código com mais eficiência.
