@@ -37,14 +37,29 @@ Exemplo:
 
 typescriptCopy code
 
-``
+```
+// math.ts
+namespace Math {
+  export function sum(x: number, y: number): number {
+    return x + y;
+  }
+}
+
+// main.ts
+import { Math } from "./math";
+
+const result = Math.sum(1, 2);
+console.log(result); // Output: 3
+
+```
 4.  Ambientes de módulos: Os ambientes de módulos são uma forma de especificar como os módulos devem ser carregados em tempo de execução. Em TypeScript, podemos usar os ambientes "CommonJS", "AMD", "System" ou "ES2015". O ambiente "CommonJS" é usado por padrão.
 
 Exemplo:
 
 typescriptCopy code
 
-`// main.ts import { Person } from "./person";  const person = new Person("João", 30); person.greet(); // Output: Hello, my name is João and I'm 30 years old.`
+```
+```
 
 jsonCopy code
 
