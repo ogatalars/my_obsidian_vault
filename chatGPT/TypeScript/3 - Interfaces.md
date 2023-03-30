@@ -49,6 +49,19 @@ const order: Order = {
 Exemplo:
 
 ```
+interface Point {
+  x: number;
+  y: number;
+}
+
+type Triangle = [Point, Point, Point];
+
+const point: Point = { x: 1, y: 2 };
+const triangle: Triangle = [
+  { x: 0, y: 0 },
+  { x: 0, y: 1 },
+  { x: 1, y: 0 },
+];
 
 ```
 
