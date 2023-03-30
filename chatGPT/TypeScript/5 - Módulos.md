@@ -4,14 +4,32 @@
     
 
 Exemplo:
+```
+// person.ts
+export class Person {
+  name: string;
+  age: number;
 
-typescriptCopy code
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
 
-``// person.ts export class Person {   name: string;   age: number;    constructor(name: string, age: number) {     this.name = name;     this.age = age;   }    greet() {     console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);   } }``
+  greet() {
+    console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
+  }
+}
 
-typescriptCopy code
+```
 
-`// main.ts import { Person } from "./person";  const person = new Person("João", 30); person.greet(); // Output: Hello, my name is João and I'm 30 years old.`
+```
+// main.ts
+import { Person } from "./person";
+
+const person = new Person("João", 30);
+person.greet(); // Output: Hello, my name is João and I'm 30 years old.
+
+```
 
 3.  Namespaces: Os namespaces são uma forma de evitar conflitos de nome entre diferentes módulos. Em TypeScript, podemos usar namespaces para agrupar classes, funções e variáveis em um escopo comum.
 
@@ -19,8 +37,7 @@ Exemplo:
 
 typescriptCopy code
 
-`// math.ts namespace Math {   export function sum(x: number, y: number): number {     return x + y;   } }  // main.ts import { Math } from "./math";  const result = Math.sum(1, 2); console.log(result); // Output: 3`
-
+``
 4.  Ambientes de módulos: Os ambientes de módulos são uma forma de especificar como os módulos devem ser carregados em tempo de execução. Em TypeScript, podemos usar os ambientes "CommonJS", "AMD", "System" ou "ES2015". O ambiente "CommonJS" é usado por padrão.
 
 Exemplo:
