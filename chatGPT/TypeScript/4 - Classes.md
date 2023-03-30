@@ -51,6 +51,15 @@ employee.greet(); // Output: Hello, my name is Ana, I'm 25 years old and I work 
 Exemplo:
 
 ```
+function printGreeting(person: Person) {
+  person.greet();
+}
+
+const person = new Person("João", 30);
+const employee = new Employee("Ana", 25, "developer");
+
+printGreeting(person); // Output: Hello, my name is João and I'm 30 years old.
+printGreeting(employee); // Output: Hello, my name is Ana, I'm 25 years old and I work as a developer.
 
 ```
 
