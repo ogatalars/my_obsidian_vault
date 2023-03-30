@@ -25,7 +25,24 @@ person.greet(); // Output: Hello, my name is João and I'm 30 years old.
 
 Exemplo:
 
-`type Status = "pending" | "approved" | "rejected";  interface Order {   id: number;   status: Status;   items: string[]; }  const order: Order = {   id: 1,   status: "pending",   items: ["item1", "item2"], };`
+```
+type Status = "pending" | "approved" | "rejected";
+
+interface Order {
+  id: number;
+  status: Status;
+  items: string[];
+}
+
+const order: Order = {
+  id: 1,
+  status: "pending",
+  items: ["item1", "item2"],
+};
+
+```
+
+
 
 3.  Como criar e utilizar interfaces e tipos personalizados: Para criar uma interface, usamos a palavra-chave `interface` seguida pelo nome da interface e a definição da estrutura. Para definir um tipo personalizado, usamos a palavra-chave `type` seguida pelo nome do tipo e a definição do tipo. Para usar uma interface ou um tipo personalizado, simplesmente usamos seu nome ao declarar uma variável.
 
