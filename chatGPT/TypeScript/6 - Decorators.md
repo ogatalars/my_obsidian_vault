@@ -5,7 +5,9 @@
 
 Exemplo:
 
-``
+```
+
+```
 
 
 Neste exemplo, o decorator `@log` é usado para adicionar uma mensagem de log antes e depois da chamada do método `sum` da classe `Calculator`. Quando o método é chamado, a mensagem de log é exibida no console junto com os argumentos da chamada e o resultado retornado pelo método.
