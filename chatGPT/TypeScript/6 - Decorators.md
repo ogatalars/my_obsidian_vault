@@ -1,0 +1,3 @@
+1.  O que são Decorators? Decorators são uma forma de modificar ou estender a funcionalidade de classes, métodos, propriedades e outros elementos em tempo de compilação. Em outras palavras, um decorator é uma função que pode ser usada para adicionar metadata ou comportamento a um elemento do código.
+    
+2.  Como definir e utilizar Decorators: Para definir um decorator, basta criar uma função que receba como argumento o elemento que se deseja decorar e retorne um novo elemento com as modificações desejadas. Para utilizar um decorator em um elemento do código, basta colocar o nome da função decorator acima do elemento.
