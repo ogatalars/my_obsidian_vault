@@ -6,6 +6,29 @@
 Exemplo:
 
 ```
+function log(target: any, key: string, descriptor: PropertyDescriptor) {
+  const originalMethod = descriptor.value;
+
+  descriptor.value = function (...args: any[]) {
+    console.log(`Calling ${key} with args: ${args}`);
+    const result = originalMethod.apply(this, args);
+    console.log(`Result: ${result}`);
+    return result;
+  }
+
+  return descriptor;
+}
+
+class Calculator {
+  @log
+  sum(a: number, b: number): number {
+    return a + b;
+  }
+}
+
+const calculator = new Calculator();
+calculator.sum(1, 2); // Output: Calling sum with args: 1,2
+                     //         Result: 3
 
 ```
 
