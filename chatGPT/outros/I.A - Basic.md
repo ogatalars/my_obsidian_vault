@@ -11,7 +11,7 @@ In order to develop AI systems, developers must use a variety of programming lan
 Overall, AI is a rapidly growing field that is revolutionizing the way we use computers. By leveraging machine learning, natural language processing, and computer vision, developers can create intelligent systems that can perform complex tasks with greater accuracy and efficiency than ever before.
 
 ## Python and I.A 
-Certainly! Python is one of the most popular programming languages for AI and machine learning. Here are some examples of how Python is used in AI:
+ Python is one of the most popular programming languages for AI and machine learning. Here are some examples of how Python is used in AI:
 
 1.  Python is often used to implement machine learning algorithms. There are many libraries and frameworks available in Python for machine learning, including scikit-learn, TensorFlow, and PyTorch. These libraries provide tools for data preprocessing, model building, and evaluation.
     
