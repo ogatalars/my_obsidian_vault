@@ -26,3 +26,18 @@ Overall, AI is a rapidly growing field that is revolutionizing the way we use co
 In summary, Python is a versatile language that is well-suited for a wide range of AI applications, from machine learning and NLP to computer vision and data analysis. Its ease of use, powerful libraries, and active developer community make it a popular choice for AI developers.
 
 ## Prompt I.A 
+
+In the context of AI, a prompt refers to a piece of text or code that is used to generate a response from a language model or other AI system. The prompt provides context and guidance for the AI system, helping it to generate a response that is relevant and coherent.
+
+Here are a few examples of prompts used in AI:
+
+1.  Text completion prompts: These prompts are used to generate text that continues a given sentence or paragraph. For example, a text completion prompt might provide the first part of a sentence, such as "The cat sat on the..." and ask the AI system to complete the sentence.
+    
+2.  Question-answering prompts: These prompts are used to generate answers to questions posed by a user. For example, a question-answering prompt might provide a question such as "What is the capital of France?" and ask the AI system to generate an answer.
+    
+3.  Image captioning prompts: These prompts are used to generate captions for images. For example, an image captioning prompt might provide an image of a cat and ask the AI system to generate a caption describing the image.
+    
+4.  Translation prompts: These prompts are used to generate translations of text from one language to another. For example, a translation prompt might provide a sentence in English and ask the AI system to generate a translation in French.
+    
+
+Prompts are a powerful tool for AI developers, as they provide a way to guide the behavior of AI systems and ensure that they generate responses that are relevant and useful. By crafting effective prompts, developers can create AI systems that can perform a wide range of tasks, from generating text to answering questions to translating languages.
