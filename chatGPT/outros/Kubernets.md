@@ -18,7 +18,7 @@ Em resumo, o Kubernetes pode ser uma ferramenta valiosa para programadores de fr
 
 ### 2 - Getting Started
 
-guia de introdução para Kubernetes com um exemplo simples.
+Guia de introdução para Kubernetes com um exemplo simples.
 
 1.  Instale o Docker: O primeiro passo é instalar o Docker, se você ainda não o tiver instalado em sua máquina. Isso permitirá que você crie imagens de contêiner para seus aplicativos.
     
