@@ -42,6 +42,8 @@ Aqui estão alguns tópicos que podem ser úteis para um tutorial de TypeScript:
 8.  Ferramentas e Boas Práticas
 
 -   Utilização de ferramentas como TypeScript compiler e linting
--   Boas práticas de programação com TypeScript
+-   Boas práticas de programação com TypeScript 
 
 Esses são apenas alguns tópicos iniciais que podem ser explorados em um tutorial de TypeScript. É importante ressaltar que a linguagem tem muitos recursos e possibilidades, então sempre há mais para aprender e experimentar.
+
+(Vale lembrar que são tópicos básicos e iniciais, sendo que é necessário saber um pouco de JS)
