@@ -19,7 +19,3 @@ The general rules for naming variables are:
 -   Reserved words (like C# keywords, such as `int` or `double`) cannot be used as names
 
 ___
-
-## C# Exercises
-
-___
