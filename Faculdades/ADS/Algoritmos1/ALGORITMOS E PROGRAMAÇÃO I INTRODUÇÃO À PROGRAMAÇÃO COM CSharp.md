@@ -45,6 +45,7 @@ Esse tipo de algoritmo **é pouco usado na prática**, afinal, **pode gerar múl
 Como dito anteriormente, **as instruções devem ser colocadas de modo explícito**, sem dar abertura para mais de um sentido de interpretação. Podemos resolver esse tipo de questão utilizando **fluxogramas.**
 
 ### Fluxograma
+
 O fluxograma é um conjunto de estados que é utilizado para representar graficamente um algoritmo (FORBELLONE; EBERSPACHER, 2005). Cada um desses estados (instruções e comandos) é representado por uma forma geométrica específica.
 ![[Pasted image 20230417181127.png]]
 
