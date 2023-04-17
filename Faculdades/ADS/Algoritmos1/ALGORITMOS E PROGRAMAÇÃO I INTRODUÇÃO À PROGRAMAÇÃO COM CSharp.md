@@ -41,4 +41,6 @@ Em seguida, coloque as gemas e bata por 1 minuto em velocidade baixa. Adicione o
 Neste outro exemplo, trata-se de um algoritmo para troca de lâmpada: • Primeiramente, localize a lâmpada a ser substituída. Posicione uma escada logo embaixo da lâmpada a ser trocada. Suba os degraus da escada até alcançar a lâmpada. Gire-a no sentido anti-horário até que seja possível retirá-la do soquete. Desça da escada e coloque a lâmpada queimada em um local seguro, como uma mesa. Agora, de posse da lâmpada nova, suba a escada até que consiga alcançar o local de instalação. Posicione a lâmpada nova no soquete e gire no sentido horário até sentir que ela está bem firme. Desça da escada.
 
 Esse tipo de algoritmo **é pouco usado na prática**, afinal, **pode gerar múltiplos sentidos de interpretação**.
-Como dito anteriormente, **as instruções devem ser colocadas de modo explícito**, sem dar abertura para mais de um sentido de interpretação. Podemos resolver esse tipo de questão utilizando fluxogramas.
+Como dito anteriormente, **as instruções devem ser colocadas de modo explícito**, sem dar abertura para mais de um sentido de interpretação. Podemos resolver esse tipo de questão utilizando **fluxogramas.**
+
+### Fluxograma
