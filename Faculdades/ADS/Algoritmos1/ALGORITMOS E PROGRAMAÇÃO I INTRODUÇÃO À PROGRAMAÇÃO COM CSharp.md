@@ -10,4 +10,5 @@ Agora, vamos considerar o seguinte exemplo, em que é dada a sequência numéric
 • 2 + 3 = 5 
 • 3 + 5 = 8 
 • 5 + 8 = 13 
-• 8 + 13 = 21 Para encontrar o valor da sequência, foi necessário encontrar um padrão lógico e, em seguida, criar uma sequência fixa e finita de instruções
+• 8 + 13 = 21 
+Para encontrar o valor da sequência, foi necessário encontrar um padrão lógico e, em seguida, criar uma sequência fixa e finita de instruções
