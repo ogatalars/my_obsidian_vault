@@ -57,3 +57,13 @@ O fluxograma é um conjunto de estados que é utilizado para representar grafica
 
 ### Pseudocódigo
 Observe que, até o momento, o conceito de algoritmo não foi relacionado à programação, mas, sim, a um procedimento para resolver problemas utilizando uma sequência lógica de instruções. Além da representação narrativa ou textual de um algoritmo, uma outra maneira de representá-lo é em pseudocódigo, o que não vem a ser um código de programação (ainda), porém, contém instruções inteligíveis por humanos e que se assemelha a códigos para computadores. Trata-se, portanto, de uma linguagem intermediária entre a linguagem de máquina e a linguagem de computador. O pseudocódigo a seguir ilustra o algoritmo para troca de pneu do fluxograma da figura 4.
+
+início se estepe == "cheio" 
+escreva("levantar o carro do lado que está furado") 
+escreva("desaparafuse cada um dos parafusos") 
+escreva("remova a roda") 
+escreva("coloque o estepe no eixo que está sem a roda")
+escreva("parafuse cada um dos parafusos da roda") escreva("abaixe o carro")
+senão escreva("levar o carro ao borracheiro") 
+fim-se 
+fim
