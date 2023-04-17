@@ -1,4 +1,4 @@
-## 1 Pensamento computacional 
+## 1 - Pensamento computacional 
 
 Antes de iniciarmos a nossa ação de programar, a primeira etapa a ser considerada é ter o pensamento computacional. Trata-se de um processo responsável por decompor um determinado problema em etapas simples o suficiente para que até um computador possa entender (lembre-se que um computador só entende zeros e uns, ou seja, quanto mais simples para ele, melhor).
 
@@ -12,3 +12,7 @@ O pensamento computacional podeserdividido em quatro ­habilidades essenciais: *
 
 O primeiro pilar é a decomposição. 
 A decomposição é a habilidade de dividir problemas complexos em pedaços menores e que possam ser mais bem gerenciados. Qualquer atividade, das mais simples, como escovar os dentes, preparar o café da manhã ou ler um livro, até as mais complexas, como o processo de logística de entrega de produtos por uma empresa, funcionará. Precisamos apenas dividir a tarefa em pequenos passos simples. Quanto mais pudermos decompor um problema, mais fácil será resolvê-lo. Essa habilidade permite compreender como é importante dar instruções que sejam exatas.
+
+Importante salientar que a decomposição nos permite avaliar um problema e descobrir todas as etapas necessárias para que a tarefa aconteça. 
+
+Na prática seria 
