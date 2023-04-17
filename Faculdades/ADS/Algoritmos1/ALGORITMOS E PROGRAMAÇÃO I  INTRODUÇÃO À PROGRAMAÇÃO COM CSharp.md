@@ -15,4 +15,10 @@ A decomposição é a habilidade de dividir problemas complexos em pedaços meno
 
 Importante salientar que a decomposição nos permite avaliar um problema e descobrir todas as etapas necessárias para que a tarefa aconteça. 
 
-Na prática seria 
+Na prática seria -> Quando vamos a um restaurante, o problema principal a ser resolvido é a fome. Logo, para que a fome seja aliviada, colocamos no prato pequenas porções das opções do buffet, como arroz, feijão e uma proteína. Observe que o problema foi decomposto, afinal, cada um desses elementos, quando forem digeridos, serão responsáveis por saciar a fome.
+
+## Reconhecimento de padrões
+
+O segundo pilar é o reconhecimento de padrões, semelhanças e tendências dentro de um determinado problema. Essa habilidade é essencial, pois, se alguns problemas são de natureza semelhante (tanto no problema atual que está sendo enfrentado quanto nos problemas anteriores), há uma boa chance de que eles possam ser resolvidos usando técnicas semelhantes ou repetidas. Certamente, você já viajou para algum lugar que nunca tinha ido anteriormente. Já percebeu como, em sua primeira ida, o caminho pareceu mais longo que nas idas posteriores? Isso ocorre porque você não reconhecia padrões na primeira viagem. No entanto, após já conhecer o caminho, identificou padrões em suas viagens seguintes.
+
+O reconhecimento de padrões é uma habilidade-chave quando se trata de criar soluções eficientes e eficazes para determinados problemas. Essencialmente, é dar uma resposta para a seguinte pergunta: o que aprendemos no passado que pode nos ajudar a resolver esse problema?
