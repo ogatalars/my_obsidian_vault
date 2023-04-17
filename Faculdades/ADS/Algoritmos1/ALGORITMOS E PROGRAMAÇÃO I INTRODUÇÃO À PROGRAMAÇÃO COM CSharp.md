@@ -71,3 +71,4 @@ fim
 Quando desenvolvemos um pseudocódigo, não precisamos nos preocupar com a sintaxe, ou seja, com a forma de escrita das palavras
 
 #### Considerações finais
+Neste capítulo, compreendemos que os algoritmos são uma sequência lógica e finita de instruções, com início e fim bem definidos, e que esses algoritmos podem ser representados de três modos diferentes: declaração narrativa, fluxograma ou pseudocódigo
