@@ -29,3 +29,12 @@ Outro exemplo que sintetiza essas três características de um algoritmo é o pr
 ### Descrição narrativa de um algoritmo e implementação por blocos
 
 Até aqui pudemos compreender o que é um algoritmo, suas características e a necessidade de lógica para elaborá-lo. No exemplo de algoritmo para troca do pneu de um carro, foram descritas as principais instruções, porém, seria possível detalhar ainda mais, indicando, por exemplo, quantos e qual a ordem dos parafusos a serem desaparafusados. No entanto, como descrever um algoritmo? Existem pelo menos três formas principais para representação de um algoritmo: **descrição narrativa, fluxograma e pseudocódigo.**
+
+### Descrição narrativa
+Um algoritmo pode ser representado em linguagem natural, ou seja, como as pessoas em geral falam (FEIJÓ; CLUA; SILVA, 2009). 
+Por exemplo, a receita de bolo a seguir: 
+• Bata a clara de dois ovos em neve. 
+
+Em seguida, coloque as gemas e bata por 1 minuto em velocidade baixa. Adicione os demais ingredientes e bata em velocidade alta por 5 minutos. Enquanto bate, unte uma forma com manteiga e espalhe duas colheres de farinha de trigo. Despeje todo o conteúdo da batedeira na forma e, em seguida, leve ao forno por 30 minutos, o qual deve estar preaquecido a 180 °C. 
+
+Neste outro exemplo, trata-se de um algoritmo para troca de lâmpada: • Primeiramente, localize a lâmpada a ser substituída. Posicione uma escada logo embaixo da lâmpada a ser trocada. Suba os degraus da escada até alcançar a lâmpada. Gire-a no sentido anti-horário até que seja possível retirá-la do soquete. Desça da escada e coloque a lâmpada queimada em um local seguro, como uma mesa. Agora, de posse da lâmpada nova, suba a escada até que consiga alcançar o local de instalação. Posicione a lâmpada nova no soquete e gire no sentido horário até sentir que ela está bem firme. Desça da escada.
