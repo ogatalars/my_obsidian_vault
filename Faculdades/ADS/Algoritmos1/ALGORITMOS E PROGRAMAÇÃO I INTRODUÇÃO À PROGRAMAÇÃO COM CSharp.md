@@ -67,3 +67,7 @@ escreva("parafuse cada um dos parafusos da roda") escreva("abaixe o carro")
 senão escreva("levar o carro ao borracheiro") 
 fim-se 
 fim
+
+Quando desenvolvemos um pseudocódigo, não precisamos nos preocupar com a sintaxe, ou seja, com a forma de escrita das palavras
+
+#### Considerações finais
