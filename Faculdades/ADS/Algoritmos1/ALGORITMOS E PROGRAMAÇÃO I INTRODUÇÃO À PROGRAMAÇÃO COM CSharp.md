@@ -46,3 +46,6 @@ Como dito anteriormente, **as instruções devem ser colocadas de modo explícit
 
 ### Fluxograma
 O fluxograma é um conjunto de estados que é utilizado para representar graficamente um algoritmo (FORBELLONE; EBERSPACHER, 2005). Cada um desses estados (instruções e comandos) é representado por uma forma geométrica específica.
+![[Pasted image 20230417181127.png]]
+
+é possível observar que os principais elementos que compõem um fluxograma apresentam formas geométricas diferentes. Isso auxilia a interpretar suas diferentes ações em um algoritmo.
