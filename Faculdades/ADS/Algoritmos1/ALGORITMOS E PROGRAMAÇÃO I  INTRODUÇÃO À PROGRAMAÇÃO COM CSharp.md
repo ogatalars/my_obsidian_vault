@@ -24,6 +24,7 @@ O segundo pilar é o reconhecimento de padrões, semelhanças e tendências dent
 O reconhecimento de padrões é uma habilidade-chave quando se trata de criar soluções eficientes e eficazes para determinados problemas. Essencialmente, é dar uma resposta para a seguinte pergunta: o que aprendemos no passado que pode nos ajudar a resolver esse problema?
 
 ## Abstração 
+
 Qual a função de um arquiteto? Colocar no papel uma casa ou um edifício. Observe que não podemos morar em um papel ou explorar cada canto daquele desenho, caminhando internamente por aquela construção (no papel). Essa é a terceira habilidade do pensamento computacional que diz que, em vez de olhar para detalhes específicos, devemos ter a capacidade de filtrar os elementos desnecessários de um problema para que você se concentre apenas nos elementos importantes. 
 
 Em outras palavras, esqueça o fato de ser apenas um desenho, abstraia o fato de estar apenas em um papel. Qual a vantagem da abstração? Bem, nesse exemplo do arquiteto, a planta desenhada por ele incluirá todos os principais elementos de design que serão incluídos na construção final. 
@@ -31,3 +32,5 @@ Em outras palavras, esqueça o fato de ser apenas um desenho, abstraia o fato de
 Quaisquer ajustes ou acréscimos podem ser discutidos com os clientes nessa fase, antes do início do trabalho de construção. Com isso, economiza-se dinheiro e tempo de obra. Voltando ao exemplo anterior, um corredor quando treina abstrai alguns elementos como temperatura, clima (chuva ou sol), vento, se existe algum atleta mais veloz que ele, entre outros. Todo o foco dele está na corrida, ou seja, em desempenhar o seu papel de corredor, ignorando assim qualquer outro elemento. 
 
 De modo semelhante, no exemplo da bicicleta, se uma pessoa aprendeu a andar em uma bicicleta pequena, não terá dificuldade de andar em uma bicicleta de tamanho maior. Também abstrai outros fatores como espessura dos pneus, se a bicicleta possui ou não marcha, entre outros. Identificar as informações cruciais em um problema e desconsiderar as informações irrelevantes é uma das partes mais difíceis do pensamento computacional.
+
+## Algoritmos 
