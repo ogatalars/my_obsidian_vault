@@ -31,6 +31,7 @@ Outro exemplo que sintetiza essas três características de um algoritmo é o pr
 Até aqui pudemos compreender o que é um algoritmo, suas características e a necessidade de lógica para elaborá-lo. No exemplo de algoritmo para troca do pneu de um carro, foram descritas as principais instruções, porém, seria possível detalhar ainda mais, indicando, por exemplo, quantos e qual a ordem dos parafusos a serem desaparafusados. No entanto, como descrever um algoritmo? Existem pelo menos três formas principais para representação de um algoritmo: **descrição narrativa, fluxograma e pseudocódigo.**
 
 ### Descrição narrativa
+
 Um algoritmo pode ser representado em linguagem natural, ou seja, como as pessoas em geral falam (FEIJÓ; CLUA; SILVA, 2009). 
 Por exemplo, a receita de bolo a seguir: 
 
@@ -44,3 +45,4 @@ Esse tipo de algoritmo **é pouco usado na prática**, afinal, **pode gerar múl
 Como dito anteriormente, **as instruções devem ser colocadas de modo explícito**, sem dar abertura para mais de um sentido de interpretação. Podemos resolver esse tipo de questão utilizando **fluxogramas.**
 
 ### Fluxograma
+O fluxograma é um conjunto de estados que é utilizado para representar graficamente um algoritmo (FORBELLONE; EBERSPACHER, 2005). Cada um desses estados (instruções e comandos) é representado por uma forma geométrica específica.
