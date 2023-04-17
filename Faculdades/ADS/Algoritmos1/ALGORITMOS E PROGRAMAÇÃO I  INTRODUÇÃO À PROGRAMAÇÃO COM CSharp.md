@@ -1,6 +1,6 @@
 ## 1 - Pensamento computacional 
 
-Antes de iniciarmos a nossa ação de programar, a primeira etapa a ser considerada é ter o pensamento computacional. Trata-se de um processo responsável por decompor um determinado problema em etapas simples o suficiente para que até um computador possa entender (lembre-se que um computador só entende zeros e uns, ou seja, quanto mais simples para ele, melhor).
+Antes de iniciarmos a nossa ação de programar, a primeira etapa a ser considerada é ter o pensamento computacional. ***Trata-se de um processo responsável por decompor um determinado problema em etapas simples o suficiente para que até um computador possa entender*** (lembre-se que um computador só entende zeros e uns, ou seja, quanto mais simples para ele, melhor).
 
 o computador (não limitando apenas a ele, mas também aos dispositivos móveis como smartphones e tablets) é fortemente aplicado na resolução de problemas em diversas áreas: educação, saúde, transporte, financeiro, entre outras. Por exemplo, as planilhas eletrônicas, os aplicativos de pedir refeição ou de solicitar um transporte, todos eles possuem uma lógica que, por trás, nos ajudam a resolver problemas. No entanto, antes que um problema possa ser resolvido, o próprio problema e as maneiras pelas quais ele pode ser resolvido precisam ser compreendidos.
 
@@ -34,3 +34,11 @@ Quaisquer ajustes ou acréscimos podem ser discutidos com os clientes nessa fase
 De modo semelhante, no exemplo da bicicleta, se uma pessoa aprendeu a andar em uma bicicleta pequena, não terá dificuldade de andar em uma bicicleta de tamanho maior. Também abstrai outros fatores como espessura dos pneus, se a bicicleta possui ou não marcha, entre outros. Identificar as informações cruciais em um problema e desconsiderar as informações irrelevantes é uma das partes mais difíceis do pensamento computacional.
 
 ## Algoritmos 
+
+O pensamento computacional envolve o desenvolvimento de soluções para um problema e, entre essas soluções, temos os algoritmos. Especificamente, o pensamento algorítmico cria regras sequenciais a serem seguidas para resolver um problema. Um bom algoritmo é aquele que pode ser passado para outra pessoa seguir sem a necessidade de nenhuma explicação extra (FORBELLONE; EBERSPACHER, 2005). O mundo está cheio de algoritmos: receitas culinárias, montagem de móveis, trocar o pneu de um carro, escovar os dentes, comprar um produto em um mercado, entre outros.
+
+### Observação importante sobre Algoritmos
+**Todo algoritmo é uma sequência finita de instruções.** Observe que, na troca de pneu, tivemos um início, que foi verificar se o estepe estava cheio ou não, e o fim, que foi sair com o carro. Se estivesse cheio, o fim do algoritmo seria sair com o carro, e, se estivesse vazio, teríamos o mesmo fim (sair com o carro), porém levado pelo guincho.
+
+### Mini - Resumo
+Pensar computacionalmente não significa pensar igual a um computador (rápido e com precisão), mas, sim, dividir um problema em partes menores e, a partir de cada uma dessas partes menores, resolvê-lo.
