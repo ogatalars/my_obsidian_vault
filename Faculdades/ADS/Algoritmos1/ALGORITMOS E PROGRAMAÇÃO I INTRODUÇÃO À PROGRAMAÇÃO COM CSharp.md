@@ -25,3 +25,5 @@ Para encontrar o valor da sequência, foi necessário encontrar um padrão lógi
 3 - O algoritmo deve ser finito: considere ainda o segundo exemplo. O algoritmo pode ser descrito como “para obter um valor X, devemos somar os dois valores imediatamente anteriores”. Então, apesar de ser possível obter uma sequência infinita de valores, o algoritmo é finito em suas instruções. 
 
 Outro exemplo que sintetiza essas três características de um algoritmo é o processo de troca de pneu de um carro (considerando que o estepe está presente e em bom estado): 1. Levantar o carro do lado do pneu que está furado. 2. Desaparafusar cada um dos parafusos da roda. 3. Remover a roda. 4. Deixar a roda no chão. 5. Colocar o estepe no eixo que está sem a roda. 6. Parafusar cada um dos parafusos da roda. 7. Abaixar o carro
+
+### Descrição narrativa de um algoritmo e implementação por blocos
