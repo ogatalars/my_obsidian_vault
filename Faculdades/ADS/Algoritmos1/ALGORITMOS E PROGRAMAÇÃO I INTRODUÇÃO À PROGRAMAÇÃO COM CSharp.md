@@ -33,8 +33,12 @@ Até aqui pudemos compreender o que é um algoritmo, suas características e a n
 ### Descrição narrativa
 Um algoritmo pode ser representado em linguagem natural, ou seja, como as pessoas em geral falam (FEIJÓ; CLUA; SILVA, 2009). 
 Por exemplo, a receita de bolo a seguir: 
+
 • Bata a clara de dois ovos em neve. 
 
 Em seguida, coloque as gemas e bata por 1 minuto em velocidade baixa. Adicione os demais ingredientes e bata em velocidade alta por 5 minutos. Enquanto bate, unte uma forma com manteiga e espalhe duas colheres de farinha de trigo. Despeje todo o conteúdo da batedeira na forma e, em seguida, leve ao forno por 30 minutos, o qual deve estar preaquecido a 180 °C. 
 
 Neste outro exemplo, trata-se de um algoritmo para troca de lâmpada: • Primeiramente, localize a lâmpada a ser substituída. Posicione uma escada logo embaixo da lâmpada a ser trocada. Suba os degraus da escada até alcançar a lâmpada. Gire-a no sentido anti-horário até que seja possível retirá-la do soquete. Desça da escada e coloque a lâmpada queimada em um local seguro, como uma mesa. Agora, de posse da lâmpada nova, suba a escada até que consiga alcançar o local de instalação. Posicione a lâmpada nova no soquete e gire no sentido horário até sentir que ela está bem firme. Desça da escada.
+
+Esse tipo de algoritmo **é pouco usado na prática**, afinal, **pode gerar múltiplos sentidos de interpretação**.
+Como dito anteriormente, **as instruções devem ser colocadas de modo explícito**, sem dar abertura para mais de um sentido de interpretação. Podemos resolver esse tipo de questão utilizando fluxogramas.
