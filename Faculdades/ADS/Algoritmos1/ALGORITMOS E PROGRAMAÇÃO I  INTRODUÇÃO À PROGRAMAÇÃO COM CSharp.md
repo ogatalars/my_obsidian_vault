@@ -6,4 +6,9 @@ o computador (não limitando apenas a ele, mas também aos dispositivos móveis 
 
 O pensamento computacional ajuda as pessoas a desenvolverem habilidades que sejam atraentes para futuras oportunidades de emprego (mesmo se você não almejar ser um programador ou programadora). Afinal, embora as habilidades de tecnologia sejam muito importantes, são as habilidades mais suaves de raciocínio (como organização de itens em uma lista de compras ou planejar o melhor caminho para se deslocar de casa para o trabalho) e a solução de problemas (como montar um checklist de tópicos para uma reunião) que os empregadores realmente consideram atraentes. Desse modo, ter habilidade para resolver problemas é o princípio essencial para compreender o pensamento computacional.
 
-O pensamentocomputacional podeserdividido em quatro ­habilidades essenciais: decomposição, reconhecimento de padrões, abstração de padrão e projeto de algoritmos (FORBELLONE; EBERSPACHER, 2005).
+O pensamento computacional podeserdividido em quatro ­habilidades essenciais: **decomposição, reconhecimento de padrões, abstração de padrão e projeto de algoritmos** (FORBELLONE; EBERSPACHER, 2005).
+
+## Decomposição 
+
+O primeiro pilar é a decomposição. 
+A decomposição é a habilidade de dividir problemas complexos em pedaços menores e que possam ser mais bem gerenciados. Qualquer atividade, das mais simples, como escovar os dentes, preparar o café da manhã ou ler um livro, até as mais complexas, como o processo de logística de entrega de produtos por uma empresa, funcionará. Precisamos apenas dividir a tarefa em pequenos passos simples. Quanto mais pudermos decompor um problema, mais fácil será resolvê-lo. Essa habilidade permite compreender como é importante dar instruções que sejam exatas.
