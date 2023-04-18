@@ -20,4 +20,4 @@ Se em algum dia quisermos saber quem mora na casa 6.552, basta irmos até essa c
 
 Observe que o morador da casa não é um elemento fixo, ou seja, ele varia de tempo em tempo. Então, podemos dizer que essa casa é uma variável. Em uma variável, podemos colocar diversos tipos de valores, sejam eles textos (sequência de letras), sejam eles números.
 
-Outra característica de uma variável é que nós podemos dar um nome a ela e invocá-la por esse nome (FORBELLONE; EBERSPACHER, 2005).
+**Outra característica de uma variável é que nós podemos dar um nome** a ela e invocá-la por esse nome (FORBELLONE; EBERSPACHER, 2005).
