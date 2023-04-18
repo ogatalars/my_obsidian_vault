@@ -1,3 +1,5 @@
 ### 3 - Variáveis e programação por blocos 
 
 Antes de iniciarmos o estudo sobre alguns conceitos relacionados às linguagens de programação, cabe aqui uma pergunta: qual a linguagem do computador? Para respondê-la, precisamos mergulhar nos conceitos fundamentais da computação: os bits. A arquitetura do computador é composta de circuitos eletrônicos. Esses circuitos operam com sinais binários (0 e 1). A principal razão para essa arquitetura ser binária, e não decimal, deve-se ao fato de ser mais simples e por possuir baixo custo de implementação.
+
+Nos projetos de circuitos computacionais, são usados chips, os quais são compostos de um material semicondutor denominado transistores. Os transistores possuem a propriedade de conduzir energia elétrica apenas quando uma tensão conveniente é empregada em seus terminais. Os transistores são utilizados em um chaveamento como “liga-desliga”, assim, quando está ligado, é representado por 1, e quando está desligado, é representado por 0.
