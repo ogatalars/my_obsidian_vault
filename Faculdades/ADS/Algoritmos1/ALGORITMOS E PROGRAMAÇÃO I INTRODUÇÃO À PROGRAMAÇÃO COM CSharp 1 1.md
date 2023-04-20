@@ -1,2 +1,4 @@
-### 4 - Tomando decisões e repetindo instruções,
+### 4 - Tomando decisões e repetindo instruções
+Uma linguagem de programação é uma notação formal que utilizamos para descrever precisamente soluções para problemas. Essa solução é alcançada em duas etapas. Na primeira delas, a solução é representada pela escrita ou desenvolvimento do algoritmo, que pode envolver um pensamento considerável por parte do solucionador. Na segunda etapa, uma vez que um algoritmo de solução foi pensado, ele precisa ser codificado em uma notação formal (uma linguagem de programação) para que possa ser executado em um computador.
 
+A dificuldade envolvida na segunda etapa é determinada pela linguagem de programação que se usa para codificar o algoritmo de solução.
