@@ -21,3 +21,13 @@ Embora não haja uma maneira definitiva de classificar ou agrupar os tipos de li
 Paradigmas -> a) Imperativo; b) Declarativo; 
 a) Imperativo -> Procedural, Orientado a objetivos, Processamento paralelo
 b) Declarativo -> Lógico, funcional, Database
+
+é possível observar que as linguagens de programação podem ser divididas em dois paradigmas ou estilos de programação distintos: o imperativo e o declarativo.
+
+**A programação imperativa** expressa comandos para o computador executar – ela se concentra no processo explícito de o que um programa deve fazer e como esse programa deve fazer (FORBELLONE; EBERSPACHER, 2005). 
+Se quisermos obter a soma de dois números, este código pode ser expresso conforme o exemplo a seguir: 
+1 int numA, numB, soma; 
+2 numA = 4; 
+3 numB = 5; 
+4 soma = numA + numB; 
+5 Console.WriteLine("O resultado desta operação é " + soma);
