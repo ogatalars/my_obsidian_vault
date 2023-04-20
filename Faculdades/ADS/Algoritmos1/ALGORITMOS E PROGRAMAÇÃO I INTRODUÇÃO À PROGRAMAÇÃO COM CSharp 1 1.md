@@ -119,3 +119,24 @@ A concatenação usando formatação de string pode considerar mais de uma vari�
 5 resultado = numA + numB; 
 6 
 7 Console.WriteLine("{0} + {1} = {2}", numA, numB, resultado);
+
+Ao executar o programa mencionado, a saída será 8 + 11 = 19. Neste código, o marcador {0} é substituído pelo valor da variável numA, {1} é substituído pelo valor da variável numB, e o valor de {2} é substituído pelo valor da variável resultado. Observe que, na linha 5, foi realizada a operação de adição, somando os valores das variáveis numA e numB e, em seguida, armazenando na variável resultado. Realizar a concatenação da linha 7 é mais simples e legível, além de evitar possíveis erros que poderiam surgir se utilizássemos o operador + para concatenar.
+
+### 4.5 - Entrada de dados
+
+Se por um lado o método Write ou WriteLine apresenta uma saída ao usuário, é possível utilizar o método Read, ReadLine ou ReadKey para obter uma entrada do usuário: 
+• ReadLine: lê a próxima linha do fluxo de entrada-padrão do sistema.
+• Read: lê um caractere do fluxo de entrada-padrão do sistema. 
+• ReadKey: lê a tecla pressionada pelo usuário. É um método usado para segurar a tela até que o usuário digite uma tecla qualquer.
+
+1 string nome; 
+2 Console.WriteLine("Escreva seu nome"); 
+3 nome = Console.ReadLine(); 
+4 Console.WriteLine("Olá {0}", nome); 
+5 Console.ReadKey();
+
+Neste código, temos: 
+• Na linha 1, é declarada a variável do tipo string chamada nome. 
+• Na linha 2, é apresentada na tela uma mensagem para o usuário digitar o nome. 
+• Na linha 3, o programa é responsável por capturar o conteúdo digitado pelo usuário e armazenar na variável nome. 
+• Na linha 4, o programa saúda o usuário, concatenando a string Olá com o valor digitado anteriormente e que está armazenado na variável nome. • Na linha 5, temos o comando ReadKey, que segura a tela do prompt para que ela só seja fechada quando o usuário digitar uma tecla.
