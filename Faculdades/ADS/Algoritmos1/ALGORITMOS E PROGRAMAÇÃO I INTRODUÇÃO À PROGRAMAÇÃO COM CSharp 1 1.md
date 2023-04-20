@@ -55,4 +55,16 @@ Para entender melhor a diferença entre ambos os paradigmas, considere que Andr�
 **Paradigma database:** é baseado em dados, logo, as instruções são definidas para manipular os dados em um banco, em vez de codificar uma sequência de instruções para o computador. A maioria dos bancos de dados utiliza a linguagem SQL (Structured Query Language) para manipular os dados (leitura e escrita).
 
 ### 4.2 - Variáveis e Constantes
-As variáveis são estruturas para armazenamento de valores na memória do computador ou dispositivo (FORBELLONE; EBERSPACHER, 2005). Como seu nome indica, o valor pode ser alterado, além, é claro, de poder ser utilizado várias vezes durante um código
+*As variáveis são estruturas para armazenamento de valores na memória do computador ou dispositivo* (FORBELLONE; EBERSPACHER, 2005). Como seu nome indica, o valor pode ser alterado, além, é claro, de poder ser utilizado várias vezes durante um código
+
+A sintaxe para declaração de uma variável em C# é definida por seu tipo e nome da variável, sucedido por um ponto e vírgula para delimitar o fim da instrução de declaração, por exemplo: **int saldo; em que int é o tipo da variável, e saldo é o seu nome.**
+
+Existem muitos tipos de variáveis em C#, a saber: 
+
+• **Variável local** – uma variável declarada dentro de uma função/ método. Ela será utilizada apenas dentro da função/método em que foi declarada. 
+• **Variável global** – uma variável declarada fora de uma função/método. Ela pode ser utilizada em todo o programa. 
+• **Variável estática** – uma variável utilizada para reter seu valor entre várias chamadas de função. Ela é declarada usando a palavra-chave static.
+
+Existe também um tipo especial de variável, cujo valor não é alterado durante a execução de um programa, logo, o seu valor é fixo, a ela damos o nome de constantes. Em C#, uma constante pode ser definida em duas categorias: primárias (para tipos simples, como números e cadeia de caracteres) e secundárias (para tipos não primitivos, como array e outras estruturas de dados).
+
+### 4.3 - Tipos de dados
