@@ -68,3 +68,17 @@ Existem muitos tipos de variáveis em C#, a saber:
 Existe também um tipo especial de variável, cujo valor não é alterado durante a execução de um programa, logo, o seu valor é fixo, a ela damos o nome de constantes. Em C#, uma constante pode ser definida em duas categorias: primárias (para tipos simples, como números e cadeia de caracteres) e secundárias (para tipos não primitivos, como array e outras estruturas de dados).
 
 ### 4.3 - Tipos de dados
+A linguagem C# é fortemente tipada, isso quer dizer que é necessário declarar o tipo de dado que uma variável ou constante armazenará. A tabela 1 a seguir apresenta os principais tipos de dados predefinidos em C#
+int Número inteiro de 32 bits int idade = 48; int velocidade = 96;
+long Número inteiro de 64 bits long valorx; valorx = 45L;
+float Número ponto flutuante de 32 bits float altura; altura = 1.98F;
+double Número ponto flutuante de 64 bits double peso; peso = 0.85424;
+string Cadeia de caracteres string nome; nome = "Ana Júlia";
+bool Valor lógico (true/false) de 8 bits bool tentativa = false;
+
+Observe na tabela 1 que alguns tipos como long e float devem possuir um sufixo, respectivamente L e F. Caso esses sufixos não sejam colocados, o código resultará em erro.
+
+Observe também que existem dois tipos de números (FORBELLONE; EBERSPACHER, 2005; FEIJÓ; CLUA; SILVA, 2009): os inteiros que não possuem casas decimais e os que podem ser divididos em dois tipos diferentes: 
+
+• int: indica que o tipo de dados é um inteiro de 32 bits e que pode armazenar números de –2.147.483.648 a 2.147.483.647. Este tipo também pode ser usado para números hexadecimais e binários; 
+• long: indica que o tipo de dados é um inteiro de 64 bits e que pode armazenar números de –9.223.372.036.854.775.808 a 9.223.372.036.854.775.807.
