@@ -31,3 +31,25 @@ Se quisermos obter a soma de dois números, este código pode ser expresso confo
 3 numB = 5; 
 4 soma = numA + numB; 
 5 Console.WriteLine("O resultado desta operação é " + soma);
+
+Observe que o código apresentado é baseado em declarações que alteram o estado do programa, dizendo ao computador o que fazer e como fazer as coisas. Em outras palavras, seu código é baseado na definição de variáveis e na alteração dos valores dessas variáveis.
+
+A programação declarativa é de nível superior, focada na lógica e nos conceitos, em vez do fluxo imperativo. Em outras palavras, está preocupada somente com o que precisa ser feito, e não exatamente como deve ser feito. Por exemplo, o código HTML ![](./carro.jpg) informa ao navegador para exibir a imagem de um carro sem dizer ao navegador como ele deve fazer.
+
+Para entender melhor a diferença entre ambos os paradigmas, considere que André está prestes a visitar Bia. Ele não sabe onde a amiga mora, logo: • pelo paradigma imperativo, Bia fornece instruções detalhadas para uma rota específica até a sua casa; • pelo paradigma declarativo, Bia fornece o seu endereço ao amigo e o deixa decidir qual caminho seguir.
+
+**Entre os paradigmas imperativos, de acordo com a figura 1, temos:**
+
+**Paradigma procedural:** está relacionado à chamada de procedimentos, os quais podem ser sub-rotinas, métodos ou funções. Esses procedimentos são coleções de instruções que são executadas sequencialmente para resolver um problema específico. Por exemplo, considere que você preparará uma macarronada. Então, há uma função chamada preparar o molho e outra função cozinhar a massa. Neste paradigma, você deve invocar uma função por vez. Desse modo, somente após uma tarefa for concluída é que a outra será executada. Entre as principais linguagens procedurais, destacam-se: C, C++, C#, Java e Pascal.
+
+**Paradigma orientado a objetos:** considera que o código pode ser dividido em objetos (como os objetos da vida real), os quais possuem propriedades e executam diferentes ações. Os objetos podem interagir uns com os outros para alcançar um objetivo ou resultado desejado. A popularidade e o alto uso deste paradigma estão no fato de que este imita a nossa visão do mundo real, tornando-o relativamente simples de entender. Entre as principais linguagens de programação orientada a objetos, destacam-se: C++, C#, Java e Python.
+
+**Paradigma de processamento paralelo:** usa o princípio de dividir diferentes partes de uma tarefa entre vários processadores, os quais trabalham simultaneamente para resolver um problema. Considere o exemplo anterior da tarefa preparar a macarronada. Agora, em vez de você fazer tudo sozinho, uma pessoa lhe ajudará a preparar o molho, outra irá ralar o queijo e, ao mesmo tempo, você cozinhará a massa – o tempo para preparar toda a tarefa é reduzido, uma vez que três pessoas fazem coisas diferentes.
+
+**Já entre os paradigmas declarativos, de acordo com a figura 1, temos:**
+
+**Paradigma lógico:** os programas são escritos como uma série de fatos e regras que seguem uma estrutura lógica. Por exemplo, podemos ter dois fatos: (fato 1) Sócrates é homem; (fato 2) todo homem é mortal. Se fizermos então uma pergunta do tipo: “Sócrates é mortal?”, o sistema nos retornará “sim”, uma vez que Sócrates é homem e todo homem é mortal. Entre as principais linguagens do paradigma lógico, destacam-se: Prolog, Absys, Alice e Ciao.
+
+**Paradigma funcional:** é baseado na execução de uma série de funções matemáticas, as quais formam um bloco de construção para a execução de diversos tipos de tarefas. Essas linguagens evitam estruturas de controle de fluxo, como loops. Entre as principais linguagens do paradigma lógico, destacam-se: Haskell e Scala
+
+**Paradigma database:** é baseado em dados, logo, as instruções são definidas para manipular os dados em um banco, em vez de codificar uma sequência de instruções para o computador. A maioria dos bancos de dados utiliza a linguagem SQL (Structured Query Language) para manipular os dados (leitura e escrita).
