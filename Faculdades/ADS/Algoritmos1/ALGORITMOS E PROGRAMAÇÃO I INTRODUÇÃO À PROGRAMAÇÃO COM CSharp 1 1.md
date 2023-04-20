@@ -139,4 +139,7 @@ Neste código, temos:
 • Na linha 1, é declarada a variável do tipo string chamada nome. 
 • Na linha 2, é apresentada na tela uma mensagem para o usuário digitar o nome. 
 • Na linha 3, o programa é responsável por capturar o conteúdo digitado pelo usuário e armazenar na variável nome. 
-• Na linha 4, o programa saúda o usuário, concatenando a string Olá com o valor digitado anteriormente e que está armazenado na variável nome. • Na linha 5, temos o comando ReadKey, que segura a tela do prompt para que ela só seja fechada quando o usuário digitar uma tecla.
+• Na linha 4, o programa saúda o usuário, concatenando a string Olá com o valor digitado anteriormente e que está armazenado na variável nome. 
+• Na linha 5, temos o comando ReadKey, que segura a tela do prompt para que ela só seja fechada quando o usuário digitar uma tecla.
+
+Todo valor recebido pelo ReadLine() é uma cadeia de caracteres, ou seja, é do tipo string. Logo, se você receber dois valores numéricos, o resultado será um erro. Desse modo, se você solicitar um valor do tipo inteiro para o usuário, é necessário que primeiramente você converta a entrada do ReadLine() para int, utilizando o método ToInt32. Um exemplo de código é: int valor = Convert.ToInt32(Console.ReadLine()). O método Convert. ToInt32 converterá o conteúdo recebido pelo Console.ReadLine() para inteiro e armazenará na variável valor. Experimente!
