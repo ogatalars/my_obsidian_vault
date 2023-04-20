@@ -53,3 +53,6 @@ Para entender melhor a diferença entre ambos os paradigmas, considere que Andr�
 **Paradigma funcional:** é baseado na execução de uma série de funções matemáticas, as quais formam um bloco de construção para a execução de diversos tipos de tarefas. Essas linguagens evitam estruturas de controle de fluxo, como loops. Entre as principais linguagens do paradigma lógico, destacam-se: Haskell e Scala
 
 **Paradigma database:** é baseado em dados, logo, as instruções são definidas para manipular os dados em um banco, em vez de codificar uma sequência de instruções para o computador. A maioria dos bancos de dados utiliza a linguagem SQL (Structured Query Language) para manipular os dados (leitura e escrita).
+
+### 4.2 - Variáveis e Constantes
+As variáveis são estruturas para armazenamento de valores na memória do computador ou dispositivo (FORBELLONE; EBERSPACHER, 2005). Como seu nome indica, o valor pode ser alterado, além, é claro, de poder ser utilizado várias vezes durante um código
