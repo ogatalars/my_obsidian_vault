@@ -68,6 +68,7 @@ Existem muitos tipos de variáveis em C#, a saber:
 Existe também um tipo especial de variável, cujo valor não é alterado durante a execução de um programa, logo, o seu valor é fixo, a ela damos o nome de constantes. Em C#, uma constante pode ser definida em duas categorias: primárias (para tipos simples, como números e cadeia de caracteres) e secundárias (para tipos não primitivos, como array e outras estruturas de dados).
 
 ### 4.3 - Tipos de dados
+
 A linguagem C# é fortemente tipada, isso quer dizer que é necessário declarar o tipo de dado que uma variável ou constante armazenará. A tabela 1 a seguir apresenta os principais tipos de dados predefinidos em C#
 int Número inteiro de 32 bits int idade = 48; int velocidade = 96;
 long Número inteiro de 64 bits long valorx; valorx = 45L;
@@ -82,3 +83,39 @@ Observe também que existem dois tipos de números (FORBELLONE; EBERSPACHER, 200
 
 • int: indica que o tipo de dados é um inteiro de 32 bits e que pode armazenar números de –2.147.483.648 a 2.147.483.647. Este tipo também pode ser usado para números hexadecimais e binários; 
 • long: indica que o tipo de dados é um inteiro de 64 bits e que pode armazenar números de –9.223.372.036.854.775.808 a 9.223.372.036.854.775.807.
+
+Os números do tipo ponto flutuante são aqueles que possuem casas decimais (FORBELLONE; EBERSPACHER, 2005; FEIJÓ; CLUA; SILVA, 2009). Observe que o ponto flutuante pode ser de dois tipos:
+• float: pode armazenar números fracionários de 3.4e − 038 a 3.4e + 038. Ocupa 4 bytes na memória e é utilizado quando o número fracionário não necessita de muita precisão;
+- double: pode armazenar números fracionários de 1,7e − 308 a 1,7e + 308. Ocupa 8 bytes na memória e é utilizado quando o número fracionário necessita de muita precisão.
+
+As variáveis do tipo numérica (sejam elas int, float, double ou long) são utilizadas principalmente para realizar cálculos. Em C#, assim como em outras linguagens, os operadores aritméticos são: + para somar, – para subtrair, / para dividir e * para multiplicar. Além deles, destaca-se o operador % (módulo), que é responsável por retornar o resto de uma divisão. Experimente!
+
+### 4.4 - Entrada e saída de dados;
+Na linguagem C#, bem como em outras linguagens de programação, é possível realizar entradas e saídas de dados, O que permite que um usuário interaja com o programa. Essencialmente, para que o programa apresente alguma informação na tela no formato de texto, é utilizado o método WriteLine ou Write da classe console do C# , observe o exemplo de código a seguir:
+
+Console.Write("Vou escrever"); 
+2 Console.Write("na mesma linha.") 
+3 Console.WriteLine("Agora eu vou escrever") 
+4 Console.WriteLine("em uma outra linha")
+
+A principal diferença entre WriteLine() e Write() é que o método Write() apresenta na tela apenas a string fornecida a ele, enquanto o método WriteLine() apresenta a string e também se move para o início da próxima linha.
+
+Também é possível imprimir na tela o valor de variáveis. Observe o código a seguir:
+1 int idade = 26; 
+2 Console.WriteLine(idade);
+3 
+4 Console.WriteLine("A idade de José é " + idade); 
+5 Console.WriteLine("A idade de José é {0} ", idade);
+
+Vamos analisar linha a linha esse código apresentado: • Na linha 1, foi declarada a variável do tipo inteira chamada idade, a qual recebe o valor 26. • Na linha 2, o programa apresentará na tela o valor 26. • Na linha 4, o operador aritmético de soma (+) é responsável por realizar a concatenação de uma string com a variável idade. • Na linha 5, ocorre a concatenação da string e da variável valor, porém, agora utilizando uma string formatada. Note que, quando trabalhamos com string formatada, devemos colocar marcadores de posição para a variável. Observe que {0} é o espaço reservado na string para a variável idade.
+
+A concatenação usando formatação de string pode considerar mais de uma variável, observe o exemplo a seguir em que temos três variáveis e o objetivo é somar dois números e apresentar o resultado desta operação
+
+1 int numA, numB, resultado; 
+2
+3 numA = 8;
+
+4 numB = 11; 
+5 resultado = numA + numB; 
+6 
+7 Console.WriteLine("{0} + {1} = {2}", numA, numB, resultado);
