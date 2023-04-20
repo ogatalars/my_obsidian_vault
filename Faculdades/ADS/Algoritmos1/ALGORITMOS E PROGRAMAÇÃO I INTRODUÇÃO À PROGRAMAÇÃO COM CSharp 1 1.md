@@ -10,3 +10,8 @@ Uma linguagem de baixo nível é a linguagem de máquina, representada por bits 
 Uma linguagem de alto nível é aquela escrita em inglês formal, com palavras e instruções mais próximas de nosso entendimento, o que requer um maior nível de abstração, porém, o aprendizado é menos complexo
 
 Diferentes linguagens de programação têm estruturas para oferecer suporte aos recursos necessários para resolver problemas em domínios específicos. Por exemplo, a linguagem Cobol tem suporte para resolver problemas relacionados a negócios; já a linguagem C, para problemas de programação de sistemas; e Lisp/Prolog, para aplicativos de inteligência artificial.
+
+A linguagem de programação escolhida para expressar o procedimento de solução para um determinado problema tem um grande impacto na qualidade do código escrito (sua legibilidade, escrita e manutenção) e na produtividade do programador.
+
+### 4.1 - Linguagem imperativa
+Não há uma consideração ou documentação oficial apontando exatamente quantas linguagens de programação existem, porém, mais delas estão sendo criadas exatamente para resolver problemas, sejam para fins gerais ou específicos. Portanto, é útil organizar essas linguagens em categorias que nos ajudem a entender as semelhanças e as diferenças entre elas, de modo que facilite, inclusive, o aprendizado.
