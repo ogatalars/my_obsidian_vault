@@ -15,3 +15,5 @@ A linguagem de programação escolhida para expressar o procedimento de soluçã
 
 ### 4.1 - Linguagem imperativa
 Não há uma consideração ou documentação oficial apontando exatamente quantas linguagens de programação existem, porém, mais delas estão sendo criadas exatamente para resolver problemas, sejam para fins gerais ou específicos. Portanto, é útil organizar essas linguagens em categorias que nos ajudem a entender as semelhanças e as diferenças entre elas, de modo que facilite, inclusive, o aprendizado.
+
+Embora não haja uma maneira definitiva de classificar ou agrupar os tipos de linguagens de programação, uma abordagem comum é dividi-los em estilos de programação ou, formalmente definido, em paradigmas centrais, conforme ilustra a figura 1. Isso determina como seu código é estruturado e organizado.
