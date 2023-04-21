@@ -70,7 +70,7 @@ Existe também um tipo especial de variável, cujo valor não é alterado durant
 
 ### 4.3 - Tipos de dados
 
-A linguagem C# é fortemente tipada, isso quer dizer que é necessário declarar o tipo de dado que uma variável ou constante armazenará. A tabela 1 a seguir apresenta os principais tipos de dados predefinidos em C#
+**A linguagem C# é fortemente tipada,** isso quer dizer que é necessário declarar o tipo de dado que uma variável ou constante armazenará. A tabela 1 a seguir apresenta os principais tipos de dados predefinidos em C#
 int Número inteiro de 32 bits int idade = 48; int velocidade = 96;
 long Número inteiro de 64 bits long valorx; valorx = 45L;
 float Número ponto flutuante de 32 bits float altura; altura = 1.98F;
