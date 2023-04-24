@@ -58,3 +58,11 @@ Na maioria dos casos, para que seja possível utilizarmos as estruturas de decis
   != (diferente)
 
 No exemplo simples citado anteriormente, havia variáveis conectadas por operadores aritméticos. Logo, a esse tipo de expressão é dado o nome de expressão aritmética. Uma expressão de comparação ou relacional tem esse nome porque os elementos (variáveis, valores ou outras expressões) são conectados por um operador de comparação ou relacional. De modo semelhante, quando um elemento (variável, valor ou outra expressão) é conectado a outro elemento por um operador lógico, temos uma expressão lógica
+
+EXPRESSÃO RELACIONAL OU DE COMPARAÇÃO EXPRESSÃO LÓGICA 
+a < b (true) (a < b) && (d > c) (true) 
+d > c (true) (a < b) || (d == c) (false) 
+a != d (true) (a == b) || (a < d) (false)
+d < a (false) (a > d) || (c > d) || (a < 99) (true) 
+c <= a (false) (a > d) && (c > d) || (a < 99) (true) 
+c == d (false) (a < c) && (d == a) && (a == 4) (false)
