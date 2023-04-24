@@ -14,3 +14,21 @@ A lógica de um programa nem sempre será uma sequência linear de instruções 
 Observe então que, em algum ponto, o programa pode chegar a uma situação em que precisa tomar uma decisão. Neste caso, do código apresentado, a decisão seria dizer se o aluno está aprovado ou reprovado. Essas decisões que afetam o fluxo do código do programa são conhecidas como estruturas de controle ou estrutura de decisão.
 
 ### Programação imperativa: estrutura de controle linear e condicional
+Antes de abordar o conceito de estrutura condicional ou estrutura de decisão, torna-se importante definir o conceito de estrutura de controle, que são blocos de construção de programas de computador. São comandos que permitem que um programa literalmente tome decisões, seguindo um caminho ou outro. 
+
+Conforme abordado na introdução deste capítulo, uma estrutura sequencial ou linear é o tipo de código mais comum a ser escrito em qualquer linguagem de programação imperativa, especialmente em se tratando da linguagem C#. 
+
+Entretanto, um programa geralmente não está limitado a uma sequência linear de instruções, pois, durante seu processo, pode bifurcar, repetir o código ou ignorar seções. Estruturas de controle são blocos de código que analisam variáveis e escolhem direções para ir com base em parâmetros dados.
+
+#### Exemplo
+1 double avaliacao1, avaliacao2, media; 
+2 avaliacao1 = 10; 
+3 avaliacao2 = 5;
+4 media = (avaliacao1 + avaliacao2)/2; 
+5 
+6 if(media > 6){ 
+7 Console.WriteLine("Aluno Aprovado!"); 
+8 } 
+9 else{ 
+10 Console.WriteLine("Aluno Reprovado!"); 
+11 }
