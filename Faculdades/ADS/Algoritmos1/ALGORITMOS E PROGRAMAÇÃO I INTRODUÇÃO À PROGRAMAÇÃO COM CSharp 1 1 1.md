@@ -99,6 +99,7 @@ O código a seguir representa o uso do if/else, aplicado ao código anterior par
 7 else{ 
 8 Console.WriteLine(“Seu saldo é negativo”); 
 9 }
+
 Observe agora no código que, se o valor do saldo na linha 2 for maior que zero, nosso código executará apenas as linhas 4 e 5. Por outro lado, se o valor do saldo for menor que zero, nosso código executará apenas as linhas 4 e 8. Mas e a linha 7? Ela não é executada? Por que executou a linha 4? Vamos por partes.
 
 Assim que o fluxo do código sai da linha 2, temos: • Linha 4 – o programa verifica se o valor da variável saldo é menor que zero. Neste caso específico, saldo tem o valor –100 (menos cem), logo, é menor que zero, então a expressão é falsa. Lembre-se que a única possibilidade de executar o conteúdo interno do if é se a expressão for verdadeira. Logo, se o valor do saldo não é maior que zero, então execute o conteúdo da linha 8. • Linha 8: imprime na tela que o valor do saldo é negativo
