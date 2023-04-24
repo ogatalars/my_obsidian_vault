@@ -46,7 +46,7 @@ Em qualquer linguagem de programação, as estruturas condicionais, também conh
 
 Na maioria dos casos, para que seja possível utilizarmos as estruturas de decisão, é necessário que haja uma expressão lógica ou uma expressão de comparação (FORBELLONE; EBERSPACHER, 2005; FEIJÓ; CLUA; SILVA, 2009). Para que essas expressões possam ser desenvolvidas, são necessários operadores especiais, como os apresentados no quadro 1.
 
-OPERADOR DE COMPARAÇÃO OPERADOR LÓGICO 
+#### OPERADOR DE COMPARAÇÃO OPERADOR LÓGICO 
  (maior)> 
  && (e) 
  < (menor)
@@ -54,4 +54,6 @@ OPERADOR DE COMPARAÇÃO OPERADOR LÓGICO
   (maior ou igual)>= 
   ! (negação) 
   <= (menor ou igual) 
-  == (igual) != (diferente)
+  == (igual) 
+  != (diferente)
+
