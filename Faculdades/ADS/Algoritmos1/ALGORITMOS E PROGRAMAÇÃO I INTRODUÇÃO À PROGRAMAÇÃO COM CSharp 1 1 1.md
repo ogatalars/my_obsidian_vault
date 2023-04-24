@@ -14,6 +14,7 @@ A lógica de um programa nem sempre será uma sequência linear de instruções 
 Observe então que, em algum ponto, o programa pode chegar a uma situação em que precisa tomar uma decisão. Neste caso, do código apresentado, a decisão seria dizer se o aluno está aprovado ou reprovado. Essas decisões que afetam o fluxo do código do programa são conhecidas como estruturas de controle ou estrutura de decisão.
 
 ### Programação imperativa: estrutura de controle linear e condicional
+
 Antes de abordar o conceito de estrutura condicional ou estrutura de decisão, torna-se importante definir o conceito de estrutura de controle, que são blocos de construção de programas de computador. São comandos que permitem que um programa literalmente tome decisões, seguindo um caminho ou outro. 
 
 Conforme abordado na introdução deste capítulo, uma estrutura sequencial ou linear é o tipo de código mais comum a ser escrito em qualquer linguagem de programação imperativa, especialmente em se tratando da linguagem C#. 
@@ -34,3 +35,6 @@ Entretanto, um programa geralmente não está limitado a uma sequência linear d
 11 }
 
 O fluxo de execução desse código até a linha 5 já foi apresentada. Agora, vejamos o que acontece quando colocamos uma condicional na linha 6, lembrando sempre que o valor da variável media nesse código é 7,5: • execute a linha 6 – se o valor da média for maior que 6, então execute o conteúdo interno ao if (bloco entre aspas); • execute a linha 7 – mostre a mensagem que o aluno está aprovado. Ótimo, somente isso desta vez. Observe que as linhas 9 e 10 não foram executadas, isso ocorre porque a primeira condição (na linha 6) deu verdadeira e, como não tem como uma condição ser verdadeira e falsa ao mesmo tempo, então será executada a linha 6, em seguida a linha 7 e, por fim, o código se encerra. Logo, para que seja possível executar a instrução da linha 10, será necessário que a expressão da linha 6 seja falsa.
+
+OBS: 
+Sempre que você executar um código em C#, todas as instruções apresentadas até aqui, bem como as demais que veremos mais adiante, devem ser inseridas dentro do método public static void Main (string[] args), ou seja, entre as chaves. Esse método indica que essa classe é a
