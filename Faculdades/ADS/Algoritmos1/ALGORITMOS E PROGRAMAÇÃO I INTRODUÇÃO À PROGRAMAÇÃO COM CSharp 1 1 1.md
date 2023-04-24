@@ -66,3 +66,7 @@ a != d (true) (a == b) || (a < d) (false)
 d < a (false) (a > d) || (c > d) || (a < 99) (true) 
 c <= a (false) (a > d) && (c > d) || (a < 99) (true) 
 c == d (false) (a < c) && (d == a) && (a == 4) (false)
+
+Observe pelo quadro 2 que a saída (ou o resultado) de uma expressão lógica, bem como de uma expressão relacional ou de comparação, sempre será os valores booleanos true (verdadeiro, em verde no quadro) ou false (falso, em vermelho no quadro). Observe que o operador && (e), para que tenha uma saída verdadeira, precisa que todas as expressões ligadas por esse operador também sejam verdadeiras. Por outro lado, ao utilizar um operador || (ou), para que a saída seja verdadeira, basta que qualquer expressão tenha o valor verdadeiro (FEIJÓ; CLUA; SILVA, 2009).
+
+### Condições simples (if) e condições compostas (else if)
