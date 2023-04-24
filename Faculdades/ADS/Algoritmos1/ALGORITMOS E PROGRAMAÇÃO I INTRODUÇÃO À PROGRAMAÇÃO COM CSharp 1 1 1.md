@@ -70,3 +70,5 @@ c == d (false) (a < c) && (d == a) && (a == 4) (false)
 Observe pelo quadro 2 que a saída (ou o resultado) de uma expressão lógica, bem como de uma expressão relacional ou de comparação, sempre será os valores booleanos true (verdadeiro, em verde no quadro) ou false (falso, em vermelho no quadro). Observe que o operador && (e), para que tenha uma saída verdadeira, precisa que todas as expressões ligadas por esse operador também sejam verdadeiras. Por outro lado, ao utilizar um operador || (ou), para que a saída seja verdadeira, basta que qualquer expressão tenha o valor verdadeiro (FEIJÓ; CLUA; SILVA, 2009).
 
 ### Condições simples (if) e condições compostas (else if)
+
+Em C#, a instrução if é usada para executar o bloco de código ou conjunto de instruções quando a condição definida é verdadeira (true). Geralmente, a instrução que será executada com base na condição é conhecida como instrução condicional, que nada mais é do que uma expressão lógica ou expressão de comparação (relacional) do tipo booleana (verdadeira ou falsa), a qual também pode ser chamada de condição (FORBELLONE; EBERSPACHER, 2005).
