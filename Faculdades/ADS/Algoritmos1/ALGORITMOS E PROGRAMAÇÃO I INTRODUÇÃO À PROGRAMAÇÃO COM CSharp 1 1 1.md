@@ -37,4 +37,21 @@ Entretanto, um programa geralmente não está limitado a uma sequência linear d
 O fluxo de execução desse código até a linha 5 já foi apresentada. Agora, vejamos o que acontece quando colocamos uma condicional na linha 6, lembrando sempre que o valor da variável media nesse código é 7,5: • execute a linha 6 – se o valor da média for maior que 6, então execute o conteúdo interno ao if (bloco entre aspas); • execute a linha 7 – mostre a mensagem que o aluno está aprovado. Ótimo, somente isso desta vez. Observe que as linhas 9 e 10 não foram executadas, isso ocorre porque a primeira condição (na linha 6) deu verdadeira e, como não tem como uma condição ser verdadeira e falsa ao mesmo tempo, então será executada a linha 6, em seguida a linha 7 e, por fim, o código se encerra. Logo, para que seja possível executar a instrução da linha 10, será necessário que a expressão da linha 6 seja falsa.
 
 OBS: 
-Sempre que você executar um código em C#, todas as instruções apresentadas até aqui, bem como as demais que veremos mais adiante, devem ser inseridas dentro do método public static void Main (string[] args), ou seja, entre as chaves. Esse método indica que essa classe é a
+Sempre que você executar um código em C#, todas as instruções apresentadas até aqui, bem como as demais que veremos mais adiante, devem ser inseridas dentro do método public static void Main (string[] args), ou seja, entre as chaves. Esse método indica que essa classe é a classe principal e que o método main será executado primeiro, quando o programa for compilado. Experimente!
+
+### Expressões relacionais e lógicas
+Na terminologia da linguagem de programação, uma expressão é um conjunto de valores e funções que são combinados e interpretados pelo compilador para criar um novo valor. Uma maneira de se pensar nisso é que o propósito de uma expressão é criar um valor, o qual poderá gerar alguns possíveis efeitos colaterais (FORBELLONE; EBERSPACHER, 2005). Uma expressão, como no caso a + b * c * d + e, pode ser dividida em expressões menores; de igual modo, expressões menores podem ser combinadas em expressões maiores. Portanto, se tudo é uma expressão, então, tudo também pode ser composto.
+
+Em qualquer linguagem de programação, as estruturas condicionais, também conhecidas como estruturas de decisão ou de controle, são utilizadas para manipular o fluxo de um código. Sem essas estruturas, uma linguagem de programação é basicamente inútil, afinal, não será capaz de tomar decisões inteligentes por conta própria.
+
+Na maioria dos casos, para que seja possível utilizarmos as estruturas de decisão, é necessário que haja uma expressão lógica ou uma expressão de comparação (FORBELLONE; EBERSPACHER, 2005; FEIJÓ; CLUA; SILVA, 2009). Para que essas expressões possam ser desenvolvidas, são necessários operadores especiais, como os apresentados no quadro 1.
+
+OPERADOR DE COMPARAÇÃO OPERADOR LÓGICO 
+ (maior)> 
+ && (e) 
+ < (menor)
+  || (ou)  
+  (maior ou igual)>= 
+  ! (negação) 
+  <= (menor ou igual) 
+  == (igual) != (diferente)
