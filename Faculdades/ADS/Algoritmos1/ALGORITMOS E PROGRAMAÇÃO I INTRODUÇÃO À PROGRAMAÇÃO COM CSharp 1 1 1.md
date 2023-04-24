@@ -87,3 +87,18 @@ A instrução if é responsável por avaliar uma instrução entre parênteses. 
 Observe o que ocorre a partir da linha 4 do código: • Linha 4 – primeiramente, é realizada a operação relacional que verifica se o valor da variável saldo é maior que zero. O resultado dessa operação é true (verdadeiro). Logo, como a condição (que é esta expressão) é verdadeira, será executada a linha 5. • Linha 5 – imprime na tela a mensagem, informando que o saldo é positivo. Observe a sintaxe da instrução if do código apresentado, as instruções dentro da condição if serão executadas somente quando a condição ou a expressão relacional retornar verdadeiro, caso contrário, as instruções dentro da condição if serão ignoradas para a execução.
 
 Ainda sobre o código anterior, observe que o usuário somente será informado sobre o saldo quando este for positivo. Mas e quando o saldo for negativo? Em nosso código, não há tratamento para o caso do saldo ser menor que zero. Para tanto, adicionaremos uma instrução opcional else para o nosso if. A instrução if/else possui comportamento semelhante ao if, porém, temos uma cláusula opcional que é o else
+
+O código a seguir representa o uso do if/else, aplicado ao código anterior para informar ao usuário se o saldo está positivo ou negativo.
+
+1 int saldo; 
+2 saldo = -100; 
+3 
+4 if(saldo < 0){ 
+5 Console.WriteLine(“Seu saldo é positivo”); 
+6 }
+7 else{ 
+8 Console.WriteLine(“Seu saldo é negativo”); 
+9 }
+Observe agora no código que, se o valor do saldo na linha 2 for maior que zero, nosso código executará apenas as linhas 4 e 5. Por outro lado, se o valor do saldo for menor que zero, nosso código executará apenas as linhas 4 e 8. Mas e a linha 7? Ela não é executada? Por que executou a linha 4? Vamos por partes.
+
+Assim que o fluxo do código sai da linha 2, temos: • Linha 4 – o programa verifica se o valor da variável saldo é menor que zero. Neste caso específico, saldo tem o valor –100 (menos cem), logo, é menor que zero, então a expressão é falsa. Lembre-se que a única possibilidade de executar o conteúdo interno do if é se a expressão for verdadeira. Logo, se o valor do saldo não é maior que zero, então execute o conteúdo da linha 8. • Linha 8: imprime na tela que o valor do saldo é negativo
