@@ -72,3 +72,18 @@ Observe pelo quadro 2 que a saída (ou o resultado) de uma expressão lógica, b
 ### Condições simples (if) e condições compostas (else if)
 
 Em C#, a instrução if é usada para executar o bloco de código ou conjunto de instruções quando a condição definida é verdadeira (true). Geralmente, a instrução que será executada com base na condição é conhecida como instrução condicional, que nada mais é do que uma expressão lógica ou expressão de comparação (relacional) do tipo booleana (verdadeira ou falsa), a qual também pode ser chamada de condição (FORBELLONE; EBERSPACHER, 2005).
+
+O operador relacional permite que você diga ao computador se deve executar o código dentro do bloco com base na condição ou no conjunto de condições
+
+A instrução if é responsável por avaliar uma instrução entre parênteses. Se a condição for verdadeira (true), o código dentro do corpo do if é executado; se a condição for falsa (false), o código dentro do corpo do if será ignorado
+
+1 int saldo; 
+2 saldo = 100; 
+3 
+4 if(saldo > 0){ 
+5 Console.WriteLine(“Seu saldo é positivo”); 
+6 }
+
+Observe o que ocorre a partir da linha 4 do código: • Linha 4 – primeiramente, é realizada a operação relacional que verifica se o valor da variável saldo é maior que zero. O resultado dessa operação é true (verdadeiro). Logo, como a condição (que é esta expressão) é verdadeira, será executada a linha 5. • Linha 5 – imprime na tela a mensagem, informando que o saldo é positivo. Observe a sintaxe da instrução if do código apresentado, as instruções dentro da condição if serão executadas somente quando a condição ou a expressão relacional retornar verdadeiro, caso contrário, as instruções dentro da condição if serão ignoradas para a execução.
+
+Ainda sobre o código anterior, observe que o usuário somente será informado sobre o saldo quando este for positivo. Mas e quando o saldo for negativo? Em nosso código, não há tratamento para o caso do saldo ser menor que zero. Para tanto, adicionaremos uma instrução opcional else para o nosso if. A instrução if/else possui comportamento semelhante ao if, porém, temos uma cláusula opcional que é o else
