@@ -8,3 +8,9 @@ No primeiro contato com uma linguagem de programação, um dos primeiros aprendi
 5 Console.WriteLine(“A média do aluno é {0} “, media);
 
 Desse modo, a sequência de execução desse código será fixa e estruturada sequencialmente da seguinte maneira: • execute a linha 1 – declaração de variáveis; • execute a linha 2 – atribua 10 para a variável avaliacao1; • execute a linha 3 – atribua 5 para a variável avaliacao2; • execute a linha 4 – some os valores das variáveis avaliacao1 e avaliacao2 e, em seguida, divida esses valores por 2. Por fim, atribua o resultado dessa operação para a variável media; • execute a linha 5 – apresente o valor da média para o aluno
+
+A lógica de um programa nem sempre será uma sequência linear de instruções a serem executadas em uma dada ordem, podendo inclusive exigir a execução de uma instrução baseada em uma decisão. Por exemplo, voltando ao código anterior, ao executá-lo, a média do aluno será 7,5. Mas o que isso significa? Ele está aprovado? Ele está reprovado? Se aprovado, o quanto sua nota está acima ou abaixo da média?
+
+Observe então que, em algum ponto, o programa pode chegar a uma situação em que precisa tomar uma decisão. Neste caso, do código apresentado, a decisão seria dizer se o aluno está aprovado ou reprovado. Essas decisões que afetam o fluxo do código do programa são conhecidas como estruturas de controle ou estrutura de decisão.
+
+### Programação imperativa: estrutura de controle linear e condicional
