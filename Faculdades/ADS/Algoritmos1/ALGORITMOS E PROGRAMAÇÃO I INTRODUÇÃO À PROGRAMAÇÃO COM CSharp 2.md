@@ -3,9 +3,9 @@ Considere o seguinte caso: você deseja somar os três primeiros números inteir
 
 Considere que, por qualquer motivo, uma empresa necessita apresentar na tela os 10 primeiros números positivos. Um exemplo de código pode ser visto a seguir
 
-Console.WriteLine(“1”); 
+1 Console.WriteLine(“1”); 
 2 Console.WriteLine(“2”); 
-3 Console.WriteLine(“3”); 
+3 Console.WriteLine(“3”);  
 ... 
 ... 
 9 Console.WriteLine(“9”); 
