@@ -103,3 +103,7 @@ O código a seguir representa o uso do if/else, aplicado ao código anterior par
 Observe agora no código que, se o valor do saldo na linha 2 for maior que zero, nosso código executará apenas as linhas 4 e 5. Por outro lado, se o valor do saldo for menor que zero, nosso código executará apenas as linhas 4 e 8. Mas e a linha 7? Ela não é executada? Por que executou a linha 4? Vamos por partes.
 
 Assim que o fluxo do código sai da linha 2, temos: • Linha 4 – o programa verifica se o valor da variável saldo é menor que zero. Neste caso específico, saldo tem o valor –100 (menos cem), logo, é menor que zero, então a expressão é falsa. Lembre-se que a única possibilidade de executar o conteúdo interno do if é se a expressão for verdadeira. Logo, se o valor do saldo não é maior que zero, então execute o conteúdo da linha 8. • Linha 8: imprime na tela que o valor do saldo é negativo
+
+Observe, então, que a linha 7 não é executada. Isso ocorre pois o else (senão) é uma instrução complementar. Por exemplo, se estiver chovendo, leve o guarda-chuva, senão, não leve; se você tiver dinheiro, iremos à festa, senão, ficaremos em casa. Observe que o else é um complemento para quando a condição no if for falsa.
+
+O nosso programa anterior ainda não acabou. Se fizermos um teste, observaremos que o nosso programa reconhece quando o saldo é maior que zero (saldo positivo) ou quando é menor que zero (saldo negativo). Mas e quando o saldo for igual a zero? Não estamos considerando ainda esse caso. Para tanto, podemos adicionar uma condição if a mais
