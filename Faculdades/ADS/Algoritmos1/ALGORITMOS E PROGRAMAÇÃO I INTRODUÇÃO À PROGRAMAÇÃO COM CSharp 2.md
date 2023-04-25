@@ -10,3 +10,7 @@ Considere que, por qualquer motivo, uma empresa necessita apresentar na tela os 
 ... 
 9 Console.WriteLine(“9”); 
 10 Console.WriteLine(“10”);
+
+Observe neste código que, para apresentar os 10 primeiros números positivos é necessário realizarmos a instrução Console.WriteLine dez vezes. Agora, considere que a empresa necessita de apresentar os 100 primeiros números positivos. A escrita do código seria mais complexa, afinal, são necessárias 100 linhas de código para realizar algo simples.
+
+O papel de uma estrutura de repetição é iterar um determinado trecho do código (uma ou mais instruções) enquanto uma dada condição
