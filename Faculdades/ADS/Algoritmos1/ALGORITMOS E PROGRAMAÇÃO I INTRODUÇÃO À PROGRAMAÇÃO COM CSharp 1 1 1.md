@@ -106,4 +106,25 @@ Assim que o fluxo do código sai da linha 2, temos: • Linha 4 – o programa v
 
 Observe, então, que a linha 7 não é executada. Isso ocorre pois o else (senão) é uma instrução complementar. Por exemplo, se estiver chovendo, leve o guarda-chuva, senão, não leve; se você tiver dinheiro, iremos à festa, senão, ficaremos em casa. Observe que o else é um complemento para quando a condição no if for falsa.
 
-O nosso programa anterior ainda não acabou. Se fizermos um teste, observaremos que o nosso programa reconhece quando o saldo é maior que zero (saldo positivo) ou quando é menor que zero (saldo negativo). Mas e quando o saldo for igual a zero? Não estamos considerando ainda esse caso. Para tanto, podemos adicionar uma condição if a mais
+O nosso programa anterior ainda não acabou. Se fizermos um teste, observaremos que o nosso programa reconhece quando o saldo é maior que zero (saldo positivo) ou quando é menor que zero (saldo negativo). Mas e quando o saldo for igual a zero? Não estamos considerando ainda esse caso. Para tanto, podemos adicionar uma condição if a mais.
+
+Um exemplo de código pode ser observado a seguir
+
+1 int saldo; 
+2 saldo = -100; 
+3 
+4 if(saldo > 0){ 
+5 Console.WriteLine(“Seu saldo é positivo”); 
+6 } 
+7 else if (saldo < 0){ 
+8 Console.WriteLine(“Seu saldo é negativo”); 
+9 } 
+10 else{ 
+11 Console.WriteLine(“Seu saldo está zerado”); 
+12 }
+
+Observe que estamos declarando a variável saldo e atribuindo para ela o valor –100 (menos cem). O código segue o seguinte fluxo:
+Na linha 4 – ocorre uma expressão relacional, a qual compara se o valor do saldo é maior que zero. Neste caso, não, o valor de saldo não é maior que zero. Lê-se: “se o valor do saldo for maior do que zero, faça”. Logo, o fluxo do código é direcionado para a linha 7.
+Na linha 7 – lê-se: “senão, se o valor do saldo for menor do que zero, faça”. Neste caso, o valor do saldo é menor do que zero, logo, o fluxo do código é direcionado para a linha 8.
+Na linha 8 – imprime na tela que o saldo é negativo
+Se o valor da variável saldo fosse igual a zero, seriam executadas as operações das linhas 4 e 7 apenas, bem como apresentado o conteúdo da linha 11.
