@@ -17,4 +17,11 @@ O papel de uma estrutura de repetição é iterar um determinado trecho do códi
 
 Enquanto uma dada condição for verdadeira (condição de corrida), o conteúdo de seu bloco (aquele que está entre chaves) será executado. A condição de corrida pode ser uma relação simples de comparação ou uma expressão com diversos operadores relacionais e lógicos (FORBELLONE, 2005)
 
-contador = 1 2 3 while (contador <= 10) 4 { 5 Console.WriteLine(“Valor do contador é ” + contador); 6 contador = contador + 1; 7 } 8 Console.WriteLine(“fim”)
+contador = 1
+2 
+3 while (contador <= 10) 
+4 { 
+5 Console.WriteLine(“Valor do contador é ” + contador); 
+6 contador = contador + 1; 
+7 } 
+8 Console.WriteLine(“fim”)
