@@ -13,4 +13,8 @@ Considere que, por qualquer motivo, uma empresa necessita apresentar na tela os 
 
 Observe neste código que, para apresentar os 10 primeiros números positivos é necessário realizarmos a instrução Console.WriteLine dez vezes. Agora, considere que a empresa necessita de apresentar os 100 primeiros números positivos. A escrita do código seria mais complexa, afinal, são necessárias 100 linhas de código para realizar algo simples.
 
-O papel de uma estrutura de repetição é iterar um determinado trecho do código (uma ou mais instruções) enquanto uma dada condição
+O papel de uma estrutura de repetição é iterar um determinado trecho do código (uma ou mais instruções) enquanto uma dada condição for verdadeira (SILVA; FEIJÓ; CLUA, 2009). Neste caso, o mesmo código apresentado anteriormente pode ser reduzido em poucas linhas, independente se a empresa desejar mostrar os 5 primeiros números ou os 1000 primeiros números.
+
+Enquanto uma dada condição for verdadeira (condição de corrida), o conteúdo de seu bloco (aquele que está entre chaves) será executado. A condição de corrida pode ser uma relação simples de comparação ou uma expressão com diversos operadores relacionais e lógicos (FORBELLONE, 2005)
+
+contador = 1 2 3 while (contador <= 10) 4 { 5 Console.WriteLine(“Valor do contador é ” + contador); 6 contador = contador + 1; 7 } 8 Console.WriteLine(“fim”)
