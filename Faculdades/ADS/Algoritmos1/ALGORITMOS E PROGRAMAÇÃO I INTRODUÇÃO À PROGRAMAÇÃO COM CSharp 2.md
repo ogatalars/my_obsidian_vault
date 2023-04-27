@@ -25,3 +25,7 @@ contador = 1
 6 contador = contador + 1; 
 7 } 
 8 Console.WriteLine(“fim”)
+
+Observe que este código 2 inicializa uma variável antes de entrar no laço de repetição (linha 1). A condição de corrida é a comparação contador <= 10, onde lê-se: enquanto o contador for menor ou igual a 10, faça o que está dentro da estrutura while. Deste modo, será apresentado o valor da variável contador (linha 5) e, em seguida, é somado mais 1 no valor atual da variável contador, a esta ação de somar mais 1 nós chamamos de incremento. Na linha 6 lê-se: a variável contador recebe o conteúdo da variável contador e soma 1.
+
+O papel de uma estrutura de repetição é iterar um determinado trecho do código (uma ou mais instruções) enquanto uma dada condição
