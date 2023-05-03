@@ -1,4 +1,6 @@
 ### Estruturas de repetição
+
+**WHILE**
 Considere o seguinte caso: você deseja somar os três primeiros números inteiros maiores que zero. Bem, isso é simples, basta fazer soma = 1 + 2 + 3. Até certo ponto sim, é simples, porém, e se você for solicitado a somar os mil primeiros números inteiros primos, cujo resultado será usado em um procedimento de segurança, por exemplo, durante a criptografia de um arquivo? Outro caso, considere que seu chefe pediu para você criar um programa que verifique qual o maior número primo existente com o objetivo de usar este primo em uma chave criptográfica. Como você faria? Certamente a opção por realizar todo o procedimento manualmente não é a melhor escolha.
 
 Considere que, por qualquer motivo, uma empresa necessita apresentar na tela os 10 primeiros números positivos. Um exemplo de código pode ser visto a seguir
@@ -73,3 +75,21 @@ somente serão executadas quando o valor da variável opcao for
 diferente de quatro.
 
 **Toda estrutura de repetição necessita de ter uma condição de corrida, caso contrário, aquele trecho de código ficará em execução em um loop infinito**
+
+**FOR**
+Este tipo de laço de repetição segue o mesmo princípio do laço anterior, realizando um loop enquanto uma condição de corrida seja verdadeira (FORBELLONE, 2005). A sintaxe de um laço for pode ser observado no código a seguir.
+
+ for(variavel_controle; condicao_corrida; incremento/decremento) {
+2 //conteúdo do laço de repetição
+3 } 
+
+Observe pelo código 4 que a estrutura do laço for limita-se apenas a
+linha 1, sendo que:
+• variavel_controle: está é a variável que será incrementada ou decrementada no decorrer da execução do laço for. Ela deve ser do
+tipo inteiro.
+• condicao_corrida: trata-se de uma operação de comparação, semelhante ao conteúdo colocado entre parênteses no while;
+• incremento/decremento: a variável de controle será incrementada
+ou decrementada, de modo a iterar o conteúdo interno do laço for.
+A principal característica do laço for é que ele é usado para iterar
+dentro de um intervalo de valores. Observe o código a seguir, o qual
+apresenta na tela os valores de 1 até 10. 
