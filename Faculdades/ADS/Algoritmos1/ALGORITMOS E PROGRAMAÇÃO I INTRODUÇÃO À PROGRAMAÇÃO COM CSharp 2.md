@@ -44,3 +44,15 @@ Observe que este código 2 inicializa uma variável antes de entrar no laço de 
 Observe também que o conteúdo interno do while está afastado para a direita, ou seja, está indentado. Além disso, existe uma chave abrindo na linha 4 e fechando na linha 7, delimitando o bloco (escopo) do código. Por fim, note que a instrução da linha 8 só será impressa na tela após o laço de repetição concluir a execução. Mas, e se a variável contador na linha 1 inicia-se em 11? Neste caso, 11 é menor ou igual a 10? Não, então as linhas 5 e 6 não seriam executadas e o fluxo do código continuaria na linha 8. Este código 2 trará a mesma saída que o código 1, ou seja, mostra na tela os valores de 1 até 10. Porém existe uma diferença fundamental. No código 1, se o programador desejar mostrar na tela os valores de 1 até 1000, ele precisa adicionar outras 990 linhas de código. Por outro lado, no código 2, basta modificar a linha 3 e fazer com que a condição de corrida passe a ser contador <= 1000, onde lê-se: enquanto a variável contador for menor do que mil, faça o que está dentro da estrutura while.
 
 Até aqui o laço o while foi apresentado como uma estrutura de controla um bloco de código, repetindo-o em um dado intervalo. Porém, existe uma outra aplicação. Considere o caso em que temos um menu com 4 opções. A opção 1 é para cadastrar um aluno no sistema, a opção 2 é para listar os alunos do sistema, a opção 3 é para excluir um aluno do sistema e a opção 4 é para sair do sistema. Logo, enquanto o usuário escolher as opções 1, 2 ou 3, o sistema continua em um loop. Porém, ao escolher a opção 4, o loop será encerrado. O código a seguir ilustra este programa.
+
+1 int opcao;
+2 Console.WriteLine(“Digite: “);
+3 Console.WriteLine(“1 - Cadastrar | 2 - Listar | 3 - Excluir | 4 - Sair”);
+4 opcao = int.Parse(Console.ReadLine());
+5
+6 while(opcao != 4)
+7 {
+8 Console.WriteLine(“Digite: “);
+9 Console.WriteLine(“1 - Cadastrar | 2 - Listar | 3 - Excluir | 4 - Sair”);
+10 opcao = int.Parse(Console.ReadLine());
+11 } 
