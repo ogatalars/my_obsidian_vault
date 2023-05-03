@@ -31,3 +31,12 @@ Observe que este código 2 inicializa uma variável antes de entrar no laço de 
 
 Enquanto uma dada condição for verdadeira (condição de corrida), o conteúdo de seu bloco (aquele que está entre chaves) será executado. A condição de corrida pode ser uma relação simples de comparação ou uma expressão com diversos operadores relacionais e lógicos (FORBELLONE, 2005).
 
+1 contador = 1
+2 
+3 while (contador <= 10) 
+4 { 5 Console.WriteLine(“Valor do contador é ” + contador); 
+6 contador = contador + 1; 
+7 } 
+8 Console.WriteLine(“fim”);
+
+Observe que este código 2 inicializa uma variável antes de entrar no laço de repetição (linha 1). A condição de corrida é a comparação contador <= 10, onde lê-se: enquanto o contador for menor ou igual a 10, faça o que está dentro da estrutura while. Deste modo, será apresentado o valor da variável contador (linha 5) e, em seguida, é somado mais 1 no valor atual da variável contador, a esta ação de somar mais 1 nós chamamos de incremento.
