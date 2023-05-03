@@ -56,3 +56,20 @@ Até aqui o laço o while foi apresentado como uma estrutura de controla um bloc
 9 Console.WriteLine(“1 - Cadastrar | 2 - Listar | 3 - Excluir | 4 - Sair”);
 10 opcao = int.Parse(Console.ReadLine());
 11 } 
+
+Observe no código 3 que não foi necessário utilizar uma instrução
+de incremento, afinal, este laço de repetição não está programado para
+executar em um intervalo de valores como foi no código 2. Agora, enquanto o usuário digitar um valor diferente de 4, o laço while será executado. Acompanhe a análise do código:
+• Linha 1: declaração de uma variável do tipo inteira chamada opcao (esta variável também poderia ser do tipo string!);
+• Linhas 2 e 3: o usuário é informado sobre o que deve ser feito,
+neste caso, são apresentadas as opções;
+• Linha 4: o usuário informa uma opção digitando um número pela
+entrada padrão (teclado). A função int.Parse é responsável por
+converter o conteúdo digitado no teclado (que é do tipo texto)
+para o tipo inteiro;
+• Linha 6: na linha 6 temos a condição de corrida, onde lê-se: enquanto o valor da variável opcao for diferente do número quatro, faça.
+• Linhas 8, 9 e 10: estas três linhas estão dentro do laço while e
+somente serão executadas quando o valor da variável opcao for
+diferente de quatro.
+
+**Toda estrutura de repetição necessita de ter uma condição de corrida, caso contrário, aquele trecho de código ficará em execução em um loop infinito**
