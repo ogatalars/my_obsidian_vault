@@ -7,7 +7,6 @@ Considere que, por qualquer motivo, uma empresa necessita apresentar na tela os 
 2 Console.WriteLine(“2”); 
 3 Console.WriteLine(“3”);  
 ... 
-... 
 9 Console.WriteLine(“9”); 
 10 Console.WriteLine(“10”);
 
