@@ -79,7 +79,7 @@ diferente de quatro.
 **FOR**
 Este tipo de laço de repetição segue o mesmo princípio do laço anterior, realizando um loop enquanto uma condição de corrida seja verdadeira (FORBELLONE, 2005). A sintaxe de um laço for pode ser observado no código a seguir.
 
- for(variavel_controle; condicao_corrida; incremento/decremento) {
+1 for(variavel_controle; condicao_corrida; incremento/decremento) {
 2 //conteúdo do laço de repetição
 3 } 
 
