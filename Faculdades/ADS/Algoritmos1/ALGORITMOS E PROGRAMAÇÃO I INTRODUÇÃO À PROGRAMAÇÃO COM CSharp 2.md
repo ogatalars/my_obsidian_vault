@@ -93,3 +93,21 @@ ou decrementada, de modo a iterar o conteúdo interno do laço for.
 A principal característica do laço for é que ele é usado para iterar
 dentro de um intervalo de valores. Observe o código a seguir, o qual
 apresenta na tela os valores de 1 até 10. 
+
+1 for(int contador=1; contador <=10; contador++) {
+2 Console.WriteLine(“Valor do contador é ” + contador);
+3 }
+4 Console.WriteLine(“fim”);
+
+Observe o funcionamento do laço for:
+• A variavel_controle (instrução de inicialização) é executada primeiro e apenas uma vez. Aqui, a variável é declarada com o nome
+contador e inicializada com o valor 1;
+• Em seguida, a condição é avaliada. Trata-se de uma expressão
+booleana, ou seja, retorna true ou false;
+• Se a condição for avaliada como verdadeira (contador <= 10).
+◦ As instruções dentro do loop for são executadas;
+• Em seguida, a iteração (incremento da variável contador) é executada, o que geralmente altera o valor da variável inicializada;
+• Novamente a condição é avaliada;
+• O processo continua até que a condição seja avaliada como false
+(falso).
+• Se condição for avaliada como false, o loop for termina.
