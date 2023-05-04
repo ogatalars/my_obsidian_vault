@@ -111,3 +111,7 @@ booleana, ou seja, retorna true ou false;
 • O processo continua até que a condição seja avaliada como false
 (falso).
 • Se condição for avaliada como false, o loop for termina.
+
+As estruturas while e for são as principais estruturas de repetição em qualquer linguagem e em C# não é diferente. Ambas permitem que instruções sejam executadas até que seja alcançada uma condição de parada (SILVA; FEIJÓ; CLUA, 2009).
+
+O for, por exemplo, possui as instruções de inicialização, condição de corrida e iteração na própria declaração da estrutura. Por outro lado, o laço while precisa que seja declarada uma variável contadora, porém, a verificação da condição de corrida é realizada na própria instrução (no topo).
