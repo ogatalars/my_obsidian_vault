@@ -31,4 +31,43 @@ seja atendida.
 
 **Todas as linguagens de programação de alto nível têm estruturas de controle. Todas as linguagens têm as três categorias de estruturas de controle (sequência, seleção e iteração). A maioria tem a estrutura if/ else e a estrutura while e for**
 
-Outro tipo de estrutura encontrada em diversas linguagens de programação é a função, que são partes essenciais de um programa C#, podendo consistir em vários elementos, como o nome da função (que é usado como referência da função), tipos de retorno dos dados, escopo ou corpo da função, parâmetros que são valores não obrigatórios que podem ser passados como argumentos para a função e o especificador de acesso para definir a acessibilidade da função dentro do programa (FORBELLONE; EBERSPACHER, 2005).
+Outro tipo de estrutura encontrada em diversas linguagens de programação é a **função**, que são partes essenciais de um programa C#, podendo consistir em vários elementos, como o nome da função (que é usado como referência da função), tipos de retorno dos dados, escopo ou corpo da função, parâmetros que são valores não obrigatórios que podem ser passados como argumentos para a função e o especificador de acesso para definir a acessibilidade da função dentro do programa (FORBELLONE; EBERSPACHER, 2005).
+
+Os diferentes tipos de funções que podem ser integrados em um
+programa C# são uma combinação de funções (MICROSOFT, [s. d.]):
+• com ou sem parâmetros;
+• que podem ou não ter os valores de retorno, dependendo do requisito fornecido.
+A função é um membro da classe, ou seja, é exatamente o mesmo
+que um método; às vezes, os dois termos são usados indistintamente.
+Mas existem diferenças básicas entre métodos e funções (citação):
+• método vem com um tipo de retorno nulo (void);
+• função tem um tipo de retorno como int, string ou float, por
+exemplo.
+
+1 <modificadores_de_acesso> <tipo_retorno> <nome_função> (<parâmetros>)
+2 {
+3 <código_da_função>
+4 <retorno>
+5 }
+
+Em que temos:
+• <modificadores_de_acesso>: são usados para especificar o escopo de acessibilidade de um membro de uma classe ou tipo da
+própria classe. Por exemplo, **uma função pública (public)** é acessível a todos sem quaisquer restrições, enquanto em uma função
+privada (private), o acesso é limitado à definição de classe. Este
+é o tipo de modificador de acesso-padrão se nenhum for especificado formalmente. Os modificadores de acesso permitem que
+você defina quem tem ou não acesso a determinados recursos.
+• <tipo_retorno>: uma função pode retornar um valor, esse valor
+pode ser do tipo inteiro (int), ponto flutuante (float ou double), cadeia de caracteres (string) ou booleano (bool).
+• <nome_função>: o nome da função deve começar com uma letra, seguido por outras letras e/ou números, não sendo possível
+utilizar caracteres especiais. Por boa prática de programação,
+utiliza-se o estilo camel case. Esse estilo de nomenclatura deriva de sua aparência, que pode se assemelhar ao dorso de um
+camelo (camel) e é usado em muitas linguagens de programação que não permitem espaços nos nomes das variáveis ou funções. O camel case possibilita a criação de nomes mais exclusivos e com mais significado para o desenvolvedor. Por exemplo:
+SomarDoisNumerosPares, ObterOMaiorNumero. Esses nomes
+podem ser lidos mais facilmente que somardoisnumerospares e
+obteromaiornumero.
+• <parâmetros>: os parâmetros são opcionais, sendo valores que
+são passados para uma função para que ela os processe.
+• <código_da_função>: este é o escopo da função, ou seja, onde
+será codificado toda a ação que uma função deve desempenhar.
+• <retorno>: por fim, o retorno é responsável por devolver ao fluxo
+do código principal algum conteúdo que foi solicitado.
