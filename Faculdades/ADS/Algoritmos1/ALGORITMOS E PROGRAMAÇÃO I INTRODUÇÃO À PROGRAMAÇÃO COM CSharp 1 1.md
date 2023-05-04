@@ -19,7 +19,9 @@ Não há uma consideração ou documentação oficial apontando exatamente quant
 
 Embora não haja uma maneira definitiva de classificar ou agrupar os tipos de linguagens de programação, uma abordagem comum é dividi-los em estilos de programação ou, formalmente definido, em paradigmas centrais, conforme ilustra a figura 1. Isso determina como seu código é estruturado e organizado.
 
-Paradigmas -> a) Imperativo; b) Declarativo; 
+#### Paradigmas
+
+**Paradigmas** -> a) Imperativo; b) Declarativo; 
 a) Imperativo -> Procedural, Orientado a objetivos, Processamento paralelo
 b) Declarativo -> Lógico, funcional, Database
 
