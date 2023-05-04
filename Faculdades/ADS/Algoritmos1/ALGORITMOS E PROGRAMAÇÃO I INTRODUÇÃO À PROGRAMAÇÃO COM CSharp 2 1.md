@@ -10,3 +10,21 @@ Outra característica de C# é que essa linguagem oferece suporte à programaç�
 
 Por fim, uma das principais características é o design estruturado e a modularização que, em C#, dividem um problema em partes, usando funções de fácil implementação para resolver problemas significativos. 
 
+#### Conceito 
+A programação estruturada é um método de desenvolvimento de software que usa modularização e design estruturado. Isso significa que grandes programas ou scripts são divididos em módulos menores e que cada módulo individual usa código estruturado, isso faz com que as instruções sejam organizadas de uma maneira específica, minimizando erros e interpretações incorretas (FORBELLONE; EBERSPACHER, 2005).
+
+Como o próprio nome sugere, a programação estruturada é feita em uma linguagem de programa do paradigma estruturado como C#, PHP, C, C++, Java e Python.
+
+Um dos conceitos mais importantes de programação é a capacidade de controlar um programa de modo que diferentes linhas de código sejam executadas ou que algumas linhas de código sejam executadas várias vezes. Os mecanismos que nos permitem controlar o fluxo de execução são chamados de estruturas de controle. O fluxograma é um método de documentar (mapear) o fluxo (ou caminhos) que um programa executaria. Existem três categorias principais de estruturas de controle (FEIJÓ; CLUA; SILVA, 2009):
+
+• Estrutura sequencial – é a mais simples. Execute uma instrução,
+depois a próxima e a próxima. Basta executá-los em uma determinada sequência ou na ordem listada. A maioria das linhas de
+código é assim.
+• Estrutura condicional ou de seleção – o código seleciona ou escolhe entre dois ou mais fluxos. A escolha é decidida fazendo-se
+algum tipo de pergunta (condição). A resposta determina o caminho (ou quais linhas de código) que será executado. Como exemplo, temos as estruturas if/else.
+• Estrutura de repetição ou de iteração – também conhecida como
+loop, porque o fluxograma mostra o looping de volta para repetir a tarefa, esse tipo de estrutura permite que algum código (de
+uma a várias linhas) seja executado (ou repetido) várias vezes. O
+código pode: não ser executado, executado um número fixo de
+vezes ou executado indefinidamente até que alguma condição
+seja atendida.
