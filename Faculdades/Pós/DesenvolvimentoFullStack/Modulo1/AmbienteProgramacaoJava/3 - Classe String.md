@@ -1,0 +1,1 @@
+String é um conjunto de caracteres -> "ola mundo"
