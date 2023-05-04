@@ -28,3 +28,7 @@ uma a várias linhas) seja executado (ou repetido) várias vezes. O
 código pode: não ser executado, executado um número fixo de
 vezes ou executado indefinidamente até que alguma condição
 seja atendida.
+
+**Todas as linguagens de programação de alto nível têm estruturas de controle. Todas as linguagens têm as três categorias de estruturas de controle (sequência, seleção e iteração). A maioria tem a estrutura if/ else e a estrutura while e for**
+
+Outro tipo de estrutura encontrada em diversas linguagens de programação é a função, que são partes essenciais de um programa C#, podendo consistir em vários elementos, como o nome da função (que é usado como referência da função), tipos de retorno dos dados, escopo ou corpo da função, parâmetros que são valores não obrigatórios que podem ser passados como argumentos para a função e o especificador de acesso para definir a acessibilidade da função dentro do programa (FORBELLONE; EBERSPACHER, 2005).
