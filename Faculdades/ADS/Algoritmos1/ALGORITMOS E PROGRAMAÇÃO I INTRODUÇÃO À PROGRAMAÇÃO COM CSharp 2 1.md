@@ -91,3 +91,10 @@ Exemplo:
 15 areaTri = (base * altura) / 2;
 16 }
 17 } 
+
+Observe, na linha 3 deste código, que todo o código escrito até aqui é desenvolvido dentro de uma função principal chamada main. Ou seja, o main é a função principal de execução de todo o código em C#, desse modo, sempre que um programa é carregado, a primeira ação do sistema operacional é invocar a função main.
+
+O código é responsável por realizar três cálculos: área do quadrado, área do retângulo e área do triângulo. No entanto, o código apenas utiliza a função principal. Observe que, na linha 7, é calculada a área do quadrado, realizando uma multiplicação; na linha 11, é calculada a área do retângulo, realizando uma operação de multiplicação; por fim, na linha 15, é calculada a área do triângulo, realizando uma multiplicação. Ou seja, foram realizadas três operações de multiplicação e é aqui que entra o conceito de função
+
+O programador pode declarar a função em qualquer parte do código (exceto dentro de uma outra função ou fora da classe). Além disso, após desenvolver o código da função, o programador pode invocá-la a qualquer momento, em qualquer parte do programa (FEIJÓ; CLUA; SILVA, 2009). Observe, então, que é um recurso útil, principalmente se o objetivo for o reaproveitamento de código
+
