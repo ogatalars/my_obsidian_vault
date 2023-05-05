@@ -72,3 +72,7 @@ As organizações e seus modelos de negócios têm desenvolvido diversos novos m
 
 *As tecnologias de mainframe e cliente-servidor sozinhas não conseguem mais dar suporte a todo esse crescimento. Assim, novas tecnologias surgem não para concorrer umas com as outras, mas para dar suporte, juntas, às necessidades das organizações e aos novos modelos de negócios*
 
+A infraestrutura de redes de comunicação e os avanços tecnológicos de equipamentos tornaram o acesso à internet cada vez mais disponível no planeta, e o mercado global de usuários vem crescendo de forma exponencial. Para a área de pesquisa, as necessidades nos levam a supercomputadores e à computação em grade, em que diversos computadores em rede são alocados para resolver “pedaços” dos cálculos e processos e, assim, dar respostas mais rápidas aos pesquisadores. Por outro lado, e para melhor utilizar os recursos de servidores, temos a virtualização, que possibilita concentrar diversos servidores lógicos em um servidor físico e com isso diminuir os custos do hardware do servidor e até mesmo o custo com licenças de sistemas operacionais. A computação em nuvem proporciona aos usuários uma utilização de recursos de hardware e software cada vez mais barata, com segurança, velocidade e escalabilidade.
+
+1 Applet – pequeno programa que executa uma atividade específica dentro de um browser. 
+2 Missão crítica – termo utilizado para aplicações, processos ou serviços que não podem parar de funcionar.
