@@ -71,3 +71,23 @@ são passados para uma função para que ela os processe.
 será codificado toda a ação que uma função deve desempenhar.
 • <retorno>: por fim, o retorno é responsável por devolver ao fluxo
 do código principal algum conteúdo que foi solicitado.
+
+Exemplo:
+
+1 class Program {
+2
+3 public static void main (string[] args){
+4 int areaQuad, areaRet, lado, ladoMenor, ladoMaior, base, altura, areaTri;
+5
+6 lado = 4;
+7 areaQuad = lado * lado;
+8
+9 ladoMaior = 8;
+10 ladoMenor = 5;
+11 areaRet = ladoMaior * ladoMenor;
+12
+13 base = 5;
+14 altura = 8;
+15 areaTri = (base * altura) / 2;
+16 }
+17 } 
