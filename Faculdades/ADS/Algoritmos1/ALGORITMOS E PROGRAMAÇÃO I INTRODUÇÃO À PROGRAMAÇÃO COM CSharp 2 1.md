@@ -230,3 +230,4 @@ Se valor está relacionado ao conteúdo de uma variável, em outras palavras, es
 15 }
 
 Ao executar o código do quadro 5, as saídas serão nesta sequência: • o quadrado é 4; • o valor da variável numero é 4. No exemplo anterior, definimos uma variável inteira numero com um valor 2. Em seguida, chamamos a função quadrado passando a variável como um argumento. Então, a variável que passamos mudou para uma multiplicação de si mesma (em razão da operação dentro da função) e imprimiu o resultado, ou seja, 4
+
