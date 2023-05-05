@@ -1,0 +1,6 @@
+
+*Os sistemas de informação e sua aplicação nas organizações são a condição primordial para o sucesso dos negócios no mundo atual. As atividades se tornaram mais rápidas, e as decisões estratégicas devem ser tomadas com base em quantidades maiores de informações. A continuidade de uma organização se tornou quase impossível sem o uso de novas tecnologias, como a utilização de sistemas de informação, que tem por objetivos: alcançar excelência operacional; desenvolver novos produtos, serviços e modelos de negócios de forma mais ágil e assertiva; construir relacionamentos com clientes e fornecedores; melhorar a tomada de decisão; ampliar a vantagem competitiva sobre os concorrentes; e ainda garantir a sobrevivência diária de seus negócios.
+
+*A construção de processos estruturados e bem definidos, com modelos adequados a cada situação, precisa ser cada vez mais ágil, e a arquitetura de TI deve ser construída de forma coerente com os negócios da organização.*
+
+A construção de processos estruturados e bem definidos, com modelos adequados a cada situação, precisa ser cada vez mais ágil, e a arquitetura de TI deve ser construída de forma coerente com os negócios da organização.*
