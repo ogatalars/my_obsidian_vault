@@ -98,3 +98,11 @@ O código é responsável por realizar três cálculos: área do quadrado, área
 
 O programador pode declarar a função em qualquer parte do código (exceto dentro de uma outra função ou fora da classe). Além disso, após desenvolver o código da função, o programador pode invocá-la a qualquer momento, em qualquer parte do programa (FEIJÓ; CLUA; SILVA, 2009). Observe, então, que é um recurso útil, principalmente se o objetivo for o reaproveitamento de código
 
+### Funções nativas
+
+
+O C# também permite que o desenvolvedor utilize as funções nativas das linguagens. Essas funções já estão prontas e podem ser invocadas no código a qualquer momento, o que facilita o processo de desenvolvimento. 
+
+Sempre que é necessário apresentar um conteúdo na tela, é utilizada a função Console.WriteLine(), passando por parâmetro o conteúdo que deve ser impresso. O mesmo ocorre com a função Console.ReadLine. Neste caso, o usuário digita um determinado conteúdo e a função retorna o resultado. Logo, a função para imprimir na tela não possui retorno, e a função de entrada possui retorno.
+
+
