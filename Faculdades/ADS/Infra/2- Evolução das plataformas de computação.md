@@ -41,3 +41,34 @@ Com essa divisão de funcionalidades, os processos podem ser executados em plata
 **Os clientes solicitam, por meio de um pedido, um serviço a ser executado pelo servidor. É importante observar que, enquanto o servidor está trabalhando no processo solicitado, o cliente está livre para realizar outras tarefas. O cliente é a parte da arquitetura que se relaciona com o usuário e deve possuir uma interface “amigável”, conhecida como o front-end da aplicação. Os clientes podem solicitar os serviços ao servidor, mas não podem oferecê-los a outros clientes.**
 
 O servidor gerencia todas as solicitações de serviços e pode oferecer respostas a diversos clientes, utilizando os recursos de forma compartilhada. 
+
+O processo servidor é chamado de **back-end.** Os servidores podem prestar serviços de banco de dados, de impressão, de servidores web, etc.; assim as diversas aplicações de negócios da organização podem ser atendidas. 
+
+Os usuários executam suas tarefas no computador local e não percebem a diferença entre acessar o recurso que desejam, local ou remotamente. Logo, a localização do servidor e a comunicação com ele não importam. Os responsáveis pelo projeto da infraestrutura de TI, estes sim, devem utilizar estratégias para garantir aos usuários velocidade, segurança e disponibilidade dos serviços. Os clientes se relacionam com o servidor por meio de uma requisição, e as informações solicitadas são desenvolvidas de acordo com as regras dos negócios e da lógica da aplicação
+
+**Os clientes se relacionam com o servidor por meio de uma requisição, e as informações solicitadas são desenvolvidas de acordo com as regras dos negócios e da lógica da aplicação**
+
+**Na arquitetura *cliente-servidor two-tier (duas camadas*), o cliente se comunica diretamente com o servidor. Suas características são:
+• A base de dados fica armazenada no servidor.
+• As regras e a lógica da aplicação ficam armazenadas no cliente.
+• Quando uma aplicação é alterada, os bancos de dados e as aplicações do cliente também precisam ser alterados.
+• A aplicação do cliente deve ser instalada em todos os computadores dos usuários.
+**
+
+**Na arquitetura *cliente-servidor three-tier (três camadas*), existe
+uma camada intermediária entre o cliente e o servidor. Suas características são:
+• A camada intermediária tem a função de armazenar as regras do
+negócio e a lógica da aplicação.
+• O cliente é responsável apenas pela interface com o usuário.
+• Quando uma alteração acontece na camada intermediária é
+imediatamente assumida por todas as aplicações e pelo banco
+de dados
+A arquitetura cliente-servidor, muito utilizada em diversas organizações para a construção da infraestrutura de TI, apresenta algumas características que precisam ser consideradas, por exemplo: aumento do custo do hardware, tanto no servidor quanto no cliente; custo do software, e aí incluem-se o servidor de banco de dados, os aplicativos e as ferramentas de desenvolvimento e administração.**
+
+Ao digitar o endereço de uma página da internet em um navegador, estamos acessando um servidor com uma aplicação que recebe as chamadas dos usuários, as processa e devolve um conteúdo no formato do que conhecemos como página web. Ao utilizarmos um serviço de busca de previsão de tempo, utilizamos um applet1 em nosso celular que irá buscar os dados em um servidor
+
+#### 3 Combinação de tecnologias – 3a plataforma
+As organizações e seus modelos de negócios têm desenvolvido diversos novos modelos e aplicações em que a infraestrutura de TI se tornou fundamental. Há um número cada vez maior de transações por segundo, e o armazenamento das informações exige cada vez mais espaço em disco. O fenômeno do Big Data, com a geração de altos volumes de dados, e o crescimento diário desses volumes, e ainda os diversos monitoramentos de sensores, como os das condições climáticas de uma determinada região, realizados por milhares de sensores ligados a veículos autônomos. É a tecnologia da internet das coisas (em inglês, IoT – Internet of Things), colocando milhares de dados nas redes de comunicação e nos servidores de banco de dados.
+
+*As tecnologias de mainframe e cliente-servidor sozinhas não conseguem mais dar suporte a todo esse crescimento. Assim, novas tecnologias surgem não para concorrer umas com as outras, mas para dar suporte, juntas, às necessidades das organizações e aos novos modelos de negócios*
+
