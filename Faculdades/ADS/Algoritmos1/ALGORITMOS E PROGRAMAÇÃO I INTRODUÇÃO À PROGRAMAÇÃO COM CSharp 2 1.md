@@ -105,4 +105,128 @@ O C# também permite que o desenvolvedor utilize as funções nativas das lingua
 
 Sempre que é necessário apresentar um conteúdo na tela, é utilizada a função Console.WriteLine(), passando por parâmetro o conteúdo que deve ser impresso. O mesmo ocorre com a função Console.ReadLine. Neste caso, o usuário digita um determinado conteúdo e a função retorna o resultado. Logo, a função para imprimir na tela não possui retorno, e a função de entrada possui retorno.
 
+A biblioteca de matemática é uma das principais utilizadas em C#, sendo aplicada em diversos contextos, principalmente se o objetivo for analisar dados. Além das funções apresentadas, ainda existem outras como arredondamento (Round), mínimo e máximo (Min e Max), funções logarítmicas, entre outras (MICROSOFT, [s. d.]).
 
+Outro exemplo de código: 
+
+1 class Programa {
+2 public int multiplicar(int a, int b){
+3 int total = a * b;
+4 return total;
+5 }
+6
+7 public static void main (string[] args){
+8 int areaQuad, areaRet, lado, ladoMenor, ladoMaior, base, altura, areaTri;
+9 Programa exemplo = new Programa();
+10
+11 lado = 4;
+12 areaQuad = exemplo.multiplicar(lado, lado);
+13
+14 ladoMaior = 8;
+15 ladoMenor = 5;
+16 areaRet = exemplo.multiplicar(ladoMaior, ladoMenor);
+17
+18 base = 5;
+19 altura = 8;
+20 areaTri = exemplo.multiplicar(base, altura) / 2;
+21 }
+22 } 
+
+Nesse código, temos a declaração de uma função chamada multiplicar na linha 2 e uma função main (nativa do código) na linha 7, logo,
+temos duas funções. Sempre que o código é executado, o programa começará pela função main, que é a principal função, independentemente
+de quantas funções o código possua. A seguir, será apresentada uma
+descrição analítica do código, seguindo a ordem de execução do código.
+• Linha 7: função principal, por onde o código se inicia.
+• Linha 8: declaração das variáveis.
+• Linha 9: é criado um objeto, que nada mais é do que uma variável que pode chamar ou invocar uma função. Essa variável especial que pode chamar a função é do tipo Programa. Observe
+que Programa é o nome da classe (linha 1). Sempre será dessa
+maneira, a variável que invocará a função é um objeto da classe.
+• Linha 11: a variável lado recebe o valor 4.
+• Linha 12: a variável exemplo está apontando para a função
+multiplicar. Observe que temos “exemplo ponto multiplicar”, ou
+seja, variável “objeto ponto e o nome do método”. Para esta função, são passados dois valores, afinal, multiplicar exige dois valores. Ambos os valores são do tipo inteiro. Logo, da linha 12, o
+fluxo do código é redirecionado para a linha 2.
+• Linha 2: temos aqui a assinatura da função, que nada mais é do
+que o modificador de acesso (público), o retorno (que será inteiro,
+afinal estamos calculando uma multiplicação) e o nome da função (que é multiplicar). Observe que, na assinatura da função, temos entre parênteses a definição dos tipos de dados/parâmetros
+que essa função recebe. Neste caso, ela recebe dois valores do
+tipo inteiro. Como estamos chamando a função e passando dois
+valores (lado, lado), então precisamos receber esses dois valores.
+• Linha 3: é declarada a variável total, a qual recebe a multiplicação
+da variável a pela variável b. A variável a está recebendo o valor
+da variável lado, assim como a variável b está recebendo o valor
+da variável lado.
+• Linha 4: após calcular a multiplicação, a função retorna o resultado (valor da variável total) para o código que a chamou, logo, o
+fluxo do código retorna para a linha 12.
+• Linha 12: variável areaQuad recebe o resultado gerado pela função multiplicar.
+• Linhas 14 e 15: as variáveis recebem determinados valores.
+• Linha 16: a variável exemplo está apontando novamente para a
+função multiplicar. Observe que temos “exemplo ponto multiplicar”, ou seja, variável “objeto ponto e o nome do método”. Para
+essa função, são passados dois valores, afinal, multiplicar exige dois valores. Ambos os valores são do tipo inteiro, sendo um o
+ladoMaior, e o outro, o ladoMenor. Logo, da linha 16, o fluxo do
+código é redirecionado para a linha 2 novamente.
+• Linha 2: o fluxo do código vem para esta linha. Agora, a variável a,
+do tipo inteiro, receberá o valor referente à variável ladoMaior. De
+igual modo, a variável b, também do tipo inteiro, receberá o valor
+referente à variável ladoMenor. Considere sempre que a ordem
+da passagem dos parâmetros no código principal (linha 16, por
+exemplo) será a mesma ordem de recebimento na assinatura da
+função na linha 2.
+• Linha 3: será realizada a multiplicação do valor a (que representa
+o conteúdo da variável ladoMaior) pela variável valor b (que representa o conteúdo da variável ladoMenor).
+• Linha 4: a função multiplicar retornará o resultado da multiplicação.
+• Linha 16: variável areaRet recebe o resultado gerado pela função
+multiplicar.
+• Linhas 18 e 19: são atribuídos valores para as variáveis.
+• Linha 20: ocorre o mesmo que já foi apresentado anteriormente,
+a função multiplicar é invocada e há a passagem de parâmetros.
+O que muda agora é que, antes do valor de retorno ser atribuído
+para a variável areaTri, o retorno é dividido por 2
+
+**Ao invocar (chamar) uma função no código principal e passar parâmetros, a linguagem C# copia o conteúdo daquela variável da função principal para dentro da variável do parâmetro. Observe, por exemplo, o código do quadro 3.** Quando usamos chamada de uma função por valor, passamos para a função a variável ladoMaior. Lá na função, a variável a, do tipo int, recebe o conteúdo da variável ladoMaior, e toda a operação é realizada sobre a variável a. Desse modo, qualquer mudança na variável a não afetará a variável original (ladoMaior)
+
+1 class Programa {
+2 public void quadrado(int numero){
+3 numero = numero * numero;
+4 Console.WriteLine("O quadrado é: " + numero);
+5 }
+6
+7 public static void main (string[] args){
+8 int numero = 2;
+9 Programa prog = new Programa();
+10
+11 prog.quadrado(numero);
+12 Console.WriteLine("O valor da variável numero é: " + numero);
+13
+14 }
+15 }
+
+Ao executar o código do quadro 4, as saídas serão nesta sequência:
+• o quadrado é 4;
+• o valor da variável número é 2.
+Observe nesse código que foi atribuído o valor 2 para a variável
+numero na linha 8. Em seguida, o fluxo do código é direcionado para
+a linha 11. Note que é realizada a chamada da função quadrado(), passando como parâmetro o valor (ou conteúdo) da variável numero, que é
+2. Desse modo, na linha 2, uma outra variável numero recebe o valor 2 e
+realiza todo o código. Note, então, que a variável numero da linha 8 não
+é a mesma da linha 2 e da linha 3, elas estão em escopos diferentes.
+
+Se valor está relacionado ao conteúdo de uma variável, em outras palavras, estamos passando de uma função x para uma função y um valor, na passagem por referência, estamos enviando para a outra função o endereço de memória da variável em questão. Em C#, é usada a palavra-chave ref para a passagem de um parâmetro por referência para uma função. Observe um exemplo no código a seguir
+
+1 class Programa {
+2 public void quadrado(ref int numero){
+3 numero = numero * numero;
+4 Console.WriteLine("O quadrado é: " + numero);
+5 }
+6
+7 public static void main (string[] args){
+8 int numero = 2;
+9 Programa prog = new Programa();
+10
+11 prog.quadrado(ref numero);
+12 Console.WriteLine("O valor da variável numero é: " + numero);
+13
+14 }
+15 }
+
+Ao executar o código do quadro 5, as saídas serão nesta sequência: • o quadrado é 4; • o valor da variável numero é 4. No exemplo anterior, definimos uma variável inteira numero com um valor 2. Em seguida, chamamos a função quadrado passando a variável como um argumento. Então, a variável que passamos mudou para uma multiplicação de si mesma (em razão da operação dentro da função) e imprimiu o resultado, ou seja, 4
