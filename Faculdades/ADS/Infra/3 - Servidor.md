@@ -30,3 +30,12 @@ pelas páginas web via rede, as empresas de software desenvolvem pacotes integra
 usam applets para acesso aos dados armazenados no servidor.
 Alguns exemplos dessa utilização: plataformas de compartilhamento de vídeos como YouTube; previsão do tempo; aplicativos
 de mensagens como Whatsapp, Messenger e muitos outros.
+• Backup de dados: uma grande vantagem no uso de servidores
+é a administração de backups, garantindo mais segurança e
+confiabilidade.
+• Ligação com periféricos: com o uso de servidores, torna-se
+possível o compartilhamento de equipamentos periféricos, como
+impressão, armazenamento em disco, conexão com internet.
+Isso diminui não só a carga nos computadores dos usuários
+como também o custo com esses periféricos.
+
