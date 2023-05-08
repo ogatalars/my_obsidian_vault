@@ -79,7 +79,7 @@ O disco rígido é um dispositivo do computador com a função de armazenamento 
 ### Classificação dos servidores
 Os servidores podem ser classificados de diversas maneiras. Considerando o caso de infraestrutura de TI vamos classificá-los pelo padrão de gabinete: torre ou tower, rack e blade.
 
-Servidor torre -> Os primeiros servidores que normalmente a empresa coloca em sua infraestrutura de TI são os computadores baseados em torre. São os mais simples do mercado, com custo e espaço necessário similares ao de um computador desktop, ou seja, com a aparência de um computador colocado na mesa do usuário.
+**Servidor torre** -> Os primeiros servidores que normalmente a empresa coloca em sua infraestrutura de TI são os computadores baseados em torre. São os mais simples do mercado, com custo e espaço necessário similares ao de um computador desktop, ou seja, com a aparência de um computador colocado na mesa do usuário.
 Um servidor torre pode se encaixar muito bem nas pequenas empresas com uma excelente relação custo-benefício. São características desse tipo de servidor:
 Tamanho pequeno, ocupa pouco espaço, sem necessitar de uma
 sala reservada para ele.
@@ -89,7 +89,7 @@ próprio gabinete.
 • Menor custo de consumo de energia, menor ruído produzido, principalmente por não necessitar de muitos coolers (ventiladores
 para resfriamento interno).
 
-Servidor Rack -> Com o crescimento dos negócios da empresa e a necessidade de um suporte maior da infraestrutura de TI, os servidores em torre já se tornam um gargalo. Nesse sentido, a melhor estrutura é a construção dos servidores em rack, com slots para expansão de placas e de discos para armazenamento de dados. A configuração de um servidor em rack proporciona maior facilidade na escalabilidade da infraestrutura, pois novos servidores podem ser colocados acrescentando-se placas nos slots, tornando o cabeamento de rede mais compacto. Novos discos são acrescentados, utilizando-se tecnologias que permitem a instalação com o servidor em funcionamento, mantendo as funcionalidades da empresa.
+**Servidor Rack** -> Com o crescimento dos negócios da empresa e a necessidade de um suporte maior da infraestrutura de TI, os servidores em torre já se tornam um gargalo. Nesse sentido, a melhor estrutura é a construção dos servidores em rack, com slots para expansão de placas e de discos para armazenamento de dados. A configuração de um servidor em rack proporciona maior facilidade na escalabilidade da infraestrutura, pois novos servidores podem ser colocados acrescentando-se placas nos slots, tornando o cabeamento de rede mais compacto. Novos discos são acrescentados, utilizando-se tecnologias que permitem a instalação com o servidor em funcionamento, mantendo as funcionalidades da empresa.
 
 características em consideração:
 
@@ -103,7 +103,7 @@ uma sala reservada e gera dificuldade para manutenção dos servidores que preci
 • Ideais para empresas que queiram montar um data center centralizado, com maior flexibilidade e com grande capacidade de
 armazenamento.
 
-Servidor Blade -> Os servidores blade são construídos com o formato de pequenas caixas e em módulos. Isso permite a possibilidade de se colocar mais servidores em um espaço menor. Os servidores são montados em chassi para aumentar a quantidade de módulos, sistemas de armazenamento, fontes de energia, ventilação e placas de comunicação. O sistema de refrigeração integrado diminui muito o custo com energia. Outra vantagem é que a instalação de um novo servidor ou mesmo outros dispositivos, como switches de rede, firewall e balanceadores de carga.
+**Servidor Blade** -> Os servidores blade são construídos com o formato de pequenas caixas e em módulos. Isso permite a possibilidade de se colocar mais servidores em um espaço menor. Os servidores são montados em chassi para aumentar a quantidade de módulos, sistemas de armazenamento, fontes de energia, ventilação e placas de comunicação. O sistema de refrigeração integrado diminui muito o custo com energia. Outra vantagem é que a instalação de um novo servidor ou mesmo outros dispositivos, como switches de rede, firewall e balanceadores de carga.
 
 Algumas características dos servidores blade são importantes para
 se considerar em sua utilização nas empresas:
