@@ -60,4 +60,12 @@ A placa motherboard ou placa-mãe é onde ficam instalados o processador, as mem
 A placa de rede é um componente importante nos computadores, pois é por meio dela que ocorre a comunicação entre vários computadores e o compartilhamento de dados
 
 ##### Processadores
-Os computadores são equipamentos eletrônicos, e a representação das informações é feita por meio de um conjunto de zeros (0) e uns (1). Para que os programas desenvolvidos pelos programadores possam funcionar, existe o processador, cuja arquitetura interna realiza todo o processamento das informações. Em linhas gerais, os processadores possuem internamente diversos blocos de eletrônica que são capazes de todo o processamento lógico, aritmético e de endereçamento Um dos pontos importantes de um processador é a velocidade com que ele executa uma operação
+Os computadores são equipamentos eletrônicos, e a representação das informações é feita por meio de um conjunto de zeros (0) e uns (1). Para que os programas desenvolvidos pelos programadores possam funcionar, existe o processador, cuja arquitetura interna realiza todo o processamento das informações. Em linhas gerais, os processadores possuem internamente diversos blocos de eletrônica que são capazes de todo o processamento lógico, aritmético e de endereçamento Um dos pontos importantes de um processador é a velocidade com que ele executa uma operação. Os fabricantes de processadores colocam toda essa eletrônica em um núcleo chamado de core. Os processadores são então colocados nas placas motherboards e disponibilizados para que sejam construídos os computadores, agregando os outros componentes. Com a exigência de maior velocidade e desempenho, os fabricantes de placas motherboards também disponibilizam modelos com mais de um processador. Atualmente, existem processadores com dois ou mais núcleos, conhecidos como processadores multicore, que substituem as placas motherboard com vários processadores.
+
+A utilização de vários processadores proporciona diversos benefícios para a arquitetura do computador, como: 
+• aumento da confiabilidade, pois caso um processador tenha uma
+falha de hardware, os outros mantém o sistema funcionando;
+• escalabilidade, pois em caso de expansão não é necessário trocar o computador e sim acrescentar mais processadores;
+• alta disponibilidade, característica importante nos servidores;
+• balanceamento de carga, pois o processamento pode ser distribuído entre os diversos processadores, o que aumenta o
+desempenho.
