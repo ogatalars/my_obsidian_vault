@@ -69,3 +69,11 @@ falha de hardware, os outros mantém o sistema funcionando;
 • alta disponibilidade, característica importante nos servidores;
 • balanceamento de carga, pois o processamento pode ser distribuído entre os diversos processadores, o que aumenta o
 desempenho.
+
+##### Memória
+A memória é um componente eletrônico utilizado para armazenar dados temporários ou permanentes. A memória RAM (Random-access Memory) é uma memória volátil, de acesso direto, ou seja, ao desligar o computador, os dados são perdidos. 
+
+##### Disco rígido
+O disco rígido é um dispositivo do computador com a função de armazenamento de dados e que tem uma composição eletromecânica, em que os dados são gravados em disco magnético; mesmo com o desligamento do computador, as informações não são perdidas.
+
+### Classificação dos servidores
