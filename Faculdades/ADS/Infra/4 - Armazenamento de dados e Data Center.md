@@ -33,4 +33,26 @@ dados.
 Vamos nos concentrar nas redes de armazenamento, as SAN
 (Storage Area Network), que são formadas por vários servidores e seus
 dispositivos de armazenamento. As redes que utilizam switches de alta
-velocidade e fibra óptica como meio físico de interligação são chamadas de FC-SAN (Fibre Channel Storage Area Network), rede de área de
+velocidade e fibra óptica como meio físico de interligação são chamadas de FC-SAN (Fibre Channel Storage Area Network), rede de área de armazenamento de canal de fibra, sendo as redes de armazenamento de alta velocidade.
+
+#### BackUp
+O armazenamento de dados consiste em guardar arquivos em dispositivo de várias tecnologias, por exemplo: o armazenamento óptico (CDs, DVS e Blu-Ray),2 o armazenamento magnético (o mais comum é o disco rígido) e o armazenamento eletrônico (as memórias de estado sólido: pen drives, cartões SD e SSD). Segundo Laudon e Laudon (2007), o conceito de backup é utilizado para dar segurança aos dados que foram gravados e, com isso, garantir a continuidade dos negócios. Assim, vamos utilizá-lo como método para armazenamento de cópias dos arquivos em locais diferentes, não só do computador em si, seja ele de usuário ou servidor, como até fora da área da empresa. **O backup tem como objetivo garantir a integridade e a disponibilidade das informações.**
+
+As organizações podem estruturar seus processos de backup utilizando alguns tipos:
+• Backup completo: todas as informações armazenadas no dispositivo são copiadas para outro dispositivo. Pode ser planejado
+um backup completo a cada 24 horas, tendo as informações sido
+alteradas ou não.
+• Backup incremental: são copiados apenas os dados que foram
+alterados entre um backup e outro. Uma vantagem é o menor
+volume de dados a serem copiados e com isso menor tempo
+para a realização do backup.
+• Backup diferencial: na primeira vez que o backup for executado,
+copiará todos os dados; nas próximas vezes, serão copiados todos os dados que foram alterados em relação ao último backup
+completo. Nesse modo de backup são armazenados mais dados
+do que no incremental e menos do que no backup completo. 
+
+#### Data Center 
+*Um Datacenter ou Data Center é um conjunto integrado de componentes de alta tecnologia que permitem fornecer serviços de infraestrutura de TI de valor agregado, tipicamente processamento e armazenamento de dados, em larga escala, para qualquer tipo de organização. Os Datacenters e suas conexões formam a infraestrutura da nuvem, quer seja pública ou privada.*
+Um data center (ou centro de processamento de dados), portanto, é uma infraestrutura fundamental para que muitos dos serviços solicitados pelos usuários sejam realizados e para que as empresas possam dar continuidade aos seus negócios. No data center estão colocados os equipamentos para o processamento e o armazenamento dos dados, com diversos servidores para os mais diversos serviços; sistemas de armazenamento como storages; e equipamentos de rede, como switches e roteadores
+
+Os data centers podem ser divididos em três grandes blocos: as instalações (aqui englobamos as instalações físicas, os equipamentos de energia e refrigeração), o gerenciamento e a TI, conforme mostramos na figura 6. Os data centers recebem todo o provisionamento de energia para funcionar, e a parte de telecomunicações envolve toda a infraestrutura de rede para que as empresas possam fazer upload e download de seus dados armazenados no data center
