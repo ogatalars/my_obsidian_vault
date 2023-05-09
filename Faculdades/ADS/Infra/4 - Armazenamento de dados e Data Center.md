@@ -56,3 +56,35 @@ do que no incremental e menos do que no backup completo.
 Um data center (ou centro de processamento de dados), portanto, é uma infraestrutura fundamental para que muitos dos serviços solicitados pelos usuários sejam realizados e para que as empresas possam dar continuidade aos seus negócios. No data center estão colocados os equipamentos para o processamento e o armazenamento dos dados, com diversos servidores para os mais diversos serviços; sistemas de armazenamento como storages; e equipamentos de rede, como switches e roteadores
 
 Os data centers podem ser divididos em três grandes blocos: as instalações (aqui englobamos as instalações físicas, os equipamentos de energia e refrigeração), o gerenciamento e a TI, conforme mostramos na figura 6. Os data centers recebem todo o provisionamento de energia para funcionar, e a parte de telecomunicações envolve toda a infraestrutura de rede para que as empresas possam fazer upload e download de seus dados armazenados no data center
+
+*a virtualização é o principal serviço de TI do Data Center e influenciará o dimensionamento dos demais serviços oferecidos. O projeto correto da estrutura de TI virtualizada é a chave do bom projeto de Data Center.*
+
+São serviços oferecidos pelo data center:
+• Rede: fornecidos através da rede de switches que conectam
+os componentes internos do data center (os servidores e os
+storages).
+• Segurança: fornecidos pelos equipamentos de firewall3
+ que proveem todo o monitoramento das atividades dos usuários, garantindo a segurança das informações.
+• Processamento: responsáveis pelo desempenho do data center,
+envolvem os servidores e sua arquitetura, os sistemas operacionais e os processadores.
+• Armazenamento: fornecem o armazenamento de dados em
+storage. Diversas redes de armazenamento são construídas no
+data center. Aqui os níveis de disponibilidade e segurança são
+fundamentais.
+• Virtualização: com esses serviços, um servidor físico pode ser
+utilizado para diversas aplicações em sistemas operacionais
+diferentes, otimizando os recursos de hardware do data center.
+Nesse ponto, os sistemas operacionais de virtualização são
+fundamentais.
+Aplicação: envolvem os serviços de load-balancing (balanceamento de carga entre servidores e aplicação), a camada de
+segurança para as aplicações, os SSL (Secure Socket Layer)
+e as técnicas de caching (manter os dados em memória para
+maior velocidade no acesso).
+• Alta disponibilidade e recuperação de desastres: são serviços
+oferecidos pelo data center que garantem a integridade, a alta
+disponibilidade e a recuperação de alguma falha. Aqui equipamentos de backup, site de contingência (onde os dados estão
+espelhados e que podem ser até em outro continente).
+• Monitoramento, gerenciamento e automação: o gerenciamento
+funcionando 24x7 envolve os dispositivos de hardware do data
+center, os sistemas operacionais e seus arquivos de configuração. O planejamento deve garantir a execução dos processos dos
+clientes, mesmo com paradas programadas para manutenção.
