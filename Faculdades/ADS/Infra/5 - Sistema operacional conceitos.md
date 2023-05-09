@@ -53,3 +53,12 @@ Os processos executam várias funções básicas, e será de responsabilidade do
 
 #### Funcionamento do sistema operacional 
 "*qualquer sistema operacional executa cinco funções básicas na operação do sistema de um computador: serve como interface do usuário, gerenciador de recursos, gerenciador de tarefas, gerenciador de arquivos e utilitários, além de oferecer serviços de suporte.*"
+
+Funções do sistema operacional 
+- Interface do usuário Comunicação de rede e sistema com o usuário final
+- Gerenciamento de recursos Gerencia o uso dos recursos do hardware
+- Gerenciamento de tarefas Gerencia a execução das tarefas
+- Gerenciamento de arquivos Gerencia arquivos de dados e os programas
+- Gerenciamento de suporte Gerencia vários serviços de apoio
+
+A interface do usuário é a parte do sistema operacional que faz a comunicação com o usuário e permite que ele possa carregar os programas, acessar os arquivos e realizar diversas tarefas. Existem três tipos de interface de usuário: a orientada a comandos, a orientada a menus e a interface gráfica. Atualmente, a maioria dos sistemas operacionais utiliza a interface gráfica para facilitar o uso dos computadores pelos usuários.
