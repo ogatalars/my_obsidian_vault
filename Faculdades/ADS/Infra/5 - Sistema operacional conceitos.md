@@ -24,3 +24,25 @@ Para o funcionamento de um computador, é necessário um sistema que garanta aos
 **Programa de desenvolvimento do sistema:**  programas que possibilitam ao usuário o desenvolvimento de programas para o processamento das informações. ◦ Exemplos: editores das linguagens de programação e ferramentas de programação da engenharia de software, que auxiliam no projeto dos aplicativos que serão utilizados pelos usuários
 
 *"Na camada mais baixa estão os dispositivos de hardware como: circuitos integrados, fonte de energia, barramentos de comunicação, placas de vídeo, placas de rede, processadores, etc. Esses dispositivos são acessados por meio de um conjunto de instruções que é interpretado pela camada de microprogramação. A camada do sistema operacional recebe as informações das aplicações dos usuários, que são compiladas ou interpretadas por programas que facilitam o acesso das aplicações aos recursos de hardware. Dessa forma, os programas de usuários podem ser desenvolvidos sem a preocupação, por exemplo, de como os dados da memória são transferidos para o disco rígido, em qual trilha do disco serão gravados; ou, ainda, como será a movimentação da cabeça de gravação. Tudo isso é realizado pelo sistema operacional. Acima da camada do sistema operacional existem outras funções como compiladores, editores e interpretadores de comando que auxiliam as aplicações a utilizar o sistema operacional. E, na camada mais alta, estão as aplicações dos usuários, desenvolvidas para resolver problemas específicos, como escrever um texto, processar imagens, aplicações comerciais, etc."*
+
+"A principal finalidade do sistema operacional é maximizar a produtividade do sistema de um computador, operando-o com a máxima eficácia. O sistema operacional minimiza o nível de intervenção humana necessário durante o processamento. Ele ajuda os programas de aplicação a executar operações comuns, como acessar a rede, inserir dados, salvar e recuperar arquivos e imprimir ou exibir uma saída."
+
+#### Componentes de um sistema operacional
+O sistema operacional possui softwares que administram as relações com o hardware de um computador e é escrito com várias linhas de instruções. Para facilitar o desenvolvimento, esses softwares são construídos em módulos, que ficam responsáveis por uma determinada função.
+
+
+KERNEL (NÚCLEO) 
+• Núcleo do sistema operacional
+• Permanece residente na memória do computador
+• Gerencia os processos e a memória
+• Efetua o escalonamento das tarefas
+• Executa a comunicação entre os processos
+• Processa as execuções e interrupções
+
+SHELL (AMBIENTE OPERACIONAL)
+• Conhecido como o ambiente operacional –
+“interpretador de comandos”
+• Assume o controle do programa
+• Recebe as solicitações dos usuários
+• Interpreta as solicitações dos usuários
+• Atua sobre as execuções dos usuários
