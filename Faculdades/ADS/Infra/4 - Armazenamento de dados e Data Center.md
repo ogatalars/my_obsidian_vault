@@ -88,3 +88,15 @@ espelhados e que podem ser até em outro continente).
 funcionando 24x7 envolve os dispositivos de hardware do data
 center, os sistemas operacionais e seus arquivos de configuração. O planejamento deve garantir a execução dos processos dos
 clientes, mesmo com paradas programadas para manutenção.
+
+#### Tipos de dada center
+Os data center podem utilizar painéis modulares e dois níveis de proteção: 
+Portas corta-fogo: em caso de incêndio, barram as chamas
+por um período de tempo, mas não garantem a integridade das
+instalações. 
+Sala-cofre: protege o data center contra todos os tipos de ameaças físicas
+
+**Data center em prédios de missão crítica**
+Esse tipo de data center é utilizado onde há necessidade de armazenar e processar dados críticos e operações complexas. São prédios construídos exclusivamente para o data center, com todos os requisitos de segurança física e com níveis de redundância, para garantir alta disponibilidade das atividades e dos serviços. A modularidade no data center construído em prédios de missão crítica aplica-se à infraestrutura como um todo e deve ser pensada para a demanda atual e para expansão futura
+**Data center em edifícios multidisciplinares** Nesse tipo de data center, construído em prédios comerciais, os espaços são adaptados de acordo com as especificações. O que se deve levar em consideração é que nesse tipo de data center os espaços são compartilhados com várias pessoas, o que aumenta riscos de acesso indevido e roubos
+**Data center modular em contêiner**  Esse tipo de construção de data center é utilizado para empresas que não possuem espaço interno. A solução é um contêiner colocado externamente, por exemplo no estacionamento. Os contêineres marítimos não são adequados para a construção de um data center, pois são estreitos e têm tamanho fixo, dificultando a manutenção e a operação no ambiente. Assim, a ideia é que o data center seja projetado conforme as necessidades de infraestrutura interna e que tenha flexibilidade, considerando a modularidade e a expansão. Os data centers modulares em contêineres são construídos com proteção contra as condições do tempo, com proteção corta-fogo e proteção da sala­ -cofre. O
