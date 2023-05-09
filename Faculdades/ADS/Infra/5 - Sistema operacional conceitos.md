@@ -1,0 +1,1 @@
+"O sistema operacional funciona como um conjunto de processos que inicializa o hardware, fornecendo as rotinas básicas para o controle dos dispositivos. Além disso, gerencia, escalona, faz a interação de tarefas e mantém a integridade do sistema."
