@@ -48,4 +48,8 @@ SHELL (AMBIENTE OPERACIONAL)
 • Atua sobre as execuções dos usuários
 
 O kernel é o núcleo do sistema operacional e responsável pela execução dos processos, sendo a parte mais interna do sistema operacional. O kernel tem a função de iniciar o sistema e fazer a gerência dos recursos. Por exemplo, a memória, o processador e o dispositivo de armazenamento precisam de controle para que possam ser utilizados por diversos programas. Assim, a função do kernel é gerenciar e alocar os recursos necessários de processador, memória e o espaço em disco a serem disponibilizados para o programa e só então iniciar o processo.
+
 Os processos executam várias funções básicas, e será de responsabilidade do kernel responder às solicitações com um conjunto de instruções para que os programas possam funcionar adequadamente
+
+#### Funcionamento do sistema operacional 
+"*qualquer sistema operacional executa cinco funções básicas na operação do sistema de um computador: serve como interface do usuário, gerenciador de recursos, gerenciador de tarefas, gerenciador de arquivos e utilitários, além de oferecer serviços de suporte.*"
