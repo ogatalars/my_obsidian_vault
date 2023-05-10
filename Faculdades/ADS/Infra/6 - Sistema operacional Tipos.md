@@ -11,3 +11,10 @@ Os sistemas operacionais possuem características que os diferem quanto à arqui
 Os computadores de grande porte são diferentes de outros computadores em termos da capacidade de E/S (entrada/saída). Assim disponibilizam muito espaço de armazenamento. Os sistemas operacionais para esses computadores são orientados para processamento simultâneo de muitas tarefas (chamadas de jobs) com enormes quantidades de E/S. Os serviços disponibilizados são: em lote (também chamado de batch), processamento de transações e os de tempo compartilhado. Os mainframes são exemplos desses computadores de grande porte. Atualmente, novos servidores web e servidores para transações têm sido desenvolvidos pelos fabricantes. Empresas como a IBM têm desenvolvido sistemas operacionais para computadores de grande porte. Um exemplo disso é o sistema operacional z/OS.
 
 #### Sistema operacional de servidores
+Os computadores servidores possuem uma arquitetura de hardware desenvolvida para que vários usuários em rede possam utilizar seus recursos ao mesmo tempo; sua função é compartilhar recursos de hardware e software. Esse tipo de sistema operacional deve fornecer um bom gerenciamento de recursos, serviços de impressão, serviços de arquivos e serviços web.
+Atualmente, diversos sistemas operacionais se encaixam nessa categoria, por exemplo: Unix, Windows Server, Linux (e suas diversas distribuições) e outros.
+
+#### Sistema operacional de multiprocessadores
+Para aumentar o poder computacional de um servidor, uma estratégia é interligar várias CPUs em um único sistema. Esses sistemas podem ser chamados de computadores paralelos, multicomputadores ou multiprocessadores. Esse sistema operacional deve ter programas específicos de comunicação e conectividade.
+
+Nesse sistema operacional temos o conceito de cluster – conjunto de computadores que utiliza um sistema operacional para gerenciar os serviços dos sistemas distribuídos. São muito utilizados para serviços de alta disponibilidade e podemos considerá-los em três categorias:
