@@ -17,4 +17,31 @@ Atualmente, diversos sistemas operacionais se encaixam nessa categoria, por exem
 #### Sistema operacional de multiprocessadores
 Para aumentar o poder computacional de um servidor, uma estratégia é interligar várias CPUs em um único sistema. Esses sistemas podem ser chamados de computadores paralelos, multicomputadores ou multiprocessadores. Esse sistema operacional deve ter programas específicos de comunicação e conectividade.
 
-Nesse sistema operacional temos o conceito de cluster – conjunto de computadores que utiliza um sistema operacional para gerenciar os serviços dos sistemas distribuídos. São muito utilizados para serviços de alta disponibilidade e podemos considerá-los em três categorias:
+Nesse sistema operacional temos o conceito de **cluster** – conjunto de computadores que utiliza um sistema operacional para gerenciar os serviços dos sistemas distribuídos. São muito utilizados para serviços de alta disponibilidade e podemos considerá-los em três categorias:
+
+**Cluster de alta disponibilidade:** os sistemas permanecem funcionando por um longo tempo, e podemos dizer que eles nunca
+param e podem oferecer serviços onde essa necessidade seja
+importante.
+• **Cluster de alto desempenho:** os sistemas nesse caso possibilitam uma alta carga de processamento. Um exemplo são os sistemas que demandam grande quantidade de cálculos.
+• **Cluster de balanceamento de carga:** já esse tipo de cluster tem
+por função controlar a distribuição equilibrada do processamento.
+
+Como exemplos de sistemas operacionais com características para cluster podemos citar: Failover Cluster Windows, VMware ESXi e o Heartbeat do sistema operacional Linux. Desses exemplos apenas o sistema operacional Linux é gratuito, os demais dependem da aquisição de licença.
+
+#### Sistema operacional para computadores pessoais
+São os sistemas operacionais para uso em computadores pessoais ou computadores utilizados na empresa como estação de trabalho (os desktops dos usuários). Como exemplos de sistemas operacionais para usuários temos: Windows da Microsoft, MacOS para os computadores Macintosh da Apple e as diversas distribuições Linux.
+
+#### Sistema operacional para dispositivos portáteis
+São os sistemas operacionais utilizados em dispositivos portáteis. Nessa categoria vamos colocar os celulares, os smartphones e os iPod (tocador de música) e o iPad Touch (computador portátil). Como exemplos de sistemas operacionais para dispositivos portáteis temos o iOS (sistema da Apple para uso em celulares iPhone, iPod e iPad Touch), o Android (sistema operacional para celulares e smartphones, desenvolvido pela empresa Google, com base no núcleo do sistema operacional Linux) e o Windows Phone
+
+#### Sistema operacional de tempo real
+Para determinadas aplicações o tempo é um parâmetro fundamental, e isso significa que a execução de tarefas exige confiabilidade em tempo bastante preciso. São chamados de sistema operacional de tempo real (RTOS – Real Time Operating Systems). As rotinas para o processamento são muito especializadas e curtas para que possam executar a tarefa no menor espaço de tempo: as atividades com maior prioridade são executadas primeiro pelo processador, interrompendo alguma outra atividade de menor prioridade.
+Como as tarefas são divididas em rotinas bem especializadas (fazem uma ação bem específica), o sincronismo e o gerenciamento das interrupções são ações muito importantes desse tipo de sistema operacional. São exemplos de uso de sistema operacional de tempo real: sistemas de controle de tráfego aéreo, sistemas de controle de processos industriais, sistemas de robôs, sistemas médicos
+
+#### Sistema operacional embarcado
+O sistema operacional embarcado é utilizado para pequenos dispositivos, pois realiza poucas funções. É importante considerar que esse tipo de sistema operacional deve trabalhar com restrições de tamanho, memória e de consumo de energia. Como exemplos de uso de sistema operacional embarcado temos: equipamentos eletrodomésticos, os celulares, os setups box de TV digital, entre outros.
+
+#### Sistema operacional de cartões inteligentes
+Os sistemas de cartões inteligentes (smart cards) são dispositivos do tamanho de um cartão de crédito, com uma CPU dentro dele, e com restrições quanto ao consumo de energia e à memória. São dispositivos que podem ter uma função específica, como pagamentos eletrônicos, ou com mais funções. O sistema operacional para os cartões inteligentes é bem simples e dedicado. São exemplos de uso de cartão inteligente: os cartões de controle de acesso, os cartões de bilhetes de passagens e o cartão utilizado como substituto do dinheiro
+
+### Categorias do uso do sistema operacional 
