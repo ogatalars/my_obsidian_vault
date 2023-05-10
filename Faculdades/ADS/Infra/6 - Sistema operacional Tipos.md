@@ -5,4 +5,5 @@ Os sistemas operacionais podem ser divididos em dois tipos:
 
 Para que os usuários possam executar várias tarefas, o sistema multiusuário utiliza um recurso chamado tempo compartilhado (time- -sharing), que na prática significa que o sistema operacional aloca uma fatia de tempo do processador e também de memória e periféricos que são então compartilhados. Não podemos esquecer que a velocidade do processador é muito maior do que memória e dispositivos periféricos. Graças a isso, o sistema operacional pode alocar diversas tarefas, ou seja, enquanto uma tarefa espera resposta de memória ou de dispositivo periférico, o processador pode executar outra tarefa. O gerenciamento das tarefas é feito por rotinas do sistema operacional.
 
-Os sistemas operacionais possuem características que os diferem quanto à arquitetura de hardware onde serão executados, e escolher o sistema operacional que melhor se adapta ao hardware dará às aplicações e aos negócios maior performance e facilidade no uso
+Os sistemas operacionais possuem características que os diferem quanto à arquitetura de hardware onde serão executados, e escolher o sistema operacional que melhor se adapta ao hardware dará às aplicações e aos negócios maior performance e facilidade no uso.
+
