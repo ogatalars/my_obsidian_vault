@@ -7,3 +7,7 @@ Para que os usuários possam executar várias tarefas, o sistema multiusuário u
 
 Os sistemas operacionais possuem características que os diferem quanto à arquitetura de hardware onde serão executados, e escolher o sistema operacional que melhor se adapta ao hardware dará às aplicações e aos negócios maior performance e facilidade no uso.
 
+#### Sistema operacional para computadores de grande porte
+Os computadores de grande porte são diferentes de outros computadores em termos da capacidade de E/S (entrada/saída). Assim disponibilizam muito espaço de armazenamento. Os sistemas operacionais para esses computadores são orientados para processamento simultâneo de muitas tarefas (chamadas de jobs) com enormes quantidades de E/S. Os serviços disponibilizados são: em lote (também chamado de batch), processamento de transações e os de tempo compartilhado. Os mainframes são exemplos desses computadores de grande porte. Atualmente, novos servidores web e servidores para transações têm sido desenvolvidos pelos fabricantes. Empresas como a IBM têm desenvolvido sistemas operacionais para computadores de grande porte. Um exemplo disso é o sistema operacional z/OS.
+
+#### Sistema operacional de servidores
