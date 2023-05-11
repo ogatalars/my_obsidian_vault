@@ -103,3 +103,5 @@ comunicação, também chamada de placa de rede.
 Esta camada é responsável pela definição das características mecânicas – conectores
 e pinos, elétricas – tipo e nível de sinal, e funcionais. Também cuida da ativação,
 manutenção e desativação das conexões físicas necessárias para a transmissão dos bits
+
+*A construção de um padrão único e universal para os fabricantes de equipamentos e programas para redes de comunicação foi possível graças ao desenvolvimento do que se chamou TCP/IP (Transmission Control Protocol/Internet Protocol), desenvolvido pela Agência de Pesquisas Avançadas do Departamento de Defesa dos Estados Unidos – DARPA (U.S. Department of Defense Advanced Research Projects Agency)*
