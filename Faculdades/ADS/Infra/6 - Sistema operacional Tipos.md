@@ -82,4 +82,17 @@ para aplicações específicas (O’BRIEN; MARAKAS, 2013):
 
 • Windows Server 2008, Standard Edition: voltado para uso em
 pequenos servidores, para compartilhamento de arquivos e impressão, serviços de conectividade com a internet e intranet3 e ainda a execução de forma centralizada de aplicações.
-• Windows Server 2008, Enterprise Edition: voltado para as aplicações coorporativas, com suporte a serviços XML4  (eXtensibleMarkup Language) na web.
+• Windows Server 2008, Enterprise Edition: voltado para as aplicações coorporativas, com suporte a serviços XML4  (eXtensible Markup Language) na web.
+Windows Server 2008, Datacenter Edition: voltado para aplicações corporativas e as de missão crítica, em que são exigidas
+escalabilidade e disponibilidade altas.
+• Windows Server 2008, Web Edition: voltado para serviços de
+hospedagem de páginas web e para o desenvolvimento e a utilização de aplicações e serviços na web.
+
+O Windows Server 2008 incorpora características do Windows Vista
+e implementa novos recursos, como:
+• processos de rede com IPv6 nativo, rede wireless nativa, melhorias na segurança e velocidade;
+• instalação baseada em imagem, com implantação e recuperação
+melhoradas, com novas ferramentas de diagnóstico;
+• novos recursos de segurança e firewall com configuração mais
+segura;
+• processadores e dispositivos de memória modelados como dispositivos plug and play e conectados de forma automática.
