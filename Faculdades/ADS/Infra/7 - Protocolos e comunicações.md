@@ -56,3 +56,29 @@ mais sofisticados e custo da transmissão mais alto.
 As comunicações podem ser intercaladas na linha de transmissão e, assim, dividir a banda com cada usuário.
 
 #### Camadas de rede
+A comunicação entre dispositivos em uma rede é complexa e cheia de detalhes. Para facilitar o desenvolvimento, no final dos anos 1970 a organização internacional para padronização de normas técnicas, a ISO (International Organization for Standardization), definiu um modelo para a comunicação em sete camadas e o denominou modelo OSI. A partir dele, as empresas desenvolveriam seus equipamentos. Esse modelo possibilita a divisão das funções da comunicação em camadas: facilita o gerenciamento do tráfego e padroniza os componentes da rede. Assim, o desenvolvimento pode ser feito por vários fabricantes, tornando mais fácil a comunicação entre dispositivos diferentes de hardware e software. Outra grande vantagem é que modificações em uma camada não afeta as outras, o que possibilita um desenvolvimento mais rápido e a implementação de novas tecnologias.
+
+7 – Aplicação
+Nessa camada estão as aplicações de rede e seus protocolos. Por exemplo: HTTP (que
+proporciona a requisição e a transferência de documentos pela web), o SMTP (que cuida
+das transferências de mensagens de correio eletrônico), FTP (que cuida da transferência
+de arquivos entre dois sistemas finais).
+
+6 – Apresentação 
+Essa camada é responsável pela entrega e formatação da informação a ser entregue para
+a camada de aplicação.
+
+5 – Sessão
+Essa camada é responsável por gerenciar e administrar os diálogos entre dois processos
+de aplicação, que podem ser feitos de forma simplex, half duplex e full duplex. Nessa
+camada temos a quebra de um pacote e a inserção de uma marca lógica no início do
+diálogo, e assim identificar os blocos recebidos. 
+
+4 – Transporte
+Essa camada é responsável pelas funções de conexão entre o dispositivo fonte e o
+destino, segmentando os dados em unidades com tamanho apropriado para a utilização
+na camada de rede. Como funções principais estão a conexão para cada requisição vinda
+do nível superior, multiplexar as várias conexões em uma única conexão de rede, dividir
+as mensagens em tamanhos menores e que serão tratadas pelo nível abaixo (a camada de
+rede). O nível de transporte trabalha com a conexão lógica fim a fim, enquanto os outros
+níveis de rede, enlace e física, controlam como essas mensagens serão transmitidas.
