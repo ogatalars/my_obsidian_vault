@@ -82,3 +82,24 @@ do nível superior, multiplexar as várias conexões em uma única conexão de r
 as mensagens em tamanhos menores e que serão tratadas pelo nível abaixo (a camada de
 rede). O nível de transporte trabalha com a conexão lógica fim a fim, enquanto os outros
 níveis de rede, enlace e física, controlam como essas mensagens serão transmitidas.
+
+3 – Rede
+Essa camada é responsável por controlar a operação da rede. Tem como função o
+roteamento dos pacotes entre a fonte e o destino. O pacote é recebido pela camada
+de rede com um endereço de destino na porta de entrada do roteador, que irá verificar
+se o pacote está endereçado para esse roteador em particular ou não. Caso não esteja
+endereçado para esse roteador local, será feita uma busca na tabela de roteamento
+e então será enviado para a saída adequada. Para o caso de o pacote não ser para o
+roteador e o endereço de destino não estiver na tabela de roteamento, o pacote será
+descartado.
+
+2 – Enlace
+Essa camada é responsável pelo tratamento dos dados e lida com erros de transmissão,
+topologia da rede e controle de fluxo dos bits. Ela também faz o controle de acesso
+ao meio (MAC – Medium Access Control). Esse MAC é o endereço físico da placa de
+comunicação, também chamada de placa de rede.
+
+1 – Física
+Esta camada é responsável pela definição das características mecânicas – conectores
+e pinos, elétricas – tipo e nível de sinal, e funcionais. Também cuida da ativação,
+manutenção e desativação das conexões físicas necessárias para a transmissão dos bits
