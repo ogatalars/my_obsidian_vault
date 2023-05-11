@@ -107,3 +107,13 @@ desenvolvimento:
 • Linha desenvolvida pela AT&T, que se tornou o System V do Unix
 System Labs.
 • Linha desenvolvida na Universidade da Califórnia, que se chamou BSD (Berkeley Software Development).
+Em 1977, com a disponibilização das fontes dos arquivos do sistema operacional pela AT&T, várias empresas desenvolveram seus sistemas similares ao Unix.
+• AIX – desenvolvido pela IBM, com base no System V.
+• Sun Solaris – desenvolvido pela Sun Microsystems, com base no
+System V e BSD.
+• HP-UX – desenvolvido pela HP e baseado no System V.
+• Ultrix – desenvolvido pela DEC.
+• Unixware – desenvolvido pela Novell.
+• Unix SCO – desenvolvido pela Santa Cruz Operation e HP, baseado no System V
+
+"Em 1985, o professor Andrew Tanembaum, com o objetivo de ensinar programação de computadores, desenvolveu um sistema operacional mínimo e o chamou de Minix. Em 1991, o estudante finlandês Linus Torvalds desenvolveu um sistema operacional tendo como base o Minix. Esse sistema funcionava nas arquiteturas de processadores 386 – que são os processadores dos computadores pessoais. Essa iniciativa deu origem ao que ficou conhecido como sistema operacional Linux."
