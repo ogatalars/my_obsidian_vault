@@ -54,3 +54,32 @@ diversos tipos de equipamentos e podem ser divididos em:
 tablets). 
 
 A maioria dos computadores atuais tem processadores potentes e, por isso, pode ser multitarefa; isso é possível também por causa do uso direto da memória, o que faz com que o armazenamento primário possa ser subdividido em diversas partições maiores e, assim, cada parte pode ser utilizada por aplicações diferentes. Essa característica faz com que um computador possa se comportar como se fosse muitos, ou como máquinas virtuais,1 em que cada aplicação é executada de forma independente e simultânea (LAUDON; LAUDON, 2007).
+
+Um sistema operacional para computadores utilizado por muito tempo foi o DOS (Disk Operating System), com características de sistema operacional de um único usuário e monotarefa e que depois a Microsoft complementou com uma interface gráfica e alguns recursos de multitarefa
+
+#### Sistemas operacionais Windows para desktop
+A partir de 1995, a Microsoft substituiu o DOS/Windows pelo Windows 95, uma versão de sistema operacional com interface gráfica para o usuário, recursos de multitarefa, serviços de rede e de multimídia. Já em 1998 é lançado o Windows 98 com diversos aprimoramentos e que depois daria origem ao Windows Me (Millennium Edition). Com o passar dos anos, a Microsoft lançou vários sistemas operacionais para desktops. Em 2001, lançou o Windows XP (eXPerience Professional) nas versões Home e Professional. Depois vieram o Windows 7, o Windows 8, o Windows 8.1 e o Windows 10. As diversas versões do sistema operacional para desktops agregaram novas funcionalidades e facilidades. E, como curiosidade, foi a partir do Windows 95 que o conceito de plug and play2 e a navegação na internet através do Internet Explorer foram desenvolvidos. O Windows 98 incorpora o padrão USB, que passou a ser amplamente utilizado. O Windows Millennium Edition foi a última versão de sistema operacional baseada no DOS. Lançada em 2000, é, segundo especialistas, a pior de todas as versões do Windows.
+
+Em 2001 foi lançada a versão Windows XP, que ficou quase 13 anos com suporte. Segundo especialistas, foi a melhor versão de sistema operacional para desktop desenvolvida pela Microsoft. O Windows 7, lançado em 2009, trouxe poucas mudanças com relação ao Windows XP, sendo muito mais rápido, estável e mais fácil de utilizar. Com o avanço dos dispositivos sensíveis ao toque, a Microsoft lançou em 2012 o Windows 8. Entretanto, devido a mudanças radicais na aparência, que não agradou a todos, ele foi considerado um fracasso, apesar das novidades como o suporte ao USB 3.0 e a loja de aplicativos da Microsoft, onde o usuário poderia adquirir programas on-line. Como opção para diminuir a rejeição ao Windows 8, a Microsoft lançou o Windows 8.1, porém sem muitas novidades, a não ser a volta do botão do Menu Iniciar. Em 2014 foi lançado o Windows 10, com foco nos desktops. Várias funcionalidades para facilitar a vida dos usuários foram acrescentadas. Um dos grandes desafios dessa versão de Windows é reconquistar a confiança dos usuários, um tanto abalada com o Windows 8 (MICROSOFT, 2018).
+
+**Sistemas operacionais Windows para servidores**
+Para os sistemas operacionais desenvolvidos pela Microsoft para utilização em computadores servidores podemos começar com o lançamento do Windows NT (New Technology) em 1995, um multitarefa e multiusuário que permitia a instalação em diversos servidores de rede com a finalidade de gerenciar computadores com necessidades de alto desempenho. Versões de servidores e workstations (estações de trabalho) foram lançadas em 1997. Em 2000, após vários aperfeiçoamentos, foi lançada a versão Windows 2000.
+
+Em 2003 a Microsoft lançou o Windows Server 2003, sendo um
+Windows XP com algumas características “desligadas” no kernel e
+com maior estabilidade. Acrescentou novas melhorias de rede e mais
+serviços para administração. Uma atualização surgiu em 2005 e foi
+chamada de Windows Server 2003 R2.
+Em 2006 foi lançado o Windows Vista, com centenas de novas funcionalidades, como nova interface gráfica, novos recursos de pesquisa,
+ferramentas de criação de multimídia, e os sistemas de rede, de impressão, de áudio e de vídeo. Uma funcionalidade colocada nessa versão de
+sistema operacional foi a possibilidade de comunicação peer-to-peer,
+que nada mais é do que a comunicação entre computadores de uma
+rede doméstica, possibilitando o compartilhamento de arquivos de
+mídia entre os diversos dispositivos. A preocupação com a segurança
+e diminuição das vulnerabilidades também foi um dos maiores objetivos dessa versão.
+Em 2008 foi lançado o Windows Server 2008, que ampliou as características do Windows Vista e apresentou quatro versões projetadas
+para aplicações específicas (O’BRIEN; MARAKAS, 2013):
+
+• Windows Server 2008, Standard Edition: voltado para uso em
+pequenos servidores, para compartilhamento de arquivos e impressão, serviços de conectividade com a internet e intranet3 e ainda a execução de forma centralizada de aplicações.
+• Windows Server 2008, Enterprise Edition: voltado para as aplicações coorporativas, com suporte a serviços XML4  (eXtensibleMarkup Language) na web.
