@@ -116,4 +116,40 @@ System V e BSD.
 • Unixware – desenvolvido pela Novell.
 • Unix SCO – desenvolvido pela Santa Cruz Operation e HP, baseado no System V
 
-"Em 1985, o professor Andrew Tanembaum, com o objetivo de ensinar programação de computadores, desenvolveu um sistema operacional mínimo e o chamou de Minix. Em 1991, o estudante finlandês Linus Torvalds desenvolveu um sistema operacional tendo como base o Minix. Esse sistema funcionava nas arquiteturas de processadores 386 – que são os processadores dos computadores pessoais. Essa iniciativa deu origem ao que ficou conhecido como sistema operacional Linux."
+*"Em 1985, o professor Andrew Tanembaum, com o objetivo de ensinar programação de computadores, desenvolveu um sistema operacional mínimo e o chamou de Minix. Em 1991, o estudante finlandês Linus Torvalds desenvolveu um sistema operacional tendo como base o Minix. Esse sistema funcionava nas arquiteturas de processadores 386 – que são os processadores dos computadores pessoais. Essa iniciativa deu origem ao que ficou conhecido como sistema operacional Linux."*
+
+#### Sistema operacional Linux
+O sistema operacional Linux, similar em algumas características ao sistema operacional Unix, possui baixo custo, é confiável e tem grande aceitação no mercado de servidores como um sistema operacional de alto desempenho. Sua utilização em servidores de rede e de web para os mais variados tipos e tamanhos de empresa o tem colocado em forte crescimento. Como o sistema operacional Linux foi construído utilizando o conceito de software de código aberto ou software livre, existem diversos programadores no mundo todo contribuindo para seu desenvolvimento.
+
+*"o conceito de software de código aberto vem se ampliando além do sistema operacional Linux. A ideia básica por trás do código aberto é bem simples: se os programadores puderem ler, redistribuir e modificar o código-fonte de uma parte do software, este evoluirá."*
+
+Com esse conceito, criou-se uma comunidade de desenvolvedores do software de código aberto. Isso tornou mais rápido o ciclo de desenvolvimento e o surgimento de novas aplicações; os erros vão sendo corrigidos e a solução de software proposta vai se tornando mais estável. O conceito de software de código aberto pode ser desenvolvido com vários modelos de distribuição para que não entre em conflito com os chamados softwares proprietários, que têm licença de uso e são comercializados.
+
+Existem diversas distribuições do sistema operacional Linux, como: Mandriva, Suse, Ubuntu, Slackware, Debian, Fedora, Red Rat, entre outras. O kernel dessas distribuições está baseado na versão original de Linus Torvalds e a ele são acrescentadas funcionalidades conforme a aplicação desejada. Além disso, ambientes gráficos são desenvolvidos e incorporados às versões que estão em desenvolvimento.
+
+#### Sistema operacional Mac OS X
+Os computadores da Apple, os chamados iMac, possuem um sistema operacional desenvolvido especificamente para eles; possuem interface gráfica avançada, multitarefa e multiusuário, com recursos integrados para navegador web, correio eletrônico, mensagens instantâneas, tocador de mídia e diversas outras características para o usuário.
+
+O Mac OS X também incluiu uma série de características destinadas a tornar o sistema operacional mais estável e confiável que os sistemas operacionais anteriores da Apple. A preemptividade5 e a proteção de memória, por exemplo, aprimoraram a capacidade do sistema operacional em executar vários aplicativos simultaneamente sem que estes interrompam ou corrompam uns aos outros.
+
+
+#### Sistemas operacionais para dispositivos móveis
+Os dispositivos móveis também necessitam de sistema operacional e existem diversos sistemas operacionais para celulares e smartphones no mercado
+
+**Android:** desenvolvido pela Google, utilizando como base o núcleo do sistema operacional Linux. Possui conexão com as redes
+sem fio – bluetooth, wi fi, 3G e 4G. Com a arquitetura de software
+em código aberto, pode ser alterado e adaptado para diversos
+hardwares de celulares e smartphones. Os aplicativos podem ser
+adquiridos nas lojas da Play Store.
+**• Mac OS X (IOS):** desenvolvido pela Apple para ser utilizado nos
+iPhones e iPads. Foi o primeiro sistema operacional desenvolvido para telefones celulares incorporando tecnologias de toque e
+adaptadas à multimídia (imagens, vídeos e músicas). Os aplicativos podem ser adquiridos nas lojas da Apple Store. Uma curiosidade é que até o momento não existem vírus para esse sistema
+operacional.
+**• Symbian:** sistema operacional desenvolvido pelas empresas
+Nokia, Ericsson, Motorola e Panasonic. Possui simplicidade e seu
+maior foco é na rapidez e acessibilidade. Esse sistema operacional pode ser licenciado para uso em dispositivos que sejam de
+outros fabricantes.
+**• Windows Phone:** desenvolvido pela Microsoft e baseado no
+Windows CE. Utiliza hardware específico para que possa operar
+corretamente. Integra os aplicativos de escritório da versão para
+computador, da Microsoft.
