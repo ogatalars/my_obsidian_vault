@@ -55,4 +55,4 @@ mais sofisticados e custo da transmissão mais alto.
 
 As comunicações podem ser intercaladas na linha de transmissão e, assim, dividir a banda com cada usuário.
 
-#### Camadas de r
+#### Camadas de rede
