@@ -45,3 +45,12 @@ O sistema operacional embarcado é utilizado para pequenos dispositivos, pois re
 Os sistemas de cartões inteligentes (smart cards) são dispositivos do tamanho de um cartão de crédito, com uma CPU dentro dele, e com restrições quanto ao consumo de energia e à memória. São dispositivos que podem ter uma função específica, como pagamentos eletrônicos, ou com mais funções. O sistema operacional para os cartões inteligentes é bem simples e dedicado. São exemplos de uso de cartão inteligente: os cartões de controle de acesso, os cartões de bilhetes de passagens e o cartão utilizado como substituto do dinheiro
 
 ### Categorias do uso do sistema operacional 
+Como já dissemos, os sistemas operacionais são projetados para
+diversos tipos de equipamentos e podem ser divididos em:
+• sistemas operacionais para mainframes;
+• sistemas operacionais para desktops;
+• sistemas operacionais para servidores;
+• sistemas operacionais para dispositivos móveis (celulares e
+tablets). 
+
+Vamos nos concentrar nos sistemas operacionais para desktop, servidores e dispositivos móveis. A maioria dos computadores atuais tem processadores potentes e, por isso, pode ser multitarefa; isso é possível também por causa do uso direto da memória, o que faz com que o armazenamento primário possa ser subdividido em diversas partições maiores e, assim, cada parte pode ser utilizada por aplicações diferentes. Essa característica faz com que um computador possa se comportar como se fosse muitos, ou como máquinas virtuais,1 em que cada aplicação é executada de forma independente e simultânea (LAUDON; LAUDON, 2007).
