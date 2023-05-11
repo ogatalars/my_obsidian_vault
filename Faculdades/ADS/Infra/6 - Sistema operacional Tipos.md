@@ -96,3 +96,14 @@ melhoradas, com novas ferramentas de diagnóstico;
 • novos recursos de segurança e firewall com configuração mais
 segura;
 • processadores e dispositivos de memória modelados como dispositivos plug and play e conectados de forma automática.
+
+O Windows Server 2012, lançado em setembro de 2012, acrescenta novos recursos com ênfase em computação em nuvem, atualização do software Hyper-V para virtualização e um novo sistema de arquivo. Em 2014 foi lançado a versão Windows Server 2012 R2.
+
+#### Sistema operacional Unix
+O sistema operacional Unix foi desenvolvido por Ken Thompson nos laboratórios da Bell AT&T em 1965. É multitarefa, multiusuário e gerenciador de redes e, graças a sua portabilidade, pode ser executado em computadores de pequeno, médio ou grande porte. Possui vários interpretadores de comandos (shell) e vários utilitários (montadores, compiladores para diversas linguagens de programação, processadores de texto, serviços de e-mail, serviços de banco de dados, etc.).
+
+A evolução do sistema operacional Unix e a distribuição dos códigos fonte junto às universidades fez com que surgissem duas linhas de
+desenvolvimento:
+• Linha desenvolvida pela AT&T, que se tornou o System V do Unix
+System Labs.
+• Linha desenvolvida na Universidade da Califórnia, que se chamou BSD (Berkeley Software Development).
