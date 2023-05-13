@@ -6,4 +6,4 @@ Para ser interligado em uma rede local ou global, um dispositivo deve possuir um
 
 I/G – INDIVIDUAL/GROUP
 Corresponde à identificação: se o endereço Mac for individual, o valor
-será 0; se for de broadcast ou multicast, o indicador será 1.
+será 0; se for de broadcast ou multicast, o indicador será 1
