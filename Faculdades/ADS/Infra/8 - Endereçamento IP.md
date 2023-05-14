@@ -12,4 +12,8 @@ G/L – 1 BIT
 Global/local: corresponde ao bit que faz a diferença se o endereço MAC
 possui âmbito global (por exemplo, administrado pelo IEEE) ou local.
 
+OUI – 22 BITS Identificador único atribuído pelo IEEE a cada fabricante
+
+IDENTIFICADOR – 24 BITS É o identificador da interface em si, que pertence a um fabricante
+
 
