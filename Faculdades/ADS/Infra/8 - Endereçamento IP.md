@@ -25,3 +25,10 @@ Podemos executar comandos no computador através do sistema operacional. No Wind
 Na arquitetura de rede proposta pela internet existem os roteadores e os hospedeiros. Eles possuem em geral um único enlace com a rede e quando enviam um datagrama para a rede o fazem através desse enlace. A ligação do hospedeiro (também chamado de host) com a rede é a interface de rede, também chamada de placa de rede (ROSS; KUROSE, 2013).
 
 A função do roteador é receber um datagrama em um enlace e enviá-lo para algum outro enlace, o que por si só já indica que o roteador deve ser ligado a dois ou mais enlaces. Aqui também é importante considerar que a comunicação do roteador com o enlace se dá através de uma placa de rede.
+
+A conexão entre hospedeiros e roteadores na arquitetura de rede da internet necessita que cada dispositivo possua um endereço para que essa conexão lógica possa ser estabelecida, e como também tanto os hospedeiros quanto os roteadores necessitam de uma interface física para a conexão com o enlace, tem-se então uma forma de conectar endereços lógicos a endereços físicos (ROSS; KUROSE, 2013).
+
+O endereço lógico que será atribuído a placas de rede dos hospedeiros e as portas de comunicação dos roteadores se chama IP (Internet Protocol) e é constituído por um conjunto de 32 bits, equivalentes a 4 bytes. Assim, é possível a criação de um esquema de endereçamento com capacidade para 232 endereços IP possíveis, ou seja, em torno de 4 bilhões de endereços. Ou seja, para acessar a rede o dispositivo precisa das seguintes informações:
+
+Endereço de rede Endereço do host na rede
+Máscara de rede
