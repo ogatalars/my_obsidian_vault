@@ -8,3 +8,8 @@ I/G – INDIVIDUAL/GROUP
 Corresponde à identificação: se o endereço Mac for individual, o valor
 será 0; se for de broadcast ou multicast, o indicador será 1.
 
+G/L – 1 BIT
+Global/local: corresponde ao bit que faz a diferença se o endereço MAC
+possui âmbito global (por exemplo, administrado pelo IEEE) ou local.
+
+
