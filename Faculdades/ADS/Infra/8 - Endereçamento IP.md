@@ -19,3 +19,5 @@ IDENTIFICADOR – 24 BITS É o identificador da interface em si, que pertence a 
 Podemos executar comandos no computador através do sistema operacional. No Windows, por exemplo, isso é possível através do prompt de comando. Para isso, execute o comando “cmd”, na barra de tarefas ou no menu iniciar, dependendo da versão de sistema operacional que esteja sendo utilizada; isso dará acesso a um ambiente onde é possível a execução de comandos do sistema operacional em linha de texto. Ao digitar o comando “ipconfig /all”, serão apresentadas informações sobre endereços das placas instaladas
 
 **A arquitetura da internet está baseada na utilização do protocolo TCP/IP**
+
+"Quando um usuário envia uma mensagem a outro usuário da Internet, ela é decomposta em pacotes por meio do protocolo TCP. Cada pacote contém seu endereço de destino. Eles são então enviados do cliente para o servidor de rede e, de lá, para quantos servidores forem necessários até chegar a um computador específico com um endereço conhecido. No endereço de destino, os pacotes são remontados de modo a formar a mensagem original."
