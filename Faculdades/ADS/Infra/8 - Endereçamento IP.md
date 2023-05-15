@@ -56,3 +56,22 @@ Exemplo: uma empresa deseja preparar uma rede que deverá ter no máximo 40 comp
 O switch é um equipamento que trabalha na camada de enlace do modelo OSI e interliga os hosts por meio de seus endereços. Em geral, possui diversas interfaces de rede às quais os computadores são interligados, e os acessa por meio dos endereços MAC. O switch possui um domínio de broadcast. Quando desejam instalar mais computadores do que o número de portas do switch, alguns administradores utilizam uma das portas para interligar dois switches. Isso deve ser evitado porque a geração de broadcast poderá comprometer a performance da rede.
 
 #### Roteador – interligando redes
+Os roteadores são equipamentos que trabalham com os endereços IP de rede, e como possuem interfaces que também são configuradas com um endereço IP, eles são utilizados para o roteamento dos pacotes que chegam em sua porta de entrada e, dependendo de uma tabela de roteamento, são capazes de encaminhar o pacote para a saída adequada.
+
+#### Testes básicos de funcionamento de redes
+Para construir os testes básicos de funcionamento de redes e conhecer como funciona a comunicação entre um computador e outro, vamos adotar diversos cenários e desenvolver os conhecimentos necessários e de forma crescente.
+
+**Cenário 1 – rede local com computadores e um switch ->** 
+O primeiro comando utilizado é o ipconfig /all do sistema operacional Windows ou o ifconfig para o sistema operacional Linux.
+Entre as informações do teste, podemos destacar:
+• Endereço físico (MAC Address): 0060.0F08.2A3D.
+• Link-local IPv6 Address: FE80::250:FFF:FE08:2A3D.
+• IP Address: 197.20.30.4.
+• Subnet Mask: 255.255.255.0.
+• Default Gateway1
+: 0.0.0.0
+• DNS Servers2
+: 0.0.0.0.
+• DHCP Servers3
+: 0.0.0.0.
+• DHCPv6 Client DUID: 00-01=00-01-D2-60-66-24-00-50-OF-08-2A3D.
