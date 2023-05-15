@@ -41,3 +41,15 @@ O quadro abaixo apresenta as classes A, B, C, D, E, os valores dos espaços de e
 Observe que, para o cálculo da quantidade de redes de uma classe, deve-se fazer a conta de 2 elevado ao número de bits disponíveis, que corresponde às letras X indicadas no quadro 3. Assim, para uma classe A, a quantidade de redes será 2,7 pois um bit já foi fixado como zero.
 
 As redes possuem dois endereços IP reservados, sendo um para o identificador da rede, quando colocamos zero para todos os bits reservados para hosts, e outro que se chama endereço de broadcast da rede, quando colocamos um para todos os bits reservados para hosts. Assim, da quantidade de redes de cada classe deverão ser descontados os dois endereços reservados para endereço da rede e para o endereço de broadcast.
+
+VER PAGINA 113
+
+Por exemplo, para o IP – 192.161.181.34 temos: • Endereço da rede: colocar zero no identificador do host: 192.161.181.0 • Endereço de broadcast: colocar um no identificador do host: 192.168.181.255
+
+Máscara-padrão de rede: colocar um nos identificadores de rede: 255.255.255.0
+
+A escolha de endereços IP para a rede dependerá de algumas decisões de projeto, por exemplo: número de hosts que serão colocados na rede e quantidade de redes que a empresa planeja ter. Após responder a essas perguntas, escolhe-se a classe mais adequada e, em seguida, define-se o IP desejado.
+
+Exemplo: uma empresa deseja preparar uma rede que deverá ter no máximo 40 computadores. Selecione uma classe, um endereço de rede, a máscara-padrão e os possíveis endereços dos hosts. Solução: como a quantidade de hosts será de no máximo 40, pode-se escolher a classe C, que habilita até 254 hosts. É importante observar que endereços da classe A ou B também atenderiam à especificação do projeto. Teremos como sugestão de endereços IP: • Classe C – endereço de rede: 197.20.30.0 e máscara-padrão: 255.255.255.0 • Endereço de broadcast: 197.20.30.255 • Endereço de primeiro host: 197.20.30.1 • Endereço de último host: 197.20.30.254 • Endereço dos hosts: selecione os quarenta endereços e atribua para as placas de rede dos hosts.
+
+#### Switch – interligando computadores
