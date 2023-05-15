@@ -75,3 +75,7 @@ Entre as informações do teste, podemos destacar:
 • DHCP Servers3
 : 0.0.0.0.
 • DHCPv6 Client DUID: 00-01=00-01-D2-60-66-24-00-50-OF-08-2A3D.
+
+Outro comando do sistema operacional é o comando “ping”, que possibilita testar a conectividade entre dois endereços e cuja sintaxe é mostrada a seguir. O programa ping envia quatro pacotes de 32 bytes e aguarda o retorno do host cujo endereço IP foi dado como alvo.
+
+O resultado dos testes realizados serve para verificar a conexão lógica de dois hosts e descobrir se a comunicação está funcionando na camada lógica (endereço IP) e na camada física (placa de rede e switch). Quando um host está na mesma rede local, ou pode ser encontrado através de roteadores, o retorno do comando “ping” mostra os quatro pacotes enviados e o tempo gasto para retornarem do endereço-alvo. E quando o endereço-alvo não se encontra acessível, pode ser que não exista na rede local ou que não esteja acessível através de roteadores, ou esteja desligado ou até mesmo com problemas no cabeamento ou na placa de rede, o resultado aparece com request timed out,4 indicando que nenhum pacote enviado conseguiu chegar ao endereço-alvo. Após os testes de conectividade com o comando ping, realizado entre todas as estações da rede, as aplicações poderão funcionar e, em caso de alguma falha, poderão ser descartados problemas nas camadas física e de rede
