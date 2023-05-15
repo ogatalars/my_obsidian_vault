@@ -38,3 +38,28 @@ eles serão processados por todos os
 computadores nessa rede
 
 **Criação de dois domínios de broadcast** -> 
+O roteador tem acesso a duas sub-redes, e logo
+a dois domínios de broadcast diferentes
+Cada domínio fica com
+seu broadcast específico
+O roteador não propaga broadcast de um
+domínio para o outro
+
+	Também é possível dividir uma LAN física grande em duas LANs lógicas menores. Você pode estar se perguntando por que isso seria útil. Às vezes, o layout do equipamento de rede não corresponde à estrutura da organização. Por exemplo, os departamentos de engenharia e finanças de uma empresa poderiam ter computadores na mesma LAN física, pois estão na mesma ala do prédio, mas poderia ser mais fácil administrar o sistema se engenharia e finanças tivessem cada um sua própria LAN virtual, ou VLAN. Nesse projeto, cada porta é marcada com uma “cor”, digamos verde para engenharia e vermelha para finanças. O switch então encaminha pacotes de modo que os computadores conectados às portas verdes sejam separados dos computadores conectados às portas vermelhas. Os pacotes de broadcast enviados em uma porta de cor vermelha, por exemplo, não seriam recebidos em uma porta de cor verde, como se existissem duas LANs diferentes.
+
+A utilização de redes locais virtuais, as **VLAN,** aumenta muito a performance da rede, pois separa grandes domínios de broadcast em domínios menores e oferece características importantes como:
+• Segurança: os grupos de usuários que possuem informações
+confidenciais são colocados em redes separadas, diminuindo assim os riscos de acesso não autorizado.
+• Aumento do desempenho: com a rede dividida em grupos de trabalho de forma lógica reduz-se o tráfego desnecessário na rede e
+com isso aumenta-se o desempenho.
+• Redução de custo: há menor necessidade de atualizações na rede
+e assim um uso mais eficiente da largura de banda disponível.
+• Diminuição da tempestade de broadcast: com a divisão da rede
+em VLANs, diminui-se o número de equipamentos que podem
+sofrer algum problema de disponibilidade em razão de um momento de excesso de broadcast.
+Eficiência da equipe: com a utilização de VLANs e com nomes
+adequados para cada uma, fica mais fácil o gerenciamento da rede.
+• Gerenciamento de aplicativo: facilita-se muito o gerenciamento
+dos aplicativos e como são disponibilizados para os usuários
+
+#### Tipos de VLAN 
