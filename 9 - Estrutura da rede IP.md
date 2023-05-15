@@ -19,3 +19,5 @@ a conexão. Assim também ocorre uma diminuição de erros e colisões de pacote
 OSI e possui a mesma funcionalidade do switch, só que pode escolher a melhor rota para que um determinado pacote chegue ao
 destino desejado e através de rotas menos congestionadas
 
+*As redes de broadcast têm apenas um canal de comunicação, compartilhado por todas as máquinas da rede; os pacotes enviados por qualquer máquina são recebidos por todas as outras. Um campo de endereço dentro do pacote especifica o destinatário pretendido. Quando recebe um pacote, a máquina processa o campo de endereço. Se o pacote se destinar à máquina receptora, esta o processará; se for destinado a alguma outra máquina, o pacote será simplesmente ignorado.*
+*Os sistemas de broadcast normalmente também oferecem a possibilidade de endereçamento de um pacote a todos os destinos usando um código especial no campo de endereço. Quando um pacote com esse código é transmitido, ele é recebido e processado por cada máquina na rede; não é à toa que esse modo de operação é chamado de broadcasting.*
