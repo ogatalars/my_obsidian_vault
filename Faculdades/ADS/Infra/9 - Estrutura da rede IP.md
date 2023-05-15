@@ -90,3 +90,12 @@ Para o funcionamento de uma VLAN, a primeira decisão será escolher o esquema d
 
 
 "Para a comunicação entre computadores de redes VLAN e que estejam em switches diferentes, é necessário que seja configurado, em cada switch, qual porta funcionará como porta trunk."
+
+
+#### Testes adicionais de funcionamento de redes
+**Testes realizados entre computadores**
+ORIGEM DESTINO LOCAL
+PC 0 – VLAN 10 PC 1 – VLAN 10 No mesmo switch
+PC 0 – VLAN 10 PC 3 – VLAN 10 Em outro switch
+PC 2 – VLAN 20 PC 4 – VLAN 20 Em outro switch
+PC 4 – VLAN 10 PC 5 – VLAN 20 Em outro switch
