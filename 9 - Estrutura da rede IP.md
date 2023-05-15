@@ -21,3 +21,20 @@ destino desejado e através de rotas menos congestionadas
 
 *As redes de broadcast têm apenas um canal de comunicação, compartilhado por todas as máquinas da rede; os pacotes enviados por qualquer máquina são recebidos por todas as outras. Um campo de endereço dentro do pacote especifica o destinatário pretendido. Quando recebe um pacote, a máquina processa o campo de endereço. Se o pacote se destinar à máquina receptora, esta o processará; se for destinado a alguma outra máquina, o pacote será simplesmente ignorado.*
 *Os sistemas de broadcast normalmente também oferecem a possibilidade de endereçamento de um pacote a todos os destinos usando um código especial no campo de endereço. Quando um pacote com esse código é transmitido, ele é recebido e processado por cada máquina na rede; não é à toa que esse modo de operação é chamado de broadcasting.*
+
+Com as considerações sobre equipamentos e o conceito de broadcast, as redes possuem então grande quantidade de pacotes de broadcast, que podem ser ocasionados por falhas na comunicação (por exemplo: problemas de conectores, cabos e até placas de rede) ou ainda por protocolos e aplicações. A mesma rede local do cenário da figura 1 pode ser melhorada quanto ao tráfego com a utilização de switch, pois atuando na camada de enlace já consegue direcionar os dados para a máquina com o endereço MAC específico
+
+
+"*Um conceito importante a ser colocado é o gateway. Os computadores de cada domínio de broadcast conhecem os endereços para os hosts de sua própria rede. Ao enviar um pacote para endereços fora de sua rede, deverá enviar para o gateway, que vai verificar onde o endereço desejado se encontra e, se conhecer a rota, o encaminhará até o destinatário.*"
+
+**Um único domínio de broadcast ->**  
+Deterioração do desempenho da rede
+Problemas de segurança
+Gerenciamento de endereços
+Todos os dispositivos de rede estão conectados
+em um único domínio de broadcast
+Como os switches encaminham broadcasts,
+eles serão processados por todos os
+computadores nessa rede
+
+**Criação de dois domínios de broadcast** -> 
