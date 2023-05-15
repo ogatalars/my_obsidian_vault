@@ -32,3 +32,9 @@ O endereço lógico que será atribuído a placas de rede dos hospedeiros e as p
 
 Endereço de rede Endereço do host na rede
 Máscara de rede
+
+O endereço IP e a máscara de rede são representados utilizando 32 bits separados por ponto a cada grupo de 8 bits (o byte). Para facilitar a leitura do endereço IP, ele é representado com a notação decimal. Exemplo: IP - 192.168.12.3 e máscara de rede: 255.255.255.0 Ou escrito em binário: IP – 11000000.10101000.00001100.00000101 Máscara: 11111111.11111111.11111111.00000000
+
+#### Classes de endereços IP
+Os endereços IP foram divididos em blocos de tamanho fixo, definidos como classes de endereços, para facilitar a alocação de endereços para hosts e roteadores.
+O quadro abaixo apresenta as classes A, B, C, D, E, os valores dos espaços de endereço por classe, a máscara-padrão por classe, a capacidade de redes por classe e finalmente o número de hosts por classe. Os bits da máscara de rede são colocados em UM nos identificadores da rede, e como exemplo a máscara das redes de classe A tem os bits: 11111111.00000000.00000000.00000000.
