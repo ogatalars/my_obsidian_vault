@@ -86,3 +86,6 @@ a empresa possui duas redes com endereços de rede diferentes, sendo um a REDE 1
 Os testes realizados com o comando ping só funcionarão entre hosts da mesma rede.
 
 Para que os computadores da REDE 1 possam conectar os da REDE 2 será necessária a utilização de um roteador, equipamento que interliga redes e trabalha com encaminhamento de pacotes IP
+
+Para testar a conexão entre os hosts, primeiro fazemos o teste no Host 2 com o comando ping no endereço da porta do roteador que está ligada na REDE 1.
+Os testes podem ser repetidos em todos os computadores e assim garantir a conectividade entre as duas redes
