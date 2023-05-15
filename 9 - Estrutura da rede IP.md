@@ -63,3 +63,30 @@ adequados para cada uma, fica mais fácil o gerenciamento da rede.
 dos aplicativos e como são disponibilizados para os usuários
 
 #### Tipos de VLAN 
+Nos projetos de redes que utilizam as VLANs, existem alguns agrupamentos dos computadores que podem ser realizados e cada um com suas características. Esses conjuntos de computadores podem ser agrupados nas portas do switch por meio de endereços das placas de comunicação (por exemplo, a placa de rede e seu endereço MAC), por endereços IP dos hosts, por endereços IP Multicast ou, ainda, por protocolos. Nesse momento, vamos nos concentrar nas VLANs agrupadas por portas, por endereço MAC e por endereço IP
+
+**VLAN com agrupamento por portas – camada 1**
+
+Esse agrupamento faz com que os dispositivos na VLAN sejam definidos conforme a porta do switch, que tem uma configuração rápida e simples. Porém, se o computador for trocado de local e conectado em outro switch, a VLAN deverá ser reconfigurada
+
+**VLAN com agrupamento por endereço MAC – camada 2**
+
+Os equipamentos na VLAN são identificados pelo endereço MAC de cada um, e assim o switch reconhece o endereço MAC pertencente a cada VLAN, como mostra a tabela 1. Os computadores podem estar conectados a um mesmo switch físico, mas pela configuração das VLANs teremos três domínios de broadcast. Também aqui, os computadores de uma VLAN não se conectam com os de outra VLAN.
+Endereço MAC 00-60-3E-A2-B0-5B 00-E0-B0-DB-6B-A6 00-60-5C-4A-18-BB VLAN 10 20 30
+
+Nesse cenário de redes VLAN, se um computador for movido, não será necessário configurá-lo para que continue pertencendo à mesma VLAN. Isso faz com que as VLANs agrupadas por endereço MAC sejam mais vantajosas do que as configuradas por porta
+
+**VLAN com agrupamento por endereço IP – camada 3**
+
+Os equipamentos da VLAN são determinados pelo endereço IP. Nesse cenário, os usuários podem mover seus computadores sem reconfigurá-lo, mas, se o computador for ligado em outro local da rede, o tempo para encaminhamento dos pacotes aumentará.
+
+Endereço IP 172.33.12.14 172.33.20.40 172.145.34.30 VLAN 10 20 30
+Para que o tráfego de uma VLAN possa passar para a outra, é necessário que se tenha uma porta trunk, que é usada para a interligação de switches ou que a rede esteja ligada a um roteador. Assim, o administrador da infraestrutura de rede pode organizar o tráfego entre as VLANs
+
+#### Esquemas de enderaçamento 
+Para o funcionamento de uma VLAN, a primeira decisão será escolher o esquema de agrupamento a ser utilizado. Depois deverá ser criada a tabela de endereçamento, que pode ser por endereços de porta do switch ou pelos endereços MAC dos computadores ou ainda pelos endereços IP.
+
+	A configuração dos endereçamentos começa com a definição do endereço da VLAN10 sendo 192.168.10.0/24 e a VLAN20 sendo 192.168.20.0/24
+
+
+"Para a comunicação entre computadores de redes VLAN e que estejam em switches diferentes, é necessário que seja configurado, em cada switch, qual porta funcionará como porta trunk."
