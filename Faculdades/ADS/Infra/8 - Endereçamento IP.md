@@ -79,3 +79,10 @@ Entre as informações do teste, podemos destacar:
 Outro comando do sistema operacional é o comando “ping”, que possibilita testar a conectividade entre dois endereços e cuja sintaxe é mostrada a seguir. O programa ping envia quatro pacotes de 32 bytes e aguarda o retorno do host cujo endereço IP foi dado como alvo.
 
 O resultado dos testes realizados serve para verificar a conexão lógica de dois hosts e descobrir se a comunicação está funcionando na camada lógica (endereço IP) e na camada física (placa de rede e switch). Quando um host está na mesma rede local, ou pode ser encontrado através de roteadores, o retorno do comando “ping” mostra os quatro pacotes enviados e o tempo gasto para retornarem do endereço-alvo. E quando o endereço-alvo não se encontra acessível, pode ser que não exista na rede local ou que não esteja acessível através de roteadores, ou esteja desligado ou até mesmo com problemas no cabeamento ou na placa de rede, o resultado aparece com request timed out,4 indicando que nenhum pacote enviado conseguiu chegar ao endereço-alvo. Após os testes de conectividade com o comando ping, realizado entre todas as estações da rede, as aplicações poderão funcionar e, em caso de alguma falha, poderão ser descartados problemas nas camadas física e de rede
+
+#### 2 Cenário 2 – duas redes locais com switch e não interligadas
+a empresa possui duas redes com endereços de rede diferentes, sendo um a REDE 1 com endereço IP – 197.20.30.0/24 e a REDE 2 com endereço IP – 47.0.0.0/8. Ao observar o cenário percebe-se que a conexão entre um host da REDE 1 e outro da REDE 2 não acontecerá, pois não há conexão entre os dois switches. 
+
+Os testes realizados com o comando ping só funcionarão entre hosts da mesma rede.
+
+Para que os computadores da REDE 1 possam conectar os da REDE 2 será necessária a utilização de um roteador, equipamento que interliga redes e trabalha com encaminhamento de pacotes IP
