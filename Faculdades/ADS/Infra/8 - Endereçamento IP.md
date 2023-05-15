@@ -38,3 +38,6 @@ O endereço IP e a máscara de rede são representados utilizando 32 bits separa
 #### Classes de endereços IP
 Os endereços IP foram divididos em blocos de tamanho fixo, definidos como classes de endereços, para facilitar a alocação de endereços para hosts e roteadores.
 O quadro abaixo apresenta as classes A, B, C, D, E, os valores dos espaços de endereço por classe, a máscara-padrão por classe, a capacidade de redes por classe e finalmente o número de hosts por classe. Os bits da máscara de rede são colocados em UM nos identificadores da rede, e como exemplo a máscara das redes de classe A tem os bits: 11111111.00000000.00000000.00000000.
+Observe que, para o cálculo da quantidade de redes de uma classe, deve-se fazer a conta de 2 elevado ao número de bits disponíveis, que corresponde às letras X indicadas no quadro 3. Assim, para uma classe A, a quantidade de redes será 2,7 pois um bit já foi fixado como zero.
+
+As redes possuem dois endereços IP reservados, sendo um para o identificador da rede, quando colocamos zero para todos os bits reservados para hosts, e outro que se chama endereço de broadcast da rede, quando colocamos um para todos os bits reservados para hosts. Assim, da quantidade de redes de cada classe deverão ser descontados os dois endereços reservados para endereço da rede e para o endereço de broadcast.
