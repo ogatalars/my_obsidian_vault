@@ -40,4 +40,7 @@ Utiliza porta 443
 Utiliza o protocolo FTP
 Utilizado para transferência de arquivos
 Utiliza as portas 20 e 21
-Servidor DHCP Utiliza o protocolo DHCP (Dynamic Host Configuration Protocol) Atribui dinamicamente endereços IP a máquinas de uma rede local
+**Servidor DHCP** Utiliza o protocolo DHCP (Dynamic Host Configuration Protocol) Atribui dinamicamente endereços IP a máquinas de uma rede local
+
+#### Servidor Web
+Esse tipo de servidor é o grande atrativo da utilização da internet nas empresas, funcionando sob a demanda das solicitações de serviços feitas pelos usuários. Com muitas facilidades e inovação proporcionou um grande crescimento nos negócios. A disponibilidade de novos serviços de forma mais fácil para os desenvolvedores se deve à padronização dos protocolos e à interoperabilidade. As informações dos mais diversos sistemas estão disponibilizadas nas páginas web. Um servidor web mantém a estrutura e, por meio do protocolo HTTP (Hypertext Transfer Protocol), disponibiliza páginas com textos, imagens, vídeos e outros objetos. O socket para o protocolo HTTP é identificado pelo número 80. Em algumas situações o acesso a páginas web deve ser feito de forma segura. Nesse caso, o protocolo a ser utilizado é o HTTPS (Hypertext Transfer Protocol Secure), que é uma versão do HTTP, só que os dados são transmitidos através de uma conexão criptografada. O socket para o protocolo HTTP é identificado pelo número 443.
