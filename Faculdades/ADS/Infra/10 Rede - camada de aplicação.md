@@ -4,3 +4,4 @@ As empresas e seus usuários produzem diversos tipos de informação. Então pod
 *Um processo é semelhante a uma casa e seu socket, à porta da casa. Quando um processo quer enviar uma mensagem a outro processo em outro hospedeiro, ele empurra a mensagem pela porta (socket). O emissor admite que existe uma infraestrutura de transporte do outro lado de sua porta que transportará a mensagem pela rede até a porta do processo destinatário. Ao chegar ao hospedeiro destinatário, a mensagem passa pela porta (socket) do processo receptor, que então executa uma ação sobre a mensagem.*
 
 **A comunicação por socket através da internet possibilita que dois processos possam trocar informações, sendo então a interface entre a camada de aplicação e a de transporte e que ficam dentro do hospedeiro. Também é chamado de interface de programação de aplicação, API (Application Programming Interface), entre a rede e a aplicação (ROSS; KUROSE, 2013).*
+
