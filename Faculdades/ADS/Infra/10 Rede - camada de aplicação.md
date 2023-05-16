@@ -61,3 +61,35 @@ A utilização cada vez maior de computadores e aplicações de negócios tem co
 
 **Servidor DNS – Domain Name Server**
 A navegação através da internet pode ser facilitada pelo serviço DNS (Domain Name Server), servidor de nomes de domínio, que é um protocolo de gerenciamento de nomes. Assim o servidor DNS funciona como um grande banco de dados com os endereços de IP públicos e seus domínios associados. A importância do DNS para a rede é que facilita a navegação dos usuários, reduzindo o tempo de espera referente à tradução dos domínios para os seus IPs. Ainda deve-se considerar que os domínios (entenda nome do site da empresa, por exemplo) são registrados e recebem um endereço IP correspondente que ficará disponível para todos os servidores.
+
+Os servidores DNS são organizados em uma forma hierárquica e distribuídos pelo mundo todo. Existem três classes de servidores DNS: os servidores raiz; os de domínio de alto nível, conhecidos com TLD (Top- -level Domain); e os servidores autorizativos.
+
+Para determinar um endereço IP de um domínio, o cliente fará acesso a um dos servidores raiz, que retornará endereços IP dos servidores TLD para o domínio ponto com. Como exemplo, caso procuremos acessar o site da Amazon (www.amazon.com), o DNS raiz, ao ser contatado, retornará o endereço autorizativo para amazon.com, que, por sua vez, retornará o endereço IP para www.amazon.com. 
+• Servidores DNS raiz: são treze servidores espalhados pelo mundo com nomes de A a M. 
+• Servidores DNS de domínio de alto nível (TLS): são os servidores responsáveis por domínios de alto nível (.com, .org, .edu e .gov) e por todos os domínios de alto nível dos países. 
+• Servidores DNS autorizativos: os hospedeiros que possam ser acessados em uma rede pública devem fornecer registros DNS para que sejam mapeados em endereços IP.
+
+As empresas também podem possuir seus servidores DNS internos. Com isso, os computadores da rede local podem ser acessados pelas aplicações através de nomes, e não apenas por seus endereços IP.
+
+#### Servidor DHCP – Dynamic Host Configuration Protocol
+Para que os computadores possam pertencer a uma rede, eles precisam de um endereço IP. É importante relembrar que os dispositivos que participam de uma rede possuem o endereço da placa de rede, conhecido como endereço MAC. A configuração do endereço IP pode ser feita de forma manual, isto é, o administrador irá de computador em computador e configurará o endereço IP, máscara e gateway. Isso pode ser feito em redes com um número pequeno de computadores; no entanto, com o crescimento da rede, essa tarefa pode se tornar mais trabalhosa.
+
+Por isso, foi desenvolvido um protocolo de configuração automática dos endereços IP chamado DHCP (Dynamic Host Configuration Protocol), protocolo de configuração dinâmica de endereços de rede. Em cada rede deve ser configurado um servidor IP que possuirá a faixa de endereços IP e manterá uma tabela com os endereços de cada computador. Quando um novo computador entra na rede, não possui um endereço IP atribuído. O computador envia uma solicitação de broadcast por endereço IP na rede através de uma chamada DHCP Discover. Assim que o servidor DHCP receber a solicitação, irá alocar um endereço IP válido (TANENBAUM, 2011). O servidor DHCP possui três mecanismos de alocação de endereço fornecendo uma maior flexibilidade ao atribuir os endereços aos computadores.
+
+• Alocação manual: o administrador atribui um endereço pré-
+-alocado ao cliente e o DHCP informa ao dispositivo somente o
+endereço IP associado àquele endereço MAC.
+• Alocação automática: o DHCP atribui automaticamente um endereço IP estático e permanente a um dispositivo, tendo selecionado o endereço a partir de um conjunto de IPs disponíveis.
+• Alocação dinâmica: o DHCP atribui dinamicamente ou “aluga”
+um endereço IP a um dispositivo a partir de um conjunto de
+IPs disponíveis por um tempo determinado pelo servidor ou até
+o cliente não precisar mais do endereço. Um exemplo são os
+hotspots de shoppings ou de empresas que fornecem acesso
+wi-fi para os clientes.
+
+Uma pequena empresa ou um cliente de serviços de internet podem receber endereços IP que permitem navegar na rede internet através do roteador de acesso (ISP1, por exemplo). Já na rede corporativa de uma empresa com vários computadores temos o servidor DHCP local, que tem por tarefa a distribuição de endereços IP válidos apenas na rede interna, e a conexão com a internet é feita através do roteador de acesso, que recebe um IP válido na internet. Com esse cenário podemos ver as diversas utilizações do protocolo DHCP e a facilidade que ele introduz na gestão da rede.
+
+**Testes de funcionamento dos serviços de rede**
+
+A primeira atividade que vamos fazer nesse cenário será a configuração dos servidores com IP fixo; assim atribuímos os IPs de cada servidor como indicado no cenário. Observar que os computadores dos clientes ainda não possuem endereço IP. A próxima etapa são as atividades no servidor DHCP. Para isso, deverá ser configurada uma faixa de endereços a serem disponibilizados e, para que não se percam endereços IP quando os computadores são desligados, pode-se “alugar” os endereços por um período de tempo. Com os computadores ligados pela primeira vez e sem endereços IP, farão acesso ao servidor DHCP e em seguida terão seus endereços IP atribuídos. Os testes de acesso ao servidor web podem ser feitos em um computador utilizando um navegador (browse) e digitando o endereço de um site desejado. A solicitação sairá do computador do usuário e chegará até o servidor web, que devolverá uma página HTML e com seus conteúdos. Para que o acesso ao servidor web possa ser feito sem ter que digitar o endereço IP, podemos instalar um servidor DNS. A função do servidor DNS será cadastrar o endereço de domínio e o endereço IP associado e assim fazer com todos os domínios que forem utilizados. Estamos falando de um servidor DNS interno em nosso cenário. Com todos os servidores configurados no cenário da figura 8, a utilização da rede e dos serviços oferecidos aos usuários se torna mais fácil.
+
