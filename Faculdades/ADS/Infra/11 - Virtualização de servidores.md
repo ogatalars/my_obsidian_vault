@@ -41,4 +41,60 @@ center. A virtualização de storage possibilita que diversos clientes
 possam utilizar um recurso físico, mapeando-os como se estivessem conectados em seus computadores. 
 
 #### Virtualização – componentes
-O primeiro passo para a virtualização é verificar o hardware disponível dos servidores. Devemos entender como hardware o conjunto composto de processador, memória, discos rígidos, placa de rede e conexões com a infraestrutura de rede. Uma vez selecionado o servidor físico onde serão instaladas as máquinas virtuais, deve-se instalar um sistema operacional.
+O primeiro passo para a virtualização é verificar o hardware disponível dos servidores. Devemos entender como hardware o conjunto composto de processador, memória, discos rígidos, placa de rede e conexões com a infraestrutura de rede. Uma vez selecionado o servidor físico onde serão instaladas as máquinas virtuais, deve-se instalar um sistema operacional. O servidor físico deverá ter instalado um sistema operacional com o hypervisor, que será o responsável pela divisão do hardware em partes e nelas a criação das VMs (máquinas virtuais). 
+
+Como o hypervisor simula dentro do hardware do servidor, os discos são armazenados em arquivos dentro do sistema operacional do hypervisor, enquanto CPU e memória são alocados sob demanda.
+Dependendo da necessidade da aplicação, são escolhidos os sistemas operacionais que serão instalados em cada máquina virtual. A máquina virtual 1 recebeu a instalação do Windows 10, e a máquina virtual 2, a instalação do Linux. O sistema operacional de cada máquina virtual estará isolado de outros e se comportará como se tivesse todos os recursos definidos quando da criação da máquina virtual. A divisão dos recursos entre as diversas máquinas virtuais será uma tarefa do hypervisor. É importante observar que alguns recursos podem ser alocados com quantidades maiores do que a real, o que chamamos de over provisioning. Por exemplo: um hardware de servidor possui 20 Gb de memória e pode ter 12 máquinas virtuais com 2 Gb de memória cada uma, o que daria um total de 24 Gb, mas essas máquinas virtuais não podem usar todo o recurso ao mesmo tempo. Em situações de disputa por recursos, o hypervisor prioriza algumas máquinas virtuais para a preferência na execução.
+
+#### Motivos para a virtualização
+A virtualização é uma tecnologia que possibilita a execução de diversos sistemas operacionais e aplicações dentro de um equipamento, que pode ser desde um computador simples até um servidor com diversos recursos. A utilização de hardware compartilhado e a consequente diminuição de investimento em servidores é um excelente motivo para que as empresas utilizem a virtualização. Algumas características que auxiliam os administradores de infraestrutura de TI a justificar a utilização de virtualização nos projetos ou a preparar a empresa para a adoção de tecnologias de cloud computing, ou computação em nuvem, são:
+- **Disponibilidade e confiabilidade**: a virtualização e a consequente
+redução de servidores diminuem as paradas para manutenção e
+tornam possível manter o serviço disponível sem que os usuários percebam a ocorrência de qualquer problema. Essa situação
+aumenta muito a confiabilidade e a disponibilidade dos sistemas
+aos usuários. Os sistemas de backup são otimizados com o uso
+da virtualização.
+• **Redução de custos:** a virtualização implica menor número de
+componentes físicos. Com isso, os custos de aquisição de hardware, manutenção e consumo de energia são reduzidos. É importante considerar que um servidor ligado e com plena carga
+tem quase o mesmo consumo de um servidor com pouca carga  de trabalho. Também é interessante considerar o menor espaço físico necessário aos servidores ou mesmo ao data center.
+Automatização de processos: a virtualização e as diversas ferramentas utilizadas possibilitam a automação de vários processos,
+como a criação de templates de máquinas virtuais com modelos
+adequados às necessidades dos usuários e de aplicações.
+• **Recuperação de desastres:** a utilização da virtualização proporciona uma melhor e mais rápida recuperação de desastres, pois o
+contingenciamento dos serviços disponibilizados aos usuários é
+facilitado devido a menor número de computadores e, com a abstração de hardware, não existe a necessidade de dependência de
+um hardware específico. As “imagens” de sistemas operacionais
+completos instalados em VM podem ser copiadas e armazenadas
+em local seguro e, em caso de problemas, bastará copiar um arquivo com a imagem, que é muito mais rápido que instalar e configurar um novo computador, como é necessário no modo tradicional.
+• **Sustentabilidade (TI verde):** a virtualização possibilita a redução
+não só de energia e custos de aquisição como também de impactos ambientais, por usar menor número de servidores e, portanto, diminuir o descarte de material. Ainda em ambientes virtuais,
+alguns servidores poderão ser desligados em períodos de menor
+demanda, o que pode diminuir a necessidade de refrigeração dos
+servidores/data center.
+• **Provisionamento rápido:** a virtualização contribui para o crescimento dos negócios das empresas devido à facilidade de se provisionar recursos para novas aplicações de forma rápida, diferentemente do processo realizado com servidores físicos.
+- **Migração para computação em nuvem:** com a adoção de estrutura de virtualização a migração para utilizar a computação em nuvem fica bem mais fácil, pois os provedores possuem suportea IaaS (infraestrutura como serviço), o que significa que uma máquina virtual interna pode ser facilmente migrada para a nuvem. 
+
+Com a virtualização, diversos benefícios surgem para as empresas e
+as áreas de negócios, sendo de imediato:
+• **Aproveitamento da infraestrutura existente:** com os vários serviços podendo ser realizados em um único servidor, a capacidade
+de processamento é mais bem aproveitada, gerando redução de
+custos de hardware e de toda a infraestrutura necessária para dar
+suporte a um computador, como espaço, refrigeração e energia
+elétrica.
+• **Diminuição do parque de máquinas:** ao utilizar mais o hardware
+de cada equipamento existente com a virtualização, diminui-se
+a necessidade de aquisição de novos hardwares e consequentemente os gastos com a infraestrutura.
+• **Centralização do gerenciamento:** com a virtualização se torna mais fácil o gerenciamento dos recursos da infraestrutura
+instalada.
+• **Implementação rápida de aplicações:** com a virtualização implantada na empresa, fica mais rápido ampliar aplicações e
+disponibilizá-las aos usuários.
+• **Variedade de plataformas:** a virtualização possibilita que em
+um servidor físico possam ser instaladas diversas plataformas
+de sistema operacional, dependendo da necessidade de cada
+aplicação.
+• **Criação de ambiente de testes:** a virtualização e a criação de
+máquinas virtuais possibilitam às empresas criar ambientes de  testes para suas aplicações, antes de colocá-las em produção para os usuários.
+- **Segurança e confiabilidade:** com a virtualização as máquinas virtuais funcionam de modo independente umas das outras, o que
+dá maior segurança, pois caso ocorra um problema de vulnerabilidade em uma máquina isso não afetará as outras.
+• **Migração e atualização mais fácil:** as alterações em ambientes
+virtualizados podem ser feitas de forma rápida, o que facilita muito os processos de migração de software e até mesmo a ampliação da infraestrutura.
