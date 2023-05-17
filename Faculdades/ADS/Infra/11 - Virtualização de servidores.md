@@ -41,3 +41,4 @@ center. A virtualização de storage possibilita que diversos clientes
 possam utilizar um recurso físico, mapeando-os como se estivessem conectados em seus computadores. 
 
 #### Virtualização – componentes
+O primeiro passo para a virtualização é verificar o hardware disponível dos servidores. Devemos entender como hardware o conjunto composto de processador, memória, discos rígidos, placa de rede e conexões com a infraestrutura de rede. Uma vez selecionado o servidor físico onde serão instaladas as máquinas virtuais, deve-se instalar um sistema operacional.
