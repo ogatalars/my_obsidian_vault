@@ -26,4 +26,4 @@ Uma desvantagem com a virtualização completa é o desempenho, e isso devido ao
 
 **PARAVIRTUALIZAÇÃO**
 Com o objetivo de resolver os problemas de desempenho e a baixa utilização dos recursos que a virtualização completa causa, a solução é a paravirtualização, que consiste em alterar o sistema operacional guest para que ele faça uma chamada à máquina virtual sempre que for executar uma instrução prioritária, e as instruções não privilegiadas são executadas diretamente pelo processador nativo. Quanto aos dispositivos de entrada/saída, os hypervisores que utilizam a paravirtualização fazem com que as máquinas virtuais tenham acesso aos dispositivos físicos reais e sob o controle do hypervisor. Dessa forma ocorre a otimização do desempenho.
-****
+Uma desvantagem da paravirtualização é a necessidade de modificação no sistema operacional guest e isso necessita acesso ao código-fonte. Um exemplo de sistema que utiliza a paravirtualização é o XEN Open Source, que virtualiza o processador e a memória, e utiliza um núcleo Linux que é modificado. Além disso, ocorre também a virtualização do sistema de entrada/saída com os drivers de dispositivos customizados
