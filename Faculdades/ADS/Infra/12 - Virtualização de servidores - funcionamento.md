@@ -30,3 +30,17 @@ Uma desvantagem da paravirtualização é a necessidade de modificação no sist
 
 **Cenários da virtualização**
 A virtualização tem sido um dos elementos centrais da construção de data centers, o que leva à utilização de computadores em toda a sua capacidade, diminuindo assim o desperdício de ciclos de processamento. Com a utilização de vários servidores em um servidor físico, mais algumas situações vantajosas se apresentam, como economia de energia, refrigeração, menor espaço físico, facilidade de gerenciamento e até mesmo menos manutenção dos servidores (VERAS, 2012). O conceito de se utilizarem diversas máquinas virtuais, cada uma fica responsável por um serviço e todos sendo executados em uma única máquina física, é chamado de consolidação de servidores. A continuidade de negócios, a alta disponibilidade e a recuperação em caso de desastres oferecem o complemento no projeto dos cenários de virtualização. Vale lembrar que uma máquina virtual é uma imagem armazenada e que pode ser instanciada1 a qualquer instante. Com isso, a máquina virtual pode ser monitorada, e em caso de necessidade ser “migrada” de um servidor físico a outro, o que facilita a recuperação em caso de falhas ou ainda o balanceamento de carga entre os servidores.
+
+Com a virtualização algumas situações podem ser utilizadas nas
+empresas, como:
+• Virtualização de desktops: cada usuário pode acessar o servidor
+por meio de thin client (clientes magros), que são hardwares de
+baixa capacidade de processamento. E ainda podem empregar
+diferentes sistemas operacionais, que ficam instalados nas máquinas virtuais.
+• Hospedagem de sistemas operacionais legados: podem-se utilizar sistemas legados, pois cada máquina virtual pode hospedar sistemas operacionais e aplicações antigas e todas as suas
+bibliotecas.
+• Data center dinâmico: com a virtualização é possível criar uma
+infraestrutura mais ágil e alterar o local onde a máquina virtual é
+hospedada sem que os usuários sofram qualquer impacto.
+
+#### Licenciamento de plataformas virtualizadas
