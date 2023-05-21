@@ -48,4 +48,15 @@ O licenciamento de software para a virtualização depende da política e estrat
 "A utilização de versões gratuitas de distribuições Linux não é aconselhável em servidores. Os administradores, em situações de emergência e por falta de licenças de sistema operacional, para não correrem riscos de ilegalidade, acabam instalando versões gratuitas. Para segurança de uma instalação de servidor e dos diversos clientes que vão depender dos serviços desse servidor, é aconselhável que se invista em licenças pagas, por questão de segurança e suporte."
 
 #### Considerações sobre limites da virtualização
-
+A virtualização tem sido um dos pilares da TI atual, com tendência
+de utilização de serviços migrados para o conceito de nuvem. Nos projetos de adoção de virtualização, os administradores devem considerar
+alguns procedimentos para garantir a qualidade dos serviços prestados
+pela virtualização, por exemplo:
+• Carga excessiva: alguns aplicativos necessitam em grande parte
+de demanda do servidor físico onde estão instalados, por exemplo, os servidores de banco de dados. Ao se pensar em virtualizar as aplicações, é importante a análise de desempenho, pois o
+hypervisor sempre causa uma perda de desempenho.
+• Gerenciamento de licenciamento: o controle de gerenciamento
+de licenças para os projetos de virtualização é muito importante
+devido às diferentes regras dos fabricantes. Nesse sentido é necessário muito cuidado para não correr o risco de alguma ilegalidade quanto a licenciamento de software.
+• Equipe de profissionais de TI: A virtualização e toda a tecnologia envolvida exige qualificação dos profissionais, o que deve ser
+uma preocupação constante das empresas.
