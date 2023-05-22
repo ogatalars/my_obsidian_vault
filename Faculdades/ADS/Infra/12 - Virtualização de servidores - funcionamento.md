@@ -90,3 +90,35 @@ testes da estrutura virtualizada.
 • Fase IV – gerenciamento: verificação dos objetivos, reavaliação
 da solução e próximos passos. Ao final dessa fase, já se tem ideia
 da capacidade de uso da virtualização e dos valores financeiros
+
+**Etapa de avaliação de disponibilidade para virtualização**
+
+Nessa etapa, o relatório de avaliação de disponibilidade para virtualização deverá descrever o impacto e os benefícios que serão alcançados com a consolidação dos servidores, demonstrando as melhorias com relação aos serviços, o aumento da produtividade e a simplificação de implantação de novos serviços.
+O relatório deve apresentar dados sobre a área de investimentos a serem realizados, a aquisição de hardware, o licenciamento de software e de todos os custos com a manutenção da nova infraestrutura. Essas informações são conhecidas como custo total do investimento – TCO (Total Cost of Owership). Outra informação importante é o retorno sobre o investimento – ROI (Return On Investiment).
+
+#### Escolha do fornecedor
+Após definida a infraestrutura de virtualização tem-se a etapa de seleção dos fornecedores, e a avaliação deve considerar: preço da solução, desempenho, disponibilidade, segurança, base instalada e funcionalidades.
+
+**Projeto**
+A etapa do projeto envolve a elaboração dos testes das aplicações
+em ambiente de desenvolvimento, na infraestrutura virtualizada e, após
+avaliações de comportamento, devem entrar em regime de produção
+para os usuários. É comum separar essa etapa em:
+• Especificações do sistema: detalhamento de todas as especificações, necessidades de licenciamento, backup e possíveis implicações nos ambientes de rede virtualizada e nos dispositivos
+de armazenamento.
+• Plano de implementação: deve conter todas as informações necessárias para verificação dos recursos, construção da infraestrutura virtualizada, migrações e acompanhamentos de revisão.
+
+**Implementação**
+Depois de desenvolvido o projeto, há a etapa de implementação, em que todos os detalhamentos da infraestrutura virtualizada e das plataformas envolvidas deverão ser instalados. Para facilitar a implementação, alguns cuidados e procedimentos devem ser adotados:
+ Procedimentos e cuidados com servidores:
+◦ Utilizar servidores homologados pelo software de virtualização.
+◦ Conhecer e definir as formas de licenciamento do hypervisor.
+◦ Observar projeto de arquitetura dos servidores, backup e
+armazenamento.
+◦ Observar projeto de migração para converter um servidor físico
+em virtual.
+• Procedimentos e cuidados com armazenamento:
+◦ Utilizar o software de virtualização para os casos de failover2
+ e balanceamento de carga.
+◦ Definir a rede e as funcionalidades desejadas.
+◦ Definir o nível de integração do backup.
