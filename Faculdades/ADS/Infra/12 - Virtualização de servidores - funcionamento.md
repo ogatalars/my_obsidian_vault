@@ -60,3 +60,10 @@ de licenças para os projetos de virtualização é muito importante
 devido às diferentes regras dos fabricantes. Nesse sentido é necessário muito cuidado para não correr o risco de alguma ilegalidade quanto a licenciamento de software.
 • Equipe de profissionais de TI: A virtualização e toda a tecnologia envolvida exige qualificação dos profissionais, o que deve ser
 uma preocupação constante das empresas.
+
+
+O exercício de virtualização proposto começa com o projeto da virtualização, que pode ser seguido como uma espécie de guia orientador para que ao final, com os servidores virtualizados, possam ser medidos diversos indicadores e se possa chegar à conclusão de que a virtualização foi um sucesso. O projeto deve definir a infraestrutura necessária para dar suporte às aplicações virtualizadas e considerar as possibilidades de crescimento da infraestrutura.
+
+#### 2 Exercício básico de virtualização
+
+O exercício de virtualização proposto começa com o projeto da virtualização, que pode ser seguido como uma espécie de guia orientador para que ao final, com os servidores virtualizados, possam ser medidos diversos indicadores e se possa chegar à conclusão de que a virtualização foi um sucesso. O projeto deve definir a infraestrutura necessária para dar suporte às aplicações virtualizadas e considerar as possibilidades de crescimento da infraestrutura.
