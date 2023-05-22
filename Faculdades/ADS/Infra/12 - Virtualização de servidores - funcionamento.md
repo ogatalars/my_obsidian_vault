@@ -67,3 +67,26 @@ O exercício de virtualização proposto começa com o projeto da virtualizaçã
 #### 2 Exercício básico de virtualização
 
 O exercício de virtualização proposto começa com o projeto da virtualização, que pode ser seguido como uma espécie de guia orientador para que ao final, com os servidores virtualizados, possam ser medidos diversos indicadores e se possa chegar à conclusão de que a virtualização foi um sucesso. O projeto deve definir a infraestrutura necessária para dar suporte às aplicações virtualizadas e considerar as possibilidades de crescimento da infraestrutura.
+
+**Planejamento da capacidade**
+
+O planejamento da capacidade de virtualização deve levar em conta a variedade de servidores, os sistemas operacionais e as cargas de trabalho (workloads). Na maioria dos cenários, o uso dos recursos é muito baixo e isso possibilita aos projetos de virtualização um alto ganho de consolidação. O planejamento da capacidade pode ser dividido nas fases de coleta e análise; nos testes – também chamado de POC (Proof of Concept); na prova de conceito do ambiente a ser virtualizado; e na construção do relatório do planejamento da capacidade, conhecido como VRA (Virtualization Readiness Assessment).
+
+**Etapa de coleta e levantamento**
+Nessa etapa é importante levantar a infraestrutura existente e saber que funcionalidades selecionadas para a virtualização são importantes para a definição dos recursos legados a serem aproveitados. A nova infraestrutura deve ser projetada com uma folga nos recursos de processamento e no uso de memória. As informações a serem coletadas em relação aos servidores são: quantidade de servidores, processamento total, quantidade de memória, utilização da banda de cada servidor, espaço em disco total e performance de processadores, disco e memória.
+
+**Etapa de análise**
+Deve-se considerar que computadores físicos têm capacidade e quantidade de recursos limitadas a serem compartilhadas com as máquinas virtuais. Assim, o hypervisor será fundamental para gerenciar as máquinas virtuais com relação a uso de memória, uso de processos e entrada/saída. A coleta de dados deve ser centralizada no desempenho real do servidor, e não apenas na sua função. Como produto dessa etapa de análise, tem-se: análise de desempenho de cada servidor, análise do hardware necessário para suportar os servidores que serão virtualizados e análise da situação de tolerância a falhas.
+
+
+**Etapa de análise**
+Nessa etapa as empresas conseguem simular as capacidades da virtualização, avaliar as situações e definir como resolver possíveis problemas e medir os resultados. Em geral, a prova de conceito é desenvolvida pela empresa de consultoria ou por equipe especializada; dura em média de 30 dias e deve: instalar e configurar o software de virtualização, orientar sobre as melhores práticas de utilização, testar as características e funcionalidades e validar a solução do cenário proposto de forma que as especificações de negócio da empresa sejam atendidas.
+
+Estágios da etapa da prova de conceito:
+• Fase I – levantamento: definição das características e planejamento do escopo do projeto.
+• Fase II – planejamento: detalhes da solução, definição do período de execução e do plano de testes.
+• Fase III – construção: instalação, configuração e realização dos
+testes da estrutura virtualizada.
+• Fase IV – gerenciamento: verificação dos objetivos, reavaliação
+da solução e próximos passos. Ao final dessa fase, já se tem ideia
+da capacidade de uso da virtualização e dos valores financeiros
