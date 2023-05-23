@@ -12,5 +12,7 @@ class Main {
     estados.add("Ceará");
     estados.add("Rio de Janeiro");
     estados.remove("Ceará");
+
+    estados.contains("São Paulo");
   }
 }
