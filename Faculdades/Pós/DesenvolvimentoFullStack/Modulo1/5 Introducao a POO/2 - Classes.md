@@ -22,3 +22,13 @@ public class Cao {
 
 **Lá no arquivo Main.java**
 
+class Main {
+  public static void main(String[] args) {
+    Cao cachorro = new Cao(); // invocação da nossa classe
+    cachorro.nome = "Snoopy";
+    cachorro.idade = 4;
+    cachorro.Anda();
+
+    
+  }
+}
