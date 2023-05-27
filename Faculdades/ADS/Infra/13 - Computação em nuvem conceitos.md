@@ -8,3 +8,14 @@ No início, grandes volumes de dados eram armazenados e processados nos mainfram
 
 *Computação em nuvem é um modelo que possibilita o acesso, de modo conveniente e sob demanda, a um conjunto de recursos computacionais que são configuráveis (redes, equipamentos, servidores, dispositivos de armazenamento, aplicações e serviços) e que podem ser rapidamente adquiridos e liberados com mínimo esforço gerencial ou interação com o provedor de serviços. (NIST, 2013, p. 1)*
 
+
+#### Principais conceitos sobre computação em nuvem
+A principal característica da computação em nuvem é a terceirização do gerenciamento e a utilização de hardware e software para os usuários, fornecidos por empresas especializadas, com serviços de melhor qualidade e menor custo. Por exemplo, uma empresa pode adquirir recursos de hardware conforme sua demanda, sem os custos iniciais de aquisição e instalação dos computadores e softwares. Se a demanda diminuir, pode então diminuir a quantidade de recursos de hardware remoto, e não fica com hardware desnecessário e que será depreciado com o tempo. Assim, conceitos como escalabilidade e elasticidade no fornecimento de recursos se tornam fatores muito atraentes para as empresas.
+
+Modelos de desenvolvimento: com as nuvens pública, privada,
+híbrida ou comunitária.
+• Modelos de serviços: com IaaS (infraestrutura como serviço),
+PaaS (plataforma como serviço) e SaaS (software como serviço).
+• Características essenciais: self-service sob demanda (on-demand
+self-service), acesso através da rede (broad network access), medição de serviços (measured service), elasticidade rápida (rapid
+elasticity) e oferta de recursos (resource pooling)
