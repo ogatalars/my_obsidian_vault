@@ -59,3 +59,6 @@ de desenvolvimento;
 
 **Modelos de desenvolvimento**
 Com o desenvolvimento da computação em nuvem e as vantagens apresentadas, as empresas têm buscado opções para a migração de parte de suas atividades para a nuvem, e em alguns casos até mesmo a totalidade de seus negócios. Uma análise a ser feita, então, será em relação ao modelo de nuvem a ser utilizado, o que diz respeito principalmente à propriedade e à gestão dos recursos de nuvem.
+
+**Nuvem Pública**
+Uma infraestrutura de nuvem pública é disponibilizada para o público em geral ou para um conjunto de empresas. O provedor de serviços é o proprietário e vende os serviços, sendo o responsável pela infraestrutura e pelos controles dos dados e das operações da nuvem. O provedor de serviços pode ser uma organização comercial, acadêmica ou governamental, ou ainda um misto entre eles. Esse tipo de nuvem fornece serviços para o consumidor e são fáceis de usar, por exemplo: Amazon, aplicativos do Google, e-mail do Yahoo, Facebook, Linkedin, mídias sociais para armazenamento de fotos, etc. Essas aplicações são acessadas pela internet através de IP seguro e podem ser gratuitas ou cobrar uma taxa por uso.
