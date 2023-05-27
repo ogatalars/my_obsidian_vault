@@ -46,3 +46,6 @@ O modelo de serviços IaaS fornece a infraestrutura virtual de servidores, dispo
 
 **Plataforma como serviço (PaaS)** ->
 O modelo de serviços PaaS possibilita aos usuários projetar seus sistemas de software, pois fornece um ambiente com um sistema operacional, as linguagens de desenvolvimento e o ambiente necessário para que os desenvolvedores possam construir, testar e compartilhar suas aplicações com outros desenvolvedores. Esses ambientes em geral são escaláveis, isto é, podem crescer dependendo da demanda. Nesse modelo, o PaaS fornece uma infraestrutura em que o usuário não administra ou controla os servidores, a configuração de rede, os sistemas operacionais ou o armazenamento. Os controles ficam restritos apenas às aplicações que estão sendo desenvolvidas. Um cenário interessante para a utilização desse modelo pode ser visto quando uma empresa possui uma equipe de desenvolvimento de aplicações e que em alguns momentos necessita de uma plataforma de desenvolvimento. Eles contratam o serviço apenas pelo tempo necessário.
+
+**Software como serviço (SaaS)** ->
+
