@@ -19,3 +19,7 @@ PaaS (plataforma como serviço) e SaaS (software como serviço).
 • Características essenciais: self-service sob demanda (on-demand
 self-service), acesso através da rede (broad network access), medição de serviços (measured service), elasticidade rápida (rapid
 elasticity) e oferta de recursos (resource pooling)
+
+
+#### Características essenciais
+
