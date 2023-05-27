@@ -23,3 +23,17 @@ elasticity) e oferta de recursos (resource pooling)
 
 #### Características essenciais
 
+As características essenciais da computação em nuvem servem de parâmetros para que tanto as empresas quanto os fornecedores de serviços de nuvem possam ajustar seus relacionamentos e os contratos de prestação de serviços.
+
+On-demand self-service (self-service sob demanda): os serviços computacionais podem ser acessados sob demanda, dependendo da necessidade do usuário, e podem ser selecionados sem
+a necessidade de intervenção do fornecedor.
+• Broad network access (acesso pela rede): os recursos são disponibilizados através de rede e acessados por diversos tipos de
+dispositivos, como computadores, smartphones e tablets.
+• Measured service (medição de serviços): os serviços em nuvem
+são cobrados dependendo da quantidade utilizada.
+• Rapid elasticity (elasticidade rápida): os recursos podem ser
+provisionados pelos provedores de serviços de nuvem de forma
+elástica, isto é, podem ser alocados em qualquer quantidade e a
+qualquer momento.
+• Resource pooling (oferta de recursos): os recursos computacionais são fornecidos pelo provedor de serviços de forma compartilhada com diversos usuários, quer sejam físicos, quer sejam
+virtuais, e são atribuídos dinamicamente aos usuários.
