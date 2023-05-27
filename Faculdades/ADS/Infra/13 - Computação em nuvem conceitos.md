@@ -56,3 +56,6 @@ virtual;
 • ambientes de desenvolvimento para as aplicações e ferramentas
 de desenvolvimento;
 • utilização de aplicações como um serviço aos usuários finais.
+
+**Modelos de desenvolvimento**
+Com o desenvolvimento da computação em nuvem e as vantagens apresentadas, as empresas têm buscado opções para a migração de parte de suas atividades para a nuvem, e em alguns casos até mesmo a totalidade de seus negócios. Uma análise a ser feita, então, será em relação ao modelo de nuvem a ser utilizado, o que diz respeito principalmente à propriedade e à gestão dos recursos de nuvem.
