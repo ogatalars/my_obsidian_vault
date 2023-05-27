@@ -62,3 +62,8 @@ Com o desenvolvimento da computação em nuvem e as vantagens apresentadas, as e
 
 **Nuvem Pública**
 Uma infraestrutura de nuvem pública é disponibilizada para o público em geral ou para um conjunto de empresas. O provedor de serviços é o proprietário e vende os serviços, sendo o responsável pela infraestrutura e pelos controles dos dados e das operações da nuvem. O provedor de serviços pode ser uma organização comercial, acadêmica ou governamental, ou ainda um misto entre eles. Esse tipo de nuvem fornece serviços para o consumidor e são fáceis de usar, por exemplo: Amazon, aplicativos do Google, e-mail do Yahoo, Facebook, Linkedin, mídias sociais para armazenamento de fotos, etc. Essas aplicações são acessadas pela internet através de IP seguro e podem ser gratuitas ou cobrar uma taxa por uso.
+
+As nuvens públicas podem ser baratas e dimensionáveis para que possam atender às demandas, contudo não fornecem contrato de serviços (SLA – Service Level Agreement) e, portanto, não garantem contra perda ou corrupção dos dados. As nuvens públicas são mais apropriadas para consumidores e empresas que não exigem níveis de serviços. É preciso considerar que as nuvens públicas de IaaS não fornecem restrições ou conformidade com as leis de privacidade, sendo responsabilidade do assinante ou do usuário corporativo. O foco das nuvens públicas está no consumidor final e nas pequenas e médias empresas.
+
+#### Nuvem Privada
+
