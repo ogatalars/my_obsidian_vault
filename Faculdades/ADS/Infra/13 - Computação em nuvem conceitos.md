@@ -65,5 +65,6 @@ Uma infraestrutura de nuvem pública é disponibilizada para o público em geral
 
 As nuvens públicas podem ser baratas e dimensionáveis para que possam atender às demandas, contudo não fornecem contrato de serviços (SLA – Service Level Agreement) e, portanto, não garantem contra perda ou corrupção dos dados. As nuvens públicas são mais apropriadas para consumidores e empresas que não exigem níveis de serviços. É preciso considerar que as nuvens públicas de IaaS não fornecem restrições ou conformidade com as leis de privacidade, sendo responsabilidade do assinante ou do usuário corporativo. O foco das nuvens públicas está no consumidor final e nas pequenas e médias empresas.
 
-#### Nuvem Privada
+**Nuvem Privada**
 
+As empresas podem construir suas próprias nuvens dentro da infraestrutura de TI, e assim gerenciar os recursos ou até mesmo terceirizar o gerenciamento. Ainda é importante considerar que os servidores podem estar alocados dentro da empresa ou em data center fora das instalações. As nuvens privadas podem fornecer o modelo IaaS para seus colaboradores, ou ainda unidades de negócios, através de intranet ou internet, usando uma rede VPN (Virtual Private Network). Também podem fornecer aplicativos ou armazenamento como serviços para as filiais e assim aproveitar toda a infraestrutura existente. A segurança é um dos principais motivos para a adoção de nuvem privada, pois os controles de segurança são mais rígidos. Exemplos de serviços fornecidos nessas circunstâncias são os bancos de dados sob demanda e o armazenamento sob demanda.
