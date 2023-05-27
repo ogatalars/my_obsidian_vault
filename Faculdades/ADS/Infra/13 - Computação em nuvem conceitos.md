@@ -6,3 +6,5 @@ No início, grandes volumes de dados eram armazenados e processados nos mainfram
 
 *"é um modelo computacional no qual a capacidade de processamento, armazenamento, software e outros serviços são obtidos de um agrupamento de recursos virtualizados por meio de uma rede, geralmente a Internet. Essa “nuvem” de recursos computacionais pode ser acessada com base na demanda do momento, a partir de qualquer local ou dispositivo conectado."*
 
+*Computação em nuvem é um modelo que possibilita o acesso, de modo conveniente e sob demanda, a um conjunto de recursos computacionais que são configuráveis (redes, equipamentos, servidores, dispositivos de armazenamento, aplicações e serviços) e que podem ser rapidamente adquiridos e liberados com mínimo esforço gerencial ou interação com o provedor de serviços. (NIST, 2013, p. 1)*
+
