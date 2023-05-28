@@ -71,3 +71,5 @@ As empresas podem construir suas próprias nuvens dentro da infraestrutura de TI
 
 **Nuvem híbrida**
 
+A infraestrutura de nuvem híbrida é formada por duas ou mais nuvens, que podem ser públicas, privadas ou comunitárias, e que continuam como entidades exclusivas, porém interligadas por tecnologia que possibilita a portabilidade de dados e de aplicativos.
+Com a utilização de cenários com nuvem híbrida, as informações confidenciais podem ser armazenadas em área privada da nuvem e outros dados em nuvem pública, aproveitando os benefícios de redução de custo, por exemplo. A utilização de nuvem híbrida pode ser interessante para empresas de menor porte, em que aplicações com menor exigência de segurança podem ser utilizadas com menor custo e sem comprometer a segurança de dados confidenciais.
