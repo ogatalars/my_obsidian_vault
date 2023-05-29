@@ -26,3 +26,5 @@ Servidores
 Armazenamento
 Rede** 
 (Os campos em bold são os campos que o serviço laaS oferece)
+
+"*Os usuários de serviços de IaaS podem provisionar a infraestrutura de hardware desejada para suas necessidades através de uma interface gráfica. Por meio de um catálogo, opções de processador, quantidade de memória, rede e armazenamento são facilmente selecionadas. São exemplos de soluções de empresas provedoras de serviços IaaS: Amazon Elastic Compute Cloud (Amazon EC2), Microsoft Windows Azure, Google Compute Engine e IBM Cloud*"
