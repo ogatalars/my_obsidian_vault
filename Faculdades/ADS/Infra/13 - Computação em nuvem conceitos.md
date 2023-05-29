@@ -76,3 +76,6 @@ Com a utilização de cenários com nuvem híbrida, as informações confidencia
 
 **Nuvem comunitária**
 
+A infraestrutura de nuvem comunitária compartilha as características de nuvens privadas e públicas. Com a nuvem privada ela restringe o acesso e com a nuvem pública os dados são compartilhados com diversas organizações. Em geral, essas organizações têm requisitos e particularidades em comum e trocam dados entre si. Um exemplo está no setor de saúde, cujas exigências de privacidade, regulamentações do governo e necessidades de informações por laboratórios e outros atores do processo são comuns. O gerenciamento da nuvem comunitária poderá ser feito pelas organizações/empresas participantes ou ainda por terceiros. Os custos são distribuídos por um número menor de usuários que em uma nuvem pública, e maior que em uma nuvem privada.
+
+*"São algumas aplicações da computação em nuvem utilizadas pelos usuários: serviços de e-mail (Gmail, Yahoo mail, Hotmail); mídias sociais (Facebook, Instagram, Twitter, Pinterest, Linkedin, YouTube); drives virtuais (Dropbox, Google Drive); aplicativos (Google docs); armazenamento de fotos (Picasa); internet banking; serviços públicos (Detran, INSS)."*
