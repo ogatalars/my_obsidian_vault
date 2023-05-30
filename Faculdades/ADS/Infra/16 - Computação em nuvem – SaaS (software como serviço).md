@@ -93,9 +93,9 @@ Mobilidade na troca de provedor
 Dúvidas quanto à confidencialidade dos dados
 Desconhecimento da tecnologia
 
-Para que uma empresa possa utilizar com mais confiança SaaS e
+**Para que uma empresa possa utilizar com mais confiança SaaS e
 decidir quais aplicações vão para a nuvem e quais são prioridades, uma
-sugestão é avaliar algumas variáveis:
+sugestão é avaliar algumas variáveis:**
 • Importância: colocar valor de 1 a 10 considerando a importância
 da aplicação para os negócios da empresa.
 ◦ Sugestão: faça a seguinte pergunta – se o sistema aplicativo
