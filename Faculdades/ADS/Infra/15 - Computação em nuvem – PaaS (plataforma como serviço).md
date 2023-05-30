@@ -56,6 +56,7 @@ Assim, quanto mais forem os componentes agregados fornecidos
 como complementos pelo provedor de PaaS, mais bem posicionado no
 mercado esse provedor estará. 
 
+
 **Componentes de PaaS**
 Os componentes fornecidos pela plataforma como serviço incluem toda a infraestrutura que já é fornecida pela IaaS acrescida de serviços de sistema operacional, middleware e runtime,3 que passam a ser gerenciados pelo provedor de nuvem. Assim a equipe de desenvolvimento estará concentrada em desenvolver suas aplicações em um ambiente virtualizado e colaborativo, deixando todas as preocupações na preparação do ambiente por conta do provedor
 
@@ -132,3 +133,4 @@ Para que as empresas passem a utilizar PaaS em seus projetos, devem considerar:
 • a simplificação da infraestrutura de TI, diminuição dos custos e operações mais focadas em negócios, incluindo a integração e a conectividade com outras aplicações existentes.
 
 **A utilização de serviços PaaS pelas empresas muitas vezes pode ser confundida com outros modelos de negócios. Assim caberá ao usuário definir suas necessidades. Para facilitar podemos considerar: se o usuário é um desenvolvedor (ou uma equipe de desenvolvimento) então precisa de hardware, sistema operacional e ferramentas específicas de desenvolvimento, logo a indicação será a contratação de serviços PaaS, e assim a equipe poderá se dedicar apenas ao desenvolvimento dos aplicativos.**
+
