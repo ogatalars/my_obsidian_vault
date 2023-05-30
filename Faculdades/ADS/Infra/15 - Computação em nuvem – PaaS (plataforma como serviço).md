@@ -110,3 +110,14 @@ mesmo com ocorrência de problemas de rede. Os usuários
 podem criar e modificar dados mesmo quando estiverem off
 line. Os aplicativos móveis oferecem sincronização nativa nos
 seus aplicativos iOS, Android e Windows.
+Conexão de aplicativos aos dados no local: use o Azure para
+compilar aplicativos móveis que consomem dados do seu próprio data center. Com as conexões híbridas e a VPN do Azure,
+é fácil acessar os dados de modo seguro por meio de data
+centers locais, de qualquer lugar do mundo.
+◦ Notificações personalizadas em minutos: os hubs de notificação do Azure são um mecanismo de notificação por push6
+altamente móvel e escalonável, capaz de enviar milhões de notificações por push em segundos para iOS, Android, Windows,
+Nokia X ou outros dispositivos.
+◦ Dimensionamento automático: dimensionamento automático
+interno para aplicativos móveis e hubs de notificação para que
+correspondam às necessidades dos aplicativos. Aumente ou
+diminua o uso de recursos conforme a demanda.
