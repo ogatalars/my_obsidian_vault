@@ -53,7 +53,7 @@ cobrança de utilização dos serviços de nuvem.
 disponibilidade, redução de custos e possibilidade de gerenciar
 todos os processos da empresa. 
 
-odemos considerar alguns benefícios para o usuário na utilização
+Podemos considerar alguns benefícios para o usuário na utilização
 do SaaS (VACCA, 2016):
 • Equipamentos para acesso: qualquer dispositivo com um navegador web pode ser utilizado pelos usuários para acesso às aplicações hospedadas na nuvem.
 • Custo menor para utilização: como os usuários não precisam adquirir os softwares necessários para os serviços desejados, o custo se torna muito menor, pois são pagos conforme a utilização.
@@ -61,3 +61,12 @@ do SaaS (VACCA, 2016):
 • Integração com outros sistemas: a construção de aplicações que
 podem ser interligadas dá aos usuários novas aplicações e usos
 para os negócios, sem que dependam de um único fornecedor.
+- Custos de manutenção: são reduzidos ao valor dependente da
+utilização, evitando-se a preocupação com todos os custos do
+modelo tradicional.
+• Facilidade e rapidez para solução de problemas: como toda a
+solução está hospedada no provedor, que tem acesso a toda a
+infraestrutura, os problemas são resolvidos mais rapidamente.
+• Segurança: como os dados e informações estão hospedados na
+nuvem, procedimentos de segurança são responsabilidade do
+provedor de serviços de nuvem.
