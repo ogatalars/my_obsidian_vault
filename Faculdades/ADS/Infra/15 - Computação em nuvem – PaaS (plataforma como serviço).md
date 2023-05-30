@@ -32,7 +32,6 @@ Uma solução de PaaS fornece os serviços de plataforma integrados baseados em 
 
 • Base de dados (database): fornece banco de dados para as aplicações. São fornecidas ferramentas para acessar e utilizar dados
 em um sistema de armazenamento.
-
 • Inteligência de negócios (business intelligence): fornece ferramentas de BI (inteligência de negócios).
 • Desenvolvimento e teste: fornece ferramentas para desenvolvimento e testes de aplicações.
 • Integração: fornece integração entre aplicações e diversos
