@@ -27,3 +27,16 @@ Rede**
 Todos os grifados são gerenciados pela arquitetura PaaS
 
 *São exemplos de soluções de empresas provedoras de serviços PaaS: Microsoft Azure Cloud Services, Google App Engine, Oracle Cloud Platform, entre outros, e cada um com suas características de fornecimento (KAVIS, 2014)*
+
+Uma solução de PaaS fornece os serviços de plataforma integrados baseados em nuvem que incluem software pré-instalado e configurado de banco de dados e middleware. Fornece também a plataforma para desenvolvimento, teste, implantação e proteção de diferentes tipos de aplicativos corporativos.
+
+• Base de dados (database): fornece banco de dados para as aplicações. São fornecidas ferramentas para acessar e utilizar dados
+em um sistema de armazenamento.
+
+• Inteligência de negócios (business intelligence): fornece ferramentas de BI (inteligência de negócios).
+• Desenvolvimento e teste: fornece ferramentas para desenvolvimento e testes de aplicações.
+• Integração: fornece integração entre aplicações e diversos
+programadores.
+• Implantação de aplicativo (application deployment): fornece o
+ambiente com linguagem de programação para desenvolvimento
+de aplicativos.
