@@ -121,3 +121,12 @@ Nokia X ou outros dispositivos.
 interno para aplicativos móveis e hubs de notificação para que
 correspondam às necessidades dos aplicativos. Aumente ou
 diminua o uso de recursos conforme a demanda.
+
+**Uso de PaaS**
+Considerando que o fornecimento pelos provedores de computação em nuvem PaaS é a oferta de serviços de uma plataforma em que as aplicações poderão ser desenvolvidas, testadas e colocadas em funcionamento, sem o custo e a complexidade de gerenciamento do hardware, além de escalabilidade e capacidade de funcionamento em diversos tipos de dispositivos, isso abre espaço para diversas formas de utilização pelos clientes. E tudo isso pelo custo de uso sob demanda. Os negócios das empresas atualmente possuem ciclos de mudanças muito rápidos, com um mercado altamente competitivo. A PaaS possibilita que as empresas tenham um ganho de capacidade em sua área de TI; os desenvolvedores estarão mais focados em desenvolvimento e inovação em negócios do que gerenciando uma infraestrutura; e os custos de uso da PaaS diminuem muito se comparados com a infraestrutura tradicional. Imagine que em algum momento exista uma demanda de muito desenvolvimento. Para esse momento contrata-se mais PaaS, e quando a demanda diminuir, os custos com PaaS também diminuem. 
+
+Para que as empresas passem a utilizar PaaS em seus projetos, devem considerar: 
+• o ganho de agilidade, flexibilidade e possibilidade de inovação através da automação de processos, aumento de atividades de desenvolvimento colaborativo, alta produtividade e avanços em novas ideias de negócios em tempo real; 
+• a aceleração da inovação de uma aplicação e sua colocação no mercado; 
+• o aumento da segurança para reduzir os riscos; 
+• a simplificação da infraestrutura de TI, diminuição dos custos e operações mais focadas em negócios, incluindo a integração e a conectividade com outras aplicações existentes.
