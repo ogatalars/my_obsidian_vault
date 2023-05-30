@@ -39,3 +39,5 @@ programadores.
 • Implantação de aplicativo (application deployment): fornece o
 ambiente com linguagem de programação para desenvolvimento
 de aplicativos.
+
+No modelo PaaS, os provedores de nuvem fornecem plataformas de computação que incluem um sistema operacional, ambiente de programação com uma linguagem para desenvolvimento, banco de dados e hospedagem em um servidor virtualizado. Em alguns provedores de PaaS os recursos oferecidos podem ser escalonáveis automaticamente, conforme a demanda solicitada pelos aplicativos. Em geral os provedores de PaaS oferecem uma plataforma de computação que permite a criação de aplicações web de forma rápida e eficiente, sem que o cliente precise adquirir toda a infraestrutura de hardware e ambiente de desenvolvimento
