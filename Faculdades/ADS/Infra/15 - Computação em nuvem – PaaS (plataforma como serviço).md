@@ -90,11 +90,10 @@ do aplicativo. O Application Insights fornece informações da
 taxa de transferência, dos tempos de resposta, da utilização
 da memória e da CPU e das tendências de erro do aplicativo.
 
-**Aplicativos web para contêineres**:4
+**Aplicativos web para contêineres**:
 ◦ Implantação rápida: facilidade para implantar aplicativos web
 baseados em contêineres, através do hub do Docker5
- ou de
-um registro de contêiner do Azure privado. O aplicativo web
+ou de um registro de contêiner do Azure privado. O aplicativo web
 para contêineres implantará em contêiner na produção com
 suas dependências preferenciais.
 ◦ Atualizações automáticas: o serviço de aplicativo cria uma associação com o repositório e assim os aplicativos são atualizados sempre que o código-fonte é alterado. Os testes de
