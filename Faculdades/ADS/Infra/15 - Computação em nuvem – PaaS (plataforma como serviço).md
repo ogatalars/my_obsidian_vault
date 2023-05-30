@@ -130,3 +130,5 @@ Para que as empresas passem a utilizar PaaS em seus projetos, devem considerar:
 • a aceleração da inovação de uma aplicação e sua colocação no mercado; 
 • o aumento da segurança para reduzir os riscos; 
 • a simplificação da infraestrutura de TI, diminuição dos custos e operações mais focadas em negócios, incluindo a integração e a conectividade com outras aplicações existentes.
+
+**A utilização de serviços PaaS pelas empresas muitas vezes pode ser confundida com outros modelos de negócios. Assim caberá ao usuário definir suas necessidades. Para facilitar podemos considerar: se o usuário é um desenvolvedor (ou uma equipe de desenvolvimento) então precisa de hardware, sistema operacional e ferramentas específicas de desenvolvimento, logo a indicação será a contratação de serviços PaaS, e assim a equipe poderá se dedicar apenas ao desenvolvimento dos aplicativos.**
