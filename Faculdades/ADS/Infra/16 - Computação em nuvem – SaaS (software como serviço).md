@@ -70,3 +70,42 @@ infraestrutura, os problemas são resolvidos mais rapidamente.
 • Segurança: como os dados e informações estão hospedados na
 nuvem, procedimentos de segurança são responsabilidade do
 provedor de serviços de nuvem.
+
+**Componentes do SaaS**
+
+Os componentes oferecidos pelos provedores de nuvem no modelo SaaS são soluções completas de software para que os usuários possam se conectar imediatamente após uma configuração inicial, que pode ser basicamente um cadastro no serviço e um login validado. Em alguns casos, configurações iniciais como os dados da empresa e o software aplicativo já estão disponibilizados. O modelo de SaaS acrescenta uma mudança radical em como as soluções de aplicativos são fornecidas aos usuários. E isso tanto para as empresas que optam por desenvolvimento interno, quanto para as empresas desenvolvedoras de software.
+
+Com a adoção do modelo de SaaS, as empresas passam a hospedar seus aplicativos em provedores de SaaS e com isso não precisam manter equipes visitando clientes, instalando softwares, fazendo manutenção, etc. As empresas ficam concentradas em desenvolver novas características dos produtos e não precisam mais manter toda a infraestrutura de servidores, sistemas operacionais, licenças de ferramentas de desenvolvimento, pois podem adotar o modelo PaaS – plataforma como serviço para suas equipes de desenvolvimento. Os componentes de SaaS são os diversos softwares aplicativos oferecidos aos usuários, e um provedor de SaaS pode ser uma empresa que mantém toda a infraestrutura de um data center e que hospeda diversas aplicações desenvolvidas por outras empresas. A ideia é que o usuário contrate um software como serviço e não tenha mais nenhuma preocupação com toda a infraestrutura de TI necessária para o funcionamento do aplicativo. O fornecedor SaaS pode então hospedar soluções de parceiros desenvolvedores de software aplicativo, que se responsabilizam pelo suporte e pelas atualizações.
+
+
+**VANTAGENS DE UTILIZAÇÃO DE SAAS**
+
+Custos e investimentos menores
+Autonomia para os usuários, e equipe de TI com mais liberdade
+Maior disponibilidade e capacidade de atendimento
+Atualização das aplicações
+Maior integridade dos dados
+
+**DESVANTAGENS DE UTILIZAÇÃO DE SAAS**
+Tempo de latência maior
+Dependência total da internet
+Mobilidade na troca de provedor
+Dúvidas quanto à confidencialidade dos dados
+Desconhecimento da tecnologia
+
+Para que uma empresa possa utilizar com mais confiança SaaS e
+decidir quais aplicações vão para a nuvem e quais são prioridades, uma
+sugestão é avaliar algumas variáveis:
+• Importância: colocar valor de 1 a 10 considerando a importância
+da aplicação para os negócios da empresa.
+◦ Sugestão: faça a seguinte pergunta – se o sistema aplicativo
+funcionar perfeitamente, a empresa se torna mais competitiva
+no mercado? E se o sistema tiver algum problema e parar, qual
+é o risco para a entrega dos produtos ou serviços? E ainda,
+qual é o impacto que pode gerar em relação aos clientes da
+empresa?
+• Estimativa do custo: colocar um valor estimado de quanto o aplicativo representa nos custos totais de TI.
+• Produto/serviço: fazer o cálculo da multiplicação dos valores importância × estimativa de custo.
+• Prioridade: colocar um indicador de prioridade; e quanto menor
+o resultado da coluna produto/serviço, maior a importância de
+implantação de SaaS.
