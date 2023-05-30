@@ -41,3 +41,20 @@ ambiente com linguagem de programação para desenvolvimento
 de aplicativos.
 
 No modelo PaaS, os provedores de nuvem fornecem plataformas de computação que incluem um sistema operacional, ambiente de programação com uma linguagem para desenvolvimento, banco de dados e hospedagem em um servidor virtualizado. Em alguns provedores de PaaS os recursos oferecidos podem ser escalonáveis automaticamente, conforme a demanda solicitada pelos aplicativos. Em geral os provedores de PaaS oferecem uma plataforma de computação que permite a criação de aplicações web de forma rápida e eficiente, sem que o cliente precise adquirir toda a infraestrutura de hardware e ambiente de desenvolvimento
+
+**São algumas características** para avaliar os provedores de PaaS
+para que se possam desenvolver aplicativos escaláveis e ser aplicados
+em dispositivos móveis (VACCA, 2016):
+• Separação do gerenciamento de dados da interface do usuário.
+• Confiabilidade nos padrões de computação em nuvem.
+• Ambiente integrado de desenvolvimento (IDE).
+• Ferramentas que possibilitem o gerenciamento de ciclo de vida.
+• Suporte, segurança e escalabilidade da arquitetura multi-tenant.2
+• Existência de ferramentas de monitoramento, teste e otimização
+de desempenho.
+Assim, quanto mais forem os componentes agregados fornecidos
+como complementos pelo provedor de PaaS, mais bem posicionado no
+mercado esse provedor estará. 
+
+**Componentes de PaaS**
+Os componentes fornecidos pela plataforma como serviço incluem toda a infraestrutura que já é fornecida pela IaaS acrescida de serviços de sistema operacional, middleware e runtime,3 que passam a ser gerenciados pelo provedor de nuvem. Assim a equipe de desenvolvimento estará concentrada em desenvolver suas aplicações em um ambiente virtualizado e colaborativo, deixando todas as preocupações na preparação do ambiente por conta do provedor
