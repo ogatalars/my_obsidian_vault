@@ -5,3 +5,17 @@ Dizemos então que o relacionamento de Composição define um relacionamento do 
 "Bicicleta tem uma roda";
 "Caminhão tem um motorista";
 "Pedido tem um item"
+
+Main.java
+class Main {
+  public static void main(String[] args) {
+   Pedido p = new Pedido();
+  }
+}
+Itens.java
+public class Itens {
+  public Itens() {
+    
+  }
+}
+Pedido.java
