@@ -3,7 +3,7 @@ A história de utilização de computadores para solucionar os problemas das org
 
 Assim, as necessidades passam a ser o processamento de um volume grande de informações e o atendimento a muitos usuários conectados em terminais de acesso direto ou por meio de uma rede. **Com essas características surge o termo “mainframe”, um gabinete onde ficava a unidade central de processamento.** O surgimento dos mainframes acontece em 1964 com o lançamento do sistema 360 da IBM (IBM System/360), sendo esse o maior projeto da empresa na época (IBM, [s.d.])
 
-A estrutura de um ambiente com mainframe envolvia diversos terminais, nos quais a entrada de dados era feita pelos usuários geralmente via teclado; e a saída era através de um terminal de vídeo ou uma impressora. Todo o processamento das informações era realizado no mainframe. Os terminais não tinham processamento devido à limitação imposta pela tecnologia eletrônica da época. Segundo Laudon e Laudon (2007, p. 125), ***“um mainframe é um computador de alto desempenho e grande capacidade, capaz de processar gigantescas quantidades de dados com extrema velocidade”.*** Os mainframes são computadores dimensionados para aplicações em que a exigência de recursos é muito alta. Os processadores são montados para que o mainframe não seja desligado, mantendo a execução de tarefas em paralelo sem que uma comprometa a outra
+A estrutura de um ambiente com mainframe envolvia diversos terminais, nos quais a entrada de dados era feita pelos usuários geralmente via teclado; e a saída era através de um terminal de vídeo ou uma impressora. **Todo o processamento das informações era realizado no mainframe.** Os terminais não tinham processamento devido à limitação imposta pela tecnologia eletrônica da época. Segundo Laudon e Laudon (2007, p. 125), ***“um mainframe é um computador de alto desempenho e grande capacidade, capaz de processar gigantescas quantidades de dados com extrema velocidade”.*** Os mainframes são computadores dimensionados para aplicações em que a exigência de recursos é muito alta. Os processadores são montados para que o mainframe não seja desligado, mantendo a execução de tarefas em paralelo sem que uma comprometa a outra
 
 São componentes dos primeiros mainframes:
 • **Processadores:** utilizados e montados de tal forma que podem
@@ -19,7 +19,7 @@ gerados eram armazenados em fitas.
 • **Sistemas operacionais:** são o conjunto de rotinas que possibilitam a utilização dos recursos de hardware do mainframe. Eram desenvolvidos para processar textos e banco de dados e para
 fazer cálculos, sendo específicos para cada modelo
 
-A principais características de mainframes são (CA TECHNOLOGIES, 2018): 
+**A principais características de mainframes são (CA TECHNOLOGIES, 2018):** 
 - É um servidor corporativo com capacidade para processar uma grande quantidade de transações por segundo.
 - A plataforma de hardware e software que apresenta maior índice de segurança, disponibilidade, escalabilidade e uso eficiente de energia.
 - É utilizado como servidor de grande porte e de missão crítica.
