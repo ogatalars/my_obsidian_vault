@@ -130,7 +130,7 @@ Existem diversas distribuições do sistema operacional Linux, como: Mandriva, S
 #### Sistema operacional Mac OS X
 Os computadores da Apple, os chamados iMac, possuem um sistema operacional desenvolvido especificamente para eles; possuem interface gráfica avançada, multitarefa e multiusuário, com recursos integrados para navegador web, correio eletrônico, mensagens instantâneas, tocador de mídia e diversas outras características para o usuário.
 
-O Mac OS X também incluiu uma série de características destinadas a tornar o sistema operacional mais estável e confiável que os sistemas operacionais anteriores da Apple. A preemptividade5 e a proteção de memória, por exemplo, aprimoraram a capacidade do sistema operacional em executar vários aplicativos simultaneamente sem que estes interrompam ou corrompam uns aos outros.
+O Mac OS X também incluiu uma série de características destinadas a tornar o sistema operacional mais estável e confiável que os sistemas operacionais anteriores da Apple. A preemptividade e a proteção de memória, por exemplo, aprimoraram a capacidade do sistema operacional em executar vários aplicativos simultaneamente sem que estes interrompam ou corrompam uns aos outros.
 
 
 #### Sistemas operacionais para dispositivos móveis
