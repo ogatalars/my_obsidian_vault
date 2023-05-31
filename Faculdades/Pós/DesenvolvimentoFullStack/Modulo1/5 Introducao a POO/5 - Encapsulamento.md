@@ -20,4 +20,7 @@ public class Aluno {
  public void setNome(n) {
  nome = n;
  }
+public String getNome() {
+ return nome;
+}
 }
