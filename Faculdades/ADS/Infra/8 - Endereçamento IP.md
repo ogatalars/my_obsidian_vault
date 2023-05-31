@@ -1,5 +1,5 @@
 ##### Intro
-A transferência de dados de um computador para outro em uma arquitetura de rede é realizada por meio de vários equipamentos e cabos de comunicação. Na parte de equipamentos estão os dispositivos de rede como os switches e roteadores de diversos fornecedores. A comunicação e a interoperabilidade entre os diversos fornecedores é possível por conta da adoção do protocolo TCP/IP, hoje um padrão na comunicação das redes. O esquema de endereçamento lógico do TCP/IP utilizado é baseado no protocolo IP
+A transferência de dados de um computador para outro em uma arquitetura de rede é realizada por meio de vários equipamentos e cabos de comunicaç**ão. Na parte de equipamentos estão os dispositivos de rede como os switches e roteadores de diversos fornecedores.** A comunicação e a interoperabilidade entre os diversos fornecedores é possível por conta da adoção do protocolo TCP/IP, hoje um padrão na comunicação das redes. O esquema de endereçamento lógico do TCP/IP utilizado é baseado no protocolo IP
 
 #### Enderaçamento IP 
 Para ser interligado em uma rede local ou global, um dispositivo deve possuir uma interface e um endereço único chamado MAC Address (Media Access Control), composto de um conjunto de quarenta e oito bits, com formato e definições.
@@ -24,7 +24,7 @@ Podemos executar comandos no computador através do sistema operacional. No Wind
 
 Na arquitetura de rede proposta pela internet existem os roteadores e os hospedeiros. Eles possuem em geral um único enlace com a rede e quando enviam um datagrama para a rede o fazem através desse enlace. A ligação do hospedeiro (também chamado de host) com a rede é a interface de rede, também chamada de placa de rede (ROSS; KUROSE, 2013).
 
-A função do roteador é receber um datagrama em um enlace e enviá-lo para algum outro enlace, o que por si só já indica que o roteador deve ser ligado a dois ou mais enlaces. Aqui também é importante considerar que a comunicação do roteador com o enlace se dá através de uma placa de rede.
+**A função do roteador é receber um datagrama em um enlace e enviá-lo para algum outro enlace,** o que por si só já indica que o roteador deve ser ligado a dois ou mais enlaces. Aqui também é importante considerar que a comunicação do roteador com o enlace se dá através de uma placa de rede.
 
 A conexão entre hospedeiros e roteadores na arquitetura de rede da internet necessita que cada dispositivo possua um endereço para que essa conexão lógica possa ser estabelecida, e como também tanto os hospedeiros quanto os roteadores necessitam de uma interface física para a conexão com o enlace, tem-se então uma forma de conectar endereços lógicos a endereços físicos (ROSS; KUROSE, 2013).
 
@@ -41,8 +41,6 @@ O quadro abaixo apresenta as classes A, B, C, D, E, os valores dos espaços de e
 Observe que, para o cálculo da quantidade de redes de uma classe, deve-se fazer a conta de 2 elevado ao número de bits disponíveis, que corresponde às letras X indicadas no quadro 3. Assim, para uma classe A, a quantidade de redes será 2,7 pois um bit já foi fixado como zero.
 
 As redes possuem dois endereços IP reservados, sendo um para o identificador da rede, quando colocamos zero para todos os bits reservados para hosts, e outro que se chama endereço de broadcast da rede, quando colocamos um para todos os bits reservados para hosts. Assim, da quantidade de redes de cada classe deverão ser descontados os dois endereços reservados para endereço da rede e para o endereço de broadcast.
-
-VER PAGINA 113
 
 Por exemplo, para o IP – 192.161.181.34 temos: • Endereço da rede: colocar zero no identificador do host: 192.161.181.0 • Endereço de broadcast: colocar um no identificador do host: 192.168.181.255
 
