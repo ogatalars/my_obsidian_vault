@@ -21,13 +21,13 @@ rápida, mas não como em outras tecnologias de armazenamento, nas quais o acess
 O aumento do volume de dados armazenados e então acessados com maior velocidade tem sido um dos pontos levados em consideração ao se projetar novas tecnologias e estratégias de armazenamento. O armazenamento storage, de uma forma geral, é um repositório onde estão centralizados os dados da rede local de uma organização, podendo funcionar como servidor de arquivos ou como backup, ou ainda uma área de compartilhamento de informações e colaboração
 
 As funções de storage podem ser divididas em três tipos, dependendo de como são ligados à infraestrutura de TI:
-• DAS – Direct Attached Storage (armazenamento direto vinculado): é um dispositivo externo ligado diretamente a um
+• **DAS** – Direct Attached Storage (armazenamento direto vinculado): é um dispositivo externo ligado diretamente a um
 computador ou servidor e funciona como um disco externo de
 armazenamento.
-• NAS – Network Attached Storage (armazenamento direto em
+• **NAS** – Network Attached Storage (armazenamento direto em
 rede): dispositivo ligado à rede local que possui um sistema
 operacional e funciona como um servidor de arquivos, compartilhando e gerenciando as informações armazenadas.
-• SAN – Storage Area Network (rede de área de armazenamento): rede onde estão conectados servidores e storages. Oferece
+• **SAN** – Storage Area Network (rede de área de armazenamento): rede onde estão conectados servidores e storages. Oferece
 maior disponibilidade, desempenho e segurança no acesso aos
 dados.
 Vamos nos concentrar nas redes de armazenamento, as SAN
@@ -39,14 +39,14 @@ velocidade e fibra óptica como meio físico de interligação são chamadas de 
 O armazenamento de dados consiste em guardar arquivos em dispositivo de várias tecnologias, por exemplo: o armazenamento óptico (CDs, DVS e Blu-Ray),2 o armazenamento magnético (o mais comum é o disco rígido) e o armazenamento eletrônico (as memórias de estado sólido: pen drives, cartões SD e SSD). Segundo Laudon e Laudon (2007), o conceito de backup é utilizado para dar segurança aos dados que foram gravados e, com isso, garantir a continuidade dos negócios. Assim, vamos utilizá-lo como método para armazenamento de cópias dos arquivos em locais diferentes, não só do computador em si, seja ele de usuário ou servidor, como até fora da área da empresa. **O backup tem como objetivo garantir a integridade e a disponibilidade das informações.**
 
 As organizações podem estruturar seus processos de backup utilizando alguns tipos:
-• Backup completo: todas as informações armazenadas no dispositivo são copiadas para outro dispositivo. Pode ser planejado
+• **Backup completo:** todas as informações armazenadas no dispositivo são copiadas para outro dispositivo. Pode ser planejado
 um backup completo a cada 24 horas, tendo as informações sido
 alteradas ou não.
-• Backup incremental: são copiados apenas os dados que foram
+• **Backup incremental:** são copiados apenas os dados que foram
 alterados entre um backup e outro. Uma vantagem é o menor
 volume de dados a serem copiados e com isso menor tempo
 para a realização do backup.
-• Backup diferencial: na primeira vez que o backup for executado,
+• **Backup diferencial:** na primeira vez que o backup for executado,
 copiará todos os dados; nas próximas vezes, serão copiados todos os dados que foram alterados em relação ao último backup
 completo. Nesse modo de backup são armazenados mais dados
 do que no incremental e menos do que no backup completo. 
@@ -55,7 +55,7 @@ do que no incremental e menos do que no backup completo.
 *Um Datacenter ou Data Center é um conjunto integrado de componentes de alta tecnologia que permitem fornecer serviços de infraestrutura de TI de valor agregado, tipicamente processamento e armazenamento de dados, em larga escala, para qualquer tipo de organização. Os Datacenters e suas conexões formam a infraestrutura da nuvem, quer seja pública ou privada.*
 Um data center (ou centro de processamento de dados), portanto, é uma infraestrutura fundamental para que muitos dos serviços solicitados pelos usuários sejam realizados e para que as empresas possam dar continuidade aos seus negócios. No data center estão colocados os equipamentos para o processamento e o armazenamento dos dados, com diversos servidores para os mais diversos serviços; sistemas de armazenamento como storages; e equipamentos de rede, como switches e roteadores
 
-Os data centers podem ser divididos em três grandes blocos: as instalações (aqui englobamos as instalações físicas, os equipamentos de energia e refrigeração), o gerenciamento e a TI, conforme mostramos na figura 6. Os data centers recebem todo o provisionamento de energia para funcionar, e a parte de telecomunicações envolve toda a infraestrutura de rede para que as empresas possam fazer upload e download de seus dados armazenados no data center
+Os data centers podem ser divididos em três grandes blocos: **as instalações (aqui englobamos as instalações físicas, os equipamentos de energia e refrigeração), o gerenciamento e a TI**. Os data centers recebem todo o provisionamento de energia para funcionar, e a parte de telecomunicações envolve toda a infraestrutura de rede para que as empresas possam fazer upload e download de seus dados armazenados no data center
 
 *a virtualização é o principal serviço de TI do Data Center e influenciará o dimensionamento dos demais serviços oferecidos. O projeto correto da estrutura de TI virtualizada é a chave do bom projeto de Data Center.*
 
