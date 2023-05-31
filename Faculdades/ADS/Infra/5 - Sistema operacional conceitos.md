@@ -17,7 +17,7 @@ A transição 1 ocorre quando um processo que está em execução não pode cont
 
 *"Os sistemas operacionais e os programas de gerenciamento das atividades de rede são interfaces de software que ligam o hardware às redes de computadores e aos programas de aplicação dos usuários. Por exemplo: um computador possui um hardware de placa de rede, que é responsável pela interligação entre a placa motherboard (onde está o processador) e o conector e o cabo de redes, e para isso possui um sistema de endereçamento que é atribuído por software. O sistema operacional de rede, através desse “endereço”, enviará os dados corretamente."*
 
-Para o funcionamento de um computador, é necessário um sistema que garanta aos usuários a utilização dos recursos de hardware por meio de aplicativos (por exemplo: processadores de texto, planilhas, jogos, etc.). O sistema que faz essa conexão é chamado de sistema operacional. Quando um programa de usuário acessa um recurso de hardware, ele não precisa enviar mensagens específicas ao dispositivo, mas ao sistema operacional, que as encaminhará por meio de um driver2 de comunicação. Essa característica facilita muito aos programadores de aplicativos, que não precisam saber como se comunicar com os periféricos e deixam essa atividade para o software do driver, disponibilizado pelo sistema operacional.
+Para o funcionamento de um computador, é necessário um sistema que garanta aos usuários a utilização dos recursos de hardware por meio de aplicativos (por exemplo: processadores de texto, planilhas, jogos, etc.). **O sistema que faz essa conexão é chamado de sistema operacional.** Quando um programa de usuário acessa um recurso de hardware, ele não precisa enviar mensagens específicas ao dispositivo, mas ao sistema operacional, que as encaminhará por meio de um driver2 de comunicação. Essa característica facilita muito aos programadores de aplicativos, que não precisam saber como se comunicar com os periféricos e deixam essa atividade para o software do driver, disponibilizado pelo sistema operacional.
 
 **Os softwares de sistema são organizados em duas categorias:** 
 **Programa de gerenciamento do sistema:** é responsável pelo gerenciamento dos recursos de hardware, software, rede e pelos dados necessários para que as tarefas dos usuários sejam executadas. Exemplos: o sistema operacional, utilitários do sistema, gerenciamento de banco de dados e gerenciamento de rede.
@@ -31,23 +31,23 @@ Para o funcionamento de um computador, é necessário um sistema que garanta aos
 O sistema operacional possui softwares que administram as relações com o hardware de um computador e é escrito com várias linhas de instruções. Para facilitar o desenvolvimento, esses softwares são construídos em módulos, que ficam responsáveis por uma determinada função.
 
 
-KERNEL (NÚCLEO) 
+**KERNEL (NÚCLEO) 
 • Núcleo do sistema operacional
 • Permanece residente na memória do computador
 • Gerencia os processos e a memória
 • Efetua o escalonamento das tarefas
 • Executa a comunicação entre os processos
-• Processa as execuções e interrupções
+• Processa as execuções e interrupções**
 
-SHELL (AMBIENTE OPERACIONAL)
+**SHELL (AMBIENTE OPERACIONAL)
 • Conhecido como o ambiente operacional –
 “interpretador de comandos”
 • Assume o controle do programa
 • Recebe as solicitações dos usuários
 • Interpreta as solicitações dos usuários
-• Atua sobre as execuções dos usuários
+• Atua sobre as execuções dos usuários**
 
-O kernel é o núcleo do sistema operacional e responsável pela execução dos processos, sendo a parte mais interna do sistema operacional. O kernel tem a função de iniciar o sistema e fazer a gerência dos recursos. Por exemplo, a memória, o processador e o dispositivo de armazenamento precisam de controle para que possam ser utilizados por diversos programas. Assim, a função do kernel é gerenciar e alocar os recursos necessários de processador, memória e o espaço em disco a serem disponibilizados para o programa e só então iniciar o processo.
+O kernel é o núcleo do sistema operacional e responsável pela execução dos processos, sendo a parte mais interna do sistema operacional. O kernel tem a função de iniciar o sistema e fazer a gerência dos recursos. Por exemplo, a memória, o processador e o dispositivo de armazenamento precisam de controle para que possam ser utilizados por diversos programas. Assim, a função do kernel **é gerenciar e alocar os recursos necessários de processador, memória e o espaço em disco a serem disponibilizados para o programa e só então iniciar o processo.**
 
 Os processos executam várias funções básicas, e será de responsabilidade do kernel responder às solicitações com um conjunto de instruções para que os programas possam funcionar adequadamente
 
@@ -61,6 +61,8 @@ Funções do sistema operacional
 - Gerenciamento de arquivos Gerencia arquivos de dados e os programas
 - Gerenciamento de suporte Gerencia vários serviços de apoio
 
-A interface do usuário é a parte do sistema operacional que faz a comunicação com o usuário e permite que ele possa carregar os programas, acessar os arquivos e realizar diversas tarefas. Existem três tipos de interface de usuário: a orientada a comandos, a orientada a menus e a interface gráfica. Atualmente, a maioria dos sistemas operacionais utiliza a interface gráfica para facilitar o uso dos computadores pelos usuários. A partir dessa interface, o sistema operacional realiza o gerenciamento das tarefas dos usuários e determina quando e quais tarefas são executadas pela CPU, tais como: o gerenciamento dos arquivos, o controle da criação e a exclusão de arquivos de programas, dados e o acesso a eles. Identifica a posição física dos arquivos nos dispositivos de armazenamento e gerencia os recursos de hardware do computador (CPU, memória, dispositivos de armazenamento, placas de rede e diversos dispositivos de entrada e saída). Além disso, o sistema operacional é responsável por diversos serviços de suporte que são parte de todas as atividades apoiando as aplicações dos usuários e fornecendo um ambiente mais produtivo.
+A interface do usuário é a parte do sistema operacional que faz a comunicação com o usuário e permite que ele possa carregar os programas, acessar os arquivos e realizar diversas tarefas. **Existem três tipos de interface de usuário: a orientada a comandos, a orientada a menus e a interface gráfica**. Atualmente, a maioria dos sistemas operacionais utiliza a interface gráfica para facilitar o uso dos computadores pelos usuários. A partir dessa interface, o sistema operacional realiza o gerenciamento das tarefas dos usuários e determina quando e quais tarefas são executadas pela CPU, tais como: o gerenciamento dos arquivos, o controle da criação e a exclusão de arquivos de programas, dados e o acesso a eles. Identifica a posição física dos arquivos nos dispositivos de armazenamento e gerencia os recursos de hardware do computador (CPU, memória, dispositivos de armazenamento, placas de rede e diversos dispositivos de entrada e saída). 
+
+Além disso, o sistema operacional é responsável por diversos serviços de suporte que são parte de todas as atividades apoiando as aplicações dos usuários e fornecendo um ambiente mais produtivo.
 
 Os sistemas operacionais têm por função proporcionar uma interface para que o usuário possa se comunicar com o computador. Isso pode ser feito, por exemplo, por meio dos dispositivos de entrada, como o teclado e o mouse. Para que o computador possa se comunicar com o usuário, as informações podem ser apresentadas no monitor de vídeo ou na impressora, que são os dispositivos de saída. Os dados processados pela CPU são armazenados durante a execução do programa na memória RAM (Random-access Memory) e depois transferidos para armazenamento em discos rígidos ou DVD.
