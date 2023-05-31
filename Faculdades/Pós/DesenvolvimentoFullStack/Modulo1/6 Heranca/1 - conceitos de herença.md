@@ -28,3 +28,6 @@ class Pessoa {
 }
 
 Vendendor.java
+class Vendendor extends Pessoa{
+  double comissao;
+}
