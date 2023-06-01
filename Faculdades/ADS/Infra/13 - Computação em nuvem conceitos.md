@@ -10,7 +10,7 @@ No início, grandes volumes de dados eram armazenados e processados nos mainfram
 
 
 #### Principais conceitos sobre computação em nuvem
-A principal característica da computação em nuvem é a terceirização do gerenciamento e a utilização de hardware e software para os usuários, fornecidos por empresas especializadas, com serviços de melhor qualidade e menor custo. Por exemplo, uma empresa pode adquirir recursos de hardware conforme sua demanda, sem os custos iniciais de aquisição e instalação dos computadores e softwares. Se a demanda diminuir, pode então diminuir a quantidade de recursos de hardware remoto, e não fica com hardware desnecessário e que será depreciado com o tempo. Assim, conceitos como escalabilidade e elasticidade no fornecimento de recursos se tornam fatores muito atraentes para as empresas.
+A principal característica da computação em nuvem é **a terceirização do gerenciamento e a utilização de hardware e software para os usuários, fornecidos por empresas especializadas, com serviços de melhor qualidade e menor custo**. Por exemplo, uma empresa pode adquirir recursos de hardware conforme sua demanda, sem os custos iniciais de aquisição e instalação dos computadores e softwares. Se a demanda diminuir, pode então diminuir a quantidade de recursos de hardware remoto, e não fica com hardware desnecessário e que será depreciado com o tempo. Assim, conceitos como escalabilidade e elasticidade no fornecimento de recursos se tornam fatores muito atraentes para as empresas.
 
 Modelos de desenvolvimento: com as nuvens pública, privada,
 híbrida ou comunitária.
