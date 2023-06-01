@@ -2,7 +2,7 @@ Os avanços tecnológicos em sistemas de hardware com processadores mais rápido
 
 A computação em nuvem oferece uma solução completa para as empresas através do modelo de SaaS, software como serviço, que permite aos usuários utilizar softwares para, por exemplo: e-mail, ferramentas de gerenciamento de escritórios, além de diversos outros sem a necessidade de instalar nada em seus equipamentos. Isso significa que o usuário não compra licenças de softwares. Todos os procedimentos de aquisição de hardware, configuração de sistemas operacionais, aquisição de licenças de softwares e os aplicativos são de responsabilidade do fornecedor do serviço em nuvem, que então disponibiliza aos usuários e faz a cobrança baseada no uso do ambiente.
 
-No modelo tradicional todos os componentes de hardware, sistema operacional, ferramentas de desenvolvimento, softwares aplicativos, manutenção de todo o sistema e atualizações de softwares são de responsabilidade dos usuários. O modelo SaaS, oferecido pelos provedores de nuvem, faz com que todos os requisitos necessários para o funcionamento dos negócios das empresas sejam de responsabilidade dos provedores
+No modelo tradicional todos os componentes de hardware, sistema operacional, ferramentas de desenvolvimento, softwares aplicativos, manutenção de todo o sistema e atualizações de softwares são de responsabilidade dos usuários. **O modelo SaaS, oferecido pelos provedores de nuvem, faz com que todos os requisitos necessários para o funcionamento dos negócios das empresas sejam de responsabilidade dos provedores**
 
 **Arquitetura TI TRADICIONAL** 
 Aplicações 
