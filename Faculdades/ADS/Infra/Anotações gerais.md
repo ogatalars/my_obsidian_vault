@@ -84,3 +84,5 @@ Uso do Marketplace:
 - No modelo SaaS, o marketplace pode ser uma plataforma onde os usuários podem encontrar e adquirir diferentes serviços SaaS de provedores terceirizados. Isso permite que as empresas acessem uma variedade de aplicativos e serviços, integrando-os facilmente em seu ambiente de trabalho.
 
 Em resumo, a arquitetura tradicional envolve a implantação local e gerenciamento do software pelos próprios usuários, enquanto o modelo SaaS oferece acesso baseado em assinatura a software hospedado na nuvem, com manutenção e atualizações realizadas pelo provedor do serviço. O uso do marketplace pode ser benéfico em ambos os casos, fornecendo uma ampla gama de opções de software e serviços adicionais para atender às necessidades dos usuários.
+
+
