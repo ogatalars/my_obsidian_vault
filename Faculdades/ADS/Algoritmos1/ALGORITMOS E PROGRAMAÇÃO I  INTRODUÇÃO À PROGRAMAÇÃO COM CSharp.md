@@ -25,7 +25,7 @@ O reconhecimento de padrões é uma habilidade-chave quando se trata de criar so
 
 ## Abstração 
 
-Qual a função de um arquiteto? Colocar no papel uma casa ou um edifício. Observe que não podemos morar em um papel ou explorar cada canto daquele desenho, caminhando internamente por aquela construção (no papel). Essa é a terceira habilidade do pensamento computacional que diz que, em vez de olhar para detalhes específicos, devemos ter a capacidade de filtrar os elementos desnecessários de um problema para que você se concentre apenas nos elementos importantes. 
+Qual a função de um arquiteto? Colocar no papel uma casa ou um edifício. Observe que não podemos morar em um papel ou explorar cada canto daquele desenho, caminhando internamente por aquela construção (no papel). Essa é a terceira habilidade do pensamento computacional que diz que, em vez de olhar para detalhes específicos, devemos ter a capacidade de **filtrar os elementos desnecessários** de um problema para que você se concentre apenas nos elementos importantes. 
 
 Em outras palavras, esqueça o fato de ser apenas um desenho, abstraia o fato de estar apenas em um papel. Qual a vantagem da abstração? Bem, nesse exemplo do arquiteto, a planta desenhada por ele incluirá todos os principais elementos de design que serão incluídos na construção final. 
 

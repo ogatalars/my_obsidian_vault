@@ -86,3 +86,19 @@ Uso do Marketplace:
 Em resumo, a arquitetura tradicional envolve a implantação local e gerenciamento do software pelos próprios usuários, enquanto o modelo SaaS oferece acesso baseado em assinatura a software hospedado na nuvem, com manutenção e atualizações realizadas pelo provedor do serviço. O uso do marketplace pode ser benéfico em ambos os casos, fornecendo uma ampla gama de opções de software e serviços adicionais para atender às necessidades dos usuários.
 
 
+
+using System;
+
+Class Program {
+ public static void Main(string[]args){
+  int num = 0;
+  int max = 0;
+  for(int i = 0; i < 10; i ++) {
+  Console.WriteLine("Escreva um número inteiro: ");
+  num = int.Parse(Console.ReadLine());
+  if(num > max){
+  max = num}
+  }
+ } Console.WriteLine(" O maior número dentro os 10 é: "' + max)
+}
+
