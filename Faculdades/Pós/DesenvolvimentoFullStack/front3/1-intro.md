@@ -42,7 +42,6 @@ Nesse projeto, vamos utilizar o modelo de rotas (figura 2) e no decorrer da disc
 
 ![Fonte: Autoria própria, 2022.](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1671750960015-rOy91JUhGp.png "Fonte: Autoria própria, 2022.")
 
-Fonte: Autoria própria, 2022.
 
 ![Fonte: Autoria própria, 2022.](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1671750979054-pzgr4C40Je.png "Fonte: Autoria própria, 2022.")
 
