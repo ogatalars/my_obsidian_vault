@@ -1,0 +1,1 @@
+PWA = Progressive web App. Aplicações rápidas e facéis de resolver. SPA 
