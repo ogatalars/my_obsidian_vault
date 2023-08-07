@@ -39,3 +39,24 @@ tipo_de_dado[ ] nome_do_vetor = { valor_pos_0, valor_pos_1, ... , valor_ultima_p
 **A indicação dos colchetes logo após o tipo de dado indica que essa estrutura é um vetor, e não mais uma única variável.**
 
 Exemplo: double[] notas = {8.7,5.4,6.2};
+
+No código anterior, foi criado um vetor de números racionais (double) chamado notas, de tamanho 3, no qual a primeira posição (índice 0) armazena o valor 8.7, a segunda posição (índice 1) armazena 5.4 e a terceira posição (índice 2) armazena 6.2
+
+nome_do_vetor[índice_desejado] = novo_valor;
+
+notas[1] = 6.4;
+notas = {8.7, 6.4, 6.2}
+
+outra_variavel = nome_do_vetor[índice_desejado]
+
+double nota_do_jose = notas[1];
+nota_do_jose = 6.4
+
+### Declaração do vetor com o tamanho definido para posteriormente receber os valores
+Nesta abordagem, primeiramente é declarado o vetor e posteriormente são atribuídos os valores de cada posição. Esse procedimento é bastante comum em um programa interativo, no qual o usuário insere o valor de cada uma das posições, não cabendo ao programador definir esses valores diretamente no código. O método também é muito utilizado quando os dados são obtidos em um momento posterior à criação do vetor.
+
+tipo_de_dado[ ] nome_do_vetor = new tipo_de_dado[tamanho_do_vetor]
+
+double[] notas = new double[3];
+
+Perceba que, nesse caso, o número **3 representa o tamanho do vetor**. Assim, está sendo criado um vetor de três posições, começando no índice 0 e terminando no índice 2. É preciso atenção para repetir o mesmo tipo de dado nos dois lados do operador de atribuição.
