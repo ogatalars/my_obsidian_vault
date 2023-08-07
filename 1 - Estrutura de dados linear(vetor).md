@@ -30,3 +30,7 @@ double nota_aluno_3 = 6.2;
 double media = (nota_aluno_1 + nota_aluno_2 + nota_aluno_3) / 3;
 
 Nesse trecho, deseja-se calcular a média das notas de todos os alunos de uma turma. Para isso, é necessário fazer a declaração de uma nova variável para armazenar cada nota. Nesse exemplo, temos apenas três alunos, mas, pensando em uma sala de aula real, poderia haver muitos mais, o que se refletiria em mais linhas de código. Contudo, podemos observar que todas essas variáveis têm uma relação entre si: elas são utilizadas para armazenar o mesmo tipo de dado e para a mesma finalidade. São dados do tipo double que representam notas, e cada variável corresponde à nota de um aluno diferente. **Em casos assim, podemos agrupar as variáveis semelhantes em uma única estrutura chamada vetor, ou array unidimensional, reduzindo o código e ganhando clareza na relação entre as variáveis.**
+
+Na linguagem C#, temos algumas alternativas para a criação do vetor
+
+### 
