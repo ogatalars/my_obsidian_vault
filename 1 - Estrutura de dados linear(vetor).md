@@ -9,3 +9,22 @@ Todo programa faz uso de variáveis, que são posições de memória com um nome
 Valor a ser armazenado é o conteúdo da gaveta, ou seja, o que vai ser guardado dentro da variável
 Tipo de dado é “roupa”, ou seja, o formato do valor que é armazenado nessa variável.
 Nome da variável é “roupas”. Indica com facilidade a que se refere o valor armazenado na gaveta.
+
+DESCRIÇÃO REPRESENTAÇÃO EM C# VALORES POSSÍVEIS DE ARMAZENAR 
+Inteiro 
+int -2.147.483.648 até 2.147.483.647 
+Inteiro long -9.223.372.036.854.775.808 até 9.223.372.036.854.775.807 
+Decimal double ±5.0 × 10−324 até ±1.7 × 10308 
+Caractere char Unicode UTF-16 (U+0000 até U+FFFF) 
+Lógico bool true ou false
+
+### Exemplos:
+double altura = 1.80;
+int peso = 75; 
+bool quitacao_eleitoral = true;
+
+Porém, em algum momento, um programa poderá ter diversas variáveis usadas para a mesma finalidade. Observe, por exemplo, o código a seguir, no qual três variáveis possuem a finalidade de armazenar o valor da nota de diferentes alunos:
+double nota_aluno_1 = 8.7;
+double nota_aluno_2 = 5.4; 
+double nota_aluno_3 = 6.2; 
+double media = (nota_aluno_1 + nota_aluno_2 + nota_aluno_3) / 3;
