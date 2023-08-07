@@ -38,4 +38,4 @@ tipo_de_dado[ ] nome_do_vetor = { valor_pos_0, valor_pos_1, ... , valor_ultima_p
 
 **A indicação dos colchetes logo após o tipo de dado indica que essa estrutura é um vetor, e não mais uma única variável.**
 
-Exemplo: 
+Exemplo: double[] notas = {8.7,5.4,6.2};
