@@ -37,3 +37,5 @@ Na linguagem C#, temos algumas alternativas para a criação do vetor
 tipo_de_dado[ ] nome_do_vetor = { valor_pos_0, valor_pos_1, ... , valor_ultima_pos} ;
 
 **A indicação dos colchetes logo após o tipo de dado indica que essa estrutura é um vetor, e não mais uma única variável.**
+
+Exemplo: 
