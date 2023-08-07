@@ -1,0 +1,3 @@
+
+- Preparação do ambiente: Essas ferramentas são conhecidas como ambientes de desenvolvimento integrado ou, em inglês, integrated development environments (IDEs). Aqui, adotaremos a linguagem de programação C# (lê-se C sharp) para o desenvolvimento dos códigos; portanto, é preciso escolher um IDE que suporte essa linguagem. Um IDE muito utilizado, e que recomendamos, é o Microsoft Visual Studio – você pode baixar gratuitamente a versão Comunidade (ou Community), que traz todos os recursos necessários para a compilação e execução dos projetos em C# (MICROSOFT, 2022).
+d
