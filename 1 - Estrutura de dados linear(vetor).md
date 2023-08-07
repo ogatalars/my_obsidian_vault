@@ -90,3 +90,18 @@ Console.WriteLine("Defina quantos alunos há na turma:"); int tamanho = int.Pars
 double soma = 0; for (int i = 0; i < notas.Length; i++) { Console.WriteLine("Nota do aluno " + (i + 1) + ": "+notas[i]); soma += notas[i]; } double media = soma / notas.Length; Console.WriteLine("Média das notas na turma é: "+media);
 
 ### Utilização de funções com vetores 
+Vetores podem ser manipulados como outras variáveis e, inclusive, utilizados como argumentos e retornos de funções. No exemplo a seguir, há uma demonstração do uso de função com um vetor como parâmetro. Nesse caso, um vetor contendo as notas dos alunos será passado como argumento de uma função responsável por calcular a média e retornar esse valor, que será então armazenado e impresso em tela.
+
+double[] notas = { 8.7, 5.4, 6.2 }; 
+double media = calcularMedia(notas); 
+Console.WriteLine("A média da turma é: "+media);
+
+Perceba que o nome do vetor foi usado como argumento da função chamada calcularMedia, como se faria com um tipo de dado primitivo.
+
+
+A seguir, o código da função calcularMedia, que pode ser criada na classe principal, abaixo do método main:
+
+static double calcularMedia(double[] notas) 
+{ double soma = 0; for (int i = 0; i < notas.Length; i++) 
+soma += notas[i]; return soma / notas.Length; 
+}
