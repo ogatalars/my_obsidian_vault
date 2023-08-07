@@ -102,6 +102,10 @@ Perceba que o nome do vetor foi usado como argumento da função chamada calcula
 A seguir, o código da função calcularMedia, que pode ser criada na classe principal, abaixo do método main:
 
 static double calcularMedia(double[] notas) 
-{ double soma = 0; for (int i = 0; i < notas.Length; i++) 
-soma += notas[i]; return soma / notas.Length; 
+{ 
+double soma = 0; for (int i = 0; i < notas.Length; i++) 
+soma += notas[i]; 
+return soma / notas.Length; 
 }
+
+pag 23 
