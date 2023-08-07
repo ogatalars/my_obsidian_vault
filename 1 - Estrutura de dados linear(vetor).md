@@ -84,3 +84,9 @@ notas = new double[tamanho_vetor];
 Resumo: Uma variável representa um único valor; portanto, seu nome tende a ser apresentado no singular. Um vetor, por outro lado, representa um conjunto de valores; por isso, seu nome costuma ser apresentado no plural.
 
 Importante: Podemos nos referir a cada espaço de armazenamento em um vetor como “posição”, indicando o primeiro espaço como 1 (primeira posição) e o último espaço com o valor do tamanho do vetor. Porém, em código, precisamos utilizar o “índice”, que conceitualmente tem a mesma finalidade de indicar um espaço específico do vetor. O primeiro espaço, no entanto, é representado pelo valor 0 (índice zero), e o último índice corresponde ao tamanho do vetor – 1.
+
+Console.WriteLine("Defina quantos alunos há na turma:"); int tamanho = int.Parse(Console.ReadLine()); double[] notas = new double[tamanho]; //Armazenando as notas for (int i = 0; i < notas.Length; i++) { Console.WriteLine("Digite a nota do aluno " + (i + 1) + ":"); notas[i] = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); }
+
+double soma = 0; for (int i = 0; i < notas.Length; i++) { Console.WriteLine("Nota do aluno " + (i + 1) + ": "+notas[i]); soma += notas[i]; } double media = soma / notas.Length; Console.WriteLine("Média das notas na turma é: "+media);
+
+### Utilização de funções com vetores 
