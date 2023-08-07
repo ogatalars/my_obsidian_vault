@@ -34,6 +34,7 @@ Nesse trecho, deseja-se calcular a média das notas de todos os alunos de uma tu
 Na linguagem C#, temos algumas alternativas para a criação do vetor
 
 ### Declaração e atribuição dos valores em uma única instrução
+Neste caso, no momento de criação do vetor, já se possuem todos os dados que serão inseridos em todas as suas posições.
 tipo_de_dado[ ] nome_do_vetor = { valor_pos_0, valor_pos_1, ... , valor_ultima_pos} ;
 
 **A indicação dos colchetes logo após o tipo de dado indica que essa estrutura é um vetor, e não mais uma única variável.**
@@ -60,3 +61,26 @@ tipo_de_dado[ ] nome_do_vetor = new tipo_de_dado[tamanho_do_vetor]
 double[] notas = new double[3];
 
 Perceba que, nesse caso, o número **3 representa o tamanho do vetor**. Assim, está sendo criado um vetor de três posições, começando no índice 0 e terminando no índice 2. É preciso atenção para repetir o mesmo tipo de dado nos dois lados do operador de atribuição.
+
+### Declaração do vetor sem predefinição do tamanho
+Dessa forma, primeiramente declara-se o vetor, depois define-se o tamanho do vetor e, por fim, o valor de cada posição. Esse método é utilizado quando o programador sabe que será necessário um vetor (pois o programa lidará com uma sequência de dados do mesmo tipo), mas não sabe qual será a quantidade, ou seja, qual deverá ser o tamanho do vetor.
+
+O método divide a declaração do vetor em duas partes. Na primeira, define-se apenas o nome do vetor:
+
+tipo_de_dado[ ] nome_do_vetor;
+
+Na segunda, após a definição do tamanho do vetor, é concluída sua criação:
+
+nome_do_vetor = new tipo_de_dado[tamanho_do_vetor];
+double[] notas; notas = new double[3];
+
+Contudo, é mais comum que a declaração do vetor não seja concluída com um número explícito. Usualmente, após a declaração parcial do vetor, uma variável recebe um valor que indica qual deve ser o tamanho do vetor. Essa variável é, então, utilizada para finalizar a declaração do vetor, como no exemplo a seguir:
+
+double[] notas; 
+int tamanho_vetor = valor_digitado_pelo_usuario; 
+notas = new double[tamanho_vetor];
+
+
+Resumo: Uma variável representa um único valor; portanto, seu nome tende a ser apresentado no singular. Um vetor, por outro lado, representa um conjunto de valores; por isso, seu nome costuma ser apresentado no plural.
+
+Importante: Podemos nos referir a cada espaço de armazenamento em um vetor como “posição”, indicando o primeiro espaço como 1 (primeira posição) e o último espaço com o valor do tamanho do vetor. Porém, em código, precisamos utilizar o “índice”, que conceitualmente tem a mesma finalidade de indicar um espaço específico do vetor. O primeiro espaço, no entanto, é representado pelo valor 0 (índice zero), e o último índice corresponde ao tamanho do vetor – 1.
