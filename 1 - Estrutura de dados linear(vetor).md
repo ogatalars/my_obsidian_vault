@@ -108,4 +108,6 @@ soma += notas[i];
 return soma / notas.Length; 
 }
 
-pag 23 
+Perceba que o nome do vetor foi usado como argumento da função chamada calcularMedia, como se faria com um tipo de dado primitivo.
+
+A seguir, o código da função calcularMedia, que pode ser criada na classe principal, abaixo do método main
