@@ -15,3 +15,5 @@ nessa representação, podemos visualizar facilmente que se trata de uma matriz 
 No exemplo a seguir, a nota na linha de índice zero e coluna de índice 1 (valor de 5.4) receberá o valor de 6.4:
 
 notas[0,1] = 6.4;
+
+A seguir, o valor da última linha e última coluna (8.8) será copiado para outra variável:
