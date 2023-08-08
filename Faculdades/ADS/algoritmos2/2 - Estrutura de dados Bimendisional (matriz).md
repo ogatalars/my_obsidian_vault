@@ -31,3 +31,8 @@ notas = new double[3];
 
 Para criar a matriz, a abordagem equivalente é:
 double[,] notas; notas = new double[4,3];
+
+Para finalizar, esses arrays demonstrados são denominados retangulares, pois possuem o mesmo número de colunas para todas as linhas. Já nos arrays irregulares, cada linha pode ter uma quantidade diferente de colunas (DEITEL, 2003).
+
+
+int[,] campo = new int[10,10];//matriz com posições dos elementos do campo int[,] jogo = new int[10, 10];//matriz que registra ações do jogador int qtdLinhas = campo.GetLength(0); int qtdColunas = campo.GetLength(1); for (int l = 0; l < qtdLinhas; l++) { for (int c = 0; c < qtdColunas; c++) { campo[l, c] = 0; jogo[l, c] = -1; } } //Posicionamento aleatório da bandeira Random gerador = new Random(); int linha = gerador.Next(qtdLinhas); int coluna = gerador.Next(qtdColunas); campo[linha, coluna] = 2; //Posicionamento aleatório das bombas int bombasPosicionadas = 0; do { linha = gerador.Next(qtdLinhas); coluna = gerador.Next(qtdColunas); if (campo[linha,coluna]==0) { campo[linha, coluna] = 1; bombasPosicionadas++; } } while (bombasPosicionadas<5);
