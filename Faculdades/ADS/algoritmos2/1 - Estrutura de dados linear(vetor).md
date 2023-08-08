@@ -114,3 +114,21 @@ A seguir, o código da função calcularMedia, que pode ser criada na classe pri
 
 static double calcularMedia(double[] notas) 
 { double soma = 0; for (int i = 0; i < notas.Length; i++) soma += notas[i]; return soma / notas.Length; }
+
+Nessa função, há o retorno de um valor do tipo double que representa a média das notas. Na assinatura da função, o parâmetro de entrada é um vetor, que é representado de forma semelhante aos demais tipos de dados. É necessário indicar seu tipo, acrescido de colchetes, para expressar que se trata de um vetor, e adicionar o nome da variável que será utilizada dentro do corpo da função para representar esse vetor de entrada. Dentro da função, ocorre algo já visto no subcapítulo anterior: o vetor tem todas as suas posições acessadas, os valores de cada uma são somados e, no final, obtém-se a média desses valores, sendo a média retornada pela função.
+
+Outra forma de utilizar vetores em funções é como o retorno de uma função. O exemplo a seguir é de uma função que recebe um vetor de entrada e inverte os valores de todas as posições (o valor da primeira posição é trocado com o valor da última posição, o valor da segunda posição é trocado com o valor da penúltima posição, e assim por diante). A seguir, o código a ser inserido no método main:
+
+double[] notas = { 8.7, 5.4, 6.2 }; inverterVetor(notas); for (int i=0;i < notas.Length; i++) 
+Console.Write(notas[i] +  ' I ');
+Console.WriteLine();
+
+No trecho anterior, o vetor de notas é passado como argumento da função inverterVetor. Essa função inverte os dados do vetor original, por isso não há necessidade de um retorno. Por fim, são impressos todos os novos valores desse vetor para atestar que os valores originais foram realmente invertidos.
+
+static void inverterVetor(double[] vetor) {
+double temp; for (int i = 0; i < vetor.Length/2; i++){ temp = vetor[i]; vetor[i] = vetor[vetor.Length - 1 - i]; vetor[vetor.Length - 1 - i] = temp;
+}}
+
+Na assinatura dessa função, seu retorno corresponde a um vetor de double. No corpo da função, são percorridas as posições do vetor de entrada até a posição intermediária, pois, quando a execução do algoritmo alcançar essa posição, já terão sido invertidos todos os valores. O processo de inversão equivale a armazenar o valor da posição atual em uma variável temporária; obter o valor da posição equivalente no final do vetor e armazená-lo na posição atual; e, por último, armazenar o valor da variável temporária na posição final equivalente. Esse vetor com as posições invertidas é, então, retornado pela função. Quando um vetor for passado como argumento de uma função e alterações de dados forem realizadas nesse vetor, dentro da função, na verdade será alterado o vetor original fora da função. Observe o trecho de código abaixo:
+
+double[] n = notas;
