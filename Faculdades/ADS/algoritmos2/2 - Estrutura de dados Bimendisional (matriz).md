@@ -11,3 +11,5 @@ Para criar uma matriz com diversos valores, deve-se indicar uma vírgula no meio
 
 double[,] notas = { { 8.7, 5.4, 6.2 }, { 3.8, 2.7, 8.5 }, { 9.1, 0.9, 4.2 }, { 7.1, 1.8, 8.8 } }; 
 nessa representação, podemos visualizar facilmente que se trata de uma matriz 4 x 3 (4 linhas x 3 colunas).
+
+No exemplo a seguir, a nota na linha de índice zero e coluna de índice 1 (valor de 5.4) receberá o valor de 6.4:
