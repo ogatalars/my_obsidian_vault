@@ -23,3 +23,11 @@ double nota_do_antonio = notas[3, 2];
 Para declarar uma matriz, basta indicar o tamanho das duas dimensões: primeiro, a quantidade de linhas; depois, a quantidade de colunas dentro dos colchetes.
 
 double[,] notas = new double[4,3];
+
+Por fim, pode-se realizar a declaração da matriz sem um tamanho predefinido e informá-lo posteriormente. Em código, a criação do vetor pode ser feita assim:
+
+double[] notas; 
+notas = new double[3];
+
+Para criar a matriz, a abordagem equivalente é:
+double[,] notas; notas = new double[4,3];
