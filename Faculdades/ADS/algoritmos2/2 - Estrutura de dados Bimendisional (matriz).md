@@ -17,3 +17,9 @@ No exemplo a seguir, a nota na linha de índice zero e coluna de índice 1 (valo
 notas[0,1] = 6.4;
 
 A seguir, o valor da última linha e última coluna (8.8) será copiado para outra variável:
+
+double nota_do_antonio = notas[3, 2];
+
+Para declarar uma matriz, basta indicar o tamanho das duas dimensões: primeiro, a quantidade de linhas; depois, a quantidade de colunas dentro dos colchetes.
+
+double[,] notas = new double[4,3];
