@@ -50,3 +50,5 @@ problemaArquivo = true;
 }
 
 
+No código acima, iniciamos com a declaração de duas matrizes: a matriz campo armazenará os valores de cada posição do tabuleiro, que serão carregados a partir do arquivo txt; a matriz jogo representa os valores visíveis ao jogador, indicando o valor –1 para cada posição que o jogador ainda não escolheu – após cada escolha de campo vazio, o respectivo valor será atualizado na matriz para zero (0). Quando o jogador apontar para uma bomba ou para a bandeira, o jogo se encerrará. Em seguida, são criadas as variáveis qtdLinhas e qtdColunas, que serão utilizadas na próxima etapa de escrita no arquivo. Perceba que, para obter a quantidade de linhas de uma matriz, pode-se utilizar GetLength com o valor 0, e, para obter a quantidade de colunas, o mesmo comando com o valor 1. A variável problemaArquivo indicará se houve problema no carregamento dos dados
+
