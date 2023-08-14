@@ -6,3 +6,10 @@ A utilização de arquivos por programas remete ao uso de documentos simples, cr
 O primeiro passo para trabalhar com a leitura de dados por um programa é criar um arquivo que será acessado por ele. Devemos criar um arquivo de texto (extensão txt) com o nome “campo”. O segundo passo é definir onde salvar esse arquivo. É interessante que ele esteja junto à pasta do projeto que o utiliza. Caso você utilize o Visual Studio para os estudos, recomenda-se colocar esse arquivo na pasta principal do projeto, junto ao arquivo de extensão sln. Após posicionar o arquivo no local desejado, é importante definir os conceitos de caminho absoluto e caminho relativo. No código que implementaremos a seguir, teremos que indicar onde se encontra o arquivo que desejamos acessar; para isso, devemos apontar o caminho até ele utilizando uma das duas formas mencionadas. O caminho absoluto corresponde à indicação de sequência de pastas, desde a raiz do disco rígido até a pasta em que se encontra o arquivo desejado (incluindo o nome do arquivo e sua extensão). 
 
 C:\Users\Rafael\source\repos\Capitulo3\campo.txt
+
+Contudo, ao utilizar esse caminho no código, é preciso duplicar as barras para evitar que a linguagem interprete que deve executar algum comando no meio da string que armazena o caminho, já que esses comandos iniciam com o sinal de barra invertida (\)
+C:\\Users\\Rafael\\source\\repos\\Capitulo3\\campo.txt
+
+Outra forma de indicar o arquivo é apontar o caminho relativo. Para isso, toma-se como referência o diretório que executa o projeto
+
+\..\..\..\campo.txt
