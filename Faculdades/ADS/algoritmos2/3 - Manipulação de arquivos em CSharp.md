@@ -13,3 +13,7 @@ C:\\Users\\Rafael\\source\\repos\\Capitulo3\\campo.txt
 Outra forma de indicar o arquivo é apontar o caminho relativo. Para isso, toma-se como referência o diretório que executa o projeto
 
 \..\..\..\campo.txt
+
+Assim como no caminho absoluto, ao criar a string com esse caminho, é necessário duplicar as barras. Portanto, em código, o caminho relativo é:
+
+..\\..\\..\\..\\campo.txt
