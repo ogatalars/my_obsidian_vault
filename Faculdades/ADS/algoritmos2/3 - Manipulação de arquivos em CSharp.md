@@ -62,3 +62,5 @@ Por isso, criamos um bloco try e, dentro dele, realizamos uma tentativa de acess
 
 O parâmetro desse bloco indica o tipo de exceção que será capturada para iniciar a exceção do código do bloco. Nesse caso, trata-se de uma exceção genérica, indicando que qualquer tipo de problema na leitura iniciará a execução desse bloco. Como resultado de alguma exceção gerada, apenas será mostrada uma mensagem de erro, e a variável problemaArquivo receberá o valor true, impedindo que o jogo inicie, como veremos adiante
 
+Dentro do bloco try, a primeira instrução cria um objeto do tipo StreamReader, passando como argumento o caminho do arquivo. Esse objeto abre um fluxo de comunicação com o arquivo informado, permitindo o uso de métodos para realizar a leitura dos seus dados. O comando seguinte, utilizando o método ReadLine() desse objeto, irá justamente ler todo o conteúdo da primeira linha, armazenando-o na string de nome linha_arq. Como é necessário dividir cada linha para obter os valores de cada posição, são criadas as variáveis linha_mtz e coluna_mtz para auxiliar no posicionamento de cada valor
+
