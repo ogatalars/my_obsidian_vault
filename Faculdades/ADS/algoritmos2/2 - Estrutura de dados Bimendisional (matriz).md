@@ -53,4 +53,5 @@ int bombasPosicionadas = 0;
 do { linha = gerador.Next(qtdLinhas); coluna = gerador.Next(qtdColunas); 
 if (campo[linha,coluna]==0) { campo[linha, coluna] = 1; bombasPosicionadas++; } } while (bombasPosicionadas<5);
 
-Duas matrizes são utilizadas nessa implementação: a matriz campo é usada para registrar o posicionamento das bombas (pelo número 1), da bandeira (pelo número 2) e das posições vazias (pelo número 0); a matriz jogo inicia com –1 em todos os campos e é utilizada para a visualização do jogador. Conforme o jogador indica posições, elas são preenchidas com 0, até a indicação de uma posição com uma bomba ou a bandeira. A variável qtdLinhas armazena o tamanho da matriz na
+Duas matrizes são utilizadas nessa implementação: a matriz campo é usada para registrar o posicionamento das bombas (pelo número 1), da bandeira (pelo número 2) e das posições vazias (pelo número 0); a matriz jogo inicia com –1 em todos os campos e é utilizada para a visualização do jogador. Conforme o jogador indica posições, elas são preenchidas com 0, até a indicação de uma posição com uma bomba ou a bandeira. A variável qtdLinhas armazena o tamanho da matriz na primeira dimensão (número de linhas), e a variável qtdColunas, na segunda dimensão (número de colunas).
+
