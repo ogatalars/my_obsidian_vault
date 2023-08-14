@@ -17,3 +17,36 @@ Outra forma de indicar o arquivo é apontar o caminho relativo. Para isso, toma-
 Assim como no caminho absoluto, ao criar a string com esse caminho, é necessário duplicar as barras. Portanto, em código, o caminho relativo é:
 
 ..\\..\\..\\..\\campo.txt
+
+### Leitura de dados em um arquivo
+Exemplo de código usando um arquivo:
+
+int[,] campo = new int[10, 10];//matriz com posições dos elementos do campo 
+int[,] jogo = new int[10, 10];//matriz que registra ações do jogador 
+int qtdLinhas = campo.GetLength(0); 
+int qtdColunas = campo.GetLength(1); 
+bool problemaArquivo = false;
+string caminho_absoluto = "C:\\Users\\Rafael\\source\\repos\\Capitulo3\\campo.txt"; 
+string caminho_relativo = "..\\..\\..\\..\\campo.txt";
+
+try { //Informando o caminho e nome do arquivo StreamReader sr = new StreamReader(caminho_absoluto); //Leitura da primeira linha do arquivo 
+String linha_arq = sr.ReadLine(); 
+int linha_mtz = 0; int coluna_mtz = 0; //Continua lendo até não identificar uma nova linha 
+while (linha_arq != null || linha_mtz<10) { //Separação de cada elemento da string pela vírgula
+foreach (var numero in linha_arq.Split(',')) { int num; //Conversão de cada elemento separado para um 
+int if (int.TryParse(numero, out num)) { //armazenando elemento na matriz campo 
+campo[linha_mtz, coluna_mtz] = num; 
+jogo[linha_mtz, coluna_mtz] = -1; 
+coluna_mtz++; } } //Leitura da próxima linha 
+linha_arq = sr.ReadLine(); //Avançando para a leitura da próxima linha, 
+
+//começando pelo primeiro valor (primeira coluna) 
+coluna_mtz = 0; linha_mtz++; } 
+
+//Encerrando a leitura do arquivo
+sr.Close(); } catch (Exception e) 
+{ Console.WriteLine( "Ocorreu um problema na leitura do arquivo!"); 
+problemaArquivo = true; 
+}
+
+
