@@ -73,3 +73,6 @@ Para cada valor resultante dessa divisão da string em partes, é realizada uma 
 Quando o foreach se encerrar, indicando o término da conversão dos valores de uma linha, uma próxima linha será lida pelo comando ReadLine(). O valor da coluna voltará para zero, e o da linha será incrementado para continuar preenchendo corretamente a matriz com os próximos valores a serem convertidos. Assim, o laço se repetirá enquanto houver uma nova linha lida. Ao encerrar-se o processo de leitura, o fluxo aberto com o arquivo é encerrado pelo método Close()
 
 Observe que a definição dos valores do tabuleiro não é mais realizada de forma estática no código, mas provém de uma fonte externa. Assim, quem não entende de programação pode facilmente criar um novo campo no arquivo externo para que outro jogador participe.
+
+Se ocorrer algum problema na leitura do arquivo que você está implementando, verifique com atenção os dados digitados. Perceba que o código implementado para leitura segue uma sequência predeterminada; portanto, os dados no arquivo precisam estar nessa mesma sequência lógica ou haverá inconsistência de informação e problema na leitura. Redobre a atenção, também, para o caminho indicado para o arquiv
+
