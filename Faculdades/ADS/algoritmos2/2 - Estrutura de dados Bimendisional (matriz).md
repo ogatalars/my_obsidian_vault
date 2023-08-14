@@ -55,3 +55,12 @@ if (campo[linha,coluna]==0) { campo[linha, coluna] = 1; bombasPosicionadas++; } 
 
 Duas matrizes são utilizadas nessa implementação: a matriz campo é usada para registrar o posicionamento das bombas (pelo número 1), da bandeira (pelo número 2) e das posições vazias (pelo número 0); a matriz jogo inicia com –1 em todos os campos e é utilizada para a visualização do jogador. Conforme o jogador indica posições, elas são preenchidas com 0, até a indicação de uma posição com uma bomba ou a bandeira. A variável qtdLinhas armazena o tamanho da matriz na primeira dimensão (número de linhas), e a variável qtdColunas, na segunda dimensão (número de colunas).
 
+Em seguida, a matriz campo é percorrida para ter todas as suas posições inicializadas com 0, enquanto a matriz jogo é inicializada com –1. Observe que esse preenchimento é feito com a utilização de duas estruturas for, uma dentro da outra. Esta é a forma padrão de percorrer uma matriz: enquanto o for externo alterna entre as linhas, o for interno alterna entre as colunas.
+
+Depois de preenchidas as duas matrizes, são gerados dois números aleatórios: um de linha (entre 0 e qtdLinhas – 1) e outro de coluna (entre 0 e qtdColunas – 1). Esses números são usados como índices para posicionar a bandeira (número 2) na matriz campo.
+
+Por fim, são geradas cinco bombas (número 1) para serem posicionadas no campo. Um contador registra quantas bombas já foram criadas. Novamente, são gerados números aleatórios de linha e coluna, mas desta vez é feita uma verificação para garantir que não haja outra bomba ou bandeira na mesma posição. Se a posição estiver vazia (número 0), a bomba será posicionada.
+
+Tendo sido preparado o campo do jogo, o próximo passo é criar a interface de interação do usuário.
+
+bool fimJogo = false; do { for (int l = 0; l < qtdLinhas; l++) { for (int c = 0; c < qtdColunas; c++) { Console.Write(string.Format("{0} ", jogo[l, c])); } Console.Write(Environment.NewLine + Environment.NewLine); } Console.Write("Selecione uma linha [1-10]: "); linha = Convert.ToInt32(Console.ReadLine()) -1; Console.Write("Selecione uma coluna [1-10]: "); coluna = Convert.ToInt32(Console.ReadLine()) -1; switch (campo[linha, coluna]) { case 0: jogo[linha, coluna] = 0; Console.Write("Continue tentando.\n\n"); break; case 1: jogo[linha, coluna] = 1; Console.Write("BOOOM. Você perdeu.\n\n"); fimJogo = true; break; default: jogo[linha, coluna] = 2; Console.Write("Parabéns. Você ganhou!\n\n"); fimJogo = true; break; } } while (!fimJogo);
