@@ -74,5 +74,9 @@ Quando o foreach se encerrar, indicando o término da conversão dos valores de 
 
 Observe que a definição dos valores do tabuleiro não é mais realizada de forma estática no código, mas provém de uma fonte externa. Assim, quem não entende de programação pode facilmente criar um novo campo no arquivo externo para que outro jogador participe.
 
-Se ocorrer algum problema na leitura do arquivo que você está implementando, verifique com atenção os dados digitados. Perceba que o código implementado para leitura segue uma sequência predeterminada; portanto, os dados no arquivo precisam estar nessa mesma sequência lógica ou haverá inconsistência de informação e problema na leitura. Redobre a atenção, também, para o caminho indicado para o arquiv
+Se ocorrer algum problema na leitura do arquivo que você está implementando, verifique com atenção os dados digitados. Perceba que o código implementado para leitura segue uma sequência predeterminada; portanto, os dados no arquivo precisam estar nessa mesma sequência lógica ou haverá inconsistência de informação e problema na leitura. Redobre a atenção, também, para o caminho indicado para o arquivo.
+
+
+
+if (!problemaArquivo) { bool fimJogo = false; bool vitoria = false; do { for (int l = 0; l < qtdLinhas; l++) { for (int c = 0; c < qtdColunas; c++) { Console.Write(string.Format("{0} ", jogo[l, c])); Console.Write(Environment.NewLine + Environment.NewLine); } Console.Write("Selecione uma linha [1-10]: "); int linha = Convert.ToInt32(Console.ReadLine()) - 1; Console.Write("Selecione uma coluna [1-10]: "); int coluna = Convert.ToInt32(Console.ReadLine()) - 1; switch (campo[linha, coluna]) { case 0: jogo[linha, coluna] = 0; Console.Write("Continue tentando.\n\n"); break; case 1: jogo[linha, coluna] = 1; Console.Write("BOOOM. Você perdeu.\n\n"); fimJogo = true; break; default: jogo[linha, coluna] = 2; Console.Write("Parabéns. Você ganhou!\n\n"); fimJogo = true; vitoria = true; break; } } while (!fimJogo); }
 
