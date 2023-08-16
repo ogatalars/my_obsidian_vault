@@ -67,3 +67,5 @@ O(f(n))
 O(n)
 
 **A notação “O(n)” deve ser lida como “Ó de n”.**
+
+*Essa notação indica que, dado um valor de entrada, a quantidade de verificações executadas pelo algoritmo será, no máximo, igual ao valor apontado pela função (indicado pela notação). Ela define uma maneira de expressar a taxa de crescimento dos passos realizados pelo algoritmo conforme o aumento da entrada.*
