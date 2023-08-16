@@ -20,3 +20,10 @@ Essa é a abordagem mais simples para percorrer um vetor em busca de um valor, p
 
 ### Busca binária
 A busca binária apresenta uma nova estratégia de busca de um valor em um vetor. Trata-se de um algoritmo que representa um aperfeiçoamento em relação à busca linear, de forma que, para um caso médio, menos posições são consultadas para encontrar o valor procurado. Contudo, há uma importante condição para que esse algoritmo funcione: todos os valores precisam estar ordenados no vetor.
+
+A lógica de implementação segue o método de divisão e conquista: separar um problema maior em pequenas partes, de modo a resolver cada uma delas, juntando suas soluções para resolver o problema como um todo. No caso da busca binária, essa estratégia consiste em dividir o vetor em duas partes e olhar para o meio: caso o valor do meio seja menor que o valor procurado, é analisada a segunda parte do vetor, repetindo-se a estratégia de dividi-lo em duas partes. Caso o valor do meio seja maior que o valor procurado, é analisada a primeira parte do vetor, repetindo-se a estratégia. Quando o valor do meio for igual ao valor procurado, a busca será encerrada.
+
+A implementação da busca binária é apresentada a seguir:
+
+int[] dados = { 3, 17, 19, 26, 50, 52, 54, 69, 83, 84 };
+int valor_procurado = 54; bool valor_encontrado = false; int inicio = 0;
