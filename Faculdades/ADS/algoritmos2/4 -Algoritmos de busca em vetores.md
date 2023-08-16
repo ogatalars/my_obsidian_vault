@@ -55,3 +55,15 @@ O algoritmo de busca binária apresenta uma estratégia própria e comparativame
 Em computação, é comum que haja diferentes estratégias para resolver um mesmo problema, ou seja, diferentes algoritmos para realizar uma mesma tarefa. Embora esses algoritmos tenham que alcançar o mesmo resultado, a fim de cumprir a tarefa a que se propõem, a forma como a executarão será diferente e, em consequência, um algoritmo poderá ser mais eficiente do que o outro. Vimos até aqui dois algoritmos de busca que resolvem o mesmo problema de encontrar um elemento em um vetor. No entanto, devido às suas estratégias (implementações) diferentes, um pode ser mais eficiente do que o outro. 
 
 O conceito de eficiência pode variar, mas normalmente se refere a um algoritmo de execução mais rápida ou com menor utilização de recursos (memória). Em nosso caso, estamos analisando a eficiência em relação à quantidade de passos (ou verificações) que os algoritmos têm que executar até cumprir seu objetivo. Na prática, isso se refletirá no tempo de execução dos algoritmos. É comum analisarmos um algoritmo sob o pior caso, ou seja, a quantidade máxima de verificações necessárias. Contudo, essa análise tem que ser feita em função de uma entrada. Um algoritmo de busca atua sobre uma quantidade de elementos; portanto, seu tempo de execução varia conforme a quantidade de elementos que ele precisa analisar. Assim, podemos fazer uma projeção de quantas verificações serão necessárias (no pior caso) em função de cada possível entrada (nesse caso, uma quantidade de elementos).
+
+Para o algoritmo de busca linear, o pior caso é quando o elemento buscado se encontra na última posição do vetor. Então, o algoritmo precisa percorrer todas as posições até encontrá-lo. Assim, se o vetor possui 10 elementos, são necessárias 10 verificações; se possui 25 elementos, 25 verificações. De forma mais genérica, se o vetor possui n elementos, são necessárias n verificações.
+
+Para expressar essa análise do algoritmo, visando a uma maior formalidade, utiliza-se uma notação. A notação O, também chamada de grande O, indica o limite assintótico superior da função, que basicamente representa a quantidade máxima de execuções do algoritmo. No caso do algoritmo de busca linear, já identificamos que, dada uma entrada com n elementos, serão executadas, no pior caso, n verificações.
+
+f(n) = n
+
+O(f(n))
+
+O(n)
+
+**A notação “O(n)” deve ser lida como “Ó de n”.**
