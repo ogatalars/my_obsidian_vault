@@ -36,3 +36,15 @@ do { meio = inicio + (fim - inicio) / 2; if (dados[meio] == valor_procurado) { C
 Primeiramente, observe que o vetor contém os mesmos valores do exemplo criado para a busca linear, porém todos eles estão agora ordenados no vetor. Portanto, caso deseje aplicar uma busca binária em um vetor não ordenado, é necessário primeiro aplicar um algoritmo de ordenação.
 
 **Diferentemente da busca linear, na busca binária o vetor precisa estar com todos os seus elementos ordenados de forma crescente.**
+
+Para a aplicação desse algoritmo, são utilizadas três variáveis: uma para indicar o índice de início do trecho do vetor analisado, uma para indicar o fim e outra para indicar o meio (caso haja um valor par de índices, o índice central é arredondado para o menor valor). Um laço inicia calculando o índice da posição do meio. 
+
+Primeiro, é verificado se o valor nessa posição é o buscado. Caso seja o valor buscado, uma mensagem de confirmação é impressa, o valor da variável que indica que o valor foi encontrado recebe true e o laço é encerrado com o comando break. Caso o valor nessa posição central seja maior que o valor procurado, a posição final do vetor passa para o índice anterior ao verificado.
+
+Dessa forma, na próxima iteração, será verificada a primeira parte do vetor atual, reduzindo assim o escopo de busca ou, ainda, dividindo o problema (de encontrar um valor em um vetor) em uma parte menor. Caso o vetor não esteja ordenado, é inválido presumir que, se o valor na posição central for maior do que o valor procurado, este estará na primeira parte do vetor. Por fim, caso o valor procurado seja maior que o valor na posição do meio, a posição inicial passa para o índice imediatamente posterior ao da posição do meio; assim, na próxima iteração, é verificada a segunda parte do vetor. 
+
+O laço fará com que essa abordagem se repita, dividindo (divisão) o vetor em duas partes, sucessivamente (por isso o nome busca binária), até encontrar ou não o valor procurado (conquista). 
+
+O algoritmo de busca binária apresenta uma estratégia própria e comparativamente mais complexa do que o algoritmo de busca linear. Ao comparar os exemplos de ambos os algoritmos, temos que, pelo algoritmo de busca linear, foram realizadas oito verificações até encontrar o valor procurado (pois este se localiza na oitava posição do vetor), enquanto, pela busca binária, foram necessárias apenas quatro verificações. Mesmo se o vetor utilizado pela busca linear fosse ordenado, seriam necessárias 7 verificações para encontrar o valor 54.
+
+**Com essa observação, intuímos que o algoritmo de busca binária é melhor (mais eficiente) do que o algoritmo de busca linear**
