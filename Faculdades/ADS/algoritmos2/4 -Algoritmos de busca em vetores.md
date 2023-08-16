@@ -26,4 +26,13 @@ A lógica de implementação segue o método de divisão e conquista: separar um
 A implementação da busca binária é apresentada a seguir:
 
 int[] dados = { 3, 17, 19, 26, 50, 52, 54, 69, 83, 84 };
-int valor_procurado = 54; bool valor_encontrado = false; int inicio = 0;
+int valor_procurado = 54; bool valor_encontrado = false; 
+int inicio = 0;
+int fim = dados.Length-1; 
+int meio;
+
+do { meio = inicio + (fim - inicio) / 2; if (dados[meio] == valor_procurado) { Console.WriteLine("Valor encontrado no índice " + meio); valor_encontrado = true; break; } else if (dados[meio] > valor_procurado) { fim = meio - 1; } else { inicio = meio + 1; } } while (inicio<=fim); if (!valor_encontrado) { Console.WriteLine("Valor não encontrado"); }
+
+Primeiramente, observe que o vetor contém os mesmos valores do exemplo criado para a busca linear, porém todos eles estão agora ordenados no vetor. Portanto, caso deseje aplicar uma busca binária em um vetor não ordenado, é necessário primeiro aplicar um algoritmo de ordenação.
+
+**Diferentemente da busca linear, na busca binária o vetor precisa estar com todos os seus elementos ordenados de forma crescente.**
