@@ -69,3 +69,9 @@ O(n)
 **A notação “O(n)” deve ser lida como “Ó de n”.**
 
 *Essa notação indica que, dado um valor de entrada, a quantidade de verificações executadas pelo algoritmo será, no máximo, igual ao valor apontado pela função (indicado pela notação). Ela define uma maneira de expressar a taxa de crescimento dos passos realizados pelo algoritmo conforme o aumento da entrada.*
+
+Para a busca linear, O(n) indica que o algoritmo pode executar até n passos para uma entrada de tamanho n.
+
+Agora, analisemos o algoritmo da busca binária: para um vetor com 4 elementos, são executadas, no máximo, 2 verificações até encontrar o elemento procurado; para um vetor com 8 elementos, são executadas, no máximo, 3 verificações; para um vetor com 16 elementos, 4 verificações. Perceba que a taxa de crescimento (saída da função) é menor do que seu valor de entrada; logo, ela cresce mais devagar do que a função linear que representa o algoritmo da busca linear. Esse crescimento, em que a saída aumenta uma unidade somente quando se dobra o valor da entrada, é expresso pela função do logaritmo na base 2. 
+
+De forma análoga ao processo indicado para a busca linear, podemos apontar que a complexidade da busca binária é assim expressa na notação O: O(log2 n)
