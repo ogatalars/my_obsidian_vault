@@ -123,3 +123,5 @@ class SelectionSortExample
 Neste exemplo, o algoritmo Selection Sort é usado para ordenar um array de inteiros em ordem crescente. Ele percorre o array, encontra o menor elemento não ordenado e o troca com o elemento na posição atual. Isso é repetido para cada posição até que todo o array esteja ordenado.
 
 Lembre-se de que, assim como o Bubble Sort, o Selection Sort não é o algoritmo de ordenação mais eficiente para arrays grandes, mas é útil para entender os conceitos básicos de ordenação.
+
+### Ordenação por inserção
