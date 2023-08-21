@@ -28,4 +28,15 @@ Vamos a outro exemplo: o cálculo do n-ésimo termo da sequência de Fibonacci.
 
 public static int fibIterativo(int numero) { int num1 = 1; int num2 = 1; int proxNum = 0; for (int i = 3; i <= numero; i++) { proxNum = num1 + num2; num1 = num2; num2 = proxNum; } return proxNum; }
 
-Nessa função, passado o número do termo desejado na sequência de Fibonacci, inicialmente são definidos os dois primeiros termos com o valor 1. Em seguida, um for começa percorrendo do terceiro termo até o valor do termo desejado. Para cada iteração, o próximo número é determinado como a soma dos dois anteriores; o primeiro número é atualizado com o valor do segundo; e o segundo número é atualizado com o valor da soma.
+Nessa função, passado o número do termo desejado na sequência de Fibonacci, inicialmente são definidos os dois primeiros termos com o valor 1. Em seguida, um for começa percorrendo do terceiro termo até o valor do termo desejado. Para cada iteração, o próximo número é determinado como a soma dos dois anteriores; o primeiro número é atualizado com o valor do segundo; e o segundo número é atualizado com o valor da soma. Ao final das iterações, é retornado o último valor calculado.
+
+A solução recursiva é mais resumida, porém tem algumas peculiaridades:
+
+public static int fibRecursivo(int numero1, int numero2, int numeroSequencia) { if (numeroSequencia > 1) return fibRecursivo(numero2, numero1 + numero2, --numeroSequencia); else return numero1; }
+
+Perceba que, em comparação com a solução iterativa, há mais parâmetros de entrada. A proposta é que, a cada chamada recursiva, o valor do termo informado seja subtraído; assim, as chamadas cessarão quando esse valor for 0. Enquanto o valor for maior que 1, uma nova chamada será realizada com os parâmetros atualizados: o que era numero1 passa a ser numero2; o que era numero2 passa a ser a soma de numero1 com numero2; e do número do termo é subtraído 1. Essas chamadas se repetirão até que o número do termo (numeroSequencia) seja 0, executando, assim, o bloco else e atingindo o critério de parada: é retornado o valor de numero1 (termo desejado). Esse valor é retornado, então, para a chamada anterior (dentro de um if), que também retornará o valor para a chamada anterior, e assim sucessivamente, até a chamada inicial.
+
+Com esses exemplos, percebemos que não existe uma estrutura exata para construir uma função recursiva: cada problema pode exigir uma abordagem diferente. Contudo, os seguintes elementos devem estar presentes para que essa função tenha sucesso:
+
+**- Uma chamada recursiva a si mesma com parâmetros sempre diferentes. 
+• Um critério de parada para evitar o loop infinito.**
