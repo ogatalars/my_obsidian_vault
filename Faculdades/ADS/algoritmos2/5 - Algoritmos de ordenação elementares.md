@@ -125,3 +125,19 @@ Neste exemplo, o algoritmo Selection Sort é usado para ordenar um array de inte
 Lembre-se de que, assim como o Bubble Sort, o Selection Sort não é o algoritmo de ordenação mais eficiente para arrays grandes, mas é útil para entender os conceitos básicos de ordenação.
 
 ### Ordenação por inserção
+Por fim, um dos últimos algoritmos de ordenação elementar é o de ordenação por inserção – ou insertion sort. A proposta desse algoritmo é comparar um elemento com todos os anteriores (que estarão ordenados), buscando colocá-lo na posição correta. Portanto, a cada passada, avançará a posição verificada e aumentará a parte ordenada (inicial) do vetor. Assim, a complexidade desse algoritmo corresponde a uma somatória de n-1 repetições, e em cada repetição há uma inversão a mais a ser realizada (SZWARCFITER; MARKENZON, 2010). De forma simplificada, a complexidade corresponde a O(n2 ).
+
+Assim, a complexidade desse algoritmo corresponde a uma somatória de n-1 repetições, e em cada repetição há uma inversão a mais a ser realizada (SZWARCFITER; MARKENZON, 2010). De forma simplificada, a complexidade corresponde a O(n2 )
+
+O pseudocódigo a seguir representa essa estratégia: para i = 1 até n-1 faça valor := vetor[i] j := i – 1 enquanto j≥0 e valor < vetor[ j ] faça vetor[ j + 1] := vetor[ j ] j := j – 1 fim-enquanto vetor[ j + 1] := valor fim-para
+
+O algoritmo inicia verificando e comparando a segunda posição com as anteriores – nesse caso inicial, somente com a primeira. Caso o valor em sua posição atual (definido pela variável i) seja menor do que na posição comparada (definido pela variável j), a posição seguinte à comparada recebe o valor da posição em comparação (momentaneamente, ficam dois valores iguais em posições subsequentes). A repetição dessa ação serve para identificar o local em que o valor da posição i será colocado. Uma vez identificado o local, essa posição receberá o valor da posição i armazenado em valor, e o procedimento se repetirá até o último elemento do vetor
+
+
+A seguir, a implementação em código:
+
+int[] vetor = { 99, 82, 50, 67, 90, 20, 71, 8, 21, 18 }; int num, pos_verificada; for (int pos = 1; pos < vetor.Length; pos++) { num = vetor[pos]; pos_verificada = pos-1; while (pos_verificada >= 0 && num
+
+Essa implementação segue o proposto em pseudocódigo. Em código, a variável num corresponde a i; em pseudocódigo, a variável pos_ verificada corresponde a j. Um for repete a passada pelo vetor da segunda até a última posição. Em cada passada, num armazena o valor da posição atual do elemento a ser deslocado, e pos_verificada inicia armazenando a posição anterior à posição do elemento (a cada repetição, essa posição é diminuída, procurando a posição adequada na qual incluir o elemento, até alcançar a posição inicial do vetor).
+
+Assim, enquanto não se alcançar um índice menor do que zero e o valor do elemento for menor do que o da posição verificada, a posição seguinte receberá o mesmo valor da verificada, e o índice da posição verificada diminuirá até que um valor seja maior do que o do elemento. Quando se encerrar essa passada, a posição seguinte à verificada receberá o valor do elemento, posicionando-o no local correto, e uma nova passada será iniciada para o próximo elemento.
