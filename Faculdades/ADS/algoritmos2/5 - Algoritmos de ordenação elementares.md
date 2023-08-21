@@ -69,4 +69,57 @@ class BubbleSortExample
 A ordenação por seleção, ou selection sort, é outro método elementar de ordenação. Sua proposta é bem simples e de fácil implementação. O algoritmo procurará o menor elemento a partir da posição inicial (0) e o trocará com o da posição 0. Em seguida, buscará o menor elemento a partir da posição 1 e o trocará com o da posição 1 – repetindo o processo até ordenar todo o vetor.
 
 O pseudocódigo desse algoritmo está expresso a seguir:
-para i = 0 até n-1 faça minimo := i para j = i+1 até n faça se vetor[j] < vetor[minimo] então minimo := j fim-se fim-para temp := vetor[i] vetor[i] := vetor[minimo] vetor[minimo] := temp fim-para
+para i = 0 até n-1 faça minimo := i para j = i+1 até n faça se vetor[j] < vetor[minimo] então minimo := j fim-se fim-para temp := vetor[i] vetor[i] := vetor[minimo] vetor[minimo] := temp fim-para 
+
+Embora a complexidade desse algoritmo resulte em uma expressão quadrática mais a soma de outros fatores, como n e uma constante, costuma-se resumir a complexidade ao maior expoente, o que nos permite simplificar esse cálculo para uma complexidade O(n²). De forma intuitiva, podemos estimar essa complexidade como uma estrutura de repetição dentro da outra, percorrendo todo o vetor durante as iterações. Normalmente, essa estrutura de algoritmo indica uma possível complexidade de execução na ordem quadrática.
+
+A implementação é realizada conforme o código a seguir:
+
+int[] vetor = { 99, 82, 50, 67, 90, 20, 71, 8, 21, 18 }; int min, temp; for (int i = 0; i < vetor.Length - 1; i++) { min = i; for (int pos = (i + 1); pos < vetor.Length; pos++) { if (vetor[pos] < vetor[min]) { min = pos; } } if (vetor[i] != vetor[min]) { temp = vetor[i]; vetor[i] = vetor[min]; vetor[min] = temp; } }
+
+O algoritmo percorrerá todas as posições do vetor. Para cada posição, serão percorridas todas as restantes, armazenando-se o índice de menor valor. Ao final dessa passada, o valor do índice será trocado com o da posição inicialmente selecionada (se o valor de ambas for diferente). O algoritmo repetirá essa ação até a última posição.
+
+algoritmo de Selection Sort é um algoritmo de ordenação simples que funciona selecionando repetidamente o elemento mínimo (ou máximo) da porção não ordenada do array e trocando-o com o elemento que está na posição atual. Aqui está um exemplo de implementação do Selection Sort em C#:
+
+using System;
+
+class SelectionSortExample
+{
+    static void SelectionSort(int[] arr)
+    {
+        int n = arr.Length;
+
+        for (int i = 0; i < n - 1; i++)
+        {
+            int minIndex = i;
+
+            for (int j = i + 1; j < n; j++)
+            {
+                if (arr[j] < arr[minIndex])
+                {
+                    minIndex = j;
+                }
+            }
+
+            // Swap the minimum element with the element at index i
+            int temp = arr[minIndex];
+            arr[minIndex] = arr[i];
+            arr[i] = temp;
+        }
+    }
+
+    static void Main(string[] args)
+    {
+        int[] array = { 64, 25, 12, 22, 11 };
+        
+        Console.WriteLine("Original array: " + string.Join(", ", array));
+        
+        SelectionSort(array);
+        
+        Console.WriteLine("Sorted array: " + string.Join(", ", array));
+    }
+}
+
+Neste exemplo, o algoritmo Selection Sort é usado para ordenar um array de inteiros em ordem crescente. Ele percorre o array, encontra o menor elemento não ordenado e o troca com o elemento na posição atual. Isso é repetido para cada posição até que todo o array esteja ordenado.
+
+Lembre-se de que, assim como o Bubble Sort, o Selection Sort não é o algoritmo de ordenação mais eficiente para arrays grandes, mas é útil para entender os conceitos básicos de ordenação.
