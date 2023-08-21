@@ -40,3 +40,6 @@ Com esses exemplos, percebemos que não existe uma estrutura exata para construi
 
 **- Uma chamada recursiva a si mesma com parâmetros sempre diferentes. 
 • Um critério de parada para evitar o loop infinito.**
+
+### - Estratégia para escrever um algoritmo recursivo
+(pag 92)
