@@ -66,3 +66,7 @@ class BubbleSortExample
 }
 
 ### Ordenação por seleção
+A ordenação por seleção, ou selection sort, é outro método elementar de ordenação. Sua proposta é bem simples e de fácil implementação. O algoritmo procurará o menor elemento a partir da posição inicial (0) e o trocará com o da posição 0. Em seguida, buscará o menor elemento a partir da posição 1 e o trocará com o da posição 1 – repetindo o processo até ordenar todo o vetor.
+
+O pseudocódigo desse algoritmo está expresso a seguir:
+para i = 0 até n-1 faça minimo := i para j = i+1 até n faça se vetor[j] < vetor[minimo] então minimo := j fim-se
