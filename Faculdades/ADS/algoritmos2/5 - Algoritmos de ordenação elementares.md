@@ -15,6 +15,9 @@ Como é possível observar, repetir n operações n vezes corresponde a um total
 A seguir, a implementação, incluindo as duas otimizações apontadas:
 int[] vetor = { 99, 82, 50, 67, 90, 20, 71, 8, 21, 18 }; bool mudou = true;//1a otimização int ultimo = vetor.Length-1;//2a otimização int ultimo_temp = vetor.Length-1; while (mudou) { int pos = 0; mudou = false; int temp = 0; while(pos vetor[pos+1]) { temp = vetor[pos]; // vetor[pos] = vetor[pos+1]; // troca vetor[pos + 1] = temp; // mudou = true; ultimo_temp = pos; } pos++; } ultimo = ultimo_temp; }
 
+
+Nesse código, é criado um exemplo de vetor desordenado. A variável mudou será utilizada para indicar que houve uma troca de elementos em alguma passada pelo vetor (implementando a primeira otimização), e a variável ultimo armazenará a posição do último elemento posicionado pela passada anterior (implementando a segunda otimização). O algoritmo será executado (repete-se a passada) enquanto a variável mudou for true, ou seja, se na passada anterior tiver ocorrido uma troca de posições. A cada nova passada, começa-se pela posição inicial (pos = 0), e mudou inicia como false. Um novo laço controla o avanço da passada enquanto a posição verificada for menor que a última posição organizada do vetor. Caso o elemento da posição atualmente verificada seja maior do que o da próxima posição, ambos os valores são trocados (utilizando a variável temp como auxiliar na troca). Além disso, a variável mudou passa a receber valor verdadeiro, indicando que haverá uma nova passada ao final da atual, e a variável ultimo_temp receberá momentaneamente o valor da posição atual onde houve troca (caso ocorra uma nova troca nessa mesma passada, essa variável é atualizada). Ao final dessa passada, a variável ultimo receberá o valor armazenado em ultimo_temp, e, assim, a quantidade de passadas a serem executadas pelo laço em sua verificação (pos
+
 Exemplo de Bubble Sort:
 
 using System;
@@ -62,3 +65,4 @@ class BubbleSortExample
     }
 }
 
+### Ordenação por seleção
