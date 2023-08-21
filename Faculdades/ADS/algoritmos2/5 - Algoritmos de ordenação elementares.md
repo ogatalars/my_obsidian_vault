@@ -5,4 +5,4 @@ Veremos como um mesmo problema – neste caso, o de ordenação – pode ser abo
 ### Ordenação pelo método bolha
 A ordenação pelo método bolha, por vezes chamada apenas de ordenação bolha ou, ainda, bubble sort, é um dos métodos mais simples e intuitivos para ordenar elementos em uma lista ou vetor. A lógica empregada neste método é representada pelo seguinte pseudocódigo:
 
-para i = 1 até n faça para j = 0 até n – 2 faça se vetor[ j ] > vetor[ j + 1] então trocar(vetor[ j ], vetor[ j + 1])
+para i = 1 até n faça para j = 0 até n – 2 faça se vetor[ j ] > vetor[ j + 1] então trocar(vetor[ j ], vetor[ j + 1]) fim-se fim-para fim-para
