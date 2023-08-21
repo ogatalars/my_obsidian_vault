@@ -10,3 +10,55 @@ para i = 1 até n faça para j = 0 até n – 2 faça se vetor[ j ] > vetor[ j +
 A estratégia consiste em comparar um elemento do vetor com o próximo, iniciando da primeira posição e chegando até a penúltima. Se o próximo elemento for menor, ambos trocarão de posição. O algoritmo repetirá a mesma verificação para todas as próximas posições. Assim, em uma passada pelo vetor (n operações), o maior elemento será alocado na última posição. Essa ação corresponde ao laço interno. Porém é necessário repeti-la n vezes para posicionar corretamente todos os elementos do vetor. Essa ação corresponde ao laço externo.
 
 Como é possível observar, repetir n operações n vezes corresponde a um total de n² operações. Assim, a complexidade desse algoritmo é O(n2 ). No entanto, é possível otimizar dois aspectos: 1. Uma passada pelo vetor sem nenhuma ocorrência de alteração de posição dos elementos indica que ele já está ordenado e, portanto, não é mais necessário repetir essas passadas até um total de n, podendo-se encerrar o algoritmo. 2. Cada passada não precisa percorrer todo o vetor, pois, garantidamente, os últimos elementos estão ordenados; assim, a cada passada, é necessário ir até o elemento anterior ao último ordenado na passada anterior.
+
+
+A seguir, a implementação, incluindo as duas otimizações apontadas:
+int[] vetor = { 99, 82, 50, 67, 90, 20, 71, 8, 21, 18 }; bool mudou = true;//1a otimização int ultimo = vetor.Length-1;//2a otimização int ultimo_temp = vetor.Length-1; while (mudou) { int pos = 0; mudou = false; int temp = 0; while(pos vetor[pos+1]) { temp = vetor[pos]; // vetor[pos] = vetor[pos+1]; // troca vetor[pos + 1] = temp; // mudou = true; ultimo_temp = pos; } pos++; } ultimo = ultimo_temp; }
+
+Exemplo de Bubble Sort:
+
+using System;
+
+class BubbleSortExample
+{
+    static void Main(string[] args)
+    {
+        int[] array = { 64, 34, 25, 12, 22, 11, 90 };
+
+        Console.WriteLine("Original array:");
+        PrintArray(array);
+
+        BubbleSort(array);
+
+        Console.WriteLine("\nSorted array:");
+        PrintArray(array);
+    }
+
+    static void BubbleSort(int[] arr)
+    {
+        int n = arr.Length;
+        for (int i = 0; i < n - 1; i++)
+        {
+            for (int j = 0; j < n - i - 1; j++)
+            {
+                if (arr[j] > arr[j + 1])
+                {
+                    // Swap arr[j] and arr[j+1]
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    static void PrintArray(int[] arr)
+    {
+        foreach (var item in arr)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+    }
+}
+
