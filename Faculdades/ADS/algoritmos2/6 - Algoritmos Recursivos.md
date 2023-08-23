@@ -43,3 +43,6 @@ Com esses exemplos, percebemos que não existe uma estrutura exata para construi
 
 ###  Estratégia para escrever um algoritmo recursivo
 Um problema recursivo é representado pelo princípio matemático da indução, por meio do qual partimos da observação de diversos casos particulares para estabelecer uma conclusão. A demonstração da solução pelo método da indução contém duas partes: 1. Passo base: solução para o caso mais básico. 2. Passo indutivo: solução para os demais casos, sendo cada um expresso em função do anterior. Por exemplo, vamos demonstrar por indução que todo número ímpar somado a um número par resulta em um número ímpar. O passo base inicial é identificar o menor número natural ímpar, que, por definição, é 1. Podemos, então, fazer uma série de observações: 1 + 2 = 3 (ímpar); 3 + 2 = 5 (ímpar); 5 + 2 = 7 (ímpar), e assim sucessivamente. Dessa forma, podemos concluir, por indução, que um número ímpar somado a um número par resulta em um número ímpar.
+
+
+exemplo: definir a multiplicação de dois números inteiros não negativos, m e n, em termos da operação de adição. Observe a solução iterativa:
