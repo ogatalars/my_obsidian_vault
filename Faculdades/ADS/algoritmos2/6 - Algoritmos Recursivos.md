@@ -48,3 +48,22 @@ Um problema recursivo é representado pelo princípio matemático da indução, 
 exemplo: definir a multiplicação de dois números inteiros não negativos, m e n, em termos da operação de adição. Observe a solução iterativa:
 
 public static int multIterativa(int m, int n) { int r = 0; for (int i=1; i<= n; i++) { r += m; } return r; }
+
+Basicamente, o que a função executa é uma repetição por n vezes, somando o valor de m a uma variável do resultado. Logo, isso equivale a uma multiplicação de m por n.
+
+Agora, vamos pensar na solução indutiva para esse problema. Primeiro, temos que identificar o passo base. Qual seria um valor para m ou n que nos permitiria apontar com certeza o resultado da multiplicação, independentemente do outro termo? A resposta é zero, pois o valor zero multiplicado por qualquer outro termo resulta em zero.
+
+Passo base: se n ou m é igual a 0, a multiplicação é 0.
+
+Agora, vamos pensar em uma expressão para indicar de forma genérica (independentemente dos valores de m ou n) qual é o resultado de uma multiplicação, em função do valor anterior de um dos termos. Como discutido anteriormente, a multiplicação de n por m é igual à soma do valor de m, por n vezes. Logo, poderíamos dizer que isso equivale à soma de m com m multiplicada por n – 1.
+
+Passo indutivo: m × n = m + ( m × (n – 1) )
+
+Esses dois passos, em conjunto, expressam a solução indutiva para o problema.
+
+public static int multRecursiva(int m, int n) { if (n==0) { return 0; } else { return m + multRecursiva(m, n - 1); } }
+
+### Teste de mesa para um algoritmo recursivo
+Esta é uma estratégia interessante para testar a lógica de sua função: criar um teste de mesa por meio de uma tabela que armazena todas as variáveis ao longo da execução, empilhar os valores de acordo com o avanço da chamada recursiva e, então, ao alcançar o caso base, ir retirando esses valores de acordo com o encerramento de cada chamada recursiva. Perceba também como uma função recursiva pode levar a um alto consumo de memória. Por isso, seu uso deve ser sempre bem ponderado e comparado com o da solução iterativa equivalente
+
+Lembre-se: qualquer problema que pode ser resolvido recursivamente também pode ser resolvido iterativamente. Uma abordagem recursiva, em geral, é preferida em relação a uma abordagem iterativa quando espelha mais naturalmente o problema e resulta em um programa de compreensão mais fácil. A abordagem recursiva pode ser implementada com menos linhas de código, sendo, portanto, uma opção mais concisa, apresentando um programa mais simples (SZWARCFITER; MARKENZON, 2010)
