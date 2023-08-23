@@ -46,3 +46,5 @@ Um problema recursivo é representado pelo princípio matemático da indução, 
 
 
 exemplo: definir a multiplicação de dois números inteiros não negativos, m e n, em termos da operação de adição. Observe a solução iterativa:
+
+public static int multIterativa(int m, int n) { int r = 0; for (int i=1; i<= n; i++) { r += m; } return r; }
