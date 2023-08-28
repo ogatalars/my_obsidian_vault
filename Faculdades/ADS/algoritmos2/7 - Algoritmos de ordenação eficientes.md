@@ -51,4 +51,75 @@ static public void quick(int[] vetor, int inicio, int fim)
 quick(vetor, inicio, pivo - 1);
 quick(vetor, pivo + 1, fim); } }
 
-O método quick inicia chamando o método particionar. Este método define um novo pivô no trecho do vetor informado, que será usado como ponto de divisão para as duas chamadas recursivas que ocorrem logo em seguida. A primeira chamada recursiva é realizada para os elementos à esquerda do vetor, e a segunda chamada recursiva, para os elementos à direita. Quando há somente um elemento em uma das partes — ou nos casos em que o pivô fica na primeira ou na última posição e, portanto, uma das metades não possui elemento algum —, é atingido o critério de parada (o índice do início do vetor não é menor do que o índice do fim), e não são executadas mais chamadas recursivas para essa parte do vetor:
+O método quick inicia chamando o método particionar. Este método define um novo pivô no trecho do vetor informado, que será usado como ponto de divisão para as duas chamadas recursivas que ocorrem logo em seguida. A primeira chamada recursiva é realizada para os elementos à esquerda do vetor, e a segunda chamada recursiva, para os elementos à direita. 
+
+Quando há somente um elemento em uma das partes — ou nos casos em que o pivô fica na primeira ou na última posição e, portanto, uma das metades não possui elemento algum —, é atingido o critério de parada (o índice do início do vetor não é menor do que o índice do fim), e não são executadas mais chamadas recursivas para essa parte do vetor:
+
+
+static public int particionar(int[] vetor, int inicio, int fim) { int esq = inicio; int dir = fim; int pivo = vetor[inicio]; while (esq < dir) { while (esq<=fim && vetor[esq] <= pivo) { esq++; } while (dir>=0 && vetor[dir] > pivo) { dir--; } if(esq < dir) { int aux = vetor[esq]; vetor[esq] = vetor[dir]; vetor[dir] = aux; } } vetor[inicio] = vetor[dir]; vetor[dir] = pivo; return dir; }
+
+
+Vamos considerar que você tem uma pilha de cartas fora de ordem, e você quer organizá-las em ordem crescente. Aqui está como o QuickSort funciona:
+
+1. **Escolha um Pivô:** Primeiro, você escolhe uma carta da pilha para ser o "pivô". Imagine que você pega uma carta ao acaso. Vamos chamar essa carta de "Pivô".
+    
+2. **Divida as Cartas:** Agora você divide as outras cartas em duas pilhas: uma com cartas menores que o Pivô e outra com cartas maiores. Isso significa que você está separando as cartas em dois grupos, uma à esquerda e outra à direita.
+    
+3. **Organize as Pilhas:** Agora, você aplica o QuickSort às duas pilhas separadamente. Ou seja, você repete o processo para cada grupo de cartas menores e maiores. Você escolhe um novo Pivô para cada pilha e repete os passos 2 e 3.
+    
+4. **Junte Tudo:** Depois de aplicar o QuickSort às pilhas menores e maiores, você junta tudo de volta em uma única pilha. As cartas menores estarão à esquerda do Pivô, e as cartas maiores à direita.
+    
+5. **Você Terminou:** Agora, todas as cartas à esquerda do Pivô são menores e as à direita são maiores. Sua pilha inteira está organizada!
+    
+
+Aqui está um exemplo simples em código C# para entender melhor:
+
+using System;
+
+class Program
+{
+    static void QuickSort(int[] array, int left, int right)
+    {
+        if (left < right)
+        {
+            int pivotIndex = Partition(array, left, right);
+            QuickSort(array, left, pivotIndex - 1);
+            QuickSort(array, pivotIndex + 1, right);
+        }
+    }
+
+    static int Partition(int[] array, int left, int right)
+    {
+        int pivot = array[right];
+        int i = left - 1;
+
+        for (int j = left; j < right; j++)
+        {
+            if (array[j] < pivot)
+            {
+                i++;
+                int temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        }
+
+        int temp2 = array[i + 1];
+        array[i + 1] = array[right];
+        array[right] = temp2;
+
+        return i + 1;
+    }
+
+    static void Main(string[] args)
+    {
+        int[] array = { 4, 2, 8, 5, 1, 3, 7, 6 };
+        
+        QuickSort(array, 0, array.Length - 1);
+        
+        foreach (var num in array)
+        {
+            Console.Write(num + " ");
+        }
+    }
+}
