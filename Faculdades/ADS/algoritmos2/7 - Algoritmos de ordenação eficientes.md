@@ -35,3 +35,20 @@ Quanto à eficiência do MergeSort, podemos observar que o tempo de trabalho exe
 De modo semelhante ao MergeSort, o algoritmo de ordenação QuickSort também se baseia na estratégia de divisão e conquista e na recursão. Porém, primeiramente, é executado um método para definir o ponto do vetor em que ocorrerá a divisão (chamado de "pivô"). Para relembrar: no MergeSort essa divisão ocorre sempre no meio, porém o pivô nem sempre será no meio do vetor. Definido o pivô, ocorrem duas chamadas recursivas: uma para a metade anterior e outra para a metade posterior do pivô.
 
 Uma característica interessante desse algoritmo é que, ao definir um pivô, esse elemento já está, em definitivo, posicionado no vetor. Ou seja, todos os elementos à sua esquerda serão menores ou iguais a si, e os elementos à direita, maiores. A estratégia consiste em, dado um conjunto de elementos, iniciar o pivô como sendo o primeiro elemento (há outras estratégias de definição do pivô, mas adotaremos esta), o primeiro elemento como sendo a variável esq e o último elemento como dir. Enquanto o elemento esq for menor ou igual ao pivô, este terá seu valor atualizado com o elemento à direita; enquanto o elemento dir for maior que o pivô, este terá seu valor atualizado com o elemento à esquerda. Quando ambos pararem de alterar seus valores, o valor de esq será trocado com o de dir, mas suas posições no vetor serão mantidas. Então, esse ciclo se repetirá até que o valor de dir seja menor ou igual a esq. Quando isso ocorrer, o valor de dir será trocado com o do pivô, e a posição em que se encontra dir será um novo pivô, que encadeará uma nova divisão, com duas novas chamadas recursivas. Esse processo será repetido até que ocorram divisões com um elemento, caso base para encerrar a recursão
+
+static void Main(string[] args) 
+{ int[] vetor = { 5, 3, 1, 9, 7, 2, 4, 5, 8, 3 }; 
+quick(vetor, 0, vetor.Length - 1);
+for (int i=0; i <vetor.Length; i++)
+Console.Write(vetor[i]+" ");
+}
+
+No método main, de modo semelhante ao MergeSort, inicie criando um vetor não ordenado, chamando o método recursivo quick (informando o vetor a ser ordenado, e o início e o final da parte a ser ordenada, que, inicialmente, é o vetor todo). O for, ao final, imprimirá os valores ordenados.
+
+static public void quick(int[] vetor, int inicio, int fim) 
+{ if (inicio < fim) 
+{ int pivo = particionar(vetor, inicio, fim); 
+quick(vetor, inicio, pivo - 1);
+quick(vetor, pivo + 1, fim); } }
+
+O método quick inicia chamando o método particionar. Este método define um novo pivô no trecho do vetor informado, que será usado como ponto de divisão para as duas chamadas recursivas que ocorrem logo em seguida. A primeira chamada recursiva é realizada para os elementos à esquerda do vetor, e a segunda chamada recursiva, para os elementos à direita. Quando há somente um elemento em uma das partes — ou nos casos em que o pivô fica na primeira ou na última posição e, portanto, uma das metades não possui elemento algum —, é atingido o critério de parada (o índice do início do vetor não é menor do que o índice do fim), e não são executadas mais chamadas recursivas para essa parte do vetor:
