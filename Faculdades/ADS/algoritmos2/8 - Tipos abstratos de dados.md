@@ -7,3 +7,8 @@ Essa modularização envolve uma outra forma de enxergar o código e programar. 
 
 ### Definição e utilização de TAD
 
+Temos utilizado muitas variáveis nos algoritmos estudados até aqui. Essas variáveis são tipos de dados que correspondem a tipos primitivos, ou seja, representam um único valor. Esse valor pode ser um tipo de número racional, inteiro ou lógico (booleano), e assim por diante. Porém, para a construção de um programa mais sofisticado, normalmente é útil agrupar algumas dessas variáveis que correspondem a uma mesma entidade no programa. Suponha que você deseje criar um programa para gerir uma instituição de ensino. Os alunos podem ter nome, telefone de contato, número de documento pessoal, número de matrícula, curso no qual estão matriculados, entre outras informações. Com diversas variáveis pertencendo a cada aluno, para uma quantidade indefinida de alunos que podem ser cadastrados, é necessário um mecanismo para organizar todas essas informações.
+
+Portanto, é importante que haja uma estrutura para englobar, dentro do programa, todas essas características de um único aluno. Pense que, se uma variável é uma caixa que armazena um único tipo de dado, essa estrutura é um baú, que pode armazenar diversas caixas.
+
+Além disso, a estrutura permite definir ações que envolvem essa entidade. Assim, ações como registrar a falta ou a nota de um aluno e mudar o telefone de contato, entre outras que afetem esse determinado aluno, podem ser definidas dentro dessa estrutura única. Essa é a definição de um TAD, que é a especificação de um conjunto de dados relacionados e de operações executadas sobre esses dados. Em C#, essa definição é feita por meio de classes, que nada mais são do que um código à parte do código principal do projeto
