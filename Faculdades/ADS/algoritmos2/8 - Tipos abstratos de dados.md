@@ -30,3 +30,47 @@ Podemos enxergar uma entidade como um componente que será recriado várias veze
 A partir da classe, podem-se criar diversas instâncias, cada uma constituindo um novo elemento do jogo. Ou seja, a partir da classe herói, é possível criar um cavaleiro, um mago, um elfo e diversas outras instâncias de heróis. Essas instâncias são conhecidas como objetos.
 
 Assim, a classe define as variáveis que caracterizam a entidade e as ações que podem ser executadas com essa entidade. Uma classe pode conter vários objetos, cada um com valores diferentes (preenchidos nas variáveis definidas na classe) e executando as ações que foram definidas na respectiva classe. Essas variáveis definidas na classe, que correspondem a características da entidade, são denominadas atributos. Já as ações definidas na classe, que alteram os valores dessas variáveis ou executam outras ações sobre a entidade, nada mais são do que funções dentro do código da classe, as quais são especificamente denominadas métodos.
+
+Por fim, a partir da compreensão de que os objetos são criados a partir de uma classe e que cada objeto pode ter um valor diferente, é necessário um mecanismo para preencher esses valores. Isso pode ser feito por meio de construtores. Um construtor é uma função dentro da classe que define o recebimento de valores no momento da criação do objeto e a passagem desses valores para os atributos correspondentes. Assim, com uma única linha de comando, é possível criar um novo herói, chamado Cavaleiro, e informar todas as suas características (atributos)
+
+**O que é Programação Orientada a Objetos (POO)?** A Programação Orientada a Objetos (POO) é um paradigma de programação que se baseia na ideia de modelar o mundo real em forma de objetos. Os objetos são unidades independentes que contêm dados (atributos) e comportamentos (métodos). Isso ajuda a organizar o código de maneira mais clara, modular e reutilizável.
+
+**Classes e Objetos:** Uma classe é um "molde" ou "plano" que define a estrutura de um objeto. Um objeto é uma instância de uma classe. Pense em uma classe como uma receita e um objeto como o prato feito seguindo essa receita.
+
+**Exemplo de Classe:** Vamos criar uma classe simples chamada "Pessoa" com atributos como nome e idade, e um método para cumprimentar:
+
+class Pessoa
+{
+    // Atributos
+    public string Nome;
+    public int Idade;
+
+    // Método para cumprimentar
+    public void Cumprimentar()
+    {
+        Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos.");
+    }
+}
+
+
+**Criando e Usando Objetos:** Agora, vamos criar objetos da classe "Pessoa" e utilizar seus atributos e métodos:
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Pessoa pessoa1 = new Pessoa();
+        pessoa1.Nome = "Alice";
+        pessoa1.Idade = 25;
+
+        Pessoa pessoa2 = new Pessoa();
+        pessoa2.Nome = "Bob";
+        pessoa2.Idade = 30;
+
+        pessoa1.Cumprimentar(); // Saída: Olá, meu nome é Alice e tenho 25 anos.
+        pessoa2.Cumprimentar(); // Saída: Olá, meu nome é Bob e tenho 30 anos.
+    }
+}
+Neste exemplo, criamos dois objetos da classe "Pessoa" (pessoa1 e pessoa2) e definimos seus atributos (Nome e Idade). Em seguida, chamamos o método "Cumprimentar()" para cada objeto, que imprime uma mensagem personalizada com base nos atributos.
+
+Isso é apenas um vislumbre dos conceitos básicos de orientação a objetos e classes em C#. À medida que você avança, aprenderá sobre encapsulamento, herança, polimorfismo e outros conceitos avançados que permitem construir programas mais complexos e estruturados.
