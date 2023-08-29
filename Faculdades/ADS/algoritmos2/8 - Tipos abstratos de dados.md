@@ -24,4 +24,7 @@ Imagine que você vá desenvolver esse jogo com os recursos vistos até aqui e a
 Com o paradigma de orientação a objetos, cada entidade do programa é definida por uma classe. O herói (um cavaleiro, mago ou outro personagem), o dragão (verde, vermelho ou azul, cada um com poderes e características diferentes) e uma espada (de ouro, diamante ou outro material que lhe desse poder diferente) podem ser, cada um deles, uma classe. Perceba que essas entidades podem ser classes, pois a definição do que será uma classe em seu programa dependerá da modelagem do desenvolvedor.
 
 Uma classe é, portanto, um código separado do código principal do seu projeto. Nesse código à parte, são definidas as variáveis pertinentes e as operações a serem executadas por essa entidade
+
 Podemos enxergar uma entidade como um componente que será recriado várias vezes no programa. É possível, por exemplo, ter vários heróis no jogo, de forma que, se um deles morrer, o jogador assumirá o controle de outro. Também podemos ter diversos dragões como inimigos. Nesse exemplo, Herói e Dragão são classes. A classe é uma estrutura de código que dita o que faz parte dessa entidade e quais ações ela pode executar. Portanto, a classe herói é um modelo para indicar o que é e o que faz um herói no jogo.
+
+A partir da classe, podem-se criar diversas instâncias, cada uma constituindo um novo elemento do jogo. Ou seja, a partir da classe herói, é possível criar um cavaleiro, um mago, um elfo e diversas outras instâncias de heróis. Essas instâncias são conhecidas como objetos.
