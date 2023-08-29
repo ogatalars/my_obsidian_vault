@@ -12,3 +12,5 @@ Temos utilizado muitas variáveis nos algoritmos estudados até aqui. Essas vari
 Portanto, é importante que haja uma estrutura para englobar, dentro do programa, todas essas características de um único aluno. Pense que, se uma variável é uma caixa que armazena um único tipo de dado, essa estrutura é um baú, que pode armazenar diversas caixas.
 
 Além disso, a estrutura permite definir ações que envolvem essa entidade. Assim, ações como registrar a falta ou a nota de um aluno e mudar o telefone de contato, entre outras que afetem esse determinado aluno, podem ser definidas dentro dessa estrutura única. Essa é a definição de um TAD, que é a especificação de um conjunto de dados relacionados e de operações executadas sobre esses dados. Em C#, essa definição é feita por meio de classes, que nada mais são do que um código à parte do código principal do projeto
+
+### 2 Definição de classes, atributos, métodos e construtores
