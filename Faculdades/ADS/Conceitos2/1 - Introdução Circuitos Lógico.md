@@ -7,3 +7,17 @@ A representação dos dados no sistema binário, onde a informação é expressa
 Os circuitos lógicos não se restringem apenas ao campo da eletrônica e da computação, mas também desempenham um papel crucial em áreas como automação industrial, sistemas de controle, sistemas de comunicação e muito mais. À medida que a tecnologia continua a avançar, a compreensão dos circuitos lógicos torna-se cada vez mais importante para profissionais das áreas de engenharia elétrica, ciência da computação e afins.
 
 Portanto, os circuitos lógicos constituem a base de grande parte da tecnologia moderna, possibilitando a construção de dispositivos e sistemas que moldaram nossa sociedade de maneiras inimagináveis. A compreensão desses circuitos é o ponto de partida para explorar o mundo da eletrônica e da computação, abrindo as portas para um universo de inovação e descobertas tecnológicas.
+
+### Sistemas Binários e álgebra de boole
+
+Os sistemas binários e a álgebra de Boole são dois conceitos interligados que desempenham um papel crucial na base da eletrônica digital e da computação moderna. Esses fundamentos são essenciais para a representação, manipulação e processamento de informações nos circuitos eletrônicos e sistemas computacionais que utilizamos diariamente.
+
+O sistema binário é uma notação numérica que utiliza apenas dois dígitos, 0 e 1, para representar qualquer valor. Embora possa parecer simples em comparação com o sistema decimal que utilizamos para representar números cotidianos, o sistema binário é a base para a tecnologia da informação. Cada dígito binário é chamado de "bit" (binary digit) e, quando combinados em sequências, formam representações numéricas e codificações de informações.
+
+A álgebra de Boole, desenvolvida por George Boole no século XIX, é uma teoria matemática que lida com operações lógicas e valores verdadeiro/falso. Ela permite expressar relações e operações lógicas de forma formal e rigorosa, independentemente do contexto em que se apliquem. A álgebra de Boole é a base para a construção de circuitos lógicos e é usada para modelar o comportamento de sistemas eletrônicos e de computação.
+
+A relação entre os sistemas binários e a álgebra de Boole reside na aplicação dos princípios da álgebra de Boole para a manipulação dos dígitos binários. As operações fundamentais da álgebra de Boole, como "E" (AND), "OU" (OR) e "NÃO" (NOT), são mapeadas diretamente para as operações lógicas realizadas nos circuitos eletrônicos e nas operações de processamento de dados. Portas lógicas como AND, OR e NOT, presentes nos circuitos integrados, executam operações que seguem os princípios da álgebra de Boole.
+
+Essa relação entre sistemas binários e a álgebra de Boole permite a construção de circuitos lógicos complexos, que por sua vez possibilitam a realização de tarefas complexas, como cálculos, tomadas de decisões lógicas, armazenamento de dados e muito mais. A convergência desses conceitos é o que torna possível a tecnologia da informação e a computação moderna, moldando a maneira como interagimos com o mundo digital.
+
+Portanto, os sistemas binários e a álgebra de Boole formam a base teórica e prática que impulsiona a eletrônica digital e a computação. Esses conceitos, apesar de terem sido desenvolvidos em épocas diferentes, estão profundamente entrelaçados, permitindo a criação de sistemas e dispositivos que revolucionaram a maneira como vivemos, trabalhamos e nos comunicamos.
