@@ -67,3 +67,33 @@ Você pode verificar a resposta convertendo de volta para decimal, se desejar:
 1 * 2^4 + 1 * 2^3 + 0 * 2^2 + 0 * 2^1 + 1 * 2^0 = 16 + 8 + 0 + 0 + 1 = 25
 
 A conversão está correta, pois 25 em decimal é igual a 11001 em binário.
+
+### Convertendo para a base 16
+Para converter um número da base 10 (decimal) para a base 16 (hexadecimal), você pode seguir um processo semelhante ao que foi explicado anteriormente, mas desta vez você dividirá o número decimal por 16 em vez de 2. Aqui está como fazer isso:
+
+1. Divida o número decimal pelo valor da base (16) e anote o quociente e o resto.
+    
+2. Continue dividindo o quociente resultante pelo valor da base (16) até que o quociente seja igual a zero. Anote os restos em cada etapa.
+    
+3. Agora, você tem uma série de restos que, quando lidos de baixo para cima, formarão a representação hexadecimal do número decimal.
+    
+
+Aqui está um exemplo de conversão:
+
+Vamos converter o número decimal 255 para a base hexadecimal:
+
+Passo 1: 255 ÷ 16 = 15 (Quociente) e 15 (Resto)
+
+Passo 2: 15 ÷ 16 = 0 (Quociente) e 15 (Resto)
+
+Agora, leia os restos de baixo para cima: FF.
+
+Portanto, o número decimal 255 é igual a FF em hexadecimal.
+
+Você pode verificar a resposta convertendo de volta para decimal, se desejar:
+
+15 * 16^1 + 15 * 16^0 = 240 + 15 = 255
+
+A conversão está correta, pois 255 em decimal é igual a FF em hexadecimal.
+
+### Nibbles e bytes
