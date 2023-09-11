@@ -97,3 +97,22 @@ Você pode verificar a resposta convertendo de volta para decimal, se desejar:
 A conversão está correta, pois 255 em decimal é igual a FF em hexadecimal.
 
 ### Nibbles e bytes
+"Nibbles" e "bytes" são termos que descrevem unidades de armazenamento de dados em sistemas de computador. Vamos explicar cada um deles em detalhes:
+
+**Nibble**: Um "nibble" é uma unidade de dados que consiste em 4 bits consecutivos (4 dígitos binários). Os nibbles representam metade de um byte, que é a unidade de dados mais comum em sistemas de computador. Cada nibble pode representar 16 valores diferentes (0 a 15 em decimal ou 0000 a 1111 em binário). Nibbles são frequentemente usados em contextos onde a representação de dados precisa ser compacta, como em gráficos, codificação de cores, e em algumas arquiteturas de processadores.
+
+Por exemplo, aqui estão alguns valores representados em nibbles:
+
+- 0000 (em binário) = 0 (em decimal)
+- 1001 (em binário) = 9 (em decimal)
+- 1111 (em binário) = 15 (em decimal)
+
+**Byte**: Um "byte" é uma unidade de dados que consiste em 8 bits consecutivos (8 dígitos binários). Um byte é a unidade fundamental de armazenamento de dados na maioria dos sistemas de computador. Cada byte pode representar 256 valores diferentes (de 0 a 255 em decimal ou de 00000000 a 11111111 em binário). Os bytes são amplamente utilizados para representar caracteres de texto, números, instruções de máquina e uma variedade de outros tipos de dados.
+
+Aqui estão alguns exemplos de valores representados em bytes:
+
+- 00000000 (em binário) = 0 (em decimal)
+- 01010101 (em binário) = 85 (em decimal)
+- 11111111 (em binário) = 255 (em decimal)
+
+O byte é uma unidade de dados muito versátil e é a base de muitos sistemas de codificação e comunicação de dados, incluindo texto, imagens, áudio e muito mais. Além disso, a memória de um computador é frequentemente medida em bytes, como kilobytes (KB), megabytes (MB), gigabytes (GB) e assim por diante.
