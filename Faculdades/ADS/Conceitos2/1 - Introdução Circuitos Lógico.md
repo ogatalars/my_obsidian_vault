@@ -21,3 +21,5 @@ A relação entre os sistemas binários e a álgebra de Boole reside na aplicaç
 Essa relação entre sistemas binários e a álgebra de Boole permite a construção de circuitos lógicos complexos, que por sua vez possibilitam a realização de tarefas complexas, como cálculos, tomadas de decisões lógicas, armazenamento de dados e muito mais. A convergência desses conceitos é o que torna possível a tecnologia da informação e a computação moderna, moldando a maneira como interagimos com o mundo digital.
 
 Portanto, os sistemas binários e a álgebra de Boole formam a base teórica e prática que impulsiona a eletrônica digital e a computação. Esses conceitos, apesar de terem sido desenvolvidos em épocas diferentes, estão profundamente entrelaçados, permitindo a criação de sistemas e dispositivos que revolucionaram a maneira como vivemos, trabalhamos e nos comunicamos.
+
+### Representando Números
