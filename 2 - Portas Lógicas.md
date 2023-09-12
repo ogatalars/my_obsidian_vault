@@ -230,3 +230,58 @@ C = A * B
 Aqui, usamos a expressão booleana para a porta AND. Isso significa que a saída C será verdadeira (1) apenas quando ambas as entradas A e B forem verdadeiras (1).
 
 Essas expressões booleanas representam as operações realizadas pelas portas lógicas em um circuito combinacional para a soma de bits. Elas fornecem uma maneira mais abstrata e matemática de entender o comportamento desses circuitos e são fundamentais para a análise e projeto de sistemas digitais mais complexos.
+
+### Usando expressões booleanas 
+Você pode criar expressões booleanas a partir de tabelas-verdade seguindo alguns passos. As tabelas-verdade são úteis para entender as relações entre as entradas e saídas de um circuito lógico. Aqui estão as etapas para criar expressões booleanas com base em uma tabela-verdade:
+
+**Passo 1: Identifique as Colunas da Tabela-Verdade**
+
+Primeiro, identifique as colunas na tabela-verdade que representam as entradas e saídas do circuito. Normalmente, as entradas são rotuladas como A, B, C, etc., e as saídas são rotuladas como S, F, G, etc.
+
+**Passo 2: Analise as Linhas com Saída Verdadeira (1)**
+
+Olhe para as linhas da tabela-verdade onde a saída é verdadeira (1). Estas são as combinações de entradas que você deseja representar em sua expressão booleana.
+
+**Passo 3: Crie uma Expressão para Cada Saída Verdadeira**
+
+Para cada saída verdadeira, crie uma expressão booleana que descreva essa condição. Você pode usar os símbolos booleanos padrão, como AND (&), OR (+), NOT (~), e também parênteses para definir a precedência das operações.
+
+**Passo 4: Combine Expressões com OR**
+
+Se houver várias expressões que representam condições diferentes em que a saída é verdadeira, combine-as usando a operação OR (+). Isso significa que a saída será verdadeira se qualquer uma das condições for atendida.
+
+**Passo 5: Simplifique a Expressão (Opcional)**
+
+Se a expressão resultante parecer complexa, você pode tentar simplificá-la. A álgebra booleana oferece regras para simplificar expressões booleanas, como a lei da distribuição, a lei de Morgan, entre outras. Simplificar a expressão pode torná-la mais concisa e fácil de entender.
+
+**Exemplo: Criando uma Expressão Booleana a partir de uma Tabela-Verdade**
+
+Vamos usar um exemplo simples com uma tabela-verdade de duas entradas (A e B) e uma saída (S) para demonstrar o processo:
+
+|A|B|S|
+|---|---|---|
+|0|0|1|
+|0|1|0|
+|1|0|0|
+|1|1|1|
+
+Neste caso, queremos criar uma expressão booleana para S quando S for verdadeira (1). Vamos fazer isso passo a passo:
+
+**Passo 1:** Identificamos as colunas A, B e S.
+
+**Passo 2:** Analisamos as linhas onde S é verdadeira: 0-1, 1-1.
+
+**Passo 3:** Criamos expressões para cada uma dessas linhas:
+
+- Para a primeira linha (0-1), a expressão é: ~A * B
+- Para a segunda linha (1-1), a expressão é: A * B
+
+**Passo 4:** Combinamos essas expressões com OR (+): S = (~A * B) + (A * B)
+
+**Passo 5:** Simplificamos a expressão (neste caso, não há simplificação adicional).
+
+Portanto, a expressão booleana que representa a tabela-verdade é:
+
+S = (~A * B) + (A * B)
+
+Esta é a expressão booleana que descreve as condições em que a saída S é verdadeira com base na tabela-verdade dada.
