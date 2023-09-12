@@ -179,3 +179,54 @@ Suponhamos que temos duas entradas, A e B, e uma saída, S, representando a soma
 A saída S é obtida pela porta XOR, refletindo a soma binária de A e B. A saída C é obtida pela porta AND, representando o transporte gerado pela soma de A e B.
 
 Isso ilustra como as portas lógicas podem ser usadas para construir circuitos combinacionais que realizam operações lógicas mais complexas com base em entradas binárias. Esses conceitos fundamentais são a base da eletrônica digital e têm aplicações em todos os aspectos da tecnologia moderna.
+
+### Expressões booleanas 
+Expressões booleanas são representações simbólicas das operações lógicas realizadas pelas portas AND, OR e NOT. Elas ajudam a descrever as relações entre as entradas e saídas de forma mais abstrata. Vamos explorar as expressões booleanas para cada uma dessas portas.
+
+**Porta AND:**
+
+A expressão booleana para a porta AND é dada por:
+
+S = A * B
+
+O símbolo "*" representa a operação de multiplicação lógica. Essa expressão significa que a saída (S) será verdadeira (1) apenas quando ambas as entradas (A e B) forem verdadeiras (1).
+
+**Porta OR:**
+
+A expressão booleana para a porta OR é dada por:
+
+S = A + B
+
+O símbolo "+" representa a operação de adição lógica. Essa expressão significa que a saída (S) será verdadeira (1) se pelo menos uma das entradas (A ou B) for verdadeira (1).
+
+**Porta NOT:**
+
+A expressão booleana para a porta NOT é dada por:
+
+S = ~A
+
+O símbolo "~" representa a operação de negação lógica. Essa expressão significa que a saída (S) será o oposto da entrada (A). Se A for verdadeira (1), S será falsa (0), e vice-versa.
+
+**Circuitos Combinacionais: Exemplo da Soma de Bits com Expressões Booleanas**
+
+Vamos usar as expressões booleanas para representar um circuito combinacional simples que realiza a soma de dois bits, como mencionado anteriormente:
+
+Suponha que temos duas entradas, A e B, e duas saídas, S (soma) e C (carry). Usaremos portas XOR e AND para isso.
+
+**Porta XOR para Soma:**
+
+A expressão booleana para a saída S é:
+
+S = A ⊕ B
+
+O símbolo "⊕" representa a operação XOR. Essa expressão indica que a saída S será verdadeira (1) quando as entradas A e B forem diferentes.
+
+**Porta AND para Carry:**
+
+A expressão booleana para a saída C (carry) é:
+
+C = A * B
+
+Aqui, usamos a expressão booleana para a porta AND. Isso significa que a saída C será verdadeira (1) apenas quando ambas as entradas A e B forem verdadeiras (1).
+
+Essas expressões booleanas representam as operações realizadas pelas portas lógicas em um circuito combinacional para a soma de bits. Elas fornecem uma maneira mais abstrata e matemática de entender o comportamento desses circuitos e são fundamentais para a análise e projeto de sistemas digitais mais complexos.
