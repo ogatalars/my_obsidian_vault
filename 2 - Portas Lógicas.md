@@ -118,3 +118,64 @@ As portas lógicas, incluindo AND, OR e NOT, são blocos de construção essenci
 
 
 #### Tabelas-verdade
+Vamos analisar as tabelas-verdade para as portas lógicas AND, OR e NOT, como mencionado anteriormente.
+
+**Porta AND:**
+
+A tabela-verdade para a porta AND é a seguinte:
+
+- Entrada A | Entrada B | Saída
+- 0 | 0 | 0
+- 0 | 1 | 0
+- 1 | 0 | 0
+- 1 | 1 | 1
+
+Aqui, você pode ver que a saída é 1 (verdadeira) apenas quando ambas as entradas são 1 (verdadeira). Isso reflete a operação de multiplicação lógica, onde a saída é verdadeira somente quando todas as condições são verdadeiras.
+
+**Porta OR:**
+
+A tabela-verdade para a porta OR é a seguinte:
+
+- Entrada A | Entrada B | Saída
+- 0 | 0 | 0
+- 0 | 1 | 1
+- 1 | 0 | 1
+- 1 | 1 | 1
+
+Aqui, a saída é 1 (verdadeira) se pelo menos uma das entradas for 1 (verdadeira). Isso reflete a operação de adição lógica, onde a saída é verdadeira quando pelo menos uma das condições é verdadeira.
+
+**Porta NOT:**
+
+A tabela-verdade para a porta NOT é a seguinte:
+
+- Entrada A | Saída
+- 0 | 1
+- 1 | 0
+
+Aqui, a porta NOT inverte a entrada, transformando 0 em 1 e 1 em 0. É uma operação de negação lógica, útil para inverter o estado de um sinal.
+
+**Circuitos Combinacionais: Exemplo da Soma de Bits**
+
+Agora, vamos usar as tabelas-verdade das portas lógicas para entender como um circuito combinacional simples para a soma de bits funciona:
+
+Suponhamos que temos duas entradas, A e B, e uma saída, S, representando a soma, e outra saída, C, representando o transporte (carry). Usaremos portas XOR e AND para isso:
+
+**Porta XOR para Soma:**
+
+- Entrada A | Entrada B | Saída S
+- 0 | 0 | 0
+- 0 | 1 | 1
+- 1 | 0 | 1
+- 1 | 1 | 0
+
+**Porta AND para Carry:**
+
+- Entrada A | Entrada B | Saída C
+- 0 | 0 | 0
+- 0 | 1 | 0
+- 1 | 0 | 0
+- 1 | 1 | 1
+
+A saída S é obtida pela porta XOR, refletindo a soma binária de A e B. A saída C é obtida pela porta AND, representando o transporte gerado pela soma de A e B.
+
+Isso ilustra como as portas lógicas podem ser usadas para construir circuitos combinacionais que realizam operações lógicas mais complexas com base em entradas binárias. Esses conceitos fundamentais são a base da eletrônica digital e têm aplicações em todos os aspectos da tecnologia moderna.
