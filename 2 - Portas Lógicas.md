@@ -43,3 +43,7 @@ Portas lógicas são dispositivos eletrônicos fundamentais que realizam operaç
     - Saída (A NAND B) = 1
 
 Essas são algumas das portas lógicas fundamentais. Elas são usadas em combinação para realizar operações lógicas mais complexas e são a base para a construção de circuitos digitais, como somadores, multiplexadores, flip-flops e muitos outros dispositivos eletrônicos encontrados em computadores e sistemas digitais.
+
+Uma das bases da técnica de projeto digital é a percepção de que qualquer informação ou valor pode ser representado de forma binária, seja por meio de zeros e uns, de falsos e verdadeiros ou de ligados e desligados. Tudo do mundo externo ao circuito que vamos representar dentro do nosso projeto, usando as técnicas de projeto digital, será feito com valores binários. Isso se aplica mesmo a valores de variáveis tipicamente contínuas, como temperatura, pressão etc. — com as quais temos de usar as técnicas de conversão analógica para digital e conversão digital para analógica —; ainda assim, estamos falando de valores e informações que são representados usando valores binários.
+
+### Portas lógicas AND, OR, NOT
