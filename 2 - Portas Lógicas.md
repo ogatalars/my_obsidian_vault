@@ -358,3 +358,48 @@ A porta lógica XNOR produz uma saída verdadeira (1) apenas quando o número de
     
 
 As portas NAND, NOR, XOR e XNOR são blocos de construção essenciais na eletrônica digital e na lógica booleana. Combinadas adequadamente, essas portas podem ser usadas para realizar uma ampla variedade de tarefas complexas em sistemas digitais.
+
+### Soma de binários
+
+A soma de números binários é uma operação fundamental na aritmética binária e desempenha um papel crucial em sistemas digitais e computação. Neste tópico, exploraremos como realizar a soma de números binários e entenderemos os conceitos associados.
+
+**Representação de Números Binários:**
+
+Antes de abordarmos a soma de binários, é importante entender como os números binários são representados. Em um sistema de base 2 (binário), cada dígito ou bit pode ter um dos dois valores: 0 ou 1. A representação de números binários é semelhante à representação decimal, mas os valores das posições têm potências de 2 em vez de 10. Por exemplo:
+
+- 0 em binário é igual a 0 em decimal.
+- 1 em binário é igual a 1 em decimal.
+- 10 em binário é igual a 2 em decimal (1 * 2^1 + 0 * 2^0).
+- 11 em binário é igual a 3 em decimal (1 * 2^1 + 1 * 2^0).
+- 100 em binário é igual a 4 em decimal (1 * 2^2 + 0 * 2^1 + 0 * 2^0).
+
+**Soma de Números Binários:**
+
+A soma de números binários segue regras semelhantes à soma em decimal, com a diferença de que as somas que resultam em 2 ou mais em uma posição precisam ser tratadas de forma especial. Vamos considerar a soma de dois números binários A e B:
+
+pythonCopy code
+
+     `A: 1 0 1 0 1  (A representação binária de 21 em decimal)   +  B: 0 1 1 1 0  (A representação binária de 14 em decimal)   ----------------   Soma: ? ? ? ? ?  (Representação binária da soma)`
+
+Aqui estão as etapas para realizar a soma de números binários:
+
+1. Comece somando os dígitos binários da direita para a esquerda, começando pela posição das unidades (o bit menos significativo).
+    
+2. Se a soma dos dígitos em uma posição for 0 ou 1, coloque o resultado na posição correspondente na soma.
+    
+3. Se a soma dos dígitos em uma posição for 2, coloque 0 na posição da soma e leve 1 para a próxima posição à esquerda (isso é semelhante ao transporte em decimal).
+    
+4. Continue somando e propagando o transporte, se necessário, até que todos os dígitos tenham sido somados.
+    
+
+**Exemplo de Soma de Binários:**
+
+Vamos usar o exemplo acima para ilustrar a soma de números binários:
+
+pythonCopy code
+
+     `A: 1 0 1 0 1  (21 em binário)   +  B: 0 1 1 1 0  (14 em binário)   ----------------   Soma: 1 1 0 0 1  (35 em binário)`
+
+Aqui, somamos os dígitos da direita para a esquerda, levando em consideração o transporte quando necessário. A soma resultou em 11001 em binário, o que é igual a 35 em decimal.
+
+É importante lembrar que, ao realizar a soma de binários, é necessário cuidar das posições e do transporte de maneira adequada para obter o resultado correto. A soma de binários é uma operação fundamental na aritmética digital e é usada em várias aplicações, como aritmética de computador, criptografia e muito mais.
