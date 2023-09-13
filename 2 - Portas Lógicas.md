@@ -285,3 +285,76 @@ Portanto, a expressão booleana que representa a tabela-verdade é:
 S = (~A * B) + (A * B)
 
 Esta é a expressão booleana que descreve as condições em que a saída S é verdadeira com base na tabela-verdade dada.
+
+**Portas Lógicas NAND, NOR, XOR e XNOR: Funcionamento e Expressões Booleanas**
+
+Além das portas lógicas AND, OR e NOT que discutimos anteriormente, existem outras portas lógicas importantes, como NAND, NOR, XOR e XNOR. Vamos explorar o funcionamento de cada uma delas, suas tabelas-verdade e expressões booleanas associadas.
+
+**Porta NAND (NOT-AND):**
+
+A porta lógica NAND é uma combinação de uma porta AND seguida por uma porta NOT (inversora). Ela produz uma saída verdadeira (1) apenas quando ambas as entradas são falsas (0). Sua tabela-verdade e expressão booleana são as seguintes:
+
+- Tabela-verdade NAND:
+    
+    - Entrada A | Entrada B | Saída
+    - 0 | 0 | 1
+    - 0 | 1 | 1
+    - 1 | 0 | 1
+    - 1 | 1 | 0
+- Expressão booleana NAND: S = ~(A * B)
+    
+
+**Porta NOR (NOT-OR):**
+
+A porta lógica NOR é uma combinação de uma porta OR seguida por uma porta NOT. Ela produz uma saída verdadeira (1) apenas quando ambas as entradas são falsas (0). Sua tabela-verdade e expressão booleana são as seguintes:
+
+- Tabela-verdade NOR:
+    
+    - Entrada A | Entrada B | Saída
+    - 0 | 0 | 1
+    - 0 | 1 | 0
+    - 1 | 0 | 0
+    - 1 | 1 | 0
+- Expressão booleana NOR: S = ~(A + B)
+    
+
+**Porta XOR (OU Exclusivo):**
+
+A porta lógica XOR produz uma saída verdadeira (1) apenas quando o número de entradas verdadeiras (1) é ímpar. Sua tabela-verdade e expressão booleana são as seguintes:
+
+- Tabela-verdade XOR:
+    
+    - Entrada A | Entrada B | Saída
+    - 0 | 0 | 0
+    - 0 | 1 | 1
+    - 1 | 0 | 1
+    - 1 | 1 | 0
+- Expressão booleana XOR: S = A ⊕ B
+    
+
+**Porta XNOR (NÃO OU Exclusivo):**
+
+A porta lógica XNOR produz uma saída verdadeira (1) apenas quando o número de entradas verdadeiras (1) é par. Sua tabela-verdade e expressão booleana são as seguintes:
+
+- Tabela-verdade XNOR:
+    
+    - Entrada A | Entrada B | Saída
+    - 0 | 0 | 1
+    - 0 | 1 | 0
+    - 1 | 0 | 0
+    - 1 | 1 | 1
+- Expressão booleana XNOR: S = ~(A ⊕ B)
+    
+
+**Aplicações das Portas NAND, NOR, XOR e XNOR:**
+
+1. **Portas NAND e NOR** são chamadas de "portas universais" porque qualquer outra porta lógica pode ser construída usando apenas essas portas. São amplamente usadas na construção de circuitos digitais.
+    
+2. **Portas XOR e XNOR** são usadas em várias aplicações, incluindo aritmética binária, detecção de erros e criptografia.
+    
+3. **Portas XOR** são fundamentais para a construção de somadores binários e circuitos de chaveamento em dispositivos eletrônicos.
+    
+4. **Portas XNOR** são usadas para criar circuitos que comparam duas entradas, como comparadores de igualdade.
+    
+
+As portas NAND, NOR, XOR e XNOR são blocos de construção essenciais na eletrônica digital e na lógica booleana. Combinadas adequadamente, essas portas podem ser usadas para realizar uma ampla variedade de tarefas complexas em sistemas digitais.
