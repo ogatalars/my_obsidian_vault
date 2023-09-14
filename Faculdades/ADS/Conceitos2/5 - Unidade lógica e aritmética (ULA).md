@@ -142,3 +142,50 @@ As operações lógicas são operações que manipulam valores booleanos (verdad
     - A XNOR B = 0 se A = 1 e B = 0, ou A = 0 e B = 1
 
 Essas operações lógicas formam a base para a construção de circuitos digitais e para a criação de expressões booleanas que representam condições e decisões em programação e eletrônica digital. Elas são essenciais para a manipulação de dados binários e para a tomada de decisões lógicas em sistemas computacionais.
+
+### Multiplexador
+O multiplexador, comumente abreviado como MUX, é um dispositivo fundamental na eletrônica digital e na teoria dos circuitos. Ele é usado para direcionar um de vários sinais de entrada para uma única saída com base em um sinal de controle. O multiplexador é frequentemente referido como "MUX" ou "selector."
+
+**Principais Características de um Multiplexador:**
+
+1. **Entradas Múltiplas:** Um multiplexador possui várias entradas, geralmente duas ou mais, que representam os diferentes sinais de dados que você deseja selecionar ou direcionar para a saída.
+    
+2. **Sinal de Controle:** Um sinal de controle é usado para determinar qual das entradas será direcionada para a saída. O número de bits no sinal de controle determina o número de entradas que o multiplexador pode selecionar. Por exemplo, um multiplexador 2:1 requer um único bit de controle, enquanto um multiplexador 4:1 requer dois bits de controle.
+    
+3. **Saída Única:** O multiplexador possui uma única saída que será conectada à entrada selecionada.
+    
+
+**Funcionamento de um Multiplexador:**
+
+O funcionamento de um multiplexador é relativamente simples:
+
+1. O sinal de controle, que pode ser uma combinação de bits binários, é aplicado às entradas de controle do multiplexador.
+    
+2. Com base no valor do sinal de controle, o multiplexador seleciona uma das entradas de dados para direcionar para a saída.
+    
+3. O valor da entrada selecionada é então transmitido para a saída.
+    
+
+**Exemplo de um Multiplexador 2:1:**
+
+Um dos exemplos mais simples é o multiplexador 2:1, que tem duas entradas de dados (A e B), um sinal de controle (C), e uma saída (Y). O funcionamento é o seguinte:
+
+- Se C = 0, a entrada A é selecionada e direcionada para Y.
+- Se C = 1, a entrada B é selecionada e direcionada para Y.
+
+**Aplicações dos Multiplexadores:**
+
+Os multiplexadores têm uma ampla gama de aplicações em eletrônica digital, incluindo:
+
+1. **Roteamento de Dados:** São usados para selecionar entre várias fontes de dados e roteá-las para uma única saída. Isso é útil em sistemas de comunicação e transmissão de dados.
+    
+2. **Unidades de Controle em Processadores:** Em CPUs de computadores, multiplexadores são frequentemente usados na unidade de controle para selecionar os sinais de controle corretos com base nas instruções sendo executadas.
+    
+3. **Multiplexação de Display:** Em dispositivos que possuem vários displays (por exemplo, multiplexação de segmentos em displays de sete segmentos).
+    
+4. **Redes Digitais:** Em sistemas de comutação digital, os multiplexadores são usados para rotear sinais em redes.
+    
+5. **Armazenamento de Memória:** Em memórias multiplexadas, eles são usados para selecionar endereços de memória.
+    
+
+Os multiplexadores são blocos de construção essenciais na eletrônica digital e desempenham um papel crucial na manipulação e direcionamento de dados em sistemas digitais. Eles são frequentemente combinados em circuitos mais complexos para atender às necessidades específicas de uma aplicação.
