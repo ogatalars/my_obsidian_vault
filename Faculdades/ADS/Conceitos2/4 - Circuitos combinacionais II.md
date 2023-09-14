@@ -79,3 +79,37 @@ O meio subtrator é um componente essencial na aritmética binária e é usado e
 **Conclusão:**
 
 O meio subtrator é um circuito simples, mas essencial, na aritmética binária. Ele permite a subtração de dois bits individuais e é uma peça fundamental na construção de circuitos digitais mais complexos que lidam com aritmética binária. É uma parte fundamental do funcionamento de sistemas de computação e eletrônica digital em geral.
+
+## Subtrator completo 
+O subtrator completo (full subtractor, em inglês) é um circuito combinacional mais complexo em comparação com o meio subtrator (half subtractor). Ele é projetado para realizar a subtração binária de três bits de entrada: o minuendo (A), o subtraendo (B) e o bit de empréstimo (C_in), e gera duas saídas: o resultado da subtração (D) e o bit de empréstimo (B_out ou C_out). Assim como o somador completo, o subtrator completo leva em consideração o empréstimo (carry-in) da posição anterior, tornando-o adequado para subtrair números binários de múltiplas posições.
+
+**Funcionamento do Subtrator Completo:**
+
+O subtrator completo opera da seguinte forma:
+
+1. Ele recebe três bits de entrada: o minuendo (A), o subtraendo (B) e o bit de empréstimo (C_in), onde A é o número do qual você está subtraindo, B é o número que está sendo subtraído e C_in é o empréstimo da posição anterior (geralmente 0 na primeira posição).
+    
+2. O subtrator completo realiza duas operações: subtração (D) e geração de empréstimo (B_out ou C_out).
+    
+    - Subtração (D): A saída D é o resultado da operação XOR (OU Exclusivo) entre A, B e o complemento de C_in (inversão de C_in). Esta saída fornece o resultado da subtração dos bits individuais.
+        
+    - Empréstimo (B_out ou C_out): A saída B_out ou C_out é o resultado da operação OR (OU) entre a operação AND (E) entre o complemento de B (inversão de B) e A, e a operação OR entre o complemento de C_in e a operação AND entre A e B. Isso indica se um empréstimo é necessário da próxima posição à esquerda (caso B seja maior do que A) ou não.
+        
+3. A saída B_out ou C_out representa o empréstimo gerado (caso seja 1) ou não gerado (caso seja 0) da posição atual para a próxima posição à esquerda.
+    
+
+**Tabela-Verdade do Subtrator Completo:**
+
+A tabela-verdade do subtrator completo é mais complexa do que a do meio subtrator, devido à presença do empréstimo (C_in). Aqui está a tabela-verdade do subtrator completo:
+
+scssCopy code
+
+`| Entrada A | Entrada B | Empréstimo (C_in) | Subtração (D) | Empréstimo (B_out ou C_out) | |-----------|-----------|-------------------|---------------|-----------------------------| |    0      |    0      |        0          |      0        |             0               | |    0      |    0      |        1          |      1        |             0               | |    0      |    1      |        0          |      1        |             1               | |    0      |    1      |        1          |      0        |             0               | |    1      |    0      |        0          |      1        |             0               | |    1      |    0      |        1          |      0        |             0               | |    1      |    1      |        0          |      0        |             0               | |    1      |    1      |        1          |      1        |             1               |`
+
+**Aplicações do Subtrator Completo:**
+
+O subtrator completo é usado em sistemas digitais para realizar operações de subtração binária, especialmente em unidades aritméticas e lógicas (ALUs) de processadores de computador e em circuitos onde a subtração é necessária.
+
+**Conclusão:**
+
+O subtrator completo é um componente fundamental na aritmética binária e é usado para realizar operações de subtração precisas entre números binários de múltiplas posições. É uma parte essencial dos circuitos digitais usados em sistemas de computação e eletrônica digital em geral.
