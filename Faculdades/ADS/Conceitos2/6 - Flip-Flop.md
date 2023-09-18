@@ -135,3 +135,37 @@ O Flip-Flop JK é usado em várias aplicações, incluindo:
 - Geração de pulsos de temporização e sequenciamento em sistemas digitais.
 
 A capacidade de alternar entre os estados torna o Flip-Flop JK versátil para projetar circuitos complexos e úteis em várias aplicações de eletrônica digital.
+
+### Flip-flop JK com preset e clear
+Um Flip-Flop JK com preset (PR) e clear (CL) é uma variação do Flip-Flop JK padrão que inclui entradas adicionais de preset e clear. Essas entradas permitem definir o estado inicial do flip-flop de maneira predefinida, independentemente das entradas J e K, e também limpar o estado do flip-flop, forçando-o a um estado específico. Isso pode ser útil em várias aplicações onde é necessário um controle mais preciso sobre o estado inicial do flip-flop. Aqui está uma breve descrição de como um Flip-Flop JK com preset e clear funciona:
+
+**Componentes do Flip-Flop JK com Preset e Clear:**
+
+1. **Entradas J (Set) e K (Reset):** Funcionam da mesma forma que em um Flip-Flop JK padrão, permitindo alternar o estado do flip-flop de acordo com a tabela de verdade.
+    
+2. **Entrada de Preset (PR):** Quando a entrada de preset é acionada (geralmente em nível baixo), ela força a saída Q a um estado alto (1) independentemente das condições das entradas J e K. Isso é útil para definir o estado inicial do flip-flop.
+    
+3. **Entrada de Clear (CL):** Quando a entrada de clear é acionada (geralmente em nível baixo), ela força a saída Q a um estado baixo (0) independentemente das condições das entradas J e K. Isso é útil para limpar o estado atual do flip-flop e definir um estado específico.
+    
+4. **Saídas Q e ~Q:** O Flip-Flop JK com preset e clear também possui duas saídas:
+    
+    - **Q:** A saída Q representa o estado atual do flip-flop, ou seja, se está em nível alto (1) ou baixo (0).
+    - **~Q (Q invertido):** Esta é a saída complementar de Q. Quando Q está em nível alto, ~Q está em nível baixo, e vice-versa.
+
+**Funcionamento do Flip-Flop JK com Preset e Clear:**
+
+- Quando a entrada de preset (PR) é acionada, o flip-flop define a saída Q em nível alto (1), independentemente das condições das entradas J e K. Isso é útil para inicializar o flip-flop em um estado específico.
+    
+- Quando a entrada de clear (CL) é acionada, o flip-flop define a saída Q em nível baixo (0), independentemente das condições das entradas J e K. Isso é útil para limpar o estado atual do flip-flop.
+    
+- Se nenhuma entrada de preset ou clear for acionada, o flip-flop operará da mesma forma que um Flip-Flop JK padrão, alternando entre os estados de acordo com as entradas J e K.
+    
+
+**Aplicações do Flip-Flop JK com Preset e Clear:**
+
+Este tipo de flip-flop é útil em situações onde é necessário controlar o estado inicial do flip-flop ou redefinir seu estado de forma predefinida. Alguns exemplos de aplicações incluem:
+
+- Inicialização controlada de sistemas digitais.
+- Limpeza de registros antes de começar uma operação.
+- Implementação de máquinas de estado finito com estados iniciais específicos.
+- Controle de circuitos onde o estado inicial deve ser conhecido e controlado com precisão.
