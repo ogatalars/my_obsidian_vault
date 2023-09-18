@@ -94,3 +94,44 @@ Suponha que você tenha um flip-flop RS com clock sensível à borda de subida. 
 - Se S = 0 e R = 0, o flip-flop permanecerá no estado atual, independentemente das transições do sinal de clock.
 
 O uso de um sinal de clock ajuda a sincronizar as operações do flip-flop e evita problemas de transições não desejadas de estado que podem ocorrer em um flip-flop RS simples.
+
+### Flip-flop JK
+Um Flip-Flop JK é outro tipo de flip-flop amplamente utilizado na eletrônica digital. É uma variação mais versátil do flip-flop RS (Set-Reset), e o "JK" refere-se aos nomes das entradas J e K. O Flip-Flop JK possui algumas características interessantes em comparação com o RS, o que o torna útil em várias aplicações. Vamos entender melhor como ele funciona:
+
+**Componentes Básicos do Flip-Flop JK:**
+
+1. **Entradas J (Set) e K (Reset):** O Flip-Flop JK tem duas entradas principais:
+    
+    - **J (Set):** Quando a entrada J é acionada (geralmente em nível baixo), ela define a saída Q em nível alto (1).
+    - **K (Reset):** Quando a entrada K é acionada (geralmente em nível baixo), ela redefine a saída Q em nível baixo (0).
+2. **Sinal de Clock (C ou CLK):** Assim como outros flip-flops, o JK pode ter uma entrada de clock para controlar o momento em que as mudanças de estado ocorrem.
+    
+3. **Saídas Q e ~Q:** O Flip-Flop JK também possui duas saídas:
+    
+    - **Q:** A saída Q representa o estado atual do flip-flop, ou seja, se está em nível alto (1) ou baixo (0).
+    - **~Q (Q invertido):** Esta é a saída complementar de Q. Quando Q está em nível alto, ~Q está em nível baixo, e vice-versa.
+
+**Funcionamento do Flip-Flop JK:**
+
+O Flip-Flop JK é chamado de "Toggle Flip-Flop" porque possui uma característica especial: ele pode alternar entre os estados, ou seja, mudar de 0 para 1 ou de 1 para 0, quando apropriado. O funcionamento do JK depende do estado das entradas J e K e, opcionalmente, do sinal de clock. Aqui estão algumas situações comuns de funcionamento:
+
+- Quando J = 1, K = 0 e o sinal de clock faz uma transição, o Flip-Flop JK definirá Q = 1 e ~Q = 0, alterando para o estado "Set."
+    
+- Quando J = 0, K = 1 e o sinal de clock faz uma transição, o Flip-Flop JK definirá Q = 0 e ~Q = 1, alterando para o estado "Reset."
+    
+- Quando J = 1, K = 1 e o sinal de clock faz uma transição, o Flip-Flop JK alternará seu estado; ou seja, se Q = 0, mudará para Q = 1 e vice-versa.
+    
+- Quando J = 0, K = 0, o estado do Flip-Flop JK permanecerá inalterado, independentemente das transições do sinal de clock.
+    
+
+**Aplicações do Flip-Flop JK:**
+
+O Flip-Flop JK é usado em várias aplicações, incluindo:
+
+- Contadores binários, onde o Flip-Flop JK é usado para criar divisores de frequência ou contadores de modulação.
+- Memória de registro e armazenamento temporário de informações.
+- Implementação de circuitos de sequência e lógica sequencial.
+- Circuitos de controle de máquinas de estado finito.
+- Geração de pulsos de temporização e sequenciamento em sistemas digitais.
+
+A capacidade de alternar entre os estados torna o Flip-Flop JK versátil para projetar circuitos complexos e úteis em várias aplicações de eletrônica digital.s
