@@ -253,3 +253,41 @@ O Flip-Flop tipo T é usado em várias aplicações, incluindo:
 O Flip-Flop tipo T é um componente versátil e é amplamente usado em eletrônica digital para realizar uma variedade de funções de temporização e controle.
 
 ### Flip-flop tipo D
+Um Flip-Flop tipo D, também conhecido como Flip-Flop Data (ou simplesmente Flip-Flop D), é um elemento de armazenamento digital que armazena um único bit de informação (0 ou 1). Ele é chamado de "D" porque é controlado pela entrada "D" (Data), que é usada para definir o estado do flip-flop. Vamos entender mais sobre o Flip-Flop tipo D:
+
+**Componentes Básicos do Flip-Flop tipo D:**
+
+1. **Entrada D (Data):** A entrada D é a entrada principal deste flip-flop. O estado aplicado a essa entrada define o próximo estado do flip-flop.
+    
+2. **Sinal de Clock (C ou CLK):** A maioria dos Flip-Flops tipo D é sensível ao sinal de clock. Isso significa que as mudanças na entrada D só afetam o estado do flip-flop quando ocorre uma transição do sinal de clock (por exemplo, no flanco de subida ou de descida).
+    
+3. **Saídas Q e ~Q:** O Flip-Flop tipo D possui duas saídas:
+    
+    - **Q:** A saída Q representa o estado atual do flip-flop, ou seja, se está em nível alto (1) ou baixo (0).
+    - **~Q (Q invertido):** Esta é a saída complementar de Q. Quando Q está em nível alto, ~Q está em nível baixo, e vice-versa.
+
+**Funcionamento do Flip-Flop tipo D:**
+
+O funcionamento básico do Flip-Flop tipo D é direto. Ele simplesmente copia o valor da entrada D para a saída Q quando ocorre uma transição do sinal de clock. Aqui estão algumas situações de funcionamento comuns:
+
+- Quando a entrada D é 0 e ocorre uma transição do sinal de clock, a saída Q será definida como 0.
+- Quando a entrada D é 1 e ocorre uma transição do sinal de clock, a saída Q será definida como 1.
+
+O estado do Flip-Flop tipo D é atualizado apenas quando há uma mudança no sinal de clock. Isso é útil para a temporização e a sincronização de operações em circuitos digitais.
+
+**Aplicações do Flip-Flop tipo D:**
+
+O Flip-Flop tipo D é amplamente usado em eletrônica digital e em várias aplicações, incluindo:
+
+1. **Memória de Registro:** É usado para armazenar dados temporariamente em registradores de deslocamento e memórias de registro em CPUs e microcontroladores.
+    
+2. **Controle de Sinais e Sincronização:** É usado para controlar e sincronizar operações em sistemas digitais, especialmente em máquinas de estado finito.
+    
+3. **Divisores de Frequência:** Pode ser usado para criar divisores de frequência para a redução da frequência de um sinal de clock.
+    
+4. **Unidade de Controle:** É uma parte essencial de unidades de controle em CPUs e microcontroladores, onde é usado para armazenar e atualizar estados de controle.
+    
+5. **Temporização e Sequenciamento:** É usado em circuitos que exigem temporização precisa, como geradores de pulsos, circuitos de sincronização e muito mais.
+    
+
+O Flip-Flop tipo D é um dos componentes fundamentais da eletrônica digital e desempenha um papel central em muitas aplicações onde é necessário armazenar e controlar informações de forma sequencial.
