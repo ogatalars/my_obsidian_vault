@@ -132,3 +132,67 @@ double temp; for (int i = 0; i < vetor.Length/2; i++){ temp = vetor[i]; vetor[i]
 Na assinatura dessa função, seu retorno corresponde a um vetor de double. No corpo da função, são percorridas as posições do vetor de entrada até a posição intermediária, pois, quando a execução do algoritmo alcançar essa posição, já terão sido invertidos todos os valores. O processo de inversão equivale a armazenar o valor da posição atual em uma variável temporária; obter o valor da posição equivalente no final do vetor e armazená-lo na posição atual; e, por último, armazenar o valor da variável temporária na posição final equivalente. Esse vetor com as posições invertidas é, então, retornado pela função. Quando um vetor for passado como argumento de uma função e alterações de dados forem realizadas nesse vetor, dentro da função, na verdade será alterado o vetor original fora da função. Observe o trecho de código abaixo:
 
 double[] n = notas;
+
+
+
+## CHATPGPT RESUMO
+Em C#, um vetor (também chamado de array) é uma estrutura de dados que permite armazenar um conjunto de elementos do mesmo tipo em uma única variável. Os elementos do vetor são acessados através de um índice, que representa a posição do elemento no vetor. Vamos explorar como declarar, inicializar e trabalhar com vetores em C#:
+
+**Declarando um Vetor:** Para declarar um vetor em C#, você precisa especificar o tipo dos elementos que ele vai conter, seguido pelo nome do vetor e colchetes `[]`. Por exemplo, para declarar um vetor de inteiros:
+
+csharpCopy code
+
+`int[] numeros;`
+
+**Inicializando um Vetor:** Você pode inicializar um vetor em C# de várias maneiras:
+
+1. **Inicialização direta:**
+    
+    csharpCopy code
+    
+    `int[] numeros = { 1, 2, 3, 4, 5 };`
+    
+2. **Inicialização com tamanho:**
+    
+    csharpCopy code
+    
+    `int[] numeros = new int[5]; // Cria um vetor de inteiros com tamanho 5, todos os elementos são inicializados com o valor padrão (zero para inteiros).`
+    
+3. **Inicialização com valores padrão:**
+    
+    csharpCopy code
+    
+    `int[] numeros = new int[] { 0, 0, 0, 0, 0 }; // Inicializa um vetor de inteiros com valores padrão.`
+    
+
+**Acessando Elementos do Vetor:** Os elementos em um vetor são acessados usando índices, onde o primeiro elemento tem índice 0, o segundo índice 1 e assim por diante. Por exemplo:
+
+csharpCopy code
+
+`int[] numeros = { 1, 2, 3, 4, 5 }; int primeiroNumero = numeros[0]; // Acessa o primeiro elemento (índice 0), que é 1. int segundoNumero = numeros[1]; // Acessa o segundo elemento (índice 1), que é 2.`
+
+**Alterando Elementos do Vetor:** Você pode alterar o valor de um elemento do vetor atribuindo um novo valor a ele usando seu índice:
+
+csharpCopy code
+
+`numeros[2] = 10; // Altera o terceiro elemento (índice 2) para 10.`
+
+**Obtendo o Tamanho do Vetor:** Você pode obter o tamanho de um vetor usando a propriedade `Length`:
+
+csharpCopy code
+
+`int tamanho = numeros.Length; // Obtém o tamanho do vetor (neste caso, 5).`
+
+**Iterando através dos Elementos:** Você pode percorrer os elementos de um vetor usando loops como `for` ou `foreach`. Por exemplo, usando um loop `for`:
+
+csharpCopy code
+
+`for (int i = 0; i < numeros.Length; i++) {     Console.WriteLine(numeros[i]); }`
+
+Ou usando um loop `foreach`:
+
+csharpCopy code
+
+`foreach (int numero in numeros) {     Console.WriteLine(numero); }`
+
+Os vetores em C# são extremamente úteis para armazenar coleções de dados do mesmo tipo e são amplamente utilizados em programação para realizar tarefas como armazenamento de dados, cálculos, iteração e muito mais.
