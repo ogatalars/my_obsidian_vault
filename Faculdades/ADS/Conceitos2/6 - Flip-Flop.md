@@ -61,3 +61,36 @@ O conceito de "clock" está diretamente relacionado aos flip-flops e é fundamen
 Em resumo, o clock é um sinal de temporização fundamental na eletrônica digital que coordena e sincroniza as operações em sistemas digitais. Ele fornece uma referência de tempo que determina quando as ações devem ocorrer e é crucial para o funcionamento adequado de circuitos digitais, como os flip-flops mencionados anteriormente. A taxa de clock afeta diretamente o desempenho e a capacidade de processamento de um sistema digital.
 
 ### Flip-flop RS com entrada de clock
+Um Flip-Flop RS (Set-Reset) com entrada de clock é uma variação do flip-flop RS básico que incorpora um sinal de clock para controlar o momento em que o flip-flop pode mudar de estado. Isso ajuda a sincronizar as operações e evita problemas de instabilidade associados ao flip-flop RS simples. Aqui está uma explicação mais detalhada:
+
+**Componentes Básicos do Flip-Flop RS com Clock:**
+
+1. **Sinal de Clock (C ou CLK):** O sinal de clock é um sinal elétrico que oscila regularmente entre os níveis alto (1) e baixo (0) em intervalos de tempo consistentes. Ele controla quando o flip-flop pode ou não mudar de estado.
+    
+2. **Entradas S (Set) e R (Reset):** Assim como no flip-flop RS básico, este tipo de flip-flop tem duas entradas fundamentais:
+    
+    - **S (Set):** Quando a entrada S é acionada (geralmente em nível baixo), ela define a saída Q em nível alto (1).
+    - **R (Reset):** Quando a entrada R é acionada (geralmente em nível baixo), ela redefine a saída Q em nível baixo (0).
+3. **Saídas Q e ~Q:** O flip-flop RS com clock possui duas saídas:
+    
+    - **Q:** A saída Q representa o estado atual do flip-flop, ou seja, se está em nível alto (1) ou baixo (0).
+    - **~Q (Q invertido):** Esta é a saída complementar de Q. Quando Q está em nível alto, ~Q está em nível baixo, e vice-versa.
+
+**Funcionamento do Flip-Flop RS com Clock:**
+
+O funcionamento do flip-flop RS com clock é regulado pelo sinal de clock. Ele só muda de estado quando ocorre uma transição do sinal de clock (por exemplo, de alto para baixo ou de baixo para alto) e quando as entradas S ou R estão ativas (dependendo do tipo de flip-flop RS).
+
+- Quando o sinal de clock está em um estado e as entradas S e R permanecem inalteradas, o flip-flop não muda de estado, independentemente das condições em S e R.
+    
+- Quando ocorre uma transição do sinal de clock (por exemplo, de 0 para 1), o flip-flop observa o estado das entradas S e R nesse momento e atualiza sua saída Q de acordo com essas condições.
+    
+
+**Exemplo de Funcionamento:**
+
+Suponha que você tenha um flip-flop RS com clock sensível à borda de subida. Isso significa que o flip-flop só muda de estado quando o sinal de clock vai de 0 para 1.
+
+- Se S = 0, R = 1 e o sinal de clock faz uma transição de 0 para 1, o flip-flop definirá Q = 1 e ~Q = 0.
+- Se S = 1, R = 0 e o sinal de clock faz uma transição de 0 para 1, o flip-flop definirá Q = 0 e ~Q = 1.
+- Se S = 0 e R = 0, o flip-flop permanecerá no estado atual, independentemente das transições do sinal de clock.
+
+O uso de um sinal de clock ajuda a sincronizar as operações do flip-flop e evita problemas de transições não desejadas de estado que podem ocorrer em um flip-flop RS simples.
