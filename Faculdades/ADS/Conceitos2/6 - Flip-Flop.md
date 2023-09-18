@@ -169,3 +169,6 @@ Este tipo de flip-flop é útil em situações onde é necessário controlar o e
 - Limpeza de registros antes de começar uma operação.
 - Implementação de máquinas de estado finito com estados iniciais específicos.
 - Controle de circuitos onde o estado inicial deve ser conhecido e controlado com precisão.
+
+
+### Flip-flop JK mestre e escravo 
