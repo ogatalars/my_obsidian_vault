@@ -172,3 +172,82 @@ Este tipo de flip-flop é útil em situações onde é necessário controlar o e
 
 
 ### Flip-flop JK mestre e escravo 
+
+O Flip-Flop JK Mestre-Escravo (também conhecido como FF JK Master-Slave) é uma configuração especial de Flip-Flop JK que é projetada para eliminar o problema de corrida (ou problema de hazard) que pode ocorrer em flip-flops simples. O problema de corrida ocorre quando ocorre uma transição rápida nos sinais de entrada de um flip-flop padrão, levando a resultados indesejados e potencialmente incorretos. O Flip-Flop JK Mestre-Escravo resolve esse problema ao dividir o flip-flop em duas etapas distintas: o mestre e o escravo.
+
+Aqui está uma descrição de como o Flip-Flop JK Mestre-Escravo funciona:
+
+**Componentes do Flip-Flop JK Mestre-Escravo:**
+
+1. **Flip-Flop JK Mestre:** A primeira etapa é o mestre, que é um flip-flop JK padrão. Ele responde às entradas J e K de acordo com a tabela de verdade do Flip-Flop JK e é sensível ao sinal de clock.
+    
+2. **Flip-Flop JK Escravo:** A segunda etapa é o escravo, que também é um flip-flop JK padrão. No entanto, ele não responde diretamente às entradas J e K nem ao sinal de clock. Em vez disso, ele responde ao estado do mestre.
+    
+
+**Funcionamento do Flip-Flop JK Mestre-Escravo:**
+
+- Quando uma transição do sinal de clock ocorre, o mestre observa as entradas J e K e, com base nas condições, calcula seu novo estado de acordo com a tabela de verdade do Flip-Flop JK padrão.
+    
+- O estado calculado pelo mestre não é refletido nas saídas do flip-flop neste momento. Em vez disso, ele é temporariamente armazenado no mestre.
+    
+- Em seguida, o escravo observa o estado armazenado no mestre e atualiza suas saídas para refletir esse estado.
+    
+- A chave para evitar problemas de corrida está no fato de que o mestre e o escravo não respondem simultaneamente às transições do sinal de clock. Isso garante que as mudanças nas entradas J e K não afetem as saídas até que o próximo ciclo de clock ocorra.
+    
+
+**Vantagens do Flip-Flop JK Mestre-Escravo:**
+
+- Eliminação de corridas: Como mencionado, a configuração mestre-escravo ajuda a eliminar problemas de corrida, onde as mudanças rápidas nas entradas podem levar a resultados indesejados em flip-flops simples.
+    
+- Melhor sincronização: A divisão em duas etapas permite uma melhor sincronização das operações, o que é crítico em sistemas digitais onde a temporização é importante.
+    
+- Maior estabilidade: A estabilidade é melhorada, já que a segunda etapa (escravo) só responde ao estado armazenado e não às mudanças rápidas nas entradas.
+    
+
+**Aplicações do Flip-Flop JK Mestre-Escravo:**
+
+- O Flip-Flop JK Mestre-Escravo é comumente usado em circuitos digitais, especialmente em CPUs e outros circuitos críticos de temporização, onde a eliminação de corridas é essencial.
+    
+- Também é usado em máquinas de estado finito e sistemas de controle onde a sincronização precisa é necessária.
+    
+- Em geral, sempre que a estabilidade e a sincronização são prioridades, o Flip-Flop JK Mestre-Escravo é uma escolha preferida sobre flip-flops simples.
+
+### 
+Um Flip-Flop tipo T, também conhecido como Toggle Flip-Flop, é um elemento de armazenamento de um bit usado em eletrônica digital. Sua característica distintiva é a capacidade de alternar (toggle) entre os estados de saída, geralmente de 0 para 1 ou de 1 para 0, com base em um sinal de entrada. Vamos entender mais sobre o Flip-Flop tipo T:
+
+**Componentes Básicos do Flip-Flop tipo T:**
+
+1. **Entrada T (Toggle):** A entrada T é a entrada principal deste flip-flop. Quando um sinal é aplicado a esta entrada, ele pode alterar o estado de saída do flip-flop.
+    
+2. **Sinal de Clock (C ou CLK):** Em muitos casos, o Flip-Flop tipo T é sensível ao sinal de clock. Isso significa que a mudança de estado ocorre apenas no flanco de subida ou descida do sinal de clock.
+    
+3. **Saídas Q e ~Q:** O Flip-Flop tipo T possui duas saídas:
+    
+    - **Q:** A saída Q representa o estado atual do flip-flop, ou seja, se está em nível alto (1) ou baixo (0).
+    - **~Q (Q invertido):** Esta é a saída complementar de Q. Quando Q está em nível alto, ~Q está em nível baixo, e vice-versa.
+
+**Funcionamento do Flip-Flop tipo T:**
+
+O Flip-Flop tipo T alterna seu estado com base na entrada T quando ocorre uma transição do sinal de clock, dependendo de como ele é configurado. Aqui estão algumas situações de funcionamento comuns:
+
+- **Sensibilidade ao Flanco de Subida (Clock Edge-Triggered):** Nesse caso, a transição na entrada T é observada somente quando o sinal de clock faz a transição de nível baixo para nível alto (flanco de subida) ou vice-versa. Se T = 1, o estado é alternado; se T = 0, o estado permanece inalterado.
+    
+- **Sensibilidade ao Flanco de Descida (Clock Edge-Triggered):** Nesse caso, a transição na entrada T é observada somente quando o sinal de clock faz a transição de nível alto para nível baixo (flanco de descida) ou vice-versa. Se T = 1, o estado é alternado; se T = 0, o estado permanece inalterado.
+    
+- **Sensibilidade ao Nível (Level-Sensitive):** Em algumas implementações, o Flip-Flop tipo T pode ser sensível ao nível do sinal de clock, onde a transição na entrada T é observada enquanto o sinal de clock permanece em um nível específico.
+    
+
+**Aplicações do Flip-Flop tipo T:**
+
+O Flip-Flop tipo T é usado em várias aplicações, incluindo:
+
+- Contadores binários, onde o Flip-Flop tipo T é usado para criar divisores de frequência ou para criar uma contagem ascendente ou descendente.
+    
+- Osciladores, onde um Flip-Flop tipo T pode ser configurado para gerar um sinal de saída alternando entre dois estados.
+    
+- Mudança de fase de sinal, onde um Flip-Flop tipo T pode ser usado para gerar uma saída que está fora de fase com um sinal de entrada.
+    
+- Máquinas de estado finito, onde ele pode ser usado para controlar transições de estado.
+    
+
+O Flip-Flop tipo T é um componente versátil e é amplamente usado em eletrônica digital para realizar uma variedade de funções de temporização e controle.
