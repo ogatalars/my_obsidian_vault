@@ -134,4 +134,4 @@ O Flip-Flop JK é usado em várias aplicações, incluindo:
 - Circuitos de controle de máquinas de estado finito.
 - Geração de pulsos de temporização e sequenciamento em sistemas digitais.
 
-A capacidade de alternar entre os estados torna o Flip-Flop JK versátil para projetar circuitos complexos e úteis em várias aplicações de eletrônica digital.s
+A capacidade de alternar entre os estados torna o Flip-Flop JK versátil para projetar circuitos complexos e úteis em várias aplicações de eletrônica digital.
