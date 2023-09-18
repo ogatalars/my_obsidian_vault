@@ -212,7 +212,7 @@ Aqui está uma descrição de como o Flip-Flop JK Mestre-Escravo funciona:
     
 - Em geral, sempre que a estabilidade e a sincronização são prioridades, o Flip-Flop JK Mestre-Escravo é uma escolha preferida sobre flip-flops simples.
 
-### 
+### Um Flip-Flop tipo T
 Um Flip-Flop tipo T, também conhecido como Toggle Flip-Flop, é um elemento de armazenamento de um bit usado em eletrônica digital. Sua característica distintiva é a capacidade de alternar (toggle) entre os estados de saída, geralmente de 0 para 1 ou de 1 para 0, com base em um sinal de entrada. Vamos entender mais sobre o Flip-Flop tipo T:
 
 **Componentes Básicos do Flip-Flop tipo T:**
@@ -251,3 +251,5 @@ O Flip-Flop tipo T é usado em várias aplicações, incluindo:
     
 
 O Flip-Flop tipo T é um componente versátil e é amplamente usado em eletrônica digital para realizar uma variedade de funções de temporização e controle.
+
+### Flip-flop tipo D
