@@ -136,7 +136,7 @@ double[] n = notas;
 
 
 ## CHATPGPT RESUMO
-Em C#, um vetor (também chamado de array) é uma estrutura de dados que permite armazenar um conjunto de elementos do mesmo tipo em uma única variável. Os elementos do vetor são acessados através de um índice, que representa a posição do elemento no vetor. Vamos explorar como declarar, inicializar e trabalhar com vetores em C#:
+Em C#, um vetor (também chamado de array) é uma estrutura de dados que permite armazenar um conjunto de elementos do **mesmo tipo** em uma única variável. Os elementos do vetor são acessados através de um índice, que representa a posição do elemento no vetor. Vamos explorar como declarar, inicializar e trabalhar com vetores em C#:
 
 **Declarando um Vetor:** Para declarar um vetor em C#, você precisa especificar o tipo dos elementos que ele vai conter, seguido pelo nome do vetor e colchetes `[]`. Por exemplo, para declarar um vetor de inteiros:
 
