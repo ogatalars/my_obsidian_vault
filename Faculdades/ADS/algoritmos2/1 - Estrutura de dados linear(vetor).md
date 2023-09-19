@@ -140,7 +140,7 @@ Em C#, um vetor (também chamado de array) é uma estrutura de dados que permite
 
 **Declarando um Vetor:** Para declarar um vetor em C#, você precisa especificar o tipo dos elementos que ele vai conter, seguido pelo nome do vetor e colchetes `[]`. Por exemplo, para declarar um vetor de inteiros:
 
-csharpCopy code
+
 
 `int[] numeros;`
 
