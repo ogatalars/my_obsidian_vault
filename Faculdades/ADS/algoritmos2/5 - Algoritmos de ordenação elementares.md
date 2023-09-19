@@ -141,3 +141,27 @@ int[] vetor = { 99, 82, 50, 67, 90, 20, 71, 8, 21, 18 }; int num, pos_verificada
 Essa implementação segue o proposto em pseudocódigo. Em código, a variável num corresponde a i; em pseudocódigo, a variável pos_ verificada corresponde a j. Um for repete a passada pelo vetor da segunda até a última posição. Em cada passada, num armazena o valor da posição atual do elemento a ser deslocado, e pos_verificada inicia armazenando a posição anterior à posição do elemento (a cada repetição, essa posição é diminuída, procurando a posição adequada na qual incluir o elemento, até alcançar a posição inicial do vetor).
 
 Assim, enquanto não se alcançar um índice menor do que zero e o valor do elemento for menor do que o da posição verificada, a posição seguinte receberá o mesmo valor da verificada, e o índice da posição verificada diminuirá até que um valor seja maior do que o do elemento. Quando se encerrar essa passada, a posição seguinte à verificada receberá o valor do elemento, posicionando-o no local correto, e uma nova passada será iniciada para o próximo elemento.
+
+
+### Resumo CHATGPT
+
+Os algoritmos de ordenação elementares são algoritmos de ordenação simples e diretos que são frequentemente usados para ordenar pequenas quantidades de dados ou para servir como componentes de algoritmos de ordenação mais complexos. Eles são chamados de "elementares" devido à sua simplicidade e eficácia em cenários com poucos elementos. Aqui estão alguns dos algoritmos de ordenação elementares mais comuns:
+
+1. **Ordenação por Bolha (Bubble Sort):**
+    
+    - A ordenação por bolha compara pares de elementos adjacentes e troca-os se estiverem fora de ordem.
+    - O processo é repetido várias vezes até que nenhum elemento precise ser trocado.
+    - É simples de implementar, mas não é eficiente para grandes conjuntos de dados.
+    - Complexidade de tempo no pior caso: O(n^2).
+2. **Ordenação por Inserção (Insertion Sort):**
+    
+    - A ordenação por inserção constrói a lista ordenada elemento por elemento.
+    - A cada iteração, um elemento é removido da lista não ordenada e inserido na posição correta na lista ordenada.
+    - É eficaz para listas pequenas ou quase ordenadas.
+    - Complexidade de tempo no pior caso: O(n^2).
+3. **Ordenação por Seleção (Selection Sort):**
+    
+    - A ordenação por seleção encontra o menor elemento da lista e o coloca na primeira posição.
+    - Repete esse processo para encontrar o segundo menor elemento e o coloca na segunda posição, e assim por diante.
+    - Também não é eficiente para grandes conjuntos de dados.
+    - Complexidade de tempo no pior caso: O(n^2).
