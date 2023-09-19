@@ -151,7 +151,7 @@ Os algoritmos de ordenação elementares são algoritmos de ordenação simples 
     
     - A ordenação por bolha compara pares de elementos adjacentes e troca-os se estiverem fora de ordem.
     - O processo é repetido várias vezes até que nenhum elemento precise ser trocado.
-    - É simples de implementar, mas não é eficiente para grandes conjuntos de dados.
+	    - É simples de implementar, mas não é eficiente para grandes conjuntos de dados.
     - Complexidade de tempo no pior caso: O(n^2).
 2. **Ordenação por Inserção (Insertion Sort):**
     
@@ -165,3 +165,119 @@ Os algoritmos de ordenação elementares são algoritmos de ordenação simples 
     - Repete esse processo para encontrar o segundo menor elemento e o coloca na segunda posição, e assim por diante.
     - Também não é eficiente para grandes conjuntos de dados.
     - Complexidade de tempo no pior caso: O(n^2).
+
+### APROFUNDADO CHATGPT
+Vou aprofundar nos algoritmos de ordenação Bubble Sort, Insertion Sort e Selection Sort em C#, incluindo seus requisitos e complexidades computacionais.
+
+**Bubble Sort:**
+
+O Bubble Sort é um algoritmo de ordenação elementar que compara e troca elementos adjacentes repetidamente até que o vetor esteja ordenado.
+
+**Requisitos:**
+- Não requer espaço adicional além do vetor original.
+- É fácil de entender e implementar, tornando-o útil para fins educacionais ou em situações simples.
+- Não é eficiente para grandes conjuntos de dados devido à sua complexidade de tempo quadrática.
+
+**Complexidade Computacional:**
+- Pior Caso: O(n^2) - O Bubble Sort sempre executa n * (n-1) / 2 comparações e trocas no pior caso, onde n é o tamanho do vetor.
+- Melhor Caso: O(n) - Se o vetor já estiver ordenado, o Bubble Sort fará apenas uma passagem para verificar que nenhum elemento foi trocado.
+
+```csharp
+void BubbleSort(int[] vetor)
+{
+    int n = vetor.Length;
+    bool troca;
+    
+    for (int i = 0; i < n - 1; i++)
+    {
+        troca = false;
+        
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            if (vetor[j] > vetor[j + 1])
+            {
+                // Troca os elementos
+                int temp = vetor[j];
+                vetor[j] = vetor[j + 1];
+                vetor[j + 1] = temp;
+                troca = true;
+            }
+        }
+        
+        // Se nenhuma troca foi feita em uma passagem, o vetor está ordenado.
+        if (!troca)
+            break;
+    }
+}
+```
+
+**Insertion Sort:**
+
+O Insertion Sort é um algoritmo de ordenação que constrói a lista ordenada um elemento de cada vez, movendo os elementos maiores para a direita à medida que avança.
+
+**Requisitos:**
+- É eficaz para vetores pequenos ou quase ordenados.
+- Pode ser uma escolha razoável quando o vetor já está parcialmente ordenado.
+- É fácil de entender e implementar.
+
+**Complexidade Computacional:**
+- Pior Caso: O(n^2) - No pior caso, quando o vetor está inversamente ordenado, o Insertion Sort fará n * (n-1) / 2 comparações e trocas.
+- Melhor Caso: O(n) - Se o vetor já estiver ordenado, o Insertion Sort fará n - 1 comparações e nenhuma troca.
+
+```csharp
+void InsertionSort(int[] vetor)
+{
+    int n = vetor.Length;
+    
+    for (int i = 1; i < n; i++)
+    {
+        int chave = vetor[i];
+        int j = i - 1;
+        
+        while (j >= 0 && vetor[j] > chave)
+        {
+            vetor[j + 1] = vetor[j];
+            j--;
+        }
+        
+        vetor[j + 1] = chave;
+    }
+}
+```
+
+**Selection Sort:**
+
+O Selection Sort é um algoritmo de ordenação que divide o vetor em duas partes: a parte ordenada à esquerda e a parte não ordenada à direita. Ele seleciona repetidamente o elemento mínimo da parte não ordenada e o coloca na posição correta na parte ordenada.
+
+**Requisitos:**
+- É simples de entender e implementar.
+- Não é eficiente para grandes conjuntos de dados devido à sua complexidade de tempo quadrática.
+
+**Complexidade Computacional:**
+- Pior Caso: O(n^2) - O Selection Sort sempre faz n * (n-1) / 2 comparações no pior caso.
+- Melhor Caso: O(n^2) - O número de comparações não muda no melhor caso, mesmo se o vetor já estiver ordenado.
+
+```csharp
+void SelectionSort(int[] vetor)
+{
+    int n = vetor.Length;
+    
+    for (int i = 0; i < n - 1; i++)
+    {
+        int indiceMinimo = i;
+        
+        for (int j = i + 1; j < n; j++)
+        {
+            if (vetor[j] < vetor[indiceMinimo])
+                indiceMinimo = j;
+        }
+        
+        // Troca o elemento mínimo com o elemento atual.
+        int temp = vetor[i];
+        vetor[i] = vetor[indiceMinimo];
+        vetor[indiceMinimo] = temp;
+    }
+}
+```
+
+Em resumo, o Bubble Sort, o Insertion Sort e o Selection Sort são algoritmos de ordenação elementares que podem ser úteis em situações simples ou como componentes de algoritmos de ordenação mais complexos. No entanto, eles não são adequados para ordenar grandes conjuntos de dados devido à sua complexidade de tempo quadrática. Para conjuntos maiores, algoritmos de ordenação mais eficientes, como Quick Sort, Merge Sort ou Heap Sort, são geralmente preferidos.
