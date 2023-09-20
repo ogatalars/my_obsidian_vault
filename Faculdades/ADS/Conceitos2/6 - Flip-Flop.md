@@ -2,7 +2,7 @@ Os flip-flops são elementos básicos da eletrônica digital e são usados para 
 
 1. **O que é um Flip-Flop?**
     
-    - Um flip-flop é um circuito digital que pode assumir dois estados distintos (geralmente representados como 0 e 1) e pode alternar entre esses estados quando uma condição específica é atendida. Ele é usado para armazenar um único bit de informação, que é o menor componente de dados em sistemas digitais.
+    - Um flip-flop é um **circuito digital** que pode assumir dois estados distintos (geralmente representados como 0 e 1) e pode alternar entre esses estados quando uma condição específica é atendida. Ele é usado para armazenar um único bit de informação, que é o menor componente de dados em sistemas digitais.
 2. **Tipos de Flip-Flops:** Existem vários tipos de flip-flops, cada um com suas características específicas. Os tipos mais comuns incluem:
     
     - **SR Flip-Flop (Set-Reset)**: Pode ser configurado para definir (S) ou redefinir (R) seu estado.
