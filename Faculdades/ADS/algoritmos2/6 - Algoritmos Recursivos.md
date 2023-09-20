@@ -113,3 +113,37 @@ int Fatorial(int n)
 **Exemplo de Uso de Recursão em Outro Contexto:**
 
 Além de calcular fatoriais, algoritmos recursivos podem ser usados para percorrer árvores, resolver problemas de divisão e conquista, como o Merge Sort e o Quick Sort, e muitas outras aplicações. É uma técnica poderosa e flexível que desempenha um papel importante em muitos campos da ciência da computação. A chave para usar a recursão com sucesso é compreender bem o problema e definir cuidadosamente o caso base.
+
+
+
+
+## programa simples em C# que utiliza recursão para gerar a tabuada de um número especificado pelo usuário:
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite um número para obter a tabuada: ");
+        int numero = int.Parse(Console.ReadLine());
+
+        Console.WriteLine($"Tabuada de {numero}:");
+        ImprimirTabuada(numero, 1);
+
+        Console.ReadLine();
+    }
+
+    static void ImprimirTabuada(int numero, int multiplicador)
+    {
+        if (multiplicador <= 10)
+        {
+            Console.WriteLine($"{numero} x {multiplicador} = {numero * multiplicador}");
+            ImprimirTabuada(numero, multiplicador + 1);
+        }
+    }
+}
+```
+
+Este programa solicita ao usuário um número e, em seguida, usa uma função recursiva chamada `ImprimirTabuada` para imprimir a tabuada desse número de 1 a 10. A função recursiva verifica se o multiplicador é menor ou igual a 10 e, se for, imprime a linha da tabuada e chama a função novamente com um multiplicador incrementado em 1. O processo continua até que o multiplicador seja maior que 10, momento em que a recursão termina.
