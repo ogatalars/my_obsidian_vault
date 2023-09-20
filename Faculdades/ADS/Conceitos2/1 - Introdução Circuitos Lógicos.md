@@ -116,3 +116,36 @@ Aqui estão alguns exemplos de valores representados em bytes:
 - 11111111 (em binário) = 255 (em decimal)
 
 O byte é uma unidade de dados muito versátil e é a base de muitos sistemas de codificação e comunicação de dados, incluindo texto, imagens, áudio e muito mais. Além disso, a memória de um computador é frequentemente medida em bytes, como kilobytes (KB), megabytes (MB), gigabytes (GB) e assim por diante.
+
+### CHATGPT
+
+- CONVERSAO DE BASE 10 
+A conversão da base 10 (decimal) para a base 2 (binária) envolve a representação de um número na forma binária, que é composta por dígitos 0 e 1. O processo geral é realizado dividindo repetidamente o número decimal por 2 e registrando os restos das divisões. Aqui está um passo a passo:
+
+1. **Comece com o número decimal que você deseja converter para binário.**
+   
+2. **Divida o número por 2.**
+   - Anote o quociente (resultado da divisão) e o resto (o que sobra após a divisão).
+   
+3. **Continue dividindo o quociente da etapa anterior por 2.**
+   - Anote os quocientes e restos em cada etapa.
+
+4. **Repita o processo até que o quociente seja igual a 0.**
+   - A cada etapa, registre o resto da divisão.
+
+5. **Leia os restos da divisão de baixo para cima.**
+   - Os restos das divisões formam a representação binária do número decimal.
+
+Aqui está um exemplo de conversão do decimal 25 para binário:
+
+```
+Passo 1: 25 / 2 = 12 (resto 1)
+Passo 2: 12 / 2 = 6 (resto 0)
+Passo 3: 6 / 2 = 3 (resto 0)
+Passo 4: 3 / 2 = 1 (resto 1)
+Passo 5: 1 / 2 = 0 (resto 1)
+```
+
+Lendo os restos de baixo para cima, temos: 11001. Portanto, o número decimal 25 é igual a 11001 em binário.
+
+Você pode usar esse método para converter qualquer número decimal em binário. Lembre-se de que os dígitos binários são potências de 2, onde o dígito mais à direita representa 2^0 (1), o próximo à esquerda representa 2^1 (2), o próximo 2^2 (4), e assim por diante. A soma dos dígitos binários multiplicados por suas respectivas potências de 2 resultará no número decimal original.
