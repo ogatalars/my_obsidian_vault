@@ -119,7 +119,7 @@ O byte é uma unidade de dados muito versátil e é a base de muitos sistemas de
 
 ### CHATGPT
 
-- CONVERSAO DE BASE 10 
+- **CONVERSAO DE BASE 10** 
 A conversão da base 10 (decimal) para a base 2 (binária) envolve a representação de um número na forma binária, que é composta por dígitos 0 e 1. O processo geral é realizado dividindo repetidamente o número decimal por 2 e registrando os restos das divisões. Aqui está um passo a passo:
 
 1. **Comece com o número decimal que você deseja converter para binário.**
@@ -149,3 +149,69 @@ Passo 5: 1 / 2 = 0 (resto 1)
 Lendo os restos de baixo para cima, temos: 11001. Portanto, o número decimal 25 é igual a 11001 em binário.
 
 Você pode usar esse método para converter qualquer número decimal em binário. Lembre-se de que os dígitos binários são potências de 2, onde o dígito mais à direita representa 2^0 (1), o próximo à esquerda representa 2^1 (2), o próximo 2^2 (4), e assim por diante. A soma dos dígitos binários multiplicados por suas respectivas potências de 2 resultará no número decimal original.
+
+## Conversao base 16
+A conversão da base 10 (decimal) para a base 16 (hexadecimal) envolve a representação de um número na forma hexadecimal, que usa dígitos de 0 a 9 e as letras A a F para representar valores de 10 a 15. O processo geral é realizado dividindo repetidamente o número decimal por 16 e registrando os restos das divisões. Aqui está um passo a passo:
+
+1. **Comece com o número decimal que você deseja converter para hexadecimal.**
+
+2. **Divida o número por 16.**
+   - Anote o quociente (resultado da divisão) e o resto (o que sobra após a divisão).
+
+3. **Continue dividindo o quociente da etapa anterior por 16.**
+   - Anote os quocientes e restos em cada etapa.
+
+4. **Repita o processo até que o quociente seja igual a 0.**
+   - A cada etapa, registre o resto da divisão.
+
+5. **Leia os restos da divisão de baixo para cima.**
+   - Os restos das divisões formam a representação hexadecimal do número decimal.
+
+Aqui está um exemplo de conversão do decimal 255 para hexadecimal:
+
+```
+Passo 1: 255 / 16 = 15 (resto F)
+Passo 2: 15 / 16 = 0 (resto F)
+```
+
+Lendo os restos de baixo para cima, temos: FF. Portanto, o número decimal 255 é igual a FF em hexadecimal.
+
+Outro exemplo com o decimal 4096:
+
+```
+Passo 1: 4096 / 16 = 256 (resto 0)
+Passo 2: 256 / 16 = 16 (resto 0)
+Passo 3: 16 / 16 = 1 (resto 0)
+Passo 4: 1 / 16 = 0 (resto 1)
+```
+
+Lendo os restos de baixo para cima, temos: 1000. Portanto, o número decimal 4096 é igual a 1000 em hexadecimal.
+
+Lembre-se de que, na base hexadecimal, após o 9, os dígitos são representados pelas letras A (10), B (11), C (12), D (13), E (14) e F (15). Isso é importante ao realizar a conversão de números maiores em hexadecimal.
+
+
+
+**Nibble:**
+Nibbles e bytes são unidades de armazenamento de dados utilizadas na computação para representar informações em forma binária (base 2). Vamos explicar cada um deles:
+
+- Um nibble é uma unidade de 4 bits (ou seja, 4 dígitos binários).
+- Cada dígito binário em um nibble pode ter um valor de 0 ou 1.
+- Em um nibble, você pode representar números de 0 a 15 (ou seja, 2^4 = 16 valores diferentes).
+- Nibbles são frequentemente usados em computação para representar números hexadecimais (base 16) de forma compacta. Um único nibble pode representar um dígito hexadecimal.
+- Por exemplo, o nibble "1101" em binário é igual a "D" em hexadecimal (representando o número 13 em decimal).
+
+**Byte:**
+
+- Um byte é uma unidade de 8 bits (ou seja, 8 dígitos binários).
+- Cada dígito binário em um byte pode ter um valor de 0 ou 1.
+- Em um byte, você pode representar números de 0 a 255 (ou seja, 2^8 = 256 valores diferentes).
+- Bytes são amplamente usados na computação para representar informações, como caracteres de texto, números inteiros, códigos de cores e muito mais.
+- Um byte é frequentemente usado como a menor unidade endereçável na memória de um computador.
+- Em linguagens de programação como C# ou C++, um tipo de dado `byte` é usado para armazenar valores inteiros de 0 a 255.
+
+Resumindo:
+
+- Um nibble é uma unidade de 4 bits e pode representar valores de 0 a 15.
+- Um byte é uma unidade de 8 bits e pode representar valores de 0 a 255.
+- Nibbles são frequentemente usados para representar dígitos hexadecimais ou informações compactas.
+- Bytes são usados para representar uma ampla variedade de informações, incluindo caracteres, números, cores e muito mais, e são uma unidade fundamental na computação.
