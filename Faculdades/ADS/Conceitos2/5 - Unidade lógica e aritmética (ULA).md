@@ -28,7 +28,7 @@ A arquitetura exata de uma ULA pode variar de acordo com a CPU ou o sistema em q
 
 **Operações Condicionais:**
 
-A ULA também desempenha um papel importante na execução de operações condicionais em programas de computador. Ela compara valores, verifica igualdades e desigualdades e, com base nessas comparações, determina o fluxo de controle do programa (por exemplo, se um desvio condicional deve ser tomado).
+**A ULA também desempenha um papel importante na execução de operações condicionais em programas de computador.** Ela compara valores, verifica igualdades e desigualdades e, com base nessas comparações, determina o fluxo de controle do programa (por exemplo, se um desvio condicional deve ser tomado).
 
 **Conclusão:**
 
@@ -66,7 +66,7 @@ Além dos resultados das operações, a ULA também pode gerar flags ou indicado
 
 **Conclusão:**
 
-Uma ULA básica pode ser construída usando portas lógicas, blocos de meio somador e meio subtrator, entradas para operandos e sinais de controle, e saídas para resultados e flags. Ela desempenha um papel fundamental na realização de operações lógicas e aritméticas em sistemas digitais, como CPUs de computadores, e é essencial para a execução de tarefas complexas de processamento de dados. A complexidade da ULA pode variar dependendo das operações e recursos específicos necessários para uma aplicação particular.
+**Uma ULA básica pode ser construída usando portas lógicas, blocos de meio somador e meio subtrator, entradas para operandos e sinais de controle, e saídas para resultados e flags.** Ela desempenha um papel fundamental na realização de operações lógicas e aritméticas em sistemas digitais, como CPUs de computadores, e é essencial para a execução de tarefas complexas de processamento de dados. A complexidade da ULA pode variar dependendo das operações e recursos específicos necessários para uma aplicação particular.
 
 ### Componentes 
 Os componentes básicos de uma Unidade Lógica e Aritmética (ULA) incluem:
