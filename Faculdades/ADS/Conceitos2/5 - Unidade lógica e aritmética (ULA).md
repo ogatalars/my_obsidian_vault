@@ -50,7 +50,7 @@ A construção de uma Unidade Lógica e Aritmética (ULA) básica envolve a cria
 
 **Construção da Unidade de Lógica:**
 
-A construção da unidade de lógica envolve o uso de portas lógicas para realizar operações lógicas nos bits dos operandos. Por exemplo, para implementar uma operação lógica OR, você pode usar portas OR para combinar os bits dos operandos. Para implementar uma operação lógica AND, você pode usar portas AND.
+**A construção da unidade de lógica envolve o uso de portas lógicas para realizar operações lógicas nos bits dos operandos.** Por exemplo, para implementar uma operação lógica OR, você pode usar portas OR para combinar os bits dos operandos. Para implementar uma operação lógica AND, você pode usar portas AND.
 
 **Construção da Unidade Aritmética:**
 
