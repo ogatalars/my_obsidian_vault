@@ -18,3 +18,6 @@ Os circuitos lógicos que originam o armazenamento de dados em um computador inc
     
 
 Esses circuitos lógicos formam a base da hierarquia de memória de um computador e desempenham um papel crucial na capacidade de armazenamento e acesso eficiente aos dados em um sistema computacional.
+
+
+**A ULA** (Unidade Lógico-Aritmética) é uma parte fundamental de uma CPU (Central Processing Unit) em um computador. Ela é responsável por realizar operações aritméticas (como adição, subtração, multiplicação e divisão) e operações lógicas (como AND, OR, NOT) em dados que são armazenados nos registradores da CPU. A ULA executa essas operações de acordo com instruções recebidas da unidade de controle da CPU. Em resumo, a ULA é o componente que realiza cálculos matemáticos e operações lógicas necessárias para executar programas e processar dados em um computador.
