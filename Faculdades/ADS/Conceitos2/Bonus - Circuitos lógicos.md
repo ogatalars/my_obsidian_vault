@@ -20,7 +20,7 @@ Os circuitos lógicos que originam o armazenamento de dados em um computador inc
 Esses circuitos lógicos formam a base da hierarquia de memória de um computador e desempenham um papel crucial na capacidade de armazenamento e acesso eficiente aos dados em um sistema computacional.
 
 
-Os flip-flops são dispositivos fundamentais em eletrônica digital e são usados para armazenar um único bit de informação (0 ou 1) em um circuito digital. Eles são amplamente utilizados em registradores, contadores, memórias e outros elementos de circuitos sequenciais. Vamos aprofundar nos principais tipos de flip-flops:
+**Os flip-flops são dispositivos fundamentais** em eletrônica digital e são usados para armazenar um único bit de informação (0 ou 1) em um circuito digital. Eles são amplamente utilizados em registradores, contadores, memórias e outros elementos de circuitos sequenciais. Vamos aprofundar nos principais tipos de flip-flops:
 
 1. **Flip-Flop RS (Set-Reset):**
    - O flip-flop RS é o mais simples e consiste em duas entradas: Set (S) e Reset (R).
