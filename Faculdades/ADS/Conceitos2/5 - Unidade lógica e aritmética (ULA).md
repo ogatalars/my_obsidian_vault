@@ -86,7 +86,7 @@ Os componentes básicos de uma Unidade Lógica e Aritmética (ULA) incluem:
     - **Overflow (V/O):** Indica se ocorreu um estouro ou subfluxo em operações aritméticas, o que pode ocorrer quando os resultados excedem a capacidade de representação.
 6. **Saídas:** As saídas da ULA são os resultados das operações realizadas. Dependendo da operação e da ULA, pode haver uma ou mais saídas.
     
-7. **Registradores:** Em muitos casos, a ULA está conectada a registradores que podem armazenar temporariamente os resultados das operações. Isso permite que os resultados sejam usados em operações subsequentes ou armazenados na memória.
+7. **Registradores:** **Em muitos casos, a ULA está conectada a registradores que podem armazenar temporariamente os resultados das operações**. Isso permite que os resultados sejam usados em operações subsequentes ou armazenados na memória.
     
 8. **Decodificadores e Circuitos de Controle:** Para garantir que a ULA execute a operação correta com base nos sinais de controle, são usados decodificadores e circuitos de controle que interpretam os sinais de controle e direcionam as operações apropriadas dentro da ULA.
     
