@@ -6,7 +6,7 @@ A Unidade Lógica e Aritmética (ULA), também conhecida como ALU (do inglês Ar
 
 1. **Operações Aritméticas:** A ULA é responsável por realizar **operações aritméticas, como adição, subtração, multiplicação e divisão em números binários**. Ela pode executar operações entre números inteiros ou de ponto flutuante, dependendo da arquitetura do processador.
     
-2. **Operações Lógicas:** Além das operações aritméticas, a ULA também executa operações lógicas, como AND, OR, NOT, XOR, entre outras. Essas operações são fundamentais para realizar testes condicionais, operações de comparação e manipulação de bits.
+2. **Operações Lógicas:** Além das operações aritméticas, a ULA também executa operações lógicas, como **AND, OR, NOT, XOR, entre outras.** Essas operações são fundamentais para realizar testes condicionais, operações de comparação e manipulação de bits.
     
 3. **Deslocamento de Bits:** A ULA também pode realizar operações de deslocamento de bits, como deslocamento à esquerda (shift left) e deslocamento à direita (shift right), que são usadas para realizar multiplicação e divisão de potências de 2.
     
