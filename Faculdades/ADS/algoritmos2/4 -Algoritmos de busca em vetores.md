@@ -193,7 +193,7 @@ Vamos aprofundar as técnicas de busca linear e busca binária, incluindo seus r
 
 **Busca Linear:**
 
-A busca linear é um método de busca direta, onde cada elemento do vetor é verificado sequencialmente até que o valor desejado seja encontrado ou todos os elementos tenham sido verificados. Esta técnica é adequada para vetores não ordenados e é muito simples de implementar.
+A busca linear é um método de busca direta, onde cada elemento do vetor é verificado sequencialmente até que o valor desejado seja encontrado ou todos os elementos tenham sido verificados. **Esta técnica é adequada para vetores não ordenados** e é muito simples de implementar.
 
 **Complexidade Computacional:**
 - Pior Caso: O pior caso ocorre quando o elemento procurado está na última posição do vetor ou não está presente. A complexidade de tempo no pior caso é O(n), onde n é o tamanho do vetor.
@@ -207,7 +207,7 @@ A busca linear é um método de busca direta, onde cada elemento do vetor é ver
 
 **Busca Binária:**
 
-A busca binária é uma técnica eficiente para buscar em vetores ordenados. Ela explora o fato de que, em um vetor ordenado, é possível descartar metade dos elementos a cada iteração, direcionando a busca para a metade onde o valor pode estar. Isso é repetido até que o elemento seja encontrado ou seja determinado que ele não está presente.
+**A busca binária é uma técnica eficiente para buscar em vetores ordenados.** Ela explora o fato de que, em um vetor ordenado, é possível descartar metade dos elementos a cada iteração, direcionando a busca para a metade onde o valor pode estar. Isso é repetido até que o elemento seja encontrado ou seja determinado que ele não está presente.
 
 **Complexidade Computacional:**
 - Pior Caso: A complexidade de tempo no pior caso é O(log₂ n), onde n é o tamanho do vetor. Isso faz da busca binária um algoritmo muito eficiente para vetores grandes.
@@ -220,3 +220,5 @@ A busca binária é uma técnica eficiente para buscar em vetores ordenados. Ela
 - Requer menos comparações em comparação com a busca linear.
 
 Em resumo, a busca linear é uma técnica simples e adequada para vetores não ordenados ou quando a posição do elemento é desconhecida, mas sua complexidade é linear em relação ao tamanho do vetor. Por outro lado, a busca binária é altamente eficiente para vetores ordenados, com uma complexidade de tempo logarítmica em relação ao tamanho do vetor, tornando-a a escolha preferida para vetores grandes quando a ordenação é possível e desejável. A escolha entre as técnicas de busca depende dos requisitos do seu problema e do tamanho e ordenação dos dados.
+
+**O algoritmo de busca mais recomendado para vetores não ordenados é a **busca sequencial**. Esse algoritmo é simples e eficiente para vetores pequenos, com até algumas centenas de elementos.**

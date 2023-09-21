@@ -1,6 +1,6 @@
 **Unidade Lógica e Aritmética (ULA): Aprofundando nos Fundamentos**
 
-A Unidade Lógica e Aritmética (ULA), também conhecida como ALU (do inglês Arithmetic Logic Unit), é uma das unidades fundamentais de processamento em uma CPU (Central Processing Unit) de um computador ou em qualquer sistema digital que requer operações lógicas e aritméticas. A ULA desempenha um papel crucial na execução de operações matemáticas e lógicas em dados.
+A Unidade Lógica e Aritmética (ULA), também conhecida como ALU (do inglês Arithmetic Logic Unit), é uma das **unidades fundamentais de processamento em uma CPU** (Central Processing Unit) de um computador ou em qualquer sistema digital que requer operações lógicas e aritméticas. A ULA desempenha um papel crucial na execução de operações matemáticas e lógicas em dados.
 
 **Principais Funções da ULA:**
 
