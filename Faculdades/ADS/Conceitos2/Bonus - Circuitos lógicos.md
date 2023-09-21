@@ -1,6 +1,6 @@
 Os circuitos lógicos que originam o armazenamento de dados em um computador incluem principalmente:
 
-1. **Flip-Flops:** Os flip-flops **são circuitos sequenciais que armazenam um bit de informação** (0 ou 1) em um estado estável. **Eles são os blocos de construção fundamentais para a criação de elementos de memória, como registradores, memória RAM** e outros dispositivos de armazenamento.
+1. **Flip-Flops:** (PRINCIPALMENTE) Os flip-flops **são circuitos sequenciais que armazenam um bit de informação** (0 ou 1) em um estado estável. **Eles são os blocos de construção fundamentais para a criação de elementos de memória, como registradores, memória RAM** e outros dispositivos de armazenamento.
     
 2. **Registradores:** Registradores são elementos de memória usados para armazenar dados temporariamente durante operações de computação.** **Eles consistem em vários flip-flops** agrupados para armazenar palavras de dados.
     
