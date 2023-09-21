@@ -4,7 +4,7 @@ Circuitos combinacionais são uma parte fundamental da eletrônica digital, e el
 
 **1. O que são Circuitos Combinacionais:**
 
-Circuitos combinacionais são sistemas digitais que realizam operações lógicas em suas entradas para produzir saídas com base apenas nas entradas atuais. Eles não possuem memória interna, o que significa que as saídas dependem apenas das entradas fornecidas no momento presente. Isso os diferencia dos circuitos sequenciais, que têm memória e dependem das entradas anteriores.
+**Circuitos combinacionais são sistemas digitais que realizam operações lógicas em suas entradas para produzir saídas com base apenas nas entradas atuais.** Eles não possuem memória interna, o que significa que as saídas dependem apenas das entradas fornecidas no momento presente. Isso os diferencia dos circuitos sequenciais, que têm memória e dependem das entradas anteriores.
 
 **2. Blocos de Construção:**
 
