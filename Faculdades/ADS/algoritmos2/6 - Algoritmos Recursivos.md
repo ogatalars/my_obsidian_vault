@@ -67,3 +67,83 @@ public static int multRecursiva(int m, int n) { if (n==0) { return 0; } else { r
 Esta é uma estratégia interessante para testar a lógica de sua função: criar um teste de mesa por meio de uma tabela que armazena todas as variáveis ao longo da execução, empilhar os valores de acordo com o avanço da chamada recursiva e, então, ao alcançar o caso base, ir retirando esses valores de acordo com o encerramento de cada chamada recursiva. Perceba também como uma função recursiva pode levar a um alto consumo de memória. Por isso, seu uso deve ser sempre bem ponderado e comparado com o da solução iterativa equivalente
 
 Lembre-se: qualquer problema que pode ser resolvido recursivamente também pode ser resolvido iterativamente. Uma abordagem recursiva, em geral, é preferida em relação a uma abordagem iterativa quando espelha mais naturalmente o problema e resulta em um programa de compreensão mais fácil. A abordagem recursiva pode ser implementada com menos linhas de código, sendo, portanto, uma opção mais concisa, apresentando um programa mais simples (SZWARCFITER; MARKENZON, 2010)
+
+### ChatGPT 
+
+Algoritmos recursivos são algoritmos que resolvem problemas que podem ser decompostos em subproblemas menores e idênticos ao problema original. Em C#, assim como em muitas outras linguagens de programação, você pode usar a recursão para resolver problemas de forma elegante e eficaz. Vamos explorar os conceitos fundamentais e a implementação de algoritmos recursivos em C#:
+
+**Conceitos Fundamentais:**
+
+1. **Chamada Recursiva:** Um algoritmo recursivo chama a si mesmo para resolver subproblemas menores. Isso é conhecido como chamada recursiva.
+
+2. **Caso Base:** Em cada algoritmo recursivo, é importante definir um caso base, que é a condição que determina quando a recursão deve parar. Sem um caso base, a recursão continuará indefinidamente.
+
+**Exemplo de Algoritmo Recursivo Simples:**
+
+Um exemplo clássico de algoritmo recursivo é o cálculo do fatorial de um número. O fatorial de um número n é o produto de todos os números inteiros de 1 até n.
+
+```csharp
+int Fatorial(int n)
+{
+    // Caso base
+    if (n == 0 || n == 1)
+        return 1;
+    
+    // Chamada recursiva
+    return n * Fatorial(n - 1);
+}
+```
+
+**Como Funciona a Recursão:**
+
+1. Quando você chama `Fatorial(5)`, o programa verifica se o caso base é atendido (n == 0 ou n == 1). Como isso não é verdadeiro, ele continua para a próxima etapa.
+
+2. Ele calcula `5 * Fatorial(4)`, mas agora precisa calcular `Fatorial(4)`.
+
+3. O processo continua até que o caso base seja alcançado (`Fatorial(1)`), que retorna 1.
+
+4. Em seguida, os resultados são propagados de volta, multiplicando-se gradualmente para calcular o fatorial completo.
+
+**Observações Importantes:**
+
+- A recursão pode ser uma técnica poderosa, mas deve ser usada com cuidado, pois pode causar estouro de pilha (stack overflow) se não houver um caso base ou se a recursão for muito profunda.
+- A recursão é útil para problemas que podem ser divididos em subproblemas menores e independentes, como dividir um problema em partes iguais e resolver cada parte separadamente.
+- Nem todos os problemas são bem adequados para a recursão. Em alguns casos, algoritmos iterativos podem ser mais eficientes e mais simples de entender.
+
+**Exemplo de Uso de Recursão em Outro Contexto:**
+
+Além de calcular fatoriais, algoritmos recursivos podem ser usados para percorrer árvores, resolver problemas de divisão e conquista, como o Merge Sort e o Quick Sort, e muitas outras aplicações. É uma técnica poderosa e flexível que desempenha um papel importante em muitos campos da ciência da computação. A chave para usar a recursão com sucesso é compreender bem o problema e definir cuidadosamente o caso base.
+
+
+
+
+## programa simples em C# que utiliza recursão para gerar a tabuada de um número especificado pelo usuário:
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite um número para obter a tabuada: ");
+        int numero = int.Parse(Console.ReadLine());
+
+        Console.WriteLine($"Tabuada de {numero}:");
+        ImprimirTabuada(numero, 1);
+
+        Console.ReadLine();
+    }
+
+    static void ImprimirTabuada(int numero, int multiplicador)
+    {
+        if (multiplicador <= 10)
+        {
+            Console.WriteLine($"{numero} x {multiplicador} = {numero * multiplicador}");
+            ImprimirTabuada(numero, multiplicador + 1);
+        }
+    }
+}
+```
+
+Este programa solicita ao usuário um número e, em seguida, usa uma função recursiva chamada `ImprimirTabuada` para imprimir a tabuada desse número de 1 a 10. A função recursiva verifica se o multiplicador é menor ou igual a 10 e, se for, imprime a linha da tabuada e chama a função novamente com um multiplicador incrementado em 1. O processo continua até que o multiplicador seja maior que 10, momento em que a recursão termina.

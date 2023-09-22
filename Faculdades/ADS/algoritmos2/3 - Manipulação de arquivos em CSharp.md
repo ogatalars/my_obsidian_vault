@@ -88,3 +88,89 @@ O processo de escrita (ou salvamento) de dados em um arquivo é bem semelhante a
 string[] arquivo = File.ReadAllLines(caminho_absoluto); string msgVitorias = arquivo[arquivo.Length - 2]; string msgDerrotas = arquivo[arquivo.Length - 1]; try { StreamWriter sw = new StreamWriter(caminho_absoluto); int contagem; //de vitorias ou derrotas int linha_sobrescrever; string texto; if (vitoria) { int.TryParse(msgVitorias.Split(':')[1], out contagem); linha_sobrescrever = 11; texto = "Vitórias:"; } else { int.TryParse(msgDerrotas.Split(':')[1], out contagem); linha_sobrescrever = 12; texto = "Derrotas:"; } contagem++; for (int i = 0; i < arquivo.Length; i++) { if (i == linha_sobrescrever) sw.WriteLine(texto + contagem); else sw.WriteLine(arquivo[i]); } sw.Close(); } catch (Exception e) { Console.WriteLine( "Ocorreu um problema na escrita do arquivo!"); }
 
 A primeira instrução indica a leitura de todas as linhas do arquivo indicado em caminho_absoluto e a conversão para um vetor de strings, em que cada posição corresponde ao conteúdo de uma das linhas. Abaixo, o valor da penúltima posição desse vetor é armazenado em msgVitorias e o valor da última posição, em msgDerrotas. Em seguida, é iniciado o processo de escrita no arquivo (assim como no processo de leitura, ele é inserido dentro de um bloco try). Um objeto StreamWriter é criado a partir do caminho do arquivo. Três variáveis são utilizadas para compor a mensagem que será sobrescrita no arquivo (contagem de vitórias ou derrotas). Caso a variável booleana vitoria seja true, indicando que o jogador venceu a partida, a string msgVitorias é dividida a partir do sinal de dois pontos (:). Assim, será gerado um vetor de strings com duas posições: a primeira armazena o texto "Vitórias" e a segunda, a contagem de vitórias. Portanto, msgVitorias.Split(':')[1] indica a segunda posição desse vetor, que é a contagem. Essa string será convertida em um valor do tipo int, representado pela variável contagem. A variável linha_sobrescrever armazena 11, que é a indicação da linha do arquivo em que se encontra essa contagem de vitórias. Já a variável texto recebe "Vitórias:". Caso o usuário tenha perdido a partida, a variável contagem armazena o valor da contagem de derrotas atual, a variável linha_sobrescrever recebe o valor 12 e a variável texto recebe "Derrotas:". Em seguida, a variável contagem é incrementada para indicar a vitória ou derrota na última partida finalizada. Por fim, o vetor que inicialmente continha todas as linhas do arquivo é percorrido, e cada linha é sobrescrita com o método WriteLine, usando o conteúdo de uma nova posição do vetor. A maioria das linhas do arquivo é reescrita com o mesmo conteúdo anterior, porém a linha indicada em linha_sobrescrever, que representa a contagem de vitórias ou derrotas do jogador, é alterada. O que é reescrito é a mensagem armazenada em texto ("Vitórias:" ou "Derrotas:"), concatenada com o valor atualizado em contagem. O procedimento demonstrado é suficiente para modificar o arquivo e gravar os dados atualizados gerados por uma nova partida. Essa é uma forma simples de manter um registro dos resultados de um jogo ou das configurações de uma aplicação qualquer.
+
+### Resumo chatGPT
+A manipulação de arquivos em C# é uma parte fundamental da programação, pois permite que você leia e escreva dados em arquivos no sistema de arquivos local ou em outros locais, como servidores remotos. É uma habilidade crucial ao lidar com armazenamento de dados, persistência de informações, leitura e gravação de configurações, geração de relatórios e muito mais. Vamos explorar profundamente a manipulação de arquivos em C#:
+
+**Namespace:**
+Para trabalhar com arquivos em C#, você precisa usar o namespace `System.IO`, que fornece classes e métodos para operações de entrada e saída (I/O) de arquivos.
+
+```csharp
+using System.IO;
+```
+
+**Leitura de Arquivos:**
+Você pode ler dados de um arquivo usando classes como `File`, `StreamReader` ou `BinaryReader`. Aqui está um exemplo simples usando `StreamReader` para ler texto de um arquivo:
+
+```csharp
+string caminhoArquivo = "exemplo.txt";
+using (StreamReader leitor = new StreamReader(caminhoArquivo))
+{
+    string linha;
+    while ((linha = leitor.ReadLine()) != null)
+    {
+        Console.WriteLine(linha);
+    }
+}
+```
+
+**Escrita em Arquivos:**
+Você pode escrever dados em um arquivo usando classes como `File`, `StreamWriter` ou `BinaryWriter`. Aqui está um exemplo usando `StreamWriter` para escrever texto em um arquivo:
+
+```csharp
+string caminhoArquivo = "saida.txt";
+using (StreamWriter escritor = new StreamWriter(caminhoArquivo))
+{
+    escritor.WriteLine("Olá, Mundo!");
+    escritor.WriteLine("Isso é um exemplo de escrita em arquivo.");
+}
+```
+
+**Tratamento de Exceções:**
+É importante tratar exceções ao trabalhar com arquivos, pois várias situações podem causar erros, como falta de permissões, arquivos inexistentes, falta de espaço em disco, etc. Use blocos `try-catch` para lidar com exceções:
+
+```csharp
+try
+{
+    // Operações de leitura ou escrita de arquivo aqui.
+}
+catch (IOException e)
+{
+    Console.WriteLine("Erro de I/O: " + e.Message);
+}
+```
+
+**Verificação de Existência e Informações de Arquivo:**
+Você pode verificar se um arquivo existe e obter informações sobre ele usando métodos da classe `File` ou da classe `FileInfo`:
+
+```csharp
+string caminhoArquivo = "exemplo.txt";
+if (File.Exists(caminhoArquivo))
+{
+    FileInfo fileInfo = new FileInfo(caminhoArquivo);
+    Console.WriteLine("Nome do arquivo: " + fileInfo.Name);
+    Console.WriteLine("Tamanho do arquivo: " + fileInfo.Length + " bytes");
+    Console.WriteLine("Última modificação: " + fileInfo.LastWriteTime);
+}
+```
+
+**Manipulação de Diretórios:**
+Além de arquivos, você também pode criar, listar e manipular diretórios usando a classe `Directory` ou a classe `DirectoryInfo`. Por exemplo, para criar um diretório:
+
+```csharp
+string caminhoDiretorio = "meuDiretorio";
+Directory.CreateDirectory(caminhoDiretorio);
+```
+
+**Exclusão de Arquivos e Diretórios:**
+Você pode excluir arquivos e diretórios usando métodos das classes `File` e `Directory`. Tenha cuidado ao usar esses métodos, pois a exclusão é irreversível:
+
+```csharp
+string caminhoArquivo = "exemplo.txt";
+File.Delete(caminhoArquivo);
+
+string caminhoDiretorio = "meuDiretorio";
+Directory.Delete(caminhoDiretorio, true); // O segundo argumento indica se a exclusão é recursiva (incluindo subdiretórios).
+```
+
+Lembrando que operações de leitura e escrita de arquivos podem causar exceções, portanto, é fundamental envolvê-las em tratamento de exceções para garantir que seu programa seja robusto e lide adequadamente com erros. Além disso, certifique-se de fechar adequadamente os recursos de arquivo usando os blocos `using` para evitar vazamentos de recursos e garantir que os arquivos sejam fechados após o uso.

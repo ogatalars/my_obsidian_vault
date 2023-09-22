@@ -123,3 +123,136 @@ class Program
         }
     }
 }
+
+### Resumo CHATGPT
+Algoritmos de ordenação eficientes são fundamentais na computação, pois permitem que os dados sejam organizados de maneira eficaz, o que é fundamental em muitos tipos de aplicativos. Dois dos algoritmos de ordenação mais eficientes em termos de tempo são o Quick Sort e o Merge Sort. Vamos discutir esses algoritmos em detalhes, incluindo requisitos e complexidade.
+
+**Quick Sort:**
+
+O Quick Sort é um algoritmo de ordenação baseado na estratégia "dividir para conquistar". Ele escolhe um elemento do vetor (o "pivô") e reorganiza os elementos de tal forma que todos os elementos menores que o pivô estejam à sua esquerda e todos os elementos maiores estejam à sua direita. Em seguida, o algoritmo é aplicado recursivamente às duas sub-listas resultantes.
+
+**Requisitos:**
+- O Quick Sort é um algoritmo in-place, o que significa que ele não requer espaço adicional significativo além do vetor original.
+- A complexidade de memória é baixa, tornando-o adequado para grandes conjuntos de dados.
+- É eficiente em média e na maioria dos casos práticos.
+
+**Complexidade Computacional (Big O Notation):**
+- Pior Caso: O(n^2) - Isso ocorre quando o pivô escolhido é sempre o menor ou o maior elemento, levando a divisões desbalanceadas.
+- Melhor Caso: O(n * log n) - Isso ocorre quando o pivô escolhido divide o vetor aproximadamente pela metade a cada passo.
+- Caso Médio: O(n * log n) - O Quick Sort tende a ter um desempenho médio muito bom na maioria dos casos.
+
+```csharp
+void QuickSort(int[] vetor, int inicio, int fim)
+{
+    if (inicio < fim)
+    {
+        int indicePivo = Particiona(vetor, inicio, fim);
+        
+        QuickSort(vetor, inicio, indicePivo - 1);
+        QuickSort(vetor, indicePivo + 1, fim);
+    }
+}
+
+int Particiona(int[] vetor, int inicio, int fim)
+{
+    int pivô = vetor[fim];
+    int i = inicio - 1;
+    
+    for (int j = inicio; j < fim; j++)
+    {
+        if (vetor[j] < pivô)
+        {
+            i++;
+            Troca(vetor, i, j);
+        }
+    }
+    
+    Troca(vetor, i + 1, fim);
+    return i + 1;
+}
+
+void Troca(int[] vetor, int i, int j)
+{
+    int temp = vetor[i];
+    vetor[i] = vetor[j];
+    vetor[j] = temp;
+}
+```
+
+**Merge Sort:**
+
+O Merge Sort é outro algoritmo de ordenação que utiliza a estratégia "dividir para conquistar". Ele divide o vetor em duas metades, ordena cada metade separadamente e, em seguida, combina (merge) as duas metades ordenadas em um único vetor ordenado.
+
+**Requisitos:**
+- O Merge Sort não é um algoritmo in-place e requer espaço adicional para armazenar as sub-listas temporárias durante o processo de mesclagem.
+- A complexidade de memória é um pouco maior do que a do Quick Sort.
+- É estável, o que significa que a ordem relativa dos elementos iguais é preservada.
+
+**Complexidade Computacional (Big O Notation):**
+- Pior Caso: O(n * log n) - O Merge Sort tem um desempenho consistente e eficiente em todos os casos.
+- Melhor Caso: O(n * log n) - Semelhante ao pior caso, o Merge Sort mantém a mesma complexidade.
+- Caso Médio: O(n * log n) - Como o Merge Sort divide o vetor pela metade, ele mantém uma complexidade consistente.
+
+```csharp
+void MergeSort(int[] vetor, int inicio, int fim)
+{
+    if (inicio < fim)
+    {
+        int meio = (inicio + fim) / 2;
+        
+        MergeSort(vetor, inicio, meio);
+        MergeSort(vetor, meio + 1, fim);
+        
+        Merge(vetor, inicio, meio, fim);
+    }
+}
+
+void Merge(int[] vetor, int inicio, int meio, int fim)
+{
+    int n1 = meio - inicio + 1;
+    int n2 = fim - meio;
+    
+    int[] esquerda = new int[n1];
+    int[] direita = new int[n2];
+    
+    for (int i = 0; i < n1; i++)
+        esquerda[i] = vetor[inicio + i];
+    
+    for (int j = 0; j < n2; j++)
+        direita[j] = vetor[meio + 1 + j];
+    
+    int k = inicio;
+    int p = 0, q = 0;
+    
+    while (p < n1 && q < n2)
+    {
+        if (esquerda[p] <= direita[q])
+        {
+            vetor[k] = esquerda[p];
+            p++;
+        }
+        else
+        {
+            vetor[k] = direita[q];
+            q++;
+        }
+        k++;
+    }
+    
+    while (p < n1)
+    {
+        vetor[k] = esquerda[p];
+        p++;
+        k++;
+    }
+    
+    while (q < n2)
+    {
+        vetor[k] = direita[q];
+        q++;
+        k++;
+    }
+}
+```
+
+Tanto o Quick Sort quanto o Merge Sort são algoritmos de ordenação eficientes em média, com complexidade de tempo O(n * log n). **Eles são amplamente usados em aplicações reais e, geralmente, superam algoritmos de ordenação elementares como Bubble Sort e Insertion Sort em cenários de grande volume de dados.** A escolha entre eles depende das necessidades específicas do seu aplicativo e dos recursos disponíveis.
