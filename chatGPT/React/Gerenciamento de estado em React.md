@@ -91,3 +91,81 @@ O gerenciamento de estado em React é um tópico fundamental, pois permite que o
    ```
 
 Em resumo, o gerenciamento de estado é essencial para aplicativos React e pode ser abordado de várias maneiras, dependendo da complexidade do projeto. A escolha da técnica certa depende das necessidades específicas do seu aplicativo. Componentes simples podem usar estado local, enquanto aplicativos maiores podem se beneficiar do Context API, bibliotecas de gerenciamento de estado ou hooks. O importante é manter o estado bem organizado e acessível quando necessário.
+
+
+**Estado Glo**
+
+Um "estado global" em um contexto de desenvolvimento de software geralmente se refere a um estado de aplicativo que é acessível globalmente por todos os componentes ou partes do aplicativo. Isso permite que diferentes partes do aplicativo compartilhem dados e informações entre si, independentemente da hierarquia de componentes. 
+
+Existem várias maneiras de implementar um estado global em React, e uma das abordagens mais comuns é o uso do Context API. Vamos dar um exemplo usando o Context API para criar um estado global.
+
+Suponha que você esteja construindo um aplicativo de carrinho de compras online, e deseja manter informações sobre os itens no carrinho acessíveis a diferentes partes do aplicativo.
+
+1. **Criando o Context:**
+
+Primeiro, você cria um contexto que armazena o estado global.
+
+```javascript
+import React, { createContext, useContext, useReducer } from 'react';
+
+// Crie um contexto para o estado global
+const CartContext = createContext();
+
+// Defina as ações que podem modificar o estado
+const cartReducer = (state, action) => {
+  switch (action.type) {
+    case 'ADD_TO_CART':
+      return { ...state, items: [...state.items, action.payload] };
+    case 'REMOVE_FROM_CART':
+      // Implemente a remoção do item do carrinho
+      return state;
+    default:
+      return state;
+  }
+};
+
+export const CartProvider = ({ children }) => {
+  // Use useReducer para gerenciar o estado global
+  const [cartState, dispatch] = useReducer(cartReducer, { items: [] });
+
+  return (
+    <CartContext.Provider value={{ cartState, dispatch }}>
+      {children}
+    </CartContext.Provider>
+  );
+};
+
+export const useCart = () => {
+  return useContext(CartContext);
+};
+```
+
+2. **Usando o Estado Global em Componentes:**
+
+Agora você pode usar o estado global em qualquer componente que importe `useCart()`:
+
+```javascript
+import React from 'react';
+import { useCart } from './CartContext';
+
+function ProductDetail({ product }) {
+  const { cartState, dispatch } = useCart();
+
+  const addToCart = () => {
+    // Dispare a ação para adicionar um item ao carrinho
+    dispatch({ type: 'ADD_TO_CART', payload: product });
+  }
+
+  return (
+    <div>
+      <h3>{product.name}</h3>
+      <p>{product.price}</p>
+      <button onClick={addToCart}>Adicionar ao Carrinho</button>
+    </div>
+  );
+}
+```
+
+Neste exemplo, `CartProvider` envolve o aplicativo e torna o estado global de carrinho de compras acessível a todos os componentes. Qualquer componente que deseja acessar ou modificar o carrinho de compras pode usar a função `useCart()` para obter acesso ao estado global.
+
+Dessa forma, você criou um estado global para gerenciar o carrinho de compras em seu aplicativo React, permitindo que diferentes partes do aplicativo compartilhem informações de forma eficaz. Esse é apenas um exemplo de uso do Context API para gerenciar um estado global; a implementação real pode variar dependendo das necessidades do seu aplicativo.
