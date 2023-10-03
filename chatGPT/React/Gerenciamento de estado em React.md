@@ -93,7 +93,7 @@ O gerenciamento de estado em React é um tópico fundamental, pois permite que o
 Em resumo, o gerenciamento de estado é essencial para aplicativos React e pode ser abordado de várias maneiras, dependendo da complexidade do projeto. A escolha da técnica certa depende das necessidades específicas do seu aplicativo. Componentes simples podem usar estado local, enquanto aplicativos maiores podem se beneficiar do Context API, bibliotecas de gerenciamento de estado ou hooks. O importante é manter o estado bem organizado e acessível quando necessário.
 
 
-**Estado Glo**
+**Estado Global**
 
 Um "estado global" em um contexto de desenvolvimento de software geralmente se refere a um estado de aplicativo que é acessível globalmente por todos os componentes ou partes do aplicativo. Isso permite que diferentes partes do aplicativo compartilhem dados e informações entre si, independentemente da hierarquia de componentes. 
 
