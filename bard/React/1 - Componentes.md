@@ -1,6 +1,6 @@
 Componentes são a base do React. Eles são blocos de construção reutilizáveis que permitem que você construa interfaces de usuário complexas de forma modular.
 
-Um componente React é uma função JavaScript que retorna um elemento DOM. O componente pode ter propriedades, estado e eventos.
+**Um componente React é uma função JavaScript que retorna um elemento DOM.** O componente pode ter propriedades, estado e eventos.
 
 **Propriedades**
 
