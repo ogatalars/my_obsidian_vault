@@ -30,7 +30,7 @@ Geralmente o desenvolvedor – ou um papel mais específico, como o administrado
 
 As operações típicas de manipulação de dados são inserir, alterar, excluir e consultar. Essas operações são referidas em conjunto como CRUD (create, retrieve, update, delete). Algumas aplicações bem simples se resumem basicamente a cadastros que “inserem, alteram, excluem e consultam” registros. Assim, uma “aplicação CRUD” (ou mesmo “um CRUDzinho”) é aquela aplicação que não faz muito mais do que um cadastro básico, não possuindo regras de negócio elaboradas
 
-Claro! Aqui estão alguns **comandos básicos do MySQL:**
+ **Comandos básicos do MySQL:**
 
 1. **Conectar ao MySQL:**
    Para se conectar ao servidor MySQL, você pode usar o seguinte comando, substituindo `username` e `password` pelas suas credenciais:
