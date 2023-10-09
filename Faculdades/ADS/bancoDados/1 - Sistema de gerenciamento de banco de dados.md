@@ -1,4 +1,12 @@
 Um sistema de gerenciamento de banco de dados (SGBD) é um software projetado para auxiliar a aplicação na manutenção e utilização de grandes conjuntos de dados (RAMAKRISHNAN; GEHRKE, 2011).
 Quando falamos de manutenção, estamos nos referindo principalmente à escrita (inserção, alteração e deleção); já a utilização está relacionada principalmente à leitura (buscas).
 
-Algumas das vantagens de utilizar SGBDs são (RAMAKRISHNAN; GEHRKE, 2011): • As aplicações (e os programadores) não precisam conhecer os detalhes de como os dados são armazenados em disco. • O SGBD fornece diversas funcionalidades e implementa diversos algoritmos e otimizações para que as buscas possam ser realmente rápidas. • O SGBD ajuda bastante a proteção da integridade e a segurança dos dados. • O SGBD fornece meios de acesso concorrente (múltiplos usuários acessando os dados). • O SGBD auxilia a recuperação de falhas (falhas da aplicação, do próprio SGBD, do sistema operacional e até mesmo do hardware da máquina)
+Algumas das vantagens de utilizar SGBDs são (RAMAKRISHNAN; GEHRKE, 2011):
+• As aplicações (e os programadores) não precisam conhecer os detalhes de como os dados são armazenados em disco.
+• O SGBD fornece diversas funcionalidades e implementa diversos algoritmos e otimizações para que as buscas possam ser realmente rápidas.
+• O SGBD ajuda bastante a proteção da integridade e a segurança dos dados.
+• O SGBD fornece meios de acesso concorrente (múltiplos usuários acessando os dados). 
+• O SGBD auxilia a recuperação de falhas (falhas da aplicação, do próprio SGBD, do sistema operacional e até mesmo do hardware da máquina)
+- A utilização de um SGBD reduz o tempo de desenvolvimento de uma aplicação.
+
+Com todas essas vantagens, para a maioria das aplicações, não utilizar um SGBD nem é mais considerado uma opção. Alguns exemplos de SGBDs populares são: MySQL, PostgreSQL, Oracle, SQLite, SQL Server e MongoDB.
