@@ -79,3 +79,7 @@ Os sistemas de software têm várias características essenciais que definem sua
 15. **Gerenciamento de Erros**: Os sistemas de software devem ser capazes de identificar e lidar com erros de forma apropriada, minimizando impactos negativos na experiência do usuário.
 
 Cada sistema de software é único e pode enfatizar algumas dessas características mais do que outras, dependendo de sua finalidade e contexto de uso. No entanto, essas características geralmente são considerações essenciais no desenvolvimento e na avaliação de sistemas de software.
+
+**Atributos de um sistema de software**
+
+Um sistema de software deve ter um conjunto de atributos específicos de acordo com sua aplicação. Sommerville (2007) define quatro atributos essenciais de um sistema profissional de software: (1) manutenibilidade, (2) confiança e proteção, (3) eficiência e (4) aceitabilidade.
