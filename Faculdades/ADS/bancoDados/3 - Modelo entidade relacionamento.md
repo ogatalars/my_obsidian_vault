@@ -106,3 +106,34 @@ Os "Atributos de Relacionamento" não são um conceito padrão nos modelos de da
    - Considere um cenário em que você deseja rastrear as relações entre "Estudantes" e "Cursos" em uma escola. Além do relacionamento, você pode querer armazenar informações adicionais, como a data de inscrição de um estudante em um curso e a nota obtida. Nesse caso, você criaria uma tabela de junção (por exemplo, "Inscrições") que conteria os atributos de relacionamento "Data de Inscrição" e "Nota". Essa tabela de junção é usada para associar um estudante a um curso específico, juntamente com os atributos adicionais relacionados a essa inscrição.
 
 Em resumo, os atributos de relacionamento são usados quando informações adicionais são necessárias para descrever os relacionamentos entre entidades em um banco de dados. Esses atributos são geralmente armazenados em uma tabela de junção que conecta as entidades relacionadas e fornece um mecanismo para armazenar e recuperar informações específicas do relacionamento. É uma abordagem flexível e comum em bancos de dados relacionais para lidar com relacionamentos complexos entre entidades.
+
+Relacionamentos recursivos condicionais são uma extensão de relacionamentos recursivos em bancos de dados, nos quais o relacionamento entre as entidades é condicionalmente dependente de certas condições ou critérios. Isso significa que as entidades se relacionam umas com as outras de acordo com regras específicas que determinam quando e como a relação é estabelecida.
+
+Essa abordagem é útil quando você precisa modelar relacionamentos em que a recursão (entidades se relacionando com elas mesmas) ocorre sob determinadas condições. Vamos explorar isso com um exemplo:
+
+**Exemplo de Relacionamento Recursivo Condicional:**
+
+Suponha que você esteja criando um banco de dados para uma organização e deseja modelar a estrutura de gerência, que inclui funcionários e gerentes. No entanto, você tem algumas condições especiais:
+
+1. Um funcionário pode ter um gerente, mas não é obrigatório.
+2. Um gerente é sempre um funcionário.
+3. Um funcionário que alcança uma determinada posição (por exemplo, "Diretor") não tem um gerente.
+
+Nesse cenário, você pode criar uma tabela "Funcionários" com uma chave estrangeira que faz referência a um "Gerente" na mesma tabela. No entanto, a condição para estabelecer essa relação é que o funcionário não seja um "Diretor".
+
+Aqui está uma representação esquemática:
+
+```plaintext
+Tabela "Funcionários":
+----------------------
+ID_Funcionario (PK)
+Nome
+Cargo
+ID_Gerente (FK para ID_Funcionario)
+```
+
+Nesse caso, o relacionamento entre os funcionários é recursivo, pois eles podem ser gerentes e funcionários ao mesmo tempo. No entanto, a recursão é condicional, pois depende do cargo do funcionário e da regra de que diretores não têm gerentes.
+
+Para consultas que envolvem esse relacionamento, você usaria cláusulas condicionais para garantir que as condições sejam atendidas antes de estabelecer o relacionamento. Por exemplo, ao consultar a hierarquia de relatórios de um funcionário, você verificaria se o funcionário não é um diretor antes de estabelecer a relação com o gerente.
+
+Em resumo, relacionamentos recursivos condicionais são úteis quando você precisa modelar relacionamentos que são recursivos, mas onde a recursão ocorre sob condições específicas. Eles permitem representar hierarquias de entidades de maneira flexível, levando em consideração regras e critérios específicos.
