@@ -91,3 +91,18 @@ Os "Atributos de Relacionamento" não são um conceito padrão nos modelos de da
    - Considere um cenário em que você deseja rastrear as relações entre "Estudantes" e "Cursos" em uma escola. Além do relacionamento, você pode querer armazenar informações adicionais, como a data de inscrição de um estudante em um curso e a nota obtida. Nesse caso, você criaria uma tabela de junção (por exemplo, "Inscrições") que conteria os atributos de relacionamento "Data de Inscrição" e "Nota". Essa tabela de junção é usada para associar um estudante a um curso específico, juntamente com os atributos adicionais relacionados a essa inscrição.
 
 Em resumo, os atributos de relacionamento são usados quando informações adicionais são necessárias para descrever os relacionamentos entre entidades em um banco de dados. Esses atributos são geralmente armazenados em uma tabela de junção que conecta as entidades relacionadas e fornece um mecanismo para armazenar e recuperar informações específicas do relacionamento. É uma abordagem flexível e comum em bancos de dados relacionais para lidar com relacionamentos complexos entre entidades.
+
+**Atributos de relacionamento**
+
+Os "Atributos de Relacionamento" não são um conceito padrão nos modelos de dados relacionais, mas a ideia por trás desse termo é referir-se a atributos que são associados a um relacionamento entre entidades em um banco de dados. Para entender isso melhor, é importante considerar que os atributos geralmente estão associados a entidades individuais em uma tabela. No entanto, em alguns casos, é útil associar informações adicionais a um relacionamento entre duas entidades. Vamos explorar essa ideia com mais detalhes:
+
+1. **Atributos de Relacionamento (ou Atributos de Associação):**
+   - Em algumas situações, um relacionamento entre entidades pode ser mais complexo e exigir informações adicionais para descrevê-lo adequadamente. Por exemplo, considere um sistema de gerenciamento de pedidos em que há um relacionamento entre a entidade "Pedido" e a entidade "Produto". Esse relacionamento pode incluir atributos como "Quantidade" e "Preço Unitário" para descrever a quantidade de cada produto em um pedido e seu preço.
+
+2. **Atributos de Relacionamento em Bancos de Dados Relacionais:**
+   - Para representar atributos de relacionamento em um banco de dados relacional, é comum criar uma tabela de junção (tabela de associação) que conecta as entidades relacionadas. Essa tabela de junção pode conter os atributos de relacionamento necessários. No exemplo do sistema de pedidos, a tabela de junção entre "Pedido" e "Produto" poderia conter os atributos "Quantidade" e "Preço Unitário".
+
+3. **Exemplo Prático:**
+   - Considere um cenário em que você deseja rastrear as relações entre "Estudantes" e "Cursos" em uma escola. Além do relacionamento, você pode querer armazenar informações adicionais, como a data de inscrição de um estudante em um curso e a nota obtida. Nesse caso, você criaria uma tabela de junção (por exemplo, "Inscrições") que conteria os atributos de relacionamento "Data de Inscrição" e "Nota". Essa tabela de junção é usada para associar um estudante a um curso específico, juntamente com os atributos adicionais relacionados a essa inscrição.
+
+Em resumo, os atributos de relacionamento são usados quando informações adicionais são necessárias para descrever os relacionamentos entre entidades em um banco de dados. Esses atributos são geralmente armazenados em uma tabela de junção que conecta as entidades relacionadas e fornece um mecanismo para armazenar e recuperar informações específicas do relacionamento. É uma abordagem flexível e comum em bancos de dados relacionais para lidar com relacionamentos complexos entre entidades.
