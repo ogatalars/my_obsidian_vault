@@ -51,3 +51,43 @@ Aqui estão os tipos comuns de cardinalidade em um MER:
    - Nesse tipo de relacionamento, uma instância da entidade A pode estar associada a uma instância da entidade B, ou não estar associada a nenhuma. Isso é útil para representar relacionamentos opcionais. Por exemplo, em um sistema de gerenciamento de pacientes, um paciente (entidade A) pode ter ou não um registro médico (entidade B), e um registro médico pode estar associado a um único paciente ou nenhum.
 
 Entender a cardinalidade é crucial ao projetar bancos de dados, pois ela define como as informações estão relacionadas e como os dados podem ser recuperados. Ela também é fundamental para a normalização de dados e a integridade referencial, pois ajuda a garantir que as associações entre entidades sejam coerentes e sem ambiguidades. A representação correta da cardinalidade em um MER é essencial para um design de banco de dados eficaz e preciso.
+
+
+**Chave primaria e secundária**
+
+Chave Primária (Primary Key) e Chave Estrangeira (Foreign Key) são conceitos fundamentais em bancos de dados relacionais. Eles desempenham papéis importantes na estruturação dos dados e na manutenção da integridade referencial. Vamos entender cada um desses conceitos:
+
+**Chave Primária (Primary Key):**
+- A chave primária é um atributo (ou um conjunto de atributos) em uma tabela que serve para identificar exclusivamente cada registro nessa tabela. Ela garante que não haja duplicatas de dados na tabela e permite que cada registro seja acessado de maneira única e eficiente. A chave primária é usada como um identificador exclusivo para cada linha na tabela.
+
+- Características da chave primária:
+  - Deve conter valores únicos: Cada valor na chave primária deve ser exclusivo em toda a tabela.
+  - Não deve conter valores nulos: A chave primária não permite valores nulos, pois isso comprometeria sua capacidade de identificar exclusivamente os registros.
+  - Pode ser composta: Uma chave primária pode ser composta por vários atributos, quando um único atributo não é suficiente para garantir unicidade.
+
+**Chave Estrangeira (Foreign Key):**
+- A chave estrangeira é um atributo (ou um conjunto de atributos) em uma tabela que estabelece um relacionamento entre essa tabela e outra tabela. Ela cria um link entre os registros em diferentes tabelas, permitindo que os dados relacionados sejam recuperados e mantendo a integridade referencial do banco de dados.
+
+- Características da chave estrangeira:
+  - Referência a uma chave primária: A chave estrangeira faz referência a uma chave primária em outra tabela, estabelecendo um relacionamento entre as tabelas.
+  - Garante integridade referencial: A chave estrangeira garante que os registros relacionados em ambas as tabelas estejam sempre alinhados. Se uma tabela referenciada for atualizada ou excluída, a chave estrangeira garante que essas ações sejam tratadas de forma apropriada (por exemplo, excluindo em cascata ou definindo valores nulos).
+  - Pode conter valores nulos: Diferentemente da chave primária, uma chave estrangeira pode conter valores nulos, indicando que não há um relacionamento correspondente na tabela referenciada.
+
+- Exemplo de uso: Suponha que temos uma tabela "Pedidos" com uma chave primária "ID_Pedido" e uma tabela "Clientes" com uma chave primária "ID_Cliente". Podemos estabelecer um relacionamento entre essas tabelas usando uma chave estrangeira "ID_Cliente" na tabela "Pedidos", que faz referência à chave primária "ID_Cliente" na tabela "Clientes". Isso permite que cada pedido esteja associado a um cliente específico.
+
+As chaves primárias e estrangeiras desempenham um papel fundamental na organização e na manutenção da integridade dos dados em um banco de dados relacional. Elas ajudam a garantir que as informações sejam armazenadas de forma coerente e que os relacionamentos entre as entidades sejam adequadamente mantidos. Além disso, elas são uma parte essencial do projeto de banco de dados e da criação de consultas eficazes.
+
+**Atributos de relacionamento**
+
+Os "Atributos de Relacionamento" não são um conceito padrão nos modelos de dados relacionais, mas a ideia por trás desse termo é referir-se a atributos que são associados a um relacionamento entre entidades em um banco de dados. Para entender isso melhor, é importante considerar que os atributos geralmente estão associados a entidades individuais em uma tabela. No entanto, em alguns casos, é útil associar informações adicionais a um relacionamento entre duas entidades. Vamos explorar essa ideia com mais detalhes:
+
+1. **Atributos de Relacionamento (ou Atributos de Associação):**
+   - Em algumas situações, um relacionamento entre entidades pode ser mais complexo e exigir informações adicionais para descrevê-lo adequadamente. Por exemplo, considere um sistema de gerenciamento de pedidos em que há um relacionamento entre a entidade "Pedido" e a entidade "Produto". Esse relacionamento pode incluir atributos como "Quantidade" e "Preço Unitário" para descrever a quantidade de cada produto em um pedido e seu preço.
+
+2. **Atributos de Relacionamento em Bancos de Dados Relacionais:**
+   - Para representar atributos de relacionamento em um banco de dados relacional, é comum criar uma tabela de junção (tabela de associação) que conecta as entidades relacionadas. Essa tabela de junção pode conter os atributos de relacionamento necessários. No exemplo do sistema de pedidos, a tabela de junção entre "Pedido" e "Produto" poderia conter os atributos "Quantidade" e "Preço Unitário".
+
+3. **Exemplo Prático:**
+   - Considere um cenário em que você deseja rastrear as relações entre "Estudantes" e "Cursos" em uma escola. Além do relacionamento, você pode querer armazenar informações adicionais, como a data de inscrição de um estudante em um curso e a nota obtida. Nesse caso, você criaria uma tabela de junção (por exemplo, "Inscrições") que conteria os atributos de relacionamento "Data de Inscrição" e "Nota". Essa tabela de junção é usada para associar um estudante a um curso específico, juntamente com os atributos adicionais relacionados a essa inscrição.
+
+Em resumo, os atributos de relacionamento são usados quando informações adicionais são necessárias para descrever os relacionamentos entre entidades em um banco de dados. Esses atributos são geralmente armazenados em uma tabela de junção que conecta as entidades relacionadas e fornece um mecanismo para armazenar e recuperar informações específicas do relacionamento. É uma abordagem flexível e comum em bancos de dados relacionais para lidar com relacionamentos complexos entre entidades.
