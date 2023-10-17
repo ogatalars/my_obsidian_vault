@@ -83,3 +83,15 @@ Cada sistema de software é único e pode enfatizar algumas dessas característi
 **Atributos de um sistema de software**
 
 Um sistema de software deve ter um conjunto de atributos específicos de acordo com sua aplicação. Sommerville (2007) define quatro atributos essenciais de um sistema profissional de software: (1) manutenibilidade, (2) confiança e proteção, (3) eficiência e (4) aceitabilidade.
+
+Certamente, de acordo com a definição de Sommerville (2007), um sistema de software profissional deve ter quatro atributos essenciais:
+
+1. **Manutenibilidade**: A manutenibilidade refere-se à facilidade com que um sistema de software pode ser mantido e aprimorado ao longo do tempo. Isso envolve a capacidade de identificar e corrigir erros, bem como de fazer modificações e adições de funcionalidades de forma eficiente. Um sistema de software deve ser projetado de maneira a permitir atualizações e melhorias contínuas sem grandes dificuldades.
+
+2. **Confiança e Proteção**: A confiança e a proteção estão relacionadas à capacidade do sistema em executar suas funções de maneira confiável, previsível e segura. Isso inclui proteger o sistema contra ameaças externas, como ataques cibernéticos, bem como garantir a integridade e a confidencialidade dos dados. Em sistemas críticos, a confiabilidade e a segurança são atributos fundamentais.
+
+3. **Eficiência**: A eficiência se refere à capacidade do sistema em utilizar recursos, como CPU, memória, largura de banda e energia, de forma econômica. Um sistema eficiente é capaz de realizar suas tarefas sem desperdício de recursos, o que é importante para otimizar o desempenho e reduzir os custos operacionais.
+
+4. **Aceitabilidade**: A aceitabilidade é um atributo relacionado à satisfação dos usuários. Um sistema de software deve ser projetado de forma a atender às necessidades e expectativas dos usuários, proporcionando uma experiência positiva. Isso envolve aspectos de usabilidade, interface do usuário amigável e uma funcionalidade que atenda aos requisitos do cliente.
+
+Esses quatro atributos são essenciais para garantir que um sistema de software seja profissional, ou seja, adequado para uso em ambientes de negócios, governo, ciência, saúde e outras áreas onde a confiabilidade, a segurança e o desempenho são críticos. Eles são a base para o desenvolvimento bem-sucedido de sistemas de software que atendam às necessidades dos usuários e que possam evoluir ao longo do tempo.
