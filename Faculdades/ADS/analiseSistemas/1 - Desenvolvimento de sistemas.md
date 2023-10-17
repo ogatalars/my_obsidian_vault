@@ -139,3 +139,51 @@ Ambos os paradigmas têm seu lugar no desenvolvimento de software e a escolha en
 
 **Programação estruturada**
 
+A Programação Estruturada é um paradigma de desenvolvimento de software que se concentra na organização lógica e na estruturação clara do código-fonte. Ela se baseia no princípio de que um programa pode ser dividido em partes menores, chamadas de procedimentos ou funções, que executam tarefas específicas. A programação estruturada visa criar código de fácil leitura, manutenção e depuração, seguindo uma abordagem hierárquica e sequencial para resolver problemas. Aqui estão os principais princípios e características da programação estruturada:
+
+1. **Decomposição Hierárquica**: O programa é dividido em funções ou procedimentos menores, que podem ser organizados em uma estrutura hierárquica. Cada função executa uma tarefa específica e é chamada quando necessário. Isso facilita a divisão do problema em partes gerenciáveis.
+
+2. **Controle de Fluxo Linear**: A programação estruturada enfatiza o uso de estruturas de controle de fluxo, como condicionais (if-else) e loops (for, while), para criar uma lógica de programa clara e linear. O código é executado de cima para baixo, seguindo uma sequência de instruções.
+
+3. **Programação Modular**: A modularização é fundamental na programação estruturada. Os procedimentos ou funções são projetados para serem independentes e reutilizáveis. Isso facilita a manutenção e o reuso de código.
+
+4. **Variáveis Locais e Escopo Limitado**: As variáveis são usadas com escopo local, o que significa que elas são acessíveis apenas dentro da função em que são declaradas. Isso evita conflitos de nomes e problemas de poluição do espaço de nomes.
+
+5. **Ausência de GOTOs**: A programação estruturada desencoraja o uso excessivo de instruções GOTO, que podem tornar o código difícil de entender e depurar. Em vez disso, ela incentiva o uso de estruturas de controle de fluxo mais legíveis, como loops e condicionais.
+
+6. **Facilidade de Manutenção**: A estrutura clara e a modularização tornam o código mais fácil de manter e entender. Quando ocorrem erros ou é necessário fazer alterações, é mais simples localizar e corrigir o problema.
+
+7. **Base em Algoritmos**: A programação estruturada é orientada por algoritmos, com um foco na resolução sistemática de problemas por meio de passos lógicos e ordenados.
+
+A Programação Estruturada se tornou amplamente aceita na década de 1960 e 1970 como uma abordagem mais organizada e eficiente para o desenvolvimento de software em comparação com métodos anteriores. Ela é adequada para uma variedade de tipos de aplicativos e é usada em linguagens de programação populares, como C e Pascal.
+
+Embora a Programação Estruturada tenha sido uma abordagem muito influente, ela não é a única. Outros paradigmas, como o paradigma orientado a objetos, também são amplamente utilizados, especialmente em sistemas complexos e de grande escala. A escolha do paradigma de programação depende do problema a ser resolvido e dos requisitos do sistema. Em muitos casos, abordagens híbridas que combinam elementos de diferentes paradigmas são adotadas para aproveitar as vantagens de cada um.
+
+**Programação orientada a objeto**
+O Paradigma de Desenvolvimento Orientado a Objetos (OOP - Object-Oriented Programming) é uma abordagem de desenvolvimento de software que se concentra na modelagem do mundo real, representando entidades e seus relacionamentos em termos de objetos. No desenvolvimento orientado a objetos, um objeto é uma instância de uma classe, que é um modelo que define atributos (dados) e métodos (comportamento) associados a uma entidade. Aqui estão os principais conceitos e características do paradigma de desenvolvimento orientado a objetos:
+
+**1. Objetos e Classes:**
+   - Os objetos são as unidades fundamentais do desenvolvimento orientado a objetos. Eles representam entidades do mundo real, como pessoas, carros, produtos, etc. As classes são modelos que definem a estrutura (atributos) e o comportamento (métodos) dos objetos de uma categoria específica.
+
+**2. Encapsulamento:**
+   - O encapsulamento é um conceito-chave do OOP, que consiste em ocultar os detalhes internos dos objetos e expor uma interface pública. Os atributos de um objeto geralmente são mantidos privados e acessados por meio de métodos públicos (getters e setters). Isso protege os dados e permite a implementação de regras de validação.
+
+**3. Herança:**
+   - A herança permite que uma classe herde atributos e métodos de outra classe, criando uma relação de "é um" entre as classes. Isso promove a reutilização de código e a criação de hierarquias de classes. A classe derivada (subclasse) herda as características da classe base (superclasse) e pode adicionar ou substituir comportamento.
+
+**4. Polimorfismo:**
+   - O polimorfismo é a capacidade de objetos de diferentes classes responderem de maneira semelhante a mensagens ou métodos. Isso permite que o código seja mais flexível, pois você pode tratar objetos de classes diferentes de maneira uniforme, desde que eles respondam aos mesmos métodos.
+
+**5. Associações e Composições:**
+   - As classes podem se associar umas às outras, representando relacionamentos entre objetos. As associações podem ser simples (relação de um para um) ou mais complexas (relação de um para muitos, muitos para muitos). A composição é um tipo de associação em que uma classe contém outras classes como parte de sua estrutura.
+
+**6. Modelagem do Mundo Real:**
+   - O OOP se esforça para modelar o mundo real, representando objetos e suas interações. Isso torna o código mais legível e mais próximo dos conceitos do domínio do problema.
+
+**7. Reuso de Código:**
+   - A herança e a composição facilitam o reuso de código. Você pode criar classes genéricas que podem ser estendidas ou compostas em várias partes de um sistema.
+
+**8. Classes Abstratas e Interfaces:**
+   - Classes abstratas e interfaces permitem definir estruturas de classe que não podem ser instanciadas diretamente, mas que servem como modelos para classes derivadas. Interfaces definem contratos que as classes devem cumprir.
+
+Linguagens de programação orientadas a objetos, como Java, C++, C#, e Python, implementam os princípios e conceitos do desenvolvimento orientado a objetos. O OOP é amplamente adotado devido à sua capacidade de modelar complexidade, promover reuso de código, facilitar a manutenção e melhorar a colaboração entre desenvolvedores. No entanto, a escolha de um paradigma de desenvolvimento depende do problema a ser resolvido e dos requisitos do sistema. Às vezes, abordagens híbridas que combinam elementos de diferentes paradigmas são adotadas para aproveitar as vantagens de cada um.
