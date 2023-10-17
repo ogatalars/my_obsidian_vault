@@ -95,3 +95,47 @@ Certamente, de acordo com a definição de Sommerville (2007), um sistema de sof
 4. **Aceitabilidade**: A aceitabilidade é um atributo relacionado à satisfação dos usuários. Um sistema de software deve ser projetado de forma a atender às necessidades e expectativas dos usuários, proporcionando uma experiência positiva. Isso envolve aspectos de usabilidade, interface do usuário amigável e uma funcionalidade que atenda aos requisitos do cliente.
 
 Esses quatro atributos são essenciais para garantir que um sistema de software seja profissional, ou seja, adequado para uso em ambientes de negócios, governo, ciência, saúde e outras áreas onde a confiabilidade, a segurança e o desempenho são críticos. Eles são a base para o desenvolvimento bem-sucedido de sistemas de software que atendam às necessidades dos usuários e que possam evoluir ao longo do tempo.
+
+
+**Paradigmas de desenvolvimento**:
+
+Os paradigmas de desenvolvimento de software são abordagens e metodologias que orientam a forma como os programas de software são projetados, estruturados e organizados. Dois dos paradigmas mais importantes e amplamente utilizados são o paradigma estruturado e o paradigma orientado a objetos. Vamos explorar cada um deles:
+
+**Paradigma Estruturado:**
+O paradigma estruturado é uma abordagem tradicional de desenvolvimento de software que se concentra na divisão de um programa em várias partes menores, chamadas de procedimentos ou funções. Cada procedimento realiza uma tarefa específica e é organizado de maneira hierárquica. As principais características do paradigma estruturado incluem:
+
+1. **Decomposição Hierárquica**: Um programa é dividido em sub-rotinas que são organizadas hierarquicamente, com funções que chamam outras funções.
+
+2. **Programação Modular**: A ênfase é na criação de módulos independentes e reutilizáveis que executam tarefas específicas.
+
+3. **Controle de Fluxo Linear**: O fluxo do programa é controlado por estruturas condicionais (como if-else) e loops (como for e while) para criar a lógica do programa.
+
+4. **Foco em Dados e Funções**: Os dados são tratados como variáveis globais e as funções operam sobre esses dados.
+
+5. **Facilidade de Manutenção**: A decomposição hierárquica e modularização tornam os programas mais fáceis de manter e entender.
+
+**Paradigma Orientado a Objetos:**
+O paradigma orientado a objetos (POO) é uma abordagem mais recente e amplamente adotada para o desenvolvimento de software. Ele se concentra na modelagem do mundo real, representando objetos e suas interações no código. As principais características do paradigma orientado a objetos incluem:
+
+1. **Objetos e Classes**: Os objetos são instâncias de classes, que são modelos para criar objetos. As classes definem atributos (dados) e métodos (funções) relacionados a um conceito específico.
+
+2. **Encapsulamento**: Os objetos encapsulam seus dados e funcionalidade, tornando-os privados e controlando o acesso a eles por meio de interfaces públicas.
+
+3. **Herança**: A herança permite que uma classe herde atributos e métodos de outra classe, permitindo a reutilização de código e a criação de hierarquias de classes.
+
+4. **Polimorfismo**: O polimorfismo permite que objetos de diferentes classes respondam de maneira semelhante a mensagens ou métodos, tornando o código mais flexível e extensível.
+
+5. **Associações e Composições**: As classes podem se associar umas às outras e podem ser compostas por outras classes, criando relacionamentos complexos entre objetos.
+
+6. **Modelagem do Mundo Real**: O POO se esforça para modelar o mundo real, representando objetos e suas interações, o que pode tornar o código mais fácil de entender para programadores e não programadores.
+
+**Comparação entre os Paradigmas:**
+- O paradigma estruturado é adequado para problemas mais simples, enquanto o paradigma orientado a objetos é mais adequado para problemas complexos e sistemas de grande escala.
+- O POO promove a reutilização de código, facilitando a manutenção e a extensibilidade de sistemas.
+- O paradigma orientado a objetos é mais eficaz na modelagem de entidades do mundo real.
+- O POO é amplamente utilizado em linguagens de programação modernas, como Java, C++, Python e C#.
+
+Ambos os paradigmas têm seu lugar no desenvolvimento de software e a escolha entre eles depende do problema a ser resolvido, dos requisitos do sistema e das preferências da equipe de desenvolvimento. Muitas vezes, uma abordagem híbrida, combinando elementos de ambos os paradigmas, é adotada para tirar proveito das vantagens de cada um.
+
+**Programação estruturada**
+
