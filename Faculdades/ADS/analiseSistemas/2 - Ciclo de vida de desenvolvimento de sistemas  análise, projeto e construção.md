@@ -133,3 +133,42 @@ Os testes de unidade são uma prática fundamental na engenharia de software e s
 
 
 **Teste de integração:**
+
+O teste de integração é uma fase importante de testes de software que se concentra na verificação de como diferentes partes de um sistema interagem entre si. O objetivo principal do teste de integração é garantir que os módulos ou componentes individuais de um sistema funcionem corretamente quando são integrados para formar um sistema completo.
+
+Aqui estão alguns pontos-chave sobre os testes de integração:
+
+**Objetivos do Teste de Integração:**
+
+- **Verificar Interconexões:** Os testes de integração verificam se os módulos e componentes individuais se comunicam e colaboram corretamente dentro do sistema.
+- **Identificar Falhas de Integração:** Eles buscam identificar problemas que podem surgir quando diferentes partes do sistema são combinadas, como conflitos de interfaces, problemas de comunicação ou incompatibilidades.
+- **Validar a Integração com Componentes Externos:** Os testes de integração também podem incluir a validação da interação do sistema com componentes externos, como APIs, bibliotecas ou serviços de terceiros.
+
+**Abordagens de Teste de Integração:**
+
+1. **Testes de Integração Incremental:** Os módulos ou componentes são integrados gradualmente, um de cada vez, e os testes são realizados após cada integração. Isso ajuda a identificar problemas à medida que eles surgem e a limitar o escopo das falhas.
+
+2. **Testes de Integração Big Bang:** Nesse caso, todos os módulos ou componentes são integrados de uma só vez, e os testes são executados em todo o sistema. Isso é útil quando os componentes individuais estão prontos e confiáveis, mas pode ser mais difícil identificar a origem de falhas.
+
+**Etapas para Realizar Testes de Integração:**
+
+1. **Planejamento:** Defina o escopo dos testes de integração, identificando quais componentes serão integrados e quais cenários de integração serão testados.
+
+2. **Preparação do Ambiente:** Configure o ambiente de teste, incluindo configurações de banco de dados, servidores, interfaces e dados de teste.
+
+3. **Integração:** Realize a integração dos componentes ou módulos de acordo com o plano. Isso pode envolver a configuração de ambientes de simulação, se necessário.
+
+4. **Execução de Testes:** Execute os testes de integração conforme definido no plano, verificando se as interações e a funcionalidade do sistema estão de acordo com as expectativas.
+
+5. **Relatórios de Defeitos:** Registre quaisquer problemas ou falhas identificados durante os testes de integração, incluindo informações sobre como reproduzir os problemas.
+
+**Benefícios dos Testes de Integração:**
+
+- **Identificação Antecipada de Problemas:** Eles ajudam a identificar problemas de integração antes que o sistema seja implantado, o que é essencial para evitar falhas em produção.
+- **Melhoria na Qualidade:** Garantem que o sistema funcione como um todo, não apenas as partes individuais.
+- **Redução de Riscos:** Permitem que as equipes abordem problemas de integração cedo, minimizando riscos e custos associados a correções tardias.
+
+Os testes de integração são uma parte fundamental do processo de garantia de qualidade de software, juntamente com outros tipos de testes, como testes de unidade, testes de sistema e testes de aceitação. Eles ajudam a garantir que o software funcione como um todo e se integre de forma eficaz com outros componentes e sistemas.
+
+**Implatação de sistemas**
+
