@@ -34,3 +34,6 @@ Na fase de construção, a equipe de desenvolvimento começa a escrever o códig
 O objetivo da fase de construção é produzir um sistema de software funcional que atenda aos requisitos e às especificações definidas nas fases de análise e projeto.
 
 É importante notar que o ciclo de vida de desenvolvimento de sistemas não termina com a fase de construção. Ele normalmente inclui fases adicionais, como testes, implantação e manutenção, que são cruciais para garantir que o sistema seja entregue com sucesso e continue funcionando efetivamente ao longo do tempo. Cada fase do ciclo de vida tem seu papel no processo de desenvolvimento de software e é essencial para garantir a qualidade e o sucesso do projeto.
+
+
+**Modelo cascata**
