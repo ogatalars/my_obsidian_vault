@@ -20,3 +20,34 @@ A normalização segue um conjunto de regras ou formas normais, geralmente descr
 No entanto, a normalização também pode resultar em consultas mais complexas, pois os dados estão divididos em várias tabelas. Portanto, o processo de normalização deve ser equilibrado com as necessidades específicas de consultas e desempenho do sistema.
 
 Em resumo, a normalização em banco de dados é um processo fundamental no projeto de banco de dados que ajuda a organizar os dados de forma eficiente e manter a integridade dos dados. Ela segue um conjunto de formas normais que estabelecem regras para a organização dos dados.
+
+**Formas normais**
+
+As formas normais, em relação a bancos de dados relacionais, são regras ou critérios que definem como os dados devem ser organizados em tabelas para garantir a integridade dos dados, minimizar a redundância e facilitar operações de consulta e manutenção. O conceito de formas normais foi introduzido por Edgar F. Codd, o criador do modelo relacional de bancos de dados. Existem várias formas normais, cada uma com seus critérios específicos:
+
+1. **Primeira Forma Normal (1NF):** Para atender à 1NF, uma tabela deve atender aos seguintes critérios:
+   - Cada coluna na tabela deve conter apenas valores atômicos, ou seja, valores indivisíveis.
+   - Não deve haver repetições de grupos de valores em uma coluna.
+
+   O objetivo da 1NF é garantir que os dados sejam armazenados de forma que cada valor seja único e indivisível.
+
+2. **Segunda Forma Normal (2NF):** A 2NF tem os critérios da 1NF e adiciona o seguinte:
+   - A tabela deve ter uma chave primária única.
+   - Cada coluna não chave deve depender completamente da chave primária.
+
+   A 2NF ajuda a eliminar redundâncias ao garantir que cada coluna esteja relacionada diretamente à chave primária.
+
+3. **Terceira Forma Normal (3NF):** A 3NF tem os critérios da 2NF e adiciona o seguinte:
+   - Não deve haver dependências transitivas, ou seja, uma coluna não deve depender de outra coluna que, por sua vez, depende da chave primária.
+
+   A 3NF elimina dependências indesejadas e garante que cada coluna dependa diretamente da chave primária.
+
+4. **Forma Normal de Boyce-Codd (BCNF):** A BCNF é uma forma normal mais rigorosa e requer que, para cada dependência funcional não trivial, o lado direito da dependência seja uma superchave candidata. Isso ajuda a evitar anomalias de atualização.
+
+5. **Forma Normal de Quarta (4NF):** A 4NF lida com dependências multivaloradas, que ocorrem quando uma coluna depende de outra coluna para um conjunto de valores.
+
+6. **Forma Normal de Quinta (5NF):** A 5NF lida com dependências de junção, que ocorrem quando uma coluna depende de outra coluna por meio de uma relação de junção.
+
+É importante notar que nem sempre é necessário normalizar os dados até a quinta forma normal. A escolha da forma normal a ser alcançada depende dos requisitos e das necessidades específicas do sistema.
+
+A normalização é fundamental para garantir a integridade dos dados, minimizar redundâncias e facilitar operações de consulta e manutenção em sistemas de banco de dados relacionais. No entanto, o processo de normalização deve ser equilibrado com as necessidades de desempenho e consultas do sistema, pois normalizar demais pode levar a consultas complexas e lentas. Portanto, o projeto de banco de dados é uma atividade que requer um equilíbrio entre a normalização e a desnormalização, dependendo das necessidades do aplicativo.
