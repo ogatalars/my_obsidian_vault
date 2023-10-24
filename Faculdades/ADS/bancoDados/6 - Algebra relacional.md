@@ -1,4 +1,4 @@
-Introdução
+**Introdução**
 
 A álgebra relacional é um modelo matemático fundamental na teoria de bancos de dados relacionais. Ela fornece um conjunto de operações e regras matemáticas que permitem realizar consultas e manipulações de dados em bancos de dados relacionais de forma consistente e eficiente. A álgebra relacional é amplamente usada em sistemas de gerenciamento de bancos de dados relacionais (SGBDRs) para definir e executar consultas SQL e é essencial para a recuperação e manipulação de dados em sistemas de banco de dados.
 
