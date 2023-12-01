@@ -6,7 +6,7 @@ A metodologia deve ser tradicional, com uma documentação estruturada e ampla, 
 
 A principal restrição se deve ao limite financeiro de R$ 1 milhão. 
 
-O plano de gerenciamento mais importante é o plano de riscos, pois não há permissão para atrasos ocorridos não identificados e custos devem ser equilibrados.
+O plano de gerenciamento mais importante é o plano de riscos, pois não há permissão para atrasos ocorridos e não identificados e custos devem ser equilibrados.
 
 Dois exemplos de requisitos funcionais podem ser: controle de fornecedores, verificação de saldos bancários. 
 
