@@ -14,6 +14,6 @@ Um exemplo de requisito não funcional: comunicação com sistemas bancários.
 
 Há de se observar que os requisitos não estão muito claros, sendo que faltam informações como se há controle sobre os fornecedores, financeiro, entrega de produtos, qual é o tipo de recebimento. 
 
-A principal caracteristica, de acordo com o fato citado se trata da metodologia tradicional de desenvolvimento de software sendo que o plano deve ser muito bem elaborado, por não aceitar atrasos ou possíveis imprevistos.  
+A principal característica, de acordo com o fato citado se trata da metodologia tradicional de desenvolvimento de software sendo que o plano deve ser muito bem elaborado, por não aceitar atrasos ou possíveis imprevistos.  
 
 Vale ressaltar que o requisito funcional está implicito na solicitação da verificação de saldo bancário. 
