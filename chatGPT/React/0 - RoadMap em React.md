@@ -38,9 +38,7 @@ Construir um roadmap para o desenvolvimento com React, incluindo TypeScript e te
 - **Styled-components:** CSS-in-JS.
 - **Tailwind CSS:** Framework de CSS utilitário.
 
-### 9. Ferramentas de Build e Des
-
-envolvimento
+### 9. Ferramentas de Build e Desenvolvimento
 - **Webpack:** Configuração e uso como bundler.
 - **Babel:** Transpiler para JavaScript.
 - **ESLint & Prettier:** Ferramentas para linting e formatação de código.
