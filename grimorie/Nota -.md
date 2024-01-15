@@ -1,0 +1,1 @@
+Grimorie é uma das A.I voltadas para programação, então tem uma série de possibilidades - Conceitos, definições, snippets, prompts, etc.
