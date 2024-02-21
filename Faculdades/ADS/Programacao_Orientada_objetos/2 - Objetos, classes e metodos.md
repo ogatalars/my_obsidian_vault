@@ -69,7 +69,7 @@ Este exemplo cria um objeto `meuCarro` da classe `Carro` e chama o método `Exib
 
 A programação orientada a objetos em C# permite modelar entidades do mundo real de forma intuitiva, facilitando o desenvolvimento e manutenção de sistemas complexos.
 
-**Encapsulamento**
+### Encapsulamento
 
 Encapsulamento é um dos pilares fundamentais da programação orientada a objetos (POO) e desempenha um papel crucial na maneira como as classes são definidas e como os objetos dessas classes interagem entre si. Encapsulamento é a técnica de ocultar os detalhes internos de implementação de uma classe e expor somente aquilo que é necessário para o mundo exterior, ou seja, outras classes ou objetos. Isso é feito por meio do controle de acesso aos membros de uma classe (campos e métodos) usando modificadores de acesso. Em C#, os principais modificadores de acesso são: `public`, `private`, `protected`, e `internal`.
 
