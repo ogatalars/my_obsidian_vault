@@ -182,3 +182,65 @@ Neste exemplo, o campo `idade` é privado, o que significa que ele só pode ser 
 
 ### Conclusão
 O uso adequado dos modificadores de acesso `public` e `private` é fundamental para a prática do encapsulamento em programação orientada a objetos. Ao escolher cuidadosamente quais membros de uma classe devem ser públicos ou privados, os desenvolvedores podem proteger a integridade dos dados de um objeto e expor uma interface segura e fácil de usar para suas classes. Encapsulamento fortalece a segurança do código, facilita a manutenção, e promove a reusabilidade do software.
+
+A definição de classes e a inicialização de objetos por meio de construtores são conceitos fundamentais na programação orientada a objetos (POO), especialmente em linguagens como C#. Esses conceitos permitem aos desenvolvedores moldar o software de maneira modular, encapsulada e reutilizável. Vamos detalhar esses aspectos, focando na inicialização com construtores.
+
+### Definição de Classes
+Uma classe em C# é uma estrutura que combina estado (campos) e ações (métodos) em uma única unidade lógica. Ela serve como um blueprint a partir do qual os objetos são criados. Uma classe define os tipos de dados que ela contém e todos os métodos que operam nesses dados. 
+
+**Sintaxe básica de uma classe em C#:**
+```csharp
+public class NomeDaClasse
+{
+    // Campos, propriedades, métodos, eventos...
+}
+```
+
+### Campos e Propriedades
+- **Campos** são variáveis que são declaradas diretamente na classe. Eles armazenam os dados que os objetos da classe vão manipular.
+- **Propriedades** oferecem um mecanismo para ler, escrever ou computar os valores dos campos privados e podem incluir lógica adicional.
+
+### Métodos
+Métodos definem o comportamento dos objetos da classe. Eles podem modificar o estado interno do objeto ou realizar operações que estão relacionadas à responsabilidade da classe.
+
+### Construtores
+Construtores são métodos especiais da classe que são chamados automaticamente quando um objeto dessa classe é criado. Eles geralmente têm o mesmo nome da classe e não possuem tipo de retorno. O objetivo principal de um construtor é inicializar o objeto recém-criado para um estado válido.
+
+**Características dos construtores:**
+- **Inicialização de Campos**: Os construtores permitem que você estabeleça valores iniciais para os campos do objeto.
+- **Execução de Código de Setup**: Além de inicializar campos, construtores também podem executar qualquer código de setup necessário para o objeto antes de ser usado.
+- **Sobrecarga de Construtores**: C# suporta a sobrecarga de construtores, permitindo que uma classe tenha mais de um construtor, cada um com diferentes parâmetros.
+
+**Exemplo de Classe com Construtor:**
+```csharp
+public class Carro
+{
+    public string Marca { get; set; }
+    public int Ano { get; set; }
+
+    // Construtor
+    public Carro(string marca, int ano)
+    {
+        Marca = marca;
+        Ano = ano;
+    }
+
+    // Método
+    public void ExibirInfo()
+    {
+        Console.WriteLine($"Marca: {Marca}, Ano: {Ano}");
+    }
+}
+```
+
+### Uso de Construtores
+Para criar um novo objeto `Carro`, você utilizaria o construtor da seguinte forma:
+```csharp
+Carro meuCarro = new Carro("Toyota", 2020);
+meuCarro.ExibirInfo();
+```
+
+Neste exemplo, o construtor `Carro(string marca, int ano)` é chamado com os valores "Toyota" e 2020 para inicializar o novo objeto `meuCarro`.
+
+### Conclusão
+A definição de classes, junto com a inicialização de objetos por meio de construtores, é essencial para a criação de software orientado a objetos. Construtores garantem que os objetos sejam criados com seus estados internos devidamente inicializados, permitindo que o software funcione de maneira previsível e segura.
