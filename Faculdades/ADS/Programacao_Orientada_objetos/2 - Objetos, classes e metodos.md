@@ -242,5 +242,5 @@ meuCarro.ExibirInfo();
 
 Neste exemplo, o construtor `Carro(string marca, int ano)` é chamado com os valores "Toyota" e 2020 para inicializar o novo objeto `meuCarro`.
 
-### Conclusão
-A definição de classes, junto com a inicialização de objetos por meio de construtores, é essencial para a criação de software orientado a objetos. Construtores garantem que os objetos sejam criados com seus estados internos devidamente inicializados, permitindo que o software funcione de maneira previsível e segura.
+Ainda sobre métodos:
+
