@@ -301,7 +301,7 @@ Métodos estáticos e de instância oferecem flexibilidade na organização do c
 
 -- Classe e instância
 
-**Uma instância**, no contexto da programação orientada a objetos (POO), **refere-se a um objeto concreto criado a partir de uma classe**. Classes funcionam como moldes ou blueprints que definem a estrutura e o comportamento que os objetos desse tipo deverão ter, incluindo os campos (dados) e métodos (ações) que esses objetos podem realizar. Quando você cria um objeto específico dessa classe, você está criando uma instância da classe. Cada instância tem seu próprio conjunto de valores para os campos definidos pela classe, permitindo que objetos diferentes tenham estados diferentes.
+**Uma instância**, no contexto da programação orientada a objetos (POO), **refere-se a um objeto concreto criado a partir de uma classe**. Classes funcionam como moldes ou blueprints que definem a estrutura e o comportamento que os objetos desse tipo deverão ter, incluindo os campos (dados) e métodos (ações) que esses objetos podem realizar. **Quando você cria um objeto específico dessa classe, você está criando uma instância da classe**. Cada instância tem seu próprio conjunto de valores para os campos definidos pela classe, permitindo que objetos diferentes tenham estados diferentes.
 
 ### Exemplo de Classe e Instância
 
@@ -345,3 +345,52 @@ Instâncias são fundamentais em POO porque permitem que você:
 - Organize o código de maneira modular, encapsulando a lógica relacionada a uma entidade específica dentro de classes.
 
 A capacidade de criar instâncias de classes permite aos desenvolvedores modelar conceitos e entidades do mundo real de maneira intuitiva e eficaz dentro de seus programas, promovendo a reutilização de código e a clareza conceitual.
+
+## Mensagens
+
+No contexto da programação orientada a objetos (POO), os conceitos de mensagens, inicialização e instanciamento de objetos são fundamentais para entender como os objetos interagem entre si e como eles são criados e preparados para uso.
+
+### Mensagens
+
+Em POO, uma "mensagem" é uma chamada a um método de um objeto, solicitando que ele execute uma de suas ações ou comportamentos definidos. O termo "enviar uma mensagem" vem de conceitos de POO mais teóricos e remete à ideia de que um objeto comunica com outro objeto para solicitar uma operação. Essa comunicação é feita através da chamada de métodos, onde o método invocado pode realizar uma ação, modificar o estado do objeto ou retornar algum valor.
+
+**Exemplo de Mensagem:**
+```csharp
+carro.LigarMotor();
+```
+Neste exemplo, o objeto `carro` recebe a mensagem `LigarMotor()`, indicando que ele deve executar o método `LigarMotor`, que é uma ação definida na classe `Carro`.
+
+### Inicialização de Objetos
+
+A inicialização de objetos refere-se ao processo de preparação de um novo objeto para uso, geralmente atribuindo valores iniciais aos seus campos ou propriedades. Este processo ocorre quando um objeto é criado, e é frequentemente executado por um construtor, um método especial dentro da classe que é chamado automaticamente durante a criação do objeto.
+
+**Exemplo de Inicialização:**
+```csharp
+public class Carro
+{
+    public string Marca { get; set; }
+    public Carro(string marcaInicial)
+    {
+        Marca = marcaInicial; // Inicialização da propriedade Marca
+    }
+}
+```
+Ao criar um novo objeto `Carro`, o construtor é chamado com um argumento que define a marca inicial do carro:
+```csharp
+Carro meuCarro = new Carro("Toyota");
+```
+Neste exemplo, o objeto `meuCarro` é inicializado com a marca "Toyota".
+
+### Instanciamento de Objetos
+
+Instanciamento é o processo de criar uma nova instância de uma classe, ou seja, um objeto concreto baseado no blueprint definido pela classe. O instanciamento é realizado usando o operador `new` em muitas linguagens orientadas a objetos, como C# e Java, seguido pelo chamado ao construtor da classe.
+
+**Exemplo de Instanciamento:**
+```csharp
+Carro meuCarro = new Carro("Toyota");
+```
+Este código cria uma nova instância da classe `Carro`, invocando o construtor `Carro(string marcaInicial)` com o valor "Toyota". O objeto `meuCarro` agora é uma instância da classe `Carro`, com a propriedade `Marca` inicializada.
+
+### Conclusão
+
+Mensagens, inicialização e instanciamento são conceitos-chave em POO que facilitam a comunicação entre objetos, a preparação de objetos para uso e a criação de objetos baseados em classes, respectivamente. Eles permitem que desenvolvedores criem sistemas modulares e reutilizáveis, com objetos que interagem de maneira clara e previsível.
