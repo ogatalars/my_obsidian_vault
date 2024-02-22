@@ -352,7 +352,7 @@ No contexto da programação orientada a objetos (POO), os conceitos de mensagen
 
 ### Mensagens
 
-Em POO, uma "mensagem" é uma chamada a um método de um objeto, solicitando que ele execute uma de suas ações ou comportamentos definidos. O termo "enviar uma mensagem" vem de conceitos de POO mais teóricos e remete à ideia de que um objeto comunica com outro objeto para solicitar uma operação. Essa comunicação é feita através da chamada de métodos, onde o método invocado pode realizar uma ação, modificar o estado do objeto ou retornar algum valor.
+Em POO, uma "**mensagem" é uma chamada a um método de um objeto, solicitando que ele execute uma de suas ações ou comportamentos definidos.** O termo "enviar uma mensagem" vem de conceitos de POO mais teóricos e remete à ideia de que um objeto comunica com outro objeto para solicitar uma operação. Essa comunicação é feita através da chamada de métodos, onde o método invocado pode realizar uma ação, modificar o estado do objeto ou retornar algum valor.
 
 **Exemplo de Mensagem:**
 ```csharp
