@@ -301,7 +301,7 @@ Métodos estáticos e de instância oferecem flexibilidade na organização do c
 
 -- Classe e instância
 
-Uma instância, no contexto da programação orientada a objetos (POO), refere-se a um objeto concreto criado a partir de uma classe. Classes funcionam como moldes ou blueprints que definem a estrutura e o comportamento que os objetos desse tipo deverão ter, incluindo os campos (dados) e métodos (ações) que esses objetos podem realizar. Quando você cria um objeto específico dessa classe, você está criando uma instância da classe. Cada instância tem seu próprio conjunto de valores para os campos definidos pela classe, permitindo que objetos diferentes tenham estados diferentes.
+**Uma instância**, no contexto da programação orientada a objetos (POO), **refere-se a um objeto concreto criado a partir de uma classe**. Classes funcionam como moldes ou blueprints que definem a estrutura e o comportamento que os objetos desse tipo deverão ter, incluindo os campos (dados) e métodos (ações) que esses objetos podem realizar. Quando você cria um objeto específico dessa classe, você está criando uma instância da classe. Cada instância tem seu próprio conjunto de valores para os campos definidos pela classe, permitindo que objetos diferentes tenham estados diferentes.
 
 ### Exemplo de Classe e Instância
 
