@@ -244,3 +244,104 @@ Neste exemplo, o construtor `Carro(string marca, int ano)` é chamado com os val
 
 Ainda sobre métodos:
 
+Métodos em programação orientada a objetos (POO) podem ser classificados em dois tipos principais: métodos de instância e métodos estáticos. Essa distinção é crucial para entender como interagir com diferentes membros de uma classe e como eles influenciam o estado do objeto ou da classe como um todo.
+
+### Métodos de Instância
+Métodos de instância operam nos dados específicos de uma instância de uma classe. Eles requerem a criação de um objeto da classe para serem chamados, pois operam nos campos e propriedades que pertencem a uma instância específica. Métodos de instância podem acessar tanto membros estáticos quanto membros de instância da classe.
+
+**Exemplo de método de instância em C#:**
+```csharp
+public class Calculadora
+{
+    public int ValorAtual { get; private set; }
+
+    public Calculadora()
+    {
+        ValorAtual = 0;
+    }
+
+    public void Adicionar(int valor)
+    {
+        ValorAtual += valor;
+    }
+}
+```
+Para usar o método `Adicionar`, você primeiro precisa criar uma instância da classe `Calculadora`:
+```csharp
+Calculadora calc = new Calculadora();
+calc.Adicionar(5); // Agora, calc.ValorAtual é 5
+```
+
+### Métodos Estáticos
+Métodos estáticos, por outro lado, pertencem à classe em si e não a qualquer instância específica. Eles são compartilhados entre todas as instâncias da classe e podem ser chamados sem criar um objeto da classe. Métodos estáticos são úteis para operações que não dependem do estado de uma instância específica. Eles podem acessar apenas outros membros estáticos diretamente.
+
+**Exemplo de método estático em C#:**
+```csharp
+public class Calculadora
+{
+    public static int Somar(int a, int b)
+    {
+        return a + b;
+    }
+}
+```
+Você pode chamar o método `Somar` diretamente na classe, sem criar uma instância:
+```csharp
+int resultado = Calculadora.Somar(5, 3); // resultado é 8
+```
+
+### Diferenças-Chave
+- **Associação**: Métodos de instância estão associados a uma instância específica de uma classe. Métodos estáticos estão associados à classe em si.
+- **Chamada**: Para chamar um método de instância, você precisa de um objeto da classe. Métodos estáticos podem ser chamados diretamente na classe sem a necessidade de um objeto.
+- **Acesso a Membros**: Métodos de instância podem acessar membros de instância e membros estáticos da classe. Métodos estáticos só podem acessar outros membros estáticos.
+- **Uso**: Métodos de instância são usados quando a operação depende ou modifica o estado de um objeto específico. Métodos estáticos são usados para operações que não dependem do estado de uma instância específica, geralmente para utilidades ou operações que são genéricas para todos os objetos de uma classe.
+
+Métodos estáticos e de instância oferecem flexibilidade na organização do comportamento das classes, permitindo aos desenvolvedores escolher a abordagem mais adequada para cada situação, dependendo se a operação afeta o estado de um objeto individual ou é relevante para a classe como um todo.
+
+
+-- Classe e instância
+
+Uma instância, no contexto da programação orientada a objetos (POO), refere-se a um objeto concreto criado a partir de uma classe. Classes funcionam como moldes ou blueprints que definem a estrutura e o comportamento que os objetos desse tipo deverão ter, incluindo os campos (dados) e métodos (ações) que esses objetos podem realizar. Quando você cria um objeto específico dessa classe, você está criando uma instância da classe. Cada instância tem seu próprio conjunto de valores para os campos definidos pela classe, permitindo que objetos diferentes tenham estados diferentes.
+
+### Exemplo de Classe e Instância
+
+Imagine que você tem uma classe chamada `Carro`. Esta classe define propriedades gerais que todos os carros terão, como `marca`, `modelo` e `ano`.
+
+```csharp
+public class Carro
+{
+    public string Marca { get; set; }
+    public string Modelo { get; set; }
+    public int Ano { get; set; }
+
+    public Carro(string marca, string modelo, int ano)
+    {
+        Marca = marca;
+        Modelo = modelo;
+        Ano = ano;
+    }
+}
+```
+
+**Criando Instâncias da Classe `Carro`:**
+
+```csharp
+Carro meuCarro = new Carro("Toyota", "Corolla", 2020);
+Carro seuCarro = new Carro("Honda", "Civic", 2019);
+```
+
+Neste exemplo, `meuCarro` e `seuCarro` são instâncias da classe `Carro`. Cada um é um objeto separado com seu próprio conjunto de valores para `Marca`, `Modelo` e `Ano`:
+
+- `meuCarro` tem a marca "Toyota", modelo "Corolla" e ano 2020.
+- `seuCarro` tem a marca "Honda", modelo "Civic" e ano 2019.
+
+Cada instância representa um carro específico e pode operar independentemente de outras instâncias. As instâncias `meuCarro` e `seuCarro` podem usar os métodos definidos na classe `Carro`, mas os dados (propriedades) com os quais eles operam são específicos para cada instância.
+
+### Por que Instâncias são Importantes?
+
+Instâncias são fundamentais em POO porque permitem que você:
+- Crie múltiplos objetos a partir do mesmo molde (classe), cada um com seu próprio estado.
+- Aplique o mesmo conjunto de operações (métodos) a diferentes conjuntos de dados (estados de objeto).
+- Organize o código de maneira modular, encapsulando a lógica relacionada a uma entidade específica dentro de classes.
+
+A capacidade de criar instâncias de classes permite aos desenvolvedores modelar conceitos e entidades do mundo real de maneira intuitiva e eficaz dentro de seus programas, promovendo a reutilização de código e a clareza conceitual.
