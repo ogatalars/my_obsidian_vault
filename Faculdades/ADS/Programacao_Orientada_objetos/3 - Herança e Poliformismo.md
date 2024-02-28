@@ -50,6 +50,102 @@ public class Carro : Veiculo
 ```
 Neste exemplo, o método `LigarMotor` é implementado tanto na classe `Veiculo` quanto na classe `Carro`. No entanto, o comportamento de `LigarMotor` em `Carro` é específico para `Carro`, mostrando polimorfismo em ação.
 
+Vamos aprofundar nos conceitos de herança e polimorfismo em C# com exemplos mais detalhados, demonstrando como esses conceitos podem ser aplicados para criar sistemas de software flexíveis e reutilizáveis.
+
+### Herança Detalhada
+
+A herança permite que uma classe herde estado (campos) e comportamento (métodos) de outra classe. Isso facilita a reutilização de código e a criação de uma hierarquia de classes.
+
+**Exemplo Detalhado de Herança:**
+
+Vamos imaginar um sistema simples para modelar diferentes tipos de contas bancárias.
+
+```csharp
+public class ContaBancaria
+{
+    public string NumeroDaConta { get; set; }
+    protected decimal saldo;
+
+    public ContaBancaria(string numeroDaConta, decimal saldoInicial)
+    {
+        NumeroDaConta = numeroDaConta;
+        saldo = saldoInicial;
+    }
+
+    public virtual void Depositar(decimal valor)
+    {
+        saldo += valor;
+    }
+
+    public virtual bool Sacar(decimal valor)
+    {
+        if (saldo >= valor)
+        {
+            saldo -= valor;
+            return true;
+        }
+        return false;
+    }
+}
+
+public class ContaPoupanca : ContaBancaria
+{
+    private decimal taxaDeJuros;
+
+    public ContaPoupanca(string numeroDaConta, decimal saldoInicial, decimal taxaDeJuros)
+        : base(numeroDaConta, saldoInicial)
+    {
+        this.taxaDeJuros = taxaDeJuros;
+    }
+
+    public void AplicarJuros()
+    {
+        saldo += saldo * taxaDeJuros;
+    }
+}
+```
+
+Neste exemplo, `ContaPoupanca` herda de `ContaBancaria`. Isso significa que `ContaPoupanca` tem todas as propriedades e métodos de `ContaBancaria`, além de seus próprios métodos, como `AplicarJuros()`. A herança permite que `ContaPoupanca` reutilize o código de `ContaBancaria` sem precisar duplicá-lo.
+
+### Polimorfismo Detalhado
+
+O polimorfismo permite que objetos de diferentes classes derivadas sejam tratados como objetos de uma classe base. Além disso, permite que esses objetos derivados respondam de maneira diferente aos mesmos métodos.
+
+**Exemplo Detalhado de Polimorfismo:**
+
+Vamos expandir o exemplo anterior para incluir um novo tipo de conta que tem um comportamento de saque diferente.
+
+```csharp
+public class ContaCorrente : ContaBancaria
+{
+    private decimal taxaDeOperacao;
+
+    public ContaCorrente(string numeroDaConta, decimal saldoInicial, decimal taxaDeOperacao)
+        : base(numeroDaConta, saldoInicial)
+    {
+        this.taxaDeOperacao = taxaDeOperacao;
+    }
+
+    public override bool Sacar(decimal valor)
+    {
+        // Aplica uma taxa de operação
+        valor += taxaDeOperacao;
+        return base.Sacar(valor);
+    }
+}
+```
+
+Aqui, `ContaCorrente` sobrescreve o método `Sacar` da classe base `ContaBancaria`. Ao fazer isso, `ContaCorrente` pode implementar seu próprio comportamento de saque que inclui a aplicação de uma taxa de operação. Isso demonstra polimorfismo: `ContaBancaria` define um comportamento padrão para saque, enquanto `ContaCorrente` fornece uma implementação específica.
+
+**Uso Polimórfico:**
+
+```csharp
+ContaBancaria conta = new ContaCorrente("123", 1000, 5);
+conta.Sacar(100); // Chama o método Sacar de ContaCorrente, não de ContaBancaria
+```
+
+Neste exemplo, mesmo que `conta` seja do tipo `ContaBancaria`, o método `Sacar` que é chamado é o da `ContaCorrente` devido ao polimorfismo. Esse comportamento permite que diferentes tipos de objetos sejam tratados de forma uniforme, enquanto ainda se comportam de acordo com suas implementações específicas.
+
 ### Conclusão
 
-Herança e polimorfismo em C# são mecanismos poderosos que permitem aos desenvolvedores construir sistemas hierárquicos de classes que são ao mesmo tempo reutilizáveis e adaptáveis. Eles facilitam a extensão de funcionalidades de software existente e a implementação de comportamentos específicos em classes derivadas, mantendo o código limpo e modular. Nos próximos tópicos, exploraremos mais detalhes e exemplos desses conceitos.
+Herança e polimorfismo são conceitos poderosos em C# que permitem aos desenvolvedores construir sistemas extensíveis e manuteníveis. A herança facilita a reutilização de código e a construção de hierarquias de classes lógicas. O polimorfismo permite que essas classes derivadas implementem seus próprios comportamentos específicos, enquanto ainda se encaixam na estrutura geral do sistema. Esses conceitos são fundamentais para o design orientado a objetos e ajudam a promover práticas de codificação que são escaláveis, flexíveis e fáceis de manter.
