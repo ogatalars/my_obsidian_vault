@@ -50,7 +50,7 @@ public class Carro : Veiculo
 ```
 Neste exemplo, o método `LigarMotor` é implementado tanto na classe `Veiculo` quanto na classe `Carro`. No entanto, o comportamento de `LigarMotor` em `Carro` é específico para `Carro`, mostrando polimorfismo em ação.
 
-Vamos aprofundar nos conceitos de herança e polimorfismo em C# com exemplos mais detalhados, demonstrando como esses conceitos podem ser aplicados para criar sistemas de software flexíveis e reutilizáveis.
+
 
 ### Herança Detalhada
 
