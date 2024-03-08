@@ -34,6 +34,8 @@ A engenharia de software é uma disciplina da engenharia que se concentra no des
 
 A engenharia de software é essencial para criar produtos digitais confiáveis e eficazes, adaptando-se às necessidades em constante evolução dos usuários e do mercado. Ao aplicar princípios de engenharia, as equipes podem desenvolver software de maneira mais previsível e controlada, aumentando a qualidade e a satisfação do usuário.
 
+
+**Processo de software**
 O processo de software é um conjunto de atividades relacionadas, métodos, práticas e transformações que as pessoas usam para desenvolver e manter software e seus produtos associados. Essas atividades são normalmente divididas em fases ou etapas, que, quando seguidas, garantem a entrega eficaz de um produto de software. O processo de software clássico segue o modelo de ciclo de vida do desenvolvimento de software, que pode ser exemplificado pelo Modelo em Cascata, mas existem muitos outros modelos que abordam diferentes necessidades e contextos de desenvolvimento.
 
 ### Fases Típicas do Processo de Software:
