@@ -84,4 +84,3 @@ Shortcuts for Next Step:
 - Digite "2" para aprender a adicionar Python ao PATH no Windows.
 - Digite "3" para explorar mais sobre automação com scripts Python.
 
-Ou, você pode apenas digitar "continue" ou "c", e eu continuarei automaticamente.
