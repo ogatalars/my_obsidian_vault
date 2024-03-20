@@ -36,7 +36,7 @@ a-O ciclo de vida do desenvolvimento não possui limites de tempo
 b-Os recursos relacionados ao desenvolvimento são limitados, exceto, as pessoas, que podem ser acrescentadas de acordo com a necessidade do projeto
 	
 
-c-Cada software possui um objetivo específico, resultando em um produto único @
+**c-Cada software possui um objetivo específico, resultando em um produto único @**
 	
 
 d-A complexidade deve se manter constante ao longo de todo período de desenvolvimento
@@ -51,7 +51,7 @@ A Engenharia de Software define a existência de certas atividades fundamentais 
 a-A atividade de Validação deve atestar se o software está de acordo com o que foi decidido pela equipe de desenvolvimento.
 	
 
-b-A atividade de Evolução pode ocorrer de forma paralela a outras atividades, já que ela trata as mudanças solicitadas pelo cliente. @
+**b-A atividade de Evolução pode ocorrer de forma paralela a outras atividades, já que ela trata as mudanças solicitadas pelo cliente. @**
 	
 
  c-A atividade de estrutura visa o desenvolvimento de funções de layot
@@ -66,7 +66,7 @@ e-A atividade de Desenvolvimento não envolve atividades relacionadas a programa
 As metodologias ágeis de desenvolvimento de software se baseiam no chamado Manifesto Ágil. Nesse manifesto, certos aspectos devem ser mais valorizados do que outros. Indique a alternativa que apresenta um desses aspectos.
 	
 
-a-Resposta a mudanças deve ser uma atividade mais valorizada do que seguir fielmente o cronograma do projeto. @
+**a-Resposta a mudanças deve ser uma atividade mais valorizada do que seguir fielmente o cronograma do projeto. @**
 	
 
 b-Seguir rigidamente o plano de desenvolvimento deve ser mais valorizado do que qualquer outra atividade que venha a ser necessária durante o desenvolvimento.
@@ -97,7 +97,7 @@ c-Os detalhes internos de como uma classe foi implementada (operações e atribu
 d-Na orientação a objetos as classes são somente consideradas públicas.
 	
 
-e-Existe uma superclasse chamada Professor, que possui duas sub-classes: Professor Mensalista e Professos Horista. Ambas sub-classes permitem o cálculo do salário do professor, quando solicitdo. @
+**e-Existe uma superclasse chamada Professor, que possui duas sub-classes: Professor Mensalista e Professos Horista. Ambas sub-classes permitem o cálculo do salário do professor, quando solicitdo. @**
 
 6
 Sobre os testes de validação podemos afirmar que:
