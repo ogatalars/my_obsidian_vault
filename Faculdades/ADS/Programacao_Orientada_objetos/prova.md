@@ -26,7 +26,7 @@ a-9
 b-5
 c-0
 d-3
-e-6 @
+**e-6 @**
 
 3
 Assinale a alternativa CORRETA acerca dos conceitos de classes em linguagem C#:
