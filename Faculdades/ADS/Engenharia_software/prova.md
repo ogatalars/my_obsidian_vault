@@ -15,13 +15,13 @@ Em um projeto de software existem dois tipos de escopo. São eles:
 a-Escopo tecnológico, que descreve as plataformas de desenvolvimento e de operação do software em desenvolvimento e o escopo de risco, que descreve os riscos que podem afetar o desenvolvimento do software
 	
 
-b-Escopo de produto, que descreve as funções que o produto de software deve apresentar depois de terminado e o escopo do projeto, que descreve o que deve ser realizado durante o desenvolvimento para se obter o produto de software
+**b-Escopo de produto, que descreve as funções que o produto de software deve apresentar depois de terminado e o escopo do projeto, que descreve o que deve ser realizado durante o desenvolvimento para se obter o produto de software @**
 	
 
 c-Escopo de custo, que descreve a fonte dos recursos financeiros que sustentarão o processo de desenvolvimento e o escopo de produto, que descreve as funções que o produto de software deve apresentar depois de terminado
 	
 
-d-Escopo de projeto, que descreve as funções que o produto de software deve apresentar depois de terminado e o escopo do produto, que descreve o que deve ser realizado durante o desenvolvimento para se obter o produto de software @
+d-Escopo de projeto, que descreve as funções que o produto de software deve apresentar depois de terminado e o escopo do produto, que descreve o que deve ser realizado durante o desenvolvimento para se obter o produto de software 
 	
 
 e-Escopo de estrutura, que descreve as funções que o produto de software deve apresentar depois de iniciado e o escopo do projeto, que descreve o que deve ser realizado durante a implementação para se obter o produto de software
@@ -115,7 +115,7 @@ c-Não interferem no desenvolvimento sendo pouco usuais na orientação a objeto
 d-Nunca envolvem o cliente na sua realização
 	
 
-e-Verificam se o software implementou aquilo que foi especificado para ele durante a etapa de projeto @
+e-**Verificam se o software implementou aquilo que foi especificado para ele durante a etapa de projeto @**
 
 7
 Durante o projeto, uma das atividades importantes é o Gerenciamento de Riscos. São apresentadas três categorias de riscos, que devem ser alvo de preocupação: riscos de projeto, riscos de produto e riscos de negócio. Explique resumidamente cada uma dessas categorias de risco.
