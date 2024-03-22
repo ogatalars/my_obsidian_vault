@@ -157,29 +157,3 @@ public class Circulo extends Ponto {
     }
 }
 
-
-Treino: 
-
-questão curso -
-using System;
-using System.Collections.Generic; 
-
-public class Curso {
-private string nome;
-private List<string> disciplinas = new List<string>();
-
-public Curso(string nome) => this.nome = nome; 
-
-public void AddDisciplina(string disciplina) => disciplinas: {string.Join(",",disciplinas)'}}
-}
-
-class TestaCurso {
-static void Main() {
-
-Curso c1 = new Curso("ciência da computação");
-c1.addDisciplina("algoritmos");
-c1.addDisciplina("SO");
-c1.addDisciplina("Grafos").
-Console.WriteLine(c1)
-}
-}
