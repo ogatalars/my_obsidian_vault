@@ -31,3 +31,4 @@ As Árvores AVL, nomeadas após seus inventores Adelson-Velsky e Landis, são á
 - **Prevenção contra Degeneração**: Sem balanceamento, uma árvore BST pode degenerar-se em uma estrutura linear (semelhante a uma lista ligada), especialmente em casos de inserção de dados já ordenados, fazendo com que as operações se tornem ineficientes.
 
 O balanceamento é, portanto, um aspecto vital no design de árvores binárias de busca que são usadas em aplicações que requerem eficiência de dados dinâmicos e frequentemente modificados, como bancos de dados e conjuntos de dados manipulados em memória.
+
