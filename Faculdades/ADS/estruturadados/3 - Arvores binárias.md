@@ -171,3 +171,98 @@ public class Program {
 
 ### Conclusão
 Esses exemplos mostram como criar e manipular uma árvore binária de busca básica. Em TypeScript e C#, a estrutura e lógica são similares, adaptadas às sintaxes e particularidades de cada linguagem. A inserção e a travessia in-order são fundamentais para manipular e explorar o conteúdo das BSTs de maneira eficaz.
+
+Técnicas de varredura de árvores, também conhecidas como travessias de árvores, são métodos sistemáticos para visitar todos os nós de uma árvore de maneira controlada. Três das travessias mais comuns são in-order, pre-order, e post-order, todas pertinentes a árvores binárias. Além dessas, existem as travessias por nível, conhecidas como travessias em largura ou Breadth-First Search (BFS). Vamos também discutir as definições de altura e profundidade em árvores binárias.
+
+### Técnicas de Varredura
+
+#### 1. In-Order Traversal (Travessia em Ordem)
+- **Árvores Binárias de Busca**: Esta travessia é usada especialmente em árvores binárias de busca (BSTs) porque resulta em nós sendo visitados em ordem ascendente (esquerda-raiz-direita).
+- **Implementação**:
+  - Visite recursivamente o filho esquerdo.
+  - Processe o nó atual.
+  - Visite recursivamente o filho direito.
+
+#### 2. Pre-Order Traversal (Travessia em Pré-ordem)
+- **Aplicações**: Útil para criar uma cópia da árvore. Também é usado em expressões de árvore de sintaxe para preservar a ordem de clonagem de árvores e aplicativos de interface gráfica.
+- **Implementação**:
+  - Processe o nó atual.
+  - Visite recursivamente o filho esquerdo.
+  - Visite recursivamente o filho direito.
+
+#### 3. Post-Order Traversal (Travessia em Pós-ordem)
+- **Aplicações**: Usada para realizar operações de limpeza; por exemplo, quando você deseja excluir nós da árvore, deve processar os filhos antes de processar o nó pai.
+- **Implementação**:
+  - Visite recursivamente o filho esquerdo.
+  - Visite recursivamente o filho direito.
+  - Processe o nó atual.
+
+#### 4. Breadth-First Search (BFS) ou Level-Order Traversal
+- **Aplicações**: Usado quando você precisa processar um nó antes de seus descendentes. É amplamente utilizado em algoritmos de "shortest path" em grafos não ponderados.
+- **Implementação**:
+  - Utiliza uma fila para gerenciar a ordem dos nós que estão sendo visitados.
+  - Visite o nó raiz, coloque os filhos na fila, e continue processando cada nó ao desenfileirar e enfileirar seus filhos, respectivamente.
+
+### Altura e Profundidade em Árvores
+
+#### Altura de uma Árvore
+- **Definição**: A altura de uma árvore é o número de arestas no caminho mais longo de um nó raiz até um nó folha. Em uma árvore com um único nó, a altura é 0. 
+- **Cálculo**: Em uma árvore binária, a altura pode ser calculada como:
+  ```python
+  altura = max(altura(esquerda), altura(direita)) + 1
+  ```
+  onde `altura(esquerda)` e `altura(direita)` são as alturas das subárvores esquerda e direita, respectivamente.
+
+#### Profundidade de um Nó
+- **Definição**: A profundidade de um nó é o número de arestas do nó até a raiz da árvore. A profundidade da raiz é 0.
+- **Cálculo**: A profundidade de um nó pode ser determinada pelo número de passos (ou arestas) necessários para alcançar a raiz da árvore a partir desse nó.
+
+### Conclusão
+As travessias de árvores são ferramentas essenciais para a manipulação e exploração de dados em estruturas de árvores. Elas permitem a aplicação de operações como busca, inserção e exclusão, bem como a execução de cálculos sobre propriedades estruturais como altura e profundidade. Dependendo da aplicação específica e das necessidades operacionais, diferentes travessias oferecem vantagens variadas em termos de ordem e eficiência no processamento dos dados de árvores.
+
+Técnicas de varredura de árvores, também conhecidas como travessias de árvores, são métodos sistemáticos para visitar todos os nós de uma árvore de maneira controlada. Três das travessias mais comuns são in-order, pre-order, e post-order, todas pertinentes a árvores binárias. Além dessas, existem as travessias por nível, conhecidas como travessias em largura ou Breadth-First Search (BFS). Vamos também discutir as definições de altura e profundidade em árvores binárias.
+
+### Técnicas de Varredura
+
+#### 1. In-Order Traversal (Travessia em Ordem)
+- **Árvores Binárias de Busca**: Esta travessia é usada especialmente em árvores binárias de busca (BSTs) porque resulta em nós sendo visitados em ordem ascendente (esquerda-raiz-direita).
+- **Implementação**:
+  - Visite recursivamente o filho esquerdo.
+  - Processe o nó atual.
+  - Visite recursivamente o filho direito.
+
+#### 2. Pre-Order Traversal (Travessia em Pré-ordem)
+- **Aplicações**: Útil para criar uma cópia da árvore. Também é usado em expressões de árvore de sintaxe para preservar a ordem de clonagem de árvores e aplicativos de interface gráfica.
+- **Implementação**:
+  - Processe o nó atual.
+  - Visite recursivamente o filho esquerdo.
+  - Visite recursivamente o filho direito.
+
+#### 3. Post-Order Traversal (Travessia em Pós-ordem)
+- **Aplicações**: Usada para realizar operações de limpeza; por exemplo, quando você deseja excluir nós da árvore, deve processar os filhos antes de processar o nó pai.
+- **Implementação**:
+  - Visite recursivamente o filho esquerdo.
+  - Visite recursivamente o filho direito.
+  - Processe o nó atual.
+
+#### 4. Breadth-First Search (BFS) ou Level-Order Traversal
+- **Aplicações**: Usado quando você precisa processar um nó antes de seus descendentes. É amplamente utilizado em algoritmos de "shortest path" em grafos não ponderados.
+- **Implementação**:
+  - Utiliza uma fila para gerenciar a ordem dos nós que estão sendo visitados.
+  - Visite o nó raiz, coloque os filhos na fila, e continue processando cada nó ao desenfileirar e enfileirar seus filhos, respectivamente.
+
+### Altura e Profundidade em Árvores
+
+#### Altura de uma Árvore
+- **Definição**: A altura de uma árvore é o número de arestas no caminho mais longo de um nó raiz até um nó folha. Em uma árvore com um único nó, a altura é 0. 
+- **Cálculo**: Em uma árvore binária, a altura pode ser calculada como:
+  ```python
+  altura = max(altura(esquerda), altura(direita)) + 1
+  ```
+  onde `altura(esquerda)` e `altura(direita)` são as alturas das subárvores esquerda e direita, respectivamente.
+
+#### Profundidade de um Nó
+- **Definição**: A profundidade de um nó é o número de arestas do nó até a raiz da árvore. A profundidade da raiz é 0.
+- **Cálculo**: A profundidade de um nó pode ser determinada pelo número de passos (ou arestas) necessários para alcançar a raiz da árvore a partir desse nó.
+
+### Conclusão
