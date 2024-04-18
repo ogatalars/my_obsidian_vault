@@ -266,3 +266,129 @@ Técnicas de varredura de árvores, também conhecidas como travessias de árvor
 - **Cálculo**: A profundidade de um nó pode ser determinada pelo número de passos (ou arestas) necessários para alcançar a raiz da árvore a partir desse nó.
 
 ### Conclusão
+
+
+Implementar uma árvore utilizando recursividade é uma abordagem eficaz, especialmente ao lidar com operações como inserção, remoção e travessias. Isso se deve à estrutura naturalmente hierárquica das árvores, onde um nó pode ser considerado a raiz de uma subárvore, facilitando a aplicação de operações recursivas. Abaixo, discutirei como as árvores binárias de busca (BSTs) podem ser implementadas e manipuladas usando recursividade, com exemplos de código.
+
+### Inserção Recursiva em uma Árvore Binária de Busca
+
+Na inserção recursiva, a ideia é passar a responsabilidade de inserir um nó para a subárvore correta até que um local apropriado seja encontrado.
+
+**Exemplo em C#:**
+
+```csharp
+public class TreeNode {
+    public int Value;
+    public TreeNode Left;
+    public TreeNode Right;
+
+    public TreeNode(int value) {
+        this.Value = value;
+        this.Left = null;
+        this.Right = null;
+    }
+}
+
+public class BinarySearchTree {
+    public TreeNode Root;
+
+    public void Insert(int value) {
+        this.Root = InsertRecursive(this.Root, value);
+    }
+
+    private TreeNode InsertRecursive(TreeNode current, int value) {
+        if (current == null) {
+            return new TreeNode(value);
+        }
+        if (value < current.Value) {
+            current.Left = InsertRecursive(current.Left, value);
+        } else if (value > current.Value) {
+            current.Right = InsertRecursive(current.Right, value);
+        }
+        return current;
+    }
+}
+```
+
+### Travessia Recursiva
+
+As travessias de uma árvore (in-order, pre-order, post-order) são naturalmente implementadas de forma recursiva, visitando subárvores esquerda e direita.
+
+**Exemplo de Travessia In-Order em C#:**
+
+```csharp
+public void InOrderTraversal(TreeNode node) {
+    if (node != null) {
+        InOrderTraversal(node.Left);
+        Console.WriteLine(node.Value);
+        InOrderTraversal(node.Right);
+    }
+}
+```
+
+### Busca Recursiva
+
+A busca em uma árvore binária de busca também pode ser realizada recursivamente, explorando as propriedades da BST.
+
+**Exemplo em C#:**
+
+```csharp
+public TreeNode SearchRecursive(TreeNode node, int value) {
+    if (node == null || node.Value == value) {
+        return node;
+    }
+    if (value < node.Value) {
+        return SearchRecursive(node.Left, value);
+    } else {
+        return SearchRecursive(node.Right, value);
+    }
+}
+```
+
+### Remoção Recursiva
+
+A remoção em uma BST é um pouco mais complexa, pois precisa lidar com diferentes cenários: removendo um nó folha, um nó com um filho único, ou um nó com dois filhos.
+
+**Exemplo em C#:**
+
+```csharp
+public TreeNode DeleteRecursive(TreeNode root, int value) {
+    if (root == null) return root;
+
+    if (value < root.Value) {
+        root.Left = DeleteRecursive(root.Left, value);
+    } else if (value > root.Value) {
+        root.Right = DeleteRecursive(root.Right, value);
+    } else {
+        if (root.Left == null) return root.Right;
+        else if (root.Right == null) return root.Left;
+
+        root.Value = MinValue(root.Right);
+        root.Right = DeleteRecursive(root.Right, root.Value);
+    }
+    return root;
+}
+
+private int MinValue(TreeNode root) {
+    int minv = root.Value;
+    while (root.Left != null) {
+        minv = root.Left.Value;
+        root = root.Left;
+    }
+    return minv;
+}
+```
+
+### Vantagens e Desvantagens da Recursão em Árvores
+
+**Vantagens:**
+- **Simplicidade**: O código para inserção, busca, remoção e travessias é mais simples e limpo usando recursividade.
+- **Naturalidade**: A estrutura recursiva das árvores torna a recursão uma estratégia intuitiva.
+
+**Desvantagens:**
+- **Consumo de memória**: Cada chamada recursiva adiciona uma camada na pilha de chamadas, o que pode levar a uma sobrecarga de memória em árvores muito profundas.
+- **Eficiência**: Em alguns casos, métodos iterativos podem ser mais eficientes que os recursivos.
+
+Implementar árvores com recursividade é uma técnica poderosa que se alinha bem com a natureza hierárquica das árvores, facilitando a escrita de código conciso e comp
+
+reensível para manipulação de árvores.
