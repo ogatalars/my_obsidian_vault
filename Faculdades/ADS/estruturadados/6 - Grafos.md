@@ -105,3 +105,4 @@ Grafos
 ```
 
 Este mapa mental cobre os aspectos essenciais dos grafos, incluindo seus componentes, tipos, representações, aplicações, e operações comuns. Ele oferece uma visão abrangente e estruturada que pode ajudar a entender como os grafos são construídos e utilizados em diferentes contextos e aplicações.
+
