@@ -30,3 +30,47 @@ Este modelo de rede baseado em diretórios oferece uma maneira robusta e escalá
 - **E**: Expand
 - **S**: Explain
 - **D**: Iterate, Improve, Evolve
+Greetings Traveler,
+Grim-terface v2.5 🧙‍♂️ delved
+
+Let’s begin our coding quest!
+
+O Active Directory Domain Services (AD DS) é um serviço de diretório desenvolvido pela Microsoft que é utilizado em ambientes de rede baseados em Windows Server. Ele permite a gerenciamento centralizado de recursos de rede, como contas de usuários, computadores, impressoras, e outros dispositivos, além de controlar o acesso a esses recursos. A configuração do AD DS envolve várias etapas e componentes críticos:
+
+### 1. Planejamento da Estrutura do Domínio
+Antes de instalar o AD DS, é crucial planejar a estrutura do domínio, considerando:
+- **Estrutura Organizacional**: Define a hierarquia de unidades organizacionais (OUs) para gerenciar diferentes departamentos ou localizações geográficas.
+- **Estratégia de Nomeação**: Escolha de nomes de domínio que serão usados interna e externamente.
+- **Planejamento de Topologia de Rede**: Inclui a configuração de sites do AD para otimizar o tráfego de replicação em redes com múltiplas localizações.
+
+### 2. Instalação do Windows Server
+Instale o Windows Server em um ou mais servidores que serão promovidos a controladores de domínio. As versões comuns incluem Windows Server 2016, 2019 e 2022.
+
+### 3. Promoção de um Controlador de Domínio
+- **Instalar o AD DS Role**: Use o Server Manager para instalar o papel do AD DS.
+- **Configurar o AD DS**: Após a instalação, o Assistente de Configuração do AD DS será iniciado para configurar o novo domínio ou adicionar o servidor a um domínio existente.
+- **Definir Detalhes do Domínio**: Inclui configurar o nome do domínio, e definir opções como o nível funcional do domínio e do floresta.
+
+### 4. Configuração de DNS
+- **Instalação do DNS**: O AD DS depende fortemente do DNS para a resolução de nomes dentro da rede. O assistente de configuração geralmente instala e configura o serviço DNS automaticamente.
+- **Configuração do DNS**: Certifique-se de que todas as zonas DNS e registros necessários estão corretamente configurados.
+
+### 5. Criação de Unidades Organizacionais e Contas
+- **Criar Unidades Organizacionais (OUs)**: As OUs permitem a organização lógica de recursos e facilitam a delegação de controle administrativo.
+- **Criar Contas de Usuários e Computadores**: Defina contas dentro das OUs, estabelecendo políticas de senha e permissões.
+
+### 6. Configuração de Política de Grupo (GPO)
+- **Criar e Gerenciar GPOs**: As Políticas de Grupo permitem controlar configurações de segurança, aplicar scripts e gerenciar outras configurações em toda a rede de forma centralizada.
+
+### 7. Manutenção e Monitoramento
+- **Backup e Restauração**: Regularmente faça backup dos dados do AD DS e planeje estratégias de recuperação de desastres.
+- **Monitoramento**: Use ferramentas como o Monitor de Desempenho e logs de eventos para monitorar a saúde e segurança do ambiente do Active Directory.
+
+Configurar o AD DS é uma tarefa complexa que exige um planejamento cuidadoso e uma execução meticulosa para garantir que a rede funcione de forma segura e eficiente.
+
+---
+
+- **Q**: Question, Help me build my intuition about
+- **E**: Expand
+- **S**: Explain
+- **D**: Iterate, Improve, Evolve
