@@ -206,4 +206,157 @@ autores cartunista e poeta que o público também seja de várias tribos.
 Tecnologia: o texto não aponta, mas o aluno poderia deduzir que há tecnologia abundante,
 por ter conhecido a feira, pelo momento tecnológico em que vive o país e também porque
 tem caráter mundial.
-8 - 
+
+8 - Enquanto o empreendedorismo por necessidade está mais suscetível à conjuntura
+econômica dos países e tende a diminuir quando a oferta de emprego é maior, o
+empreendedorismo por oportunidade tem maiores chance de sucesso e tem um forte
+impacto sobre o crescimento econômico de um país. (Governo do Brasil, 2012 -
+Oportunidade e necessidade).
+Considerando as informações desse texto, avalie as afirmações a seguir:
+**I.O empreendedor informal tem o perfil de quem precisa sobreviver. “O informal está**
+**muito ligado a necessidades”. A pessoa não tem visão de longo prazo, quer atender**
+**necessidade de agora.**
+II. O empreendedor social tem a vontade de fazer algo bom pelo mundo aliada ao
+ganhar dinheiro, sendo isso que move este empreendedor.
+III.O intraempreendedor é um funcionário que empreende novos projetos na empresa
+que trabalha.
+Com relação ao caracteriza o empreendedor por necessidade é correto o que se afirma
+em:
+a II, apenas
+**b I, apenas**
+c III, apenas
+d II e III, apenas
+e I e III, apenas
+
+9 -> O desejo de iniciar um negócio, a inspiração e o entusiasmo são aspectos motivadores
+importantes, mas, não são suficientes para conduzir o empreendedor a transformar suas
+ideias em uma empresa de sucesso. De que forma o empreendedor pode estruturar
+melhor suas ideias para agir estrategicamente?
+
+**a Por meio de uma educação empreendedora pois pode desenvolver uma visão**
+**estratégica para gestão de seus processos, visão de mercado, ciclo de vida e para**
+**conhecer seus principais concorrentes e consumidores**
+
+b Observando o que já existe no mercado, pois nada se cria, tudo se copia
+c Por meio de uma educação formal para ele para seus principais funcionários
+direcionada ao mercado que busca investir ou inovar, por mais que isso leve tempo
+e atrase um pouco seus planos
+d O empreendedor precisa seguir prioritariamente seus instintos para não perder
+oportunidades de ação
+
+e Deve estruturar suas ideias a partir das experiências de mercado que já teve e
+opinião de outros profissionais que tenham conhecimento da área que pretende
+empreender
+
+10 - Existem diferentes tipos de empreendedores que são caracterizados por seus perfis,
+comportamentos, competências, interesses, oportunidades e necessidades. Assinale a
+alternativa correta quanto aos diferentes tipos de empreendedores
+I – O empreendedor por necessidade é aquele que visa ganho financeiro em curto prazo
+para melhora da sua qualidade de vida.
+II – O empreendedor por necessidade também pode ser considerado um empreendedor
+por oportunidade, uma vez que só empreenderá em situações como perda de emprego,
+ou complementação de renda.
+**III - O intraempreendedor é de grande relevância para empresa pois busca objetivos**
+**organizacionais e também os pessoais.**
+**IV – O empreendedor social visa o bem-estar social e inspira os outros.**
+V – O bom empreendedor deve ter características tanto de necessidade, como de
+oportunidade, social e de intraempreendedorismo
+
+**a Estão corretas as alternativas III e IV** -> correta
+b Estão incorretas as alternativas I, II e III
+c Estão corretas as alternativas III e V
+d Estão incorretas as alternativas I e V
+e Estão corretas as alternativas I, II e IV
+
+11 - A responsabilidade social e sustentabilidade são preocupações reais na
+contemporaneidade. Entretanto, pode-se dizer que essas ações podem ser incorporadas
+na ação empreendedora como parte do desenvolvimento individual e coletivo?
+
+**a Sim, pois hoje as empresas têm uma exigência maior quanto aos seus resultados,**
+**mas também na forma pela qual desenvolve individualmente e coletivamente seus**
+**negócios/produtos/serviços, criando valor competitivo à sua marca.** -> Correta
+
+b Não, o papel do empreendedor é se destacar sozinho com a busca contínua pela
+inovação
+
+c Sim, pois hoje as empresas têm uma exigência maior quanto aos seus resultados,
+garantindo formas alternativas de criação de valor no produto/serviço final, se
+destacando pelo valor competitivo agregado.
+d Sim, mas o intraempreendedor tem a obrigação de buscar diferentes caminhos
+para se desenvolver individualmente, não esperando que ações da empresa o
+levem a isso
+e Não, o papel das organizações é buscar a responsabilidade social e
+sustentabilidade para que sua marca seja bem vista no mercado e se torne mais
+competitiva, não de forma integrativa para o desenvolvimento individual e coletivo
+
+12 - Uma cadeia de restaurantes sediada na Califórnia oferece sanduíches feitos sob
+encomenda, usando ingredientes frescos e saudáveis. Os fundadores da empresa
+assumem um papel muito ativo nos negócios do dia-a-dia e controlam rigorosamente
+todos os aspectos da operação do restaurante, desde a contratação dos gerentes da loja
+até o planejamento do cardápio. A administração teme que a rotatividade dos
+funcionários seja alta, a satisfação do cliente esteja diminuindo e o crescimento da
+receita seja estável. O líder de recursos humanos recém-contratado acredita que lidar
+com a rotatividade de funcionários pode ajudar a resolver outros problemas. Ela
+desenvolve um programa de participação nos lucros como piloto em dois restaurantes.
+Os gerentes do programa piloto têm sua remuneração vinculada diretamente aos lucros
+do restaurante. O programa também permite que os gerentes personalizem os menus,
+trabalhem com fornecedores locais e experimentem diferentes ideias de promoção. Após
+seis meses, os lucros nas unidades piloto melhoraram enquanto as opiniões dos clientes
+são variadas. O gerente de RH deve revisar os resultados completos e decidir se deve
+lançar o programa piloto em mais locais, modificar o programa ou abandoná-lo
+completamente.
+Com base nas informações acima, responda:
+1. Pode-se dizer que foi exigido um comportamento empreendedor dos gestores?
+Justifique sua resposta com base nas evidências apresentadas.
+2. Sob a ótica do empreendedorismo, quais ações foram diferenciais para integração
+da visão e paixão dos funcionários com a redução da rotatividade.
+
+***Resposta esperada**:
+1. Sim, foi exigido o comportamento intraempreendedor porque tiveram que articular
+processos e projetos internos, associados a experimentação (protótipos) com os clientes
+para desenvolver, por meio da inovação, a potencialidade da rede. Testando novos
+fornecedores, abarcando novas formas de interação com o público por meio de promoções
+e envolvimento dos funcionários.
+2. Os funcionários e gestores podendo participar e tomar as decisões nas unidades piloto de
+forma mais autônoma se envolveram mais, aumentando sua motivação na busca de
+resultados diferentes reduzindo a rotatividade por meio de uma nova cultura
+organizacional.
+
+13 - Existem diversos tipos de empreendedores e empreendedorismo, “o empreendedorismo social tem a necessidade de ter suas ações desenvolvidas com um grupo coeso, que possui mesma
+missão e foco em comum e que desejam alcançar os mesmos objetivos com utilização racional do
+capital empreendido e melhor uso dos recursos humanos, econômicos e sociais”.
+Considerando esse contexto, avalie as asserções a seguir e a relação proposta entre elas.
+
+I. O empreendedorismo social não pode ser considerado uma forma de empreendedor pois
+
+tradicionalmente o empreendedorismo só articula a economia tradicional. x
+
+PORQUE
+
+**II. Visa ao invés de lucro a transformação social, promovendo o bem-estar da população ou**
+
+**ambiental, promovida por pessoas que buscam um mundo melhor, articulando causas humanitárias.**
+
+A respeito dessas asserções, assinale a opção correta.
+
+a
+
+A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.
+
+b
+
+As asserções I e II são proposições falsas.
+
+**c A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.**
+
+d
+
+As asserções I e II são proposições verdadeiras, e a II é uma justificativa
+
+correta da I.
+
+e
+
+As asserções I e II são proposições verdadeiras, mas a II não é uma
+
+justificativa correta da I
