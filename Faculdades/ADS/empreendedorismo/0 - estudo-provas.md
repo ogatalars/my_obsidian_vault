@@ -187,7 +187,7 @@ uar a cultura literária da cidade, mantendo seu fator criativo de cultura vivaz
 arte do bem estar, da identidade e dos valores de seus cidadãos.
 
 
-Resposta esperada.
+**Resposta esperada
 Que o aluno comente que Paraty reúne todos os fatores que caracterizam uma cidade como
 criativa, a saber: inovação, conexão, cultura, talento, tolerância e tecnologia. E assim ele
 poderia exemplificar quaisquer dos dois fatores abaixo.
@@ -360,3 +360,263 @@ e
 As asserções I e II são proposições verdadeiras, mas a II não é uma
 
 justificativa correta da I
+
+14 - Assinale a alternativa que melhor justifique a frase “a ação empreendedora como estímulo ao
+desenvolvimento individual e coletivo deve ser focado na ética nos negócios”:
+
+**a Sim, a ética empresarial deve ser norteadora das decisões e comportamentos**
+
+**como extensão da ideia da responsabilidade social**
+
+b
+
+Sim, a ética empresarial deve ser norteadora das decisões e
+
+comportamentos, mas apenas quando exigidos pelo departamento de gestão
+
+de pessoas
+
+c
+
+A ética atualmente é uma ilusão, pois as empresas não conseguem guiar
+
+seus processos de decisão e de comportamento buscando a ética em seu
+
+desenvolvimento individual e coletivo
+
+d
+
+Sim, a exigência da ética empresarial deve ser valorizada no desenvolvimento
+
+coletivo, porém não gera benefícios financeiros e encarece o produto, o que
+
+muitas vezes não é bem recebido pelo cliente final
+
+e
+
+Não, a ética empresarial deve ser norteadora das decisões e comportamentos
+
+apenas nos negócios sociais
+
+15 - A Economia Criativa faz com que os empreendedores repensem as relações sociais, econômicas e sustentáveis, como uma inciativa transformadora que visa utilizar a criatividade e a partir dela gerar resultados. Portanto, pode-se reafirmar sobre a Economia Criativa:
+
+a
+
+Que por ser integrada gera uma série de entraves pois demanda financiamento do
+
+Governo, o que pode tornar o processo extremamente moroso
+
+b
+
+Que por ser integrada gera uma série de entraves pois demanda propriedade
+
+intelectual e conhecimento de direitos, o que burocratiza e atrasa processos
+
+c
+
+Que tem um papel voltado apenas para gênios, artistas e pessoas que tenham
+
+aptidões criativas para a orientação do negócio
+
+**d  - Que tem um papel multidisciplinar relevante para sua execução, que só será possível****
+
+**com integração e cooperação de diversas áreas** - > resposta correta
+
+e
+
+Que tem um papel multidisciplinar relevante para sua execução, mas que só funciona
+
+se aplicada a um contexto específico
+
+16 - Um potencial dentro da Economia Criativa são as Cidades Criativas, que encontram um nicho
+
+cultural, religioso ou mesmo de entretenimento que possibilitam o desenvolvimento coletivo de
+
+determinada região, bairro ou uma cidade.
+
+Considerando esse contexto, avalie as asserções a seguir e a relação proposta entre elas.
+
+**I. O empreendedor precisa compreender o contexto das cidades criativas para poder aproveitar as** **oportunidades, enxergando o potencial de determinadas características.**
+
+**PORQUE**
+
+**II. Diversos negócios podem ser criados em diferentes segmentos, em uma mesma Cidade Criativa** **agregando valor a toda coletividade do entorno.**
+
+A respeito dessas asserções, assinale a opção correta
+
+a
+
+A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.
+
+b
+
+A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.
+
+c
+
+As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da
+
+I.
+
+**d As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.**
+
+e
+
+As asserções I e II são proposições falsas
+
+16 - Para Pereira e Kruglianskas (2005), ao destacar a inovação como foco principal, a Lei da Inovação
+
+estabelece que o investimento desprendido no apoio à ciência, à tecnologia e à pesquisa e ao
+
+desenvolvimento deve gerar, como resultado para o mercado, a transformação e a oferta de novos
+
+produtos e processos. Os eixos principais para essa perspectiva são:
+
+**I – A constituição de um ambiente propício a parcerias estratégicas entre universidades, institutos ***tecnológicos e empresas.**
+
+II – O incentivo à inovação deve ser elaborado como um projeto a parte do funcionamento da
+
+empresa para que seja possível os testes de funcionamento.
+
+**III – O estímulo à participação de instituições de ciência e tecnologia no processo de inovação;**
+
+**IV – O incentivo à inovação na empresa.****
+**
+Assinale a alternativa correta:
+
+a
+
+Estão corretas as alternativas I, II e III
+
+b
+
+Apenas a alternativa IV está correta
+
+c
+
+Estão corretas as alternativas I, II e IV
+
+d
+
+Estão corretas as alternativas I, II, III e IV
+
+**e - Estão corretas as alternativas I, III e IV** 
+
+17 - O conceito de inovação deve estar associado ao de evolução pois é o que faz
+com que o homem saia da zona de conforto em busca da satisfação das suas
+necessidades. Em empreendedorismo podemos dizer que a inovação deve
+ser sistêmica além de
+**a Ter valor mensurável, exigir investimento e desenvolvimento sustentável,**
+**transformar o comportamento e a cultura organizacional e provocar mudanças**
+**em um negócio/segmento como todo.**
+b Apresentar-se como uma mudança radical que se destaque pela sua
+autenticidade e criatividade.
+c Um processo incentivado pela criatividade, ou seja, a busca da criatividade
+pura que será desenvolvida por apenas pessoas específicas com conhecimentos
+diferenciados.
+d Não ter valor mensurável pois está associada à criatividade que deve ser livre
+para ser melhor reconhecida nos contextos.
+e Se subdividir em tipos de inovação que alteram a percepção do consumidor
+final.****
+
+18 - O Brasil, apesar de ter uma população criativa e ter um índice alto de
+empreendedorismo por necessidade e por oportunidade deixa a desejar em
+relação a inovação estruturada para o desenvolvimento da economia. O Brasil
+está me 56o lugar no ranking dos países inovadores, ou seja, essa estratégia
+não é considerada nas empresas e organizações.
+Considerando esse contexto, avalie as asserções a seguir e a relação
+proposta entre elas.
+**I. A inovação é a associação do conhecimento, tecnologia e educação. No**
+**Brasil nosso maior desafio é a falta de incentivos fiscais, integração entre**
+**universidades e as organizações, centros de pesquisas, indústrias, etc..**
+PORQUE
+II. O Brasil apesar de investir, não consegue transformar conhecimento
+científico em inovação. X
+A respeito dessas asserções, assinale a opção correta.
+a As asserções I e II são proposições verdadeiras, e a II é uma justificativa
+correta da I.
+b As asserções I e II são proposições verdadeiras, mas a II não é uma
+justificativa correta da I.
+c A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.
+**d** **A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.**
+e As asserções I e II são proposições falsas
+
+19 - A indústria criativa demanda a necessidade da propriedade intelectual e
+reconhecimento de direitos. Esta nova forma de empreender gera a
+necessidade de repensar a educação, promovendo a valorização e incentivo a
+criatividade, a cultura, as artes e, assim, a economia criativa consegue
+requalificar as disciplinas que visam estimular o senso estético, o fazer
+artístico, criar novas soluções para o coletivo, exercitar a imaginação, com o
+objetivo de criar novas formas de ver, interpretar e solucionar problemas
+cotidianos. A partir de suas características é correto afirmar a respeito da
+Economia Criativa:
+a É uma forma de inovar as atuações na manufatura, agricultura e comércio
+b O conceito de economia criativa apesar de caracterizado como economia é
+mais voltado para o desenvolvimento de conteúdos de manufatura, agricultura
+e comércio com foco nas ações criativa possíveis
+c O conceito de economia criativa apesar de caracterizado como economia é
+mais voltado para o desenvolvimento em conteúdos artísticos, estéticos, de
+arquitetura que não geram lucro ou renda direta para economia
+**d Movimentam a criação de empregos, de exportação de produtos culturais e**
+**regionais, inclusão social, desenvolvimento humano, integração da economia**
+**tradicional a propriedade intelectual e a promoção da inovação política**
+**multisetorial**
+e A economia criativa é baseada no desenvolvimento das questões sócio
+culturais regionais e sua promoção internacional
+
+20 - O modelo CANVAS busca auxiliar empreendedores a definir um modelo de
+negócios a partir da identificação de uma ideia que transforma-se na proposta
+e valor principal desse negócio. Pode afirmar quanto ao modelo CANVAS:
+I - Para o modelo CANVAS a visualização sistêmica do negócio não é tão
+importante quanto a tomada de decisão rápida e eficiente. 
+**II - O Modelo de Negócios CANVAS como uma ferramenta de representação**
+**visual onde se ilustra um sistema administrativo que sustentará um**
+**determinado modelo de negócio.**
+**III - O Modelo de Negócios CANVAS constitui-se de nove componentes**
+**básicos, que mostram a lógica de como uma organização pretende gerar valor**
+**para cliente, organização e sociedade.**
+**IV – Aqui, representação visual nos dá a noção gráfica da ferramenta, por**
+**sistema administrativo compreendemos a junção das funções administrativas**
+**que sustentarão a estratégia do negócio.**
+Assinale a alternativa correta:
+a Estão corretas as alternativas I, II e III
+b Estão corretas as alternativas I, II, III e IV
+c Estão corretas as alternativas I, II e IV
+d Apenas a alternativa III está correta
+**e Estão corretas as alternativas II, III e IV**
+
+21 - Quando o paranaense Ycaro Martins fundou a Cash Auto, 2016, ele tinha uma
+ideia em mente: vender carros em até 50 minutos no máximo. A proposta deu
+certo e virou um negócio que fatura R$ 25 milhões por ano. A plataforma
+permite que os donos cadastrem seus veículos e escolham as melhores
+propostas de compra. A experiência como gerente em algumas
+concessionárias ajudou o empreendedor a tirar sua ideia do papel. “Eu
+percebi que as pessoas queriam agilidade no negócio. Elas não estavam
+dispostas a ficar esperando. Lembrei que quando era vendedor e levava
+menos de uma hora para avaliar a compra de um carro, ganhava elogios”, diz
+Martins. Quem quer vender seu carro, pode cadastrá-lo na plataforma. Um
+consultor da startup irá fazer a avaliação prévia do veículo. Após esse
+processo, a Cash Auto manda mensagens para os compradores com um
+alerta informando que o carro está disponível na plataforma. O sistema da
+Cash Auto reúne concessionárias e vendedores autônomos que trabalham no
+segmento automotivo. A regularização da documentação do veículo também é
+realizada pela empresa. Nas lojas da Cash Auto não há automóveis. Os
+veículos só passam por lá para realizarem a avaliação. “Os 50 minutos
+envolvem o tempo de chegar na loja, fazer as avaliações e receber as
+ofertas”, explica o empreendedor. Hoje, a empresa trabalha em média 800
+clientes por mês. Desde a sua fundação, a empresa já vendeu de 7 mil carros.
+(Pequenas empresas e Grandes Negócios, 2018 – Prometendo vender carros
+em até 50 minutos, startup fatura R$ 25 milhões).
+Elabore um texto que contenha o seguinte:
+1. A identificação do tipo de empreendedorismo: necessidade ou
+oportunidade e uma justificativa;
+2. Aponte qual o tipo de inovação: processo, produto, disruptiva e
+incremental existe no negócio Cash Auto e uma justificativa.
+
+**Resposta esperada:**
+1.O tipo é empreendedorismo por oportunidade. Esse tipo é resultante da
+observação do empresário de um contexto, observação de uma demanda e a
+experiência profissional dele neste mercado.
+2.A inovação é por processo. A inovação percebida no texto é do tipo por
+processo, ou seja, uma mudança significativa na maneira de produzir, no caso
+um serviço.
