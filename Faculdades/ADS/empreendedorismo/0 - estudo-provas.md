@@ -121,7 +121,7 @@ Considerando esse contexto, avalie as asserções a seguir e a relação propost
 **organizações, centros de pesquisas, indústrias, etc..**
 PORQUE
 II. O Brasil apesar de investir, não consegue transformar conhecimento científico em
-inovação.
+inovação. x
 A respeito dessas asserções, assinale a opção correta.
 a As asserções I e II são proposições falsas
 b A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.
@@ -173,19 +173,6 @@ A partir dos textos, elabore um comentário que aborde o seguinte:
 a) Destaque dois fatores justificadores para o reconhecimento de Paraty como cidade
 criativa.
 c) Uma interpretação de como são esses fatores (item a) na cidade criativa de Paraty.
-
-Paraty se destaca como Cidade Criativa ao ser uma cidade secular, intrinsecamente rel
-acionada com a história do seu país, aparente nos dias de hoje por apresentar-se ao tu
-rismo nacional e internacional, carregando muitos anos de história não só em seus eve
-ntos e literatura mas também em sua arquitetura, sobrevinda dos séculos anteriores,
-mostrando-se altamente Tolerante, do ponto de vista de fator criativo. Fazendo jus a su
-a história, soube também tirar proveito para modificar e aperfeiçoar a economia local,
-gerando empregos e renda à diversos grupos culturais, resgatando atividades tradicion
-ais (carpintaria naval) e criando uma espaço base para as futuras gerações, com divers
-as bibliotecas e horas de leituras nas escolas, buscando aprimorar e, sobretudo, perpet
-uar a cultura literária da cidade, mantendo seu fator criativo de cultura vivaz, fazendo p
-arte do bem estar, da identidade e dos valores de seus cidadãos.
-
 
 **Resposta esperada
 Que o aluno comente que Paraty reúne todos os fatores que caracterizam uma cidade como
