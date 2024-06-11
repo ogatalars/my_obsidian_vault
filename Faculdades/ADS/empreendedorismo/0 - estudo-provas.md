@@ -102,7 +102,7 @@ Considerando as informações desse texto, avalie as afirmações a seguir:
 **potencialmente ilimitada, sem muitas customizações ou adaptações para cada cliente.**
 **III.Ser escalável significa crescer cada vez mais, sem que isso influencie no modelo de**
 **negócios. Crescer em receita, mas com custos crescendo bem mais lentamente.**
-**Com relação a definição de start-up está correto o que se afirma em:**
+Com relação a definição de start-up está correto o que se afirma em:
 
 a III, apenas
 b I, apenas
