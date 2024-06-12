@@ -255,8 +255,8 @@ c Estão corretas as alternativas III e V
 d Estão incorretas as alternativas I e V
 e Estão corretas as alternativas I, II e IV
 
-11 - A responsabilidade social e sustentabilidade são preocupações reais na
-contemporaneidade. Entretanto, pode-se dizer que essas ações podem ser incorporadas
+11 - **A responsabilidade social e sustentabilidade são preocupações reais na**
+**contemporaneidade.** Entretanto, pode-se dizer que essas ações podem ser incorporadas
 na ação empreendedora como parte do desenvolvimento individual e coletivo?
 
 **a Sim, pois hoje as empresas têm uma exigência maior quanto aos seus resultados,**
@@ -276,8 +276,8 @@ e Não, o papel das organizações é buscar a responsabilidade social e
 sustentabilidade para que sua marca seja bem vista no mercado e se torne mais
 competitiva, não de forma integrativa para o desenvolvimento individual e coletivo
 
-12 - Uma cadeia de restaurantes sediada na Califórnia oferece sanduíches feitos sob
-encomenda, usando ingredientes frescos e saudáveis. Os fundadores da empresa
+12 - **Uma cadeia de restaurantes sediada na Califórnia oferece sanduíches feitos sob**
+**encomenda, usando ingredientes frescos e saudáveis.** Os fundadores da empresa
 assumem um papel muito ativo nos negócios do dia-a-dia e controlam rigorosamente
 todos os aspectos da operação do restaurante, desde a contratação dos gerentes da loja
 até o planejamento do cardápio. A administração teme que a rotatividade dos
