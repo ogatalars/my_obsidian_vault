@@ -8,7 +8,7 @@ c 4
 **d 3** - > RESPOSTA CERTA
 e 5
 
-2- A figura a seguir representa uma árvore AVL contemplando todas as características
+2- A figura a seguir representa uma árvore **AVL** contemplando todas as características
 impostas a esse tipo de árvore. A remoção de um elemento da árvore pode resultar em
 desbalanceamento. Indique a alternativa que apresenta o valor o qual, se removido da
 árvore, a deixaria desbalanceada e resultaria na aplicação de uma operação de rotação.
