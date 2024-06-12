@@ -823,8 +823,28 @@ d-Busca por novidades independente de tendências de mercado, pois seu trabalho 
 
 28- O Plano de Negócios é uma metodologia descritiva e analítica da ideia de negócio, que congrega apresentações, análises e planejamentos e que auxilia o empreendedor a definir se o negócio em que pretende investir é viável economicamente. Ajuda a descrever e também a entender o modelo de negócio da uma empresa. Auxilia na busca do que será necessário para implementar o seu negócio. Mostra os custos e as despesas, o investimento inicial necessário, a estratégia de crescimento e de marketing e vendas, e também a projeção de receita e lucro para os próximos anos. Demonstrar a viabilidade ou não de seu empreendimento.
 
-**aO trecho acima está correto pois o plano de negócios permite olhar para o futuro alocando recursos humanos, tecnológicos e financeiros, observando pontos-chave e oportunidades, antecipando possíveis dificuldades** 
+**a O trecho acima está correto pois o plano de negócios permite olhar para o futuro alocando recursos humanos, tecnológicos e financeiros, observando pontos-chave e oportunidades, antecipando possíveis dificuldades** 
 bO trecho acima está incorreto pois seu descritivo não caracteriza o plano de negócios esim o mapa mental 
 cO trecho acima está incorreto pois o plano de negócios não permite olhar para o futuroalocando recursos humanos, tecnológicos e financeiros, observando pontos-chave eoportunidades, antecipando possíveis dificuldades 
 dO trecho acima está incorreto pois seu descritivo não caracteriza o plano de negócios esim o design thinking 
 eO trecho acima está incorreto pois seu descritivo não caracteriza o plano de negócios esim o modelo de negócios Canvas
+
+29 -> 
+Um lugar para aprender a estudar de maneira autônoma. Assim pode ser definida a 
+**Kumon**, rede de escolas que ensina matemática, português, inglês e japonês. O negócio foi fundado em 1958, no Japão. Takeshi, o filho mais velho de Toru Kumon, estava com dificuldades em cálculos. Para ajudar o menino, Toru desenvolveu uma série de exercícios que ajudavam a estudar de maneira autodidata, todos os dias. Percebendo as mudanças do garoto, os pais de outros alunos começaram a se interessar pela ideia de Toru. Assim, nascia a primeira unidade do Kumon, tendo como orientadora a senhora Teiko, mulher de Toru. Em 1974, a empresa começava sua expansão pelo mundo, chegando a Nova York (EUA). Três anos depois, alcançou o Brasil. Rede de reforço escolar é premiada como a melhor microfranquia de 2018. Após 50 anos a rede se espalhou pelo mundo. No Brasil, ela está presente em 550 cidades. (Pequenas empresas e Grandes Negócios, 2018 - Kumon). 
+
+Elabore um texto que contenha o seguinte: 
+
+1. A identificação do tipo de empreendedorismo: necessidade ou oportunidade e uma 
+justificativa; 
+
+2. Aponte qual o tipo de inovação: processo, produto, disruptiva e incremental existe 
+no negócio Kumon e uma justificativa. 
+
+Empreendedorismo de Oportunidade no Kumon
+
+**O empreendedorismo pode ser impulsionado pela necessidade ou pela oportunidade. No caso do Kumon, o tipo de empreendedorismo é claramente de oportunidade.** Toru Kumon, ao perceber que seu método de ensino autodidata era eficaz para seu filho, identificou uma oportunidade de mercado. **Ele não estava em uma situação de necessidade que o obrigasse a empreender; em vez disso, ele viu uma chance de oferecer um serviço valioso que poderia beneficiar outros além de sua família.** A rápida expansão e o sucesso internacional do Kumon reforçam essa ideia, mostrando que a iniciativa foi além de uma solução pessoal, tornando-se uma oportunidade de negócio reconhecida mundialmente.
+
+**Inovação Incremental no Método Kumon**
+
+Quanto ao tipo de inovação presente no negócio Kumon, trata-se de uma inovação incremental. O método Kumon não revolucionou completamente o sistema educacional existente (o que seria uma inovação disruptiva), mas melhorou significativamente a maneira como os alunos aprendem matemática e outras disciplinas. Através de exercícios diários e progressivos, o método Kumon aprimorou o processo de aprendizado, permitindo que os alunos desenvolvessem habilidades de estudo autônomas e consistentes. Essa abordagem incremental ao ensino tem se mostrado eficaz ao longo dos anos, adaptando-se e expandindo-se globalmente, mantendo a essência do método original de Toru Kumon.

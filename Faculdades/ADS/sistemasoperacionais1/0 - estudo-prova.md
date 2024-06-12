@@ -149,6 +149,9 @@ Deverá mencionar: Criar arquivo em Lote ou script
 regra:
 dsadd user cn="nome x", ou=Temp, dc=Senac, dc=local -samid PrimeiraLetraNomeFinal -upn "PrimeiraLetraNomeFinal" -fn Nome -ls SegundoNome -pwd "Senac@123" -disabled no
 
+dsadd user cn="adalgisa monteiro", ou=Temp, dc=Senac, dc=local -samid Amonteiro -upn "amonteiro@senac.local" -fn Adalgisa -ls Monteiro -pwd "Senac@123" -disabled no
+
+
 8 -> Em um domínio de rede Microsoft com servidores Windows Server 2019, a
 autenticação de usuários utiliza o protocolo Kerberos. Esse protocolo exige
 um serviço imprescindível para o seu funcionamento. Assinale a alternativa
