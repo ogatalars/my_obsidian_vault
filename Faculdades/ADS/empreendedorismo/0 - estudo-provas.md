@@ -299,15 +299,15 @@ Justifique sua resposta com base nas evidências apresentadas.
 da visão e paixão dos funcionários com a redução da rotatividade.
 
 ***Resposta esperada**:
-1. Sim, foi exigido o comportamento intraempreendedor porque tiveram que articular
-processos e projetos internos, associados a experimentação (protótipos) com os clientes
-para desenvolver, por meio da inovação, a potencialidade da rede. Testando novos
-fornecedores, abarcando novas formas de interação com o público por meio de promoções
-e envolvimento dos funcionários.
-2. Os funcionários e gestores podendo participar e tomar as decisões nas unidades piloto de
-forma mais autônoma se envolveram mais, aumentando sua motivação na busca de
-resultados diferentes reduzindo a rotatividade por meio de uma nova cultura
-organizacional.
+1. **Sim, foi exigido o comportamento intraempreendedor porque tiveram que articular**
+**processos e projetos internos, associados a experimentação (protótipos) com os clientes**
+**para desenvolver, por meio da inovação, a potencialidade da rede. Testando novos**
+**fornecedores, abarcando novas formas de interação com o público por meio de promoções**
+**e envolvimento dos funcionários.**
+2. **Os funcionários e gestores podendo participar e tomar as decisões nas unidades piloto de**
+**forma mais autônoma se envolveram mais, aumentando sua motivação na busca de**
+**resultados diferentes reduzindo a rotatividade por meio de uma nova cultura**
+**organizacional.**
 
 13 - Existem diversos tipos de empreendedores e empreendedorismo, “o empreendedorismo social tem a necessidade de ter suas ações desenvolvidas com um grupo coeso, que possui mesma
 missão e foco em comum e que desejam alcançar os mesmos objetivos com utilização racional do

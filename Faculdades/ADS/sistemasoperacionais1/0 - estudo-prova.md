@@ -1,7 +1,7 @@
 1 - O uso de máquinas virtuais é cada vez mais frequente entres os usuários finais, mas isso não
 significa que ele seja apenas um emulador de máquinas físicas, a mesma serve para testes de
 softwares dos mais diversos tipos e sistemas operacionais. Neste contexto é comum a
-instalação de Sistemas Operacionais diferentes da máquina host. Os Hypervisors do tipo 2 são
+instalação de Sistemas Operacionais diferentes da máquina host. Os **Hypervisors** do tipo 2 são
 executados como um aplicativo dentro de um sistema operacional de host, e geralmente têm
 como destino plataformas de notebook, ou área de trabalho de usuário único. Com um
 Hypervisor do tipo 2, é possível criar manualmente uma VM e, em seguida, instalar um sistema
@@ -18,7 +18,7 @@ d Segmento de Lan (LAN Segment)
 e Rede em Ponte (Bridge)
 
 2 - No ambiente de uma empresa o uso de domínio é comum, por situações como por exemplo de
-segurança ou de organização. Instala-se o AD DS (Serviços de Domínio do Active Directory),
+segurança ou de organização. Instala-se o **AD DS** (Serviços de Domínio do Active Directory),
 possibilitando o armazenamento de informações sobre todos os objetos do domínio. Ao entrar
 na rede, o AD DS é o principal meio pelo qual você pode configurar e gerenciar contas de
 usuário e computador em sua rede. Após instalar o Serviço do AD DS, e configurar o ambiente
@@ -51,7 +51,7 @@ identidade em relação as outras. A estrutura de uma floresta é utilizada para
 árvores com diferentes esquemas (já que os domínios dentro de uma mesma floresta não
 possuem, necessariamente, o mesmo esquema).
 
-3 - A opção Windows Server 2019 Datacenter (Server Core) é uma opção de instalação mínima
+3 - A opção **Windows Server 2019** Datacenter (Server Core) é uma opção de instalação mínima
 que está disponível quando você está implantando a edição Standard ou Datacenter. O “Server
 Core” inclui a maioria das funções de servidor, mas não todas. O “Server Core” tem um espaço
 em disco menor e, portanto, uma superfície de ataque menor devido a uma base de código
@@ -70,7 +70,7 @@ c Digito FSUTIL
 d Digito CONFIG.SYS
 **e Digito SCONFIG** -> correta
 
-4 Para criar um Servidor de Arquivos, qual a primeira tarefa a ser executada?
+4 Para criar um **Servidor de Arquivos**, qual a primeira tarefa a ser executada?
 
 a Ativar o serviço de arquivos do servidor
 b Definir uma estrutura de pastas
@@ -147,7 +147,7 @@ dsadd user cn=“Marta Souza”,ou=Temp,dc=Senac,dc=local -samid Msouza -upn
 Deverá mencionar: Criar arquivo em Lote ou script
 
 regra:
-DSADD USER CN="nome", TEMP, dc=SENAC, dc=local -samid primeiraletradonomeSobronome -upn "email@email.com" -fn Primeironome -in segundonome -pwd "Senac@123" -disabled no
+dsadd user cn="nome x", ou=Temp, dc=Senac, dc=local -samid PrimeiraLetraNomeFinal -upn "PrimeiraLetraNomeFinal" -fn Nome -ls SegundoNome -pwd "Senac@123" -disabled no
 
 8 -> Em um domínio de rede Microsoft com servidores Windows Server 2019, a
 autenticação de usuários utiliza o protocolo Kerberos. Esse protocolo exige
@@ -165,7 +165,7 @@ d - RADIUS
 e - DHCP
 
 9 ->
-Trabalhar com o disco requer cuidados, pois, dependendo de como for arquitetada, a entrega de informação pode ser comprometida. Em alguns casos, o projeto pode se tornar extremamente lento, o que torna impraticável o acesso ao disco e às informações. Montar
+**Trabalhar com o disco requer cuidados,** pois, dependendo de como for arquitetada, a entrega de informação pode ser comprometida. Em alguns casos, o projeto pode se tornar extremamente lento, o que torna impraticável o acesso ao disco e às informações. Montar
 arranjos de discos tem como principais objetivos aprimorar a segurança e/ou aumentar a
 performance do sistema de armazenamento de computadores, servidores e storages.
 Enquanto um arranjo RAID utiliza recursos como striping ou paridade para obter mais
