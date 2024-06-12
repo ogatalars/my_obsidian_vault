@@ -803,7 +803,7 @@ cearense, que fugia do calor do verão da capital, no iní cio do século passad
 26 -Empreendedores por oportunidade optam por iniciar um novo negócio, mesmo quandopossuem alternativas de emprego. Eles têm níveis de capacitação e escolaridade mais altos e empreendem para aumentar sua renda ou pelo desejo de independência no trabalho. (Governodo Brasil, 2012 - Oportunidade e necessidade).
 Considerando as informações desse texto, avalie as afirmações a seguir:
 
-I.O brasileiro voltou a empreender motivado por oportunidades em nichos, de acordo com pesquisa do instituto GEM (2017). Conforme a pesquisa, 75% dos empreendedores  decidiram abrir um negócio porque viram o potencial de sucesso de um segmento específico, sendo que quase metade dos novos empreendedores tem pelo menos o segundo grau completo. Entre os novos empresários que estão cursando ou já completaram o ensino superior, 92% iniciaram onegócio por oportunidade.
+I.O brasileiro voltou a empreender motivado por oportunidades em nichos, de acordo com pesquisa do instituto GEM (2017). Conforme a pesquisa, 75% dos empreendedores  decidiram abrir um negócio porque viram o potencial de sucesso de um segmento específico, sendo que quase metade dos novos empreendedores tem pelo menos o segundo grau completo. Entre os novos empresários que estão cursando ou já completaram o ensino superior, 92% iniciaram o negócio por oportunidade.
 
 PORQUE
 
