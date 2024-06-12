@@ -803,13 +803,28 @@ cearense, que fugia do calor do verão da capital, no iní cio do século passad
 26 -Empreendedores por oportunidade optam por iniciar um novo negócio, mesmo quandopossuem alternativas de emprego. Eles têm níveis de capacitação e escolaridade mais altos e empreendem para aumentar sua renda ou pelo desejo de independência no trabalho. (Governodo Brasil, 2012 - Oportunidade e necessidade).
 Considerando as informações desse texto, avalie as afirmações a seguir:
 
-I.O brasileiro voltou a empreender motivado por oportunidades em nichos, de acordo com pesquisa do instituto GEM (2017). Conforme a pesquisa, 75% dos empreendedores  decidiram abrir um negócio porque viram o potencial de sucesso de um segmento específico, sendo que quase metade dos novos empreendedores tem pelo menos o segundo grau completo. Entre os novos empresários que estão cursando ou já completaram o ensino superior, 92% iniciaram o negócio por oportunidade.
+**I.O brasileiro voltou a empreender motivado por oportunidades em nichos, de acordo com pesquisa do instituto GEM (2017). Conforme a pesquisa, 75% dos empreendedores  decidiram abrir um negócio porque viram o potencial de sucesso de um segmento específico, sendo que quase metade dos novos empreendedores tem pelo menos o segundo grau completo. Entre os novos empresários que estão cursando ou já completaram o ensino superior, 92% iniciaram o negócio por oportunidade.**
 
-PORQUE
+PORQUE x
 
-II.O atual cenário da crise econômica mundial traz uma série de consequências para o trabalhador brasileiro. Uma delas – e talvez a principal – é o crescimento do desemprego (que ultrapassou o número de 13 milhões em 2017). A ausência de uma renda faz com que muitos profissionais busquem por alternativas criativas.A respeito das asserções, assinale a alternativa correta.a
+**II.O atual cenário da crise econômica mundial traz uma série de consequências para o trabalhador brasileiro. Uma delas – e talvez a principal – é o crescimento do desemprego (que ultrapassou o número de 13 milhões em 2017). A ausência de uma renda faz com que muitos profissionais busquem por alternativas criativas.A respeito das asserções, assinale a alternativa correta.**
 A - A asserção I é uma proposição verdadeira, e a II é uma proposição falsa. 
 **b- As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I.** 
 c-  A asserção I é uma proposição falsa, e a II é uma proposição verdadeira. 
 d- As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I. 
 e- As asserções I e II são proposições falsas
+
+27 - O perfil e comportamento empreendedor são essenciais para que haja inovação. Pode-se dizerque é de grande relevância o entendimento do perfil de um empreendedor para analisar o queo impulsiona, mas também para saber quais os tipos de competências regem o seucomportamento. Dessa forma responda, quais os tipos de características que são relevantesno perfil que direcionarão o seu comportamento como empreendedor: 
+a-Definição da carreira que almeja e das formas como interage com clientes e equipe,baseando-se em princípios de alcance de sucesso imediato
+b-Foco no trabalho individual, direcionado para o atendimento de suas expectativasindividuais e destaque entre os demais 
+c-Insubordinação e trabalho individualizado 
+d-Busca por novidades independente de tendências de mercado, pois seu trabalho bemfeito garantirá sucesso
+**e-Definição da carreira, tipos de trabalho que executa, escolha de parceiros e sócios, além do conjunto de características pessoais e fontes de inspiração**
+
+28- O Plano de Negócios é uma metodologia descritiva e analítica da ideia de negócio, quecongrega apresentações, análises e planejamentos e que auxilia o empreendedor a definir se onegócio em que pretende investir é viável economicamente. Ajuda a descrever e também aentender o modelo de negócio da uma empresa. Auxilia na busca do que será necessário paraimplementar o seu negócio. Mostra os custos e as despesas, o investimento inicial necessário,a estratégia de crescimento e de marketing e vendas, e também a projeção de receita e lucropara os próximos anos. Demonstrar a viabilidade ou não de seu empreendimento.
+
+**aO trecho acima está correto pois o plano de negócios permite olhar para o futuro alocando recursos humanos, tecnológicos e financeiros, observando pontos-chave eoportunidades, antecipando possíveis dificuldades** 
+bO trecho acima está incorreto pois seu descritivo não caracteriza o plano de negócios esim o mapa mental 
+cO trecho acima está incorreto pois o plano de negócios não permite olhar para o futuroalocando recursos humanos, tecnológicos e financeiros, observando pontos-chave eoportunidades, antecipando possíveis dificuldades 
+dO trecho acima está incorreto pois seu descritivo não caracteriza o plano de negócios esim o design thinking 
+eO trecho acima está incorreto pois seu descritivo não caracteriza o plano de negócios esim o modelo de negócios Canvas
