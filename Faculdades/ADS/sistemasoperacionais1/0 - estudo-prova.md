@@ -153,7 +153,7 @@ dsadd user cn="adalgisa monteiro", ou=Temp, dc=Senac, dc=local -samid Amonteiro 
 
 
 8 -> Em um domínio de rede Microsoft com servidores Windows Server 2019, a
-autenticação de usuários utiliza o protocolo Kerberos. Esse protocolo exige
+autenticação de usuários utiliza o protocolo **Kerberos.** Esse protocolo exige
 um serviço imprescindível para o seu funcionamento. Assinale a alternativa
 que corresponde a esse serviço.
 
@@ -162,7 +162,6 @@ a- IPSEC
 b- RRAS
 
 **c-  DNS**** -> correta
-**
 d - RADIUS
 
 e - DHCP
