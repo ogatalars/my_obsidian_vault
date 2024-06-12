@@ -1,9 +1,9 @@
 1 -> Como forma de buscar a sobrevivência da empresa em um mercado cada vez mais
 competitivo, faz-se necessário o investimento em inovação. Nesse contexto, e com o
 intuito de unificar as definições e facilitar o entendimento, em janeiro de 2016, foi
-publicada a Lei no 13.243, que dispõe sobre estímulos ao desenvolvimento científico, à
+publicada a Lei no **13.243**, que dispõe sobre estímulos ao desenvolvimento científico, à
 pesquisa, à capacitação científica e tecnológica e à inovação, alterando o conteúdo de
-algumas leis anteriores. Quanto as formas de financiamento, responda:
+algumas leis anteriores. Quanto as formas de **financiamento,** responda:
 
 a São fontes de financiamento no Brasil apenas os órgãos que se associam às leis de
 incentivo como benefícios, incentivos fiscais, deduções legais, comitês de auxílio
@@ -27,13 +27,13 @@ Para qualquer ideia ser posta em prática um empreendedor tem que conhecer a ár
 que pretende atuar. Gerar ideias a partir do mercado implica em observar atentamente o
 mundo que o cerca. A inspiração pode surgir de algumas situações mais comuns, são
 elas:
-**I** – Análise do comportamento do mercado consumidor identificando-se elementos que
-levem à projeção de tendências de consumo.
-**II** – Identificação de carência de um bem ou serviço para o qual há uma demanda não
-atendida ou possibilidade de sua melhoria.
+**I – Análise do comportamento do mercado consumidor identificando-se elementos que**
+**levem à projeção de tendências de consumo.**
+**II – Identificação de carência de um bem ou serviço para o qual há uma demanda não**
+**atendida ou possibilidade de sua melhoria.**
 III – Análise da lucratividade de empresas já existentes e perenes no mercado. x
-**IV** – Percepção da possibilidade de criação de um negócio similar a um produto ou
-serviço já existente em outro local ou contexto.
+**IV – Percepção da possibilidade de criação de um negócio similar a um produto ou**
+**serviço já existente em outro local ou contexto.**
 Assinale a alternativa correta:
 a Estão corretas as alternativas I, II, III e IV
 

@@ -95,7 +95,7 @@ I. As operações de push e pop são responsáveis, respectivamente, por inserir
 
 início da fila;
 
-II. A fila é um tipo de lista linear conhecida como LIFO (Last In First Out);
+II. A fila é um tipo de lista linear conhecida como LIFO (Last In First Out); x
 
 **III. A pilha é um tipo de dado abstrato em que a inserção de um item sempre se dá em seu topo;**
 
