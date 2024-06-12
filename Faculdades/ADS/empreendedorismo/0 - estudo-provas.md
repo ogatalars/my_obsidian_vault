@@ -196,7 +196,7 @@ tem caráter mundial.
 
 8 - Enquanto o empreendedorismo por necessidade está mais suscetível à conjuntura
 econômica dos países e tende a diminuir quando a oferta de emprego é maior, o
-empreendedorismo por oportunidade tem maiores chance de sucesso e tem um forte
+**empreendedorismo por oportunidade** tem maiores chance de sucesso e tem um forte
 impacto sobre o crescimento econômico de um país. (Governo do Brasil, 2012 -
 Oportunidade e necessidade).
 Considerando as informações desse texto, avalie as afirmações a seguir:
