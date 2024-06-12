@@ -43,8 +43,8 @@ c Estão corretas as alternativas I e II
 e Apenas a alternativa III está correta
 
 3 - Pode-se entender o comportamento do empreendedor por meio de características fortes
-que definem o seu perfil. O perfil empreendedor é formado pelas crenças, valores,
-personalidades e predisposição, além de diferentes fontes de inspiração que resultam
+que definem o seu perfil. **O perfil empreendedor é formado pelas crenças, valores,**
+**personalidades e predisposição**, além de diferentes fontes de inspiração que resultam
 em um conjunto de competências comuns. Portanto, são competências comuns dos
 empreendedores
 **I** **- Comprometimento, determinação, perseverança e foco nos resultados.**
@@ -90,7 +90,7 @@ c Apenas a alternativa II está correta
 
 e Estão corretas as alternativas I, III e IV
 
-5 -A definição mais atual de Start-up, que parece satisfazer a diversos especialistas e
+5 -A definição mais atual de **Start-up,** que parece satisfazer a diversos especialistas e
 investidores: uma startup é um grupo de pessoas à procura de um modelo de negócios
 repetível e escalável, trabalhando em condições de extrema incerteza (Folha de São
 Paulo, 2016 – Incubadoras de start-up em SP atraem jovens em busca de ideias
@@ -111,8 +111,8 @@ d II, apenas
 e I e III, apenas
 
 6 -O Brasil, apesar de ter uma população criativa e ter um índice alto de
-empreendedorismo por necessidade e por oportunidade deixa a desejar em relação a
-inovação estruturada para o desenvolvimento da economia. O Brasil está me 56o lugar no
+empreendedorismo por necessidade e por oportunidade **deixa a desejar em relação a**
+**inovação estruturada para o desenvolvimento da economia.** O Brasil está me 56o lugar no
 ranking dos países inovadores, ou seja, essa estratégia não é considerada nas empresas e
 organizações.
 Considerando esse contexto, avalie as asserções a seguir e a relação proposta entre elas.
