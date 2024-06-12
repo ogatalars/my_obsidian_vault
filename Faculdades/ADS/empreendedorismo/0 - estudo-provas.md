@@ -309,9 +309,9 @@ da visão e paixão dos funcionários com a redução da rotatividade.
 **resultados diferentes reduzindo a rotatividade por meio de uma nova cultura**
 **organizacional.**
 
-13 - Existem diversos tipos de empreendedores e empreendedorismo, “o empreendedorismo social tem a necessidade de ter suas ações desenvolvidas com um grupo coeso, que possui mesma
-missão e foco em comum e que desejam alcançar os mesmos objetivos com utilização racional do
-capital empreendido e melhor uso dos recursos humanos, econômicos e sociais”.
+13 - Existem diversos tipos de empreendedores e empreendedorismo, **“o empreendedorismo social tem a necessidade de ter suas ações desenvolvidas com um grupo coeso, que possui mesma**
+**missão e foco em comum e que desejam alcançar os mesmos objetivos com utilização racional do**
+**capital empreendido e melhor uso dos recursos humanos, econômicos e sociais”.**
 Considerando esse contexto, avalie as asserções a seguir e a relação proposta entre elas.
 
 I. O empreendedorismo social não pode ser considerado uma forma de empreendedor pois
@@ -348,8 +348,8 @@ As asserções I e II são proposições verdadeiras, mas a II não é uma
 
 justificativa correta da I
 
-14 - Assinale a alternativa que melhor justifique a frase “a ação empreendedora como estímulo ao
-desenvolvimento individual e coletivo deve ser focado na ética nos negócios”:
+14 - Assinale a alternativa que melhor justifique a frase “**a ação empreendedora como estímulo ao**
+**desenvolvimento individual e coletivo deve ser focado na ética nos negócios”**:
 
 **a Sim, a ética empresarial deve ser norteadora das decisões e comportamentos**
 
@@ -385,7 +385,7 @@ Não, a ética empresarial deve ser norteadora das decisões e comportamentos
 
 apenas nos negócios sociais
 
-15 - A Economia Criativa faz com que os empreendedores repensem as relações sociais, econômicas e sustentáveis, como uma inciativa transformadora que visa utilizar a criatividade e a partir dela gerar resultados. Portanto, pode-se reafirmar sobre a Economia Criativa:
+15 - **A Economia Criativa faz com que os empreendedores repensem as relações sociais, econômicas e sustentáveis,** como uma inciativa transformadora que visa utilizar a criatividade e a partir dela gerar resultados. Portanto, pode-se reafirmar sobre a Economia Criativa:
 
 a
 
@@ -415,7 +415,7 @@ Que tem um papel multidisciplinar relevante para sua execução, mas que só fun
 
 se aplicada a um contexto específico
 
-16 - Um potencial dentro da Economia Criativa são as Cidades Criativas, que encontram um nicho
+16 - Um potencial dentro da Economia Criativa são as **Cidades Criativas,** que encontram um nicho
 
 cultural, religioso ou mesmo de entretenimento que possibilitam o desenvolvimento coletivo de
 
@@ -451,13 +451,7 @@ e
 
 As asserções I e II são proposições falsas
 
-16 - Para Pereira e Kruglianskas (2005), ao destacar a inovação como foco principal, a Lei da Inovação
-
-estabelece que o investimento desprendido no apoio à ciência, à tecnologia e à pesquisa e ao
-
-desenvolvimento deve gerar, como resultado para o mercado, a transformação e a oferta de novos
-
-produtos e processos. Os eixos principais para essa perspectiva são:
+16 - Para Pereira e Kruglianskas (2005), ao destacar a inovação como foco principal, a Lei da Inovação estabelece que o investimento desprendido no apoio à ciência, à tecnologia e à pesquisa e ao desenvolvimento deve gerar, como resultado para o mercado, a transformação e a oferta de novos produtos e processos. Os eixos principais para essa perspectiva são:
 
 **I – A constituição de um ambiente propício a parcerias estratégicas entre universidades, institutos ***tecnológicos e empresas.**
 
@@ -489,8 +483,8 @@ Estão corretas as alternativas I, II, III e IV
 
 **e - Estão corretas as alternativas I, III e IV** 
 
-17 - O conceito de inovação deve estar associado ao de evolução pois é o que faz
-com que o homem saia da zona de conforto em busca da satisfação das suas
+17 - **O conceito de inovação deve estar associado ao de evolução pois é o que faz**
+**com que o homem saia da zona de conforto** em busca da satisfação das suas
 necessidades. Em empreendedorismo podemos dizer que a inovação deve
 ser sistêmica além de
 **a Ter valor mensurável, exigir investimento e desenvolvimento sustentável,**
@@ -535,15 +529,15 @@ criatividade, a cultura, as artes e, assim, a economia criativa consegue
 requalificar as disciplinas que visam estimular o senso estético, o fazer
 artístico, criar novas soluções para o coletivo, exercitar a imaginação, com o
 objetivo de criar novas formas de ver, interpretar e solucionar problemas
-cotidianos. A partir de suas características é correto afirmar a respeito da
-Economia Criativa:
+cotidianos. **A partir de suas características é correto afirmar a respeito da**
+**Economia Criativa:**
 a É uma forma de inovar as atuações na manufatura, agricultura e comércio
 b O conceito de economia criativa apesar de caracterizado como economia é
 mais voltado para o desenvolvimento de conteúdos de manufatura, agricultura
-e comércio com foco nas ações criativa possíveis
+e comércio com foco nas ações criativa possíveis x
 c O conceito de economia criativa apesar de caracterizado como economia é
 mais voltado para o desenvolvimento em conteúdos artísticos, estéticos, de
-arquitetura que não geram lucro ou renda direta para economia
+arquitetura que não geram lucro ou renda direta para economia x
 **d Movimentam a criação de empregos, de exportação de produtos culturais e**
 **regionais, inclusão social, desenvolvimento humano, integração da economia**
 **tradicional a propriedade intelectual e a promoção da inovação política**
@@ -572,7 +566,7 @@ c Estão corretas as alternativas I, II e IV
 d Apenas a alternativa III está correta
 **e Estão corretas as alternativas II, III e IV**
 
-21 - Quando o paranaense Ycaro Martins fundou a Cash Auto, 2016, ele tinha uma
+21 - Quando o paranaense Ycaro Martins fundou a **Cash Auto,** 2016, ele tinha uma
 ideia em mente: vender carros em até 50 minutos no máximo. A proposta deu
 certo e virou um negócio que fatura R$ 25 milhões por ano. A plataforma
 permite que os donos cadastrem seus veículos e escolham as melhores
@@ -601,9 +595,203 @@ oportunidade e uma justificativa;
 incremental existe no negócio Cash Auto e uma justificativa.
 
 **Resposta esperada:**
-1.O tipo é empreendedorismo por oportunidade. Esse tipo é resultante da
+1.**O tipo é empreendedorismo por oportunidade.** Esse tipo é resultante da
 observação do empresário de um contexto, observação de uma demanda e a
 experiência profissional dele neste mercado.
-2.A inovação é por processo. A inovação percebida no texto é do tipo por
+**2.A inovação é por processo.** A inovação percebida no texto é do tipo por
 processo, ou seja, uma mudança significativa na maneira de produzir, no caso
 um serviço.
+
+22 - 1O___________________ escreve modelo de negócio como um conjunto de da dos e
+outras evidencias que apresentam: a proposta d e valor aos clientes, a estrut ura viável
+de receitas e os custos para entregar esse valor. É a possibil idade de visualizar a
+descrição do negócio, das partes que o compõem, de forma que a ideia sobre o negócio
+seja visualizada como um sist ema, constituído de diferentes partes que se i ntegram e interdependente entre si. Estamos tratando do:
+
+a Do plano de negócios
+
+**b Do modelo de negócios Canvas**
+
+c Do mapa mental
+
+d Design thinking
+
+e Do relatório de resultados
+
+23 - 
+Quando se estuda a Economia Criativa, associada as questões do empreendedorismo
+
+abarca-se uma nova oportunidade de negócio que envolve setores da cultura e
+
+incorpora outros setores que não são tradicionalmente associados a Economia, como
+
+arquitetura, moda, indústria de conteúdo, entre outros.
+
+Considerando esse contexto , avalie as asserções a seguir e a relação proposta entre
+
+elas.
+
+**I. A Economia Criativa é um modelo de negócio baseado no conhecimento,**
+
+**criatividade capital intelectual com objetivo de gerar renda e trabalho.**
+
+PORQUE
+
+II. A Economia Tradicional não é capaz de abarca r mudanças sociais e conceituais,
+
+uma vez que é o estudo no qual a sociedade desfru ta apenas de recursos que possui
+
+(recursos limitados e finitos) ao contrário dos desejos e necessidades da s pessoas
+
+(ilimitados).
+
+A respeito dessas asserções, assinale a opção corre ta.
+
+**a A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.**
+
+b As asserções I e II são proposições falsas.
+
+c A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.
+
+d As asserções I e II são proposições verdadeiras, mas a II não é uma
+
+justificativa correta da I.
+
+e As asserções I e II são proposições verdadeiras, e a II é uma justificativa
+
+correta da I.
+
+24 - O conceito de inovação deve estar associado ao de evolução pois é o que faz com que
+
+o homem saia da zona de conforto em busca da satisfação das suas necessidades. Em
+
+empreendedorismo podemos dizer que a inovação deve ser sistêmica, entretanto o
+
+**Brasil encontra-se em 56º lugar no ranking dos países inovadores, isso se dá por que?**
+
+a O Brasil não vê esse como o seu objetivo principal uma vez que investe
+
+atualmente em segmentos e áreas que precisam ser aprimorados e não
+
+inovados
+
+b O Brasil tem grande investimento em in ovação e um potencial muito
+
+desenvolvido, mas ainda não há interesse suficiente para competir com
+
+grandes potencias como a China, por exemplo
+
+**c O Brasil não investe em conhecimento, educação e tecnologia de forma**
+
+**suficiente para o desenvolvimento de novas tendências de inovação, além de**
+
+**não criar incentivos fiscais**
+
+d
+
+No Brasil, o baixo índice de escolaridade faz com que as pessoas não
+
+enxerguem alternativas para inovar
+
+e
+
+No Brasil devido a falta dos incentivos fiscais, faz com que os
+
+empreendedores “quebrem” com pouco tempo de a tuação, assim não se
+
+desenvolvendo por meio da inovação
+
+25 -
+Considere os dois textos a seguir para responder ao que se pede.
+
+1.Cidades Criativas são lugares para trabalhar, morar e se divertir, onde as coisas
+
+acontecem e se transformam com incrível dinamismo ”, afirma a economista Ana Carla
+
+Fonseca, autora de Economia da Cultura e Desenvolvimento Sustentável. “Mas por
+
+mais criativo que alguém seja, precisa de estratégias que transformem seu talento em
+
+resultados concretos”, afirma a economista. O lado concreto da criatividade em uma
+
+cidade será favorecido pelos seguintes fatores: a) I novação_Científica, cultural e
+
+social, como registros de patentes, novos produtos e projetos tecnológicos. Realização
+
+de mutirões, ter moedas sociais e gêneros musicais in clusivos; b)Conexão_Ligação
+
+eficiente entre o local e o global. Mobilida de, espaços públicos vivos e inclusão social
+
+e digita; c) Cultura_
+
+Setores criativos devem gerar impacto na economia geral, como a
+
+moda na indústria têxtil. Isso agrega valor e propicia um ambiente inovador. Bem-
+
+estar
+
+e identidade são valores intrínsecos à cultura; d) Tale nto_Medido pela quantidade de
+
+patentes, doutores e profissionais de setores tão variados como engenha ria, teatro,
+
+biotecnologia, educação, arquitetura, moda, cinem a; e)Tolerância_Avalia quão
+
+secular ou individualista é a cultura de um lugar p elos valores tradicionais, como
+
+religião e nacionalismo. E individuais, como aut oexpressão, democracia, presença de
+
+boêmios; f) Tecnologia_Mede o nível de projetos de pesquisa e desenvolviment o e de
+
+inovação em ciência, cultura e sociedade (adaptad o de Ana Carla Fonseca, autora de
+
+Economia da Cultura e Desenvolvimento Sustentável).
+
+2.Guaramiranga no Brasil é uma cidade de menos de 5 mil habitantes, cravada na
+
+região serrana do Ceará, a cidade oferece ao mund o um Festival Internacional de J azz
+
+e Blues que atrai turistas interessados em música de qualid ade. Em 11 edições, o
+
+festival reuniu gente como Stanle y Jordan e Jean-
+
+Jacques Milteau, além dos brasil eiros
+
+Hermeto Pascoal, Egberto Gismonti e talentos regionais. Guaramiranga conserva a
+
+tradição da música e dos saraus literários deix ada pela elite cearense, que fugia do
+
+calor do verão da capital, no iníc io do século passado. “Essa vocação estava presente
+
+de forma amadora e espontânea. Então, percebemos que o pote ncial criativo do
+
+cearense não estava no Carnaval, mas na qualidade de seus músicos”, diz a
+
+antropóloga Rachel Guadelha, sócia-fundadora da produtora Via de Comunicação.
+
+“Encontramos no jazz o gênero onde a criatividad e fica mais evidente. ”Na primei ra
+
+edição do festival, em 2000, não havia hotéis ou restaurantes n a cidade. Foi preciso
+
+convencer os moradores a oferecer suas casas para hospeda gem. Hoje Guaramiranga
+
+tem pousadas, cafés, galerias e serviços que també m atendem a população local. Em
+
+2005, o festival gerou mais de R$ 3 milh ões para o município, o equivalente a dez
+
+meses de arrecadação de impost os. Hoje, a metade da população que trabalhava na
+
+prefeitura transferiu-se para o turismo cultural e ecológico sociedad e (adaptado de
+
+FONSECA, Ana Carla. Economia da Cultura e Desenvolviment o Sustentável, O
+
+caleidoscópio da Cultura. Ed. Manole, 2006).
+
+A partir dos textos, elabore um comentário que aborde o seguinte:
+
+a) Destaque dois fatores justificadores para o reconhecimento de Guaramiranga como
+
+cidade criativa.
+
+b) Uma interpretação de como são esses fatores (item a) na cidade criativa de
+
+Guaramiranga.
