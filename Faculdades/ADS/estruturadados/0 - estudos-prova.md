@@ -33,7 +33,7 @@ c **O algoritmo B é o menos eficiente.** -> resposta certa
 d O algoritmo A não é o mais eficiente nem o menos eficiente.
 e O algoritmo C é o menos eficiente.
 
-4 - A pesquisa em profundidade de um grafo (depth-first search – DFS) consiste basicamente
+4 - A pesquisa em profundidade de um **grafo** (depth-first search – DFS) consiste basicamente
 em, a partir de um determinado vértice, visitar recursivamente cada nó adjacente ainda
 não visitado até encontrar um vértice que não tenha vértices adjacentes ainda não
 visitados. Para implementar a operação DFS do TAD grafo, é necessária a utilização de
