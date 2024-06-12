@@ -795,3 +795,21 @@ cidade criativa.
 b) Uma interpretação de como são esses fatores (item a) na cidade criativa de
 
 Guaramiranga.
+
+**RESPOSTA**:
+Que o aluno comente que Guaramiranga reúne todos os fatores que  caracteriz am uma cidade como criativa, a saber: inovação, conexão, cultura, talento, tolerância e tecnologia. E assim ele poderia exemplifi car quaisquer dos dois fatores abaixo. Inovação: pousadas, cafés, galerias e serviços que também atendem a popul ação local Conexão: jazz o gênero onde a criatividade fica mais evidente  Cultura: conserva a tradição da música e dos sar aus literários deixada pela elit e 
+cearense, que fugia do calor do verão da capital, no iní cio do século passado. Talento: a metade da população que trabalhav a na prefeitura transferiu-se para o turismo cultural e ecológico e ou O festival gerou mais de  R$ 3 milh ões para o município, o equivalente a dez meses de arrecadaçã o de impostos. Tolerância: Foi preciso convencer os moradores a  oferecer suas casas para hospedagem 6. Tecnologia: o texto não aponta, mas o aluno poderia deduzir que como o festiva l é internacional
+
+26 -Empreendedores por oportunidade optam por iniciar um novo negócio, mesmo quandopossuem alternativas de emprego. Eles têm níveis de capacitação e escolaridade mais altos e empreendem para aumentar sua renda ou pelo desejo de independência no trabalho. (Governodo Brasil, 2012 - Oportunidade e necessidade).
+Considerando as informações desse texto, avalie as afirmações a seguir:
+
+I.O brasileiro voltou a empreender motivado por oportunidades em nichos, de acordo com pesquisa do instituto GEM (2017). Conforme a pesquisa, 75% dos empreendedores  decidiram abrir um negócio porque viram o potencial de sucesso de um segmento específico, sendo que quase metade dos novos empreendedores tem pelo menos o segundo grau completo. Entre os novos empresários que estão cursando ou já completaram o ensino superior, 92% iniciaram onegócio por oportunidade.
+
+PORQUE
+
+II.O atual cenário da crise econômica mundial traz uma série de consequências para o trabalhador brasileiro. Uma delas – e talvez a principal – é o crescimento do desemprego (que ultrapassou o número de 13 milhões em 2017). A ausência de uma renda faz com que muitos profissionais busquem por alternativas criativas.A respeito das asserções, assinale a alternativa correta.a
+A - A asserção I é uma proposição verdadeira, e a II é uma proposição falsa. 
+**b- As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I.** 
+c-  A asserção I é uma proposição falsa, e a II é uma proposição verdadeira. 
+d- As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I. 
+e- As asserções I e II são proposições falsas
