@@ -152,7 +152,7 @@ nacionalismo. E individuais, como autoexpressão, democracia, presença de boêm
 Tecnologia_Mede o nível de projetos de pesquisa e desenvolvimento e de inovação em
 ciência, cultura e sociedade (adaptado de Ana Carla Fonseca, autora de Economia da
 Cultura e Desenvolvimento Sustentável).
-2.Paraty no Brasil é uma cidade com bela arquitetura colonial, preservada, não há carros
+2.**Paraty** no Brasil é uma cidade com bela arquitetura colonial, preservada, não há carros
 no Centro e o calçamento de paralelepípedos mantém o charme do passado. Há anos,
 entre julho e agosto, a cidade vive uma efervescência literária. Neste ano (2018),
 moradores e turistas cruzaram nas ruas com as escritoras Isabel Allende e Azar Nafisi, o
