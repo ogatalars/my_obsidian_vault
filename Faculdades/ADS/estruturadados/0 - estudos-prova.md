@@ -76,7 +76,7 @@ Resposta: **A lista ligada é uma estrutura de dados composta por um conjunto de
 **como um tipo abstrato de dados. A operação de inserção adiciona um elemento ao início da**
 **lista e a operação de remoção remove um elemento do início da lista.**
 
-8 -> Considerando a árvore binária da figura a seguir, qual das alternativas apresenta a lista de dados que resulta do caminhamento pós-fixado dessa árvore?
+8 -> Considerando a **árvore binária** da figura a seguir, qual das alternativas apresenta a lista de dados que resulta do caminhamento pós-fixado dessa árvore?
 
 a-H, G, F, E, D, C, B, A.
 
