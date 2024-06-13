@@ -57,7 +57,7 @@ Core” inclui a maioria das funções de servidor, mas não todas. O “Server 
 em disco menor e, portanto, uma superfície de ataque menor devido a uma base de código
 menor. No entanto, a opção de instalação servidor com experiência desktop ainda instala
 muitos serviços e outros componentes que geralmente não são necessários para um cenário
-de uso específico. É aí que o “Server Core” entra em cena: a instalação elimina todos os
+de uso específico. É aí que o **“Server Core”** entra em cena: a instalação elimina todos os
 serviços e outros recursos que não são essenciais para o suporte de certas funções de
 servidor usadas com frequência. Por exemplo, um servidor Hyper-V não precisa de uma GUI
 (interface gráfica do usuário), pois você pode gerenciar praticamente todos os aspectos do
@@ -108,7 +108,7 @@ principal função é definir as prioridades e gerenciar as filas de impressão,
 trabalhos sejam distribuídos da melhor forma possível. Além disso há diversas funções
 auxiliares, como a capacidade de inspecionar a fila de tarefas, reordenar ou excluir trabalhos
 em espera e fazer vários tipos de contabilidade. Eu um determinado momento do dia a
-Impressora “deu pau”, e está imprimindo um monte de caracter estranho. Qual comando abaixo
+**Impressora “deu pau”**, e está imprimindo um monte de caracter estranho. Qual comando abaixo
 faz PARAR o serviço de Spooler de impressão?
 a Net start spooler
 b CLS
