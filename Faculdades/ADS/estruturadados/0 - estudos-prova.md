@@ -1,4 +1,4 @@
-1 - Em uma estrutura de arvore binária de busca, foram inseridos os elementos "h", "a", "b",
+1 - Em uma estrutura de a**rvore binária de busca**, foram inseridos os elementos "h", "a", "b",
 "c", "i", "j", nesta sequência. O tamanho do caminho entre um nó qualquer da árvore e a
 raiz é dado pelo número de arestas neste caminho. Qual o tamanho do maior caminho
 na árvore, após a inserção dos dados acima?
@@ -46,10 +46,10 @@ c Matriz
 d Vetor
 e Lista ligada
 
-5 - Uma lista ligada é uma estrutura de dados composta de um conjunto de elementos
-denominados nós – organizados e encadeados em sequência – que possui dois
-operadores básicos ins(valor), que inserem valor no início da lista, e rem(), que remove o
-valor do início da lista. Considerando que uma lista ligada já esteja carregada com os
+5 - **Uma lista ligada é uma estrutura de dados composta de um conjunto de elementos**
+**denominados nós – organizados e encadeados em sequência – que possui dois**
+**operadores básicos ins(valor), que inserem valor no início da lista, e rem(), que remove o**
+**valor do início da lista**. Considerando que uma lista ligada já esteja carregada com os
 valores (88, 34, 23, 51), indique qual das alternativas apresenta o resultado final obtido
 após a aplicação das operações rem(), rem(), ins(10), ins(12), rem(), rem(), rem(), ins(100)
 a essa lista ligada.
@@ -72,7 +72,7 @@ d Programação Imperativa (PI)
 7 -> Explique sucintamente o conceito da lista ligada e suas operações de adição e remoção
 de nós.
 Resposta: **A lista ligada é uma estrutura de dados composta por um conjunto de elementos,**
-**denominados “nós”. Cada elemento é um nó que contém uma referência para o próximo nó na lista, onde são organizados e encadeados em sequência, e que pode ser representado**
+**denominados “nós”. Cada elemento é um nó que contém uma referência para o próximo nó na lista, de forma que são organizados e encadeados em sequência, e que pode ser representado**
 **como um tipo abstrato de dados. A operação de inserção adiciona um elemento ao início da**
 **lista e a operação de remoção remove um elemento do início da lista.**
 
@@ -93,7 +93,7 @@ e-**D, H, E, B, F, G, C, A** -> **CORRETA
 
 I. As operações de push e pop são responsáveis, respectivamente, por inserir e remover itens do
 
-início da fila;
+início da fila; x
 
 II. A fila é um tipo de lista linear conhecida como LIFO (Last In First Out); x
 
