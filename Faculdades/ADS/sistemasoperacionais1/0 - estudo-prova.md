@@ -24,7 +24,7 @@ na rede, o AD DS é o principal meio pelo qual você pode configurar e gerenciar
 usuário e computador em sua rede. Após instalar o Serviço do AD DS, e configurar o ambiente
 de domínio Senac.local, o Snap-in do gerenciador do AD disponibiliza uma estrutura
 hierárquica para administrar o ambiente (Mostrado na imagem). Supondo que você fosse criar
-uma área para armazenar os usuários do Departamento de CONTABILIDADE, qual tipo de
+uma área para armazenar os usuários do Departamento de **CONTABILIDADE**, qual tipo de
 objeto você criaria?
 
 a Árvore: trata-se de uma organização hierárquica de um ou mais Domínios. Todos os
