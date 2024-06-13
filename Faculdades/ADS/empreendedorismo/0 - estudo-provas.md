@@ -603,8 +603,8 @@ processo, ou seja, uma mudança significativa na maneira de produzir, no caso
 um serviço.
 
 22 - 1O___________________ escreve modelo de negócio como um conjunto de da dos e
-outras evidencias que apresentam: a proposta d e valor aos clientes, a estrut ura viável
-de receitas e os custos para entregar esse valor. É a possibil idade de visualizar a
+outras evidencias que apresentam: a proposta d e valor aos clientes, a estrutura viável
+de receitas e os custos para entregar esse valor. É a possibilidade de visualizar a
 descrição do negócio, das partes que o compõem, de forma que a ideia sobre o negócio
 seja visualizada como um sist ema, constituído de diferentes partes que se i ntegram e interdependente entre si. Estamos tratando do:
 
