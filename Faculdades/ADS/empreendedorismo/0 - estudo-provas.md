@@ -491,14 +491,14 @@ ser sistêmica além de
 **transformar o comportamento e a cultura organizacional e provocar mudanças**
 **em um negócio/segmento como todo.**
 b Apresentar-se como uma mudança radical que se destaque pela sua
-autenticidade e criatividade.
+autenticidade e criatividade. x
 c Um processo incentivado pela criatividade, ou seja, a busca da criatividade
 pura que será desenvolvida por apenas pessoas específicas com conhecimentos
-diferenciados.
+diferenciados. 
 d Não ter valor mensurável pois está associada à criatividade que deve ser livre
-para ser melhor reconhecida nos contextos.
+para ser melhor reconhecida nos contextos. x
 e Se subdividir em tipos de inovação que alteram a percepção do consumidor
-final.****
+final.  x****
 
 18 - O Brasil, apesar de ter uma população criativa e ter um índice alto de
 empreendedorismo por necessidade e por oportunidade deixa a desejar em
