@@ -359,9 +359,9 @@ b
 
 Sim, a ética empresarial deve ser norteadora das decisões e
 
-comportamentos, mas apenas quando exigidos pelo departamento de gestão
+comportamentos, **mas apenas** quando exigidos pelo departamento de gestão
 
-de pessoas
+de pessoas x
 
 c
 
@@ -375,9 +375,9 @@ d
 
 Sim, a exigência da ética empresarial deve ser valorizada no desenvolvimento
 
-coletivo, porém não gera benefícios financeiros e encarece o produto, o que
+coletivo, porém **não gera benefícios financeiros** e encarece o produto, o que
 
-muitas vezes não é bem recebido pelo cliente final
+muitas vezes não é bem recebido pelo cliente final x
 
 e
 
