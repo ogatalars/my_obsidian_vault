@@ -54,7 +54,7 @@ III – Foco no trabalho individualizado e direcionado para seu sucesso pessoal.
 **IV – Ética e responsabilidade social, criatividade e inovação e desenvolvimento de**
 **equipes.**
 V – Criação de produtos e serviços que beneficiem seu crescimento profissional de forma
-independente e sem vínculos.
+independente e sem vínculos. x
 a Estão corretas as alternativas I, II, V
 b Estão incorretas as alternativas II, III e V
 
