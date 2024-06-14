@@ -606,7 +606,7 @@ um serviço.
 outras evidencias que apresentam: a proposta de valor aos clientes, a estrutura viável
 de receitas e os custos para entregar esse valor. É a possibilidade de visualizar a
 descrição do negócio, das partes que o compõem, de forma que a ideia sobre o negócio
-seja visualizada como um sistema, constituído de diferentes partes que se i ntegram e interdependente entre si. Estamos tratando do:
+seja visualizada como um sistema, constituído de diferentes partes que se integram e interdependente entre si. Estamos tratando do:
 
 a Do plano de negócios
 
@@ -697,7 +697,7 @@ e
 
 No Brasil devido a falta dos incentivos fiscais, faz com que os
 
-empreendedores “quebrem” com pouco tempo de a tuação, assim não se
+empreendedores “quebrem” com pouco tempo de atuação, assim não se
 
 desenvolvendo por meio da inovação
 
@@ -756,9 +756,9 @@ festival reuniu gente como Stanle y Jordan e Jean-
 
 Jacques Milteau, além dos brasil eiros
 
-Hermeto Pascoal, Egberto Gismonti e talentos regionais. Guaramiranga conserva a
+Hermeto Pascoal, Egberto Gismonti e talentos regionais. 
 
-tradição da música e dos saraus literários deix ada pela elite cearense, que fugia do
+Guaramiranga conserva a tradição da música e dos saraus literários deix ada pela elite cearense, que fugia do
 
 calor do verão da capital, no iníc io do século passado. “Essa vocação estava presente
 
@@ -797,10 +797,10 @@ b) Uma interpretação de como são esses fatores (item a) na cidade criativa de
 Guaramiranga.
 
 **RESPOSTA**:
-Que o aluno comente que Guaramiranga reúne todos os fatores que  caracteriz am uma cidade como criativa, a saber: inovação, conexão, cultura, talento, tolerância e tecnologia. E assim ele poderia exemplifi car quaisquer dos dois fatores abaixo. Inovação: pousadas, cafés, galerias e serviços que também atendem a popul ação local Conexão: jazz o gênero onde a criatividade fica mais evidente  Cultura: conserva a tradição da música e dos sar aus literários deixada pela elit e 
+Que o aluno comente que Guaramiranga reúne todos os fatores que  caracteriz am uma cidade como criativa, a saber: inovação, conexão, cultura, talento, tolerância e tecnologia. E assim ele poderia exemplificar quaisquer dos dois fatores abaixo. Inovação: pousadas, cafés, galerias e serviços que também atendem a popul ação local Conexão: jazz o gênero onde a criatividade fica mais evidente  Cultura: conserva a tradição da música e dos sar aus literários deixada pela elit e 
 cearense, que fugia do calor do verão da capital, no iní cio do século passado. Talento: a metade da população que trabalhav a na prefeitura transferiu-se para o turismo cultural e ecológico e ou O festival gerou mais de  R$ 3 milh ões para o município, o equivalente a dez meses de arrecadaçã o de impostos. Tolerância: Foi preciso convencer os moradores a  oferecer suas casas para hospedagem 6. Tecnologia: o texto não aponta, mas o aluno poderia deduzir que como o festiva l é internacional
 
-26 -Empreendedores por oportunidade optam por iniciar um novo negócio, mesmo quandopossuem alternativas de emprego. Eles têm níveis de capacitação e escolaridade mais altos e empreendem para aumentar sua renda ou pelo desejo de independência no trabalho. (Governodo Brasil, 2012 - Oportunidade e necessidade).
+26 -Empreendedores por oportunidade optam por iniciar um novo negócio, mesmo quando possuem alternativas de emprego. Eles têm níveis de capacitação e escolaridade mais altos e empreendem para aumentar sua renda ou pelo desejo de independência no trabalho. (Governodo Brasil, 2012 - Oportunidade e necessidade).
 Considerando as informações desse texto, avalie as afirmações a seguir:
 
 **I.O brasileiro voltou a empreender motivado por oportunidades em nichos, de acordo com pesquisa do instituto GEM (2017). Conforme a pesquisa, 75% dos empreendedores  decidiram abrir um negócio porque viram o potencial de sucesso de um segmento específico, sendo que quase metade dos novos empreendedores tem pelo menos o segundo grau completo. Entre os novos empresários que estão cursando ou já completaram o ensino superior, 92% iniciaram o negócio por oportunidade.**
@@ -814,7 +814,7 @@ c-  A asserção I é uma proposição falsa, e a II é uma proposição verdade
 d- As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I. 
 e- As asserções I e II são proposições falsas
 
-27 - O perfil e comportamento empreendedor são essenciais para que haja inovação. Pode-se dizerque é de grande relevância o entendimento do perfil de um empreendedor para analisar o queo impulsiona, mas também para saber quais os tipos de competências regem o seucomportamento. Dessa forma responda, quais os tipos de características que são relevantesno perfil que direcionarão o seu comportamento como empreendedor: 
+27 - O perfil e comportamento empreendedor são essenciais para que haja inovação. Pode-se dizer que é de grande relevância o entendimento do perfil de um empreendedor para analisar o que o impulsiona, mas também para saber quais os tipos de competências regem o seu comportamento. Dessa forma responda, quais os tipos de características que são relevantes no perfil que direcionarão o seu comportamento como empreendedor: 
 a-Definição da carreira que almeja e das formas como interage com clientes e equipe,baseando-se em princípios de alcance de sucesso imediato
 b-Foco no trabalho individual, direcionado para o atendimento de suas expectativasindividuais e destaque entre os demais 
 c-Insubordinação e trabalho individualizado 
