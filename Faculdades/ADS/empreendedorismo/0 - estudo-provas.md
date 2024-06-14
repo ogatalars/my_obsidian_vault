@@ -599,10 +599,10 @@ incremental existe no negócio Cash Auto e uma justificativa.
 observação do empresário de um contexto, observação de uma demanda e a
 experiência profissional dele neste mercado.
 **2.A inovação é por processo.** A inovação percebida no texto é do tipo por
-processo, ou seja, uma mudança significativa na maneira de produzir, no caso
+processo, ou seja, uma mudança significativa na **maneira de produzir,** no caso
 um serviço.
 
-22 - 1O___________________ escreve modelo de negócio como um conjunto de da dos e
+22 - 1O___________________ escreve modelo de negócio como um conjunto de dados e
 outras evidencias que apresentam: a proposta d e valor aos clientes, a estrutura viável
 de receitas e os custos para entregar esse valor. É a possibilidade de visualizar a
 descrição do negócio, das partes que o compõem, de forma que a ideia sobre o negócio
