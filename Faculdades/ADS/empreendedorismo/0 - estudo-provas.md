@@ -637,7 +637,7 @@ elas.
 
 PORQUE
 
-II. A Economia Tradicional não é capaz de abarca r mudanças sociais e conceituais,
+II. A Economia Tradicional não é capaz de abarcar mudanças sociais e conceituais,
 
 uma vez que é o estudo no qual a sociedade desfru ta apenas de recursos que possui
 
@@ -814,11 +814,11 @@ c-  A asserção I é uma proposição falsa, e a II é uma proposição verdade
 d- As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I. 
 e- As asserções I e II são proposições falsas
 
-27 - O perfil e comportamento empreendedor são essenciais para que haja inovação. Pode-se dizer que é de grande relevância o entendimento do perfil de um empreendedor para analisar o que o impulsiona, mas também para saber quais os tipos de competências regem o seu comportamento. Dessa forma responda, quais os tipos de características que são relevantes no perfil que direcionarão o seu comportamento como empreendedor: 
-a-Definição da carreira que almeja e das formas como interage com clientes e equipe,baseando-se em princípios de alcance de sucesso imediato
-b-Foco no trabalho individual, direcionado para o atendimento de suas expectativasindividuais e destaque entre os demais 
+27 - O perfil e comportamento empreendedor são essenciais para que haja inovação. Pode-se dizer que é de grande relevância o entendimento do perfil de um empreendedor para analisar o que o impulsiona, mas também para saber quais os tipos de competências regem o seu comportamento. **Dessa forma responda, quais os tipos de características que são relevantes no perfil que direcionarão o seu comportamento como empreendedor:** 
+a-Definição da carreira que almeja e das formas como interage com clientes e equipe, baseando-se em princípios de alcance de sucesso imediato
+b-Foco no trabalho individual, direcionado para o atendimento de suas expectativas individuais e destaque entre os demais 
 c-Insubordinação e trabalho individualizado 
-d-Busca por novidades independente de tendências de mercado, pois seu trabalho bemfeito garantirá sucesso
+d-Busca por novidades independente de tendências de mercado, pois seu trabalho bem feito garantirá sucesso
 **e-Definição da carreira, tipos de trabalho que executa, escolha de parceiros e sócios, além do conjunto de características pessoais e fontes de inspiração**
 
 28- O Plano de Negócios é uma metodologia descritiva e analítica da ideia de negócio, que congrega apresentações, análises e planejamentos e que auxilia o empreendedor a definir se o negócio em que pretende investir é viável economicamente. Ajuda a descrever e também a entender o modelo de negócio da uma empresa. Auxilia na busca do que será necessário para implementar o seu negócio. Mostra os custos e as despesas, o investimento inicial necessário, a estratégia de crescimento e de marketing e vendas, e também a projeção de receita e lucro para os próximos anos. Demonstrar a viabilidade ou não de seu empreendimento.
@@ -847,4 +847,4 @@ Empreendedorismo de Oportunidade no Kumon
 
 **Inovação Incremental no Método Kumon**
 
-Quanto ao tipo de inovação presente no negócio Kumon, trata-se de uma inovação incremental. O método Kumon não revolucionou completamente o sistema educacional existente (o que seria uma inovação disruptiva), mas melhorou significativamente a maneira como os alunos aprendem matemática e outras disciplinas. Através de exercícios diários e progressivos, o método Kumon aprimorou o processo de aprendizado, permitindo que os alunos desenvolvessem habilidades de estudo autônomas e consistentes. Essa abordagem incremental ao ensino tem se mostrado eficaz ao longo dos anos, adaptando-se e expandindo-se globalmente, mantendo a essência do método original de Toru Kumon.
+Quanto ao tipo de inovação presente no negócio Kumon, **trata-se de uma inovação incremental.** O método Kumon não revolucionou completamente o sistema educacional existente (o que seria uma inovação disruptiva), mas melhorou significativamente a maneira como os alunos aprendem matemática e outras disciplinas. Através de exercícios diários e progressivos, o método Kumon aprimorou o processo de aprendizado, permitindo que os alunos desenvolvessem habilidades de estudo autônomas e consistentes. Essa abordagem incremental ao ensino tem se mostrado eficaz ao longo dos anos, adaptando-se e expandindo-se globalmente, mantendo a essência do método original de Toru Kumon.
