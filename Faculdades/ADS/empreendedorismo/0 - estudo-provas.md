@@ -172,7 +172,7 @@ Desenvolvimento Sustentável).
 A partir dos textos, elabore um comentário que aborde o seguinte:
 a) Destaque dois fatores justificadores para o reconhecimento de Paraty como cidade
 criativa.
-c) Uma interpretação de como são esses fatores (item a) na cidade criativa de Paraty.
+b) Uma interpretação de como são esses fatores (item a) na cidade criativa de Paraty.
 
 **Resposta esperada
 Que o aluno comente que Paraty reúne todos os fatores que caracterizam uma cidade como
@@ -239,7 +239,7 @@ empreender
 comportamentos, competências, interesses, oportunidades e necessidades. Assinale a
 alternativa correta quanto aos diferentes tipos de empreendedores
 I – O empreendedor por necessidade é aquele que visa ganho financeiro em curto prazo
-para melhora da sua qualidade de vida.
+para melhora da sua qualidade de vida. x
 II – O empreendedor por necessidade também pode ser considerado um empreendedor
 por oportunidade, uma vez que só empreenderá em situações como perda de emprego,
 ou complementação de renda.
@@ -250,10 +250,10 @@ V – O bom empreendedor deve ter características tanto de necessidade, como de
 oportunidade, social e de intraempreendedorismo
 
 **a Estão corretas as alternativas III e IV** -> correta
-b Estão incorretas as alternativas I, II e III
+b Estão incorretas as alternativas I, II e III x 
 c Estão corretas as alternativas III e V
-d Estão incorretas as alternativas I e V
-e Estão corretas as alternativas I, II e IV
+d Estão incorretas as alternativas I e V x
+e Estão corretas as alternativas I, II e IV x
 
 11 - **A responsabilidade social e sustentabilidade são preocupações reais na**
 **contemporaneidade.** Entretanto, pode-se dizer que essas ações podem ser incorporadas
@@ -264,7 +264,7 @@ na ação empreendedora como parte do desenvolvimento individual e coletivo?
 **negócios/produtos/serviços, criando valor competitivo à sua marca.** -> Correta
 
 b Não, o papel do empreendedor é se destacar sozinho com a busca contínua pela
-inovação
+inovação x 
 
 c Sim, pois hoje as empresas têm uma exigência maior quanto aos seus resultados,
 garantindo formas alternativas de criação de valor no produto/serviço final, se
@@ -274,7 +274,7 @@ para se desenvolver individualmente, não esperando que ações da empresa o
 levem a isso
 e Não, o papel das organizações é buscar a responsabilidade social e
 sustentabilidade para que sua marca seja bem vista no mercado e se torne mais
-competitiva, não de forma integrativa para o desenvolvimento individual e coletivo
+competitiva, não de forma integrativa para o desenvolvimento individual e coletivo x
 
 12 - **Uma cadeia de restaurantes sediada na Califórnia oferece sanduíches feitos sob**
 **encomenda, usando ingredientes frescos e saudáveis.** Os fundadores da empresa
@@ -369,7 +369,7 @@ A ética atualmente é uma ilusão, pois as empresas não conseguem guiar
 
 seus processos de decisão e de comportamento buscando a ética em seu
 
-desenvolvimento individual e coletivo
+desenvolvimento individual e coletivo x
 
 d
 
@@ -383,7 +383,7 @@ e
 
 Não, a ética empresarial deve ser norteadora das decisões e comportamentos
 
-apenas nos negócios sociais
+apenas nos negócios sociais x
 
 15 - **A Economia Criativa faz com que os empreendedores repensem as relações sociais, econômicas e sustentáveis,** como uma inciativa transformadora que visa utilizar a criatividade e a partir dela gerar resultados. Portanto, pode-se reafirmar sobre a Economia Criativa:
 
