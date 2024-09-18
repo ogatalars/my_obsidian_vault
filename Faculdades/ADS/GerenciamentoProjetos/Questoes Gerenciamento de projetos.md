@@ -177,7 +177,7 @@ Nesta questão o aluno deverá CITAR e descrever os objetivos de cada grupo de p
 
 14 - Você atua como Gerente de Projetos em uma empresa pela qual prove serviços de TI.
 Você é **designado pelo patrocinador para que inicie um projeto**, cujo o escopo é
-implementar um data center em um potencial e estratégico cliente. Um documento foi
+implementar um **data cente**r em um potencial e estratégico cliente. Um documento foi
 assinado descrevendo a necessidade de negócio, a finalidade do produto final do projeto e
 você é anunciado para a organização como gerente do respectivo projeto. Este é um
 exemplo de:

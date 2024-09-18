@@ -145,3 +145,15 @@ gap: 30px;
 padding: 30px; 
 width: 100%
 }
+
+.noticias {
+display: flex; 
+flex-direction: row; 
+flex-wrap: wrap;
+justify-content: flex-start; 
+align-itens: flex-start; 
+gap. 35px; 
+padding: 35px; 
+width: 100%
+
+}

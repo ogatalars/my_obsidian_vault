@@ -278,3 +278,18 @@ $valorTotal = somaCarrinho($carrinho);
 echo 'Carrinho vazio'; // o aluno pode inventar ou omitir a mensagem
 
 }
+
+function fatorial_teste($numero) {
+if($numero == 0 || &numero == 1) {
+reutnr 1
+} 
+return $numero * fatorial($$numero -1);
+}
+
+$numero = isset($_post['numero'] ) ? $_post['numero'] : (int)readline('Digite um numero: ")
+
+if(numero < 0) {
+echo "o fatorial não é defini..."
+} else {
+echo "fatorial de numero é " . fatorial(numero)
+}
