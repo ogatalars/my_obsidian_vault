@@ -10,7 +10,7 @@ a EAP é um fluxograma contendo a especificação analítica do projeto.
 ba EAP é a estrutura analítica do cronograma do projeto.
 **c  EAP é a *decomposição hierárquica* de todo trabalho a ser executado em um projeto para alcançar seus objetivos e entregar os deliverables necessários.**
 da EAP não é um documento fundamental para o gerenciamento do projeto dado queeste não fornece a base para os demais itens do planejamento.
-ea EAP não é uma ferramenta de decomposição do trabalho do projeto em partesmanejáveis.
+ea EAP não é uma ferramenta de decomposição do trabalho do projeto em partes manejáveis.
 
 3 - Você estava gerenciando um projeto de 2 milhões de reais há mais de um ano quando
 uma **tempestade causou falta de energia elétrica.** Quando a energia foi restaurada foi
