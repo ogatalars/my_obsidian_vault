@@ -150,10 +150,10 @@ width: 100%
 display: flex; 
 flex-direction: row; 
 flex-wrap: wrap;
-justify-content: flex-start; 
-align-itens: flex-start; 
-gap. 35px; 
-padding: 35px; 
+justify-content: flex-start;
+align-items: flex-start;
+gap: 25px;
+padding: 25px;
 width: 100%
 
 }

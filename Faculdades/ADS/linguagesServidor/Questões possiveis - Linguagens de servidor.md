@@ -566,7 +566,9 @@ if ($resultado !== null) {
 
 <?php
 
-function fatoraNumero($numero) {
+
+
+function fatorial($numero) {
    if($numero == 0 || $numero==1){
    return 1;
    }

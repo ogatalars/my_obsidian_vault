@@ -79,7 +79,6 @@ CITE quais são as áreas de conhecimento do gerenciamento de projetos. Ao citar
 necessário que você utilize as nomenclaturas corretas, conforme GUIA PMBOK.
 
 **Nesta questão o aluno deverá CITAR as áreas de conhecimento do gerenciamento de**
-
 **projetos, são elas:**
 
 **Integração** , **Escopo**, **Prazo**, **Custo**, **Qualidade**. **Recursos Humanos**, **Comunicações**, **Riscos**, **Aquisições** e , **Partes Interessadas**
@@ -166,10 +165,10 @@ b19 semanas.
 d29 semanas.
 e14 semanas
 
-13 - O “Guia PMBOK” contempla cinco grupos de processos e dez áreas de conhecimento em gestão de projetos, o qual, consideramos como a espinha dorsal para o planejamento de qualquer projeto. Ao gerenciar um projeto, inevitavelmente  o gerentede projetos percorrerá todos os grupos de processos e todas as áreas de conhecimentos, sendo assim CITE quais são os Grupos de Processos do Gerenciamento de Projetos e EXPLIQUE os objetivos de cada grupo de processos. Aocitar é necessário que você utilize as nomenclaturas corretas, conforme  GUIA PMBOK.
+13 - O “Guia PMBOK” contempla **cinco grupos de processos** e dez áreas de conhecimento em gestão de projetos, o qual, consideramos como a espinha dorsal para o planejamento de qualquer projeto. Ao gerenciar um projeto, inevitavelmente  o gerentede projetos percorrerá todos os grupos de processos e todas as áreas de conhecimentos, sendo assim CITE quais são os Grupos de Processos do Gerenciamento de Projetos e EXPLIQUE os objetivos de cada grupo de processos. Aocitar é necessário que você utilize as nomenclaturas corretas, conforme  GUIA PMBOK.
 
 Nesta questão o aluno deverá CITAR e descrever os objetivos de cada grupo de processos, são eles:
-**Iniciação do Projeto** – Elaboração do Termdo de Abertura do Projeto, nomeação do gerente de projetos.
+**Iniciação do Projeto** – Elaboração do Termo de Abertura do Projeto, nomeação do gerente de projetos.
 **Planejamento do Projeto** – Elaboração do Plano de Gerenciamento do Projeto, contemplando às áreas de conhecimento.
 **Execução do Projeto** – Gerenciar e garantir a execução  do projeto.
 **Monitoramento e Controle do Projeto** – Monitorar e Controlar para idenficiar possíveis desvios do planejado e corrigir os desvios. Realizar o controle integrado das mudanças de projetos.
@@ -280,3 +279,85 @@ d 33 dias.
 
 e 16 dias.
 
+21. Caso cai uma questão com DIAS, e não tiver 17 como resposta, 14 é a correta.
+
+22 - Não precisamos pesquisar muito para identificar que a grande maioria dos projetos leva mais tempo do que o planejado para serem concluídos. Considerando este cenário na gestão de projetos no Brasil, descreva quais são os fatos que levam aos atrasos e o que deve ser feito para quando um desvio é identificado.
+
+Os principais fatores que levam aos atrasos em projetos no Brasil incluem:
+
+1. **Escopo mal definido**: Mudanças frequentes ou indefinição do escopo inicial geram atrasos.
+2. **Estimativas imprecisas**: Prazos e custos subestimados, sem considerar imprevistos.
+3. **Falha na gestão de riscos**: Problemas não antecipados, como atrasos de fornecedores ou falhas técnicas.
+4. **Falta de comunicação**: Equipes e partes interessadas mal informadas, causando retrabalho e desalinhamento.
+5. **Recursos insuficientes**: Falta de pessoal ou de materiais adequados compromete o cronograma.
+
+### O que fazer quando um desvio é identificado:
+1. **Identificar a causa** e avaliar o impacto.
+2. **Comunicar as partes interessadas** de forma transparente.
+3. **Revisar o cronograma** e aplicar correções, como redistribuição de recursos ou priorização de atividades.
+4. **Implementar ações corretivas** para mitigar os impactos futuros.
+
+23 - Um projeto foi aprovado com a finalidade de implantar um novo sistema para o
+
+atendimento do **Call Center** da empresa. O gerente de projetos é do departamento de TI
+
+e a equipe pertence aos departamentos de planejamento e de operações. O termo de
+
+abertura do projeto e o plano de gerenciamento do projeto já foram aprovados, mas
+
+uma parte interessada notifica que há uma forma mais rápida e melhor de executar o
+
+projeto. Essa parte interessada até conseguiu provar que a nova maneira é melhor,
+
+mais barata e mais rápida que a anterior. O gerente de projetos teve experiências
+
+semelhantes com seu departamento em outros projetos e estava prevendo que isto
+
+aconteceria neste projeto. Qual é a primeira coisa que o gerente de projetos deveria
+
+fazer?
+
+a)perguntar ao departamento se há outras mudanças.
+
+**b)identificar como esta mudança no cronograma vai impactar sobre os custos e**
+
+**sobre o escopo do projeto.**
+
+c)executar o projeto considerando essa forma mais rápida e transferir a
+
+responsabilidade da gestão do projeto para essa parte interessada.
+
+d)entrar em contato com o departamento e reclamar mais uma vez que eles
+
+perderam o prazo para apresentar o escopo e a estratégia.
+
+e)eliminar toda interferência com origem em outros departamentos
+
+
+24 - O Diretor Executivo determinou que cada pedido de venda será tratado como projeto e
+
+que os gerentes de projetos deverão atualizar o sistema diariamente e garantir o
+
+faturamento do pedido no final de cada mês. O faturamento de cada pedido individual
+
+pode variar de R$ 100,00 até R$ 10.000,00. **O diretor informou também que o gerente**
+
+**de projetos não precisará realizar o planejamento ou fornecer documentação**, com
+
+exceção do relatório de faturamento. Como você definiria esta situação?
+
+aos pedidos com faturamento superior a R$ 10.000,00 seriam considerados
+
+projetos e envolveriam gerenciamento de projetos.
+
+bcomo cada pedido individual é um “empreendimento temporário”, cada pedido é
+
+um projeto.
+
+cisso é gerenciamento de programas, pois há vários projetos envolvidos.
+
+disso é gerenciamento de portfólio, pois há vários programas envolvidos.
+
+**e)_este é um processo recorrente, portanto conceitualmente não pode ser definido**
+
+**como projeto.**
