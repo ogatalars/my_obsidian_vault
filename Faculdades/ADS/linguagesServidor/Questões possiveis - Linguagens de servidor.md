@@ -293,3 +293,285 @@ echo "o fatorial não é defini..."
 } else {
 echo "fatorial de numero é " . fatorial(numero)
 }
+
+
+1-
+**Lucas é um engenheiro de software** com experiência em vários paradigmas de programação, mas recentemente, ele se juntou a uma empresa que trabalha principalmente com PHP para desenvolver aplicações web. Neste novo cargo, Lucas é responsável pelo desenvolvimento de um sistema de gestão de projetos online. Uma das principais características desse sistema é a capacidade de manter os usuários autenticados para que possam acessar seus projetos após o login.
+
+No entanto, Lucas percebeu que alguns usuários estavam tendo problemas com suas sessões, perdendo o acesso enquanto estavam trabalhando em seus projetos. Preocupado com a segurança e a experiência do usuário, Lucas decidiu investigar mais a fundo a forma como as sessões foram implementadas.
+
+Ao analisar o código, Lucas notou que o desenvolvedor anterior não estava usando uma abordagem padrão de gerenciamento de sessões em PHP. Em vez de usar as funções nativas de sessão do PHP, o código tinha uma implementação personalizada que usava cookies diretamente, sem qualquer tipo de criptografia ou validação adequada.
+
+Lucas entende que, para corrigir o problema, ele precisará reescrever a maneira como o sistema lida com as sessões, incorporando as práticas recomendadas para garantir que as sessões sejam seguras e estáveis. Ele decide começar lendo a documentação oficial do PHP sobre sessões e implementa uma solução usando as funções nativas de sessão.
+
+Com base neste cenário, qual das seguintes alternativas representa a abordagem mais apropriada e segura para iniciar e verificar uma sessão em PHP?
+	
+
+a)f (!session_id()) {
+    session_start();
+}
+ 
+	
+
+b)if (!isset($_SESSION)) {
+    session_initialize();
+}
+ 
+	
+
+c)session_activate();
+if ($_SESSION['user'] == "") {
+    redirect('login.php');
+}
+ 
+	
+
+d)if (!isset($_COOKIE['PHPSESSID'])) {
+    session_create();
+}
+ 
+	
+
+ PARECE SER ESSA AQUI: 
+ e)**session_start();**
+ **if (!isset($_SESSION['loggedin']))** 
+			**{**
+                               **header('Location: login.php');**
+                        **}**
+ 
+
+2-
+Gustavo é um desenvolvedor web que está trabalhando em um projeto de blog para um cliente. O cliente deseja que os posts mais recentes apareçam em destaque na homepage. Para isso, Gustavo decidiu criar uma função em PHP que pegue os cinco posts mais recentes do banco de dados.
+
+Ele se lembra das aulas de PHP que teve e sabe que uma função é um bloco de código reutilizável que pode ser executado quando necessário. No entanto, ele está um pouco confuso sobre a sintaxe correta para definir uma função.
+
+Qual das alternativas a seguir apresenta a maneira correta de definir uma função em PHP para buscar os cinco posts mais recentes?
+	
+
+a) **Function getRecentPosts($limit) {**
+
+     **// Código para buscar os posts mais recentes com base no valor de $limit }**
+	
+
+b)function getRecentPosts() {
+
+    $limit = 5;
+
+    // Código para buscar os posts mais recentes
+
+}
+	
+
+c)recentPosts = function(5) {
+
+        // Código para buscar os 5 posts mais recentes
+
+}
+	
+
+d)def getRecentPosts(5) {
+
+    // Código para buscar os 5 posts mais recentes
+
+}
+	
+
+e)getRecentPosts(5) {
+
+        // Código para buscar os 5 posts mais recentes
+
+}
+
+3-
+Leonardo é um desenvolvedor de sistemas web e, recentemente, foi contratado por uma organização não governamental (ONG) dedicada à proteção animal. Esta ONG tem um site onde os usuários podem adotar animais, doar recursos e se voluntariar para diversas atividades. O site era mantido por um antigo desenvolvedor que usava funções mysql_* para conectar-se ao banco de dados, mas, com o passar do tempo, esse tipo de conexão tornou-se obsoleto e inseguro. Sabendo disso, a diretoria da ONG decidiu que era o momento de atualizar o sistema.
+
+Dentre as preocupações da diretoria, a segurança era a principal. Eles haviam lido sobre SQL Injection e estavam alarmados com a possibilidade de um ataque deste tipo. Leonardo, então, decidiu implementar o PDO (PHP Data Objects) no sistema, pois sabia que ele proporciona uma camada de acesso ao banco de dados mais segura e permite a utilização de prepared statements, que ajudam a prevenir ataques de SQL Injection.
+
+Leonardo começou a refatorar o código. Ele teve que transformar várias consultas diretas ao banco, que eram vulneráveis, em consultas seguras usando PDO. Uma das tarefas era pegar os detalhes de um animal específico para mostrar na página de detalhes.
+
+A antiga consulta era algo como:
+
+ 
+
+$query = "SELECT * FROM animais WHERE id = " . $_GET['id'];
+
+$result = mysql_query($query);
+
+$animal = mysql_fetch_assoc($result);
+
+ 
+
+Leonardo sabe que este código é vulnerável a ataques de SQL Injection por usar diretamente o valor de $_GET['id'] na consulta.
+
+Com base nessa situação, qual das seguintes alternativas representa a maneira correta e segura de reescrever a consulta acima usando PDO e prepared statements?
+	
+
+a)$pdo = new PDO('mysql:host=localhost;dbname=ong', 'user', 'password');
+$query = "SELECT * FROM animais WHERE id = " . $_GET['id'];
+$stmt = $pdo->query($query);
+$animal = $stmt->fetch();
+ 
+	
+
+b)$pdo = new PDO('mysql:host=localhost;dbname=ong', 'user', 'password');
+$query = "SELECT * FROM animais WHERE id = ?";
+$stmt = $pdo->prepare($query);
+$stmt->execute($_GET['id']);
+$animal = $stmt->fetch();
+ 
+	
+
+c)$pdo = new PDO('mysql:host=localhost;dbname=ong', 'user', 'password');
+$query = "SELECT * FROM animais";
+$stmt = $pdo->query($query);
+$animal = $stmt->fetch();
+ 
+	
+GPT respondeu essa:
+**d)$pdo = new PDO('mysql:host=localhost;dbname=ong', 'user', 'password');**
+**$query = "SELECT * FROM animais WHERE id = :id";**
+**$stmt = $pdo->prepare($query);**
+**$stmt->execute([':id' => $_GET['id']]);**
+**$animal = $stmt->fetch();**
+ 
+	
+e)
+$pdo = new PDO('mysql:host=localhost;dbname=ong', 'user', 'password');
+$query = "SELECT * FROM animais WHERE id = $_GET['id']";
+$stmt = $pdo->prepare($query);
+$stmt->execute();
+$animal = $stmt->fetch();
+
+4-
+Você foi contratado por uma empresa para desenvolver uma aplicação de e-commerce. Na sua primeira semana, você foi incumbido de fazer programação em dupla com um programador back-end júnior. Juntos, vocês vão fazer o **formulário de login do e-commerce.** No entanto, o seu colega não sabe muito bem qual seria o método mais adequado para o formulário. Você responde que o mais adequado é o método:
+	
+
+ a)**POST, pois mantém as informações escondidas do usuário, ideal para um formulário de login;**
+
+b)GET, pois mantém as informações explícitas para o usuário, ideal para um formulário de login;
+	
+c)POST, pois mantém as informações explícitas para o usuário, ideal para um formulário de login;
+
+d)GET ou POST seriam métodos igualmente adequados para este formulário.
+	
+e)GET, pois mantém as informações escondidas do usuário, ideal para um formulário de login;
+
+5-
+Para o sistema de descontos, vocês criam a seguinte classe:
+
+class Promocao {
+
+          private $titulo;
+
+          private $desconto;
+
+          private $cupom;
+
+ 
+
+          public function __construct($t, $d, $c) {
+
+                      $this->titulo = $t;
+
+                      $this->desconto = $d;
+
+                      $this->cupom = $c;
+
+          }
+
+ 
+
+          public function aplicarDesconto($valor){
+
+                      return $valor * (100-$this->desconto)/100;
+
+          }
+
+ 
+
+          public function cupomValido($palpite){
+
+                      return $palpite == $this->cupom;
+
+          }
+
+ 
+
+Podemos dizer que as propriedades desta classe são
+	
+
+aplicarDesconto e cupomValido.
+	
+
+$t, $d e $c.
+	
+
+a classe não tem propriedades.
+	
+
+**) $titulo, $desconto, $cupom.**
+	
+
+aplicarDesconto e cupomValido.
+
+6-
+Fernanda é uma desenvolvedora backend que trabalha em uma start-up de comércio eletrônico. Ela foi designada para desenvolver a seção de "checkout" do site, onde os clientes inserirão detalhes do cartão de crédito para finalizar a compra.
+
+Durante uma reunião de planejamento, Fernanda e sua equipe discutiram sobre quais métodos HTTP, especificamente GET e POST, deveriam ser usados para diferentes operações no site. Fernanda defendeu que a submissão de detalhes do cartão de crédito dos clientes deveria usar um método em particular por razões de segurança e para não expor informações sensíveis na URL do navegador.
+
+Qual método HTTP Fernanda deveria escolher para a submissão de detalhes do cartão de crédito dos clientes ao finalizar a compra?
+	
+
+a)POST, porque pode enviar grandes quantidades de dados.
+	
+
+b)GET, porque é mais rápido e eficiente.
+	
+
+ **c)POST, porque mantém os dados enviados ocultos na URL e é mais seguro para informações sensíveis.**
+	
+
+d)Ambos, GET e POST, porque a escolha do método não afeta a segurança da transação.
+	
+
+e)GET, porque pode manter os detalhes do cartão de crédito na URL para referência futura.
+
+
+7-
+A recursividade é um conceito fundamental em computação e programação, referindo-se à capacidade de uma função chamar a si mesma para resolver um problema. Esta técnica pode ser extremamente útil ao lidar com estruturas de dados hierárquicas ou problemas que podem ser divididos em subproblemas mais simples, semelhantes ao problema original. Embora a recursividade possa ser uma ferramenta poderosa, os desenvolvedores devem ser cautelosos ao utilizá-la, pois o uso inadequado pode levar a um consumo excessivo de recursos ou mesmo a uma falha no programa devido a uma "recursão infinita".
+
+No contexto do PHP, assim como em muitas outras linguagens de programação, a recursividade é implementada permitindo que uma função chame a si mesma. Uma aplicação clássica da recursividade é o cálculo do fatorial de um número.
+
+Dado este contexto, escreva um código em PHP que implementa uma função recursiva para calcular o fatorial de um número. 
+
+<?php
+function fatorial($n) {
+    if ($n < 0) {
+        return null;
+    }
+    if ($n === 0) {
+        return 1;
+    }
+    return $n * fatorial($n - 1);
+}
+
+$numero = 5;
+$resultado = fatorial($numero);
+if ($resultado !== null) {
+    echo "O fatorial de $numero é $resultado.";
+} else {
+    echo "Fatorial não definido para números negativos.";
+}
+?>
+
+<?php
+
+function fatoraNumero($numero) {
+   if($numero == 0 || $numero==1){
+   return 1;
+   }
+   return $numero * fatorial($numero - 1);
+   }
+
+
+?>
