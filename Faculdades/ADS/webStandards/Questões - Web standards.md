@@ -157,3 +157,15 @@ padding: 25px;
 width: 100%
 
 }
+
+.noticias {
+display: flex; 
+flex-direction: row; 
+flex-wrap: wrap;
+justify-content: flex-start;
+align-itens: flex-start;
+padding: 30px; 
+gap:30px; 
+width: 100%
+
+}

@@ -5,7 +5,7 @@ c o patrocinador do projeto.
 d o cliente do projeto.
 e os stakeholders do projeto.
 
-2 - Um gerente de projetos está elaborando o plano de gerenciamento do projeto e durante esse planejamento ele identificou que a elaboração da estrutura analítica de projeto **(EAP)ou WBS** está pendente. Dentre as funcionalidades dessa ferramenta, quais dasalternativas podemos destacar como verdadeira:a
+2 - Um gerente de projetos está elaborando o plano de gerenciamento do projeto e durante esse planejamento ele identificou que a elaboração da estrutura analítica de projeto **(EAP)ou WBS** está pendente. Dentre as funcionalidades dessa ferramenta, quais das alternativas podemos destacar como verdadeira:
 a EAP é um fluxograma contendo a especificação analítica do projeto.
 ba EAP é a estrutura analítica do cronograma do projeto.
 **c  EAP é a *decomposição hierárquica* de todo trabalho a ser executado em um projeto para alcançar seus objetivos e entregar os deliverables necessários.**
@@ -44,7 +44,7 @@ dA reunião de kickoff.
 
 5 - **A estrutura organizacional** de uma empresa possui grande influência na forma de como
 são executados os projetos. Deve-se considerar também a cultura e o estilo da empresa.
-As estruturas organizacionais são divididas entre:
+**As estruturas organizacionais são divididas entre:**
 
 aGerencial, matricial e projetizada.
 
@@ -57,8 +57,8 @@ dFuncional, matricial e vertical.
 **eFuncional, matricial e projetizada**
 
 6 - Supondo que seu diretor lhe convide para gerenciar um projeto e durante a execução
-desse projeto ele o chama para sua sala de reunião e diz: o projeto precisa ser entregue o
-quanto antes, **se vira!** Preciso que a atividade de instalação e configuração do sistema seja
+desse projeto ele o chama para sua sala de reunião e diz: *o projeto precisa ser entregue o*
+*quanto antes, **se vira!*** Preciso que a atividade de instalação e configuração do sistema seja
 feito em apenas 3 dias. Que tipo de estimativa ele está lhe fornecendo?
 
 **aAnáloga**
@@ -75,7 +75,7 @@ eParamétrica
 gestão de projetos, o qual, consideramos como a espinha dorsal para o planejamento de
 qualquer projeto. Ao gerenciar um projeto, inevitavelmente o gerente de projetos percorrerá
 todos os grupos de processos e todas as áreas de conhecimentos, sendo assim apenas
-CITE quais são as áreas de conhecimento do gerenciamento de projetos. Ao citar é
+**CITE quais são as áreas de conhecimento do gerenciamento de projetos**. Ao citar é
 necessário que você utilize as nomenclaturas corretas, conforme GUIA PMBOK.
 
 **Nesta questão o aluno deverá CITAR as áreas de conhecimento do gerenciamento de**
@@ -165,7 +165,7 @@ b19 semanas.
 d29 semanas.
 e14 semanas
 
-13 - O “Guia PMBOK” contempla **cinco grupos de processos** e dez áreas de conhecimento em gestão de projetos, o qual, consideramos como a espinha dorsal para o planejamento de qualquer projeto. Ao gerenciar um projeto, inevitavelmente  o gerentede projetos percorrerá todos os grupos de processos e todas as áreas de conhecimentos, sendo assim CITE quais são os Grupos de Processos do Gerenciamento de Projetos e EXPLIQUE os objetivos de cada grupo de processos. Aocitar é necessário que você utilize as nomenclaturas corretas, conforme  GUIA PMBOK.
+13 - O “Guia PMBOK” contempla **cinco grupos de processos** e dez áreas de conhecimento em gestão de projetos, o qual, consideramos como a espinha dorsal para o planejamento de qualquer projeto. Ao gerenciar um projeto, inevitavelmente  o gerente de projetos percorrerá todos os grupos de processos e todas as áreas de conhecimentos, sendo assim **CITE quais são os Grupos de Processos do Gerenciamento de Projetos e EXPLIQUE os objetivos de cada grupo de processos.** Ao citar é necessário que você utilize as nomenclaturas corretas, conforme  GUIA PMBOK.
 
 Nesta questão o aluno deverá CITAR e descrever os objetivos de cada grupo de processos, são eles:
 **Iniciação do Projeto** – Elaboração do Termo de Abertura do Projeto, nomeação do gerente de projetos.
@@ -303,11 +303,11 @@ atendimento do **Call Center** da empresa. O gerente de projetos é do departame
 
 e a equipe pertence aos departamentos de planejamento e de operações. O termo de
 
-abertura do projeto e o plano de gerenciamento do projeto já foram aprovados, mas
+abertura do projeto e o plano de gerenciamento do projeto já foram aprovados, **mas**
 
-uma parte interessada notifica que há uma forma mais rápida e melhor de executar o
+**uma parte interessada notifica que há uma forma mais rápida e melhor de executar o**
 
-projeto. Essa parte interessada até conseguiu provar que a nova maneira é melhor,
+**projeto.** Essa parte interessada até conseguiu provar que a nova maneira é melhor,
 
 mais barata e mais rápida que a anterior. O gerente de projetos teve experiências
 

@@ -52,9 +52,9 @@ formulário de login;
 
 colega chegou ao seguinte código:
 
-for($i = 0; $i < count($produtos); $i++) {
+**for($i = 0; $i < count($produtos); $i++) {**
 
-echo '<p>'. $produtos[$i]['nome'] .'</p>';
+**echo '<p>'. $produtos[$i]['nome'] .'</p>';**
 
 }
 
@@ -429,7 +429,7 @@ $animal = $stmt->fetch();
 	
 GPT respondeu essa:
 **d)$pdo = new PDO('mysql:host=localhost;dbname=ong', 'user', 'password');**
-**$query = "SELECT * FROM animais WHERE id = :id";**
+**$query = "SELECT * FROM animais *WHERE id = :id";***
 **$stmt = $pdo->prepare($query);**
 **$stmt->execute([':id' => $_GET['id']]);**
 **$animal = $stmt->fetch();**
@@ -577,3 +577,4 @@ function fatorial($numero) {
 
 
 ?>
+
