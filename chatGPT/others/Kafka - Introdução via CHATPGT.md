@@ -4,7 +4,7 @@ O **Apache Kafka** é uma plataforma distribuída de streaming de eventos que pe
 
 ### 1. O que é o Apache Kafka?
 
-O Kafka é uma plataforma que facilita a comunicação entre diferentes sistemas através do conceito de "streaming de eventos". Ele é ideal para situações em que uma grande quantidade de dados precisa ser transmitida e processada em tempo real, como em logs de servidores, transações bancárias, monitoramento de sensores IoT, entre outros.
+O Kafka é uma plataforma que facilita a comunicação entre diferentes sistemas através do conceito de **"streaming de eventos"**. Ele é ideal para situações em que uma grande quantidade de dados precisa ser transmitida e processada em tempo real, como em logs de servidores, transações bancárias, monitoramento de sensores IoT, entre outros.
 
 **Componentes principais do Kafka:**
 
