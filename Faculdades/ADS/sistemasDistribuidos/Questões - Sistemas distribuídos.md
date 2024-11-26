@@ -100,7 +100,7 @@ processamento dos equipamentos.
 Tendo como base os estudos realizados nesta disciplina, qual seria a solução apropriada
 para essa questão?
 
-Computação em nuvem, software como serviço (SaaS), plataforma como serviço (PaaS),
+R Computação em nuvem, software como serviço (SaaS), plataforma como serviço (PaaS),
 infraestrutura como serviço (IaaS), nuvem pública, rápida elasticidade, serviço de medição.
 
 Deve ser informado que, devido às características do sistema, a melhor alternativa seria a
