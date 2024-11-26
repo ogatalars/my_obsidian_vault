@@ -100,13 +100,13 @@ processamento dos equipamentos.
 Tendo como base os estudos realizados nesta disciplina, qual seria a solução apropriada
 para essa questão?
 
-R: Computação em nuvem, software como serviço (SaaS), plataforma como serviço (PaaS),
-infraestrutura como serviço (IaaS), nuvem pública, rápida elasticidade, serviço de medição.
+**R: Computação em nuvem, software como serviço (SaaS), plataforma como serviço (PaaS),**
+**infraestrutura como serviço (IaaS), nuvem pública, rápida elasticidade, serviço de medição.**
 
-Deve ser informado que, devido às características do sistema, a melhor alternativa seria a
-migração para um serviço de computação em nuvem. Podendo este ser, a critério e conforme
-justificativa, qualquer um dos três modelos (SaaS, PaaS ou IaaS). Deve ser comentado sobre
-a nuvem pública, pelo fato de estar na internet, ou justificar o uso de uma nuvem privada.
-Além disso, deve dar ênfase para as principais características e vantagens da adoção de
-computação em nuvem, em especial para a questão de rápida elasticidade e serviço de
-medição.
+**Deve ser informado que, devido às características do sistema, a melhor alternativa seria a**
+**migração para um serviço de computação em nuvem. Podendo este ser, a critério e conforme**
+**justificativa, qualquer um dos três modelos (SaaS, PaaS ou IaaS). Deve ser comentado sobre**
+**a nuvem pública, pelo fato de estar na internet, ou justificar o uso de uma nuvem privada.**
+**Além disso, deve dar ênfase para as principais características e vantagens da adoção de**
+**computação em nuvem, em especial para a questão de rápida elasticidade e serviço de**
+**medição.**
