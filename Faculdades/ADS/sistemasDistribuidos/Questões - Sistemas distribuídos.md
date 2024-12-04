@@ -53,7 +53,7 @@ e As camadas transporte e rede no modelo OSI não foram derivadas para o TCP/IP
 devido ao fato de serem teóricas e não aplicadas a redes de computadores.
 
 5 A arquitetura CORBA é essencialmente uma especificação de design para um Object
-Request Broker (ORB), na qual um ORB fornece o mecanismo necessário para que
+Request **Broker** (ORB), na qual um ORB fornece o mecanismo necessário para que
 objetos distribuídos se comuniquem entre si, seja localmente ou em dispositivos remotos.
 A partir da definição apresentada, escolha a alternativa correta que define o objetivo desta
 arquitetura.
