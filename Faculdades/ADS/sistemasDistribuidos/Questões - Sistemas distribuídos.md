@@ -110,3 +110,11 @@ para essa questão?
 **Além disso, deve dar ênfase para as principais características e vantagens da adoção de**
 **computação em nuvem, em especial para a questão de rápida elasticidade e serviço de**
 **medição.**
+
+A solução mais adequada para o caso acima mencionado, segundo os estudos da matéria, seria adequar o sistema para a computação em nuvem. Melhor dizendo, transformar o serviço em computação em nuvem, na modalidade PaaS(plataforma como serviço), ou então software como serviço. Vale  mencionar, como os dados são sensíveis dos pacientes, o serviço de computação em nuvem deve ser privado. Importante também destacar que a computação em nuvem oferece vantagens em relação modelo atual, sendo que a  computação em nuvem tem uma rápida elasticidade, redução de custos, e  pode ser facilmente manutenida e melhora o serviço de mediação. 
+Em suma: 
+-  Solução adequada seria migrar para computação em nuvem; 
+- Computação em nuvem no modelo privado, devido aos dados sensíveis dos pacientes e por segurança; 
+- Modelo PaaS plataforma como serviço (computação em nuvem); 
+- As vantagens da computação de nuvem: menor  custos, mais fácil de manutenção, flexibilidade e elasticidade com picos de carga 
+- Exemplo: AWS, Azure, google cloud;
