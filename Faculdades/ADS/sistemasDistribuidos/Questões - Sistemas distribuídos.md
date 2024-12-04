@@ -72,7 +72,7 @@ de programação Python em sistemas distribuídos.
 maioria das empresas. Os serviços web surgiram para tratar essa necessidade expondo
 em uma rede os serviços e permitindo a comunicação entre um ou mais dispositivos. Um
 dos exemplos dessa utilização, para troca de informação entre sistemas, é o protocolo
-SOAP (Simple Object Access Protocol).
+**SOAP (Simple Object Access Protocol).**
 Em relação ao protocolo SOAP, escolha a alternativa correta.
 a O SOAP fornece criptografia de alto nível para assegurar a confiabilidade da
 transação em sistemas distribuídos.
