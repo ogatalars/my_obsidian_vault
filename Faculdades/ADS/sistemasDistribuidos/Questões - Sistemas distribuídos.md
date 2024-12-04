@@ -12,8 +12,8 @@ e Nuvem pública com provisionamento para uso aberto e para o público em geral.
 
 2 - O administrador do banco de dados estava realizando testes no banco de dados de
 homologação para posteriormente efetivar as alterações, após validação, no banco de
-dados de produção. No entanto, por um descuido, aplicou o script no banco de dados de
-produção e apagou de forma errada alguns dados importantes, porém, não foi efetuado o
+dados de produção. No entanto, por um descuido, **aplicou o script no banco de dados de**
+**produção e apagou de forma errada** alguns dados importantes, porém, não foi efetuado o
 COMMIT.
 
 Neste caso, qual seria o comando correto para reverter a situação?
