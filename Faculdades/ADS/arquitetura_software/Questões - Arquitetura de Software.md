@@ -44,7 +44,7 @@ c PATCH.
 e PUT.
 
 6 - Dentre os os padrões de projeto orientado a objetos, temos um em especial no qual tem por
-característica garantir uma única instância de objeto em toda a solução, sempre mantendo
+característica garantir **uma única instância de objeto em toda a solução**, sempre mantendo
 um ponto global de acesso. Esta padrão de projeto é chamado de
 **a singleton.**
 b facade.
@@ -60,3 +60,10 @@ R: **Um uso muito decorrente do Singleton está em situações no qual eu precis
 **de autenticação.**
 
 O padrão de projeto Singleton normalmente é utilizado quando precisamos garantir que uma classe tenha apenas uma instância em todo o sistema, fornecendo um ponto global de acesso. Existem vários exemplos, um deles seria o compartilhamento de tokens gerados em processos de autenticação, outro bem recorrente é o gerenciamento de conexões com banco de dados, também sistema de log, gerenciamento de threads. Basicamente a ideia geral é que o singleton é ideal para cenários em que uma única instância deve controlar ou coordenar partes críticas do sistema.
+
+IDEIA GERAL: 
+- Uma classe que tem apenas uma instância em todo o sistema, fornecendo ponto global de acesso. **(Classe com uma instancia unica)**
+- Compartilhamento de tokens gerados em autenticação; 
+- Gerenciamento de threads; 
+- Gerenciamento de conexões com banco de dados;
+- Sistemas de logs.;
