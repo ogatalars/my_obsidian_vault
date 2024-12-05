@@ -26,7 +26,7 @@ e SELECT.
 3 Uma linguagem de programação é uma maneira padronizada, que conta com
 determinadas regras, cujo principal objetivo é enviar instruções ao computador.
 Com base nessa afirmação, selecione a alternativa que informa de maneira correta os
-passos que são realizados em uma linguagem compilada para a disponibilização do
+passos que são realizados em uma **linguagem compilada** para a disponibilização do
 programa final.
 a Compilação -> Código-fonte -> Arquivo executável.
 b Código-fonte -> Arquivo executável -> Compilação.
