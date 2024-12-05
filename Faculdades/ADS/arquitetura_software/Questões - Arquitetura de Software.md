@@ -27,7 +27,7 @@ dOs parâmetros do modelo definem a requisição dos métodos a serem acessados,
 tornando o acesso automatizado.
 eO referido modelo impõe uma padronização no formato da URL a ser utilizada.
 
-4 - Dentro de um projeto, você precisa implementar um padrão de projeto comportamental de tal forma que, quando um objeto alterar seu estado, todos os seus dependentes são notificados e atualizados automaticamente. Esse padrão é o:
+4 - Dentro de um projeto, você precisa implementar um padrão de projeto comportamental de tal forma que, quando um objeto alterar seu estado, **todos os seus dependentes são notificados e atualizados automaticamente**. Esse padrão é o:
 **a - OBSERVER**
 c - Adapter
 d - Facede
