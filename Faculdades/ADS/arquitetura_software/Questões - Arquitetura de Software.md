@@ -33,10 +33,10 @@ c - Adapter
 d - Facede
 e - Prototype
 
-5 - No âmbito das APIs implementadas utilizando o padrão arquitetural REST, precisamos de
+5 - No âmbito das APIs implementadas utilizando o padrão arquitetural **REST,** precisamos de
 acesso e manipulação de uma coleção de recursos designados por URIs específicas. No
-protocolo HTTP, temos um método utilizado para a criação de uma nova entrada para
-recursos. Qual é o método utilizado?
+protocolo HTTP, t**emos um método utilizado para a criação de uma nova entrada para**
+**recursos.** Qual é o método utilizado?
 a DELETE.
 b GET.
 c PATCH.
