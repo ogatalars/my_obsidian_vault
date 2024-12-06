@@ -39,6 +39,7 @@ redes de computadores, possibilitando o uso da internet e de diversos outros pro
 existentes em sistemas de computação. O protocolo TCP/IP foi derivado do modelo OSI
 (Open Systems Interconnection) para facilitar a comunicação e a padronização.
 Escolha a alternativa correta que **relaciona o modelo OSI com o TCP/IP.**
+
 a As camadas de enlace e física do modelo OSI estão relacionadas com a camada
 aplicação do TCP/IP. Assim como as camadas de aplicação, apresentação e sessão
 do modelo OSI estão relacionadas com a camada intrarrede do TCP/IP.
