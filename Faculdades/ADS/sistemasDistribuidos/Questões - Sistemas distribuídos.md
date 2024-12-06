@@ -44,7 +44,7 @@ a As camadas de enlace e física do modelo OSI estão relacionadas com a camada
 aplicação do TCP/IP. Assim como as camadas de aplicação, apresentação e sessão
 do modelo OSI estão relacionadas com a camada intrarrede do TCP/IP.
 **b As camadas de enlace e física do modelo OSI estão relacionadas com a camada**
-**intrarrede do TCP/IP. Assim como as camadas de aplicação, apresentação e sessão**
+***intrarrede* do TCP/IP. Assim como as camadas de aplicação, apresentação e sessão**
 **do modelo OSI estão relacionadas com a camada aplicação do TCP/IP.**
 c As sete camadas (física, enlace, rede, transporte, sessão, apresentação e aplicação)
 são portadas exatamente iguais para o protocolo TCP/IP.
@@ -112,7 +112,7 @@ para essa questão?
 **computação em nuvem, em especial para a questão de rápida elasticidade e serviço de**
 **medição.**
 
-A solução mais adequada para o caso acima mencionado, segundo os estudos da matéria, seria adequar o **sistema para a computação em nuvem**. Melhor dizendo, transformar o serviço em computação em nuvem, na modalidade PaaS(plataforma como serviço), ou então software como serviço. Vale  mencionar, como os dados são sensíveis dos pacientes, o serviço de computação em nuvem deve ser privado. Importante também destacar que a computação em nuvem oferece vantagens em relação modelo atual, sendo que a  computação em nuvem tem uma rápida elasticidade, redução de custos, e  pode ser facilmente manutenida e melhora o serviço de mediação. 
+A solução mais adequada para o caso acima mencionado, segundo os estudos da matéria, seria adequar o **sistema para a computação em nuvem**. Melhor dizendo, transformar o serviço em computação em nuvem, na modalidade PaaS(plataforma como serviço), ou então software como serviço. Vale  mencionar, como os dados são sensíveis dos pacientes, o serviço de computação em nuvem deve ser privado. Importante também destacar que a computação em nuvem oferece vantagens em relação modelo atual, sendo que a  computação em nuvem tem uma rápida elasticidade, redução de custos, e  pode ser facilmente manutenida, além de melhorar o serviço de mediação. 
 Em suma: 
 -  **Solução adequada seria migrar para computação em nuvem;** 
 - **Computação em nuvem no modelo privado, devido aos dados sensíveis dos pacientes e por segurança;** 
