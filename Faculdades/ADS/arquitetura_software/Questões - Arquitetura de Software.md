@@ -1,4 +1,4 @@
-1 - A arquitetura de um sistema é um dos pontos mais importantes para conseguir construiram projeto de sucesso. Dentre as arquiteturas mais utilizadas, temos a arquitetura em camadas **MVC.** Considerando esse modelo de arquitetura, assinale a afirmação verdadeira.
+1 - A arquitetura de um sistema é um dos pontos mais importantes para conseguir construir um projeto de sucesso. Dentre as arquiteturas mais utilizadas, temos a arquitetura em camadas **MVC.** Considerando esse modelo de arquitetura, assinale a afirmação verdadeira.
 a-O padrão MVC é apenas aplicável a linguagens orientadas ao desenvolvimento web,como PHP.
 b-O uso de MVC torna o processo de modelagem mais rápido; porém, dificulta oreaproveitamento de código.
 **c-O componente View é responsável pela interação com o usuário, exibindo dados.**
