@@ -117,5 +117,5 @@ Em suma:
 -  **Solução adequada seria migrar para computação em nuvem;** 
 - **Computação em nuvem no modelo privado, devido aos dados sensíveis dos pacientes e por segurança;** 
 - **Modelo PaaS plataforma como serviço (computação em nuvem);** 
-- **As vantagens da computação de nuvem: menor  custos, mais fácil de manutenção, flexibilidade e elasticidade com picos de carga** 
+- **As vantagens da computação de nuvem: menor  custos, mais fácil de manutenção, mediação, flexibilidade e elasticidade com picos de carga** 
 - **Exemplo: AWS, Azure, google cloud;**
