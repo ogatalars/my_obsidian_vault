@@ -366,4 +366,3 @@ for (let [palavra, frequencia] of frequencias) {
 
 ---
 
-Com isso, você pode impressionar qualquer **Recrutador Dragão**, mostrando não só que entende o conceito de Hash Tables, mas também como aplicá-las em problemas práticos! 🎮
