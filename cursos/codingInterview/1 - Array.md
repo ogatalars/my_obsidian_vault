@@ -33,7 +33,7 @@ Dynamic Array = Not fixed in size
 
 ### **O que é um Array?**
 
-Imagine que você é um **aventureiro** organizando sua mochila (inventário). Cada **slot** da mochila é numerado, começando do `0`, e pode guardar qualquer item (números, strings, objetos, etc.). Esse inventário é chamado de **Array** no mundo da programação.
+Imagine que você é um **aventureiro** organizando sua mochila (inventário). Cada **slot** da mochila é numerado, começando do `0`, e pode guardar qualquer item (números, strings, objetos, etc.). Esse inventário é chamado de **Array** no mundo da programação(js)
 
 No entanto, a diferença entre mochilas de diferentes mundos (linguagens) é que:
 
