@@ -209,12 +209,3 @@ console.log(somaAlvo([2, 7, 11, 15], 9)); // [0, 1]
 
 ---
 
-### **Conclusão**
-
-Agora você está pronto para enfrentar qualquer **Recrutador Dragão** com uma compreensão sólida de:
-
-- **Estruturas de Dados**.
-- **Big O Notation**.
-- Soluções claras para problemas comuns.
-
-Você é um **Mestre das Estruturas de Dados** e pode encarar qualquer missão de entrevista com confiança! 🎮🗡️
