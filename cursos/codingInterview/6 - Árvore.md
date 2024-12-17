@@ -228,3 +228,4 @@ console.log("Altura da árvore:", calcularAltura(reino.raiz)); // 2
 - **Problemas Comuns:** Altura da árvore, travessias (in-order, pre-order, post-order), e busca.
 
 Agora você domina a **Espada da Hierarquia (Tree)** e pode explorar problemas mais profundos como **balanço de árvores** ou **operações em grafos**. O **Recrutador Dragão** ficará impressionado com seu conhecimento! 🐉🌟
+
