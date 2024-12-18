@@ -459,6 +459,228 @@ Travessia in-order após troca no nível 1: [3, 1, 2]
 
 ---
 
-### **Conclusão**
 
-Você agora domina a arte de trocar subárvores em níveis específicos e realizar travessias ordenadas. Esses desafios testam sua habilidade em manipular árvores e usar recursão eficientemente. Continue explorando as **Árvores dos Saberes** e impressione o **Recrutador Dragão**! 🐉🌟
+
+### **1. Tree: Height of a Binary Tree**
+
+---
+
+#### **Descrição**
+
+A altura de uma árvore binária é o número de arestas entre a raiz e a folha mais distante.
+
+---
+
+### **Passo 1: Classe de Nó e Árvore Binária**
+
+```javascript
+class Node {
+  constructor(data) {
+    this.data = data;
+    this.left = null;
+    this.right = null;
+  }
+}
+
+class BinarySearchTree {
+  constructor() {
+    this.root = null;
+  }
+
+  insert(data) {
+    const newNode = new Node(data);
+    if (!this.root) {
+      this.root = newNode;
+    } else {
+      this._insertRecursively(this.root, newNode);
+    }
+  }
+
+  _insertRecursively(current, newNode) {
+    if (newNode.data < current.data) {
+      if (!current.left) {
+        current.left = newNode;
+      } else {
+        this._insertRecursively(current.left, newNode);
+      }
+    } else {
+      if (!current.right) {
+        current.right = newNode;
+      } else {
+        this._insertRecursively(current.right, newNode);
+      }
+    }
+  }
+}
+```
+
+---
+
+### **Passo 2: Função para Calcular a Altura**
+
+```javascript
+function height(node) {
+  if (!node) return -1; // Árvore vazia ou sem filhos
+  const leftHeight = height(node.left);
+  const rightHeight = height(node.right);
+  return 1 + Math.max(leftHeight, rightHeight);
+}
+```
+
+---
+
+### **Passo 3: Lógica Principal**
+
+```javascript
+const tree = new BinarySearchTree();
+const values = [3, 5, 2, 1, 4, 6, 7]; // Valores de exemplo
+values.forEach(value => tree.insert(value));
+
+console.log("Altura da árvore:", height(tree.root)); // Saída: 3
+```
+
+---
+
+### **2. Tree: Level Order Traversal**
+
+---
+
+#### **Descrição**
+
+Percorra a árvore nível por nível (da raiz até o nível mais profundo).
+
+---
+
+### **Passo 1: Função de Travessia por Nível**
+
+Usaremos uma **fila** para manter a ordem dos nós visitados:
+
+```javascript
+function levelOrderTraversal(root) {
+  if (!root) return []; // Árvore vazia
+
+  const result = [];
+  const queue = [root]; // Inicia com a raiz
+
+  while (queue.length > 0) {
+    const current = queue.shift(); // Remove o nó da frente da fila
+    result.push(current.data);
+
+    if (current.left) queue.push(current.left);
+    if (current.right) queue.push(current.right);
+  }
+
+  return result;
+}
+```
+
+---
+
+### **Passo 2: Lógica Principal**
+
+```javascript
+console.log("Travessia por nível:", levelOrderTraversal(tree.root)); // Saída: [3, 2, 5, 1, 4, 6, 7]
+```
+
+---
+
+### **3. Swap Nodes [Algo]**
+
+---
+
+#### **Descrição**
+
+Troque os subárvores (esquerda e direita) de todos os nós em níveis múltiplos de um valor `k`.
+
+---
+
+### **Passo 1: Função de Troca**
+
+Trocar os filhos de um nó em níveis múltiplos de `k`:
+
+```javascript
+function swapNodes(root, k) {
+  function dfs(node, level) {
+    if (!node) return;
+
+    if (level % k === 0) {
+      // Realiza a troca
+      [node.left, node.right] = [node.right, node.left];
+    }
+
+    dfs(node.left, level + 1);
+    dfs(node.right, level + 1);
+  }
+
+  dfs(root, 1); // Começa do nível 1
+}
+```
+
+---
+
+### **Passo 2: Lógica Principal**
+
+```javascript
+const levels = [1]; // Níveis para troca
+levels.forEach(k => {
+  swapNodes(tree.root, k);
+  console.log(
+    `Travessia in-order após troca no nível ${k}:`,
+    levelOrderTraversal(tree.root)
+  );
+});
+```
+
+---
+
+### **Resumo do Resultado**
+
+#### Entrada:
+
+```javascript
+const values = [3, 5, 2, 1, 4, 6, 7]; // Nó inseridos em uma BST
+const levels = [1]; // Trocar em níveis múltiplos de 1
+```
+
+#### Árvore Inicial:
+
+```
+        3
+       / \
+      2   5
+     /   / \
+    1   4   6
+               \
+                7
+```
+
+#### Saída:
+
+```
+Altura da árvore: 3
+Travessia por nível: [3, 2, 5, 1, 4, 6, 7]
+Travessia in-order após troca no nível 1: [7, 6, 5, 4, 3, 2, 1]
+```
+
+---
+
+## **Complexidade das Soluções**
+
+1. **Altura da Árvore:**
+    
+    - **Tempo:** O(n), pois cada nó é visitado uma vez.
+    - **Espaço:** O(h), onde `h` é a altura da árvore (profundidade da recursão).
+2. **Travessia por Nível:**
+    
+    - **Tempo:** O(n), cada nó é visitado uma vez.
+    - **Espaço:** O(n), espaço usado pela fila.
+3. **Troca de Nós:**
+    
+    - **Tempo:** O(n) para visitar cada nó.
+    - **Espaço:** O(h) para recursão.
+
+---
+
+### **Missão Concluída!**
+
+Agora você possui todas as soluções em **JavaScript** para esses problemas clássicos envolvendo árvores binárias. Isso irá te preparar para impressionar o **Recrutador Dragão** e encarar desafios técnicos com confiança! 🌟🐉
