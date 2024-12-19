@@ -461,7 +461,7 @@ Travessia in-order após troca no nível 1: [3, 1, 2]
 
 
 
-### **1. Tree: Height of a Binary Tree**
+### **1. Tree: Height of a Binary Tree**(JS)
 
 ---
 
@@ -684,3 +684,203 @@ Travessia in-order após troca no nível 1: [7, 6, 5, 4, 3, 2, 1]
 ### **Missão Concluída!**
 
 Agora você possui todas as soluções em **JavaScript** para esses problemas clássicos envolvendo árvores binárias. Isso irá te preparar para impressionar o **Recrutador Dragão** e encarar desafios técnicos com confiança! 🌟🐉
+
+
+### **Missão: Determinar a Altura de uma Árvore Binária (Tree: Height of a Binary Tree)** 🌳🧝‍♂️
+
+---
+
+### **O Enigma da Altura**
+
+Você, o guardião da Árvore dos Saberes, recebeu a missão de determinar a **altura** dessa árvore mística. A altura revela o número de arestas entre a **raiz** (o nó inicial) e a folha mais distante.
+
+A altura da árvore ajuda a entender sua profundidade e eficiência em armazenar e buscar informações. Uma árvore "desbalanceada" (muito alta) pode ser ineficiente, então medir a altura é uma habilidade essencial.
+
+---
+
+### **O Que é Altura de uma Árvore?**
+
+- Se a árvore está **vazia**, sua altura é **-1**.
+- Se a árvore tem apenas um nó (a raiz), sua altura é **0**.
+- Caso contrário, a altura da árvore é **1 + a maior altura das suas subárvores (esquerda ou direita)**.
+
+#### **Exemplo:**
+
+Para a árvore abaixo:
+
+```
+        3
+       / \
+      2   5
+     /   / \
+    1   4   6
+               \
+                7
+```
+
+- A altura é `3`, pois há 3 arestas entre a raiz (`3`) e a folha mais distante (`7`).
+
+---
+
+### **A Jornada Passo a Passo**
+
+#### **1. Montar a Árvore Binária**
+
+Antes de medir a altura, precisamos construir a **Árvore Binária de Busca (BST)**. Cada nó segue estas regras:
+
+- **Menores valores vão para a esquerda.**
+- **Maiores valores vão para a direita.**
+
+#### Código para Construir a Árvore:
+
+```javascript
+class Node {
+  constructor(data) {
+    this.data = data;
+    this.left = null; // Filho esquerdo
+    this.right = null; // Filho direito
+  }
+}
+
+class BinarySearchTree {
+  constructor() {
+    this.root = null; // Raiz da árvore
+  }
+
+  insert(data) {
+    const newNode = new Node(data);
+    if (!this.root) {
+      // Se a árvore está vazia, o novo nó vira a raiz
+      this.root = newNode;
+    } else {
+      // Caso contrário, insira recursivamente
+      this._insertRecursively(this.root, newNode);
+    }
+  }
+
+  _insertRecursively(current, newNode) {
+    if (newNode.data < current.data) {
+      // Vai para a esquerda
+      if (!current.left) {
+        current.left = newNode;
+      } else {
+        this._insertRecursively(current.left, newNode);
+      }
+    } else {
+      // Vai para a direita
+      if (!current.right) {
+        current.right = newNode;
+      } else {
+        this._insertRecursively(current.right, newNode);
+      }
+    }
+  }
+}
+```
+
+---
+
+#### **2. Determinar a Altura da Árvore**
+
+Agora precisamos calcular a altura da árvore com a **Magia Recursiva**. Vamos explorar cada ramo até suas folhas e descobrir qual é o mais profundo.
+
+**Regra da Recursão:**
+
+1. Se o nó é `null`, retorne **-1** (altura de uma árvore vazia).
+2. Caso contrário, calcule:
+    - A altura da subárvore esquerda.
+    - A altura da subárvore direita.
+3. Retorne `1 + o maior valor` entre as alturas calculadas.
+
+#### Código:
+
+```javascript
+function height(node) {
+  if (!node) return -1; // Se o nó é vazio, a altura é -1
+
+  const leftHeight = height(node.left); // Altura da subárvore esquerda
+  const rightHeight = height(node.right); // Altura da subárvore direita
+
+  return 1 + Math.max(leftHeight, rightHeight); // Retorne o maior caminho mais 1
+}
+```
+
+---
+
+#### **3. Testando Sua Jornada**
+
+Vamos colocar os nós na árvore e calcular sua altura.
+
+#### Código Principal:
+
+```javascript
+const tree = new BinarySearchTree();
+const values = [3, 5, 2, 1, 4, 6, 7]; // Valores para inserir na árvore
+
+// Insere os valores na árvore
+values.forEach(value => tree.insert(value));
+
+// Calcula a altura da árvore
+console.log("Altura da árvore:", height(tree.root)); // Saída: 3
+```
+
+#### Árvore Construída:
+
+```
+        3
+       / \
+      2   5
+     /   / \
+    1   4   6
+               \
+                7
+```
+
+---
+
+### **O Caminho do Algoritmo**
+
+1. **Altura da Subárvore Esquerda:**
+    
+    - Do nó `3`, desça para `2`, depois `1`.
+    - A altura é `2`.
+2. **Altura da Subárvore Direita:**
+    
+    - Do nó `3`, desça para `5`, depois `6` e `7`.
+    - A altura é `3`.
+3. **Altura Total da Árvore:**
+    
+    - A maior altura é `3`.
+
+---
+
+### **Complexidade da Missão**
+
+1. **Tempo:**
+    
+    - O(n), onde `n` é o número de nós na árvore. Cada nó é visitado exatamente uma vez.
+2. **Espaço:**
+    
+    - O(h), onde `h` é a altura da árvore (profundidade da pilha de recursão).
+
+---
+
+### **Saída Esperada**
+
+```
+Altura da árvore: 3
+```
+
+---
+
+### **Explicação Clara**
+
+- A função recursiva desce até o nível mais profundo da árvore.
+- No caminho de volta, ela calcula a maior profundidade para cada nó pai.
+- Assim, a raiz (nó inicial) conhece a altura total da árvore.
+
+---
+
+### **Conclusão**
+
+Parabéns, Guardião! Agora você domina a habilidade de medir a altura de uma árvore binária. Essa magia é essencial para otimizar e balancear árvores, garantindo eficiência em futuras missões. Vamos continuar para a próxima jornada: **Level Order Traversal**! 🌟
