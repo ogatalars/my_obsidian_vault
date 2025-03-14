@@ -64,3 +64,7 @@ O ML pode ser categorizado como aprendizado supervisionado, aprendizado não sup
 A análise descritiva se beneficia do aprendizado não supervisionado, pois procura entender a estrutura e os padrões subjacentes nos dados. A análise preditiva, por sua vez, tende a empregar modelos supervisionados para fazer previsões futuras baseadas em dados passados (Mercante, 2022). A análise prescritiva combina elementos de ambos, usando modelos preditivos para simular diferentes cenários para então sugerir ações específicas.
 
 (Página 41). 
+
+Na etapa “resultados: geração de insights e implementação de modelo” do ciclo de vida em ciência de dados, o principal objetivo é utilizar as aná- lises e modelos desenvolvidos para extrair informações significativas e responder à pergunta estratégica. Para isso, o cientista de dados deve construir relatórios compreensíveis que serão analisados e utilizados, por exemplo, pelos executivos da empresa para tomarem decisões. O feedback dessas pessoas guiará a continuidade do projeto. Ainda, a implementação do modelo é outro aspecto crucial. Depois de desenvolvido e validado, o modelo finalizado é colocado em produção para fazer previsões ou categorizações de forma contínua, conforme o caso.
+
+(Página 42). 
