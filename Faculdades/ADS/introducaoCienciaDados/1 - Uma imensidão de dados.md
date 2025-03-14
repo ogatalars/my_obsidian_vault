@@ -50,3 +50,12 @@ Mesmo recente, a ciência de dados já revolucionou as empresas. Alguns exemplos
 O Data for Good representa um movimento crescente que combina a ciência de dados com o enfrentamento de desafios sociais e humanitá- rios.
 
 (Página 18). 
+
+. Como você está lidando com análise de dados e diferentes tipos de análise (descritiva, preditiva e prescritiva), aqui está um quadro organizado com essas categorias:
+
+|**Análise de Negócio**|**Descritiva**|**Preditiva**|**Prescritiva**|
+|---|---|---|---|
+|**Perguntas**|O que aconteceu? O que está acontecendo?|O que pode acontecer?|O que devo fazer? O que fazer para alcançar um resultado específico?|
+|**Facilitadores**|Relatórios empresariais, Dashboards, Scorecards, Data Warehouses|Modelagem estatística, Mineração de dados e redes sociais|Otimização, Simulação, Modelagem de decisões, Sistemas especialistas|
+|**Resultados**|Problemas e oportunidades empresariais definidos|Projeções precisas de eventos futuros e resultados finais|Melhores decisões e ações empresariais possíveis|
+

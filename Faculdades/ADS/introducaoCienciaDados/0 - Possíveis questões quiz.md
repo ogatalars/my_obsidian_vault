@@ -165,7 +165,7 @@ b) A interseção de programação e negócios, mas sem matemática.
 
 Correctly unselected
 
-c) A combinação das três disciplinas: matemática, programação e negócios.
+**c) A combinação das três disciplinas: matemática, programação e negócios.**
 
 Correctly selected
 
@@ -193,4 +193,25 @@ d) O engenheiro de dados é o principal responsável pela interpretação e aná
 
 Correctly unselected
 
-e) O cientista de dados trabalha com a análise e a geração de valor com os dados.
+**e) O cientista de dados trabalha com a análise e a geração de valor com os dados.**
+
+
+1. O principal benefício da implementação de soluções de ciência de dados na tomada de decisões empresariais é:
+
+a) Permitir uma maior automação de tarefas repetitivas na empresa.
+
+Correctly unselected
+
+**b) Oferecer _insights_ baseados em dados, levando a decisões mais informadas e precisas.**
+
+Correctly selected
+
+c) Facilitar a criação de apresentações visualmente atraentes para os stakeholders.
+
+Correctly unselected
+
+d) Aumentar a necessidade de contratar especialistas em ti, promovendo o crescimento do departamento.
+
+Correctly unselected
+
+e) Simplificar os processos de recrutamento e seleção, eliminando entrevistas.
