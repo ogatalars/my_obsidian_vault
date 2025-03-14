@@ -174,3 +174,23 @@ d) Um especialista em negócios com um toque de programação.
 Correctly unselected
 
 e) Um profissional que trabalha na produção de dados.
+
+2. Em relação ao papel do engenheiro de dados e do cientista de dados, assinale a alternativa correta. 
+
+a) Ambos são primariamente responsáveis por construir modelos preditivos avançados.
+
+Correctly unselected
+
+b) O engenheiro de dados concentra-se mais em produzir dados, enquanto o cientista de dados, apenas em visualização de dados.
+
+Correctly unselected
+
+c) O cientista de dados concentra-se, principalmente, na manutenção de bancos de dados.
+
+Correctly unselected
+
+d) O engenheiro de dados é o principal responsável pela interpretação e análise estatística dos dados.
+
+Correctly unselected
+
+e) O cientista de dados trabalha com a análise e a geração de valor com os dados.
