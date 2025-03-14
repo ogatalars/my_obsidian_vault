@@ -145,3 +145,32 @@ Considerando a diferença entre datasets abertos e fechados, assinale a opção 
 |     | c.  | Dados que não podem ser utilizados por outros pesquisadores devido a restrições comerciais.                                                  |
 |     | d.  | Conjuntos de dados que não possuem uma estrutura definida, tornando a análise mais complexa.                                                 |
 |     | e.  | São dados que não requerem critérios rigorosos de conformidade e segurança.                                                                  |
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+
+1. No contexto do diagrama de Venn da ciência de dados, qual é a combinação que mais se aproxima da definição de um cientista de dados tradicional?
+
+a) Um especialista em uma das áreas, como matemática.
+
+Correctly unselected
+
+b) A interseção de programação e negócios, mas sem matemática.
+
+Correctly unselected
+
+c) A combinação das três disciplinas: matemática, programação e negócios.
+
+Correctly selected
+
+d) Um especialista em negócios com um toque de programação.
+
+Correctly unselected
+
+e) Um profissional que trabalha na produção de dados.
