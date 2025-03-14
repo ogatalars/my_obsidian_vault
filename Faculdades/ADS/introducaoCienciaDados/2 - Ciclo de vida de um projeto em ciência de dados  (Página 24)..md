@@ -50,3 +50,17 @@ A redundância ocorre, por exemplo, quando os atributos são muito semelhantes e
 Por último, a transformação de dados é realizada para preparar o conjunto de dados para exploração e construção de modelos. Essa transformação pode incluir a normalização, que ajusta os valores numéricos em uma escala comum, e a codificação, que converte variáveis categóricas em um formato que pode ser colocado à disposição de algoritmos estatístico, gráficos para visualização e algoritmos de aprendizado de máquina
 
 (Página 32). 
+A análise exploratória dos dados (exploratory data analysis, ou EDA) envolve uma variedade de técnicas para examinar, resumir e visualizar a estrutura dos dados (Grus, 2016). Essa etapa pode ser realizada mediante técnicas de estatística e análise descritiva para fornecer medidas resumidas e insights sobre o conjunto de dados, as quais incluem o uso de médias, medianas, modas, desvio padrão, variância, percentis e outros indicadores que ajudam a entender distribuição, tendência central e dispersão dos dados (Morettin, 2021).
+
+(Página 36). 
+
+O aprendizado de máquina (machine learning, ou ML) é uma subárea da inteligência artificial que se concentra no desenvolvimento de algoritmos e modelos estatísticos que permitem que os computadores executem tarefas sem serem explicitamente programados (Faceli et al., 2021; Grus, 2016). Estes algoritmos aprendem de dados ou experiências anteriores e fazem previsões ou decisões baseadas neles.
+
+(Página 41). 
+O ML pode ser categorizado como aprendizado supervisionado, aprendizado não supervisionado ou aprendizado por reforço, cada um com seus próprios algoritmos e aplicações. No aprendizado supervisionado, os algoritmos são treinados em um conjunto de dados rotulados para realizar tarefas como classificação e regressão. Modelos como máquinas de vetores de suporte (SVM), árvores de decisão e redes neurais são comumente usados para classificar dados em diferentes categorias. Para tarefas de regressão, que envolvem a previsão de valores contínuos, métodos como regressão linear e árvores de regressão são frequentemente empregados. Por outro lado, o aprendizado não supervisionado não requer um conjunto de dados rotulados e é mais focado na detec- ção de padrões nos dados. Ele geralmente é usado em tarefas de agrupamento e associação, com modelos como k-means e análise de componentes principais (PCA).
+
+(Página 41). 
+
+A análise descritiva se beneficia do aprendizado não supervisionado, pois procura entender a estrutura e os padrões subjacentes nos dados. A análise preditiva, por sua vez, tende a empregar modelos supervisionados para fazer previsões futuras baseadas em dados passados (Mercante, 2022). A análise prescritiva combina elementos de ambos, usando modelos preditivos para simular diferentes cenários para então sugerir ações específicas.
+
+(Página 41). 
