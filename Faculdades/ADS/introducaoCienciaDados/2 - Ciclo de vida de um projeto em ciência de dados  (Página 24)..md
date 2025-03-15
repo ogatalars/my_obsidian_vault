@@ -1,6 +1,6 @@
 https://www.youtube.com/watch?v=HVn1cZ2MQ08&t=1s
 
-O ciclo de vida de um projeto em ciência de dados é uma sequência de etapas que servem como espinha dorsal para o desenvolvimento e implementação de soluções baseadas em dados (O’Neil; Schutt, 2013). A primeira etapa abrange entender o problema e identificar os objetivos do projeto de ciência de dados. Após todos os integrantes da equipe terem clareza de aonde querem chegar, passamos para a coleta de dados. Uma vez que os dados relevantes para o problema são coletados, entramos na fase de pré-processamento. Esta é uma das etapas mais trabalhosas e envolve limpeza, transformação e integração dos dados coletados. Então, os dados estão finalmente prontos para a análise exploratória. Combinando técnicas estatísticas e ferramentas de visualização, podemos descrever os dados. A próxima etapa é a construção de modelos, com a aplicação de machine learning para criar um modelo matemático para análises descritiva, preditiva e prescritiva.
+O ciclo de vida de um projeto em ciência de dados é uma sequência de etapas que servem como espinha dorsal para o desenvolvimento e implementação de soluções baseadas em dados (O’Neil; Schutt, 2013). **A primeira etapa abrange entender o problema e identificar os objetivos do projeto de ciência de dados. Após todos os integrantes da equipe terem clareza de aonde querem chegar, passamos para a coleta de dados. Uma vez que os dados relevantes para o problema são coletados, entramos na fase de pré-processamento. Esta é uma das etapas mais trabalhosas e envolve limpeza, transformação e integração dos dados coletados. Então, os dados estão finalmente prontos para a análise exploratória. Combinando técnicas estatísticas e ferramentas de visualização, podemos descrever os dados. A próxima etapa é a construção de modelos, com a aplicação de machine learning para criar um modelo matemático para análises descritiva, preditiva e prescritiva.**
 
 (Página 24). 
 
@@ -68,3 +68,93 @@ A análise descritiva se beneficia do aprendizado não supervisionado, pois proc
 Na etapa “resultados: geração de insights e implementação de modelo” do ciclo de vida em ciência de dados, o principal objetivo é utilizar as aná- lises e modelos desenvolvidos para extrair informações significativas e responder à pergunta estratégica. Para isso, o cientista de dados deve construir relatórios compreensíveis que serão analisados e utilizados, por exemplo, pelos executivos da empresa para tomarem decisões. O feedback dessas pessoas guiará a continuidade do projeto. Ainda, a implementação do modelo é outro aspecto crucial. Depois de desenvolvido e validado, o modelo finalizado é colocado em produção para fazer previsões ou categorizações de forma contínua, conforme o caso.
 
 (Página 42). 
+
+------
+## Ciclo de vida de um projeto de Ciência de Dados
+
+### 1. **Entendimento do problema** (
+
+- Investigação do cenário corporativo e necessidades dos clientes.
+- Definição clara do objetivo central.
+
+2. **Coleta de Dados**
+
+- Busca por fontes relevantes (ex.: Kaggle).
+- Seleção de dados pertinentes ao problema.
+
+3. **Pré-processamento dos Dados**
+
+- **Limpeza:** remoção de inconsistências, dados ausentes, duplicados e redundantes.
+    - Técnicas: remoção, substituição, imputação de valores faltantes.
+- **Integração:**
+    - Combinação de dados provenientes de diversas fontes em um conjunto coerente.
+- **Redundância**:
+    - Remoção de atributos semelhantes ou dados duplicados.
+- **Desbalanceamento**:
+    - Técnicas para resolver desequilíbrios entre classes (undersampling e oversampling).
+
+3. **Análise Exploratória dos Dados (EDA)**
+
+- Compreensão dos dados por meio de:
+    - Estatísticas descritivas (média, mediana, moda, desvio padrão, variância, percentis).
+    - Ferramentas de visualização para identificar tendências e padrões.
+
+4. **Pré-processamento dos Dados**
+
+- Normalização e transformação para tornar os dados adequados à modelagem.
+- **Limpeza dos dados** (dados faltantes, inconsistentes, ruídos).
+- **Codificação** (conversão de variáveis categóricas para formato numérico).
+
+5. **Modelagem (Machine Learning)**
+
+- **Supervisionado**:
+    - Dados rotulados. Exemplos: Regressão Linear, Árvores de Decisão.
+- **Não supervisionado**:
+    - Detecção de padrões e agrupamentos (k-means, PCA).
+- **Reforço**:
+    - Aprendizado por tentativa e erro (não detalhado no vídeo).
+
+5. **Avaliação do Modelo**
+
+- Avaliação da performance e validação dos resultados do modelo desenvolvido.
+
+6. **Resultados e Geração de Insights**
+
+- Produção de insights práticos para melhoria dos processos internos.
+- Construção de relatórios para guiar decisões empresariais.
+
+6. **Implementação do Modelo**
+
+- Colocação do modelo em ambiente de produção para uso contínuo.
+- Acompanhamento e refinamento contínuo do modelo em produção.
+
+---
+
+**Importância do Kaggle:**
+
+- Plataforma com datasets prontos para análise.
+- Comunidade ativa com insights e discussões úteis.
+
+**Dica importante:**
+
+- Dados ruins ou incorretos levam a conclusões erradas. A qualidade dos dados é crucial.
+
+---
+
+_Referências principais:_
+
+- O’Neil; Schutt (2013)
+- Sharda; Delen; Turban (2019)
+- Faceli et al. (2021)
+- Morettin (2021)
+- Grupos de análise: Exploratório, Supervisionado, Não-supervisionado, Prescritivo, Preditivo.
+
+---
+
+**Comandos básicos pandas:**
+
+```python
+df.head()
+df.sample(5)
+df.info()
+```
