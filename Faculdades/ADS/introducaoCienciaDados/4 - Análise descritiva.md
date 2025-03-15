@@ -143,3 +143,116 @@ A análise descritiva revela **tendências, padrões, correlações e insights p
 - Na **saúde**, ajudou hospitais a prever picos sazonais de doenças e alocar recursos de forma eficiente.
 
 Essa análise é fundamental para **tomadas de decisão embasadas**, proporcionando um melhor entendimento dos dados antes de qualquer modelagem preditiva.
+
+---- 
+### **Média, Mediana e Moda: Conceitos, Vantagens e Desvantagens**
+
+As **medidas de tendência central** são ferramentas estatísticas que ajudam a resumir um conjunto de dados, identificando um valor representativo. As três principais são **média, mediana e moda**, cada uma com suas próprias aplicações, vantagens e limitações.
+
+---
+
+## **1. Média**
+
+A **média aritmética** é calculada somando todos os valores de um conjunto de dados e dividindo pelo número total de elementos.
+
+Meˊdia=∑Xin\text{Média} = \frac{\sum X_i}{n}
+
+Onde:
+
+- ∑Xi\sum X_i representa a soma dos valores,
+- nn é o número total de elementos.
+
+### **Vantagens da Média**
+
+✅ **Fácil de calcular e interpretar**: Amplamente utilizada e bem compreendida.  
+✅ **Leva em conta todos os valores**: Representa a totalidade dos dados.  
+✅ **Útil para dados simétricos**: Quando os dados não possuem outliers, a média fornece um bom resumo.
+
+### **Desvantagens da Média**
+
+❌ **Sensível a outliers**: Valores extremos podem distorcer a média, tornando-a não representativa.  
+❌ **Pode não refletir a "realidade" dos dados**: Se houver assimetria na distribuição, a média pode ser enganosa.  
+❌ **Nem sempre existe em dados categóricos**: Exemplo: não faz sentido calcular a média de categorias como "cores" ou "marcas de carro".
+
+📌 **Exemplo:**  
+Se um grupo de 5 pessoas tem salários de **R$3.000, R$3.500, R$4.000, R$4.500 e R$50.000**, a média salarial seria **R$13.000**, um valor distorcido devido ao outlier **R$50.000**.
+
+---
+
+## **2. Mediana**
+
+A **mediana** é o valor central de um conjunto de dados ordenado.
+
+- Se houver um número **ímpar** de elementos, a mediana é o número central.
+- Se houver um número **par** de elementos, a mediana é a média dos dois valores centrais.
+
+### **Vantagens da Mediana**
+
+✅ **Robusta contra outliers**: Não é afetada por valores extremos.  
+✅ **Útil para distribuições assimétricas**: Quando os dados têm grande variação, a mediana representa melhor o "centro".  
+✅ **Fácil de interpretar**: Especialmente útil em análises salariais ou tempos de resposta.
+
+### **Desvantagens da Mediana**
+
+❌ **Não utiliza todos os valores**: Apenas a posição dos números importa, ignorando a magnitude dos extremos.  
+❌ **Menos sensível a pequenas variações nos dados**: Se alterarmos alguns valores, a mediana pode continuar a mesma.  
+❌ **Pode ser difícil de calcular em grandes volumes de dados sem ordenação prévia**.
+
+📌 **Exemplo:**  
+No mesmo grupo de salários **(R$3.000, R$3.500, R$4.000, R$4.500, R$50.000)**, a mediana é **R$4.000**, um valor mais representativo do que a média **(R$13.000)**.
+
+---
+
+## **3. Moda**
+
+A **moda** é o valor que aparece com maior frequência em um conjunto de dados. Pode haver:
+
+- **Uma moda** (distribuição unimodal).
+- **Duas modas** (bimodal).
+- **Nenhuma moda**, se não houver repetições.
+
+### **Vantagens da Moda**
+
+✅ **Útil para dados categóricos**: A única medida aplicável para variáveis como cores, marcas e preferências.  
+✅ **Fácil de interpretar**: Indica o valor mais comum nos dados.  
+✅ **Não é afetada por valores extremos**: Como depende apenas da frequência, outliers não influenciam.
+
+### **Desvantagens da Moda**
+
+❌ **Pode não existir ou ser ambígua**: Se todos os valores forem únicos, não há moda. Se houver múltiplos valores com a mesma frequência, a moda não representa um único centro.  
+❌ **Nem sempre é útil para dados numéricos**: Em distribuições contínuas, a moda pode não ser informativa.  
+❌ **Não reflete a dispersão dos dados**: Apenas informa qual valor ocorre mais, sem indicar a variação entre eles.
+
+📌 **Exemplo:**  
+Se um conjunto de notas de alunos for **(6, 7, 7, 8, 9, 9, 9, 10, 10, 10, 10)**, a moda será **10**, pois ocorre mais vezes.
+
+---
+
+## **Comparação Geral**
+
+|Característica|Média|Mediana|Moda|
+|---|---|---|---|
+|**Definição**|Soma dos valores dividida pelo total|Valor central dos dados ordenados|Valor mais frequente|
+|**Sensível a outliers?**|Sim|Não|Não|
+|**Adequado para dados categóricos?**|Não|Não|Sim|
+|**Útil para distribuições assimétricas?**|Não|Sim|Depende|
+|**Representatividade**|Boa para distribuições normais|Melhor quando há valores extremos|Representa apenas a frequência|
+|**Facilidade de cálculo**|Fácil|Média|Fácil|
+
+---
+
+### **Qual utilizar?**
+
+- **Se os dados forem simétricos e sem outliers**, use a **média**.
+- **Se houver outliers ou assimetria**, prefira a **mediana**.
+- **Se os dados forem categóricos ou precisar identificar valores mais frequentes**, use a **moda**.
+
+✅ **Exemplo prático**:
+
+- **Salários em uma empresa**: Mediana (evita distorções por diretores com altos salários).
+- **Notas de alunos em uma prova**: Média (avalia desempenho geral), Moda (nota mais comum).
+- **Pesquisa de preferência de produto**: Moda (produto mais escolhido pelos clientes).
+
+### **Conclusão**
+
+A escolha entre média, mediana e moda depende do **tipo de dados** e da **informação desejada**. Cada medida tem suas forças e fraquezas, e muitas vezes, combiná-las pode proporcionar uma visão mais completa dos dados.
