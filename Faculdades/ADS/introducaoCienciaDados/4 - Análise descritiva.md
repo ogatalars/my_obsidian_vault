@@ -111,148 +111,119 @@ Os resultados de uma análise descritiva consistem principalmente em um melhor e
 
 --- 
 
-### **Resumo: Análise Descritiva em Ciência de Dados**
+### **Resumo: Análise Descritiva na Ciência de Dados**
 
-A **análise descritiva** é uma etapa essencial da ciência de dados que busca transformar dados brutos em **insights significativos**, respondendo a perguntas como **"o que aconteceu?"** e **"o que está acontecendo?"**. Diferente de métodos preditivos ou inferenciais, ela foca em **resumir e organizar os dados**.
-
-#### **Conceito e Função**
-
-A análise descritiva envolve técnicas estatísticas e de aprendizado de máquina para **identificar padrões e estruturas nos dados**. Na estatística, utiliza métricas para quantificar características dos dados; no aprendizado de máquina, pode ser usada para **agrupamento e segmentação**.
-
-#### **Tipos de Perguntas**
-
-Ela busca responder perguntas como **"qual a duração média da estadia dos pacientes em um hospital?"**, mas também pode investigar **dispersão, outliers e tendências sazonais**.
-
-#### **Estatística Descritiva**
-
-A estatística descritiva organiza e resume os dados para facilitar sua interpretação. Seus principais conceitos incluem:
-
-- **Medidas de tendência central**: Média, mediana e moda ajudam a representar o "centro" do conjunto de dados.
-- **Medidas de dispersão**: Variância, desvio padrão e intervalo interquartil (IQR) indicam quão espalhados os dados estão.
-- **Correlação**: Mede o grau de relação entre variáveis, sendo a correlação de **Pearson** a mais usada para relações lineares.
-
-#### **Modelos Descritivos**
-
-Modelos descritivos capturam a **estrutura dos dados sem prever valores futuros**. No aprendizado de máquina, **algoritmos de agrupamento** como o **k-means** são usados para dividir dados em clusters. Outra técnica importante são as **regras de associação**, que analisam padrões de compra no varejo.
-
-#### **Resultados da Análise Descritiva**
-
-A análise descritiva revela **tendências, padrões, correlações e insights práticos**. Casos reais incluem:
-
-- No **varejo**, a descoberta de padrões de compra permitiu otimizar promoções e disposição de produtos.
-- Na **saúde**, ajudou hospitais a prever picos sazonais de doenças e alocar recursos de forma eficiente.
-
-Essa análise é fundamental para **tomadas de decisão embasadas**, proporcionando um melhor entendimento dos dados antes de qualquer modelagem preditiva.
-
----- 
-### **Média, Mediana e Moda: Conceitos, Vantagens e Desvantagens**
-
-As **medidas de tendência central** são ferramentas estatísticas que ajudam a resumir um conjunto de dados, identificando um valor representativo. As três principais são **média, mediana e moda**, cada uma com suas próprias aplicações, vantagens e limitações.
+A **análise descritiva** é a base da ciência de dados, sendo responsável por transformar números brutos em **insights significativos**. Seu objetivo é responder **"o que aconteceu?"** e **"o que está acontecendo?"**, sem realizar previsões ou inferências. Ela organiza e resume os dados para permitir um melhor entendimento antes da tomada de decisão.
 
 ---
 
-## **1. Média**
+### **1. Características da Análise Descritiva**
 
-A **média aritmética** é calculada somando todos os valores de um conjunto de dados e dividindo pelo número total de elementos.
+✅ **Perguntas principais:**
 
-Meˊdia=∑Xin\text{Média} = \frac{\sum X_i}{n}
+- _"O que aconteceu?"_
+- _"O que está acontecendo?"_
 
-Onde:
+✅ **Foco:**
 
-- ∑Xi\sum X_i representa a soma dos valores,
-- nn é o número total de elementos.
+- Resumir e descrever dados de forma clara e compreensível.
+- **Identificar padrões e tendências** sem realizar previsões.
 
-### **Vantagens da Média**
+✅ **Métodos principais:**
 
-✅ **Fácil de calcular e interpretar**: Amplamente utilizada e bem compreendida.  
-✅ **Leva em conta todos os valores**: Representa a totalidade dos dados.  
-✅ **Útil para dados simétricos**: Quando os dados não possuem outliers, a média fornece um bom resumo.
-
-### **Desvantagens da Média**
-
-❌ **Sensível a outliers**: Valores extremos podem distorcer a média, tornando-a não representativa.  
-❌ **Pode não refletir a "realidade" dos dados**: Se houver assimetria na distribuição, a média pode ser enganosa.  
-❌ **Nem sempre existe em dados categóricos**: Exemplo: não faz sentido calcular a média de categorias como "cores" ou "marcas de carro".
-
-📌 **Exemplo:**  
-Se um grupo de 5 pessoas tem salários de **R$3.000, R$3.500, R$4.000, R$4.500 e R$50.000**, a média salarial seria **R$13.000**, um valor distorcido devido ao outlier **R$50.000**.
+- **Estatística descritiva** para medidas de tendência central e dispersão.
+- **Visualização de dados** para melhor interpretação gráfica.
+- **Agrupamento e segmentação** no aprendizado de máquina.
 
 ---
 
-## **2. Mediana**
+### **2. Estatística Descritiva**
 
-A **mediana** é o valor central de um conjunto de dados ordenado.
+A estatística descritiva fornece ferramentas para organizar e analisar dados de forma eficiente.
 
-- Se houver um número **ímpar** de elementos, a mediana é o número central.
-- Se houver um número **par** de elementos, a mediana é a média dos dois valores centrais.
+#### **🟢 Medidas de Tendência Central**
 
-### **Vantagens da Mediana**
+- **Média** → Valor médio dos dados, útil para distribuições simétricas.
+- **Mediana** → Valor central dos dados ordenados, ideal para conjuntos com outliers.
+- **Moda** → Valor mais frequente nos dados, útil para variáveis categóricas.
 
-✅ **Robusta contra outliers**: Não é afetada por valores extremos.  
-✅ **Útil para distribuições assimétricas**: Quando os dados têm grande variação, a mediana representa melhor o "centro".  
-✅ **Fácil de interpretar**: Especialmente útil em análises salariais ou tempos de resposta.
+#### **🟢 Medidas de Dispersão**
 
-### **Desvantagens da Mediana**
+- **Variância** → Mede o quão dispersos os valores estão em relação à média.
+- **Desvio padrão** → Raiz quadrada da variância, facilitando a interpretação.
+- **Intervalo interquartil (IQR)** → Considera apenas a dispersão central, ignorando extremos.
+- **Amplitude** → Diferença entre o maior e o menor valor do conjunto.
 
-❌ **Não utiliza todos os valores**: Apenas a posição dos números importa, ignorando a magnitude dos extremos.  
-❌ **Menos sensível a pequenas variações nos dados**: Se alterarmos alguns valores, a mediana pode continuar a mesma.  
-❌ **Pode ser difícil de calcular em grandes volumes de dados sem ordenação prévia**.
+#### **🟢 Correlação**
 
-📌 **Exemplo:**  
-No mesmo grupo de salários **(R$3.000, R$3.500, R$4.000, R$4.500, R$50.000)**, a mediana é **R$4.000**, um valor mais representativo do que a média **(R$13.000)**.
-
----
-
-## **3. Moda**
-
-A **moda** é o valor que aparece com maior frequência em um conjunto de dados. Pode haver:
-
-- **Uma moda** (distribuição unimodal).
-- **Duas modas** (bimodal).
-- **Nenhuma moda**, se não houver repetições.
-
-### **Vantagens da Moda**
-
-✅ **Útil para dados categóricos**: A única medida aplicável para variáveis como cores, marcas e preferências.  
-✅ **Fácil de interpretar**: Indica o valor mais comum nos dados.  
-✅ **Não é afetada por valores extremos**: Como depende apenas da frequência, outliers não influenciam.
-
-### **Desvantagens da Moda**
-
-❌ **Pode não existir ou ser ambígua**: Se todos os valores forem únicos, não há moda. Se houver múltiplos valores com a mesma frequência, a moda não representa um único centro.  
-❌ **Nem sempre é útil para dados numéricos**: Em distribuições contínuas, a moda pode não ser informativa.  
-❌ **Não reflete a dispersão dos dados**: Apenas informa qual valor ocorre mais, sem indicar a variação entre eles.
-
-📌 **Exemplo:**  
-Se um conjunto de notas de alunos for **(6, 7, 7, 8, 9, 9, 9, 10, 10, 10, 10)**, a moda será **10**, pois ocorre mais vezes.
+- Mede a relação entre duas variáveis.
+- **Correlação de Pearson** → Avalia relações lineares entre variáveis.
+- **Correlação de Spearman e Kendall** → Avaliam relações não lineares.
 
 ---
 
-## **Comparação Geral**
+### **3. Modelos Descritivos**
 
-|Característica|Média|Mediana|Moda|
-|---|---|---|---|
-|**Definição**|Soma dos valores dividida pelo total|Valor central dos dados ordenados|Valor mais frequente|
-|**Sensível a outliers?**|Sim|Não|Não|
-|**Adequado para dados categóricos?**|Não|Não|Sim|
-|**Útil para distribuições assimétricas?**|Não|Sim|Depende|
-|**Representatividade**|Boa para distribuições normais|Melhor quando há valores extremos|Representa apenas a frequência|
-|**Facilidade de cálculo**|Fácil|Média|Fácil|
+Os modelos descritivos analisam e organizam dados, mas **não fazem previsões**.
+
+#### **🟢 Algoritmos de Agrupamento**
+
+- **K-Means** → Divide os dados em grupos com características semelhantes.
+- **Regras de Associação** → Identifica padrões de compra no varejo.
 
 ---
 
-### **Qual utilizar?**
+### **4. Resultados da Análise Descritiva**
 
-- **Se os dados forem simétricos e sem outliers**, use a **média**.
-- **Se houver outliers ou assimetria**, prefira a **mediana**.
-- **Se os dados forem categóricos ou precisar identificar valores mais frequentes**, use a **moda**.
+A análise descritiva é amplamente usada para revelar **padrões ocultos e tendências nos dados**.
 
-✅ **Exemplo prático**:
+✅ **Exemplos reais:**
 
-- **Salários em uma empresa**: Mediana (evita distorções por diretores com altos salários).
-- **Notas de alunos em uma prova**: Média (avalia desempenho geral), Moda (nota mais comum).
-- **Pesquisa de preferência de produto**: Moda (produto mais escolhido pelos clientes).
+- **No varejo**, a análise mostrou que homens que compravam fraldas também compravam cerveja nas sextas-feiras → **Rearranjo de produtos para aumentar vendas**.
+- **Na saúde**, hospitais descobriram picos sazonais de doenças respiratórias → **Melhor alocação de recursos e leitos hospitalares**.
 
-### **Conclusão**
+Essa análise permite uma **tomada de decisão informada**, sendo o primeiro passo para modelos mais avançados, como a análise preditiva.
 
-A escolha entre média, mediana e moda depende do **tipo de dados** e da **informação desejada**. Cada medida tem suas forças e fraquezas, e muitas vezes, combiná-las pode proporcionar uma visão mais completa dos dados.
+---
+
+### **5. Média, Mediana e Moda: Conceitos, Vantagens e Desvantagens**
+
+As **medidas de tendência central** ajudam a resumir os dados em um valor representativo.
+
+#### **🟢 Média**
+
+✅ Fácil de calcular e amplamente utilizada.  
+✅ Representa todos os valores da distribuição.  
+❌ Sensível a **outliers** (valores extremos podem distorcer a média).
+
+#### **🟢 Mediana**
+
+✅ Melhor para **distribuições assimétricas** ou com **outliers**.  
+✅ Representa o valor central dos dados ordenados.  
+❌ Não considera todos os valores ao calcular a posição central.
+
+#### **🟢 Moda**
+
+✅ Útil para **dados categóricos** e para identificar valores mais frequentes.  
+✅ Não sofre influência de outliers.  
+❌ Pode não existir ou ser ambígua em certos conjuntos de dados.
+
+📌 **Exemplo:**
+
+- Salários em uma empresa: **Mediana** → Evita distorção por diretores com salários elevados.
+- Notas de alunos: **Média** → Avaliação geral do desempenho.
+- Preferência de produtos: **Moda** → Identifica o item mais escolhido pelos clientes.
+
+---
+
+### **📌 Conclusão**
+
+A **análise descritiva** é essencial para compreender os dados antes de realizar previsões. Ela permite identificar **tendências, padrões e distribuições**, sendo uma ferramenta poderosa para embasar **tomadas de decisão estratégicas**.
+
+✅ **Facilita o entendimento de grandes volumes de dados.**  
+✅ **Ajuda a identificar padrões ocultos e tendências.**  
+✅ **Serve como base para análises preditivas e prescritivas.**
+
+🔹 **Exemplo prático:** Uma empresa de logística pode usar análise descritiva para **avaliar tempos médios de entrega** e identificar **quais rotas apresentam mais atrasos**, permitindo otimizações no planejamento.
+
+Ao compreender **o que aconteceu**, a análise descritiva **prepara o terreno para previsões futuras e ações estratégicas**. 🚀
