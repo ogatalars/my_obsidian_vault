@@ -78,7 +78,9 @@ operação. Já no desenvolvimento ou aquisição ações que garantam a seguran
 ser implementadas. Analisando as afirmativas, marque a alternativa correta:
 
 1Entre as validações de segurança exigidas em Sistemas Gerenciadores de Banco de Dados está a verificação se uma informação é pública
+
 **2Um Buffer Overflow (estouro de capacidade) ocorre, por exemplo, quando um campo ou endereço de memória recebe uma quantidade de dados acima de sua capacidade máxima**
+
 3Um exemplo de validação de dados na entrada é a checagem e correção  dos dados que serão enviados a um usuário
 
 aAs afirmativas 2 e 3 são falsas
@@ -97,6 +99,7 @@ Analise as afirmativas relacionadas e marque a alternativa correta:
 1Em geral, em relação à gestão de risco uma organização reativa  possui um planejamento menos efetivo que uma organização proativa
 
 2A comunicação do risco, sugerida pela norma ABNT 27005 serve para indicar os culpados pelos prejuízos trazidos pela concretização  do risco (X)
+
 **3De acordo com a norma 27005, a etapa de "Análise do Risco" precede e fornece requisitos para a etapa de "Avaliação do Risco"**
 
 aAs afirmativas 2 e 3 são falsas
@@ -112,7 +115,9 @@ eA afirmativa 1 é falsa, enquanto a 2 é verdadeira
 12 - A gestão de incidentes é um conjunto bastante amplo de atividades que busca garantir a continuidade dos negócios quando ocorrem incidentes ou eventos inesperados capazes de impactar negativamente a empresa.  Analisando as afirmativas, marque a alternativa correta:
 
 1Para o estabelecimento da GCN é necessário o envolvimento da direção  para imbutir em toda a empresa a cultura da gestão de continuidade
+
 2A conformidade é o processo responsável por controlar a quantidade de incidentes que ocorrem em um período de tempo 
+
 3Um dos cinco passos da GCN é o Entendimento da Organização, que estádiretamente vinculado 
 à Análise de impactos nos Negócios (AIN)
 
@@ -141,3 +146,11 @@ eA afirmativa 3 é a única falsa
 14 - A segurança da informação, portanto, é a proteção da informação contra vários tipos de ameaças, de modo a garantir a continuidade do negócio , minimizar riscos, maximizar o retorno sobre os investimentos e as oportunidades  de negócio. Ao analisarmos essa definição, precisamos definir alguns pontos-chave, para o correto entendimento de toda essa definição. Inicialmente, a definição  nos trás o conceito de que a segurança da informação é a proteção contra vários tipos de ameaças . Relacione quais são estas ameaças :
 
 **Descontentamento ou desmotivação de colaboradores; Baixo nível de conscientização dos colaboradores sobre assuntos relacionados à segurança; Inexistência de políticas e procedimentos para acesso, manipulação e  armazenagem da informação; Hacking, vírus, spam, e-mails maliciosos;Falta de um plano de recuperação a desastres;Desastres naturais, tais como incêndio, inundação, terremoto etc**
+
+15 - A Análise de Impactos nos Negócios (AIN) faz parte do Ciclo de Vida da Gestão de
+Continuidade de Negócios (GCN) recomendado pela norma ABNT ISO/IEC 27002. A
+norma recomenda que em algumas situações o risco deve ser aceito e não tratado.
+Descreva um exemplo no qual a organização deve simplesmente aceitar o risco e a
+ameaça que este representa, justificando o porquê desta medida.
+
+**Muitas vezes a reparação de um risco representa um custo maior que o prejuízo causadopela ameça. Por exemplo, em uma organização que tem poucos problemas deindisponibilidade elétrica, não há necessidade da compra de um gerador que garanta ofornecimento ininterrupto de energia. Principalmente se a indisponibilidade ocasional nãorepresentar um prejuízo significativo para a empresa**
