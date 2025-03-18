@@ -32,7 +32,7 @@ O Kaggle é uma das principais plataformas para cientistas de dados, principalme
 
 (Página 30). 
 
-A **amostragem** também é uma técnica usada para simplificar os dados, selecionando subconjuntos representativos para análise em vez de usar o conjunto de dados completo. Utilizamos a amostragem quando a base de dados tem muitos exemplos e gostaríamos de selecionar apenas alguns para as análises. Algumas técnicas de amostragem são: aleató- ria simples, estratificada e progressiva.
+A **amostragem** também é uma técnica usada para simplificar os dados, selecionando subconjuntos representativos para análise em vez de usar o conjunto de dados completo. Utilizamos a amostragem quando a base de dados tem muitos exemplos e gostaríamos de selecionar apenas alguns para as análises. Algumas técnicas de amostragem são: aleatória simples, estratificada e progressiva.
 
 (Página 31). 
 
