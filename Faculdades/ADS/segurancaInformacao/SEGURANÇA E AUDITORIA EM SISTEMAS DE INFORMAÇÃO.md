@@ -153,4 +153,4 @@ norma recomenda que em algumas situações o risco deve ser aceito e não tratad
 Descreva um exemplo no qual a organização deve simplesmente aceitar o risco e a
 ameaça que este representa, justificando o porquê desta medida.
 
-**Muitas vezes a reparação de um risco representa um custo maior que o prejuízo causado pela ameça. Por exemplo, em uma organização que tem poucos problemas de indisponibilidade elétrica, não há necessidade da compra de um gerador que garanta o fornecimento ininterrupto de energia. Principalmente se a indisponibilidade ocasional não representar um prejuízo significativo para a empresa**
+**Muitas vezes a reparação de um risco representa um custo maior que o prejuízo causado pela ameaça. Por exemplo, em uma organização que tem poucos problemas de indisponibilidade elétrica, não há necessidade da compra de um gerador que garanta o fornecimento ininterrupto de energia. Principalmente se a indisponibilidade ocasional não representar um prejuízo significativo para a empresa**

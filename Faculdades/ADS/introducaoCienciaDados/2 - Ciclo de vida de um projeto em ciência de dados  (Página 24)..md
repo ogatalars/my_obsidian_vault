@@ -4,7 +4,7 @@ O ciclo de vida de um projeto em ciência de dados é uma sequência de etapas q
 
 (Página 24). 
 
-Como resultados do ciclo de vida de um projeto em ciência de dados, há duas contribuições significativas que podemos destacar. A primeira é a geração e a comunicação de insights que são meticulosamente direcionados para o aprimoramento dos processos dentro da empresa. A segunda contribuição relevante é a implementação dos modelos de dados. Esses modelos vão além do simples diagnóstico da situação atual, oferecendo alternativas que podem ser aplicadas para executar tarefas ou otimizar determinadas funções beneficiando a empresa e o cliente final. Após a implementação do projeto, a etapa final é o feedback e a medi- ção da eficácia dos modelos e dos resultados alcançados.
+Como resultados do ciclo de vida de um projeto em ciência de dados, há duas contribuições significativas que podemos destac**ar. A primeira é a geração e a comunicação de insights que são meticulosamente direcionados para o aprimoramento dos processos dentro da empresa. A segunda contribuição relevante é a implementação dos modelos de dados**. Esses modelos vão além do simples diagnóstico da situação atual, oferecendo alternativas que podem ser aplicadas para executar tarefas ou otimizar determinadas funções beneficiando a empresa e o cliente final. Após a implementação do projeto, a etapa final é o feedback e a medição da eficácia dos modelos e dos resultados alcançados.
 
 (Página 25). 
 
