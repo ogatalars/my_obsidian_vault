@@ -1,21 +1,21 @@
 1 - No contexto de análise preditiva, assinale as afirmações corretas sobre treino supervisionado:
 
-I. Refere-se ao treinamento sob a supervisão de um conjunto já rotulado.
+**I. Refere-se ao treinamento sob a supervisão de um conjunto já rotulado.**
 
 II. Ignora padrões descobertos durante a fase de treinamento.
 
-III. É eficaz em fazer previsões com base em dados nunca vistos.
+**III. É eficaz em fazer previsões com base em dados nunca vistos.**
 
 Correto - > 1 e 3
 
 2 -   
 Em um seminário sobre Ciência de Dados, um palestrante discute o potencial da plataforma Kaggle como uma ferramenta essencial. A plataforma é destacada devido a várias de suas características. Com base nisso, avalie as afirmativas:
 
-I. Kaggle é uma plataforma principalmente conhecida por suas competições de _machine learning_, em que cientistas de dados de todo o mundo competem para criar os melhores modelos preditivos.
+I. Kaggle é uma plataforma principalmente conhecida por suas competições de _machine learning_, em que cientistas de dados de todo o mundo competem para criar os melhores modelos preditivos.✔
 
-II. Uma das principais vantagens do Kaggle é seu vasto repositório de _datasets,_ que cobrem uma ampla variedade de temas, desde literatura a ciências aplicadas.
+II. Uma das principais vantagens do Kaggle é seu vasto repositório de _datasets,_ que cobrem uma ampla variedade de temas, desde literatura a ciências aplicadas.✔
 
-III. O Kaggle é exclusivo para cientistas de dados com mais de 10 anos de experiência, tornando-o um recurso inacessível para iniciantes ou entusiastas.
+III. O Kaggle é exclusivo para cientistas de dados com mais de 10 anos de experiência, tornando-o um recurso inacessível para iniciantes ou entusiastas. X
 Correto 1 e 2 
 
 3 -   
@@ -30,16 +30,17 @@ Sobre o ciclo de vida em ciência de dados, assinale a alternativa correta:
 |     | c.  | A análise exploratória visa apenas à construção de modelos matemáticos.                                  |
 |     | d.  | O entendimento do problema ocorre após o pré-processamento dos dados.                                    |
 |     | e.  | **O entendimento do problema e a identificação dos objetivos são iniciais no ciclo de vida.** -> correta |
+|     |     |                                                                                                          |
 
 4 - 1. O pensamento analítico na Ciência de Dados é essencial para extrair informações valiosas dos dados, guiando a tomada de decisões com base em _insights_ quantitativos e qualitativos. Esse tipo de abordagem ajuda as organizações a se adaptarem, se aprimorarem e inovarem em ambientes altamente competitivos.
     
     Considerando a importância do pensamento analítico em Ciência de Dados e sua aplicação em casos práticos, analise as seguintes afirmações:
     
-    I. O pensamento analítico envolve a habilidade de questionar, interpretar e comunicar informações efetivamente, focando na solução de problemas.
+    I. O pensamento analítico envolve a habilidade de questionar, interpretar e comunicar informações efetivamente, focando na solução de problemas. ✔
     
     II. A geração de _insights_ é uma atividade passiva, resultando apenas do processamento de grandes volumes de dados sem análises contextuais.
     
-    III. Ao aplicar o pensamento analítico, as métricas escolhidas devem ser diretamente relacionadas ao problema e relevantes para avaliar soluções implementadas.
+    III. Ao aplicar o pensamento analítico, as métricas escolhidas devem ser diretamente relacionadas ao problema e relevantes para avaliar soluções implementadas. ✔
     
     É correto o que se afirma em:
     
@@ -62,7 +63,7 @@ Sobre o ciclo de vida em ciência de dados, assinale a alternativa correta:
     
     |   |   |   |
     |---|---|---|
-    ||a.|Ambas as afirmações são verdadeiras, e a razão justifica a asserção.| -> correta
+    ||a.|Ambas as afirmações são verdadeiras, e a razão justifica a asserção.| -> correta ✔✔✔✔✔✔
     ||b.|Ambas as afirmações são verdadeiras, mas a razão não justifica a asserção.|
     ||c.|A asserção é verdadeira, mas a razão é falsa.|
     ||d.|A asserção é falsa, mas a razão é verdadeira.|
@@ -70,7 +71,7 @@ Sobre o ciclo de vida em ciência de dados, assinale a alternativa correta:
 
 6 -> 1. No contexto da realização de projetos em ciência de dados nas empresas, considere a afirmação a seguir:
     
-    I. Há diversos cargos para trabalhar com dados nas empresas, tais como engenheiro de dados, analista de dados e cientista de dados.
+    I. Há diversos cargos para trabalhar com dados nas empresas, tais como engenheiro de dados, analista de dados e cientista de dados. ✔
     
     PORQUE
     
@@ -80,7 +81,7 @@ Sobre o ciclo de vida em ciência de dados, assinale a alternativa correta:
     |---|---|---|
     ||a.|A asserção e a razão são proposições verdadeiras, e a razão justifica corretamente a asserção.|
     ||b.|A asserção e a razão são proposições verdadeiras, mas a razão não justifica a asserção.|
-    ||c.|A asserção é verdadeira, mas a razão é uma proposição falsa.| -> correto
+    ||c.|A asserção é verdadeira, mas a razão é uma proposição falsa.| -> correto ✔✔✔
     ||d.|A asserção é uma proposição falsa, e a razão é uma proposição verdadeira.|
     ||e.|Ambas, asserção e razão, são proposições falsas.|
 
@@ -90,28 +91,28 @@ Após uma consultoria, foi sugerida a implementação de uma estrutura robusta q
 
 Com base no cenário descrito, quais das seguintes abordagens a empresa está considerando?
 
-|   |   |   |
-|---|---|---|
-||a.|Criar uma equipe de _Data Miners_ para analisar profundamente os dados da empresa e contratar um _Chief Data Officer_ para gerenciar aa equipe.|
-||b.|Implementar práticas de Data Governance para gerenciar eficazmente os dados da empresa e contratar um DPO (_Data Protection Officer_) para garantir a conformidade com a legislação.|
-||c.|Estabelecer uma política de open data, tornando todos os dados da empresa acessíveis ao público e contratando um especialista em cibersegurança.|
-||d.|Focar exclusivamente na conformidade com a legislação, contratando advogados especializados em direito digital.|
-||e.|Investir em ferramentas de _Machine Learning_ para proteção de dados e contratação de um especialista em inteligência artificial.|
+|     |     |                                                                                                                                                                                          |
+| --- | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     | a.  | Criar uma equipe de _Data Miners_ para analisar profundamente os dados da empresa e contratar um _Chief Data Officer_ para gerenciar aa equipe.                                          |
+|     | b.  | **Implementar práticas de Data Governance para gerenciar eficazmente os dados da empresa e contratar um DPO (_Data Protection Officer_) para garantir a conformidade com a legislação.** |
+|     | c.  | Estabelecer uma política de open data, tornando todos os dados da empresa acessíveis ao público e contratando um especialista em cibersegurança.                                         |
+|     | d.  | Focar exclusivamente na conformidade com a legislação, contratando advogados especializados em direito digital.                                                                          |
+|     | e.  | Investir em ferramentas de _Machine Learning_ para proteção de dados e contratação de um especialista em inteligência artificial.                                                        |
 B -> resposta
 
 8 -> 1. O campo do aprendizado de máquina oferece várias técnicas que permitem aos computadores aprenderem e tomarem decisões a partir de dados. O aprendizado não supervisionado é uma dessas abordagens que foca em encontrar padrões ocultos em dados não rotulados.
     
     Considere as seguintes afirmações:
     
-    No aprendizado não supervisionado, algoritmos tentam aprender padrões e estruturas de dados que não possuem etiquetas predefinidas.
+    No aprendizado não supervisionado, algoritmos tentam aprender padrões e estruturas de dados que não possuem etiquetas predefinidas.✔✔✔
     
     **PORQUE**
     
-    O principal objetivo dessa abordagem é organizar dados em _clusters_ de semelhança ou descobrir associações entre variáveis.
+    O principal objetivo dessa abordagem é organizar dados em _clusters_ de semelhança ou descobrir associações entre variáveis.✔✔✔
     
     |   |   |   |
     |---|---|---|
-    ||a.|Ambas são verdadeiras, e a razão justifica corretamente a asserção.| * correta*
+    ||a.|Ambas são verdadeiras, e a razão justifica corretamente a asserção.| * correta* ✔✔✔✔
     ||b.|Ambas são verdadeiras, mas a razão não justifica a asserção.|
     ||c.|A asserção é verdadeira, mas a razão é falsa.|
     ||d.|A asserção é falsa, mas a razão é verdadeira.|
@@ -121,9 +122,9 @@ B -> resposta
     
     Considerando as principais competências e habilidades esperadas de um cientista de dados em um ambiente corporativo, analise as afirmativas:
     
-    1. A capacidade de instalar software de análise de dados é essencial para extração de _insights_.
-    2. O cientista de dados precisa ter a habilidade de traduzir os resultados dos dados para linguagens de programação.
-    3. A capacidade de analisar, processar e perceber informações de diversas fontes para gerar _insights_ valiosos é fundamental.
+    1. A capacidade de instalar software de análise de dados é essencial para extração de _insights_.x
+    2. O cientista de dados precisa ter a habilidade de traduzir os resultados dos dados para linguagens de programação. x
+    3. A capacidade de analisar, processar e perceber informações de diversas fontes para gerar _insights_ valiosos é fundamental. ✔✔✔✔
     
     Está correto o que se afirma em:
     

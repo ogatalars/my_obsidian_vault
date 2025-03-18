@@ -83,3 +83,55 @@ A **análise em ciência de dados** ocorre principalmente na etapa **4. Explora�
 - A **análise prescritiva** aparece nas **decisões estratégicas (6)** e na **modelagem (5)**.
 
 📌 **Resumo:** A análise é um componente essencial da **fase de exploração e análise**, mas seus resultados impactam **todas as etapas seguintes**, ajudando a transformar dados brutos em **ações estratégicas inteligentes**. 🚀
+
+### **Principais Gráficos em Ciência de Dados: Tipo de Análise e Fase do Ciclo de Vida**
+
+A visualização de dados desempenha um papel fundamental na ciência de dados, ajudando a identificar padrões, tendências e insights. Os gráficos podem ser classificados com base no **tipo de análise** e na **fase do ciclo de vida da ciência de dados** em que são mais utilizados.
+
+---
+
+### **1. Gráficos para Distribuição de Dados**
+
+|**Gráfico**|**Tipo de Análise**|**Fase do Ciclo de Vida**|**Uso Principal**|
+|---|---|---|---|
+|**Histograma**|Descritiva|Exploração e Análise|Entender a distribuição dos dados e detectar outliers.|
+|**KDE (Kernel Density Estimation)**|Descritiva|Exploração e Análise|Visualizar distribuições suavizadas e padrões.|
+|**Boxplot**|Descritiva|Exploração e Análise|Comparar distribuições, identificar outliers e dispersão.|
+|**Violinplot**|Descritiva|Exploração e Análise|Comparar distribuições de forma mais detalhada que o boxplot.|
+
+---
+
+### **2. Gráficos para Relação Entre Variáveis**
+
+|**Gráfico**|**Tipo de Análise**|**Fase do Ciclo de Vida**|**Uso Principal**|
+|---|---|---|---|
+|**Scatterplot (Gráfico de Dispersão)**|Descritiva/Preditiva|Exploração e Modelagem|Identificar padrões e correlações entre variáveis.|
+|**Heatmap**|Descritiva|Exploração e Análise|Visualizar matrizes de correlação entre variáveis.|
+|**Pairplot**|Descritiva|Exploração e Análise|Explorar múltiplas relações entre variáveis de forma visual.|
+
+---
+
+### **3. Gráficos para Séries Temporais e Tendências**
+
+| **Gráfico**          | **Tipo de Análise**  | **Fase do Ciclo de Vida**             | **Uso Principal**                                        |
+| -------------------- | -------------------- | ------------------------------------- | -------------------------------------------------------- |
+| **Gráfico de Linha** | Descritiva/Preditiva | Exploração, Modelagem e Monitoramento | Monitorar tendências temporais e prever padrões futuros. |
+
+---
+
+### **4. Gráficos para Comparação de Categorias**
+
+|**Gráfico**|**Tipo de Análise**|**Fase do Ciclo de Vida**|**Uso Principal**|
+|---|---|---|---|
+|**Barras**|Descritiva|Exploração e Análise|Comparação entre categorias distintas.|
+|**Gráfico de Setores (Pizza)**|Descritiva|Exploração e Análise|Representação de proporções entre categorias.|
+
+---
+
+### **📌 Conclusão**
+
+- **Análises Descritivas** utilizam histogramas, boxplots, heatmaps e gráficos de barras para explorar e resumir os dados na fase de **exploração e análise**.
+- **Análises Preditivas** usam scatterplots e gráficos de linha para prever tendências na fase de **modelagem e previsão**.
+- **Análises Prescritivas** podem usar gráficos em dashboards na fase de **tomada de decisão**, mas não possuem gráficos exclusivos para essa análise.
+
+A escolha adequada do gráfico **facilita a comunicação dos insights** e auxilia na **tomada de decisões estratégicas** com base nos dados. 🚀
