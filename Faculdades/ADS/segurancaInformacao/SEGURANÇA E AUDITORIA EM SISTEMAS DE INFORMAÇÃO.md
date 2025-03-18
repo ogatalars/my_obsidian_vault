@@ -93,7 +93,7 @@ dA afirmativa 1 é verdadeira, enquanto a 3 é falsa
 
 eA afirmativa 3 é a única falsa
 
-11 - O cálculo de riscos é uma função matemática que leva em conta alguns fatores.
+11 - O **cálculo de riscos** é uma função matemática que leva em conta alguns fatores.
 Analise as afirmativas relacionadas e marque a alternativa correta:
 
 1Em geral, em relação à gestão de risco uma organização reativa  possui um planejamento menos efetivo que uma organização proativa
@@ -114,12 +114,12 @@ eA afirmativa 1 é falsa, enquanto a 2 é verdadeira
 
 12 - A gestão de incidentes é um conjunto bastante amplo de atividades que busca garantir a continuidade dos negócios quando ocorrem incidentes ou eventos inesperados capazes de impactar negativamente a empresa.  Analisando as afirmativas, marque a alternativa correta:
 
-1Para o estabelecimento da GCN é necessário o envolvimento da direção  para imbutir em toda a empresa a cultura da gestão de continuidade ✔
+**1Para o estabelecimento da GCN é necessário o envolvimento da direção  para imbutir em toda a empresa a cultura da gestão de continuidade ✔**
 
-2A conformidade é o processo responsável por controlar a quantidade de incidentes que ocorrem em um período de tempo 
+2A conformidade é o processo responsável por controlar a quantidade de incidentes que ocorrem em um período de tempo  XXXX
 
-3Um dos cinco passos da GCN é o Entendimento da Organização, que estádiretamente vinculado 
-à Análise de impactos nos Negócios (AIN) ✔
+**3Um dos cinco passos da GCN é o Entendimento da Organização, que estádiretamente vinculado** 
+**à Análise de impactos nos Negócios (AIN) ✔**
 
 **aA afirmativa 2 é a única falsa**
 
@@ -148,9 +148,12 @@ eA afirmativa 3 é a única falsa
 **Descontentamento ou desmotivação de colaboradores; Baixo nível de conscientização dos colaboradores sobre assuntos relacionados à segurança; Inexistência de políticas e procedimentos para acesso, manipulação e  armazenagem da informação; Hacking, vírus, spam, e-mails maliciosos;Falta de um plano de recuperação a desastres; Desastres naturais, tais como incêndio, inundação, terremoto etc**
 
 15 - A Análise de Impactos nos Negócios (AIN) faz parte do Ciclo de Vida da Gestão de
-Continuidade de Negócios (GCN) recomendado pela norma ABNT ISO/IEC 27002. A
+Continuidade de Negócios **(GCN**) recomendado pela norma ABNT ISO/IEC 27002. A
 norma recomenda que em algumas situações o risco deve ser aceito e não tratado.
 Descreva um exemplo no qual a organização deve simplesmente aceitar o risco e a
 ameaça que este representa, justificando o porquê desta medida.
 
 **Muitas vezes a reparação de um risco representa um custo maior que o prejuízo causado pela ameaça. Por exemplo, em uma organização que tem poucos problemas de indisponibilidade elétrica, não há necessidade da compra de um gerador que garanta o fornecimento ininterrupto de energia. Principalmente se a indisponibilidade ocasional não representar um prejuízo significativo para a empresa**
+RISCO > AMEAÇA. -> empresa ou org que tem poucos problemas de falta de energia eletrica, não tem necessidade de comprar um gerador que garanta fornecimento sempre de energia. Principalmente se essa indisponibilidade não representa um prejuízo muito alto ou significativo para a empresa
+
+**Pagar o risco > prejuízo da ameaça**
