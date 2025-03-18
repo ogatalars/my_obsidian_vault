@@ -12,7 +12,7 @@ A eficácia de um projeto em ciência de dados está atrelada à identificação
 
 (Página 25). 
 
-Os resultados de um projeto de ciência de dados são, essencialmente, um reflexo direto da qualidade e da relevância dos dados iniciais coletados. Se os dados forem incompletos, imprecisos ou tendenciosos, será manifestado nos resultados finais, podendo levar a conclusões errôneas ou a decisões mal orientadas (Basso, 2020; Davenport, 2014).
+**Os resultados de um projeto de ciência de dados são, essencialmente, um reflexo direto da qualidade e da relevância dos dados iniciais coletados**. Se os dados forem incompletos, imprecisos ou tendenciosos, será manifestado nos resultados finais, podendo levar a conclusões errôneas ou a decisões mal orientadas (Basso, 2020; Davenport, 2014).
 
 (Página 26). 
 
