@@ -1,5 +1,5 @@
 1 - Ao desenvolver um aplicativo que irá mostrar todo o catálogo de produtos de uma
-empresa em 3-D e será necessário realizar uma animação desses produtos, qual é o
+empresa em **3-D** e será necessário realizar uma animação desses produtos, qual é o
 melhor tipo de linguagem a ser escolhida?
 
 aA linguagem Híbrido-WEB pela sua performance.
@@ -15,7 +15,7 @@ dA linguagem Híbrido-WEB pela sua facilidade de desenvolviment
 **e A linguagem nativa pela sua performance em aplicativo pesados** 
 
 
-2 - Ao desenvolver um aplicativo MVP, mas que seja necessário executar nos sistemas
+2 - Ao desenvolver um aplicativo **MVP**, mas que seja necessário executar nos sistemas
 operacionais Android e iOS, qual o melhor tipo de linguagem?
 
 **a React Native com o Expo CLI.**
@@ -66,7 +66,7 @@ backgroundColor: 'black',
 
 },
 
-4 - Uma das grandes diferenças do React para as outras linguagens são os states.
+4 - Uma das grandes diferenças do React para as outras linguagens são os **states.**
 Utilizados em diversas áreas do código, quais as suas principais funções?
 
 aArmazena a instância de um objeto para enviar a outro componente.
