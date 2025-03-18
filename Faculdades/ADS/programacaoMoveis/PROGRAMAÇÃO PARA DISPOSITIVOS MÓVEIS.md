@@ -141,7 +141,7 @@ com componentes como o Tab, Drawer e outros  **
 O **React Navigation** é uma biblioteca popular para navegação em **React Native**, oferecendo **simplicidade, flexibilidade e alta performance**. Suas principais vantagens incluem:
 
 ✅ **Fácil implementação** – Instalação simples e API intuitiva.  
-✅ **Suporte a diferentes tipos de navegação** – Stack, Tabs, Drawer e Modal.  
+✅ **Suporte a diferentes tipos de navegação** – **Stack, Tabs, Drawer** e Modal.  
 ✅ **Personalização** – Suporte a temas, transições animadas e estilos flexíveis.  
 ✅ **Melhor desempenho** – Usa **navegação nativa (React Native Screens)** para otimização.  
 ✅ **Gerenciamento de estado de navegação** – Fácil integração com Redux e Context API.  

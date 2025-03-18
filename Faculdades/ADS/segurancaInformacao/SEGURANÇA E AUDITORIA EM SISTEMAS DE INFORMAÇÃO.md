@@ -44,7 +44,7 @@ e Auditoria interna e auditoria articulada
 7 - Explique a técnica de auditoria de snapshot.
 **Esta técnica consiste na captura total de um cenário a ser validado. É como se alguém fotografasse um determinado momento do sistema e essa fotografia representasse o estado que ele se encontra. Isto é, os valores que estão em memória, as transações que estão sendo executadas e demais informações. em Normalmente, o auditor necessita de um software específico para realizar essa fotografia do sistema e poder utilizá-la posteriormente. Essa técnica é uma das que mais requer conhecimentos técnicos por parte do auditor, que irá analisar dados armazenados em posições de memória, valores de registradores, dentre outros aspectos técnicos (ROSSONI, 2015c, p. 5).**
 
-8 - Processos de auditoria podem ser entendidos como serviços de segurança que buscam rastrear, entender, analisar eventos (maliciosos ou não) em sistemas, redes, equipamentos ou corporações. Analise as afirmativas a respeito  das formas de auditoria e marque a alternativa correta:Num Afirmativa 
+8 - Processos de auditoria podem ser entendidos como serviços de segurança que buscam rastrear, entender, analisar eventos (maliciosos ou não) em sistemas, redes, equipamentos ou corporações. Analise as afirmativas a respeito  das formas de auditoria e marque a alternativa correta:
 **1 O processo de verificação se um processo está sendo seguido é uma forma de auditoria**
 2 Não se aplicam processos de auditoria em eventos inesperados como incidentes de segurança
 **3 Quando se usam logs de diversas fontes/origens é muito importante que haja sincronia entre os horários dos registros**   
