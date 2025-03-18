@@ -145,7 +145,7 @@ eA afirmativa 3 é a única falsa
 
 14 - A segurança da informação, portanto, é a proteção da informação contra vários tipos de ameaças, de modo a garantir a continuidade do negócio , minimizar riscos, maximizar o retorno sobre os investimentos e as oportunidades  de negócio. Ao analisarmos essa definição, precisamos definir alguns pontos-chave, para o correto entendimento de toda essa definição. Inicialmente, a definição  nos trás o conceito de que a segurança da informação é a proteção contra vários tipos de ameaças . Relacione quais são estas **ameaças** :
 
-**Descontentamento ou desmotivação de colaboradores; Baixo nível de conscientização dos colaboradores sobre assuntos relacionados à segurança; Inexistência de políticas e procedimentos para acesso, manipulação e  armazenagem da informação; Hacking, vírus, spam, e-mails maliciosos;Falta de um plano de recuperação a desastres;Desastres naturais, tais como incêndio, inundação, terremoto etc**
+**Descontentamento ou desmotivação de colaboradores; Baixo nível de conscientização dos colaboradores sobre assuntos relacionados à segurança; Inexistência de políticas e procedimentos para acesso, manipulação e  armazenagem da informação; Hacking, vírus, spam, e-mails maliciosos;Falta de um plano de recuperação a desastres; Desastres naturais, tais como incêndio, inundação, terremoto etc**
 
 15 - A Análise de Impactos nos Negócios (AIN) faz parte do Ciclo de Vida da Gestão de
 Continuidade de Negócios (GCN) recomendado pela norma ABNT ISO/IEC 27002. A
