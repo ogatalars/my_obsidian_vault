@@ -78,7 +78,7 @@ Também temos o intervalo interquartil (IQR), que é uma medida que nos diz sobr
 Além de conhecer o centro e a dispersão dos seus dados, é frequentemente útil entender como duas ou mais variáveis interagem ou se relacionam entre si. Esse é o domínio do conceito de correlação. Em termos simples, a correlação nos ajuda a identificar se uma variável muda em conjunto com outra e quão forte é essa relação. O coeficiente de correlação é uma métrica que varia entre −1 e 1 e serve como um termômetro dessa rela- ção. Um valor próximo de 1 sugere uma relação positiva forte, ou seja, quando uma variável aumenta, a outra também tende a aumentar. Um valor próximo de −1 indica uma relação negativa forte, significando que quando uma variável aumenta, a outra tende a diminuir. Um valor próximo de zero indica uma falta de relação linear entre as variáveis.
 
 (Página 67). 
-Embora o tipo mais conhecido de correlação seja a correlação de Pearson, que mede relações lineares, existem outras, como a correlação de Spearman e a de Kendall, que são usadas quando a relação entre as variáveis não é linear. Mas o coeficiente por si só não nos diz tudo. É crucial visualizar também os dados, muitas vezes recorrendo a um gráfico de dispersão, para realmente entender o contexto dessa correlação.
+**Embora o tipo mais conhecido de correlação seja a correlação de Pearson, que mede relações lineares, existem outras, como a correlação de Spearman e a de Kendall, que são usadas quando a relação entre as variáveis não é linear. Mas o coeficiente por si só não nos diz tudo. É crucial visualizar também os dados, muitas vezes recorrendo a um gráfico de dispersão, para realmente entender o contexto dessa correlação.**
 
 (Página 67). 
 
