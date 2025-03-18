@@ -8,7 +8,7 @@ A análise descritiva é uma abordagem multifacetada, podendo ser considerada ta
 
 **O que é e qual a função da análise descritiva
 
-De forma teórica, e como visto na introdução, a análise descritiva refere-se ao conjunto de técnicas empregadas para caracterizar e sumarizar os principais aspectos de um conjunto de dados (Sharda; Delen; Turban, 2019). Ela funciona como uma lente, permitindo aos cientistas de dados examinarem melhor os dados e identificar padrões subjacentes. Perceba que é complicado descrever e ter um entendimento geral quando se trata de uma quantidade volumosa de dados (Basso, 2020), ainda mais quando nos referimos a atributos numéricos. Dessa forma, a análise descritiva ajuda nesse sentido.
+De forma teórica, e como visto na introdução, a análise descritiva refere-se ao conjunto de técnicas empregadas para caracterizar e sumarizar os principais aspectos de um conjunto de dados (Sharda; Delen; Turban, 2019). **Ela funciona como uma lente, permitindo aos cientistas de dados examinarem melhor os dados e identificar padrões subjacentes.** Perceba que é complicado descrever e ter um entendimento geral quando se trata de uma quantidade volumosa de dados (Basso, 2020), ainda mais quando nos referimos a atributos numéricos. Dessa forma, a análise descritiva ajuda nesse sentido.
 
 (Página 61). 
 A análise descritiva é o primeiro passo no universo da análise de dados, servindo como um radar, capturando o panorama dos dados, suas nuances e padrões.
