@@ -34,7 +34,7 @@ A estatística descritiva é, em muitos aspectos, a espinha dorsal do campo esta
 
 (Página 63). **
 
-As medidas de tendência central são estatísticas que buscam resumir um conjunto de dados com um único valor que representa o “centro” desse conjunto. Essas medidas são essenciais para fornecer uma rápida compreensão dos dados disponíveis e são frequentemente o primeiro passo em qualquer análise estatística. As mais comuns são a média, a mediana e a moda.
+As medidas de tendência central são estatísticas que buscam resumir um conjunto de dados com um único valor que representa o “centro” desse conjunto. Essas medidas são essenciais para fornecer uma rápida compreensão dos dados disponíveis e são frequentemente o primeiro passo em qualquer análise estatística. **As mais comuns são a média, a mediana e a moda.**
 
 (Página 63). 
 
