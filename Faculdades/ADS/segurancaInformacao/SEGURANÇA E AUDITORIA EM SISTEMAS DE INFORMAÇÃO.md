@@ -44,7 +44,7 @@ e Auditoria interna e auditoria articulada
 7 - Explique a técnica de auditoria de snapshot.
 **Esta técnica consiste na captura total de um cenário a ser validado. É como se alguém fotografasse um determinado momento do sistema e essa fotografia representasse o estado que ele se encontra. Isto é, os valores que estão em memória, as transações que estão sendo executadas e demais informações. em Normalmente, o auditor necessita de um software específico para realizar essa fotografia do sistema e poder utilizá-la posteriormente. Essa técnica é uma das que mais requer conhecimentos técnicos por parte do auditor, que irá analisar dados armazenados em posições de memória, valores de registradores, dentre outros aspectos técnicos (ROSSONI, 2015c, p. 5).**
 
-8 - Processos de auditoria podem ser entendidos como serviços de segurança que buscam rastrear, entender, analisar eventos (maliciosos ou não) em s istemas, redes, equipamentos ou corporações. Analise as afirmativas a respeito  das formas de auditoria e marque a alternativa correta:Num Afirmativa 
+8 - Processos de auditoria podem ser entendidos como serviços de segurança que buscam rastrear, entender, analisar eventos (maliciosos ou não) em sistemas, redes, equipamentos ou corporações. Analise as afirmativas a respeito  das formas de auditoria e marque a alternativa correta:Num Afirmativa 
 **1 O processo de verificação se um processo está sendo seguido é uma forma de auditoria**
 2 Não se aplicam processos de auditoria em eventos inesperados como incidentes de segurança
 **3 Quando se usam logs de diversas fontes/origens é muito importante que haja sincronia entre os horários dos registros**   
@@ -61,7 +61,7 @@ este tópico, analise as afirmativas e marque a alternativa correta:
 
 **2De acordo com a norma 27002 o papel de um colaborador diz respeito às funções que este exerce dentro da empresa**
 
-3A norma 27002 define o termo responsabilidade como o prejuízo gerado por um ataque cibernético
+3A norma 27002 define o termo responsabilidade como o prejuízo gerado por um ataque cibernético XXXXX 
 
 aAs afirmativas 1 e 2 são verdadeiras
 
@@ -114,12 +114,12 @@ eA afirmativa 1 é falsa, enquanto a 2 é verdadeira
 
 12 - A gestão de incidentes é um conjunto bastante amplo de atividades que busca garantir a continuidade dos negócios quando ocorrem incidentes ou eventos inesperados capazes de impactar negativamente a empresa.  Analisando as afirmativas, marque a alternativa correta:
 
-1Para o estabelecimento da GCN é necessário o envolvimento da direção  para imbutir em toda a empresa a cultura da gestão de continuidade
+1Para o estabelecimento da GCN é necessário o envolvimento da direção  para imbutir em toda a empresa a cultura da gestão de continuidade ✔
 
 2A conformidade é o processo responsável por controlar a quantidade de incidentes que ocorrem em um período de tempo 
 
 3Um dos cinco passos da GCN é o Entendimento da Organização, que estádiretamente vinculado 
-à Análise de impactos nos Negócios (AIN)
+à Análise de impactos nos Negócios (AIN) ✔
 
 **aA afirmativa 2 é a única falsa**
 
@@ -133,9 +133,9 @@ eAs afirmativas 3 e 2 são falsas
 
 13 - As empresas compartilham informações sobre suas operações constantemente. É necessário que a gestão das operações e das comunicações garanta a  eficiência das operações e a segurança dos dados compartilhados. Analise as afirmativas  relacionada se marque a alternativa correta:
 
-**1Uma das formas de "planejar sistemas" é dimensionar recursos e escalabilidade ainda na fase de projeto destes sistemas**
-2Um código malicioso inserido em uma rede por um elemento interno (funcionário, por exemplo) não tem a capacidade de afetar a integridade  de um sistema
-3Um teste sobre as cópias de segurança busca checar a integridade e efetividade dos backups antes de uma eventual restauração
+**1Uma das formas de "planejar sistemas" é dimensionar recursos e escalabilidade ainda na fase de projeto destes sistemas** ✔
+2Um código malicioso inserido em uma rede por um elemento interno (funcionário, por exemplo) não tem a capacidade de afetar a integridade  de um sistema x 
+3Um teste sobre as cópias de segurança busca checar a integridade e efetividade dos backups antes de uma eventual restauração x
 
 aA afirmativa 3 é a única verdadeira
 bAs afirmativas 1 e 2 são falsas
@@ -143,7 +143,7 @@ bAs afirmativas 1 e 2 são falsas
 dAs afirmativas 2 e 3 são verdadeiras
 eA afirmativa 3 é a única falsa
 
-14 - A segurança da informação, portanto, é a proteção da informação contra vários tipos de ameaças, de modo a garantir a continuidade do negócio , minimizar riscos, maximizar o retorno sobre os investimentos e as oportunidades  de negócio. Ao analisarmos essa definição, precisamos definir alguns pontos-chave, para o correto entendimento de toda essa definição. Inicialmente, a definição  nos trás o conceito de que a segurança da informação é a proteção contra vários tipos de ameaças . Relacione quais são estas ameaças :
+14 - A segurança da informação, portanto, é a proteção da informação contra vários tipos de ameaças, de modo a garantir a continuidade do negócio , minimizar riscos, maximizar o retorno sobre os investimentos e as oportunidades  de negócio. Ao analisarmos essa definição, precisamos definir alguns pontos-chave, para o correto entendimento de toda essa definição. Inicialmente, a definição  nos trás o conceito de que a segurança da informação é a proteção contra vários tipos de ameaças . Relacione quais são estas **ameaças** :
 
 **Descontentamento ou desmotivação de colaboradores; Baixo nível de conscientização dos colaboradores sobre assuntos relacionados à segurança; Inexistência de políticas e procedimentos para acesso, manipulação e  armazenagem da informação; Hacking, vírus, spam, e-mails maliciosos;Falta de um plano de recuperação a desastres;Desastres naturais, tais como incêndio, inundação, terremoto etc**
 
