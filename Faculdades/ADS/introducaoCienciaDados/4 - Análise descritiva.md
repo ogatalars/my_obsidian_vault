@@ -1,4 +1,4 @@
-No universo da ciência de dados, a análise descritiva é essencial para aqueles que buscam transformar números brutos em insights significativos. Ela oferece respostas a questões como “o que aconteceu?” e “o que está acontecendo?”. Este campo se difere de métodos inferenciais ou preditivos pelo seu foco em resumir e organizar um conjunto de dados.
+No universo da ciência de dados, a **análise descritiva é essencial para aqueles que buscam transformar números brutos em insights significativos. Ela oferece respostas a questões como “o que aconteceu?” e “o que está acontecendo?”**. Este campo se difere de métodos inferenciais ou preditivos pelo seu foco em resumir e organizar um conjunto de dados.
 
 (Página 60). 
 
