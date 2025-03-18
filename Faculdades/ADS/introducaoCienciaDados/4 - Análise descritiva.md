@@ -38,7 +38,7 @@ As medidas de tendência central são estatísticas que buscam resumir um conjun
 
 (Página 63). 
 
-Outliers são valores que são significativamente diferentes dos outros valores em um conjunto de dados. Eles podem ser excepcionalmente altos ou baixos e têm o potencial de distorcer a representação geral dos dados. Por exemplo, se você está calculando a média salarial de uma empresa em que quase todos ganham entre 50 e 60 mil dólares por ano, mas o CEO ganha 2 milhões, o salário do CEO é um outlier.
+**Outliers são valores que são significativamente diferentes dos outros valores em um conjunto de dados. Eles podem ser excepcionalmente altos ou baixos e têm o potencial de distorcer a representação geral dos dados**. Por exemplo, se você está calculando a média salarial de uma empresa em que quase todos ganham entre 50 e 60 mil dólares por ano, mas o CEO ganha 2 milhões, o salário do CEO é um outlier.
 
 (Página 64). 
 
@@ -49,27 +49,27 @@ A média é talvez a medida de tendência central mais conhecida e utilizada. El
 Por outro lado, a mediana é menos afetada por outliers, tornando-a uma escolha mais robusta quando esses valores extremos estão presentes. Para encontrar a mediana, você ordena os valores do conjunto de dados e identifica o valor do meio. Se houver um número ímpar de observações, a mediana é o valor do meio. Se houver um número par de observações, a mediana é a média dos dois valores do meio.
 
 (Página 64). 
-Já a moda é simplesmente o valor que aparece com mais frequência em um conjunto de dados. Diferentemente da média e da mediana, a moda pode ser usada com dados que são categóricos em vez de numé- ricos. Além disso, a moda não é afetada por outliers.
+Já a moda é simplesmente o valor que aparece com mais frequência em um conjunto de dados. Diferentemente da média e da mediana, a moda pode ser usada com dados que são categóricos em vez de numéricos. Além disso, a moda não é afetada por outliers.
 
 (Página 64). 
 
-Se seus dados são distribuídos de maneira aproximadamente simé- trica e você não tem valores extremamente altos ou baixos, conhecidos como outliers, a média pode ser a melhor opção, pois leva em consideração todos os valores no conjunto de dados. No entanto, se há outliers que você suspeita que possam distorcer a representação geral do conjunto de dados, a mediana é geralmente uma escolha mais consistente, pois ela é menos suscetível a esses valores extremos. A mediana é particularmente útil em situações em que os dados são assimétricos ou quando estamos interessados em uma medida que resista às influências de valores extremos. Por sua vez, a moda pode ser mais apropriada para dados que são categóricos em vez de numéricos, ou quando você deseja identificar o valor mais comum em um conjunto de dados.
+Se seus dados são distribuídos de maneira aproximadamente simétrica e você não tem valores extremamente altos ou baixos, conhecidos como outliers, a média pode ser a melhor opção, pois leva em consideração todos os valores no conjunto de dados. No entanto, se há outliers que você suspeita que possam distorcer a representação geral do conjunto de dados, a mediana é geralmente uma escolha mais consistente, pois ela é menos suscetível a esses valores extremos. A mediana é particularmente útil em situações em que os dados são assimétricos ou quando estamos interessados em uma medida que resista às influências de valores extremos. Por sua vez, a moda pode ser mais apropriada para dados que são categóricos em vez de numéricos, ou quando você deseja identificar o valor mais comum em um conjunto de dados.
 
 (Página 65). 
 
 **Medidas de dispersão
 
 (Página 66). **
-Depois de entender a média ou a mediana de um conjunto de números, que são formas de identificar o “centro” dos dados, o próximo passo é entender quão espalhados esses números estão em relação a esse centro. Isso é o que chamamos de dispersão. Compreender a dispersão é como olhar para uma caixa de chocolates e querer saber se todos os sabores são parecidos ou se temos uma grande mistura.
+Depois de entender a média ou a mediana de um conjunto de números, que são formas de identificar o “centro” dos dados, **o próximo passo é entender quão espalhados esses números estão em relação a esse centro**. Isso é o que chamamos de **dispersão.** Compreender a dispersão é como olhar para uma caixa de chocolates e querer saber se todos os sabores são parecidos ou se temos uma grande mistura.
 
 (Página 66). 
-Para isso, temos algumas ferramentas úteis como a variância e o desvio padrão. A variância é uma forma de calcular quão distantes os números estão da média. Quanto maior a variância, mais espalhados estão os números. O desvio padrão é a raiz quadrada da variância e é útil porque está na mesma “linguagem” que os números originais. Então, se estamos medindo altura em centímetros, o desvio padrão também estará em centímetros, tornando mais fácil entender sua representação. A amplitude é outra forma simples de entender a dispersão. É basicamente a diferença entre o maior e o menor número do conjunto de dados. Por exemplo, se a menor temperatura registrada foi de 10 graus e a maior foi de 30 graus, a amplitude é de 20 graus. Mas cuidado, a amplitude pode ser enganosa se você tiver outliers.
+Para isso, temos algumas **ferramentas úteis como a variância e o desvio padrão. A variância é uma forma de calcular quão distantes os números estão da média. Quanto maior a variância, mais espalhados estão os números. O desvio padrão é a raiz quadrada da variância e é útil porque está na mesma “linguagem” que os números originais.** Então, se estamos medindo altura em centímetros, o desvio padrão também estará em centímetros, tornando mais fácil entender sua representação. A amplitude é outra forma simples de entender a dispersão. É basicamente a diferença entre o maior e o menor número do conjunto de dados. Por exemplo, se a menor temperatura registrada foi de 10 graus e a maior foi de 30 graus, a amplitude é de 20 graus. Mas cuidado, a amplitude pode ser enganosa se você tiver outliers.
 
 (Página 66). 
 Também temos o intervalo interquartil (IQR), que é uma medida que nos diz sobre a dispersão dos números que se localizam mais ao meio do conjunto, ignorando os 25% menores e os 25% maiores. O IQR é útil porque não é tão afetado por esses outliers ou números extremos.
 
 (Página 66). 
-Entender a dispersão é crucial porque, sem ela, a média ou a mediana podem dar uma visão distorcida da realidade. Imagine que duas escolas tenham a mesma média de notas. Na primeira, todos os alunos têm desempenhos próximos à média, enquanto na segunda há muitas notas baixas e altas, variando muito. Se você olhar apenas para a média, pensaria que as duas escolas são iguais, mas ao considerar a dispersão, fica claro que elas são bem diferentes. Portanto, sempre que estiver analisando um conjunto de números, lembre-se de que entender a dispersão é tão importante quanto conhecer a média ou a mediana.
+**Entender a dispersão é crucial porque, sem ela, a média ou a mediana podem dar uma visão distorcida da realidade.** Imagine que duas escolas tenham a mesma média de notas. Na primeira, todos os alunos têm desempenhos próximos à média, enquanto na segunda há muitas notas baixas e altas, variando muito. Se você olhar apenas para a média, pensaria que as duas escolas são iguais, mas ao considerar a dispersão, fica claro que elas são bem diferentes. Portanto, sempre que estiver analisando um conjunto de números, lembre-se de que entender a dispersão é tão importante quanto conhecer a média ou a mediana.
 
 **Correlação
 
