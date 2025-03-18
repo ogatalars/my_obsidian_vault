@@ -36,7 +36,7 @@ Cientista de dados é o papel mais abrangente e está basicamente em todas as et
 (Página 15). 
 
 Nas empresas -> 
-as empresas devem passar por diversas etapas de matura- ção em seu trabalho com dados. Buytendijk et al. (2020) sugerem um plano de trinta meses para essa adaptação. No primeiro mês, indica-se a construção formal do conhecimento do negócio, além da coleta, organização e validação dos dados existentes. Depois, inicia-se a geração de relatórios com boas visualizações de dados e análises descritivas. No 18º mês, inicia-se a base da ciência de dados, com modelos de aprendizado genéricos e projetos pilotos envolvendo análise preditiva. Com a consolidação, no 30º mês teremos modelos em fase de produção, tarefas e profissionais especializados a partir das reais necessidades do negócio.
+as empresas devem passar por diversas etapas de maturação em seu trabalho com dados. Buytendijk et al. (2020) sugerem um plano de trinta meses para essa adaptação. No primeiro mês, indica-se a construção formal do conhecimento do negócio, além da coleta, organização e validação dos dados existentes. Depois, inicia-se a geração de relatórios com boas visualizações de dados e análises descritivas. No 18º mês, inicia-se a base da ciência de dados, com modelos de aprendizado genéricos e projetos pilotos envolvendo análise preditiva. Com a consolidação, no 30º mês teremos modelos em fase de produção, tarefas e profissionais especializados a partir das reais necessidades do negócio.
 
 (Página 17). 
 As tarefas que podem ser propostas no sentido de utilizar dados para gerar valor para o negócio podem ser divididas em três tipos de análises: descritiva, prescritiva e preditiva (Mercante, 2022).
