@@ -36,7 +36,7 @@ A **amostragem** também é uma técnica usada para simplificar os dados, seleci
 
 (Página 31). 
 
-O desbalanceamento dos dados é outro ponto importante. Por exemplo, imagine que estamos construindo um modelo de seleção de currículos. Caso os currículos de exemplo na base de dados sejam predominantemente masculinos, o modelo terá um viés para a seleção de candidatos homens, mesmo que esses não sejam necessariamente os mais qualificados. Ou seja, se uma classe é muito mais prevalente do que outra, pode levar a modelos tendenciosos e incorretos. Métodos como **undersampling e oversampling são comuns para lidar com esse problema.**
+**O desbalanceamento dos dados é outro ponto importante. Por exemplo, imagine que estamos construindo um modelo de seleção de currículos. Caso os currículos de exemplo na base de dados sejam predominantemente masculinos, o modelo terá um viés para a seleção de candidatos homens, mesmo que esses não sejam necessariamente os mais qualificados.** Ou seja, se uma classe é muito mais prevalente do que outra, pode levar a modelos tendenciosos e incorretos. Métodos como **undersampling e oversampling são comuns para lidar com esse problema.**
 
 (Página 31). 
 Por sua vez, a limpeza dos dados envolve várias sub-etapas (Faceli et al., 2021; Grus, 2016). Dados incompletos precisam ser tratados, seja por meio da inserção de valores nos campos faltantes, seja por meio da exclusão de exemplos incompletos. Para a inserção, é possível utilizar medidas de tendência central nos valores conhecidos, preenchendo-as com tal valor, ou também utilizar um indutor para prever o valor do atributo para cada linha que está incompleta.
