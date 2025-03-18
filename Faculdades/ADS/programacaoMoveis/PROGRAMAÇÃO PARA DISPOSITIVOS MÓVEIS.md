@@ -12,7 +12,7 @@ plataformas.
 
 dA linguagem Híbrido-WEB pela sua facilidade de desenvolviment
 
-**eA linguagem nativa pela sua performance em aplicativo pesados** 
+**e A linguagem nativa pela sua performance em aplicativo pesados** 
 
 
 2 - Ao desenvolver um aplicativo MVP, mas que seja necessário executar nos sistemas

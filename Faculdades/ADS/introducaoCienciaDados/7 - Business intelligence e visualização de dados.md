@@ -204,16 +204,16 @@ A **visualização de dados** permite interpretar e comunicar informações de f
 
 #### **🟢 Tipos de Gráficos Usados no BI**
 
-|**Gráfico**|**Finalidade**|
-|---|---|
-|**Histograma**|Mostra a distribuição dos dados em intervalos.|
-|**KDE (Kernel Density Estimation)**|Estima a densidade de probabilidade de uma variável.|
-|**Scatterplot (Gráfico de Dispersão)**|Identifica relações entre duas variáveis numéricas.|
-|**Gráfico de Linha**|Visualiza tendências ao longo do tempo.|
-|**Boxplot**|Representa dispersão, mediana e outliers.|
-|**Violinplot**|Combina o Boxplot com KDE para melhor visualização da distribuição.|
-|**Heatmap**|Usa cores para representar magnitudes em uma matriz de dados.|
-|**Pairplot**|Exibe relações entre todas as variáveis numéricas de um dataset.|
+| **Gráfico**                            | **Finalidade**                                                      |
+| -------------------------------------- | ------------------------------------------------------------------- |
+| **Histograma**                         | Mostra a distribuição dos dados em intervalos.                      |
+| **KDE (Kernel Density Estimation)**    | Estima a densidade de probabilidade de uma variável.                |
+| **Scatterplot (Gráfico de Dispersão)** | Identifica relações entre duas variáveis numéricas.                 |
+| **Gráfico de Linha**                   | Visualiza tendências ao longo do tempo.                             |
+| **Boxplot**                            | Representa dispersão, mediana e outliers.                           |
+| **Violinplot**                         | Combina o Boxplot com KDE para melhor visualização da distribuição. |
+| **Heatmap**                            | Usa cores para representar magnitudes em uma matriz de dados.       |
+| **Pairplot**                           | Exibe relações entre todas as variáveis numéricas de um dataset.    |
 
 🔹 **Exemplo:** O BI de uma rede de supermercados pode usar um **heatmap** para visualizar quais produtos são mais vendidos por região.
 
