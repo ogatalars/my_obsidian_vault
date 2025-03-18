@@ -12,7 +12,7 @@ A eficácia de um projeto em ciência de dados está atrelada à identificação
 
 (Página 25). 
 
-**Os resultados de um projeto de ciência de dados são, essencialmente, um reflexo direto da qualidade e da relevância dos dados iniciais coletados**. Se os dados forem incompletos, imprecisos ou tendenciosos, será manifestado nos resultados finais, podendo levar a conclusões errôneas ou a decisões mal orientadas (Basso, 2020; Davenport, 2014).
+**Os resultados de um projeto de ciência de dados são, essencialmente, um reflexo direto da qualidade e da relevância dos dados iniciais coletados**. Se os dados forem incompletos, imprecisos ou tendenciosos, **será manifestado nos resultados finais, podendo levar a conclusões errôneas ou a decisões mal orientadas** (Basso, 2020; Davenport, 2014).
 
 (Página 26). 
 
@@ -24,15 +24,15 @@ O Kaggle é uma das principais plataformas para cientistas de dados, principalme
 
 (Página 29). 
 
-O pré-processamento de dados é uma etapa crucial em qualquer projeto de ciência de dados, servindo como ponte entre a coleta de dados brutos e a fase de análise (Faceli et al., 2021). Muitas vezes, por ter a característica de ajudar a deixar os dados mais limpos e compreensíveis para a construção de modelos, essa etapa pode ser desenvolvida de forma iterativa com a etapa de análise exploratória. Dessa forma, a exploração indica o que deve ser consertado, enquanto as técnicas de pré-processamento mitigam os problemas identificados, proporcionando uma análise mais correta.
+**O pré-processamento de dados é uma etapa crucial em qualquer projeto de ciência de dados, servindo como ponte entre a coleta de dados brutos e a fase de análise** (Faceli et al., 2021). Muitas vezes, por ter a característica de ajudar a deixar os dados mais limpos e compreensíveis para a construção de modelos, essa etapa pode ser desenvolvida de forma iterativa com a etapa de análise exploratória. Dessa forma, a exploração indica o que deve ser consertado, enquanto as técnicas de pré-processamento mitigam os problemas identificados, proporcionando uma análise mais correta.
 
 (Página 30). 
 
-(aspecto chave da etapa de pré-processamento de dados) -> Integração envolve a combinação de dados de várias fontes para criar um conjunto de dados unificado e coerente, sendo especialmente relevante quando os dados provêm de bancos de dados distintos ou até mesmo de tipos de dados diferentes.
+(aspecto chave da etapa de pré-processamento de dados) -> **Integração** envolve a combinação de dados de várias fontes para criar um conjunto de dados unificado e coerente, sendo especialmente relevante quando os dados provêm de bancos de dados distintos ou até mesmo de tipos de dados diferentes.
 
 (Página 30). 
 
-A amostragem também é uma técnica usada para simplificar os dados, selecionando subconjuntos representativos para análise em vez de usar o conjunto de dados completo. Utilizamos a amostragem quando a base de dados tem muitos exemplos e gostaríamos de selecionar apenas alguns para as análises. Algumas técnicas de amostragem são: aleató- ria simples, estratificada e progressiva.
+A **amostragem** também é uma técnica usada para simplificar os dados, selecionando subconjuntos representativos para análise em vez de usar o conjunto de dados completo. Utilizamos a amostragem quando a base de dados tem muitos exemplos e gostaríamos de selecionar apenas alguns para as análises. Algumas técnicas de amostragem são: aleató- ria simples, estratificada e progressiva.
 
 (Página 31). 
 
