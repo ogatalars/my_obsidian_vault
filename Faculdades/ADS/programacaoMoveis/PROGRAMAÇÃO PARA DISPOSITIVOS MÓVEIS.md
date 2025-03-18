@@ -82,9 +82,9 @@ não renderiza a tela quando seu valor é alterado.
 eArmazena as informações somente enquanto o componente realiza a
 renderização
 
-5 - Você precisa desenvolver um aplicativo com menu lateral com dois itens e, dentro
-desses itens, teremos algumas telas que abrirão de acordo com a informação que você
-tocará. Para isso, utilizaremos quais componentes?
+5 - Você precisa d**esenvolver um aplicativo com menu lateral com dois itens e, dentro**
+**desses itens, teremos algumas telas** que abrirão de acordo com a informação que você
+tocará. Para isso, utilizaremos quais componentes? (DRAWER + STACK)
 
 **a Para realizar essa navegação de telas, usaremos o componente Drawer para**
 **organizar os menus e, dentro deles, criaremos funções com os**
