@@ -36,10 +36,10 @@ A **amostragem** também é uma técnica usada para simplificar os dados, seleci
 
 (Página 31). 
 
-O desbalanceamento dos dados é outro ponto importante. Por exemplo, imagine que estamos construindo um modelo de seleção de currículos. Caso os currículos de exemplo na base de dados sejam predominantemente masculinos, o modelo terá um viés para a seleção de candidatos homens, mesmo que esses não sejam necessariamente os mais qualificados. Ou seja, se uma classe é muito mais prevalente do que outra, pode levar a modelos tendenciosos e incorretos. Métodos como undersampling e oversampling são comuns para lidar com esse problema.
+O desbalanceamento dos dados é outro ponto importante. Por exemplo, imagine que estamos construindo um modelo de seleção de currículos. Caso os currículos de exemplo na base de dados sejam predominantemente masculinos, o modelo terá um viés para a seleção de candidatos homens, mesmo que esses não sejam necessariamente os mais qualificados. Ou seja, se uma classe é muito mais prevalente do que outra, pode levar a modelos tendenciosos e incorretos. Métodos como **undersampling e oversampling são comuns para lidar com esse problema.**
 
 (Página 31). 
-Por sua vez, a limpeza dos dados envolve várias subetapas (Faceli et al., 2021; Grus, 2016). Dados incompletos precisam ser tratados, seja por meio da inserção de valores nos campos faltantes, seja por meio da exclusão de exemplos incompletos. Para a inserção, é possível utilizar medidas de tendência central nos valores conhecidos, preenchendo-as com tal valor, ou também utilizar um indutor para prever o valor do atributo para cada linha que está incompleta.
+Por sua vez, a limpeza dos dados envolve várias sub-etapas (Faceli et al., 2021; Grus, 2016). Dados incompletos precisam ser tratados, seja por meio da inserção de valores nos campos faltantes, seja por meio da exclusão de exemplos incompletos. Para a inserção, é possível utilizar medidas de tendência central nos valores conhecidos, preenchendo-as com tal valor, ou também utilizar um indutor para prever o valor do atributo para cada linha que está incompleta.
 
 (Página 31). 
 
@@ -57,11 +57,11 @@ A análise exploratória dos dados (exploratory data analysis, ou EDA) envolve u
 O aprendizado de máquina (machine learning, ou ML) é uma subárea da inteligência artificial que se concentra no desenvolvimento de algoritmos e modelos estatísticos que permitem que os computadores executem tarefas sem serem explicitamente programados (Faceli et al., 2021; Grus, 2016). Estes algoritmos aprendem de dados ou experiências anteriores e fazem previsões ou decisões baseadas neles.
 
 (Página 41). 
-O ML pode ser categorizado como aprendizado supervisionado, aprendizado não supervisionado ou aprendizado por reforço, cada um com seus próprios algoritmos e aplicações. No aprendizado supervisionado, os algoritmos são treinados em um conjunto de dados rotulados para realizar tarefas como classificação e regressão. Modelos como máquinas de vetores de suporte (SVM), árvores de decisão e redes neurais são comumente usados para classificar dados em diferentes categorias. Para tarefas de regressão, que envolvem a previsão de valores contínuos, métodos como regressão linear e árvores de regressão são frequentemente empregados. Por outro lado, o aprendizado não supervisionado não requer um conjunto de dados rotulados e é mais focado na detec- ção de padrões nos dados. Ele geralmente é usado em tarefas de agrupamento e associação, com modelos como k-means e análise de componentes principais (PCA).
+**O ML pode ser categorizado como aprendizado supervisionado, aprendizado não supervisionado ou aprendizado por reforço, cada um com seus próprios algoritmos e aplicações. No aprendizado supervisionado, os algoritmos são treinados em um conjunto de dados rotulados para realizar tarefas como classificação e regressão. Modelos como máquinas de vetores de suporte (SVM), árvores de decisão e redes neurais são comumente usados para classificar dados em diferentes categorias. Para tarefas de regressão, que envolvem a previsão de valores contínuos, métodos como regressão linear e árvores de regressão são frequentemente empregados. Por outro lado, o aprendizado não supervisionado não requer um conjunto de dados rotulados e é mais focado na detecção de padrões nos dados. Ele geralmente é usado em tarefas de agrupamento e associação, com modelos como k-means e análise de componentes principais (PCA).**
 
 (Página 41). 
 
-A análise descritiva se beneficia do aprendizado não supervisionado, pois procura entender a estrutura e os padrões subjacentes nos dados. A análise preditiva, por sua vez, tende a empregar modelos supervisionados para fazer previsões futuras baseadas em dados passados (Mercante, 2022). A análise prescritiva combina elementos de ambos, usando modelos preditivos para simular diferentes cenários para então sugerir ações específicas.
+**A análise descritiva se beneficia do aprendizado não supervisionado, pois procura entender a estrutura e os padrões subjacentes nos dados. A análise preditiva, por sua vez, tende a empregar modelos supervisionados para fazer previsões futuras baseadas em dados passados (Mercante, 2022). A análise prescritiva combina elementos de ambos, usando modelos preditivos para simular diferentes cenários para então sugerir ações específicas**.
 
 (Página 41). 
 
@@ -93,7 +93,7 @@ Na etapa “resultados: geração de insights e implementação de modelo” do 
 - **Remoção de Redundância:**
     - Eliminação de atributos semelhantes ou dados duplicados.
 - **Tratamento de Desbalanceamento:**
-    - Aplicação de técnicas para corrigir desequilíbrios entre classes (undersampling e oversampling).
+    - Aplicação de técnicas para corrigir desequilíbrios entre classes **(undersampling e oversampling).**
 
 ## 4. **Análise Exploratória dos Dados (EDA)**
 
