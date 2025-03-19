@@ -5,7 +5,7 @@ c Instalação de um controle criptográfico para aumentar a privacidade dos arq
 d Cadastro de usuários em um sistema 
 e Política de gerenciamento de senhas dos usuários
 
-2 - Em geral, uma DeMilitarized Zone (DMZ) é o ambiente menos protegido de uma rede, abrigando serviços que precisam ser acessados por diferentes usuários externos e que podem ser rapidamente substituídos em caso de comprometimento. Marque a alternativa correta em relação a uma DMZ. 
+2 - Em geral, uma DeMilitarized Zone **(DMZ**) é o ambiente menos protegido de uma rede, abrigando serviços que precisam ser acessados por diferentes usuários externos e que podem ser rapidamente substituídos em caso de comprometimento. Marque a alternativa correta em relação a uma DMZ. 
 a Ambiente muito usado para hospedar servidores críticos importantes para a organização com segurança 
 **b Ambiente cujo acesso à rede interna costuma ser bem protegido para evitar ataques a partir de acessos externos realizados na própria DMZ** 
 c Ambiente com acesso exclusivo à rede interna usado para backuo e recuperação de dados 
@@ -20,7 +20,7 @@ B é permitido b Um pacote que chega ao servidor C será aceito independente da 
 d Um pacote vindo do servidor C para o servidor A será bloqueado se o pacote for maior que 800 KB 
 e Um pacote enviado do servidor D para o servidor B é permitido independente do tamanho do pacote
 
-4 Porque é importante excluir ou bloquear contas de usuários quandos estes deixam a empresa?
+4 Porque é importante excluir ou bloquear contas de usuários quando estes deixam a empresa?
 a Porque pode entrar um usuário no sistema com o mesmo nome de um antigo 
 b Porque um sistema sistema consegue ter contas de usuários duplicadas e isso representa uma vulnerabilidade 
 c Porque que o sistema não pode acumular muitos usuários. Isso consome memória 
