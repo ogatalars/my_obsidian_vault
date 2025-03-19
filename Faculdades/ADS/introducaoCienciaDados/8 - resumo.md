@@ -182,3 +182,90 @@ Se os dados forem incompletos ou desatualizados, a empresa pode acabar fazendo p
 A **definição correta do problema** e a **seleção adequada da fonte de dados** são a base para decisões estratégicas no e-commerce. Sem esses cuidados, **os modelos preditivos e análises exploratórias podem ser irrelevantes ou até prejudiciais**.
 
 🚀 **Empresas que investem nessas etapas têm mais sucesso em prever tendências, otimizar estoques e maximizar vendas!**
+
+O’Neil e Schutt (2013) destacam que o cientista de dados precisa de competências como visualização de dados, aprendizado de máquina, matemática, estatística, computação, comunicação e conhecimento de negócios. No entanto, um cientista de dados não precisa ser especialista em todas essas áreas. Em vez disso, o sucesso em ciência de dados depende de equipes compostas por profissionais com habilidades complementares. Dessa forma, o nível de proficiência de cada membro contribui para que a equipe como um todo atenda às necessidades específicas de cada projeto. Com base nas competências necessárias para atuar em ciência de dados, explique como a composição de uma equipe diversificada em habilidades pode impactar o sucesso de um projeto em ciência de dados.
+
+
+POSSIVEIS QUESTÕES -> 
+
+
+Como a ciência de dados pode ser utilizada para criar campanhas de marketing mais personalizadas e eficazes, considerando o histórico de compras e o comportamento online dos clientes?
+
+aDesenvolvendo campanhas genéricas baseadas em promoções que já foram bem-sucedidas com outros clientes.
+
+bLimitando-se a uma análise descritiva do histórico de compras, sem considerar variáveis de comportamento atual.
+
+cEnviando e-mails promocionais aleatórios para toda a base de clientes, independentemente de comportamento ou histórico de compras.
+
+dUsando modelos preditivos para identificar preferências individuais dos clientes e sugerir produtos específicos com base no histórico de compras e padrões de navegação.
+
+eAgrupando clientes com base em características demográficas amplas, como idade e localização, sem levar em conta o comportamento online recente.
+
+Relacione os benefícios e as características do storytelling em BI a suas respectivas descrições: 1. Evoca emoções. 3. Facilita a tomada de decisões. 3. Mantém a integridade dos dados. 4. Cria conexões pessoais. I. Ao apresentar informações de forma clara e destacada, auxilia os stakeholders a fazerem escolhas informadas. II. O storytelling deve garantir que os dados sejam representativos e verdadeiros. III. Permite que a informação seja mais memorável e persuasiva. IV. Estabelece um relacionamento mais profundo e significativo com o público. Assinale a alternativa que apresenta a sequência correta de respostas:
+
+A alternativa correta é:
+
+✅ **1 - III, 2 - I, 3 - II, 4 - IV**
+
+🔹 **1. Evoca emoções → III.** _Permite que a informação seja mais memorável e persuasiva._  
+🔹 **2. Facilita a tomada de decisões → I.** _Ao apresentar informações de forma clara e destacada, auxilia os stakeholders a fazerem escolhas informadas._  
+🔹 **3. Mantém a integridade dos dados → II.** _O storytelling deve garantir que os dados sejam representativos e verdadeiros._  
+🔹 **4. Cria conexões pessoais → IV.** _Estabelece um relacionamento mais profundo e significativo com o público._
+
+Avalie as assertivas a seguir e assinale a alternativa correta.
+
+I. A LGPD foi instituída principalmente para proteger os direitos fundamentais de liberdade e privacidade dos brasileiros.
+
+II. Compliance refere-se exclusivamente à adesão a leis externas.
+
+III. O Data Protection Officer deve possuir conhecimentos aprofundados em áreas como sistemas de informação, cibersegurança e direito.
+
+É correto o que se afirma em:
+
+**I e III apenas.**
+
+II apenas.
+
+I, II e III.
+
+I e II apenas.
+
+III apenas.
+
+Considerando os aspectos de avaliação de conjuntos de dados para análise em Ciência de Dados apresentados no texto, identifique as associações corretas:
+
+I. A acurácia é avaliada identificando-se a proporção de registros livres de erros.
+
+II. A integridade dos dados pode ser vista nos formatos e escalas usadas em diferentes variáveis, já que é importante que elas correspondam ao que a variável representa.
+
+III. A atualidade dos dados diz respeito à ingestão de novos dados e à latência para análises em tempo real.
+
+É correto o que se afirma em:
+
+I apenas.
+
+**II e III apenas.**
+
+I e III apenas.
+
+II apenas.
+
+I, II e III.
+
+Uma empresa de e-commerce possui um banco de dados massivo com informações sobre milhões de clientes e suas respectivas compras. A equipe de análise de dados deseja utilizar técnicas de aprendizado de máquina para identificar padrões de compra e realizar recomendações personalizadas. No entanto,o volume de dados é tão grande que torna o processamento computacional lento e ineficiente. Qual das seguintes técnicas de pré-processamento de dados seria mais adequada para resolver o problema da empresa de e-commerce, permitindo uma análise mais rápida e eficiente dos dados? aEliminar atributos irrelevantes dos dados. bNormalizar os dados para um intervalo específico. cAumentar a dimensionalidade dos dados, facilitando a análise. dIntroduzir ruídos nos dados para testar a robustez dos modelos. **eSelecionar um subconjunto representativo dos dados para análise.**
+
+A análise preditiva é como um radar que detecta oportunidades e riscos no futuro. Ao analisar dados históricos e atuais, ela nos permite antecipar tendências e tomar decisões mais assertivas em áreas como finanças, marketing e saúde. Em vez de navegar à vista, as empresas utilizam modelos preditivos para traçar rotas mais precisas e alcançar seus objetivos de forma mais eficiente. De acordo com o texto, como a ciência de dados pode ajudar a identificar pacientes com alto risco de desenvolver determinada doença, com base em dados clínicos e genéticos?
+ 
+
+aseando-se exclusivamente em dados demográficos, como idade e sexo, para prever riscos de doenças, sem considerar dados clínicos e genéticos.
+
+Agrupando todos os pacientes em categorias amplas, sem considerar o histórico clínico e genético individual, e aplicando tratamentos uniformes.
+ 
+
+Desconsiderando o uso de modelos preditivos e utilizando intuição para identificar pacientes com risco elevado de doenças.
+
+**Utilizando modelos preditivos que analisam dados clínicos e genéticos, identificando padrões de risco que permitem ações preventivas e acompanhamento personalizado dos pacientes.**
+
+Usando apenas dados genéticos para prever doenças, ignorando a análise de dados clínicos e comportamentais dos pacientes.
+
+O’Neil e Schutt (2013) destacam que o cientista de dados precisa de competências como visualização de dados, aprendizado de máquina, matemática, estatística, computação, comunicação e conhecimento de negócios. No entanto, um cientista de dados não precisa ser especialista em todas essas áreas. Em vez disso, o sucesso em ciência de dados depende de equipes compostas por profissionais com habilidades complementares. Dessa forma, o nível de proficiência de cada membro contribui para que a equipe como um todo atenda às necessidades específicas de cada projeto. Com base nas competências necessárias para atuar em ciência de dados, explique como a composição de uma equipe diversificada em habilidades pode impactar o sucesso de um projeto em ciência de dados.

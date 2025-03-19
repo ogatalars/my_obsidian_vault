@@ -57,7 +57,7 @@ dA afirmativa 1 é a única falsa
 9 - A segurança também deve ser aplicada na gestão de recursos humanos. Em relação a
 este tópico, analise as afirmativas e marque a alternativa correta:
 
-1Equipamentos pessoais usados dentro da rede da empresa, como celulares e notebooks não devem ser tratados na PSI, pois são de uso pessoal
+1 Equipamentos pessoais usados dentro da rede da empresa, como celulares e notebooks não devem ser tratados na PSI, pois são de uso pessoal
 
 **2De acordo com a norma 27002 o papel de um colaborador diz respeito às funções que este exerce dentro da empresa**
 
@@ -71,17 +71,17 @@ cA afirmativa 1 é verdadeira, enquanto a 3 é falsa
 
 dAs afirmativas 1 e 2 são falsas
 
-**eA afirmativa 3 é falsa, enquanto a 2 é verdadeira**
+**e A afirmativa 3 é falsa, enquanto a 2 é verdadeira**
 
 10 - A preocupação com a segurança deve começar bem antes de um sistema entrar em
 operação. Já no desenvolvimento ou aquisição ações que garantam a segurança devem
 ser implementadas. Analisando as afirmativas, marque a alternativa correta:
 
-1Entre as validações de segurança exigidas em Sistemas Gerenciadores de Banco de Dados está a verificação se uma informação é pública
+1- Entre as validações de segurança exigidas em Sistemas Gerenciadores de Banco de Dados está a verificação se uma informação é pública
 
-**2Um Buffer Overflow (estouro de capacidade) ocorre, por exemplo, quando um campo ou endereço de memória recebe uma quantidade de dados acima de sua capacidade máxima**
+**2 Um Buffer Overflow (estouro de capacidade) ocorre, por exemplo, quando um campo ou endereço de memória recebe uma quantidade de dados acima de sua capacidade máxima**
 
-3Um exemplo de validação de dados na entrada é a checagem e correção  dos dados que serão enviados a um usuário
+3- Um exemplo de validação de dados na entrada é a checagem e correção dos dados que serão enviados a um usuário
 
 aAs afirmativas 2 e 3 são falsas
 
@@ -158,11 +158,11 @@ RISCO > AMEAÇA. -> empresa ou org que tem poucos problemas de falta de energia 
 
 **Pagar o risco > prejuízo da ameaça**
 
-16 - > Uma PSI bem elaborada é vital para que a empr esa adote e divulgue boas práticas de segurança.
+16 - > Uma PSI bem elaborada é vital para que a empresa adote e divulgue boas práticas de segurança.
 
-Marque a alternativa correta em relação às afirm ativas apresentadas:
+Marque a alternativa correta em relação às afirmativas apresentadas:
 
-1. Uma PSI é composta por regras que não precisam estar de aco rdo 1 com a lei, pois são de uso
+1. Uma PSI é composta por regras que não precisam estar de acordo com a lei, pois são de uso
 
 interno
 
