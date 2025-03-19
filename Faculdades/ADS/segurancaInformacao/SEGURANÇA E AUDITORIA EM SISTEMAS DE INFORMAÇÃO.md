@@ -1,4 +1,4 @@
-1 Marque a alternativa que mostra um exemplo do monitoramento de rede sendo usado como um controle de segurança para as comunicações.
+1 Marque a alternativa que mostra um **exemplo do monitoramento** de rede sendo usado como um controle de segurança para as comunicações.
 **a Contagem de pacotes de dados sendo enviados para um servidor a fim de gerar estatísticas de tráfego** 
 b Controle de entrada de pessoas em um determinado departamento 
 c Instalação de um controle criptográfico para aumentar a privacidade dos arquivos 
