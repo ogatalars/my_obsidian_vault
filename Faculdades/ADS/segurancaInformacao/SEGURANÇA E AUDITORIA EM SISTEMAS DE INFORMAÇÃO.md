@@ -27,14 +27,14 @@ c Porque que o sistema não pode acumular muitos usuários. Isso consome memóri
 **✔d Porque isso representa uma vulnerabilidade, já que contas antigas podem ser usadas por outros usuários de forma maliciosa** 
 e Porque um sistema não pode ter contas de usuários novas
 
-5 - Imagine duas situações: (1) O administrador percebeu inconsistências no sistema e descobriu que um incidente apagou as informações do banco de dados; (2) o administrador resolveu o problema recuperando dados a partir de uma cópia. Em relação ao processo de resposta a incidentes: 
+5 - Imagine duas situações: **(1) O administrador percebeu** inconsistências no sistema e descobriu que um incidente apagou as informações do banco de dados; **(2) o administrador resolveu** o problema recuperando dados a partir de uma cópia. Em relação ao processo de resposta a incidentes: 
 **✔a A situação (1) corresponde à fase de análise do incidente, pois envolve a detecção e entendimento do mesmo** 
 b A situação (2) ocorreu na fase de detecção e análise que foi vital para a confirmação de que se tratava de um incidente 
 c A solução do problema ocorreu na fase de preparação, pois envolveu o entendimento do problema 
 d A situação (2) corresponde à fase de ações pós-incidente, ou seja, a solução ocorreu após o contingenciamento do incidente 
 e A situação (1) ocorreu na fase de contenção, mitigação e recuperação do incidente
 
-6 (1) testes de execução de programas passo a passo para identificação de erros; e (2) checagem para verificar se um processo está realmente dentro dos padrões especificados na norma. São exemplos de:
+6 (1) **testes** de execução de programas passo a passo para identificação de erros; e (2) **checagem** para verificar se um processo está realmente dentro dos padrões especificados na norma. São exemplos de:
 **a Auditoria de operacional e auditoria de conformidade** 
 b Auditoria de conformidade e auditoria de operacional 
 c Auditoria externa e auditoria de operacional 
@@ -157,3 +157,31 @@ ameaça que este representa, justificando o porquê desta medida.
 RISCO > AMEAÇA. -> empresa ou org que tem poucos problemas de falta de energia eletrica, não tem necessidade de comprar um gerador que garanta fornecimento sempre de energia. Principalmente se essa indisponibilidade não representa um prejuízo muito alto ou significativo para a empresa
 
 **Pagar o risco > prejuízo da ameaça**
+
+16 - > Uma PSI bem elaborada é vital para que a empr esa adote e divulgue boas práticas de segurança.
+
+Marque a alternativa correta em relação às afirm ativas apresentadas:
+
+1. Uma PSI é composta por regras que não precisam estar de aco rdo 1 com a lei, pois são de uso
+
+interno
+
+2. **A norma 27001 sugere que haja um setor responsável pela segurança. Porém, a criação da PSI** *pode contar com outros setores participantes
+
+3. Uma PSI deve focar exclusivamente assuntos tecnológicos quando e laborada pelo responsável XXXX
+
+pela segurança
+
+**A afirmativa 3 é falsa, enquanto a 2 é verdadeira**
+
+17) 0 ambiente físico também precisa ser adequado às normas e práticas de segurança. Leia as
+
+afirmativas e marque a alternativa correta em relação aos cuidados com o ambiente físico:
+
+1. **Um perímetro de segurança física é um a área criada para garantir a segurança dos ativos.**
+
+2. São exemplos de perímetro de segurança: c alçadas e áreas externas da empresa.
+
+3. **O termo barreiras múltiplas diz respeito ao uso de múltiplos controles de acesso físico em um** **determinado perímetro de segurança.**
+
+b) as afirmativas 3 e 1 são verdadeiras
