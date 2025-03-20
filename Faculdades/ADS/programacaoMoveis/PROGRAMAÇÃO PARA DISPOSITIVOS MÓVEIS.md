@@ -116,7 +116,6 @@ enviamos uma mensagem diretamente para o celular.
 
 bSolicitamos a autorização de envio de notificações e nosso servidor envia a
 mensagem e token para os sites de envio de notificação (expo, firebase ou
-
 APNS).
 
 cSolicitamos a autorização de envio de notificações, coletamos o token,
