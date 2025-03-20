@@ -317,3 +317,18 @@ Uma equipe diversificada **mitiga pontos cegos**, melhora a **eficiência operac
 
 
 RESPOSTA -> 
+
+O **ciclo de vida dos dados** abrange desde a coleta até o descarte das informações, garantindo que sejam utilizadas de forma eficiente e segura. As principais etapas são:
+
+- 0: entendimento do problema;
+1. **Coleta** – Captura de dados de diversas fontes (ex.: transações, sensores, cadastros).
+2. **Armazenamento** – Organização em bancos de dados ou data lakes.
+3. **Processamento** – Limpeza, estruturação e transformação dos dados.
+4. **Análise** – Extração de insights usando estatística e machine learning.
+5. **Uso** – Aplicação dos insights para tomada de decisões estratégicas.
+6. **Compartilhamento** – Distribuição dos dados entre setores da empresa.
+7. **Arquivamento ou Descarte** – Retenção para compliance ou remoção segura.
+
+### **Exemplo no varejo:**
+
+Um supermercado coleta dados de compras dos clientes no caixa (**coleta**), armazena essas informações no banco de dados (**armazenamento**) e analisa padrões de compra (**análise**). Com esses insights, envia promoções personalizadas (**uso**) e compartilha as informações com o setor de marketing (**compartilhamento**). Após um período, os dados são descartados conforme normas de privacidade (**arquivamento ou descarte**).
