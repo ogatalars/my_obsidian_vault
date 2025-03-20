@@ -118,7 +118,7 @@ eA afirmativa 1 é falsa, enquanto a 2 é verdadeira
 
 2A conformidade é o processo responsável por controlar a quantidade de incidentes que ocorrem em um período de tempo  XXXX
 
-**3Um dos cinco passos da GCN é o Entendimento da Organização, que estádiretamente vinculado** 
+**3Um dos cinco passos da GCN é o Entendimento da Organização, que está diretamente vinculado** 
 **à Análise de impactos nos Negócios (AIN) ✔**
 
 **aA afirmativa 2 é a única falsa**
