@@ -185,3 +185,24 @@ afirmativas e marque a alternativa correta em relação aos cuidados com o ambie
 3. **O termo barreiras múltiplas diz respeito ao uso de múltiplos controles de acesso físico em um** **determinado perímetro de segurança.**
 
 b) as afirmativas 3 e 1 são verdadeiras
+
+18 - A preocupação com a segurança deve começar bem antes de um sistema entrar em operação. Já no desenvolvimento, aquisição ou manutenção, ações que garantam a segurança devem ser implementadas. Analisando as afirmativas que mostram controles de segurança voltados para garantir a segurança no desenvolvimento e/ou na aquisição de ativos ou serviços, marque a alternativa correta.
+
+Afirmativas
+
+1. Estabelecer regras de restrição de acesso ao código-fonte de softwares é um controle de segurança que pode ser implementado na fase de desenvolvimento.
+
+2. Negociar e garantir um SLA (acordo de nível de serviço) adequado é imprescindível quando se adquire um produto ou serviço de tecnologia.
+
+3. A fase de desenvolvimento envolve o descarte do código-fonte quando um sistema não vai ser mais utilizado.
+
+**A afirmativa 3 é a única falsa**
+
+A afirmativa 3 é a única verdadeira
+
+A afirmativa 2 é a única verdadeira
+
+A afirmativa 1 é a única falsa
+
+A afirmativa 1 é a única verdadeira
+****
