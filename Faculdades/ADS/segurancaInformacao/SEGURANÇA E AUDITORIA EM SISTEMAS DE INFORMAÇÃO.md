@@ -44,9 +44,9 @@ e Auditoria interna e auditoria articulada
 7 - Explique a técnica de auditoria de snapshot.
 **Esta técnica consiste na captura total de um cenário a ser validado. É como se alguém fotografasse um determinado momento do sistema e essa fotografia representasse o estado que ele se encontra. Isto é, os valores que estão em memória, as transações que estão sendo executadas e demais informações. em Normalmente, o auditor necessita de um software específico para realizar essa fotografia do sistema e poder utilizá-la posteriormente. Essa técnica é uma das que mais requer conhecimentos técnicos por parte do auditor, que irá analisar dados armazenados em posições de memória, valores de registradores, dentre outros aspectos técnicos (ROSSONI, 2015c, p. 5).**
 
-8 - Processos de auditoria podem ser entendidos como serviços de segurança que buscam rastrear, entender, analisar eventos (maliciosos ou não) em sistemas, redes, equipamentos ou corporações. Analise as afirmativas a respeito  das formas de auditoria e marque a alternativa correta:
+8 - **Processos de auditoria** podem ser entendidos como serviços de segurança que buscam rastrear, entender, analisar eventos (maliciosos ou não) em sistemas, redes, equipamentos ou corporações. Analise as afirmativas a respeito  das formas de auditoria e marque a alternativa correta:
 **1 O processo de verificação se um processo está sendo seguido é uma forma de auditoria**
-2 Não se aplicam processos de auditoria em eventos inesperados como incidentes de segurança
+2 Não se aplicam processos de auditoria em eventos inesperados como incidentes de segurança X
 **3 Quando se usam logs de diversas fontes/origens é muito importante que haja sincronia entre os horários dos registros**   
 aAs afirmativas 1 e 2 são verdadeiras
 bAs afirmativas 2 e 3 são falsas
@@ -54,7 +54,7 @@ cA afirmativa 3 é a única verdadeira
 dA afirmativa 1 é a única falsa
 **eAs afirmativas 1 e 3 são verdadeira**
 
-9 - A segurança também deve ser aplicada na gestão de recursos humanos. Em relação a
+9 **- A segurança** também deve ser aplicada na gestão de recursos humanos. Em relação a
 este tópico, analise as afirmativas e marque a alternativa correta:
 
 1 Equipamentos pessoais usados dentro da rede da empresa, como celulares e notebooks não devem ser tratados na PSI, pois são de uso pessoal
@@ -73,7 +73,7 @@ dAs afirmativas 1 e 2 são falsas
 
 **e A afirmativa 3 é falsa, enquanto a 2 é verdadeira**
 
-10 - A preocupação com a segurança deve começar bem antes de um sistema entrar em
+10 - **A preocupação com a segurança deve começar bem antes** de um sistema entrar em
 operação. Já no desenvolvimento ou aquisição ações que garantam a segurança devem
 ser implementadas. Analisando as afirmativas, marque a alternativa correta:
 
