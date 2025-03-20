@@ -13,14 +13,14 @@ O processo de verificação se um processo está sendo seguido é uma forma de a
 
 2
 
-Não se aplicam processos de auditoria em eventos inesperados como incidentes de segurança
+Não se aplicam processos de auditoria em eventos inesperados como incidentes de segurança X
 
 3
 
 Quando se usam logs de diversas fontes/origens é muito importante que haja sincronia entre os horários dos registros
 
  	 
-As afirmativas 1 e 3 são verdadeiras -> CORRETO
+**As afirmativas 1 e 3 são verdadeiras -> CORRETO**
 
 A afirmativa 3 é a única verdadeira
 
@@ -58,7 +58,7 @@ A afirmativa 1 é verdadeira, enquanto a 3 é falsa
 
 As afirmativas 2 e 3 são verdadeiras
 
-A afirmativa 3 é falsa, enquanto a 2 é verdadeira -> CORRETO
+**A afirmativa 3 é falsa, enquanto a 2 é verdadeira -> CORRETO**
 
 
 
@@ -346,7 +346,7 @@ Limitando-se a uma análise descritiva do histórico de compras, sem considerar 
 
 Enviando e-mails promocionais aleatórios para toda a base de clientes, independentemente de comportamento ou histórico de compras.
 
-Usando modelos preditivos para identificar preferências individuais dos clientes e sugerir produtos específicos com base no histórico de compras e padrões de navegação. => CORRETA
+**Usando modelos preditivos para identificar preferências individuais dos clientes e sugerir produtos específicos com base no histórico de compras e padrões de navegação**. => CORRETA
 
 Agrupando clientes com base em características demográficas amplas, como idade e localização, sem levar em conta o comportamento online recente.
 
@@ -372,7 +372,7 @@ IV. Estabelece um relacionamento mais profundo e significativo com o público.
 
 Assinale a alternativa que apresenta a sequência correta de respostas:
 
-a 1-III, 2 - I, 3 - II, 4 - IV -> CORRETA
+**a 1-III, 2 - I, 3 - II, 4 - IV -> CORRETA**
 
 b 1-II, 2 - I, 3 - IV, 4 - III
 
@@ -386,15 +386,15 @@ e 1- III, 2 - IV, 3 - II, 4 - I
 
 Avalie as assertivas a seguir e assinale a alternativa correta.
 
-I. A LGPD foi instituída principalmente para proteger os direitos fundamentais de liberdade e privacidade dos brasileiros. -> CORRETO
+**I. A LGPD foi instituída principalmente para proteger os direitos fundamentais de liberdade e privacidade dos brasileiros. -> CORRETO**
 
 II. Compliance refere-se exclusivamente à adesão a leis externas. - X
 
-III. O Data Protection Officer deve possuir conhecimentos aprofundados em áreas como sistemas de informação, cibersegurança e direito. -> CORRETO
+**III. O Data Protection Officer deve possuir conhecimentos aprofundados em áreas como sistemas de informação, cibersegurança e direito. -> CORRETO**
 
 É correto o que se afirma em:
 
-a- I e III apenas. => CORRETA
+**a- I e III apenas. => CORRETA**
 
 b - II apenas.
 
@@ -410,15 +410,15 @@ Considerando os aspectos de avaliação de conjuntos de dados para análise em C
 
 I. A acurácia é avaliada identificando-se a proporção de registros livres de erros. X
 
-II. A integridade dos dados pode ser vista nos formatos e escalas usadas em diferentes variáveis, já que é importante que elas correspondam ao que a variável representa. => CORRETO
+I**I. A integridade dos dados pode ser vista nos formatos e escalas usadas em diferentes variáveis, já que é importante que elas correspondam ao que a variável representa. => CORRETO**
 
-III. A atualidade dos dados diz respeito à ingestão de novos dados e à latência para análises em tempo real. CORRETO
+**III. A atualidade dos dados diz respeito à ingestão de novos dados e à latência para análises em tempo real. CORRETO**
 
 É correto o que se afirma em:
 
 a  - I apenas. x
 
-b - II e III apenas. -> CORRETO
+**b - II e III apenas. -> CORRETO**
 
 c - I e III apenas.x
 
@@ -440,7 +440,7 @@ Aumentar a dimensionalidade dos dados, facilitando a análise.
 
 Introduzir ruídos nos dados para testar a robustez dos modelos.
 
-Selecionar um subconjunto representativo dos dados para análise. -> CORRETO
+**Selecionar um subconjunto representativo dos dados para análise. -**> CORRETO(AMOSTRA)
 
 ——————————
 
@@ -453,7 +453,7 @@ b - Agrupando todos os pacientes em categorias amplas, sem considerar o históri
  
 c - Desconsiderando o uso de modelos preditivos e utilizando intuição para identificar pacientes com risco elevado de doenças. x
 
-d - Utilizando modelos preditivos que analisam dados clínicos e genéticos, identificando padrões de risco que permitem ações preventivas e acompanhamento personalizado dos pacientes. => CORRETA
+**d - Utilizando modelos preditivos que analisam dados clínicos e genéticos, identificando padrões de risco que permitem ações preventivas e acompanhamento personalizado dos pacientes. => CORRETA**
 
 e - Usando apenas dados genéticos para prever doenças, ignorando a análise de dados clínicos e comportamentais dos pacientes.
 

@@ -173,7 +173,7 @@ Se a empresa deseja prever a demanda do novo produto, pode coletar dados de:
 🔹 **Fonte 2:** Análises de tendências de buscas dos consumidores.  
 🔹 **Fonte 3:** Dados de redes sociais e feedbacks de clientes.
 
-Se os dados forem incompletos ou desatualizados, a empresa pode acabar fazendo previsões erradas, como lançar um produto em um momento inadequado ou com estoque insuficiente.
+**Se os dados forem incompletos ou desatualizados, a empresa pode acabar fazendo previsões erradas,** como lançar um produto em um momento inadequado ou com estoque insuficiente.
 
 ---
 
@@ -316,3 +316,4 @@ Uma equipe diversificada **mitiga pontos cegos**, melhora a **eficiência operac
 
 
 
+RESPOSTA -> 
