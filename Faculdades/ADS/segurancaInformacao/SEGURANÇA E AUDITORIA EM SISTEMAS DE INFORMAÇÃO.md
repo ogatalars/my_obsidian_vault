@@ -112,7 +112,7 @@ dA afirmativa 3 é falsa, enquanto a 1 é verdadeira
 
 eA afirmativa 1 é falsa, enquanto a 2 é verdadeira
 
-12 - A gestão de incidentes é um conjunto bastante amplo de atividades que busca garantir a continuidade dos negócios quando ocorrem incidentes ou eventos inesperados capazes de impactar negativamente a empresa.  Analisando as afirmativas, marque a alternativa correta:
+12 - **A gestão de incidentes** é um conjunto bastante amplo de atividades que busca garantir a continuidade dos negócios quando ocorrem incidentes ou eventos inesperados capazes de impactar negativamente a empresa.  Analisando as afirmativas, marque a alternativa correta:
 
 **1Para o estabelecimento da GCN é necessário o envolvimento da direção  para imbutir em toda a empresa a cultura da gestão de continuidade ✔**
 
