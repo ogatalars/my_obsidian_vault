@@ -133,7 +133,7 @@ eAs afirmativas 3 e 2 são falsas
 13 - **As empresas compartilham informações sobre suas operações constantemente.** É necessário que a gestão das operações e das comunicações garanta a  eficiência das operações e a segurança dos dados compartilhados. Analise as afirmativas  relacionada se marque a alternativa correta:
 
 **1Uma das formas de "planejar sistemas" é dimensionar recursos e escalabilidade ainda na fase de projeto destes sistemas** ✔
-2Um código malicioso inserido em uma rede por um elemento interno (funcionário, por exemplo) não tem a capacidade de afetar a integridade  de um sistema x 
+2Um código malicioso inserido em uma rede por um elemento interno (funcionário, por exemplo) **não** tem a capacidade de afetar a integridade  de um sistema x 
 3Um teste sobre as cópias de segurança busca checar a integridade e efetividade dos backups antes de uma eventual restauração x
 
 aA afirmativa 3 é a única verdadeira
@@ -157,7 +157,7 @@ RISCO > AMEAÇA. -> empresa ou org que tem poucos problemas de falta de energia 
 
 **Pagar o risco > prejuízo da ameaça**
 
-16 - > Uma PSI bem elaborada é vital para que a empresa adote e divulgue boas práticas de segurança.
+16 - > Uma **PSI** bem elaborada é vital para que a empresa adote e divulgue boas práticas de segurança.
 
 Marque a alternativa correta em relação às afirmativas apresentadas:
 
@@ -185,15 +185,15 @@ afirmativas e marque a alternativa correta em relação aos cuidados com o ambie
 
 b) as afirmativas 3 e 1 são verdadeiras
 
-18 - A preocupação com a segurança deve começar bem antes de um sistema entrar em operação. Já no desenvolvimento, aquisição ou manutenção, ações que garantam a segurança devem ser implementadas. Analisando as afirmativas que mostram controles de segurança voltados para garantir a segurança no desenvolvimento e/ou na aquisição de ativos ou serviços, marque a alternativa correta.
+18 - **A preocupação com a segurança deve começar bem antes** de um sistema entrar em operação. Já no desenvolvimento, aquisição ou manutenção, ações que garantam a segurança devem ser implementadas. Analisando as afirmativas que mostram controles de segurança voltados para garantir a segurança no desenvolvimento e/ou na aquisição de ativos ou serviços, marque a alternativa correta.
 
 Afirmativas
 
-1. Estabelecer regras de restrição de acesso ao código-fonte de softwares é um controle de segurança que pode ser implementado na fase de desenvolvimento.
+1. **Estabelecer regras de restrição de acesso ao código-fonte de softwares é um controle de segurança que pode ser implementado na fase de desenvolvimento.**
 
-2. Negociar e garantir um SLA (acordo de nível de serviço) adequado é imprescindível quando se adquire um produto ou serviço de tecnologia.
+2. **Negociar e garantir um SLA (acordo de nível de serviço) adequado é imprescindível quando se adquire um produto ou serviço de tecnologia.**
 
-3. A fase de desenvolvimento envolve o descarte do código-fonte quando um sistema não vai ser mais utilizado.
+3. A fase de desenvolvimento envolve o descarte do código-fonte quando um sistema não vai ser mais utilizado. XXXXX
 
 **A afirmativa 3 é a única falsa**
 

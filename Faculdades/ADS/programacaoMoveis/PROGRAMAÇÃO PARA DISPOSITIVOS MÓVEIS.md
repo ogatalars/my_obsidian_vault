@@ -10,7 +10,7 @@ cA linguagem Híbrido-Nativo por ter um único código para diversas
 
 plataformas.
 
-dA linguagem Híbrido-WEB pela sua facilidade de desenvolviment
+dA linguagem Híbrido-WEB pela sua facilidade de desenvolvimento
 
 **e A linguagem nativa pela sua performance em aplicativo pesados** 
 
