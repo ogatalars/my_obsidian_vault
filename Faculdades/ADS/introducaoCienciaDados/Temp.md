@@ -9,7 +9,7 @@ Afirmativa
 
 1
 
-O processo de verificação se um processo está sendo seguido é uma forma de auditoria
+**O processo de verificação se um processo está sendo seguido é uma forma de auditoria**
 
 2
 
@@ -17,18 +17,18 @@ Não se aplicam processos de auditoria em eventos inesperados como incidentes de
 
 3
 
-Quando se usam logs de diversas fontes/origens é muito importante que haja sincronia entre os horários dos registros
+**Quando se usam logs de diversas fontes/origens é muito importante que haja sincronia entre os horários dos registros**
 
  	 
 **As afirmativas 1 e 3 são verdadeiras -> CORRETO**
 
-A afirmativa 3 é a única verdadeira
+A afirmativa 3 é a única verdadeira X
+ 
+As afirmativas 2 e 3 são falsas X
 
-As afirmativas 2 e 3 são falsas
+A afirmativa 1 é a única falsa X
 
-A afirmativa 1 é a única falsa
-
-As afirmativas 1 e 2 são verdadeiras
+As afirmativas 1 e 2 são verdadeiras X
 
 
 
@@ -40,11 +40,11 @@ Afirmativa
 
 1
 
-Equipamentos pessoais usados dentro da rede da empresa, como celulares e notebooks não devem ser tratados na PSI, pois são de uso pessoal
+Equipamentos pessoais usados dentro da rede da empresa, como celulares e notebooks não devem ser tratados na PSI, pois são de uso pessoal X
 
 2
 
-De acordo com a norma 27002 o papel de um colaborador diz respeito às funções que este exerce dentro da empresa -> VERDADEIRO
+**De acordo com a norma 27002 o papel de um colaborador diz respeito às funções que este exerce dentro da empresa -> VERDADEIRO**
 
 3
 
@@ -52,7 +52,7 @@ A norma 27002 define o termo responsabilidade como o prejuízo gerado por um ata
 
 As afirmativas 1 e 2 são falsas
 
-As afirmativas 1 e 2 são verdadeiras
+As afirmativas 1 e 2 são verdadeiras X
 
 A afirmativa 1 é verdadeira, enquanto a 3 é falsa
 
@@ -73,7 +73,7 @@ Afirmativas
 
 3. A fase de desenvolvimento envolve o descarte do código-fonte quando um sistema não vai ser mais utilizado. XXXXX
 
-A afirmativa 3 é a única falsa -> CORRETO
+**A afirmativa 3 é a única falsa -> CORRETO**
 
 A afirmativa 3 é a única verdadeira
 
@@ -102,11 +102,11 @@ A comunicação do risco, sugerida pela norma ABNT 27005 serve para indicar os c
 
 3
 
-De acordo com a norma 27005, a etapa de "Análise do Risco" precede e fornece requisitos para a etapa de "Avaliação do Risco"
+**De acordo com a norma 27005, a etapa de "Análise do Risco" precede e fornece requisitos para a etapa de "Avaliação do Risco"**
 
 A afirmativa 1 é a única verdadeira
 
-A afirmativa 3 é verdadeira, enquanto a 2 é falsa -> CORRETA
+**A afirmativa 3 é verdadeira, enquanto a 2 é falsa -> CORRETA**
 
 A afirmativa 1 é falsa, enquanto a 2 é verdadeira
 
@@ -125,21 +125,21 @@ Afirmativa
 
 1
 
-Para o estabelecimento da GCN é necessário o envolvimento da direção para imbutir em toda a empresa a cultura da gestão de continuidade 
+**Para o estabelecimento da GCN é necessário o envolvimento da direção para imbutir em toda a empresa a cultura da gestão de continuidade** 
 
 2
 
-A conformidade é o processo responsável por controlar a quantidade de incidentes que ocorrem em um período de tempo
+A conformidade é o processo responsável por controlar a quantidade de incidentes que ocorrem em um período de tempo XXX
 
 3
 
-Um dos cinco passos da GCN é o Entendimento da Organização, que está diretamente vinculado à Análise de impactos nos Negócios (AIN)
+**Um dos cinco passos da GCN é o Entendimento da Organização, que está diretamente vinculado à Análise de impactos nos Negócios (AIN)**
 
 A afirmativa 3 é verdadeira, enquanto a 1 é falsa
 
 As afirmativas 1 e 2 são verdadeiras
 
-A afirmativa 2 é a única falsa -> CORRETO
+**A afirmativa 2 é a única falsa -> CORRETO**
 
 As afirmativas 3 e 2 são falsas
 
@@ -152,21 +152,21 @@ As empresas compartilham informações sobre suas operações constantemente. É
 Afirmativas
 
 
-1. Uma das formas de "planejar sistemas" é dimensionar todos os recursos e toda a escalabilidade ainda na fase de projeto destes sistemas.
+1. **Uma das formas de "planejar sistemas" é dimensionar todos os recursos e toda a escalabilidade ainda na fase de projeto destes sistemas.**
 
-2. Um código malicioso inserido em uma rede por um elemento interno (funcionário, por exemplo) não tem a capacidade de afetar a integridade de um sistema.
+2. Um código malicioso inserido em uma rede por um elemento interno (funcionário, por exemplo) não tem a capacidade de afetar a integridade de um sistema. XXXXXX
 
-3. Um teste sobre as cópias de segurança busca checar a integridade e efetividade dos backups antes de uma eventual restauração.
+3. **Um teste sobre as cópias de segurança busca checar a integridade e efetividade dos backups antes de uma eventual restauração.** 
 
 A afirmativa 2 é falsa, enquanto a 1 é verdadeira -> correto
 
-A afirmativa 1 é verdadeira, enquanto a 3 é falsa
+A afirmativa 1 é verdadeira, enquanto a 3 é falsa X
 
-As afirmativas 1 e 2 são falsas
+As afirmativas 1 e 2 são falsas X
+ 
+As afirmativas 2 e 3 são verdadeiras X
 
-As afirmativas 2 e 3 são verdadeiras
-
-A afirmativa 3 é a única falsa
+A afirmativa 3 é a única falsa X
 
 
 A Análise de Impactos nos Negócios (AIN) faz parte do Ciclo de Vida da Gestão de Continuidade de Negócios (GCN) recomendado pela norma ABNT ISO/IEC 27002. A norma recomenda que em algumas situações o risco deve ser aceito e não tratado. Descreva um exemplo no qual a organização deve simplesmente aceitar o risco e a ameaça que este representa, justificando o porquê desta medida.

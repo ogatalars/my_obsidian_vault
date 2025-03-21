@@ -57,7 +57,7 @@ dA afirmativa 1 é a única falsa
 9 **- A segurança** também deve ser aplicada na gestão de recursos humanos. Em relação a
 este tópico, analise as afirmativas e marque a alternativa correta:
 
-1 Equipamentos pessoais usados dentro da rede da empresa, como celulares e notebooks não devem ser tratados na PSI, pois são de uso pessoal
+1 Equipamentos pessoais usados dentro da rede da empresa, como celulares e notebooks não devem ser tratados na PSI, pois são de uso pessoal xxxx
 
 **2De acordo com a norma 27002 o papel de um colaborador diz respeito às funções que este exerce dentro da empresa**
 
@@ -77,11 +77,11 @@ dAs afirmativas 1 e 2 são falsas
 operação. Já no desenvolvimento ou aquisição ações que garantam a segurança devem
 ser implementadas. Analisando as afirmativas, marque a alternativa correta:
 
-1- Entre as validações de segurança exigidas em Sistemas Gerenciadores de Banco de Dados está a verificação se uma informação é pública
+1- Entre as validações de segurança exigidas em Sistemas Gerenciadores de Banco de Dados está a verificação se uma informação é pública X
 
 **2 Um Buffer Overflow (estouro de capacidade) ocorre, por exemplo, quando um campo ou endereço de memória recebe uma quantidade de dados acima de sua capacidade máxima**
 
-3- Um exemplo de validação de dados na entrada é a checagem e correção dos dados que serão enviados a um usuário
+3- Um exemplo de validação de dados na entrada é a checagem e correção dos dados que serão enviados a um usuário X
 
 aAs afirmativas 2 e 3 são falsas
 
@@ -96,21 +96,21 @@ eA afirmativa 3 é a única falsa
 11 - O **cálculo de riscos** é uma função matemática que leva em conta alguns fatores.
 Analise as afirmativas relacionadas e marque a alternativa correta:
 
-1Em geral, em relação à gestão de risco uma organização reativa  possui um planejamento menos efetivo que uma organização proativa
+1Em geral, em relação à gestão de risco uma organização reativa  possui um planejamento menos efetivo que uma organização proativa X
 
 2A comunicação do risco, sugerida pela norma ABNT 27005 serve para indicar os culpados pelos prejuízos trazidos pela concretização  do risco (X)
 
 **3De acordo com a norma 27005, a etapa de "Análise do Risco" precede e fornece requisitos para a etapa de "Avaliação do Risco"**
 
-aAs afirmativas 2 e 3 são falsas
+aAs afirmativas 2 e 3 são falsas x
 
 **bA afirmativa 3 é verdadeira, enquanto a 2 é falsa**
 
-cA afirmativa 1 é a única verdadeira
+cA afirmativa 1 é a única verdadeira x
 
-dA afirmativa 3 é falsa, enquanto a 1 é verdadeira
+dA afirmativa 3 é falsa, enquanto a 1 é verdadeira x
 
-eA afirmativa 1 é falsa, enquanto a 2 é verdadeira
+eA afirmativa 1 é falsa, enquanto a 2 é verdadeira x
 
 12 - **A gestão de incidentes** é um conjunto bastante amplo de atividades que busca garantir a continuidade dos negócios quando ocorrem incidentes ou eventos inesperados capazes de impactar negativamente a empresa.  Analisando as afirmativas, marque a alternativa correta:
 
@@ -136,11 +136,11 @@ eAs afirmativas 3 e 2 são falsas
 2Um código malicioso inserido em uma rede por um elemento interno (funcionário, por exemplo) **não** tem a capacidade de afetar a integridade  de um sistema x 
 3Um teste sobre as cópias de segurança busca checar a integridade e efetividade dos backups antes de uma eventual restauração x
 
-aA afirmativa 3 é a única verdadeira
-bAs afirmativas 1 e 2 são falsas
+aA afirmativa 3 é a única verdadeira x
+bAs afirmativas 1 e 2 são falsas 
 **cA afirmativa 2 é falsa, enquanto a 1 é verdadeira**
-dAs afirmativas 2 e 3 são verdadeiras
-eA afirmativa 3 é a única falsa
+dAs afirmativas 2 e 3 são verdadeiras x
+eA afirmativa 3 é a única falsa x
 
 14 - A segurança da informação, portanto, é a proteção da informação contra vários tipos de ameaças, de modo a garantir a continuidade do negócio , minimizar riscos, maximizar o retorno sobre os investimentos e as oportunidades  de negócio. Ao analisarmos essa definição, precisamos definir alguns pontos-chave, para o correto entendimento de toda essa definição. Inicialmente, a definição  nos trás o conceito de que a segurança da informação é a proteção contra vários tipos de ameaças . Relacione quais são estas **ameaças** :
 
