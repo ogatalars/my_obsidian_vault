@@ -77,7 +77,7 @@ Por exemplo, imagine uma árvore com a raiz "A", e "A" tem dois filhos "B" e "C"
   B   C
 ```
 
-Em JavaScript, podemos representar isso assim:
+Em JavaScript, podemos **representar isso assim:**
 
 ```javascript
 class No {
