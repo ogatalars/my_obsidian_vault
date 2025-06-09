@@ -10,7 +10,7 @@ O capítulo inicial contextualiza a evolução da gestão de TI a partir da popu
 
 - **Transformação Digital:** A implementação de tecnologias exponenciais é crucial para a sobrevivência das empresas, exigindo a reinvenção de modelos de negócio. 
     
-- **Serviços e Processos:** Um serviço é um meio de entregar valor ao cliente, e um processo é um conjunto de atividades sequenciais para atingir um objetivo. A otimização de processos é fundamental para aumentar a eficiência e a produtividade. 5
+- **Serviços e Processos:** Um serviço é um meio de entregar valor ao cliente, e um processo é um conjunto de atividades sequenciais para atingir um objetivo. A otimização de processos é fundamental para aumentar a eficiência e a produtividade. 
     
 - **Gerenciamento de Serviços:** Envolve um conjunto de habilidades para fornecer valor ao cliente, alinhado ao ciclo de melhoria contínua PDCA (Planejar, Fazer, Verificar e Agir). 6666
     
