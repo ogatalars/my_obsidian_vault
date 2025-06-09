@@ -12,3 +12,7 @@ return indices 3 e 4;
 - Can there be multiple pairs that add up to the target?
 
 **STEP 2: write out some tests cases (just differente combinations, tests to try)**
+
+<tag>
+
+</tag>
