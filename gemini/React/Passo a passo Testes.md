@@ -75,6 +75,179 @@ describe('Componente TodoItem', () => {
 
 ---
 
+Excelente. Agora que entendemos a estrutura com `describe` e `test`, vamos aprofundar na parte mais importante de um teste: a verificação. É aqui que definimos as **regras do sucesso** e usamos o `expect` para garantir que o código as cumpriu.
+
+Abandonando o tom infantil, vamos mergulhar nos detalhes técnicos de como essas asserções funcionam.
+
+### A Anatomia da Verificação: `expect` e os Matchers
+
+Todo teste unitário segue o padrão **Arrange-Act-Assert** (Organizar-Agir-Afirmar). A parte de "regras e expected" concentra-se inteiramente na etapa de **Assert (Afirmar)**.
+
+Neste universo (Jest + React Testing Library), a afirmação é quase sempre construída com a função `expect`.
+
+A estrutura é a seguinte:
+
+`expect(valor_recebido).matcher(valor_esperado);`
+
+- `expect(valor_recebido)`: Você "embrulha" o valor que seu código produziu. Pode ser um elemento do DOM, o resultado de uma função, uma variável, etc. Você está dizendo: "Eu espero que _isso_...".
+- `.matcher(valor_esperado)`: O matcher é a condição que você impõe. É a segunda parte da frase: "..._seja igual a isso_", "..._esteja na tela_", "..._tenha sido chamado_".
+
+Os matchers são as verdadeiras regras. Vamos conhecer os mais importantes.
+
+---
+
+### Matchers Essenciais (As Regras do Jogo)
+
+Existem dezenas de matchers. Alguns vêm do Jest e outros, mais focados em DOM, vêm da biblioteca `@testing-library/jest-dom` (por isso a configuramos no início).
+
+#### 1. Matchers de Presença e Existência
+
+Servem para verificar se algo simplesmente existe ou está visível.
+
+- `.toBeInTheDocument()`: **O mais usado com React Testing Library.** Verifica se um elemento encontrado pelo `screen` está presente no documento HTML.
+    
+    JavaScript
+    
+    ```
+    const button = screen.getByRole('button');
+    expect(button).toBeInTheDocument();
+    ```
+    
+- `.toBeDefined()`: Verifica se uma variável não é `undefined`.
+    
+    JavaScript
+    
+    ```
+    const { result } = renderHook(() => useCounter());
+    expect(result.current.increment).toBeDefined();
+    ```
+    
+- `.toBeNull()`: Verifica se o valor é `null`. Útil para testar casos onde um elemento _não deve_ ser renderizado.
+    
+    JavaScript
+    
+    ```
+    const errorElement = screen.queryByText(/erro/i); // query não falha se não encontra
+    expect(errorElement).toBeNull();
+    ```
+    
+
+#### 2. Matchers de Igualdade
+
+Comparam valores. Atenção à diferença sutil, mas crucial, entre eles.
+
+- `.toBe(valor)`: Usa igualdade estrita (`===`). É perfeito para comparar tipos primitivos como strings, números e booleanos. **Não funciona para objetos ou arrays.**
+    
+    JavaScript
+    
+    ```
+    expect(1 + 1).toBe(2);
+    expect(minhaFuncao()).toBe(true);
+    ```
+    
+- `.toEqual(valor)`: Compara recursivamente todas as propriedades de objetos ou arrays. É o que você quase sempre vai querer usar para tipos não primitivos.
+    
+    JavaScript
+    
+    ```
+    const data = { user: 'John', id: 1 };
+    // expect(data).toBe({ user: 'John', id: 1 }); // ISSO FALHA!
+    expect(data).toEqual({ user: 'John', id: 1 }); // ISSO PASSA!
+    ```
+    
+
+#### 3. Matchers para Mocks de Funções
+
+Essenciais para testar interações, como vimos no exemplo do `TodoItem`.
+
+- `.toHaveBeenCalled()`: Verifica se uma função mock (`jest.fn()`) foi chamada pelo menos uma vez.
+    
+    JavaScript
+    
+    ```
+    const mockOnClick = jest.fn();
+    await userEvent.click(screen.getByRole('button'));
+    expect(mockOnClick).toHaveBeenCalled();
+    ```
+    
+- `.toHaveBeenCalledTimes(numero)`: Verifica o número exato de vezes que a função foi chamada.
+    
+    JavaScript
+    
+    ```
+    expect(mockOnClick).toHaveBeenCalledTimes(1);
+    ```
+    
+- `.toHaveBeenCalledWith(arg1, arg2, ...)`: Verifica se a função foi chamada com argumentos específicos. Extremamente poderoso para garantir que os dados corretos estão sendo passados.
+    
+    JavaScript
+    
+    ```
+    expect(mockOnDelete).toHaveBeenCalledWith(123); // Verifica se o ID passado foi 123
+    ```
+    
+
+#### 4. Matchers de Conteúdo e Atributos do DOM (`jest-dom`)
+
+Estes são seus melhores amigos para testar o estado da sua UI.
+
+- `.toHaveTextContent(texto)`: Verifica se um elemento contém um determinado texto.
+    
+    JavaScript
+    
+    ```
+    const paragraph = screen.getByTestId('user-greeting');
+    expect(paragraph).toHaveTextContent(/Bem-vindo/i); // Pode usar string ou Regex
+    ```
+    
+- `.toHaveStyle(regrasCSS)`: Verifica se um elemento possui estilos CSS específicos.
+    
+    JavaScript
+    
+    ```
+    const completedItem = screen.getByText('Tarefa Concluída');
+    expect(completedItem).toHaveStyle('text-decoration: line-through');
+    ```
+    
+- `.toHaveAttribute(attr, valor?)`: Verifica a presença e, opcionalmente, o valor de um atributo HTML.
+    
+    JavaScript
+    
+    ```
+    const link = screen.getByRole('link');
+    expect(link).toHaveAttribute('href', '/dashboard');
+    ```
+    
+- `.toBeChecked()`: Verifica se um elemento de input (como checkbox ou radio button) está marcado.
+    
+    JavaScript
+    
+    ```
+    const checkbox = screen.getByRole('checkbox');
+    expect(checkbox).toBeChecked();
+    ```
+    
+- `.toBeEnabled()` / `.toBeDisabled()`: Verifica se um elemento de formulário (botão, input) está habilitado ou desabilitado.
+    
+    JavaScript
+    
+    ```
+    const submitButton = screen.getByRole('button', { name: /enviar/i });
+    expect(submitButton).toBeDisabled();
+    ```
+    
+
+### Conclusão: Escrevendo Testes Legíveis
+
+O objetivo de usar `expect` com esses matchers é criar asserções que leiam quase como uma frase em inglês, tornando o teste autoexplicativo.
+
+Quando você lê:
+
+expect(button).toBeDisabled();
+
+Fica imediatamente claro qual é a intenção e a condição de sucesso desse teste, sem precisar analisar a lógica interna do componente.
+
+Dominar os matchers mais comuns permite que você defina com precisão e clareza as "regras do jogo" para seus componentes, resultando em uma suíte de testes robusta, confiável e, acima de tudo, fácil de manter.
 ### Passo a Passo (Versão Reformulada): Testando um Componente `TodoItem`
 
 #### Passo 1: Entendendo o Componente (O Brinquedo)

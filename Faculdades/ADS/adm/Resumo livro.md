@@ -12,20 +12,20 @@ O capítulo inicial contextualiza a evolução da gestão de TI a partir da popu
     
 - **Serviços e Processos:** Um serviço é um meio de entregar valor ao cliente, e um processo é um conjunto de atividades sequenciais para atingir um objetivo. A otimização de processos é fundamental para aumentar a eficiência e a produtividade. 
     
-- **Gerenciamento de Serviços:** Envolve um conjunto de habilidades para fornecer valor ao cliente, alinhado ao ciclo de melhoria contínua PDCA (Planejar, Fazer, Verificar e Agir). 6666
+- **Gerenciamento de Serviços:** Envolve um conjunto de habilidades para fornecer valor ao cliente, alinhado ao ciclo de melhoria contínua PDCA (Planejar, Fazer, Verificar e Agir)
     
 
 #### **Capítulo 2: ITIL - Estratégia de Serviços: Conceitos**
 
-Este capítulo introduz o ITIL (Information Technology Infrastructure Library) como um conjunto de boas práticas para o gerenciamento de serviços de TI. 7 O ITIL surgiu no Reino Unido nos anos 1980 e se tornou uma referência mundial. 8
+Este capítulo introduz o ITIL (Information Technology Infrastructure Library) como um conjunto de boas práticas para o gerenciamento de serviços de TI. 7 O ITIL surgiu no Reino Unido nos anos 1980 e se tornou uma referência mundial. 
 
 **Principais Ideias:**
 
-- **Estrutura do ITIL:** É composto por cinco livros que representam o ciclo de vida de um serviço: Estratégia de Serviço, Desenho de Serviço, Transição de Serviço, Operação de Serviço e Melhoria Contínua do Serviço. 9
+- **Estrutura do ITIL:** É composto por cinco livros que representam o ciclo de vida de um serviço: Estratégia de Serviço, Desenho de Serviço, Transição de Serviço, Operação de Serviço e Melhoria Contínua do Serviço. 
     
-- **Estratégia de Serviço:** Fornece orientação sobre como utilizar a gestão de serviços de TI de forma estratégica, definindo quais serviços oferecer e como criar valor para os clientes. 101010101010101010
+- **Estratégia de Serviço:** Fornece orientação sobre como utilizar a gestão de serviços de TI de forma estratégica, definindo quais serviços oferecer e como criar valor para os clientes. 
     
-- **Service Level Agreement (SLA):** É um contrato que formaliza os deveres e direitos entre o cliente e o provedor de serviços de TI, estabelecendo metas de qualidade e disponibilidade. 11111111
+- **Service Level Agreement (SLA):** É um contrato que formaliza os deveres e direitos entre o cliente e o provedor de serviços de TI, estabelecendo metas de qualidade e disponibilidade. 
     
 
 #### **Capítulo 3: ITIL - Desenho de Serviço: Conceitos e Processos**
