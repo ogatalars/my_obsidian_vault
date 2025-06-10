@@ -1,5 +1,5 @@
 
-### Uma Pausa para Entender: O que são `describe` e `test`?
+### Requisito: Uma Pausa para Entender: O que são `describe` e `test`?
 
 Imagine que nosso componente `TodoItem` é um brinquedo novo que acabamos de construir. Antes de entregá-lo para alguém brincar, precisamos ter certeza de que ele funciona direitinho, certo?
 
@@ -9,7 +9,7 @@ Imagine que nosso componente `TodoItem` é um brinquedo novo que acabamos de con
 
 Pense no `describe` como uma **caixa de brinquedos**.
 
-Quando você tem vários carrinhos, você os guarda na caixa de carrinhos. Se tem blocos de montar, eles vão para a caixa de blocos. Isso mantém tudo organizado.
+Quando você tem vários carrinhos, você os guarda na caixa de carrinhos. Se tem blocos de montar, eles vão para a caixa de blocos. Isso mantém tudo **organizado.**
 
 No nosso código, o `describe` faz a mesma coisa: ele cria uma "caixa" para guardar todos os testes de uma parte específica do nosso programa.
 
