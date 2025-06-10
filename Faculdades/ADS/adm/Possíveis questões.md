@@ -3,11 +3,11 @@
 
 Conceito 
 
-I - Central de Serviços; 
+I - Central de Serviços;  B
 
-II - Gerenciamento das Operações; 
+II - Gerenciamento das Operações; C
 
-III - Gerenciamento das Aplicações.**
+III - Gerenciamento das Aplicações.** A
 
 **Descrições 
 
@@ -90,10 +90,9 @@ e I-D II-B IIIC IV - A**
 **5 Depois do esboço de todos os pontos de conexão do serviço com as demais atividades da empresa, deve-se definir as políticas de TI, em relação ao serviço proposto. Assinale a alternativa que descreve corretamente o conceito de políticas de TI.**
 
 a As políticas devem abordar gestão de consequências e redundâncias, normas de 
-
 segurança da informação, código de ética, utilização de recursos de TI e principalmente as responsabilidades. A política de segurança deve evitar credenciais e políticas muito bem definida de direitos a acessos, bem como o controle de equipamentos próprios dos funcionários. 
 
-b As políticas devem abordar gestão de consequências e redundâncias, normas de segurança da informação, código de ética, utilização de recursos de TI, questões financeiras, marketing e descartar as responsabilidades. A política de segurança deve prever credenciais e políticas muito bem definida de direitos a acessos, bem como o controle de equipamentos próprios dos funcionários. 
+b As políticas devem abordar gestão de consequências e redundâncias, normas de segurança da informação, código de ética, utilização de recursos de TI, questões financeiras, **marketing** e descartar as responsabilidades. A política de segurança deve prever credenciais e políticas muito bem definida de direitos a acessos, bem como o controle de equipamentos próprios dos funcionários. 
 
 c As políticas devem abordar gestão de consequências e redundâncias, normas de 
 segurança da informação, código de ética, utilização de recursos de TI descartando as responsabilidades. A política de segurança deve prever credenciais e políticas muito bem definida de direitos a acessos deixando de lado o controle de equipamentos próprios dos funcionários. 

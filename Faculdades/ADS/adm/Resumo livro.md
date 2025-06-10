@@ -47,13 +47,13 @@ A transição de serviço aborda a gestão de mudanças e a implementação de n
 
 **Principais Ideias:**
 
-- **Gerenciamento de Mudança:** Visa mitigar a resistência às mudanças por parte dos colaboradores, que é uma reação natural. 18181818 O autor utiliza a analogia do "jardim zoológico da resistência" para classificar diferentes perfis de resistência (avestruzes, tigres, toupeiras, etc.). 19
+- **Gerenciamento de Mudança:** Visa mitigar a resistência às mudanças por parte dos colaboradores, que é uma reação natural. 18181818 O autor utiliza a analogia do "jardim zoológico da resistência" para classificar diferentes perfis de resistência (avestruzes, tigres, toupeiras, etc.). 
     
-- **Gerenciamento de Ativos:** Trata da identificação, registro e controle de todos os componentes que formam um serviço de TI, garantindo informações precisas e otimizando o uso de recursos. 20
+- **Gerenciamento de Ativos:** Trata da identificação, registro e controle de todos os componentes que formam um serviço de TI, garantindo informações precisas e otimizando o uso de recursos. 
     
-- **Gerenciamento de Liberação e Implantação:** Controla a passagem de um serviço do ambiente de homologação para o ambiente de produção real, assegurando que testes exaustivos e a capacitação dos usuários tenham sido realizados. 21212121212121212121212121212121
+- **Gerenciamento de Liberação e Implantação:** Controla a passagem de um serviço do ambiente de homologação para o ambiente de produção real, assegurando que testes exaustivos e a capacitação dos usuários tenham sido realizados. 
     
-- **Gerenciamento do Conhecimento:** Foca na transformação do conhecimento tácito (na mente das pessoas) em conhecimento explícito (documentado), utilizando Sistemas de Gestão do Conhecimento (SGC) para criar, armazenar e compartilhar o conhecimento organizacional. 22222222222222222222222222222222
+- **Gerenciamento do Conhecimento:** Foca na transformação do conhecimento tácito (na mente das pessoas) em conhecimento explícito (documentado), utilizando Sistemas de Gestão do Conhecimento (SGC) para criar, armazenar e compartilhar o conhecimento organizacional. 
     
 
 #### **Capítulo 5: ITIL - Operação de Serviço: Conceitos, Processos e Funções**
@@ -77,24 +77,24 @@ A fase final do ciclo de vida do ITIL concentra-se em revisar e aprimorar contin
 
 **Principais Ideias:**
 
-- **Ciclo de Deming (PDCA):** A melhoria contínua é fundamentada no ciclo PDCA (Planejar, Fazer, Verificar, Agir), que serve como metodologia para implementar aprimoramentos. 29292929
+- **Ciclo de Deming (PDCA):** A melhoria contínua é fundamentada no ciclo PDCA (Planejar, Fazer, Verificar, Agir), que serve como metodologia para implementar aprimoramentos. 
     
-- **Processos de Melhoria:** Incluem a revisão regular dos serviços (service review), a avaliação dos processos para identificar falhas, a definição de iniciativas específicas de melhoria e o monitoramento dos resultados para garantir que as metas sejam alcançadas. 30303030303030303030303030303030303030303030303030
+- **Processos de Melhoria:** Incluem a revisão regular dos serviços (service review), a avaliação dos processos para identificar falhas, a definição de iniciativas específicas de melhoria e o monitoramento dos resultados para garantir que as metas sejam alcançadas. 
     
 - **Registro CSI (Continual Service Improvement):** É um documento utilizado para registrar e gerenciar todas as oportunidades de melhoria identificadas. 31
     
 
 #### **Capítulo 7: Governança Corporativa e a Governança em TI**
 
-O capítulo expande o escopo da gestão para a governança, que estabelece as regras e os processos para a tomada de decisões, o controle e a comunicação em uma organização. 32
+O capítulo expande o escopo da gestão para a governança, que estabelece as regras e os processos para a tomada de decisões, o controle e a comunicação em uma organização. 
 
 **Principais Ideias:**
 
-- **Princípios da Governança Corporativa:** Baseia-se em quatro pilares: Transparência, Equidade, Conformidade (Compliance) e Prestação de Contas (Accountability). 33333333
+- **Princípios da Governança Corporativa:** Baseia-se em quatro pilares: Transparência, Equidade, Conformidade (Compliance) e Prestação de Contas (Accountability). 
     
-- **Integração com a Governança de TI:** A governança de TI alinha as estratégias de tecnologia com as de negócio, garantindo que a TI agregue valor, gerencie recursos de forma otimizada e mitigue riscos. 34343434
+- **Integração com a Governança de TI:** A governança de TI alinha as estratégias de tecnologia com as de negócio, garantindo que a TI agregue valor, gerencie recursos de forma otimizada e mitigue riscos. 
     
-- **Fatores Motivadores:** A implementação da governança de TI é impulsionada pela necessidade de alinhamento estratégico, entrega de valor, gestão de recursos, gestão de riscos e mensuração de desempenho. 35
+- **Fatores Motivadores:** A implementação da governança de TI é impulsionada pela necessidade de alinhamento estratégico, entrega de valor, gestão de recursos, gestão de riscos e mensuração de desempenho. 
     
 
 #### **Capítulo 8: Modelo de Governança de TI**
@@ -103,11 +103,11 @@ O último capítulo aborda a implementação prática de um modelo de governanç
 
 **Principais Ideias:**
 
-- **Planejamento Estratégico de TI:** Um plano de TI bem-sucedido deve ser consistente, de longo prazo e comunicado de forma clara a todos os executivos, não apenas aos técnicos. 363636363636363636
+- **Planejamento Estratégico de TI:** Um plano de TI bem-sucedido deve ser consistente, de longo prazo e comunicado de forma clara a todos os executivos, não apenas aos técnicos. 
     
-- **Desafios Gerenciais:** A governança de TI traz desafios como a garantia do sigilo empresarial, a substituição de mão de obra por automação e o gerenciamento do estresse causado pelo aumento do ritmo de trabalho. 373737373737373737
+- **Desafios Gerenciais:** A governança de TI traz desafios como a garantia do sigilo empresarial, a substituição de mão de obra por automação e o gerenciamento do estresse causado pelo aumento do ritmo de trabalho. 
     
 - **Frameworks de Governança:**
-    - **Cobit (Control Objectives for Information and related Technology):** É o principal framework para a governança de TI, trabalhando com uma cascata de objetivos que alinha as metas de TI às de negócio. 38
+    - **Cobit (Control Objectives for Information and related Technology):** É o principal framework para a governança de TI, trabalhando com uma cascata de objetivos que alinha as metas de TI às de negócio. 
         
-    - **BSC (Balanced Scorecard):** É um modelo de gestão estratégica que avalia o desempenho da empresa sob quatro perspectivas: financeira, clientes, processos internos e crescimento/aprendizado. 39
+    - **BSC (Balanced Scorecard):** É um modelo de gestão estratégica que avalia o desempenho da empresa sob quatro perspectivas: financeira, clientes, processos internos e crescimento/aprendizado.

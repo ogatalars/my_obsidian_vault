@@ -248,6 +248,7 @@ expect(button).toBeDisabled();
 Fica imediatamente claro qual é a intenção e a condição de sucesso desse teste, sem precisar analisar a lógica interna do componente.
 
 Dominar os matchers mais comuns permite que você defina com precisão e clareza as "regras do jogo" para seus componentes, resultando em uma suíte de testes robusta, confiável e, acima de tudo, fácil de manter.
+
 ### Passo a Passo (Versão Reformulada): Testando um Componente `TodoItem`
 
 #### Passo 1: Entendendo o Componente (O Brinquedo)
