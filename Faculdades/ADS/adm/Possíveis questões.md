@@ -116,11 +116,11 @@ III - Gerenciamento dos serviços de TI.  **A**
 
 Defnições 
 
-A - Tem um objetivo muito mais amplo do que instalar e dar suporte para infraestrutura e sistemas.** 
+A - Tem um objetivo muito mais amplo do que instalar e dar suporte para infraestrutura e sistemas.** **III**
 
-B - É o meio para entregar soluções aos clientes. Em geral é reconhecido como um trabalho executado por alguém para entregar um resultado que atenda a expectativa de um cliente, gerando valor a ele. 
+B - É o meio para entregar soluções aos clientes. Em geral é reconhecido como um trabalho executado por alguém para entregar um resultado que atenda a expectativa de um cliente, gerando valor a ele.  **I**
 
-C - É um conjunto de atividades executadas em determinada sequência, para atingir um ou mais objetivos definidos. Estas atividades consomem recursos (entradas) e entregam resultados (saídas) que podem ser produtos, serviços, informação etc.**
+C - É um conjunto de atividades executadas em determinada **sequência**, para atingir um ou mais objetivos definidos. Estas atividades consomem recursos (entradas) e entregam resultados (saídas) que podem ser produtos, serviços, informação etc.** **II**
 
 RESPOSTA -> **C -> I -B II -C III - A**
 
@@ -129,4 +129,4 @@ RESPOSTA -> **C -> I -B II -C III - A**
 **Descreva corretamente os objetivos do processo de gestão de mudanças dentro do processo de transição de serviço.** 
 
 **Resposta**> 
-A gestão de mudanças tem como objetivo mitigar a resistência a mudança, e fazer com que ela ocorra de forma mais tênue aos colaboradores envolvidos. A gestão de mudanças compreende INFRAESTRUTURA, RECURSOS HUMANOS, PROCESSOS, METODOLOGIAS, e ferramentas harmonicamente integradas com as mudanças que ocorrem nas empresas, ou seja, se faz necessário a criação de uma área dentro das empresas focada na gestão de mudanças, pela complexidade que o processo requer. 
+A gestão de mudanças tem como objetivo **mitigar a resistência a mudança**, e fazer com que ela ocorra de forma mais **tênue aos colaboradores envolvidos**. A gestão de mudanças compreende **INFRAESTRUTURA, RECURSOS HUMANOS, PROCESSOS, METODOLOGIAS**, e ferramentas harmonicamente integradas com as mudanças que ocorrem nas empresas, ou seja, se faz necessário a criação de uma área dentro das empresas focada na gestão de mudanças, pela complexidade que o processo requer. 
