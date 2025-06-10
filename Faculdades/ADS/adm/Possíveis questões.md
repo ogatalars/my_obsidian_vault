@@ -130,3 +130,6 @@ RESPOSTA -> **C -> I -B II -C III - A**
 
 **Resposta**> 
 A gestão de mudanças tem como objetivo **mitigar a resistência a mudança**, e fazer com que ela ocorra de forma mais **tênue aos colaboradores envolvidos**. A gestão de mudanças compreende **INFRAESTRUTURA, RECURSOS HUMANOS, PROCESSOS, METODOLOGIAS**, e ferramentas harmonicamente integradas com as mudanças que ocorrem nas empresas, ou seja, se faz necessário a criação de uma área dentro das empresas focada na gestão de mudanças, pela complexidade que o processo requer. 
+
+OBJETIVO -> Diminuir problemas relacionados a mudança, isso é, mitigar resistencia a mudança, e fazer com que ela ocorra de maneira mais eficiente e menos problemática possivel para as pessoas, trabalhadores envolvidas.
+A gestão de mudanças compreende uma ampla variedade de áreas, que devem atuar em conjunto e harmonia, sendo elas: infraestrutura, recursos humanos, processos e metodologias. Normalmente cria-se uma área dentro da empresa focada na gestão de mudanças caso a ocorra muita complexidade, caso isso ocorra. 
