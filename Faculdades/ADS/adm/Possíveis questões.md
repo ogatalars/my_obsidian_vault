@@ -133,3 +133,146 @@ A gestão de mudanças tem como objetivo **mitigar a resistência a mudança**, 
 
 OBJETIVO -> Diminuir problemas relacionados a mudança, isso é, mitigar resistencia a mudança, e fazer com que ela ocorra de maneira mais eficiente e menos problemática possivel para as pessoas, trabalhadores envolvidas.
 A gestão de mudanças compreende uma ampla variedade de áreas, que devem atuar em conjunto e harmonia, sendo elas: infraestrutura, recursos humanos, processos e metodologias. Normalmente cria-se uma área dentro da empresa focada na gestão de mudanças caso a ocorra muita complexidade, caso isso ocorra. 
+
+
+-----
+1 - Uma empresa de logística implantou recentemente um novo sistema de rastreamento de cargas, porém, ocorreu um incidente grave envolvendo vazamento de dados de clientes. A auditoria interna constatou falhas na identificação e mitigação de riscos de segurança.
+
+Para evitar a repetição de problemas semelhantes, qual seria a melhor prática a ser adotada em termos de governança de TI?
+
+ 
+
+a - Adotar processos de gestão de riscos que incluam análise periódica de vulnerabilidades e planos de ação corretivos/preventivos.
+ 
+
+b - Confiar apenas na equipe de suporte para tratar eventuais incidentes, sem metodologias claras. 
+
+c  - Centralizar a responsabilidade de segurança em um único analista, sem política formal.
+ 
+
+d - Desconsiderar riscos de segurança, pois o foco agora é recuperar a imagem da empresa.
+ 
+
+e - Implementar sistemas redundantes apenas na camada de banco de dados, ignorando outras áreas. 
+
+-------
+
+2 - Para que uma gerência da área de Tecnologia da Informação seja realmente efetiva e apresente resultados satisfatórios, em uma implantação de Governança de TI é preciso que se considerem vários fatores.
+
+Escolha a alternativa que faz a correlação correta entre tais fatores com suas respectivas explicações:
+
+ 
+
+Fatores
+
+I - Viabilidade da estratégia;
+
+II - Apresentação da estratégia;
+
+III - Resultados da estratégia;
+
+IV - Dinamicidade da estratégia.
+
+ 
+
+Explicações
+
+A - As táticas de gerenciamento, não só de TI, mas também de toda a empresa, devem possuir margens para mudanças e adaptações, as quais não dependem apenas de fatores internos de uma empresa, mas sim de toda uma conjuntura mercadológica;
+
+B - Deve-se verificar se a estratégia é verdadeiramente aplicável ao modelo de negócio escolhido;
+
+C - O fato de uma estratégia não ser devidamente comunicada e explicitada para aqueles que devem implantá-la pode causar desentendimentos e confusões que podem ser evitados, se houver um melhor planejamento e mais cuidado em sua apresentação;
+
+D - Se os objetivos de uma estratégia estiverem claros e forem alcançáveis, já há um grande passo para seu sucesso.
+
+ 
+
+I - B    II - C   III - D   IV - A
+
+I - D    II - B   III - C   IV – A
+
+I - B    II - D   III - C   IV - A
+
+I - C   II - B   III - D   IV - A
+
+I - A    II - C   III - D   IV - B
+
+---------
+
+3 - Além do ciclo PDCA (PLAN–DO–CHECK–ACT ou Planejar-Fazer-Verificar-Agir), é importante que o gestor de TI compreenda e implemente seis etapas, que devem ser cumpridas sequencialmente, buscando um processo de melhoria de serviços eficiente. As seis etapas são:
+
+Etapa 1 - Identificar e definir a estratégia de melhoria; Etapa 2 - Definir o que medir; Etapa 3 - Coletar os dados; Etapa 4 - Processar os dados; Etapa 5 – Extrair dados financeiros; Etapa 6 - Implementar melhoria.
+
+Etapa 1 - Identificar e definir a estratégia de melhoria; Etapa 2 - Definir o que medir; Etapa 3 - Coletar os dados; Etapa 4 - Processar os dados; Etapa 5 - Analisar os dados coletados; Etapa 6 - Implementar melhoria.
+
+Etapa 1 - Identificar e definir a estratégia de melhoria; Etapa 2 - Definir o que medir; Etapa 3 - Coletar os dados; Etapa 4 – Desenvolver projetos de manutenção; Etapa 5 - Analisar os dados coletados; Etapa 6 - Implementar melhoria.
+
+Etapa 1 - Identificar e definir a estratégia de melhoria; Etapa 2 - Definir o que medir; Etapa 3 - Coletar os dados; Etapa 4 – Levantar custos; Etapa 5 - Analisar os dados coletados; Etapa 6 - Implementar melhoria.
+
+Etapa 1 - Identificar e definir a estratégia de melhoria; Etapa 2 - Desenvolver indicadores de desempenho; Etapa 3 - Coletar os dados; Etapa 4 - Processar os dados; Etapa 5 - Analisar os dados coletados; Etapa 6 - Implementar melhoria.
+
+----- 
+ 
+4 - Dentro do gerenciamento de recursos de TI, temos que “disponibilidade” é a capacidade que um componente ou serviço tem de executar suas tarefas, sempre que solicitado, de forma assertiva. A disponibilidade resulta de um cálculo, que fornece um número em números percentuais. Assim, calcula-se a relação entre o tempo de serviço expresso no contrato e sua indisponibilidade, sempre sobre o prisma do negócio.
+
+Se um determinado serviço foi acordado em contrato que estaria disponível 99% durante dias úteis (das 7h00 às 19h00) e, por algum problema, ficou fora de operação durante 4 horas durante um dia no mês, qual o percentual de disponibilidade? Considere 21 dias úteis no mês para o cálculo.
+
+92,4%
+
+97,4%
+
+99,4%
+
+98,4%
+
+91,4%
+
+----- 
+
+5 - Uma organização de serviços profissionais implantou processos de ITIL V3 para Gerenciamento de Incidentes e Problemas. No entanto, as áreas de negócio reclamam que, embora os incidentes estejam sendo registrados e solucionados, a qualidade do serviço de TI ainda é considerada insuficiente.
+
+Qual melhoria de governança pode ampliar a satisfação das áreas de negócio?
+
+ 
+
+a - Encerrar o processo de Gerenciamento de Problemas, pois este não traz ganhos mensuráveis.
+
+ 
+b - Implantar um Acordo de Nível de Serviço (SLA) e um Catálogo de Serviços, alinhando expectativas com métricas de tempo e qualidade.
+ 
+
+c - Aumentar o número de incidentes registrados, sem alterar o processo de solução.
+ 
+
+d - Focar apenas em relatórios técnicos de indisponibilidade, sem engajamento dos usuários.
+ 
+
+e - Permitir que cada solicitante decida individualmente como a TI deve atendê-lo.
+ 
+--------
+
+6 - 
+
+6 - No cenário atual, onde a competitividade e a constante evolução tecnológica são fatores determinantes para o sucesso empresarial, as organizações vêm adotando a transformação digital como estratégia central para se reinventar. Esse processo não se restringe à mera implementação de novas tecnologias, mas envolve a reestruturação de processos internos, a inovação no modelo de negócios e a promoção de uma cultura organizacional ágil e orientada para a mudança. Empresas de diversos setores têm se desafiado a integrar tecnologia, pessoas e processos para otimizar a eficiência operacional, melhorar a experiência do cliente e conquistar vantagem competitiva.
+
+Com base nesse contexto, assinale a afirmativa correta sobre a transformação digital nas organizações.
+
+ 
+
+a - Consiste unicamente em incorporar redes sociais às práticas de marketing da empresa.
+ 
+b - Ela pode ser vista como um processo contínuo de adoção de tecnologias exponenciais e metodologias ágeis, redefinindo cultura e modelos de negócio.
+
+c - Independe de investimentos em novas tecnologias, bastando ajustar a estrutura hierárquica.
+
+d - Ocorre apenas em organizações tradicionais, sem impactar startups e negócios digitais.
+
+e - É restrita à substituição de colaboradores por máquinas de última geração, sem mudança de processos.
+
+
+
+ 7 - O processo de gestão de mudanças, dentre os processos de transição de serviços de TI, permite que estratégias transformadoras sejam implementadas, com o objetivo de corrigir anomalias nos serviços e reduzir impactos nas operações de negócio.
+Descreva corretamente os objetivos do processo de gestão de mudanças dentro do processo de transição de serviço.
+
+
+
