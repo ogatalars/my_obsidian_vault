@@ -137,12 +137,11 @@ A gestão de mudanças compreende uma ampla variedade de áreas, que devem atuar
 
 -----
 1 - Uma empresa de logística implantou recentemente um novo sistema de rastreamento de cargas, porém, ocorreu um incidente grave envolvendo vazamento de dados de clientes. A auditoria interna constatou falhas na identificação e mitigação de riscos de segurança.
-
 Para evitar a repetição de problemas semelhantes, qual seria a melhor prática a ser adotada em termos de governança de TI?
 
- 
 
-a - Adotar processos de gestão de riscos que incluam análise periódica de vulnerabilidades e planos de ação corretivos/preventivos.
+
+**a - Adotar processos de gestão de riscos que incluam análise periódica de vulnerabilidades e planos de ação corretivos/preventivos.**
  
 
 b - Confiar apenas na equipe de suporte para tratar eventuais incidentes, sem metodologias claras. 
