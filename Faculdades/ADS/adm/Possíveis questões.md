@@ -164,13 +164,13 @@ Escolha a alternativa que faz a correlação correta entre tais fatores com suas
 
 Fatores
 
-I - Viabilidade da estratégia;
+I - Viabilidade da estratégia;B
 
-II - Apresentação da estratégia;
+II - Apresentação da estratégia;C
 
-III - Resultados da estratégia;
+III - Resultados da estratégia;D
 
-IV - Dinamicidade da estratégia.
+IV - Dinamicidade da estratégia.A
 
  
 
@@ -186,7 +186,7 @@ D - Se os objetivos de uma estratégia estiverem claros e forem alcançáveis, j
 
  
 
-I - B    II - C   III - D   IV - A
+**I - B    II - C   III - D   IV - A**
 
 I - D    II - B   III - C   IV – A
 
@@ -202,7 +202,7 @@ I - A    II - C   III - D   IV - B
 
 Etapa 1 - Identificar e definir a estratégia de melhoria; Etapa 2 - Definir o que medir; Etapa 3 - Coletar os dados; Etapa 4 - Processar os dados; Etapa 5 – Extrair dados financeiros; Etapa 6 - Implementar melhoria.
 
-Etapa 1 - Identificar e definir a estratégia de melhoria; Etapa 2 - Definir o que medir; Etapa 3 - Coletar os dados; Etapa 4 - Processar os dados; Etapa 5 - Analisar os dados coletados; Etapa 6 - Implementar melhoria.
+**Etapa 1 - Identificar e definir a estratégia de melhoria; Etapa 2 - Definir o que medir; Etapa 3 - Coletar os dados; Etapa 4 - Processar os dados; Etapa 5 - Analisar os dados coletados; Etapa 6 - Implementar melhoria.**
 
 Etapa 1 - Identificar e definir a estratégia de melhoria; Etapa 2 - Definir o que medir; Etapa 3 - Coletar os dados; Etapa 4 – Desenvolver projetos de manutenção; Etapa 5 - Analisar os dados coletados; Etapa 6 - Implementar melhoria.
 
@@ -222,7 +222,7 @@ Se um determinado serviço foi acordado em contrato que estaria disponível 99% 
 
 99,4%
 
-98,4%
+**98,4%**
 
 91,4%
 
@@ -237,7 +237,7 @@ Qual melhoria de governança pode ampliar a satisfação das áreas de negócio?
 a - Encerrar o processo de Gerenciamento de Problemas, pois este não traz ganhos mensuráveis.
 
  
-b - Implantar um Acordo de Nível de Serviço (SLA) e um Catálogo de Serviços, alinhando expectativas com métricas de tempo e qualidade.
+**b - Implantar um Acordo de Nível de Serviço (SLA) e um Catálogo de Serviços, alinhando expectativas com métricas de tempo e qualidade.**
  
 
 c - Aumentar o número de incidentes registrados, sem alterar o processo de solução.
@@ -249,8 +249,6 @@ d - Focar apenas em relatórios técnicos de indisponibilidade, sem engajamento 
 e - Permitir que cada solicitante decida individualmente como a TI deve atendê-lo.
  
 --------
-
-6 - 
 
 6 - No cenário atual, onde a competitividade e a constante evolução tecnológica são fatores determinantes para o sucesso empresarial, as organizações vêm adotando a transformação digital como estratégia central para se reinventar. Esse processo não se restringe à mera implementação de novas tecnologias, mas envolve a reestruturação de processos internos, a inovação no modelo de negócios e a promoção de uma cultura organizacional ágil e orientada para a mudança. Empresas de diversos setores têm se desafiado a integrar tecnologia, pessoas e processos para otimizar a eficiência operacional, melhorar a experiência do cliente e conquistar vantagem competitiva.
 
