@@ -71,7 +71,7 @@ Explicações 
 
 A - As táticas de gerenciamento, não só de TI, mas também de toda a empresa, devem possuir margens para mudanças e adaptações, as quais não dependem apenas de fatores internos de uma empresa, mas sim de toda uma conjuntura mercadológica; 
 
-B - Deve-se verificar se a estratégia é verdadeiramente aplicável ao modelo de negócio escolhido; 
+B - Deve-se verificar se a estratégia é verdadeiramente aplicável ao modelo de negócio escolhido;  !
 
 C - O fato de uma estratégia não ser devidamente comunicada e explicitada para aqueles que devem implantá-la pode causar desentendimentos e confusões que podem ser evitados, se houver um melhor planejamento e mais cuidado em sua apresentação; 
 
@@ -90,14 +90,14 @@ e I-D II-B IIIC IV - A**
 **5 Depois do esboço de todos os pontos de conexão do serviço com as demais atividades da empresa, deve-se definir as políticas de TI, em relação ao serviço proposto. Assinale a alternativa que descreve corretamente o conceito de políticas de TI.**
 
 a As políticas devem abordar gestão de consequências e redundâncias, normas de 
-segurança da informação, código de ética, utilização de recursos de TI e principalmente as responsabilidades. A política de segurança deve evitar credenciais e políticas muito bem definida de direitos a acessos, bem como o controle de equipamentos próprios dos funcionários. 
+segurança da informação, código de ética, utilização de recursos de TI e principalmente as responsabilidades. A política de segurança deve **evitar** credenciais e políticas muito bem definida de direitos a acessos, bem como o controle de equipamentos próprios dos funcionários. 
 
-b As políticas devem abordar gestão de consequências e redundâncias, normas de segurança da informação, código de ética, utilização de recursos de TI, questões financeiras, **marketing** e descartar as responsabilidades. A política de segurança deve prever credenciais e políticas muito bem definida de direitos a acessos, bem como o controle de equipamentos próprios dos funcionários. 
+b As políticas devem abordar gestão de consequências e redundâncias, normas de segurança da informação, código de ética, utilização de recursos de TI, questões financeiras, **marketing** e **descartar** as responsabilidades. A política de segurança deve prever credenciais e políticas muito bem definida de direitos a acessos, bem como o controle de equipamentos próprios dos funcionários. 
 
 c As políticas devem abordar gestão de consequências e redundâncias, normas de 
-segurança da informação, código de ética, utilização de recursos de TI descartando as responsabilidades. A política de segurança deve prever credenciais e políticas muito bem definida de direitos a acessos deixando de lado o controle de equipamentos próprios dos funcionários. 
+segurança da informação, código de ética, utilização de recursos de TI **descartando** as responsabilidades. A política de segurança deve prever credenciais e políticas muito bem definida de direitos a acessos deixando de lado o controle de equipamentos próprios dos funcionários. 
 
-d As políticas devem abordar gestão financeira, recursos humanos, normas de 
+d As políticas devem abordar **gestão financeira**, recursos humanos, normas de 
 segurança da informação, código de ética, utilização de recursos de TI e principalmente as responsabilidades. A política de segurança deve prever credenciais e políticas muito bem definida de direitos a acessos, bem como o controle de equipamentos próprios dos funcionários. 
 
 **e As políticas devem abordar gestão de consequências e redundâncias, normas de** 
@@ -118,7 +118,7 @@ Defnições 
 
 A - Tem um objetivo muito mais amplo do que instalar e dar suporte para infraestrutura e sistemas.** **III**
 
-B - É o meio para entregar soluções aos clientes. Em geral é reconhecido como um trabalho executado por alguém para entregar um resultado que atenda a expectativa de um cliente, gerando valor a ele.  **I**
+B - É o meio para **entregar** soluções aos clientes. Em geral é reconhecido como um trabalho executado por alguém para entregar um resultado que atenda a expectativa de um cliente, gerando valor a ele.  **I**
 
 C - É um conjunto de atividades executadas em determinada **sequência**, para atingir um ou mais objetivos definidos. Estas atividades consomem recursos (entradas) e entregam resultados (saídas) que podem ser produtos, serviços, informação etc.** **II**
 
@@ -258,7 +258,7 @@ Com base nesse contexto, assinale a afirmativa correta sobre a transformação d
 
 a - Consiste unicamente em incorporar redes sociais às práticas de marketing da empresa.
  
-b - Ela pode ser vista como um processo contínuo de adoção de tecnologias exponenciais e metodologias ágeis, redefinindo cultura e modelos de negócio.
+**b - Ela pode ser vista como um processo contínuo de adoção de tecnologias exponenciais e metodologias ágeis, redefinindo cultura e modelos de negócio**.
 
 c - Independe de investimentos em novas tecnologias, bastando ajustar a estrutura hierárquica.
 
