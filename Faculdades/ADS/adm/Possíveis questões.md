@@ -137,14 +137,13 @@ A gestão de mudanças compreende uma ampla variedade de áreas, que devem atuar
 
 
 -----
-1 - Uma empresa de logística implantou recentemente um novo sistema de rastreamento de cargas, porém, ocorreu um incidente grave envolvendo vazamento de dados de clientes. A auditoria interna constatou falhas na identificação e mitigação de riscos de segurança.
+1 - Uma empresa de logística implantou recentemente um novo sistema de rastreamento de cargas, porém, ocorreu um **incidente grave envolvendo vazamento de dados de clientes**. A auditoria interna constatou falhas na identificação e mitigação de riscos de segurança.
 Para evitar a repetição de problemas semelhantes, qual seria a melhor prática a ser adotada em termos de governança de TI?
 
 
 
 **a - Adotar processos de gestão de riscos que incluam análise periódica de vulnerabilidades e planos de ação corretivos/preventivos.**
  
-
 b - Confiar apenas na equipe de suporte para tratar eventuais incidentes, sem metodologias claras. 
 
 c  - Centralizar a responsabilidade de segurança em um único analista, sem política formal.
@@ -161,7 +160,6 @@ e - Implementar sistemas redundantes apenas na camada de banco de dados, ignoran
 
 Escolha a alternativa que faz a correlação correta entre tais fatores com suas respectivas explicações:
 
- 
 
 Fatores
 
@@ -181,7 +179,7 @@ A - As táticas de gerenciamento, não só de TI, mas também de toda a empresa,
 
 B - Deve-se verificar se a estratégia é verdadeiramente aplicável ao modelo de negócio escolhido;
 
-C - O fato de uma estratégia não ser devidamente comunicada e explicitada para aqueles que devem implantá-la pode causar desentendimentos e confusões que podem ser evitados, se houver um melhor planejamento e mais cuidado em sua apresentação;
+C - O fato de uma estratégia não ser devidamente comunicada e explicitada para aqueles que devem implantá-la pode causar desentendimentos e confusões que podem ser evitados, se houver um melhor planejamento e mais cuidado em sua **apresentação;**
 
 D - Se os objetivos de uma estratégia estiverem claros e forem alcançáveis, já há um grande passo para seu sucesso.
 
@@ -229,11 +227,10 @@ Se um determinado serviço foi acordado em contrato que estaria disponível 99% 
 
 ----- 
 
-5 - Uma organização de serviços profissionais implantou processos de ITIL V3 para Gerenciamento de Incidentes e Problemas. No entanto, as áreas de negócio reclamam que, embora os incidentes estejam sendo registrados e solucionados, a qualidade do serviço de TI ainda é considerada insuficiente.
+5 - Uma organização de serviços profissionais implantou processos de **ITIL V3** para Gerenciamento de Incidentes e Problemas. No entanto, as áreas de negócio reclamam que, embora os incidentes estejam sendo registrados e solucionados, a qualidade do serviço de TI ainda é considerada insuficiente.
 
 Qual melhoria de governança pode ampliar a satisfação das áreas de negócio?
 
- 
 
 a - Encerrar o processo de Gerenciamento de Problemas, pois este não traz ganhos mensuráveis.
 
@@ -251,7 +248,7 @@ e - Permitir que cada solicitante decida individualmente como a TI deve atendê-
  
 --------
 
-6 - No cenário atual, onde a competitividade e a constante evolução tecnológica são fatores determinantes para o sucesso empresarial, as organizações vêm adotando a transformação digital como estratégia central para se reinventar. Esse processo não se restringe à mera implementação de novas tecnologias, mas envolve a reestruturação de processos internos, a inovação no modelo de negócios e a promoção de uma cultura organizacional ágil e orientada para a mudança. Empresas de diversos setores têm se desafiado a integrar tecnologia, pessoas e processos para otimizar a eficiência operacional, melhorar a experiência do cliente e conquistar vantagem competitiva.
+6 - No cenário atual, onde a competitividade e a **constante evolução tecnológica são fatores determinantes para o sucesso empresarial**, as organizações vêm adotando a transformação digital como estratégia central para se reinventar. Esse processo não se restringe à mera implementação de novas tecnologias, mas envolve a reestruturação de processos internos, a inovação no modelo de negócios e a promoção de uma cultura organizacional ágil e orientada para a mudança. Empresas de diversos setores têm se desafiado a integrar tecnologia, pessoas e processos para otimizar a eficiência operacional, melhorar a experiência do cliente e conquistar vantagem competitiva.
 
 Com base nesse contexto, assinale a afirmativa correta sobre a transformação digital nas organizações.
 
@@ -272,5 +269,6 @@ e - É restrita à substituição de colaboradores por máquinas de última gera
  7 - O processo de gestão de mudanças, dentre os processos de transição de serviços de TI, permite que estratégias transformadoras sejam implementadas, com o objetivo de corrigir anomalias nos serviços e reduzir impactos nas operações de negócio.
 Descreva corretamente os objetivos do processo de gestão de mudanças dentro do processo de transição de serviço.
 
+Os principais objetivos da gestão de mudança consiste em tornar o processo de mudança aos colaboradores mais tenue, menos impactante e mais eficiente a própria mudançã. Em outras palavras, mitigar a resistência a mudança aos colaboradores. Ela consiste em várias áreas, como INFRAESTRUTURA, METODOLOGIAS, RECURSOS HUMANOS e outras ferramentas que lidam com a harmonia da própria mudança.
 
 
