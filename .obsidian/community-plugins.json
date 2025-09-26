@@ -1,5 +1,8 @@
 [
   "obsidian-git",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "execute-code",
+  "obsidian-linter",
+  "vscode-editor"
 ]
