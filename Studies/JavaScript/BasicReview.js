@@ -1,0 +1,23 @@
+const nome = "Alice" // string + const 
+let idade = 20 // number
+let ehEstudante = true; //boolean
+
+// Variáveis são "contêineres" para armazenar dados. Em JS, usamos var (antigo), let (valores que podem mudar) e const (valores constantes). Os tipos de dados primitivos são: string, number, boolean, null, undefined, symbol e bigint.
+
+const pais = 'Brasil'
+const cidade = 'São Paulo'
+let populacao = 1313123122 
+console.log(`Eu sou do ${pais}, moro em ${cidade} que tem uma população de ${populacao}`);
+
+// Estruturas Condicionais e Operadores Conceito: Permitem que o código tome decisões. O if/else é a estrutura mais comum. Usamos operadores de comparação (>, <, ===, !==) e lógicos (&& - E, || - OU).
+
+const nota = 7.6
+if(nota >= 7.0) {
+    console.log("Aprovado");
+    else if(nota >= 5.0) {
+        console.log("Recueraçao");
+    } else {
+        console.log("Reprovado");
+    }
+}
+
