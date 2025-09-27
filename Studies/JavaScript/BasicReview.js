@@ -21,3 +21,14 @@ if(nota >= 7.0) {
     }
 }
 
+// Estrutura de repetição -> executar um bloco de código diversas vezes. O for é ideal quando sabemos o numero de iterações e o while é bom para quando não sabemos
+
+for (let i = 1; i <= 5; i++) {
+    console.log(`Contage de vezes: ${i}`)
+}
+
+const frutas = ['Maça', 'banana', 'abacaxi']
+
+for (let i = 0; i < frutas.length; i++) {
+    console.log(`Frutas: ${frutas[i]}`)
+}
