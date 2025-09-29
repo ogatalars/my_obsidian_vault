@@ -41,7 +41,7 @@ function somar(a, b) {
 
 const subtrair (a, b) => a - b // arrow function; 
 
-cons resultatdoSoma = somar(10, 5) // 15
+const resultatdoSoma = somar(10, 5) // 15
 const resultadoSub = subtrair (15, 5) // 10 
 
 
