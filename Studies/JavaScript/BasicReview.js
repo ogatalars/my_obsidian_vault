@@ -33,3 +33,15 @@ for (let i = 0; i < frutas.length; i++) {
     console.log(`Frutas: ${frutas[i]}`)
 }
 
+// Funções -> blocos de código que são reutilizáveis que realizam uma tarefa especifica. Elas podem receber parâmetros (que são na verdade entradas) e retornam um valor (quando tem return)
+
+function somar(a, b) {
+    return a + b;
+}
+
+const subtrair (a, b) => a - b // arrow function; 
+
+cons resultatdoSoma = somar(10, 5) // 15
+const resultadoSub = subtrair (15, 5) // 10 
+
+
