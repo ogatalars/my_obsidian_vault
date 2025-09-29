@@ -32,3 +32,4 @@ const frutas = ['Maça', 'banana', 'abacaxi']
 for (let i = 0; i < frutas.length; i++) {
     console.log(`Frutas: ${frutas[i]}`)
 }
+
