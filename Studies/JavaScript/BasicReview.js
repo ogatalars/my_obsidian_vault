@@ -44,4 +44,16 @@ const subtrair (a, b) => a - b // arrow function;
 const resultatdoSoma = somar(10, 5) // 15
 const resultadoSub = subtrair (15, 5) // 10 
 
-// Manipulação de ARRAYS
+// Manipulação de ARRAYS 
+// .map() Transforma cada item de uma array e retorna um novo array do mesmo tamanho. .filter() cria um novo array com todos os itens que passam em um teste; .reduce() executa uma função para cada item, resultando em um único valor final. 
+
+const numeros = [
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+]; 
+
+const dobrados = numeros.map(num => num * 2);
+console.log(dobrados) 
+const pares = numeros.filter(num => num % 2 === 0) // [2, 4]
+const somaTotal = numeros.reduce((acc, num) => acc + num, 0) // mais complexo, ficar atento]
+
+// Objetos 
