@@ -44,4 +44,4 @@ const subtrair (a, b) => a - b // arrow function;
 const resultatdoSoma = somar(10, 5) // 15
 const resultadoSub = subtrair (15, 5) // 10 
 
-
+// Manipulação de ARRAYS
