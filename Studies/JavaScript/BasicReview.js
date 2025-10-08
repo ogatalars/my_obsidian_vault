@@ -54,6 +54,6 @@ const numeros = [
 const dobrados = numeros.map(num => num * 2);
 console.log(dobrados) 
 const pares = numeros.filter(num => num % 2 === 0) // [2, 4]
-const somaTotal = numeros.reduce((acc, num) => acc + num, 0) // mais complexo, ficar atento -> serve muito para somar coisas ao mesmo tem
+const somaTotal = numeros.reduce((acc, num) => acc + num, 0) // mais complexo, ficar atento -> serve muito para somar coisas ao mesmo tempo 
 
 // Objetos 
