@@ -14,3 +14,5 @@ doces.forEach(doceEspecifico => console.log(doceEspecifico))
 const frutas = ['manga', 'coco', 'banana', 'abacaxi', 'uva']
 
 frutas.forEach(frutas => console.log(`Eu quero comer ${frutas}`))
+
+// Ele não cria um novo array!
