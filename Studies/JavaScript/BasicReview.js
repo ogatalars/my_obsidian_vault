@@ -57,3 +57,14 @@ const pares = numeros.filter(num => num % 2 === 0) // [2, 4]
 const somaTotal = numeros.reduce((acc, num) => acc + num, 0) // mais complexo, ficar atento -> serve muito para somar coisas ao mesmo tempo 
 
 // Objetos 
+
+const usuarios = {
+    nome: "sabrina",
+    idade: 31, 
+    empresa: "google",
+    admin: false
+}
+// desestruturação
+
+const {nome, idade} = usuario1
+console.log(`${nome} tem ${idade} anos`)
