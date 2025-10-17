@@ -8,7 +8,7 @@
 7 - GIT e github;
 8 - Escrever testes com unitários; 
 9 - DESIGN PATTERNS BÁSICOS; 
-10 - Documentação
+10 - Documentação - LER E ESCREVER; 
 */
 
 
