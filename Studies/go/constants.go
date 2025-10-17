@@ -22,5 +22,3 @@ func main() {
 }
 
 // const === const no JAVASCRIPT
-
-// algo(d)
