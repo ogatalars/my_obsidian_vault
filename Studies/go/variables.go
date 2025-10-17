@@ -4,6 +4,9 @@ import "fmt"
 
 func main() {
 
+    var ricardinho = "Ricardo olimar augusto"
+    ricardinho := "Ricardinho Olimar Augusto"
+
     var a = "initial"
     fmt.Println(a)
 
@@ -16,7 +19,7 @@ func main() {
     var e int
     fmt.Println(e)
 
-    f := "maça" // := syntax is shorthand for delcaring and initializing a variable.
+    f := "maça" // := syntax is shorthand for declaring and initializing a variable.
 
 
 }
