@@ -22,5 +22,4 @@ func main() {
         default: 
         fmt.Println("É dia de semana")
     }
-
 }

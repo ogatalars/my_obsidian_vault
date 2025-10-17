@@ -1,3 +1,18 @@
+/* BASIC DA PROGRAMAÇÂO -> 
+1 - Fundamentos da linguagem de programação; 
+2 - Debbug logs e breakpoint; 
+3 - CRIAR UMA API REST DO ZERO; 
+4 - Implementar operação CRUD; 
+5 - Autentificação e autorização logins e senhas; 
+6 - Banco de dados; 
+7 - GIT e github;
+8 - Escrever testes com unitários; 
+9 - DESIGN PATTERNS BÁSICOS; 
+10 - Documentação
+*/
+
+
+
 const nome = "Alice" // string + const 
 let idade = 20 // number
 let ehEstudante = true; //boolean
