@@ -21,5 +21,7 @@ func main() {
 
     f := "maça" // := syntax is shorthand for declaring and initializing a variable.
 
+    // VAR = VARIAVEL que seria algo como VAR ou LET no JS ou :=
+
 
 }

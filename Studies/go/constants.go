@@ -6,6 +6,8 @@ import (
 )
 
 const s string = "constant"
+const sofia string = "Dog do Ri"
+const beatrizi string = 5 // da erro ou "5"
 
 func main() {
     fmt.Println(s)
@@ -18,3 +20,7 @@ func main() {
     fmt.Println(math.Sin(n))
     
 }
+
+// const === const no JAVASCRIPT
+
+// algo(d)
