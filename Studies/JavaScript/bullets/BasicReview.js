@@ -83,3 +83,44 @@ const usuarios = {
 
 const {nome, idade} = usuario1
 console.log(`${nome} tem ${idade} anos`)
+
+// spread
+
+const arr1 = [1, 2, 3, 4]
+const arr2 = [...arr1, 5, 6, 10]
+
+function somaTudo(...numeros) {
+    return numeros.reduce((acc, num) => acc + num, 0  )
+}
+somaTudo(1, 2, 3, 4) // soma tudo = 10
+
+const filme = {
+    titulo: "Frewaka",
+    ano: 2025, 
+    diretor: "desconheço"
+}
+
+const {titulo, ano} = filmeDoAno
+
+// Promises e async/await
+// Em geral, JS é single threaded, ou seja, faz uma coisa de cada vez. Operações demoradas precisam ser assincronas para não travar a aplicação. 
+
+const buscarDados = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve({id: 1, nome: "exemplo"}, 2000)
+        })
+    })
+}
+
+const exibirUsuario = async () => {
+    try {
+        console.log("buscando dados");
+        const dados = await buscarDados();
+        console.log("dados buscados", dados);
+    } catch (error) {
+        console.errror("houve um erro", error);
+    }
+}
+
+exibirUsuario()
