@@ -22,4 +22,29 @@ const greetAliens = (arr) => {
 }
 
 /*
+Sincrono (travado) => devemos esperar o retorno da função para a programação continuar a acontecer
+Assincrono -> não devemos esperar, quando estiver pronto ele chega.
+Promise -> ideia de promessa -> é um objeto que representa essa espera. É um container para um valor que ainda NÃO conhecemos. 
+pending -> pendente -> estado inicial 
+fulfiled -> realizada sucesso -> a operação foi concluiida
+rejected -> a operação falhou 
+fetch => É a ferramenta morderna do navegador para fazer requisições de rede (pedidos a um servidor/API). Quando usamos fetch() ele retorna IMEDIATAMENTE UMA PROMISE
+async -> coloca antes de declarar uma função, avisa ao js que é operação assync
+await -> dentro da função com async, na frente de qualquer coisa que retorne uma promise. 
+
 */
+
+async function buscarUsuarioGitHub() {
+    try{
+        console.log("Iniciando uma busca...")
+        const response = await fetch('https://api.github.com/users/google')
+        const dados = await response.json();
+        console.log("Busca concluída!");
+        console.log("Nome do usuário:", dados.name);
+        console.log("Biografia:", dados.bio);
+    } catch(error) {
+        console.error("erro: ", error);
+    }
+}
+
+buscarUsuarioGitHub();
