@@ -48,3 +48,32 @@ async function buscarUsuarioGitHub() {
 }
 
 buscarUsuarioGitHub();
+
+// Closure
+function criarContador() {
+  // 1. Esta variável 'contagem' vive dentro de 'criarContador'
+  let contagem = 0;
+
+  // 2. Esta função interna é criada.
+  // Ela "enxerga" a variável 'contagem'
+  const funcaoInterna = function() {
+    contagem++; // Ela modifica a variável da "mochila"
+    console.log(contagem);
+  };
+
+  // 3. A função pai retorna a função interna (e sua "mochila")
+  return funcaoInterna;
+}
+
+// 4. Chamamos a função pai. Ela executa e morre.
+// 'meuContador' agora é a 'funcaoInterna' com a "mochila"
+const meuContador = criarContador();
+
+// 5. Cada vez que chamamos 'meuContador',
+// ele acessa e modifica a 'contagem' em sua mochila.
+meuContador(); // Imprime: 1
+meuContador(); // Imprime: 2
+meuContador(); // Imprime: 3
+
+// A variável 'contagem' está protegida. Eu não consigo acessá-la
+// daqui de fora. console.log(contagem) daria erro.
