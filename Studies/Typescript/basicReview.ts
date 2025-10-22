@@ -5,3 +5,8 @@
 let nome: string = "Sabrina"; 
 let idade: number = 28; 
 let possuiHobbies: boolean = true; 
+
+// any: Desliga o ts, não usar
+// unknown: o any mais seguro, usamos quando não sabemos o que será dado como tipo 
+// void: representa funções que não retornam nada; 
+// never: never acontece; 
