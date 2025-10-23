@@ -19,6 +19,5 @@ func main () {
 
     n := map[string]int{"foo": 1, "bar": 2}
 
-=
 
 }
