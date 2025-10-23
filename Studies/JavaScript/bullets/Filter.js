@@ -5,3 +5,5 @@ const words = ['chair', 'music', 'pillow', 'brick', 'pen', 'door'];
 const shortWords = words.filter(palavra => {
     return word.lenght < 6;
 })
+
+const justCoolStuff = (firstArray, secondArray) => firstArray.filter(item => secondArray.includes(item))
