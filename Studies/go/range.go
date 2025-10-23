@@ -1,5 +1,9 @@
 // range itera com elementos em uma variedade de estrutura de dados. package main
+
+package main 
+
 import "fmt"
+
 func main() {
 
 
