@@ -6,6 +6,8 @@ Go suporta funções anônimas, que podem formar closures. Funções anônimas s
 Essa função intSeq retorna outra função, que definimos anônimamente no corpo do intSeq. A função retornada se fecha sobre a variável i para formar o closure.
 
 
+Chamamos intSeq, atribuindo o resultado (a função) para o nextInt. Esse valor de função captura seu próprio valor i, que será atualizado cada vez que chamamos o nextInt
+
 */
 
 package main 
@@ -18,4 +20,17 @@ func intSeq() func() int {
         i += 1
         return i
     }
+}
+
+func main() {
+    nextInt := intSeq()
+
+    fmt.Println(nextInt())
+    fmt.Println(nextInt())
+    fmt.Println(nextInt())
+
+    newInts := intSeq()
+    fmt.Println(newInts())
+
+
 }
