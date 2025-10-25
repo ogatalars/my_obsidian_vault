@@ -1,4 +1,4 @@
-# linked_lists
+linked_lists
 
 class Node:
     def __init__(value, next_node=None):
