@@ -31,6 +31,9 @@ class Inimigo:
         self.nome = nome
         self.vida = vida
         self.ataque = ataque
+
+    def atacar(self):
+        print(f"{self.nome} ataca com {self.ataque} de dano!")    
 # para criar instâncias -> objetos dessa classe 
 
 globin = Inimigo("Goblin", 50, 5)
