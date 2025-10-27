@@ -38,5 +38,21 @@ Foi o nosso Exemplo 3 (a classe FabricaDeJogadores com o método criarJogador())
 
 Essa abordagem é mais estruturada e poderosa, usada em programas maiores.
 
+*/
 
-*/ 
+class FabricaDeUI {
+
+    criarBotao(sistemaOperacional) {
+        if(sistemaOperacional === 'windows') {
+            return new BotaoWindows();
+        } else if (sistemaOperacional === 'macos') {
+            return new BotaoMacOs();
+
+        } else {
+            throw new Error('Sistema Operacional não suportado');
+        }
+    }
+}
+
+const meuSo = 'macos'
+const fabrica = new FabricaDeUi();
