@@ -16,6 +16,27 @@ function criarJogador(nome, nivel) {
 // COMO USAMOS
 
 const jogador1 = criarJogador("Alice", 99);
-const jogador2 = criarJogador("Sofia", 15)
+const jogador2 = criarJogador("Sofia", 15);
 jogador1.saudacao()
 jogador2.saudacao()
+
+/*
+
+A Ferramenta function (Factory Function):
+
+Usamos uma função simples para fazer o "trabalho" de criar e retornar objetos.
+
+Foi o nosso Exemplo 1 (criarJogador()).
+
+É a forma mais simples e direta de aplicar o padrão.
+
+A Ferramenta class (Factory Method):
+
+Usamos uma classe, e colocamos um método dentro dela para fazer o "trabalho" de criar e retornar objetos.
+
+Foi o nosso Exemplo 3 (a classe FabricaDeJogadores com o método criarJogador()).
+
+Essa abordagem é mais estruturada e poderosa, usada em programas maiores.
+
+
+*/ 
