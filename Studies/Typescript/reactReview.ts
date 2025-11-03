@@ -89,3 +89,19 @@ setValor: A única função que você deve usar para atualizar o valor.
 valorInicial: O valor na primeira renderização.
 
 */
+
+function Contador() {
+
+    const [contagem, setContagem] = useState(0);
+
+    function handleIncrement() {
+        // correto: usar a função set
+        setContagem(contagem + 1);
+        // Forma "segura" (updater function):
+    // Quando o novo estado depende do anterior,
+    // é melhor passar uma função.
+    // setContagem(contagemAnterior => contagemAnterior + 1);
+
+    }
+}s
+
