@@ -34,9 +34,58 @@ componentes são os blocos de construção de React. São FUNÇÔES que começam
 Regra de Ouro: Props são somente leitura (imúveis). Um componente nunca deve modificar suas próprias props.
 */
 
+// Exemplo de componente filho 
 import React from 'react';
 
 interface BotaoProps {
     texto: string; 
     cor?: 'primaria'
 }
+
+// tipamos as props na nossa função 
+// usamos desestruturação ({texto}) para pegar a prop
+
+export function Botao({texto, cor='primaria'}: BotaoProps){
+    const className = `btn btn-${cor}`
+    return <button className= {className}>{texto}</button>;
+}
+
+// exemplo de componente pai 
+
+import {Botao } from './Botao'; 
+
+function App() {
+    // o componente pai passa para os filhos
+    return (
+        <div> 
+        <h2> Meu app</h2>
+        <Botao texto="Clique Aqui" cor="primaria">
+        <Botao texto="Cancelar" cor="secundaria">
+        </div>
+    )
+}
+
+// O coração do React -> Estado e eventos 
+
+/*
+Hook -> useState => memória do componente 
+
+Conceito (O "Porquê"): Por que não podemos usar let contagem = 0? Porque componentes são funções. Toda vez que o React re-renderiza, a função roda do zero, e sua let seria resetada.
+
+useState é um "Hook" (um gancho) que "prende" um valor no React. Ele diz ao React: "Ei, guarde esse valor para mim. Se ele mudar (usando a função set...), eu quero que você re-renderize este componente."
+
+Sintaxe: const [valor, setValor] = useState(valorInicial);
+
+valor: A variável de estado (somente leitura).
+
+setValor: A única função que você deve usar para atualizar o valor.
+
+valorInicial: O valor na primeira renderização.Sintaxe: const [valor, setValor] = useState(valorInicial);
+
+valor: A variável de estado (somente leitura).
+
+setValor: A única função que você deve usar para atualizar o valor.
+
+valorInicial: O valor na primeira renderização.
+
+*/
