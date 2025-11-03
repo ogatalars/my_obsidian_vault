@@ -30,5 +30,13 @@ return (
 
 3 - Componentes e props (A comunicação)
 
+componentes são os blocos de construção de React. São FUNÇÔES que começam com letras maiuscula que retornam em tese um JSX. Props(ou propriedades) são a forma de um componente pai passar dados para o componente filho 
+Regra de Ouro: Props são somente leitura (imúveis). Um componente nunca deve modificar suas próprias props.
 */
 
+import React from 'react';
+
+interface BotaoProps {
+    texto: string; 
+    cor?: 'primaria'
+}
