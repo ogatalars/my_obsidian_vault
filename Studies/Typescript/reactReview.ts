@@ -103,5 +103,11 @@ function Contador() {
     // setContagem(contagemAnterior => contagemAnterior + 1);
 
     }
-}s
+    return (
+        <div>
+        <p>Contagem: {contagem}</p>
+        <button onClick= {handleIncrement}> Incremenstar</button>
+        </div>
+    )
+}
 
