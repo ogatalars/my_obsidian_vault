@@ -80,7 +80,9 @@ valor: A variável de estado (somente leitura).
 
 setValor: A única função que você deve usar para atualizar o valor.
 
-valorInicial: O valor na primeira renderização.Sintaxe: const [valor, setValor] = useState(valorInicial);
+valorInicial: O valor na primeira renderização.
+
+Sintaxe: const [valor, setValor] = useState(valorInicial);
 
 valor: A variável de estado (somente leitura).
 
@@ -106,8 +108,52 @@ function Contador() {
     return (
         <div>
         <p>Contagem: {contagem}</p>
-        <button onClick= {handleIncrement}> Incremenstar</button>
+        <button onClick= {handleIncrement}> Incrementar</button>
         </div>
     )
 }
 
+
+/* Useffect() -> 
+Um componente React deve, idealmente, ser 'puro': para as mesmas props e estado, ele sempre retorna o mesmo JSX. MAS, e se quisermos fazer algo FORA do react como buscar dados de uma api (ex:fetch), mudar o titulo de uma página(document.title), configurar um timer(setTimeout)
+
+Isso é um Efeito Colateral (Side Effect). O useEffect nos dá um local seguro para rodar esses efeitos depois que o React já renderizou o componente na tela.
+
+sintaxe -> useEffect(()=> {efeitoAqui}, [dependencias])
+
+A Função de Efeito: O código que você quer rodar.
+
+O Array de Dependências: A parte mais importante. Controla quando o efeito roda.
+
+[] (Array Vazio): O efeito roda apenas uma vez, quando o componente "monta" (aparece na tela pela primeira vez). Perfeito para buscar dados iniciais.
+
+[variavel1, variavel2]: O efeito roda na montagem e toda vez que variavel1 ou variavel2 mudarem.
+
+Sem array (não recomendado): O efeito roda em toda renderização.
+
+*/
+
+import React, {useState, useEffect} from 'react';
+
+interface ITarefa {
+    id: number;
+    title: string;
+    completed: boolean;
+}
+
+function BuscaTarefa() {
+    // estados para dados, loading e erro
+    const [tarefa, setTarefa] = useState<ITarefa | null> (null);
+    const [loading, setLoading] = useState<boolean>(true);
+    const [erro, setErro] = useState<string | null>(null);
+
+    // efeito para buscar dados
+    useEffect(() => {
+        const fetchTarefa = async () => 
+        {
+            try {
+                
+            }
+        }
+    })
+}
