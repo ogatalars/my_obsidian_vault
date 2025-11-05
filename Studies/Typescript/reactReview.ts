@@ -219,3 +219,25 @@ return (
     ))}
     </ul>
 )
+
+// Em App.tsx
+const produtos = [
+  { id: 1, nome: "Laptop", preco: 4000 },
+  { id: 2, nome: "Mouse", preco: 150 },
+  { id: 3, nome: "Teclado", preco: 300 },
+];
+
+// (Usando o componente CardProduto do exercício anterior)
+return (
+  <div>
+    <h2>Meus Produtos</h2>
+    {produtos.map(produto => (
+      <CardProduto 
+        key={produto.id} // <-- A KEY!
+        nome={produto.nome}
+        preco={produto.preco}
+        emEstoque={true}
+      />
+    ))}
+  </div>
+);
