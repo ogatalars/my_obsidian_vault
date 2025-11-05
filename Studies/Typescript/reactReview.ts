@@ -178,3 +178,25 @@ function BuscaTarefa() {
     </div>
   );
 }
+
+// outro exemplo 
+
+import React, {useState, useEffect } from 'react';
+
+function TituloDinamico() {
+    const [nome, setNome] = useState<string>("");
+
+    // este efeito RODA toda vez que o nome mudar 
+    useEffect(() => {
+        document.title = `Ola, ${nome || 'visitante'}`
+    }, [nome]); // <-- array de dependencia
+
+    return (
+        <input
+        type"text"
+        value={nome}
+        onChange={e => setNome(e.target.value)}
+        placeholder="Digite seu nome"
+        />
+    )
+}
