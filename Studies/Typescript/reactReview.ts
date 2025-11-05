@@ -152,8 +152,29 @@ function BuscaTarefa() {
         const fetchTarefa = async () => 
         {
             try {
+                const responsa = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+                const dados: ITarefa = await resposta.json();
+                setTarefa(dados);
                 
             }
-        }
-    })
+            catch(e) {
+                setErro('Falha ao buscar dados.')
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        fetchTarefa();
+    }, []); // <- ARRAY VAZIO, effect de rodar apenas uma vez
+
+    if(loading) return <p> Carregando.. </p>
+    if (erro) return <p> {erro} </p>;
+    if(!tarefa) return null; // ou <p> sem dados </p>
+
+    return (
+    <div>
+      <h3>Tarefa: {tarefa.title}</h3>
+      <p>Status: {tarefa.completed ? "Completa" : "Pendente"}</p>
+    </div>
+  );
 }
