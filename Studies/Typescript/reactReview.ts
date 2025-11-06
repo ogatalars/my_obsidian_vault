@@ -204,7 +204,7 @@ function TituloDinamico() {
 /*
 Você não usa for loop no JS. Você usa o método .map() do JS para transformar um array de dados em um array de elementos React
 
-A PRO KEY => Esta é a regra mais importante. Ao renderizar uma lista, o React precisa de uma key (chave) única e estável para cada item. Isso ajuda o react a identificar o item que mudou, foi adicionado ou removido, otmizando a perfomance. Use o id do item, NUNCA o indice do ARRAY, se a lista puder mudar. 
+ KEY => Esta é a regra mais importante. Ao renderizar uma lista, o React precisa de uma key (chave) única e estável para cada item. Isso ajuda o react a identificar o item que mudou, foi adicionado ou removido, otmizando a perfomance. Use o id do item, NUNCA o indice do ARRAY, se a lista puder mudar. 
 
 
  
@@ -241,3 +241,5 @@ return (
     ))}
   </div>
 );
+
+// Renderização condicional (Ternário e &&)
