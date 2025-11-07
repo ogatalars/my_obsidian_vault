@@ -274,3 +274,29 @@ Ufa! É isso.
 Se você absorveu tudo isso, você passou de um usuário de Docker para um arquiteto de nuvem.
 
 O Kubernetes é complexo, mas a ideia central é simples: você **declara o estado que você deseja (em um arquivo YAML)**, e o Kubernetes (o Maestro) trabalha incansavelmente para **fazer com que a realidade (o cluster) corresponda ao seu desejo**.****
+
+### 📜 Nota de Rodapé: A Relação "Amorosa" entre Docker e Kubernetes
+
+É muito comum pensar no Kubernetes como um "substituto" do Docker, mas isso é um equívoco. A melhor forma de pensar é: **O Kubernetes é o chefe, e o Docker é o funcionário.**
+
+- **O Docker (A Ferramenta)** é o responsável pelo "trabalho sujo":
+    
+    1. **Construir:** Você usa o comando `docker build` para empacotar sua aplicação em uma **Imagem**.
+        
+    2. **Executar:** O motor do Docker (Docker Engine) é o software instalado em cada "Nó de Trabalho" que sabe como _realmente_ pegar essa imagem e executá-la como um contêiner.
+        
+- **O Kubernetes (O Gerente/Maestro)** não sabe construir uma imagem nem executá-la diretamente. Ele é um gerente de alto nível. Ele _dá ordens_ ao Docker.
+    
+
+**O diálogo é este:**
+
+1. **Você (Arquiteto) ➔ Kubernetes (Maestro):** "Maestro, meu desejo é ter 3 cópias da imagem `meuapp:v2` rodando."
+    
+2. **Kubernetes (Maestro) ➔ Kubelet (Gerente do Nó):** "Gerente, preciso que você garanta que a imagem `meuapp:v2` esteja rodando aí."
+    
+3. **Kubelet (Gerente do Nó) ➔ Docker (Funcionário):** "Docker, inicie um contêiner com a imagem `meuapp:v2` agora! E me avise quando estiver pronto."
+    
+
+**Resumindo:** Você continua usando o Docker para _criar_ seus pacotes (imagens). O Kubernetes apenas _gerencia_ (orquestra) esses pacotes em larga escala, dizendo ao motor do Docker em cada máquina o que fazer.
+
+_(**Observação técnica:** Hoje em dia, o Kubernetes pode usar outros "motores" além do Docker para rodar contêineres, como o `containerd`. Mas, ironicamente, o `containerd` é um componente que foi extraído do próprio Docker. Para todos os efeitos práticos, o Docker continua sendo a base de todo esse ecossistema.)_
