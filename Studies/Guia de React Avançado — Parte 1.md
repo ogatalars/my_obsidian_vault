@@ -135,7 +135,7 @@ Desenho conceitual:
 
 # 4. Estado em profundidade: o coração do React
 
-Para React, estado é qualquer informação que, quando muda, exige atualização da UI.
+Para React, **estado é qualquer informação que, quando muda, exige atualização da UI.**
 
 O hook base é `useState`:
 
