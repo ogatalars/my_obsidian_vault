@@ -252,7 +252,17 @@ return (
 
     ): (
         <button> Entrar </button> 
-    )
-    }
+    )}
+    </div>
 )
 
+
+const [temNotificacoes, setTemNotificacoes] = useState(true);
+
+return (
+  <div>
+    {temNotificacoes && (
+      <div className="notificacao-badge">!</div>
+    )}
+  </div>
+);
