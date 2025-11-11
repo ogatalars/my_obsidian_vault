@@ -243,3 +243,16 @@ return (
 );
 
 // Renderização condicional (Ternário e &&)
+const [logado, setLogado] = useState(false);
+
+return (
+    <div>
+    {logado ? (
+        <p>Bem-vindo, usuário!</p>
+
+    ): (
+        <button> Entrar </button> 
+    )
+    }
+)
+

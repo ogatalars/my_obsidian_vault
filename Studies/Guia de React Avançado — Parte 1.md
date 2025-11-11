@@ -253,7 +253,7 @@ roda useEffect
 ## 6.2 Array de dependências explicado com calma
 
 `[]` → roda apenas 1 vez.  
-`[x]` → roda toda vez que `x` muda.  X podendo ser um numero ou uma variavel 
+`[x]` → roda toda vez que `x` muda.  X podendo ser um numero ou uma variável 
 Sem array → roda a cada render.
 
 ---
