@@ -266,3 +266,57 @@ return (
     )}
   </div>
 );
+
+/*
+Use context 
+
+O Problema: "Prop Drilling" (Perfuração de Props)
+Conceito (O "Porquê"): Imagine uma estrutura de componentes aninhados (um dentro do outro):
+
+<App>
+  <Layout>
+    <Header>
+      <BarraDeNavegacao>
+        <AvatarUsuario /> 
+      </BarraDeNavegacao>
+    </Header>
+  </Layout>
+</App>
+
+Agora, imagine que o componente <App> tem a informação do usuario (que veio de um login). O componente <AvatarUsuario>, lá no final da fila, precisa dessa informação para exibir a foto.
+
+Sem o useContext, você teria que fazer isto:
+
+App passa usuario como prop para Layout.
+
+Layout (que não usa usuario) recebe a prop e a repassa para Header.
+
+Header (que não usa usuario) recebe e repassa para BarraDeNavegacao.
+
+BarraDeNavegacao (que não usa usuario) recebe e repassa para AvatarUsuario.
+
+AvatarUsuario finalmente usa a prop usuario.
+
+Isso é Prop Drilling. É o ato de "perfurar" props através de múltiplos níveis de componentes que não se importam com elas, apenas para fazer a prop chegar ao destino final. Isso deixa o código sujo, acoplado e difícil de manter.
+
+
+A Solução: useContext
+Conceito (O "O Quê"): A Context API (que o hook useContext consome) cria um "túnel" ou "portal" de dados.
+
+Pense assim:
+
+Você cria um Contexto (o portal) em um local central.
+
+No topo da sua árvore (ex: em <App>), você usa um Provider (Provedor) para "injetar" um valor nesse portal (ex: o objeto usuario).
+
+Agora, qualquer componente dentro dessa árvore (não importa o quão fundo) pode usar o hook useContext para "puxar" esse valor diretamente do portal, sem precisar de props.
+
+O Fluxo de 3 Passos:
+
+createContext: Criar o contexto.
+
+<Context.Provider>: Prover o valor.
+
+useContext: Consumir o valor.
+
+*/ 
