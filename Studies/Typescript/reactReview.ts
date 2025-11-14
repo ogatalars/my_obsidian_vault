@@ -320,3 +320,70 @@ createContext: Criar o contexto.
 useContext: Consumir o valor.
 
 */ 
+
+import { createContext } from 'react';
+
+// 1. Definimos a "forma" dos dados que nosso contexto
+// vai carregar, usando uma Interface.
+export interface IAuthContext {
+  usuario: {
+    id: number;
+    nome: string;
+    email: string;
+  } | null; // O usuário pode estar logado (objeto) ou não (null)
+  login: (email: string, senha: string) => void;
+  logout: () => void;
+}
+
+// 2. Criamos o contexto.
+// Precisamos passar um valor padrão. Como ainda não temos
+// o valor real, passamos 'null'.
+// O <IAuthContext | null> diz ao TS que o contexto
+// pode ser do tipo da nossa interface OU nulo.
+export const AuthContext = createContext<IAuthContext | null>(null);
+
+
+// Continuando em... src/contexts/AuthContext.tsx
+
+import React, { createContext, useState, ReactNode } from 'react';
+
+// ... (interface IAuthContext e o createContext lá de cima) ...
+
+// Interface para as props do nosso Provedor
+interface AuthProviderProps {
+  children: ReactNode; // 'children' é uma prop especial do React
+}
+
+// 3. Este é o componente que vai "envolver" nossa aplicação
+export function AuthProvider({ children }: AuthProviderProps) {
+  // 4. USAMOS O 'useState' AQUI!
+  // É o Provedor que guarda o estado.
+  const [usuario, setUsuario] = useState<{ id: number; nome: string; email: string } | null>(null);
+  
+  // 5. Funções que manipulam o estado
+  const login = (email: string, senha: string) => {
+    // Lógica de login...
+    // Se sucesso:
+    setUsuario({ id: 1, nome: "Usuário Exemplo", email: email });
+  };
+  
+  const logout = () => {
+    setUsuario(null);
+  };
+  
+  // 6. O 'value' é o objeto que será "injetado" no portal.
+  // Ele DEVE bater com a interface IAuthContext.
+  const valorDoContexto: IAuthContext = {
+    usuario: usuario,
+    login: login,
+    logout: logout
+  };
+
+  return (
+    // 7. O Provedor do React. Todos os 'children'
+    // terão acesso ao 'value'.
+    <AuthContext.Provider value={valorDoContexto}>
+      {children}
+    </AuthContext.Provider>
+  );
+}
