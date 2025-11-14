@@ -344,6 +344,7 @@ export const AuthContext = createContext<IAuthContext | null>(null);
 
 
 // Continuando em... src/contexts/AuthContext.tsx
+//Este é o componente que vai gerenciar o estado (usando useState!) e prover o valor para a árvore. É comum criar um componente "Provedor" customizado no mesmo arquivo do contexto.
 
 import React, { createContext, useState, ReactNode } from 'react';
 
@@ -385,5 +386,56 @@ export function AuthProvider({ children }: AuthProviderProps) {
     <AuthContext.Provider value={valorDoContexto}>
       {children}
     </AuthContext.Provider>
+  );
+}
+
+// Agora, no seu App.tsx (ou main.tsx), você envolve a árvore de componentes com o seu AuthProvider.
+// Em src/App.tsx
+import React from 'react';
+import { AuthProvider } from './contexts/AuthContext';
+import { Layout } from './components/Layout'; // Componente que tem o Header, etc.
+
+function App() {
+  return (
+    // 1. Envolvemos tudo!
+    // Agora, Layout e TODOS os seus filhos (Header, AvatarUsuario...)
+    // podem acessar o Contexto de Autenticação.
+    <AuthProvider>
+      <Layout />
+    </AuthProvider>
+  );
+}
+
+// Finalmente, o componente <AvatarUsuario> (e qualquer outro) pode pegar os dados.
+
+// Em src/components/AvatarUsuario.tsx
+import React, { useContext } from 'react';
+import { AuthContext, IAuthContext } from '../contexts/AuthContext'; // Importamos o contexto
+
+function AvatarUsuario() {
+  // 1. Usamos o hook!
+  // O TS sabe que 'auth' pode ser 'IAuthContext | null'
+  const auth = useContext(AuthContext);
+  
+  // 2. É CRUCIAL verificar se o contexto não é nulo.
+  // Isso garante que o componente está dentro de um Provedor.
+  if (!auth) {
+    throw new Error("AvatarUsuario deve ser usado dentro de um AuthProvider");
+  }
+  
+  // 3. Pegamos o 'usuario' de dentro do contexto
+  const { usuario } = auth;
+  
+  if (!usuario) {
+    // Se não há usuário logado, mostramos um avatar padrão
+    return <div>(Visitante)</div>;
+  }
+  
+  // 4. SUCESSO! Sem props.
+  return (
+    <div>
+      <img src={`/avatars/${usuario.id}.png`} alt={usuario.nome} />
+      <span>{usuario.nome}</span>
+    </div>
   );
 }
