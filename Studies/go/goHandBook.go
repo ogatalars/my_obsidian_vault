@@ -80,4 +80,20 @@ One of the biggest benefits of strong typing is that errors can be caught at "co
 
 Contrast this with most interpreted languages, where the variable types are dynamic. Dynamic typing can lead to subtle bugs that are hard to detect. With interpreted languages, the code must be run (sometimes in production if you are unlucky 😨) to catch syntax and type errors.
 
+the following code will fail to compile because strings and ints can't be added together:
+func main() {
+    var username string = "wagslane"
+    var password int = 2302323
+
+    fmt.Println("Authorization: Basic", username + ": " + password)
+}
+
+*/
+
+/*
+Chapter 3 – Variables in Go
+
+
+
+
 */
