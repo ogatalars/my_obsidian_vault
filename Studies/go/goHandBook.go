@@ -51,4 +51,33 @@ For example, an ARM processor uses the ADD instruction when supplied with the nu
 !!!! Go, C, Rust, and so on
 Go, C, and Rust are all languages where the code is first converted to machine code by the compiler before it's executed.
 
+Compiled programs can be run without access to the original source code, and without access to a compiler.
+
+For example, when your browser executes the code you write in this course, it doesn't use the original code, just the compiled result. Note how this is different than interpreted languages like Python and JavaScript.
+
+With Python and JavaScript, the code is interpreted at runtime by a separate program known as the "interpreter"
+
+Examples of compiled languages
+Go
+
+C
+
+C++
+
+Rust
+
+Examples of interpreted languages
+JavaSsript
+
+Python
+
+Ruby
+
+Go is Strongly Typed
+Go enforces strong and static typing, meaning variables can only have a single type. A string variable like "hello world" can not be changed to an int, such as the number 3.
+
+One of the biggest benefits of strong typing is that errors can be caught at "compile time". In other words, bugs are more easily caught ahead of time because they are detected when the code is compiled before it even runs.
+
+Contrast this with most interpreted languages, where the variable types are dynamic. Dynamic typing can lead to subtle bugs that are hard to detect. With interpreted languages, the code must be run (sometimes in production if you are unlucky 😨) to catch syntax and type errors.
+
 */
