@@ -32,7 +32,7 @@ O Kubernetes parece mágico, mas é feito de vários programas menores que conve
 
 **No Nó Mestre (Cérebro):**
 
-- **API Server (O "Recepcionista"):** **É a porta de entrada**. Qualquer comando que você dá, qualquer alteração que você pede, _tem_ que passar por ele.
+- **API Server (O "Recepcionista"):** **É a porta de entrada**. Qualquer comando que você dá, qualquer alteração que você pede, _tem_ que passar por ele. 
     
 - **etcd (O "Livro de Registros"):** É o banco de dados oficial e a "fonte da verdade". Tudo o que acontece ou _deveria_ acontecer no cluster está anotado aqui.
     
