@@ -25,4 +25,10 @@ class Carrinho:
     def __len__(self):
         return len(self.itens)    
 
-        
+meu_carrinho = Carrinho([])
+
+# Isso não imprime nada porque len é 0 (Falsy)
+if meu_carrinho:
+    print("Vamos para o caixa!")
+else:
+    print("Carrinho vazio, continue comprando.")        
