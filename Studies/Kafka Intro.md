@@ -1,4 +1,4 @@
-Ótimo. Se o Redis é como um **Rádio** (se você não estava ouvindo na hora, perdeu a música), o Apache Kafka é como um **DVR/Gravador de TV** (o programa é gravado e você pode assistir agora, daqui a uma hora, ou rever o que passou).
+Se o Redis é como um **Rádio** (se você não estava ouvindo na hora, perdeu a música), o Apache Kafka é como um **DVR/Gravador de TV** (o programa é gravado e você pode assistir agora, daqui a uma hora, ou rever o que passou).
 
 Para tornarmos isso "mais avançado", não vamos falar apenas de enviar mensagens. Vamos focar nos conceitos que tornam o Kafka uma ferramenta de **Big Data** e engenharia robusta: **Persistência, Partições e Consumer Groups**.
 
