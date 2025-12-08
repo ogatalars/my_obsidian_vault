@@ -27,7 +27,7 @@ class Carrinho:
 
 meu_carrinho = Carrinho([])
 
-# Isso não imprime nada porque len é 0 (Falsy)
+# Isso não imprime nada porque len é 0 (Falsy == Não é bem falso, mas é falso)
 if meu_carrinho:
     print("Vamos para o caixa!")
 else:
