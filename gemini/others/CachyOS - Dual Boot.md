@@ -2,7 +2,7 @@ Sim, é perfeitamente possível e, na verdade, é o **cenário ideal para testes
 
 Instalar o Linux em um disco físico separado (no seu caso, o HD comum) mantém o Windows no SSD intacto e isolado. Isso evita que uma atualização do Windows quebre o "bootloader" do Linux e vice-versa.
 
-Como o CachyOS é baseado no Arch Linux (focado em performance), ele é excelente, mas exige atenção na instalação.
+Como o CachyOS é baseado no Arch Linux (focado em performance), ele é excelente mas exige atenção na instalação.
 
 Aqui está o passo a passo detalhado para fazer esse **Dual Boot em discos separados**:
 
